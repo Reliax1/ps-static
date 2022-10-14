@@ -8,5 +8,9 @@
 			"source": "/stats/api/event/",
 			"destination": "https://p.macheskurz.de/api/event"
 		}
+	],
+	"routes": [
+		{ "handle": "filesystem" },
+		{ "src": "/(.*)", "status": 404, "dest": "/404/" }
 	]
 }
