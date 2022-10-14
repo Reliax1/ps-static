@@ -68,7 +68,7 @@ const config = {
 				'/weise-sprueche',
 				'/spruch-des-tages',
 				'/zitate-sprueche-generator',
-				'/schoenen-abend-bilder-fuer-die-seele',
+				'/schoenen-abend-bilder',
 				'/jugendweihe-sprueche',
 				'/enttaeuschung-sprueche',
 				'/vertrauen-sprueche',
