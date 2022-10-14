@@ -3,7 +3,7 @@ import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 // https://kit.svelte.dev/docs/configuration#prerender
-// https://github.com/sveltejs/kit/tree/master/packages/adapter-static#spa-mode   fallback: 'index.html',
+// https://github.com/sveltejs/kit/tree/master/packages/adapter-static#spa-mode
 const config = {
 	kit: {
 		adapter: adapter({
