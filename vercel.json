@@ -7,9 +7,11 @@
 		{
 			"source": "/stats/api/event/",
 			"destination": "https://p.macheskurz.de/api/event"
-		},
+		}
+	],
+	"redirects": [
 		{
-			"source": "https://perfekterspruch.de/schoenen-abend-bilder-fuer-die-seele/",
+			"source": "/schoenen-abend-bilder-fuer-die-seele/",
 			"destination": "https://perfekterspruch.de/schoenen-abend-bilder/",
 			"permanent": true
 		}
