@@ -80,7 +80,9 @@
 
 <main>
 	<slot />
+	<!-- <div class="the-footer"> -->
 	<TheFooter />
+	<!-- </div> -->
 </main>
 
 <div class="mobile-wrapper">
@@ -104,6 +106,12 @@
 	.mobile-wrapper {
 		display: none;
 	}
+	// .the-footer {
+	// 	position: absolute;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	width: 100%;
+	// }
 
 	@media (max-width: 1024px) {
 		main {
