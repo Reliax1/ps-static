@@ -11,6 +11,10 @@ const config = {
 			crawl: true,
 			entries: [
 				'*',
+				'/',
+				'/impressum',
+				'/datenschutz',
+				'/kontakt',
 				'/beziehungssprueche',
 				'/coole-sprueche',
 				'/geburtstagsgruesse',
