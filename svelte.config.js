@@ -3,12 +3,10 @@ import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 // https://kit.svelte.dev/docs/configuration#prerender
-// https://github.com/sveltejs/kit/tree/master/packages/adapter-static#spa-mode
+// https://github.com/sveltejs/kit/tree/master/packages/adapter-static#spa-mode   fallback: 'index.html',
 const config = {
 	kit: {
-		adapter: adapter({
-			fallback: 'index.html'
-		}),
+		adapter: adapter(),
 		prerender: {
 			crawl: true,
 			entries: [
