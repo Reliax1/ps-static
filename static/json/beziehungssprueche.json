@@ -1,0 +1,697 @@
+{
+	"id": "beziehungssprueche",
+	"h1title": "Beziehungssprüche",
+	"metatitel": "Beziehungssprüche mit Bildern zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an Beziehungssprüchen mit passenden Bildern zum runterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "suesse-sprueche-seite",
+			"header": "Süße Sprüche",
+			"slug": "https://perfekterspruch.de/suesse-sprueche/"
+		},
+		{
+			"image": "ich-liebe-dich-bilder-seite",
+			"header": "Ich liebe dich Bilder",
+			"slug": "https://perfekterspruch.de/ich-liebe-dich-bilder/"
+		},
+		{
+			"image": "valentinstag-sprueche-seite",
+			"header": "Valentinstag Sprüche",
+			"slug": "https://perfekterspruch.de/valentinstag-sprueche/"
+		},
+		{
+			"image": "vertrauen-sprueche-seite",
+			"header": "Vertrauen Sprüche",
+			"slug": "https://perfekterspruch.de/vertrauen-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "101001",
+			"image": "beziehungs/beziehungs-sprueche",
+			"text": "Ich wünsche mir nichts, denn das Beste habe ich bereits: Dich.",
+			"author": null
+		},
+		{
+			"id": "101002",
+			"image": "beziehungs/kurze-beziehungs-sprueche",
+			"text": "Du bist der Kompass, der mich durch das Leben führt.",
+			"author": null
+		},
+		{
+			"id": "101003",
+			"image": "beziehungs/beziehungssprueche",
+			"text": "Gesehen, gefunden und nie wieder gehen gelassen, denn wir sind füreinander bestimmt.",
+			"author": null
+		},
+		{
+			"id": "101004",
+			"image": "beziehungs/beziehungssprueche-whatsapp",
+			"text": "Mit deiner Liebe hat die Geschichte meines Lebens ein Happy End.",
+			"author": null
+		},
+		{
+			"id": "101005",
+			"image": "beziehungs/beziehungssprueche-facebook",
+			"text": "Wäre ich ein Pirat, wärst Du mein wertvollster Schatz und ich würde Dich in meinem Herz vergraben.",
+			"author": null
+		},
+		{
+			"id": "101006",
+			"image": "beziehungs/kurze-beziehungssprueche",
+			"text": "Jemanden zu lieben und von ihm geliebt zu werden ist das Wertvollste auf der Welt.",
+			"author": "Nicholas Sparks"
+		},
+		{
+			"id": "101007",
+			"image": "beziehungs/liebe-beziehungssprueche",
+			"text": "Deine Macken und Kanten machen dich zu der Person, die ich so sehr liebe.",
+			"author": null
+		},
+		{
+			"id": "101008",
+			"image": "beziehungs/sprueche-beziehung",
+			"text": "Ich kann mich kaum erinnern, was ich mit meinem Leben angestellt habe, bevor du aufgetaucht bist.",
+			"author": null
+		},
+		{
+			"id": "101009",
+			"image": "beziehungs/beziehung-whatsapp-sprueche",
+			"text": "Wir haben zwei Herzen, die nebeneinander schlagen und doch sind wir zusammen wie ein einziges.",
+			"author": null
+		},
+		{
+			"id": "101010",
+			"image": "beziehungs/sprueche-ueber-beziehung",
+			"text": "Es ist nicht wichtig wohin du im Leben gehst, was du machst oder was du hast. Es kommt darauf an wen du an deiner Seite hast.",
+			"author": null
+		},
+		{
+			"id": "101011",
+			"image": "beziehungs/spruech-ueber-beziehung",
+			"text": "Es gibt kein schöneres Gefühl, als abends neben dir einzuschlafen und am nächsten Tag neben dir aufzuwachen.",
+			"author": null
+		},
+		{
+			"id": "101012",
+			"image": "beziehungs/romantische-sprueche",
+			"text": "Vergiss Märchen, ich glaube, unsere Liebesgeschichte ist die beste Geschichte, die je erzählt wurde.",
+			"author": null
+		},
+		{
+			"id": "101013",
+			"image": "beziehungs/liebe-sprueche-whatsapp",
+			"text": "Gemeinsam sind wir doppelt so stark, doppelt so schön und doppelt so clever.",
+			"author": null
+		},
+		{
+			"id": "101014",
+			"image": "beziehungs/sprueche-ueber-liebe",
+			"text": "Du bist der Mensch dem ich mein echtes lächeln schenke, weil du der Grund bist wieso ich überhaupt lachen kann.",
+			"author": null
+		},
+		{
+			"id": "101015",
+			"image": "beziehungs/ich-liebe-dich-sprueche",
+			"text": "Meine Liebe zu dir macht mich nicht blind. Sie öffnet mir die Augen für das Wesentliche.",
+			"author": null
+		},
+		{
+			"id": "101016",
+			"image": "beziehungs/suesse-beziehungssprueche",
+			"text": "Wenn wir zusammen sind, fühlt sich die Welt an, als ob sie in perfekter Harmonie ist.",
+			"author": null
+		},
+		{
+			"id": "101017",
+			"image": "beziehungs/sprueche-freund",
+			"text": "Du bist für mich mehr als nur mein Glück, als ich kaputt war, brachtest du mir mein Herz zurück.",
+			"author": null
+		},
+		{
+			"id": "101018",
+			"image": "beziehungs/sprueche-freundin",
+			"text": "Wenn ich dich ansehe und mein Herz schneller schlägt, dann weiß ich, es ist Liebe.",
+			"author": null
+		},
+		{
+			"id": "101019",
+			"image": "beziehungs/liebe-beziehung",
+			"text": "Wie wäre ein Leben ohne dich? Meine bessere Hälfte würde fehlen!",
+			"author": null
+		},
+		{
+			"id": "101020",
+			"image": "beziehungs/spruch-beziehung",
+			"text": "Die schönste Zeit im Leben ist die, in der man merkt, dass man sie mit dem richtigen Menschen verbringt.",
+			"author": null
+		}
+	],
+
+	"weiteredata": [
+		{
+			"id": "101021",
+			"text": "Hand in Hand von hier bis zum Ende der Welt – kein Hindernis ist unserer Liebe zu groß.",
+			"author": null
+		},
+		{
+			"id": "101022",
+			"text": "Lebe nie, ohne zu lachen. Denn es gibt Menschen, die von deinem Lachen leben.",
+			"author": null
+		},
+		{
+			"id": "101023",
+			"text": "Die Liebe ist wie ein zartes Pflänzchen, das erst einige Zeit benötigt, ehe es Wurzeln schlägt.",
+			"author": "Frank von Schillerberg-Gosheim"
+		},
+		{
+			"id": "101024",
+			"text": "Liebe sucht nicht, sie findet. Unsere beiden Herzen haben zueinander gefunden.",
+			"author": null
+		},
+		{
+			"id": "101025",
+			"text": "Sich zu lieben bedeutet nicht, sich glückselig in die Augen zu sehen, sondern hoffnungsvoll in die gleiche Richtung zu blicken.",
+			"author": "Antoine de Saint Exupery"
+		},
+		{
+			"id": "101026",
+			"text": "Auch wenn es viele Fische im Meer gibt, passt du zweifellos perfekt zu mir.",
+			"author": null
+		},
+		{
+			"id": "101027",
+			"text": "Du bist für mich der wichtigste Mensch in meinem Leben.",
+			"author": null
+		},
+		{
+			"id": "101028",
+			"text": "Ich kann es kaum erwarten, unsere Liebesgeschichte eines Tages unseren Kindern und Enkelkindern zu erzählen.",
+			"author": null
+		},
+		{
+			"id": "101029",
+			"text": "Wirst du gut auf mein Herz aufpassen? Ich habe es nämlich bei dir gelassen!",
+			"author": null
+		},
+		{
+			"id": "101030",
+			"text": "Weil das wertvollste was ich besitze an meiner Seite ist!",
+			"author": null
+		},
+		{
+			"id": "101031",
+			"text": "Stelle ich mir vor, ich müsste mein Leben ohne dich bestreiten, erscheint alles auf einmal sinnlos.",
+			"author": null
+		},
+		{
+			"id": "101032",
+			"text": "Für mich gibt es kein schöneres Gefühl, als dich bedingungslos und aufrichtig zu lieben.",
+			"author": null
+		},
+		{ "id": "101033", "text": "Wir gleichen uns gegenseitig so perfekt aus.", "author": null },
+		{
+			"id": "101034",
+			"text": "Du bist der Leuchturm der mir die Richtung zeigt. Ich liebe dich über alles und freue mich schon extrem dich bald wieder in meine Arme schließen zu können.",
+			"author": null
+		},
+		{
+			"id": "101035",
+			"text": "Mit dir Kuscheln ist eine meiner absoluten Lieblingsbeschäftigungen.",
+			"author": null
+		},
+		{
+			"id": "101036",
+			"text": "Ein Lächeln das verzaubert, Augen die leuchten wie Sterne, Küsse die wie Feuer durch den Körper fließen. Ich schließe die Augen und sehe nur dich!",
+			"author": null
+		},
+		{
+			"id": "101037",
+			"text": "Ich benötige keinen Ring am Finger, um zu wissen, dass wir zusammen gehören.",
+			"author": null
+		},
+		{
+			"id": "101038",
+			"text": "Freundschaft und Liebe sind wie zwei kleine Pflänzchen, die aus derselben Wurzel hervorgehen. Nur, dass die Liebe noch ein paar Blumen mehr hat.",
+			"author": "Friedrich Gottlieb Klopstock"
+		},
+		{
+			"id": "101039",
+			"text": "Ich weiß nicht, wie ich so lange ohne dich leben konnte, wie ich es getan habe.",
+			"author": "Nicholas Sparks"
+		},
+		{
+			"id": "101040",
+			"text": "Wer wirklich liebt, sucht die Schuld nicht beim anderen, sondern bei sich selbst.",
+			"author": "Richard Burton"
+		},
+		{
+			"id": "101041",
+			"text": "Ich weiß, du kennst mich nicht, aber was nicht ist, kann ja noch werden!",
+			"author": null
+		},
+		{ "id": "101042", "text": "Liebe ist ein Käfig mit Gitterstäben aus Glück.", "author": null },
+		{ "id": "101044", "text": "Du bist so schön, dass es weh tut dich anzusehen.", "author": null },
+		{
+			"id": "101045",
+			"text": "Es gibt genug Wunder, doch du übertriffst sie alle.",
+			"author": null
+		},
+		{
+			"id": "101046",
+			"text": "Bist Du einsam ohne mich? Stell Dir vor, ich knuddel Dich.",
+			"author": null
+		},
+		{
+			"id": "101047",
+			"text": "Du bist mein Spiegelbild, alles was ich sehe, bist du.",
+			"author": "Justin Timberlake"
+		},
+		{
+			"id": "101048",
+			"text": "Die Welt kann ein rauer und verwirrender Ort sein, aber ich bin froh, dass du hier bei mir bist, um sie zu erleben.",
+			"author": null
+		},
+		{
+			"id": "101049",
+			"text": "Ich beobachte dich schon seit ein paar Stunden und frage mich, wie unsere Kinder wohl aussehen würden.",
+			"author": null
+		},
+		{
+			"id": "101050",
+			"text": "Wenn ich mir vorstelle, dich gäbe es nicht an meiner Seite, würde alles keinen Sinn machen.",
+			"author": null
+		},
+		{
+			"id": "101051",
+			"text": "Die einzige wahre Magie, die für mich existiert, ist die Liebe.",
+			"author": null
+		},
+		{
+			"id": "101052",
+			"text": "Nicht jeder muss mich mögen, es reicht wenn es die richtigen tun.",
+			"author": null
+		},
+		{
+			"id": "101053",
+			"text": "Liebe besteht nicht darin, dass man einander anschaut, sondern dass man gemeinsam in dieselbe Richtung blickt.",
+			"author": null
+		},
+		{
+			"id": "101054",
+			"text": "Wo liebe ausgesäht wird, da wird Freude empor wachsen.",
+			"author": "William Shakespeare"
+		},
+		{ "id": "101055", "text": "Erst du füllst mein Leben mit Sinn.", "author": null },
+		{
+			"id": "101056",
+			"text": "Wahrhaft zu lieben bedeutet sein Glück in die Hände eines anderen zu legen.",
+			"author": "Gottfried Leibniz"
+		},
+		{
+			"id": "101057",
+			"text": "Ich würde lieber mit dir streiten, als mit jemandem anderen Liebe zu machen.",
+			"author": null
+		},
+		{ "id": "101058", "text": "Von Jahr zu Jahr liebe ich dich mehr.", "author": null },
+		{
+			"id": "101059",
+			"text": "Ist es nicht seltsam, wie jemand, der mal ein Fremder war, die Liebe deines Lebens werden kann?",
+			"author": null
+		},
+		{
+			"id": "101060",
+			"text": "Du bist das beste was mir je passiert ist. Bleib so wie du bist ändere dich nie.",
+			"author": null
+		},
+		{
+			"id": "101061",
+			"text": "Liebe: Zwei Köpfe ohne einen einzigen Gedanken.",
+			"author": "Philip Barry"
+		},
+		{
+			"id": "101062",
+			"text": "Wirklich gute Freunde sind Menschen, die uns ganz genau kennen und trotzdem zu uns halten.",
+			"author": null
+		},
+		{
+			"id": "101063",
+			"text": "Du lässt mich, dass Licht des Lebens erblicken. Ohne dich bin ich nichts, mit dir bin ich alles.",
+			"author": null
+		},
+		{
+			"id": "101064",
+			"text": "Der schönste Zustand ist der, der freiwilligen Abhängigkeit – Doch wie wäre dieser nur ohne Liebe möglich?",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "101065",
+			"text": "Ein Blick sagt mehr als 1000 Worte. Ich verlange nicht, dass du viele an mich verschwendest. Ich brauche nur einen Blick der sagt: Ich liebe dich!",
+			"author": null
+		},
+		{
+			"id": "101066",
+			"text": "Du bist der Grund für meine Schmetterlinge im Bauch.",
+			"author": null
+		},
+		{
+			"id": "101067",
+			"text": "Wenn einem die Treue Spaß macht, dann ist es Liebe.",
+			"author": null
+		},
+		{
+			"id": "101068",
+			"text": "Nur, wer sich selbst liebt, ist in der Lage, andere aufrichtig lieben zu können.",
+			"author": "Frank von Schillerberg-Gosheim"
+		},
+		{
+			"id": "101069",
+			"text": "Seelenverwandter: Ein kleines Wort, ein großes Konzept. Ein Glaube, dass irgendjemand, irgendwo, den Schlüssel zu deinem Herzen hat.",
+			"author": "Carrie Bradshaw"
+		},
+		{
+			"id": "101070",
+			"text": "Nicht immer ist unser Leben voll Freude. Auch schlechte Tage begegnen uns immer wieder. Doch immer sollte unser Leben voller Liebe sein.",
+			"author": "Thomas von Aquin"
+		},
+		{
+			"id": "101071",
+			"text": "Das größte Geschenk ist für mich, von dir geliebt zu werden.",
+			"author": null
+		},
+		{
+			"id": "101072",
+			"text": "Ich wusste bereits seit Tag 1, dass ich dich Liebe.",
+			"author": null
+		},
+		{
+			"id": "101073",
+			"text": "Es war Liebe auf den ersten Blick, doch sie zerfiel Stück für Stück. Du hast nicht an sie geglaubt und mir doch mein Herz geraubt.",
+			"author": null
+		},
+		{
+			"id": "101074",
+			"text": "Wenn du etwas versucht hast und gescheitert bist, versuche es auf die Art, die deine Frau dir vorgeschlagen hat.",
+			"author": null
+		},
+		{
+			"id": "101075",
+			"text": "Unsere Herzen wurden eins und ohne Deins stirbt meins.",
+			"author": null
+		},
+		{
+			"id": "101076",
+			"text": "Seit du an meiner Seite bist, fühle ich mich wie neugeboren.",
+			"author": null
+		},
+		{
+			"id": "101077",
+			"text": "Das, was dich anders macht, macht dich zu etwas Besonderem.",
+			"author": null
+		},
+		{
+			"id": "101078",
+			"text": "Liebe ist eine Straße mit Gegenspur, die sich ständig im Bau befindet.",
+			"author": "Carroll Bryant"
+		},
+		{
+			"id": "101079",
+			"text": "Du bist mein bester Freund und meine große Liebe zugleich. Ich brauche nur dich.",
+			"author": null
+		},
+		{ "id": "101080", "text": "Du bist meine Festung, mein Zuhause, mein Alles.", "author": null },
+		{
+			"id": "101081",
+			"text": "Liebe heißt, sich im anderen wiederfinden und dann gemeinsam zu wachsen.",
+			"author": null
+		},
+		{
+			"id": "101082",
+			"text": "Schon wenn du für wenige Stunden nicht bei mir bist, vermisse ich dich.",
+			"author": null
+		},
+		{
+			"id": "101083",
+			"text": "Ich sitze hier und denk an dich! Es fällt mit ein, ich liebe dich!",
+			"author": null
+		},
+		{ "id": "101084", "text": "Der Beweis der Liebe ist Vertrauen.", "author": null },
+		{
+			"id": "101085",
+			"text": "Unser Zuhause ist nicht dort, wo unser Wohnsitz gemeldet ist. Unser Zuhause ist dort, wo wir verstanden werden.",
+			"author": "Christian Morgenstern"
+		},
+		{
+			"id": "101086",
+			"text": "Du bist die Liebe meines Lebens. Ich weiß nicht, wie ich ohne dich exestieren würde.",
+			"author": null
+		},
+		{
+			"id": "101087",
+			"text": "Wer Dankbarkeit für seine Liebe erwartet, der liebt nicht.",
+			"author": "Heinrich Wolfgang Seidel"
+		},
+		{
+			"id": "101088",
+			"text": "Jedes Mal, wenn ich in deine Augen blicke, weiß ich, was wirklich im Leben zählt.",
+			"author": null
+		},
+		{
+			"id": "101089",
+			"text": "Du bist die einzige Person, bei der ich selbst sein kann. Du machst mich unendlich glücklich.",
+			"author": null
+		},
+		{
+			"id": "101090",
+			"text": "Eine glückliche Partnerschaft benötigt zwei Dinge: Erstens muss der richtige Mensch gefunden werden, und zweitens müssen wir selbst der richtige Mensch sein.",
+			"author": "Jackson H. Brown"
+		},
+		{
+			"id": "101091",
+			"text": "Es gibt viele Engel im Himmel - aber nur einen auf Erden und mit dem will ich glücklich werden!",
+			"author": null
+		},
+		{ "id": "101092", "text": "Wir gleichen uns gegenseitig so perfekt aus.", "author": null },
+		{
+			"id": "101093",
+			"text": "Bist du nicht in meiner Nähe, denke ich unaufhörlich an dich.",
+			"author": null
+		},
+		{
+			"id": "101094",
+			"text": "Manchmal frage ich mich, wie ich dich verdient habe. Dabei ist es doch klar, dass sich findet was zusammen gehört.",
+			"author": null
+		},
+		{ "id": "101095", "text": "Gemeinsam überwinden wir alle Hürden.", "author": null },
+		{
+			"id": "101096",
+			"text": "Mit keinen Worten kann ich dir beschreiben, wie sehr ich dich liebe.",
+			"author": null
+		},
+		{
+			"id": "101097",
+			"text": "Unsere Liebe leutet heller als jeder Stern am Nachthimmel.",
+			"author": null
+		},
+		{
+			"id": "101098",
+			"text": "Entfernungen sind ohne Bedeutung. Sich nahe zu sein ist eine Sache des Herzens.",
+			"author": null
+		},
+		{
+			"id": "101099",
+			"text": "Einen Menschen wirklich zu lieben bedeutet, einzuwilligen, mit ihm gemeinsam alt zu werden.",
+			"author": "Albert Camus"
+		},
+		{
+			"id": "101101",
+			"text": "Du hast meine Welt an dem Tag verändert, an dem ich dich traf, und ich habe seitdem nie zurückgesehen.",
+			"author": null
+		},
+		{ "id": "101102", "text": "Es ist die Liebe zu dir, die mich stark macht.", "author": null },
+		{
+			"id": "101103",
+			"text": "Du fragst mich, was ich mir wünsche? Du erfüllst mir jeden Tag aufs Neue meinen größten Wunsch.",
+			"author": null
+		},
+		{
+			"id": "101104",
+			"text": "Auch ohne Ring am Finger weiß jeder ganz genau, dass ich zu dir gehöre.",
+			"author": null
+		},
+		{
+			"id": "101105",
+			"text": "Du weißt immer, wie man mich zum Lächeln bringt, selbst wenn ich einen furchtbaren Tag habe. So gut kennst du mich.",
+			"author": null
+		},
+		{
+			"id": "101106",
+			"text": "Im Traum und in der Liebe gibt es keine Unmöglichkeiten.",
+			"author": null
+		},
+		{
+			"id": "101107",
+			"text": "Das Wunderbare an der Liebe liegt darin, in einem anderen Herzen Ruhe zu finden.",
+			"author": "Julie Jeanne de Lespinasse"
+		},
+		{
+			"id": "101108",
+			"text": "Schon jetzt zähle ich die Stunden, bis du endlich wieder in meinen Armen liegst.",
+			"author": null
+		},
+		{
+			"id": "101109",
+			"text": "Du hast den richtigen Menschen an deiner Seite, wenn sogar dein Schnarchen kein Problem ist.",
+			"author": null
+		},
+		{
+			"id": "101110",
+			"text": "Du bist der beste Seelenverwandte den man sich nur wünschen kann. Mit dir fühle ich mich erst vollkommen.",
+			"author": null
+		},
+		{
+			"id": "101111",
+			"text": "Ein Leben mit dir, ist dass schönste Geschenk auf Erden. Ich bin unendlich dankbar, dass es sich gibt!",
+			"author": null
+		},
+		{
+			"id": "101112",
+			"text": "ich weiß, dass ich mit dich noch unendlich viele schöne Momente erleben werde.",
+			"author": null
+		},
+		{
+			"id": "101113",
+			"text": "Unsere Liebe ist wie das Sahnehäubchen auf dem Eis – Du machst mein Leben erst perfekt.",
+			"author": null
+		},
+		{
+			"id": "101114",
+			"text": "Ohne, dass ich es ausspreche, weißt du immer, wie es tief in mir aussieht.",
+			"author": null
+		},
+		{ "id": "101115", "text": "Die Liebe ist das, was uns vereint.", "author": null },
+		{
+			"id": "101116",
+			"text": "Schau mir in die Augen und ich werde dein Herz öffnen.",
+			"author": null
+		},
+		{
+			"id": "101117",
+			"text": "Das schönste Glück auf Erden ist es wohl, einen Menschen zu finden, der mit uns empfindet und fühlt.",
+			"author": "Carl Spitteler"
+		},
+		{
+			"id": "101118",
+			"text": "Du und Ich und Ich und Du – egal in welcher Reihenfolge, wir beide gehören zusammen.",
+			"author": null
+		},
+		{
+			"id": "101119",
+			"text": "Verrätst du mir deinen Namen? Oder darf ich dich gleich 'meins' nennen?",
+			"author": null
+		},
+		{
+			"id": "101120",
+			"text": "Ich verstehe nicht, wie mein Leben einen Sinn haben konnte, bevor ich dich gekannt habe.",
+			"author": null
+		},
+		{ "id": "101121", "text": "Ohne dich wäre ich so verloren.", "author": null },
+		{
+			"id": "101122",
+			"text": "Manchmal sind wir uns uneins, aber gleichzeitig gibt es etwas Perfektes an dir und mir.",
+			"author": null
+		},
+		{
+			"id": "101123",
+			"text": "Die Liebe geht oftmals seltsame Wege, doch meist sind es die Richtigen.",
+			"author": "Wolf Dietrich"
+		},
+		{
+			"id": "101124",
+			"text": "Auch ohne etwas zu sagen weißt du immer, wo der Schuh drückt.",
+			"author": null
+		},
+		{
+			"id": "101125",
+			"text": "Die schönsten Erinnerungen, sammelt man immer zu zweit.",
+			"author": null
+		},
+		{
+			"id": "101126",
+			"text": "Ohne dich in meinem Leben würde mir meine bessere Hälfte fehlen.",
+			"author": null
+		},
+		{
+			"id": "101127",
+			"text": "Du bist die einzige Person auf der Welt, die mich vollkommen machen kann.",
+			"author": null
+		},
+		{
+			"id": "101128",
+			"text": "Mein Leben ist solch ein wunderbares Abenteuer, seit du da bist.",
+			"author": null
+		},
+		{
+			"id": "101129",
+			"text": "Du bist das Puzzelteil in meinem Leben, das mir immer gefehlt hat.",
+			"author": null
+		},
+		{
+			"id": "101130",
+			"text": "Mir ist egal, ob wir uns streiten, solange wir uns danach küssen und vertragen.",
+			"author": null
+		},
+		{
+			"id": "101131",
+			"text": "Wenn ich dich verlöre, würde ich weinen, oh, wie ich dich liebe, Baby.",
+			"author": "Ike and Tina Turner"
+		},
+		{
+			"id": "101132",
+			"text": "Mancher findet sein Herz erst dann, wenn er seinen Kopf verliert.",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "101133",
+			"text": "Liebe lässt dich diese verborgenen Orte in einer anderen Person finden.",
+			"author": "Hilary T. Smith"
+		},
+		{
+			"id": "101134",
+			"text": "Ich würde lieber morgen sterben als hundert Jahre zu leben, ohne dich zu kennen.",
+			"author": "Pocahantas"
+		},
+		{
+			"id": "101135",
+			"text": "Seitdem du an meiner Seite bist hat sich mein Leben zum Positiven gewandelt.",
+			"author": null
+		},
+		{
+			"id": "101136",
+			"text": "Du hast mich zu dem Mann/der Frau gemacht, der/die ich heute bin.",
+			"author": null
+		},
+		{
+			"id": "101137",
+			"text": "Durch die Tränen und das Lachen sind wir stärker als je zuvor.",
+			"author": null
+		},
+		{
+			"id": "101138",
+			"text": "Ich kann mich nicht erinnern, jemals nach dir gesucht zu haben, und doch bin ich sehr dankbar dafür, dich gefunden zu haben.",
+			"author": null
+		},
+		{
+			"id": "101139",
+			"text": "Ein richtiger Mann muss keinen Sixpack haben, es reicht wenn er ein Herz hat.",
+			"author": null
+		},
+		{
+			"id": "101140",
+			"text": "Die Liebe wird nicht weniger, sondern mehr, wenn wir sie verschenken.",
+			"author": "Ricarda Huch"
+		}
+	]
+}

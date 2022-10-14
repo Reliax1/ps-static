@@ -1,0 +1,915 @@
+{
+	"id": "gute-sprueche",
+	"h1title": "Gute Sprüche",
+	"metatitel": "Gute Sprüche mit Bildern zum herunterladen & kopieren.",
+	"metacontent": "Hier findest du eine große Auswahl an guten, schönen und inspirierende Sprüchen zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+			"header": "Sprueche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+			"header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "hoffnung-sprueche-seite",
+			"header": "Hoffnung Sprüche",
+			"slug": "https://perfekterspruch.de/hoffnung-sprueche/"
+		},
+		{
+			"image": "weise-sprueche-seite",
+			"header": "Weise Sprüche",
+			"slug": "https://perfekterspruch.de/weise-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "109001",
+			"image": "gutesprueche/gute-sprueche-facebook",
+			"text": "Ein Freund ist ein Mensch, der die Melodie deines Herzen kennt und sie dir vorspielt, wenn du sie vergessen hast.",
+			"author": null
+		},
+		{
+			"id": "109002",
+			"image": "gutesprueche/gute-sprueche-whatsapp",
+			"text": "Schöne Worte sind nicht immer wahr, wahre Worte sind nicht immer schön.",
+			"author": null
+		},
+		{
+			"id": "109003",
+			"image": "gutesprueche/gute-sprueche-pinterest",
+			"text": "Wir können nicht zu neuen Ufern aufbrechen, wenn wir nicht bereit sind, das alte aus den Augen zu verlieren",
+			"author": "Seneca"
+		},
+		{
+			"id": "109004",
+			"image": "gutesprueche/gute-sprueche-schoen",
+			"text": "Du bist wie eine Farbe. Nicht jeder wird dich mögen. Doch es wird immer jemanden geben, dessen Lieblingsfarbe du bist.",
+			"author": null
+		},
+		{
+			"id": "109005",
+			"image": "gutesprueche/gute-sprueche-zum-nachdenken",
+			"text": "Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.",
+			"author": null
+		},
+		{
+			"id": "109006",
+			"image": "gutesprueche/gute-sprueche-weise",
+			"text": "Blöderweise lässt die Wahrheit manchmal alles wie eine Lüge erscheinen.",
+			"author": null
+		},
+		{
+			"id": "109007",
+			"image": "gutesprueche/gute-sprueche-kurz",
+			"text": "Der beste Weg, einen Freund zu haben, ist der, selbst einer zu sein.",
+			"author": "Ralph Waldo Emerson"
+		},
+		{
+			"id": "109008",
+			"image": "gutesprueche/gute-sprueche-leben",
+			"text": "Im Leben kommt es nicht darauf an, ein gutes Blatt in der hand zu haben, sondern mit schlechten Karten gut zu spielen.",
+			"author": null
+		},
+		{
+			"id": "109009",
+			"image": "gutesprueche/gute-sprueche-motivation-motivierent",
+			"text": "Sei du selbst die Veränderung, die du dir wünschst für diese Welt.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "109010",
+			"image": "gutesprueche/gute-sprueche-inspiration",
+			"text": "Die Dinge, die man falsch gemacht hat, bereut man nicht so sehr, wie die, die man erst gar nicht versucht hat.",
+			"author": null
+		},
+		{
+			"id": "109011",
+			"image": "gutesprueche/schoene-gute-sprueche",
+			"text": "Viele Leute hören nur die Hälfte, verstehen einen viertel, aber erzählen das doppelte.",
+			"author": null
+		},
+		{
+			"id": "109012",
+			"image": "gutesprueche/gute-sprueche-freundin",
+			"text": "Die Versuchung wird an der Tür sturm läuten, aber die Chance klopft nur einmal an!",
+			"author": null
+		},
+		{
+			"id": "109013",
+			"image": "gutesprueche/gute-sprueche-freund",
+			"text": "Mutig bist du nicht, wenn du einfach keine Angst hast. Mutig bist du erst dann, wenn du deine Ängste überwindest.",
+			"author": null
+		},
+		{
+			"id": "109014",
+			"image": "gutesprueche/gute-sprueche-kollegen",
+			"text": "Der größte Ruhm im Leben liegt nicht darin, nie zu fallen, sondern jedes Mal wieder aufzustehen.",
+			"author": "Nelson Mandela"
+		},
+		{
+			"id": "109015",
+			"image": "gutesprueche/gute-sprueche-spass",
+			"text": "Es ist nicht wichtig, wohin du im Leben gehst, was du machst oder was du hast. Es kommt darauf an, wen du an deiner Seite hast.",
+			"author": null
+		},
+		{
+			"id": "109016",
+			"image": "gutesprueche/gute-sprueche-nachdenken",
+			"text": "Mitleid bekommt man geschenkt, Neid muss man sich verdienen.",
+			"author": "Robert Lembke"
+		},
+		{
+			"id": "109017",
+			"image": "gutesprueche/gute-weise-sprueche",
+			"text": "Glück ist, wenn Vorbereitung auf Gelegenheit trifft.",
+			"author": "Seneca"
+		},
+		{
+			"id": "109018",
+			"image": "gutesprueche/gute-sprueche-klug",
+			"text": "Der wahre Charakter eines Menschen zeigt sich nicht bei der ersten Begegnung, sondern bei der letzten.",
+			"author": null
+		},
+		{
+			"id": "109019",
+			"image": "gutesprueche/gute-sprueche-buddah",
+			"text": "Dumme Gedenken hat jeder, aber der Weise verschweigt sie.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "109020",
+			"image": "gutesprueche/gute-sprueche-maske",
+			"text": "Chancen präsentieren sich uns mit Vorliebe in der Maske von Unannehmlichkeiten.",
+			"author": null
+		},
+		{
+			"id": "109021",
+			"image": "gutesprueche/gute-sprueche-motivation",
+			"text": "Nichts, wofür es sich zu kämpfen lohnt, steht einfach vor der Tür.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "109022",
+			"text": "Nicht immer sind die Stillen auch die Weisen. Es gibt verschlossene Truhen, die leer sind.",
+			"author": null
+		},
+		{
+			"id": "109023",
+			"text": "In einer irrsinnigen Welt vernünftig sein zu wollen, ist wiederum ein Irrsinn für sich.",
+			"author": null
+		},
+		{
+			"id": "109024",
+			"text": "Ganz gleich wohin du auch gehst, überall wirst du dir selbst begegnen!",
+			"author": null
+		},
+		{
+			"id": "109025",
+			"text": "Was du liebst, lass frei. Kommt es zurück, gehört es dir – für immer.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "109026",
+			"text": "Genau die Kraft, die gefehlt hat, um einen Sieg zu erringen, braucht man, um eine Niederlage zu verkraften.",
+			"author": null
+		},
+		{
+			"id": "109027",
+			"text": "Neid ist die höchste Form der Anerkennung.",
+			"author": null
+		},
+		{
+			"id": "109028",
+			"text": "Man kann eine Menge Glück haben, ohne glücklich zu sein.",
+			"author": null
+		},
+		{
+			"id": "109029",
+			"text": "Der Optimist sieht in jedem Problem eine Aufgabe. Der Pessimist sieht in jeder Aufgabe ein Problem.",
+			"author": null
+		},
+		{
+			"id": "109030",
+			"text": "Leisten wir uns den Luxus, eine eigene Meinung zu haben.",
+			"author": null
+		},
+		{
+			"id": "109031",
+			"text": "Denn an sich ist nichts weder gut noch böse; das Denken macht es erst dazu.",
+			"author": "William Shakespeare"
+		},
+		{
+			"id": "109032",
+			"text": "Nicht den Tod sollte man fürchten, sondern dass man nie beginnen wird, zu leben.",
+			"author": "Marcus Aurelius"
+		},
+		{
+			"id": "109033",
+			"text": "Das Schicksal mischt die Karten und wir spielen.",
+			"author": null
+		},
+		{
+			"id": "109034",
+			"text": "Wenn ich nur darf, wenn ich soll, aber nie kann, wenn ich will, dann mag ich auch nicht, wenn ich muss. Wenn ich aber darf, wenn ich will, dann mag ich auch, wenn ich soll und dann kann ich auch, wenn ich muss - denn schließlich, die können sollen, müssen wollen dürfen.",
+			"author": null
+		},
+		{
+			"id": "109035",
+			"text": "Jeder Mensch darf hier frei seine Meinung äußern, er darf nur nicht annehmen, dass das keine Folgen für ihn hat.",
+			"author": null
+		},
+		{
+			"id": "109036",
+			"text": "Keine Entschuldigungen, keine Bitte um Vergebung: nur die Wahrheit!",
+			"author": null
+		},
+		{
+			"id": "109037",
+			"text": "Zuerst ignorieren sie dich, dann lachen sie über dich, dann bekämpfen sie dich und dann gewinnst du.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "109038",
+			"text": "Die reinste Form des Wahnsinns ist es, alles beim Alten zu lassen und gleichzeitig zu hoffen, dass sich etwas ändert.",
+			"author": null
+		},
+		{
+			"id": "109039",
+			"text": "Immer wenn ich über meinen Schatten springen will macht jemand das Licht an.",
+			"author": null
+		},
+		{
+			"id": "109040",
+			"text": "An den Kreuzungen des Lebens stehen leider keine Wegweiser.",
+			"author": null
+		},
+		{
+			"id": "109041",
+			"text": "Was wäre das Leben, hätten wir nicht den Mut, etwas zu riskieren?",
+			"author": "Vincent van Gogh"
+		},
+		{
+			"id": "109042",
+			"text": "Man kann nichts für seine Gefühle, aber man hat die Verantwortung wie man mit ihnen umgeht.",
+			"author": null
+		},
+		{
+			"id": "109043",
+			"text": "Tatsachen schafft man nicht dadurch aus der Welt, indem man sie ignoriert.",
+			"author": null
+		},
+		{
+			"id": "109044",
+			"text": "Den Charakter eines Menschen erkennt am besten in Extremsituationen und wenn es etwas umsonst gibt.",
+			"author": null
+		},
+		{
+			"id": "109045",
+			"text": "Bildung ist das, was übrig bleibt, wenn wir alles Gelernte vergessen haben.",
+			"author": null
+		},
+		{
+			"id": "109046",
+			"text": "Eine Frau, die so gut sein will, wie ein Mann, hat einfach keinen Ehrgeiz!",
+			"author": null
+		},
+		{
+			"id": "109047",
+			"text": "“Nett” kann ich auch. Ist mir aber zu langweilig.",
+			"author": null
+		},
+		{
+			"id": "109048",
+			"text": "Wünsche sind nie klug. Das ist sogar das Beste an ihnen.",
+			"author": null
+		},
+		{
+			"id": "109049",
+			"text": "Alle Türen stehen dir weit offen. Bitte schließe sie, mir ist kalt.",
+			"author": null
+		},
+		{
+			"id": "109050",
+			"text": "Sich nicht zu entscheiden ist auch eine Entscheidung.",
+			"author": null
+		},
+		{
+			"id": "109051",
+			"text": "Das Glück ist das einzige, was sich verdoppelt, wenn man es teilt.",
+			"author": "Albert Schweitzer"
+		},
+		{
+			"id": "109052",
+			"text": "Wichtig ist nicht, woher man kommt oder wo man steht, sondern wohin man will.",
+			"author": null
+		},
+		{
+			"id": "109053",
+			"text": "Kein Genuss ist vorübergehend, denn der Eindruck, den er hinterlässt, ist bleibend.",
+			"author": null
+		},
+		{
+			"id": "109054",
+			"text": "Was du mir sagst, das vergesse ich. Was du mir zeigst, daran erinnere ich mich. Was du mich tun lässt, das verstehe ich.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "109055",
+			"text": "Wer etwas will, der sucht nach Wegen. Wer etwas nicht will, der sucht nach Gründen.",
+			"author": null
+		},
+		{
+			"id": "109056",
+			"text": "Wer kein Ziel vor Augen hat, kann auch keinen Weg hinter sich bringen.",
+			"author": null
+		},
+		{
+			"id": "109057",
+			"text": "Aber ich hatte mich doch so darauf gefreut! - 'Du hast dich gefreut - ist das nichts?'",
+			"author": null
+		},
+		{
+			"id": "109058",
+			"text": "Ich kenne keinen sicheren Weg zum Erfolg, aber einen sicheren Weg zum Misserfolg: Es allen Recht machen zu wollen.",
+			"author": "Platon"
+		},
+		{
+			"id": "109059",
+			"text": "Egal wie voll der Kopf ist, ein paar Flausen passen immer rein.",
+			"author": null
+		},
+		{
+			"id": "109060",
+			"text": "Ich bin nicht wie die Anderen... Ich bin schlimmer!",
+			"author": null
+		},
+		{
+			"id": "109061",
+			"text": "Wenn du den Eindruck hast, dass das Leben Theater ist, dann such dir eine Rolle aus, die dir so richtig Spaß macht.",
+			"author": "William Shakespeare"
+		},
+		{
+			"id": "109062",
+			"text": "Wir leben nicht, um zu glauben, sondern um zu lernen.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "109063",
+			"text": "Der kürzeste Weg zwischen 2 Menschen ist ein Lächeln.",
+			"author": null
+		},
+		{
+			"id": "109064",
+			"text": "Beklage dich nicht über die Dunkelheit. Zünde eine Kerze an.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "109065",
+			"text": "Die besten und schönsten Dinge auf dieser Welt kann man weder sehen noch berühren, sondern nur im Herzen spüren.",
+			"author": null
+		},
+		{
+			"id": "109066",
+			"text": "Mit dem Alter ist es wie mit dem Wein, es muss ein guter Jahrgang sein!",
+			"author": null
+		},
+		{
+			"id": "109067",
+			"text": "Ich bin nicht kompliziert, sondern eine Herausforderung.",
+			"author": null
+		},
+		{
+			"id": "109068",
+			"text": "Diplomatie ist die Kunst, mit hundert Worten zu verschweigen, was man mit einem einzigen Wort sagen könnte.",
+			"author": null
+		},
+		{
+			"id": "109069",
+			"text": "Feier deine Ecken und Kanten. Diamanten sind auch nicht rund.",
+			"author": null
+		},
+		{
+			"id": "109070",
+			"text": "Den Reichtum eines Menschen misst man an den Dingen, die er entbehren kann, ohne seine gute Laune zu verlieren.",
+			"author": null
+		},
+		{
+			"id": "109071",
+			"text": "Nachahmung ist die aufrichtigste Form der Schmeichelei.",
+			"author": null
+		},
+		{
+			"id": "109072",
+			"text": "Man soll die Dinge so nehmen, wie sie kommen. Aber man sollte auch dafür sorgen, dass die Dinge so kommen, wie man sie nehmen möchte.",
+			"author": null
+		},
+		{
+			"id": "109073",
+			"text": "Jeder schließt von sich auf andere und vergisst, dass es auch anständige Menschen gibt.",
+			"author": null
+		},
+		{
+			"id": "109074",
+			"text": "Ich bin nicht gestört, ich bin eine Limited Edition.",
+			"author": null
+		},
+		{
+			"id": "109075",
+			"text": "Das grösste Kompliment, das man einem Menschen machen kann, ist ihn zu akzeptieren, wie er ist.",
+			"author": null
+		},
+		{
+			"id": "109076",
+			"text": "Man kann unmöglich einen Menschen wirklich kennen, bevor man einmal anderer Meinung war als er - erst im Widerspruch enthüllt sich der Charakter.",
+			"author": null
+		},
+		{
+			"id": "109077",
+			"text": "Wenn man sich für etwas entscheidet, entscheidet man sich auch zwangsläufig gegen etwas anderes…",
+			"author": null
+		},
+		{
+			"id": "109078",
+			"text": "Erfahrung ist die Summe der Dummheiten, die man im Bedarfsfall wieder anwendet.",
+			"author": null
+		},
+		{
+			"id": "109079",
+			"text": "Kleider machen Leute - aber sie machen nicht den Menschen.",
+			"author": null
+		},
+		{
+			"id": "109080",
+			"text": "Man weiß nie, was daraus wird, wenn Dinge verändert werden. Aber man weiß auch nicht, was daraus wird, wenn sie nicht verändert werden.",
+			"author": null
+		},
+		{
+			"id": "109081",
+			"text": "Ein Vielleicht ist keine Brücke zwischen einem Ja und einem Nein. Es ist der Abgrund dazwischen.",
+			"author": null
+		},
+		{
+			"id": "109082",
+			"text": "Wenn du etwas erleben willst, was du noch nie erlebt hast, musst du etwas tun, was du noch nie getan hast.",
+			"author": null
+		},
+		{
+			"id": "109083",
+			"text": "Ich kam, sah und vergaß was ich vorhatte.",
+			"author": null
+		},
+		{
+			"id": "109084",
+			"text": "Freundschaft, das ist eine Seele in zwei Körpern.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "109085",
+			"text": "Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "109086",
+			"text": "Es gibt ein erfülltes Leben trotz vieler unerfüllter Wünsche.",
+			"author": "Dietrich Bonhoeffer"
+		},
+		{
+			"id": "109087",
+			"text": "Exklusivität schafft Begehrlichkeiten.",
+			"author": null
+		},
+		{
+			"id": "109088",
+			"text": "Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "109089",
+			"text": "Ich habe keine Macken. Das sind Special Effects",
+			"author": null
+		},
+		{
+			"id": "109090",
+			"text": "Heute nehme ich mir vor, morgen mal ganz spontan zu sein.",
+			"author": null
+		},
+		{
+			"id": "109091",
+			"text": "Die schönste Zeit im Leben sind die kleinen Momente, in denen du spürst, du bist zur richtigen Zeit, am richtigen Ort.",
+			"author": null
+		},
+		{
+			"id": "109092",
+			"text": "Im Hafen ist ein Schiff sicher, aber dafür ist es nicht gebaut.",
+			"author": "Seneca"
+		},
+		{
+			"id": "109093",
+			"text": "Der schlimmste Weg, den man wählen kann, ist der, keinen zu wählen.",
+			"author": null
+		},
+		{
+			"id": "109094",
+			"text": "Wenn der Weg das Ziel ist, so ist es besser unterwegs zu sein als anzukommen.",
+			"author": null
+		},
+		{
+			"id": "109095",
+			"text": "Niemand weiß, was er kann, wenn er es nicht versucht.",
+			"author": "Publilius Syrus"
+		},
+		{
+			"id": "109096",
+			"text": "Der Umgang mit einem Egoisten ist deshalb so gefährlich, weil die Notwehr uns allmählich zwingt, in seine Fehler zu verfallen.",
+			"author": null
+		},
+		{
+			"id": "109097",
+			"text": "Ich habe in meinem Leben sehr viel gehalten, aber nicht den Mund.",
+			"author": null
+		},
+		{
+			"id": "109098",
+			"text": "Die reinste Form des Wahnsinns ist es, alles beim Alten zu lassen und gleichzeitig zu hoffen, dass sich etwas ändert.",
+			"author": null
+		},
+		{
+			"id": "109099",
+			"text": "Das Leben ist kurz. Nimm dir Zeit für Meer!",
+			"author": null
+		},
+		{
+			"id": "109101",
+			"text": "Manche sind nur tolerant, weil sie zu bequem sind, eine eigene Meinung zu haben.",
+			"author": null
+		},
+		{
+			"id": "109102",
+			"text": "Gib jedem Tag die Chance, der schönste deines Lebens zu werden.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "109103",
+			"text": "Der Sinn des Lebens ist ein Leben mit Sinn.",
+			"author": "Robert Burns"
+		},
+		{
+			"id": "109104",
+			"text": "Ziel des Lebens ist es nicht, ein erfolgreicher Mensch zu sein, sondern ein wertvoller.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "109105",
+			"text": "Die glücklichsten Tage des vergangenen Jahres mögen die schlechtesten des künftigen sein.",
+			"author": null
+		},
+		{
+			"id": "109106",
+			"text": "Man kauft mit Geld, das man nicht hat, Dinge, die man nicht braucht, um damit Leute zu beeindrucken, die man nicht mag.",
+			"author": null
+		},
+		{
+			"id": "109107",
+			"text": "Gezwungen ist nicht echt.",
+			"author": null
+		},
+		{
+			"id": "109108",
+			"text": "Das Problem ist, du glaubst du hast Zeit.",
+			"author": null
+		},
+		{
+			"id": "109109",
+			"text": "Denken bevor man handelt ist nicht immer gut - kann ja sein, dass man falsch denkt!",
+			"author": null
+		},
+		{
+			"id": "109110",
+			"text": "Mit einem Menschen der nur Trümpfe hat, kann man nicht Karten spielen.",
+			"author": "Christian Friedrich Hebbel"
+		},
+		{
+			"id": "109111",
+			"text": "Alles verstehen wollen, heißt nichts begriffen haben.",
+			"author": null
+		},
+		{
+			"id": "109112",
+			"text": "Ich bereue keine Fehler. Ich bereue nur die guten Taten, die ich für falsche Menschen gemacht habe.",
+			"author": null
+		},
+		{
+			"id": "109113",
+			"text": "Es gibt Risiken, die einzugehen du dir nicht leisten kannst und es gibt Risiken, die nicht einzugehen du dir nicht leisten kannst.",
+			"author": null
+		},
+		{
+			"id": "109114",
+			"text": "Ich bin ein zutiefst oberflächlicher Mensch.",
+			"author": null
+		},
+		{
+			"id": "109115",
+			"text": "Eine tausend Meilen lange Reise beginnt mit einem einzelnen Schritt.",
+			"author": null
+		},
+		{
+			"id": "109116",
+			"text": "Du hast die Wahl. Du kannst dir Sorgen machen, bis du davon tot umfällst. Oder du kannst es vorziehen, das bisschen Ungewissheit zu genießen.",
+			"author": null
+		},
+		{
+			"id": "109117",
+			"text": "Schlechte Argumente bekämpft man am besten dadurch, dass man ihre Darstellung nicht stört.",
+			"author": null
+		},
+		{
+			"id": "109118",
+			"text": "Die ersten 5 Tage nach dem Wochenende sind die allerschlimmsten.",
+			"author": null
+		},
+		{
+			"id": "109119",
+			"text": "Ich bin nicht die Regel. Aber die Ausnahme, die sie bestätigt!",
+			"author": null
+		},
+		{
+			"id": "109120",
+			"text": "Schildkröten können über den Weg mehr erzählen als Hasen.",
+			"author": null
+		},
+		{
+			"id": "109121",
+			"text": "Wir leben zu sehr in der Vergangenheit, haben Angst vor der Zukunft und vergessen dabei völlig die Gegenwart zu genießen.",
+			"author": null
+		},
+		{
+			"id": "109122",
+			"text": "Einer der Gründe, warum man in Konversationen so selten verständige und angenehme Partner findet, ist, dass es kaum jemanden gibt, der nicht lieber an das denkt, was er sagen will, als genau auf das zu antworten, was man zu ihm sagt.",
+			"author": null
+		},
+		{
+			"id": "109123",
+			"text": "Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.",
+			"author": "Konrad Adenauer"
+		},
+		{
+			"id": "109124",
+			"text": "Eine Flasche Champagner auf eine umgestürzte Kerze zu gießen, ist effektiv, denn das Feuer ist danach gelöscht. Effizient ist es hingegen nicht, denn ein Glas Wasser hätte es auch getan.",
+			"author": null
+		},
+		{
+			"id": "109125",
+			"text": "Das Glück besteht darin, zu leben wie alle Welt und doch wie kein anderer zu sein.",
+			"author": "Simone de Beauvoir"
+		},
+		{
+			"id": "109126",
+			"text": "Wenn Du versucht es allen recht zu machen, hast Du sicher jemanden vergessen: Dich!",
+			"author": null
+		},
+		{
+			"id": "109127",
+			"text": "Ein Defizit ist, was man hat, wenn man weniger hat, als man hätte, wenn man gar nichts hat.",
+			"author": null
+		},
+		{
+			"id": "109128",
+			"text": "Mit guten Sprüchen lassen sich Gefühle wunderbar und sehr kompakt zum Ausdruck bringen. Der Zauber der Sprache und die Macht der Worte kann mit diesen kurzen Sentenzen ideal transportiert werden.",
+			"author": null
+		},
+		{
+			"id": "109129",
+			"text": "Dinge haben immer nur den Wert, den du ihnen verleihst.",
+			"author": null
+		},
+		{
+			"id": "109130",
+			"text": "Man sieht nur mit dem Herzen gut. Das Wesentliche ist für die Augen unsichtbar.",
+			"author": "Antoine de Saint-Exupéry"
+		},
+		{
+			"id": "109131",
+			"text": "Lebenskunst ist zu 90% die Fähigkeit, mit Leuten auszukommen, die man nicht mag.",
+			"author": null
+		},
+		{
+			"id": "109132",
+			"text": "Mindestens 98 Prozent der Dinge, um die wir uns Sorgen machen, treffen niemals ein.",
+			"author": null
+		},
+		{
+			"id": "109133",
+			"text": "Charakter ist die Fähigkeit, sich selbst im Weg zu stehen, obwohl man ausweichen könnte.",
+			"author": null
+		},
+		{
+			"id": "109134",
+			"text": "Jeder Mensch bereitet uns auf irgendeine Art Vergnügen: Der eine, wenn er das Zimmer betritt, der andere, wenn er es verlässt",
+			"author": null
+		},
+		{
+			"id": "109135",
+			"text": "Man ist nie so lächerlich durch die Eigenschaften, die man besitzt, wie durch jene, die man zu haben vorgibt.",
+			"author": null
+		},
+		{
+			"id": "109136",
+			"text": "Wir streben mehr danach, Schmerz zu vermeiden als Freude zu gewinnen.",
+			"author": null
+		},
+		{
+			"id": "109137",
+			"text": "Nur die Phantasielosen flüchten in die Realität.",
+			"author": null
+		},
+		{
+			"id": "109138",
+			"text": "Bin gerade etwas neben der Spur. Ist schön da.",
+			"author": null
+		},
+		{
+			"id": "109139",
+			"text": "Es fordert manchmal mehr Mut, seine Ansicht zu ändern, als an ihr festzuhalten.",
+			"author": null
+		},
+		{
+			"id": "109140",
+			"text": "Ich stell immer wieder erschrocken fest, dass ich ein paar Dinge vergessen habe zu verdrängen.",
+			"author": null
+		},
+		{
+			"id": "10941",
+			"text": "Man wird nicht dadurch besser, dass man andere schlecht macht.",
+			"author": null
+		},
+		{
+			"id": "109142",
+			"text": "Leben heißt Entscheidungen treffen.",
+			"author": null
+		},
+		{
+			"id": "109143",
+			"text": "Das Glück ist schon da. Es ist in uns. Wir haben es nur vergessen und müssen uns wieder daran erinnern.",
+			"author": "Socrates"
+		},
+		{
+			"id": "109144",
+			"text": "Das Schönste aber hier auf Erden ist lieben und geliebt zu werden.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "109145",
+			"text": "Nehmen Sie die Menschen, wie sie sind, andere gibt’s nicht.",
+			"author": "Konrad Adenauer"
+		},
+		{
+			"id": "109146",
+			"text": "Wir sind nicht auf der Welt, um so zu sein, wie andere uns haben wollen",
+			"author": null
+		},
+		{
+			"id": "109147",
+			"text": "Besserwisser sind meistens Schlechtermacher.",
+			"author": "Paul Hubschmied"
+		},
+		{
+			"id": "109148",
+			"text": "Nur dumme Menschen halten Ordnung - Genies überblicken das Chaos.",
+			"author": null
+		},
+		{
+			"id": "109149",
+			"text": "Man lebt wofür man sterben würde.",
+			"author": null
+		},
+		{
+			"id": "109150",
+			"text": "Glücklich ist einer, der gut von anderen denkt – trotz täglicher Enttäuschungen und Missverständnissen.",
+			"author": null
+		},
+		{
+			"id": "109151",
+			"text": "Ich bin perfekt unperfekt und das fühlt sich gut an.",
+			"author": null
+		},
+		{
+			"id": "109152",
+			"text": "Um an die Quelle zu kommen, muss man gegen den Strom schwimmen.",
+			"author": null
+		},
+		{
+			"id": "109153",
+			"text": "Gestern war ich schlecht gelaunt und alles ging daneben. Heute bin ich ganz erstaunt, wie schön es ist, zu leben.",
+			"author": "Frantz Wittkamp"
+		},
+		{
+			"id": "109154",
+			"text": "Frech? Ich nenne es verbal überlegen",
+			"author": null
+		},
+		{
+			"id": "109155",
+			"text": "Werbung ist die Kunst, auf den Kopf zu zielen und die Brieftasche zu treffen.",
+			"author": null
+		},
+		{
+			"id": "109156",
+			"text": "Achte auf das Kleine in der Welt, das macht das Leben reicher und zufriedener.",
+			"author": "Carl Hilty"
+		},
+		{
+			"id": "109157",
+			"text": "Wir sind, was wir denken. Alles, was wir sind, entsteht aus unseren Gedanken. Mit unseren Gedanken formen wir die Welt.",
+			"author": "Buddha"
+		},
+		{
+			"id": "109158",
+			"text": "Ein voller Terminkalender ist noch lange kein erfülltes Leben.",
+			"author": "Kurt Tucholsky"
+		},
+		{
+			"id": "109159",
+			"text": "Frage: Wie isst man einen Elefanten? Antwort: Indem man ihn in Scheiben schneidet.",
+			"author": null
+		},
+		{
+			"id": "109160",
+			"text": "Es wird nicht eher hell, bis es nicht ganz dunkel geworden ist.",
+			"author": null
+		},
+		{
+			"id": "109161",
+			"text": "Ich bin für mehr Wunder und Flausen im Kopf. Für mehr Brause im Herzen und Musik in den Ohren. Für mehr Frei sein und mehr Leben.",
+			"author": null
+		},
+		{
+			"id": "109162",
+			"text": "Was nützt das Abtrocknen, wenn man nicht aus dem Regen geht.",
+			"author": null
+		},
+		{
+			"id": "109163",
+			"text": "Am liebsten sind mir ja die mit Sonne im Herzen und Blödsinn im Kopf",
+			"author": null
+		},
+		{
+			"id": "109164",
+			"text": "Du bist so jung wie deine Begeisterung.",
+			"author": null
+		},
+		{
+			"id": "109165",
+			"text": "Lerne alt zu werden mit einem jungen Herzen. Das ist die ganze Kunst.",
+			"author": "Phil Bosmans"
+		},
+		{
+			"id": "109166",
+			"text": "Was immer Du tun kannst oder träumst es zu können, fang damit an.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "109167",
+			"text": "Rat sucht man deshalb, weil man die einzige Lösung zwar kennt, aber nichts davon wissen will.",
+			"author": null
+		},
+		{
+			"id": "109168",
+			"text": "Eine Bank ist ein Ort, an dem man Geld geliehen bekommt, wenn man nachweisen kann, dass man es nicht braucht.",
+			"author": null
+		},
+		{
+			"id": "109169",
+			"text": "Manch einer, der vor der Versuchung flieht, hofft doch heimlich, dass sie ihn einholt.",
+			"author": null
+		},
+		{
+			"id": "109170",
+			"text": "Das Vergnügen kann sich auf Illusionen stützen, aber das Glück beruht auf der Wahrheit.",
+			"author": null
+		},
+		{
+			"id": "109171",
+			"text": "Die Musik drückt das aus, was nicht gesagt werden kann und worüber zu schweigen unmöglich ist.",
+			"author": null
+		},
+		{
+			"id": "109172",
+			"text": "Es ist nicht genug, die Gerechtigkeit an seiner Seite zu haben, es ist entscheidend stark genug zu sein, um sie zu verteidigen.",
+			"author": null
+		},
+		{
+			"id": "109173",
+			"text": "Hinfallen. Aufstehen. Krone richten. Weitergehen.",
+			"author": null
+		}
+	]
+}

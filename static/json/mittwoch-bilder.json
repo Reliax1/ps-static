@@ -1,0 +1,92 @@
+{
+	"id": "mittwoch-bilder",
+	"h1title": "Mittwoch Bilder & Sprüche",
+	"metatitel": "Mittwoch Bilder lustig & schön zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an lustigen und schönen Mittwoch Sprüchen mit passenden Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "guten-morgen-mittwoch-seite",
+			"header": "Guten Morgen Mittwoch",
+			"slug": "https://perfekterspruch.de/guten-morgen-mittwoch/"
+		},
+		{
+			"image": "guten-morgen-lustig-seite",
+			"header": "Guten Morgen lustig",
+			"slug": "https://perfekterspruch.de/guten-morgen-lustig/"
+		},
+		{
+			"image": "guten-morgen-donnerstag-seite",
+			"header": "Guten Morgen Donnerstag",
+			"slug": "https://perfekterspruch.de/guten-morgen-donnerstag/"
+		},
+		{
+			"image": "schoenen-tag-seite",
+			"header": "Schönen Tag",
+			"slug": "https://perfekterspruch.de/schoenen-tag/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "115001",
+			"image": "mittwochbilder/mittwoch-bilder-kurz",
+			"text": "Dieser Moment, wenn du realisiert, dass heute erst Mittwoch ist.",
+			"author": null
+		},
+		{
+			"id": "115002",
+			"image": "mittwochbilder/mittwoch-bilder-bergfest",
+			"text": "Aktuelle Mitteilung! Es ist Mittwoch! Bergfest nur noch 2 Tage und dann ist Wochenende.",
+			"author": null
+		},
+		{
+			"id": "115003",
+			"image": "mittwochbilder/mittwoch-gruesse",
+			"text": "Herzliche Grüße und einen wunderschönen Mittwoch wünsche ich Dir!",
+			"author": null
+		},
+		{
+			"id": "115004",
+			"image": "mittwochbilder/mittwoch-bilder-wochenteiler",
+			"text": "Wochenteiler. Einen schönen Mittwoch an euch da draußen. Ich sende euch liebe Grüße.",
+			"author": null
+		},
+		{
+			"id": "115005",
+			"image": "mittwochbilder/mittwoch-bilder-whatsapp",
+			"text": "Das schlimmste am Freitag ist, festzustellen, dass erst Mittwoch ist!",
+			"author": null
+		},
+		{
+			"id": "115006",
+			"image": "mittwochbilder/mittwoch-bilder-facebook",
+			"text": "Mittwoch ist gefühlt der dritte Montag in dieser Woche.",
+			"author": null
+		},
+		{
+			"id": "115007",
+			"image": "mittwochbilder/mittwoch-bilder-sprueche",
+			"text": "Guten Morgen ihr Lieben, heute ist schon Mittwoch. Ich sende freundliche Grüße. Startet gut in den neuen Tag.",
+			"author": null
+		},
+		{
+			"id": "115008",
+			"image": "mittwochbilder/mittwoch-spruch",
+			"text": "Wochenmitte! Euch allen einen wunderschönen Mittwoch.",
+			"author": null
+		},
+		{
+			"id": "115009",
+			"image": "mittwochbilder/mittwoch-bild",
+			"text": "Die Batterie ist zwar schon halb leer, aber der Weg bis zum Wochenende ist auch nicht mehr schwer. Schönen Mittwoch!",
+			"author": null
+		},
+		{
+			"id": "115010",
+			"image": "mittwochbilder/mittwoch-lustig",
+			"text": "Heute ist Mittwoch und dieser liegt mittig. Genau wie mein Mittelfinger. It’s magic!",
+			"author": null
+		}
+	]
+}

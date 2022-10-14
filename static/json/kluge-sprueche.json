@@ -1,0 +1,869 @@
+{
+	"id": "kluge-sprueche",
+	"h1title": "Kluge Sprüche",
+	"metatitel": "Kluge Sprüche mit Bildern zum kopieren & herunterladen",
+	"metacontent": "Hier findest du eine große Auswahl an klugen Sprüchen mit passenden Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+            "header": "Sprüche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		},
+		{
+			"image": "weise-sprueche-seite",
+            "header": "Weise Sprüche",
+			"slug": "https://perfekterspruch.de/weise-sprueche/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+            "header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+            "header": "Gute Sprüche",
+			"slug": "https://perfekterspruch.de/gute-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "114001",
+			"image": "kluge/kluge-sprueche-Laozi",
+			"text": "Gib einem Mann einen Fisch und du ernährst ihn für einen Tag. Lehre einen Mann zu fischen und du ernährst ihn für sein Leben.",
+			"author": "Laozi"
+		},
+		{
+			"id": "114002",
+			"image": "kluge/kurzer-kluger-spruch",
+			"text": "Bestätigung holt man sich dort, wo man annimmt sie auch zu finden.",
+			"author": "Klemens Oberforster"
+		},
+		{
+			"id": "114003",
+			"image": "kluge/kurze-kluge-sprueche",
+			"text": "Der größte Feind ist derjenige, der seine Feindschaft versteckt.",
+			"author": null
+		},
+		{
+			"id": "114004",
+			"image": "kluge/kluge-sprueche-facebook",
+			"text": "Nicht wer wenig hat, sondern wer viel wünscht, ist arm.    ",
+			"author": "Seneca"
+		},
+		{
+			"id": "114005",
+			"image": "kluge/buddha-sprueche",
+			"text": "Wir sind, was wir denken. Alles, was wir sind, entsteht aus unseren Gedanken. Mit unseren Gedanken formen wir die Welt.",
+			"author": "Buddha"
+		},
+		{
+			"id": "114006",
+			"image": "kluge/konfuzius-sprueche",
+			"text": "Beklage dich nicht über die Dunkelheit. Zünde eine Kerze an.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "114007",
+			"image": "kluge/kluge-sprueche-whatsapp",
+			"text": "Wahre Worte sind nicht immer schön. Schöne Worte sind nicht immer wahr.",
+			"author": "Laozi"
+		},
+		{
+			"id": "114008",
+			"image": "kluge/sokrates-sprueche",
+			"text": "Der Kluge lernt aus allem und von jedem, der Normale aus seinen Erfahrungen und der Dumme weiss alles besser.",
+			"author": "Sokrates"
+		},
+		{
+			"id": "114009",
+			"image": "kluge/kluger-spruch",
+			"text": "Breche niemals die Hoffnung von anderen Menschen; vielleicht ist sie nämlich ihr einziger Besitz.",
+			"author": null
+		},
+		{
+			"id": "114010",
+			"image": "kluge/kluge-sprueche",
+			"text": "Nichts ist so sehr für die gute alte Zeit verantwortlich wie das schlechte Gedächtnis.",
+			"author": "Anatole France"
+		},
+		{
+			"id": "114011",
+			"image": "kluge/kluge-gedanken",
+			"text": "Der, der weiß, wann er kämpfen sollte und wann nicht, wird siegreich sein.",
+			"author": "Sun Tzu"
+		},
+		{
+			"id": "114012",
+			"image": "kluge/nachdenklich-sprueche",
+			"text": "Das beste Mittel, um getäuscht zu werden, ist, sich für schlauer zu halten als die anderen.",
+			"author": "Francois Duc de La Rochefoucauld"
+		},
+		{
+			"id": "114013",
+			"image": "kluge/whatsapp-kurzer-spruch",
+			"text": "Solange man selbst redet, erfährt man nichts.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "114014",
+			"image": "kluge/nachdenklich",
+			"text": "Die Menschen glauben viel leichter eine Lüge, die sie schon hundertmal gehört haben, als eine Wahrheit, die ihnen völlig neu ist.",
+			"author": "Alfred Polgar"
+		},
+		{
+			"id": "114015",
+			"image": "kluge/spruch-fuer-facebook",
+			"text": "Manchmal sind die Fragen kompliziert, und die Antworten sind einfach.",
+			"author": "Dr. Seuss"
+		},
+		{
+			"id": "114016",
+			"image": "kluge/whatsapp-kluger-spruch",
+			"text": "Alle Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "114017",
+			"image": "kluge/interesanter-spruch",
+			"text": "Wenn du ein Problem hast, versuche es zu lösen. Kannst du es nicht lösen, dann mache kein Problem daraus. ",
+			"author": "Buddha"
+		},
+		{
+			"id": "114018",
+			"image": "kluge/interesante-sprueche",
+			"text": "Den Charakter eines Menschen erkennt man an den Scherzen, die er übel nimmt.",
+			"author": "Christian Morgenstern"
+		},
+		{
+			"id": "114019",
+			"image": "kluge/sprueche-klug-nachdenken",
+			"text": "Wir sehen die Dinge nicht so, wie sie sind. Wir sehen sie so, wie wir sind.",
+			"author": "Talmud"
+		},
+		{
+			"id": "114020",
+			"image": "kluge/klug-kurz",
+			"text": "Verantwortlich ist man nicht nur, für das was man tut, sondern auch für das, was man nicht tut. ",
+			"author": "Laozi"
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "114021",
+			"text": "Bei einer Kerze ist nicht das Wachs wichtig, sondern das Licht.",
+			"author": "Antoine de Saint-Exupery"
+		},
+		{
+			"id": "114022",
+			"text": "Nur Menschen, die keine Ziele haben, fällt das Arbeiten schwer.",
+			"author": null
+		},
+		{
+			"id": "114023",
+			"text": "Sag, was du zu sagen hast, und nicht, was du sagen solltest.",
+			"author": "Henry David Thoreau"
+		},
+		{
+			"id": "114024",
+			"text": "Ein Pessimist sieht die Schwierigkeiten in jeder Möglichkeit, ein Optimist sieht die Möglichkeiten in jeder Schwierigkeit.",
+			"author": "Winston Churchill"
+		},
+		{
+			"id": "114025",
+			"text": "Besser ist es, hinkend auf dem rechten Wege zu gehen, als mit einem festen Schritt abseits.",
+			"author": "Augustinus von Hippo"
+		},
+		{
+			"id": "114026",
+			"text": "Am meisten über einen Menschen sagt nicht aus, wie er mit Freunden umgeht, sondern mit Fremden.",
+			"author": "Dante Alighieri"
+		},
+		{
+			"id": "114027",
+			"text": "Niemand weiß, was in ihm drinsteckt, solange er nicht versucht, es herauszuholen.",
+			"author": "Ernest Hemingway"
+		},
+		{
+			"id": "114028",
+			"text": "Ehrlichkeit verschafft dir vielleicht nicht viele Freunde, dafür aber die Richtigen.",
+			"author": null
+		},
+		{
+			"id": "114029",
+			"text": "Wer gewinnen kann, ist Sieger über andere. Wer verlieren kann, ist Sieger über sich selbst.",
+			"author": "Rainer Haak"
+		},
+		{
+			"id": "114030",
+			"text": "Denke immer daran, dass es nur eine wichtige Zeit gibt: Heute, hier, jetzt.",
+			"author": "Leo Tolstoi"
+		},
+		{
+			"id": "114031",
+			"text": "Der erste Zug der Liebe ist nicht selten der letzte des Verstandes.",
+			"author": null
+		},
+		{
+			"id": "114032",
+			"text": "Wer einmal lügt dem glaubt man nicht, auch wenn er mal die Wahrheit spricht.",
+			"author": null
+		},
+		{
+			"id": "114033",
+			"text": "Wer keinen Sinn im Leben sieht, ist nicht nur unglücklich, sondern kaum lebensfähig.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "114034",
+			"text": "Man sollte sein Dach reparieren während die Sonne noch scheint.",
+			"author": "John F. Kennedy"
+		},
+		{
+			"id": "114035",
+			"text": "Wer selbstbewusst ist, kann es sich auch leisten, seine Gefühle zu zeigen.",
+			"author": null
+		},
+		{
+			"id": "114036",
+			"text": "Bescheidenheit ist der Anfang aller Vernunft.",
+			"author": "Ludwig Anzengruber"
+		},
+		{
+			"id": "114037",
+			"text": "Wer von seinem Tag nicht zwei Drittel für sich selbst hat, ist ein Sklave.",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "114038",
+			"text": "Ein Zepter in der Hand und eine Krone auf dem Kopf machen noch keinen König.",
+			"author": "Klemens Oberforster"
+		},
+		{
+			"id": "114039",
+			"text": "Bist du wütend, zähle bis vier, bist du sehr wütend, fluche.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "114040",
+			"text": "Alles um uns herum ist irgendeine Form von Energie. Wenn du positive Dinge in deinem Leben anziehen willst, beginne damit positive Energie auszustrahlen.",
+			"author": null
+		},
+		{
+			"id": "114041",
+			"text": "Ein Kopf ohne Gedächtnis ist eine Festung ohne Besatzung.",
+			"author": "Napoleon Bonaparte"
+		},
+		{
+			"id": "114042",
+			"text": "Denke immer daran, dass deine eigene Entschlossenheit, erfolgreich zu sein, wichtiger ist als alles andere.",
+			"author": "Abraham Lincoln"
+		},
+		{
+			"id": "114043",
+			"text": "Das beste Mittel, um getäuscht zu werden, ist, sich für schlauer zu halten als die anderen.",
+			"author": null
+		},
+		{
+			"id": "114044",
+			"text": "Wir sind alle aus einem speziellen Grund hier. Höre auf damit, der Gefangene deiner Vergangenheit zu sein. Werde zum Architekt deiner Zukunft.",
+			"author": "Robin Sharma"
+		},
+		{
+			"id": "114045",
+			"text": "Es gibt zwei Arten von Chefs: Der eine steht über allem, der andere übersteht alles.",
+			"author": "Werner Schneyder"
+		},
+		{
+			"id": "114046",
+			"text": "Aus faulen Eiern werden keine Küken.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "114047",
+			"text": "Je mehr Vergnügen du an deiner Arbeit hast, umso besser wird sie bezahlt.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "114048",
+			"text": "Sex ist niemals falsch, wenn darin Liebe liegt. Aber zu oft benehmen sich, die Leute dabei, wie bei einer Fitnessstunde, mechanisch.",
+			"author": "Marilyn Monroe"
+		},
+		{
+			"id": "114049",
+			"text": "Wer Großes versucht, ist bewundernswert, auch wenn er fällt.",
+			"author": "Seneca"
+		},
+		{
+			"id": "114050",
+			"text": "Jeder Tag, an dem Du nicht lächelst, ist ein verlorener Tag.",
+			"author": "Charlie Chaplin"
+		},
+		{
+			"id": "114051",
+			"text": "Der eigene Hund macht keinen Lärm, er bellt nur.",
+			"author": "Kurt Tucholsky"
+		},
+		{
+			"id": "114052",
+			"text": "Gewohnheiten sind zuerst Spinnweben, dann Drähte.",
+			"author": null
+		},
+		{
+			"id": "114053",
+			"text": "Man kann dir den Weg weisen, aber gehen musst du ihn selbst.",
+			"author": "Bruce Lee"
+		},
+		{
+			"id": "114054",
+			"text": "Gott gebe mir die Gelassenheit, Dinge hinzunehmen, die ich nicht ändern kann, den Mut, Dinge zu ändern, die ich ändern kann, und die Weisheit, das eine vom anderen zu unterscheiden.",
+			"author": "Reinhold Niebuhr"
+		},
+		{
+			"id": "114055",
+			"text": "Jeder Heilige hat eine Vergangenheit und jeder Sünder hat eine Zukunft.",
+			"author": null
+		},
+		{
+			"id": "114056",
+			"text": "Keine Aufgabe ist wirklich schwierig, solange man sie in einzelne Schritte aufteilt.",
+			"author": "Henry Ford"
+		},
+		{
+			"id": "114057",
+			"text": "Die Augen sind die Fenster der Seele.",
+			"author": "Hildegard von Bingen"
+		},
+		{
+			"id": "114058",
+			"text": "Die Welt will betrogen sein, drum sei sie betrogen.",
+			"author": "Martin Luther"
+		},
+		{
+			"id": "114059",
+			"text": "Jagst du gleichzeitig zwei Hasen nach, wirst du keinen fangen.",
+			"author": null
+		},
+		{
+			"id": "114060",
+			"text": "Was andere Menschen von dir denken ist nicht dein Problem.",
+			"author": "Paulo Coelho"
+		},
+		{
+			"id": "114061",
+			"text": "Wahrlich, keiner ist weise, der nicht das Dunkel kennt.",
+			"author": "Hermann Hesse"
+		},
+		{
+			"id": "114062",
+			"text": "Was man ernst meint, sagt man am besten im Spaß.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "114063",
+			"text": "Es ist um einiges leichter, dem Feind statt Freund zu verzeihen.",
+			"author": null
+		},
+		{
+			"id": "114064",
+			"text": "Eine entschlossene Person mit festem Glauben ist stärker als 99 andere, die lediglich Interesse für die Sache haben.",
+			"author": "John Stuart Mill"
+		},
+		{
+			"id": "114065",
+			"text": "Man entdeckt keine neuen Erdteile, ohne den Mut zu haben, alte Küsten aus den Augen zu verlieren.",
+			"author": "Andre Gide"
+		},
+		{
+			"id": "114066",
+			"text": "Es gibt kein „irgendwann mal“. Es ist entweder jetzt, oder nie.",
+			"author": null
+		},
+		{
+			"id": "114067",
+			"text": "Alle guten Dinge sind billig, alle schlechten teuer.",
+			"author": "Henry David Thoreau"
+		},
+		{
+			"id": "114068",
+			"text": "Wenn Du das Leben liebst, vertrödele Deine Zeit nicht unnötig. Denn die Zeit ist das Leben selbst.",
+			"author": null
+		},
+		{
+			"id": "114069",
+			"text": "Wenn die Menschen nur über das sprächen, was sie begreifen, dann würde es sehr still auf der Welt sein.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "114070",
+			"text": "Ich weiß, dass ich nichts weiß.",
+			"author": "Sokrates"
+		},
+		{
+			"id": "114071",
+			"text": "Jeder Mensch wird als Original geboren, aber die meisten sterben als Kopie.",
+			"author": "Kaspar Schmidt"
+		},
+		{
+			"id": "114072",
+			"text": "Gewohnheiten sind zuerst Spinnweben, dann Drähte.",
+			"author": null
+		},
+		{
+			"id": "114073",
+			"text": "Die Investition in Wissen bringt immer noch die besten Zinsen.",
+			"author": "Benjamin Franklin"
+		},
+		{
+			"id": "114074",
+			"text": "Aus faulen Eiern werden keine Küken.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "114075",
+			"text": "Das Flüstern einer schönen Frau hört man weiter als den lautesten Ruf der Pflicht.",
+			"author": "Pablo Picasso"
+		},
+		{
+			"id": "114076",
+			"text": "Natürlicher Verstand kann fast jeden Grad von Bildung ersetzen, aber keine Bildung den natürlichen Verstand.",
+			"author": "Arthur Schopenhauer"
+		},
+		{
+			"id": "114077",
+			"text": "Bestätigung holt man sich dort, wo man annimmt sie auch zu finden.",
+			"author": "Klemens Oberforster"
+		},
+		{
+			"id": "114078",
+			"text": "Wer nichts weiß und weiß nicht, dass er nichts weiß, ist ein Tor – meide ihn. Wer nichts weiß und weiß, dass er nichts weiß, ist bescheiden – belehre ihn. Aber wer etwas weiß und weiß nicht, dass er etwas weiß, ist im Schlafe – wecke ihn. Wer etwas weiß und weiß, dass er etwas weiß, ist weise – folge ihm.",
+			"author": "Sokrates"
+		},
+		{
+			"id": "114079",
+			"text": "Das Weltall ist ein Kreis, dessen Mittelpunkt überall, dessen Umfang nirgends ist.",
+			"author": "Blaise Pascal"
+		},
+		{
+			"id": "114080",
+			"text": "Dankbarkeit macht das Leben erst reich.",
+			"author": "Dietrich Bonhoeffer"
+		},
+		{
+			"id": "114081",
+			"text": "Hintergehe niemals einen Menschen zweimal mit derselben Lüge.",
+			"author": null
+		},
+		{
+			"id": "114082",
+			"text": "Mir ist egal ob du schwarz, weiß, hetero, bisexuell, schwul, lesbisch, klein, groß, fett, dünn, reich oder arm bist. Wenn du nett zu mir bist, werde ich auch nett zu dir sein. Ganz einfach.",
+			"author": "Eminem"
+		},
+		{
+			"id": "114083",
+			"text": "Wege entstehen dadurch, dass man sie geht.",
+			"author": "Franz Kafka"
+		},
+		{
+			"id": "114084",
+			"text": "Leben ist immer lebensgefährlich.",
+			"author": "Erich Kästner"
+		},
+		{
+			"id": "114085",
+			"text": "Gott wählt nicht die Qualifizierten aus, sondern qualifiziert die Auserwählten.",
+			"author": null
+		},
+		{
+			"id": "114086",
+			"text": "Der Pessimist ist ein Mensch, der sich über den Lärm beklagen würde, wenn das Glück bei ihm anklopft.",
+			"author": null
+		},
+		{
+			"id": "114087",
+			"text": "Wir erben die Erde nicht von unseren Vorfahren, wir leihen sie von unseren Kindern.",
+			"author": null
+		},
+		{
+			"id": "114088",
+			"text": "Wenn wir all das tun würden, was wir tun könnten, dann würden wir uns sehr über uns selbst wundern.",
+			"author": "Thomas Alva Edison"
+		},
+		{
+			"id": "114089",
+			"text": "Der eigene Hund macht keinen Lärm, er bellt nur.",
+			"author": "Kurt Tucholsky"
+		},
+		{
+			"id": "114090",
+			"text": "Man braucht zwei Jahre, um sprechen zu lernen, fünfzig, um schweigen zu lernen.",
+			"author": "Ernest Hemingway"
+		},
+		{
+			"id": "114091",
+			"text": "Die Jugend wäre eine schönere Zeit, wenn sie erst später im Leben käme.",
+			"author": "Charlie Chaplin"
+		},
+		{
+			"id": "114092",
+			"text": "Zwei Wahrheiten können sich nie widersprechen.",
+			"author": "Galileo Galilei"
+		},
+		{
+			"id": "114093",
+			"text": "Du musst bereit sein die Dinge zu tun, die andere niemals tun werden, um die Dinge zu haben, die andere niemals haben werden.",
+			"author": "Les Brown"
+		},
+		{
+			"id": "114094",
+			"text": "Probleme kann man niemals mit der gleichen Denkweise lösen, durch die sie entstanden sind.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "114095",
+			"text": "Wer sich nicht entscheiden kann muss die Folgen der Entscheidungen hinnehmen, die andere für ihn treffen.",
+			"author": null
+		},
+		{
+			"id": "114096",
+			"text": "Denken ist die schwerste Arbeit, die es gibt. Das ist wahrscheinlich auch der Grund, warum sich so wenig Leute damit beschäftigen.",
+			"author": "Henry Ford"
+		},
+		{
+			"id": "114097",
+			"text": "Die Kunst zu schweigen ist größer als die Kunst zu reden.",
+			"author": "Arthur Schopenhauer"
+		},
+		{
+			"id": "114098",
+			"text": "Alles was du sagst, sollte wahr sein. Aber nicht alles was wahr ist, solltest du auch sagen.",
+			"author": "Voltaire"
+		},
+		{
+			"id": "114099",
+			"text": "Die kluge Frau folgt ihrem Mann, wohin sie will.",
+			"author": null
+		},
+		{
+			"id": "114101",
+			"text": "Der zweite Platz ist der erste Verlierer.",
+			"author": null
+		},
+		{
+			"id": "114102",
+			"text": "Alle Menschen sind klug: Die einen vorher, die anderen nachher.",
+			"author": null
+		},
+		{
+			"id": "114103",
+			"text": "Wenn du nicht bereit bist es anzupacken, miserable Fehler zu machen und es danach nochmals zu probieren, wirst du keinen Erfolg haben.",
+			"author": "Phillip Adams"
+		},
+		{
+			"id": "114104",
+			"text": "Vielleicht gibt es schönere Zeiten; aber diese ist die unsere.",
+			"author": "Jean-Paul Sartre"
+		},
+		{
+			"id": "114105",
+			"text": "Sprich immer die Wahrheit, sodass du nicht in die Lage kommst, dich erinnern zu müssen, was du mal erfunden hast.",
+			"author": null
+		},
+		{
+			"id": "114106",
+			"text": "Das wahre Maß deines Reichtums ist was du wert bist, wenn du all dein Geld verloren hast.",
+			"author": null
+		},
+		{
+			"id": "114107",
+			"text": "Lernen ohne Nachdenken ist pure Zeitverschwendung.",
+			"author": null
+		},
+		{
+			"id": "114108",
+			"text": "Lieber heimlich schlau, als unheimlich blöd.",
+			"author": null
+		},
+		{
+			"id": "114109",
+			"text": "Denn die beste Möglichkeit, die Zukunft vorauszusagen, ist sie zu gestalten.",
+			"author": "Joseph Beuys"
+		},
+		{
+			"id": "114110",
+			"text": "Gehe ganz in deinen Handlungen auf und denke, es wäre deine letzte Tat.",
+			"author": "Buddha"
+		},
+		{
+			"id": "114111",
+			"text": "Schokolade macht nicht dick, sie formt bloß.",
+			"author": null
+		},
+		{
+			"id": "114112",
+			"text": "Nimm dir Zeit zum Nachdenken, aber wenn die Zeit zum Handeln gekommen ist, dann höre auf nachzudenken und handle.",
+			"author": "Napoleon Bonaparte"
+		},
+		{
+			"id": "114113",
+			"text": "Willst du den Charakter eines Menschen erkennen, so gib ihm Macht.",
+			"author": "Abraham Lincoln"
+		},
+		{
+			"id": "114114",
+			"text": "Menschen, die sich damit abgefunden haben eine Ameise zu sein, sollten nicht meckern, wenn sie überrollt werden.",
+			"author": null
+		},
+		{
+			"id": "114115",
+			"text": "Sprich langsam, aber handle schnell.",
+			"author": "Mengzi"
+		},
+		{
+			"id": "114116",
+			"text": "Wissen macht uns verantwortlich.",
+			"author": "Che Guevara"
+		},
+		{
+			"id": "114117",
+			"text": "Wer Sicherheit der Freiheit vorzieht, ist zu Recht ein Sklave.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "114118",
+			"text": "Mehr zu hören, als zu reden, solches lehrt schon die Natur: Sie versah uns mit zwei Ohren, doch mit einer Zunge nur.",
+			"author": "Gottfried Keller"
+		},
+		{
+			"id": "114119",
+			"text": "Banken sind gefährlicher als stehende Armeen.",
+			"author": "Thomas Jefferson"
+		},
+		{
+			"id": "114120",
+			"text": "Du kannst manchmal einige Menschen täuschen, aber du kannst nicht alle Menschen die ganze Zeit täuschen.",
+			"author": "Bob Marley"
+		},
+		{
+			"id": "114121",
+			"text": "Dummheit ist auch eine natürliche Begabung.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "114122",
+			"text": "Ehrlichkeit ist das erste Kapitel im Buch der Weisheit.",
+			"author": null
+		},
+		{
+			"id": "114123",
+			"text": "Der Kluge lernt aus allem und von jedem, der Normale aus seinen Erfahrungen und der Dumme weiss alles besser.",
+			"author": "Sokrates"
+		},
+		{
+			"id": "114124",
+			"text": "Es gibt nur zwei Tage im Jahr, an denen man nichts tun kann. Der eine ist Gestern, der andere Morgen. Dies bedeutet, dass heute der richtige Tag zum Lieben, Glauben und in erster Linie zum Leben ist.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "114125",
+			"text": "Mach das Beste aus dir, etwas Besseres kannst du nicht tun.",
+			"author": "Ralph Waldo Emerson"
+		},
+		{
+			"id": "114126",
+			"text": "Jedes Ding hat drei Seiten: Eine die du siehst, eine die ich sehe und eine die wir beide nicht sehen.",
+			"author": null
+		},
+		{
+			"id": "114127",
+			"text": "Niemand weiß, was er kann, wenn er es nicht versucht.",
+			"author": "Publilius Syrus"
+		},
+		{
+			"id": "114128",
+			"text": "Ohne Grundsätze ist der Mensch wie ein Schiff ohne Steuer und Kompass, das von jedem Winde hin und her getrieben wird.",
+			"author": "Samuel Smiles"
+		},
+		{
+			"id": "114129",
+			"text": "Solange Menschen denken, dass Tiere nicht fühlen, müssen Tiere fühlen, dass Menschen nicht denken.",
+			"author": null
+		},
+		{
+			"id": "114130",
+			"text": "Manche Bücher darf man nur kosten, andere muß man verschlingen und nur wenige kauen und verdauen.",
+			"author": "Sir Francis Bacon"
+		},
+		{
+			"id": "114131",
+			"text": "Geh nicht umher und sage: Die Welt schuldet mir etwas. Die Welt schuldet dir nichts. Sie war als erstes da.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "114132",
+			"text": "Einen Nagel muss man ansetzen, bevor man ihn einschlagen kann.",
+			"author": "Klemens Oberforster"
+		},
+		{
+			"id": "114133",
+			"text": "Wir können den Wind nicht ändern, aber die Segel anders setzen.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "114134",
+			"text": "Das Problem dieser Welt ist, dass die intelligenten Menschen so voller Selbstzweifel und die Dummen so voller Selbstvertrauen sind.",
+			"author": "Charles Bukowski"
+		},
+		{
+			"id": "114135",
+			"text": "Die Basis einer gesunden Ordnung ist ein großer Papierkorb.",
+			"author": "Kurt Tucholsky"
+		},
+		{
+			"id": "114136",
+			"text": "Es gibt in der Welt selten ein schöneres Übermass als das der Dankbarkeit.",
+			"author": "Jean de la Bruyere"
+		},
+		{
+			"id": "114137",
+			"text": "Ich weiß, dass Sie glauben, Sie wüssten, was ich Ihrer Ansicht nach gesagt habe. Aber ich bin nicht sicher, ob Ihnen klar ist, dass das, was Sie gehört haben, nicht das ist, was ich meinte.",
+			"author": "Alan Greenspan"
+		},
+		{
+			"id": "114138",
+			"text": "Der Neid ist die aufrichtigste Form der Anerkennung.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "114139",
+			"text": "Wenn du die Welt verändern willst, beginne mit dem Menschen, den du jeden Morgen im Spiegel siehst.",
+			"author": "Simone Weil"
+		},
+		{
+			"id": "114140",
+			"text": "Ein Mann ist klug anhand seiner Antworten, aber weise anhand seiner Fragen.",
+			"author": "Naguib Mahfouz"
+		},
+		{
+			"id": "114141",
+			"text": "Eine gute Lektion der Geschichte ist, dass nichts oft eine gute Sache zu tun und immer eine gute Sache zu sagen ist.",
+			"author": "Will Durant"
+		},
+		{
+			"id": "114142",
+			"text": "Charakter ist das, was du bist, wenn du allein bist.",
+			"author": null
+		},
+		{
+			"id": "114143",
+			"text": "Falls du glaubst, dass du zu klein bist, um etwas zu bewirken, dann versuche mal zu schlafen, wenn eine Mücke im Raum ist.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "114144",
+			"text": "Jedes Ding hat drei Seiten: Eine die du siehst, eine die ich sehe und eine die wir beide nicht sehen.",
+			"author": null
+		},
+		{
+			"id": "114145",
+			"text": "Sie lachen über mich, weil ich anders bin. Ich lache über sie, weil sie alle gleich sind.",
+			"author": "Kurt Cobain"
+		},
+		{
+			"id": "114146",
+			"text": "Wenn du nicht fliegen kannst, dann renn. Falls du nicht rennen kannst, laufe. Wenn du nicht laufen kannst, krieche. Aber was immer du tust – du musst dich weiter bewegen.",
+			"author": "Martin Luther King"
+		},
+		{
+			"id": "114147",
+			"text": "Das einzige Mittel, Zeit zu haben, ist, sich Zeit zu nehmen.",
+			"author": "Bertha Eckstein"
+		},
+		{
+			"id": "114148",
+			"text": "Das Schweigen ist nach der Rede die zweite Großmacht der Welt.",
+			"author": null
+		},
+		{
+			"id": "114149",
+			"text": "Halte deine Freunde nahe bei dir, aber deine Feinde noch näher.",
+			"author": null
+		},
+		{
+			"id": "114150",
+			"text": "Es liesse sich alles trefflich schlichten, könnte man die Sachen zweimal verrichten.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "114151",
+			"text": "Gesunder Menschenverstand in ungewöhnlichem Maße ist das, was die Welt Weisheit nennt.",
+			"author": "Samuel Coleridge"
+		},
+		{
+			"id": "114152",
+			"text": "Zwei Dinge sind unendlich, das Universum und die menschliche Dummheit, aber bei dem Universum bin ich mir noch nicht ganz sicher.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "114153",
+			"text": "Wer der Strömung nachgeht, kommt nicht weiter als sie.",
+			"author": null
+		},
+		{
+			"id": "114154",
+			"text": "Warten können ist eine große Kunst. Nichts erwarten eine noch größere.",
+			"author": "Ingrid Bergman"
+		},
+		{
+			"id": "114155",
+			"text": "Wer kämpft, kann verlieren. Wer nicht kämpft, hat schon verloren.",
+			"author": "Bertolt Brecht"
+		},
+		{
+			"id": "114156",
+			"text": "Wer im Leben kein Ziel hat, verläuft sich.",
+			"author": "Abraham Lincoln"
+		},
+		{
+			"id": "114157",
+			"text": "Die Großen schaffen das Große, die Guten das Dauernde.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "114158",
+			"text": "Zuerst ignorieren sie dich, dann lachen sie über dich, dann bekämpfen sie dich und dann gewinnst du.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "114159",
+			"text": "Sei nicht dir selbst gegenüber stur, stehe zu deinen Fehlern. Denn nur so kannst du lernen.",
+			"author": null
+		},
+		{
+			"id": "114160",
+			"text": "Einer neuen Wahrheit ist nichts schädlicher als ein alter Irrtum.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "114161",
+			"text": "Sei Wasser, mein Freund. Leere deinen Geist. Sei ohne Form. Gestaltlos. Wie Wasser. Wenn man Wasser in eine Tasse gibt, dann wird es die Tasse. Gibt man Wasser in eine Flasche, wird es die Flasche. Gibt man Wasser in eine Teekanne, wird es die Teekanne. Wasser kann fließen, oder es kann zermalmen. Sei Wasser, mein Freund.",
+			"author": "Bruce Lee"
+		},
+		{
+			"id": "114162",
+			"text": "Erfolg im Leben ist das Resultat von guten Entscheidungen. Gute Entscheidungen sind meistens das Resultat von Erfahrungen. Erfahrungen sind meistens das Resultat von schlechten Entscheidungen.",
+			"author": "Tony Robbins"
+		},
+		{
+			"id": "114163",
+			"text": "Jeder von uns möchte anders als die anderen sein. Aber sobald jemand anders ist, beginnt das Gerede.",
+			"author": null
+		},
+		{
+			"id": "114164",
+			"text": "Städte lernen von ihren Feinden, nicht Freunden, wie man große Wände aufbaut.",
+			"author": "Aristophanes"
+		}
+	]
+}

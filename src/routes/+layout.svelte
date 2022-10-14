@@ -1,0 +1,122 @@
+<script>
+	import { onMount } from 'svelte';
+
+	import MobileStore from '../stores/MobileStore';
+	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
+	import MobileLogo from '$lib/core/MobileLogo.svelte';
+	import MobileNav from '$lib/core/MobileNav.svelte';
+	import MobileMenu from '$lib/core/MobileMenu.svelte';
+	import TheFooter from '$lib/core/TheFooter.svelte';
+
+	import '../styles/global.css';
+	import '../styles/global.scss';
+
+	// const lazyLoading = () => {
+	// 	const lazyClass = 'lazy-loading';
+	// 	const lazyImages = document.querySelectorAll(`.${lazyClass}`);
+
+	// 	if (isBot) {
+	// 		return lazyImages.forEach((image) => {
+	// 			showImage(image);
+	// 		});
+	// 	}
+
+	// 	function showImage(image) {
+	// 		image.src = image.dataset.src;
+	// 		image.classList.remove(lazyClass);
+	// 	}
+
+	// 	const lazyObserver = new IntersectionObserver(
+	// 		(elements) => {
+	// 			elements.forEach((element) => {
+	// 				if (element.isIntersecting) {
+	// 					const image = element.target;
+	// 					showImage(image);
+	// 					lazyObserver.unobserve(image);
+	// 				}
+	// 			});
+	// 		},
+	// 		{ rootMargin: '0px 0px 25% 0px', threshold: [0] }
+	// 	);
+
+	// 	lazyImages.forEach((image) => {
+	// 		lazyObserver.observe(image);
+	// 	});
+	// };
+
+	const setUserIsMobile = () => {
+		$MobileStore.userIsMobile = window.navigator.userAgent.includes('Mobile');
+	};
+
+	onMount(() => {
+		setUserIsMobile();
+		// lazyLoading();
+	});
+</script>
+
+<svelte:head>
+	<meta property="fb:app_id" content="4683318608362940" />
+	<meta property="og:site_name" content="PerfekterSpruch" />
+	<meta property="og:type" content="website" />
+
+	<meta property="og:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1200px" />
+	<meta property="og:image:height" content="630px" />
+	<meta property="og:image:alt" content="Perfekterspruch Facebook Bild" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@PerfekterSpruch" />
+	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
+</svelte:head>
+
+<div class="desktop-wrapper">
+	<DesktopHeader />
+</div>
+
+<div class="mobile-wrapper">
+	<MobileLogo />
+</div>
+
+<main>
+	<slot />
+	<TheFooter />
+</main>
+
+<div class="mobile-wrapper">
+	<MobileNav />
+	<MobileMenu />
+</div>
+
+<style lang="scss">
+	main {
+		position: relative;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		justify-items: center;
+		width: 100%;
+		margin-top: 11.5vh;
+		min-height: 100vh;
+	}
+	.desktop-wrapper {
+		display: block;
+	}
+	.mobile-wrapper {
+		display: none;
+	}
+
+	@media (max-width: 1024px) {
+		main {
+			grid-template-columns: 1fr;
+			margin-top: 2vw;
+			overflow-x: hidden;
+			margin-bottom: 100px; // delete or 50px ? calc(50px + 20vw)
+		}
+		.desktop-wrapper {
+			display: none;
+		}
+		.mobile-wrapper {
+			display: block;
+		}
+	}
+</style>

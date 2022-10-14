@@ -1,0 +1,553 @@
+{
+	"id": "geburtstagswuensche",
+	"h1title": "Geburtstagswünsche",
+	"metatitel": "Geburtstagswünsche mit Bildern zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an Geburtstagswünschen mit passenden Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "geburtstagsgruesse-seite",
+			"header": "Geburtstagsgrüße",
+			"slug": "https://perfekterspruch.de/geburtstagsgruesse/"
+		},
+		{
+			"image": "geburtstagswuensche-freundin-seite",
+			"header": "Geburtstagswünsche Freundin",
+			"slug": "https://perfekterspruch.de/geburtstagswuensche-freundin/"
+		},
+		{
+			"image": "geburtstagswuensche-frauen-seite",
+			"header": "Geburtstagswünsche für Frauen",
+			"slug": "https://perfekterspruch.de/geburtstagswuensche-fuer-frauen/"
+		},
+		{
+			"image": "geburtstagswuensche-mann-seite",
+			"header": "Geburtstagswünsche für Männer",
+			"slug": "https://perfekterspruch.de/geburtstagswuensche-mann/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "105001",
+			"image": "geburtstagswuensche/geburtstagswuensche",
+			"text": "Ich wünsche dir so viel Glück, wie der Regen Tropfen, so viel Liebe, wie die Sonne Strahlen und so viel Freude, wie der Himmel Sterne hat.",
+			"author": null
+		},
+		{
+			"id": "105002",
+			"image": "geburtstagswuensche/geburtstagswuensche-gedicht",
+			"text": "Geschenke, Lachen, Sonnenschein, es muss dein Geburtstag sein! Ich wünsche dir dazu alles Liebe und viel Glück und vom Kuchen hätt’ ich gern ein Stück!",
+			"author": "Wolf Dietrich"
+		},
+		{
+			"id": "105003",
+			"image": "geburtstagswuensche/geburtstagswuensche-kurz",
+			"text": "Lass dich feiern, genieß den Tag und bleib so, wie du bist! Happy Birthday!",
+			"author": null
+		},
+		{
+			"id": "105004",
+			"image": "geburtstagswuensche/geburtstagswuensche-facebook",
+			"text": "Ich wünsche dir 12 Monate Glück, 52 Wochen Zufriedenheit, 365 Tage voller Liebe, 8.760 Stunden ohne Stress, 525.600 Minuten Frohsinn und 31.536.000 Sekunden mit deinen Liebsten. Kurz gesagt: ein wunderschönes Jahr!",
+			"author": null
+		},
+		{
+			"id": "105005",
+			"image": "geburtstagswuensche/geburtstagswuensche-pinterest",
+			"text": "Ich wünsche dir Glück und Zufriedenheit, Sonnenschein und Heiterkeit, Liebe, Lachen, Zärtlichkeit Und ganz viel Albernheit. Wir wünschen dir alles Gute und Liebe zu deinem ganz besonderen Tag! Auf das Geburtstagskind!",
+			"author": "Uta Jeschker"
+		},
+		{
+			"id": "105006",
+			"image": "geburtstagswuensche/geburtstagswuensche-handy",
+			"text": "Heute will ich mit Handygrüßen deinen Jubeltag versüßen. Feier lustig und mit Freude noch im Kreise lieber Leute! Herzlichen Glückwunsch!",
+			"author": null
+		},
+
+		{
+			"id": "105008",
+			"image": "geburtstagswuensche/geburtstagswuensche-kollege",
+			"text": "Zu deinem Wiegenfeste wünsche ich dir viel Sonnenschein, privates und berufliches Glück und immer ein Lächeln auf den Lippen.",
+			"author": null
+		},
+		{
+			"id": "105009",
+			"image": "geburtstagswuensche/geburtstagswuensche-blumen",
+			"text": "Möge dein Geburtstag und jeder weitere Tag gefüllt sein mit der Wärme der Sonne, der Fröhlichkeit von schmunzelnden Gesichtern, den Klängen des Lachens, dem Gefühl der Liebe und der Gewissheit, dass ich an dich denke.",
+			"author": null
+		},
+		{
+			"id": "105010",
+			"image": "geburtstagswuensche/geburtstagswuensche-blume",
+			"text": "Ich wünsche dir einen wundervollen Tag, viel Freude, Gesundheit und Zufriedenheit für das nächste Jahr und viel Glück für alles, was du dir vornimmst.",
+			"author": null
+		},
+		{
+			"id": "105011",
+			"image": "geburtstagswuensche/geburtstagswuensche-whatsapp",
+			"text": "Ich wünsche dir Glück und Zufriedenheit, Sonnenschein und Heiterkeit, Liebe, Lachen, Zärtlichkeit Und ganz viel Albernheit.",
+			"author": "Uta Jeschker"
+		},
+		{
+			"id": "105012",
+			"image": "geburtstagswuensche/geburtstagswuensche-ehrentag",
+			"text": "Wir wünschen dir zu deinem heutigen Ehrentage nur das Beste und ganz viel Freude. Lass es dir gut gehen!",
+			"author": null
+		},
+		{
+			"id": "105013",
+			"image": "geburtstagswuensche/happy-birthday",
+			"text": "Zum Geburtstag wünsche ich dir, dass du dieses neue Jahr ab sofort zu deinem schönsten Jahr machst. Happy Birthday!",
+			"author": null
+		},
+
+		{
+			"id": "105015",
+			"image": "geburtstagswuensche/happy-birthday-gedicht",
+			"text": "Sonne, Mond und Sterne, alles ist in weiter Ferne. Doch was ich Dir wünsche, das ist ganz nah, ein glückliches gesundes neues Lebensjahr!",
+			"author": null
+		},
+		{
+			"id": "105016",
+			"image": "geburtstagswuensche/happy-birthday-gedichte",
+			"text": "Zu Deinem Geburtstag wünsche ich Dir alles Liebe und Gute! Gesundheit, Glück und Frohsinn sollen deine Begleiter sein!",
+			"author": null
+		},
+		{
+			"id": "105017",
+			"image": "geburtstagswuensche/happy-birthday-whatsapp",
+			"text": "Viel Glück, Mut, Zufriedenheit für deine ganze Lebenszeit Dass die Sonne immer lacht für dich, das und noch viel mehr wünsche ich.",
+			"author": null
+		},
+		{
+			"id": "105018",
+			"image": "geburtstagswuensche/happy-birthday-blumen",
+			"text": "Happy Birthday to you! Ich wünsche Dir ganz viele Umarmungen und Küsse zum Geburtstag.",
+			"author": null
+		},
+		{
+			"id": "105019",
+			"image": "geburtstagswuensche/happy-birthday-facebook",
+			"text": "Tausend Ballons und ein Ferrari vor der Tür. Dieses und viel mehr wünsche ich Dir. Doch mein größter Wunsch: Bleib wie Du bist. Alle sollen wissen, welch toller Mensch Du bist.",
+			"author": null
+		},
+		{
+			"id": "105020",
+			"image": "geburtstagswuensche/happy-birthday-pinterest",
+			"text": "Statistiken besagen, dass Menschen, die viele Geburtstage haben, länger leben!",
+			"author": null
+		}
+	],
+
+	"weiteredata": [
+		{
+			"id": "105021",
+			"text": "Ich sende dir viele liebe Grüße zum Geburtstag! Bleib gesund und glücklich!",
+			"author": null
+		},
+		{
+			"id": "105022",
+			"text": "Mit Geburtstagen will uns die Natur sagen, dass wir mehr Kuchen essen sollen!",
+			"author": null
+		},
+		{
+			"id": "105023",
+			"text": "Beinahe hätte ich’s verpasst, dass du heut‘ Geburtstag hast. Zum Glück?? ist’s mir noch eingefallen, drum alles Gute von uns allen. Happy Birthday!??",
+			"author": null
+		},
+		{
+			"id": "105024",
+			"text": "Happy Birthday to you - Marmelade im Schuh! Alles Gute für Dich!",
+			"author": null
+		},
+		{
+			"id": "105025",
+			"text": "Ich bin diesen Monat ein ganzes Jahr älter, als ich es vor zwölf Monaten war.",
+			"author": null
+		},
+		{
+			"id": "105026",
+			"text": "Mit dem Leben ists wie mit dem Gelde: man muß beides ausgeben, um etwas davon zu haben.",
+			"author": "Emil Gött"
+		},
+		{
+			"id": "105027",
+			"text": "Zum Geburtstag wünsche ich dir, dass du jeden Tag so glücklich bist, wie heute!",
+			"author": null
+		},
+		{
+			"id": "105028",
+			"text": "Weg, weg mit Wünschen, Reimen, Schwänken! Trinkt fleißig, aber trinket still! Wer wird an die Gesundheit denken, wenn man die Gläser leeren will?",
+			"author": null
+		},
+		{
+			"id": "105029",
+			"text": "Zum Geburtstag wünsche ich dir soviel Spannendes wie du aushalten kannst, soviel Erfolg wie du möchtest, soviel Glück wie du kriegen kannst und soviel Gesundheit wie es nur geht!",
+			"author": null
+		},
+		{
+			"id": "105030",
+			"text": "Ich wünsche dir zu deinem Wiegenfeste, vom Tollen das Tollste und vom Guten das Beste.",
+			"author": null
+		},
+		{
+			"id": "105031",
+			"text": "Denk daran, Dir beim Auspusten der Kerzen etwas zu wünschen! Möge sich dieser Wunsch erfüllen!",
+			"author": null
+		},
+		{
+			"id": "105032",
+			"text": "Heute bin ich aufgewacht, habe an dich gedacht und da fiel mir ein, heute muss dein Geburtstag sein. Happy Birthday!",
+			"author": null
+		},
+		{
+			"id": "105035",
+			"text": "Happy Birthday liebes Geburtstagskind! Nun bist du wieder ein Jahr älter, so wünsch ich dir bleib gesund und heiter.",
+			"author": null
+		},
+
+		{
+			"id": "105037",
+			"text": "Jeden Tag soll man genießen, froh und lustig. soll man sein. So wünsch‘ ich für alle Stunden Freude, Glück und Sonnenschein! Herzliche Grüße zum Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "105038",
+			"text": "Ich wünsche Dir Glück und Segen sowie Erfolg für das neue Lebensjahr!",
+			"author": null
+		},
+
+		{
+			"id": "105040",
+			"text": "Alter: das ist immer noch das einzige Mittel, das man entdeckt hat, um lange leben zu können.",
+			"author": "Daniel Francois Esprit Auber"
+		},
+
+		{
+			"id": "105042",
+			"text": "Die besten Tage des letzten Jahres mögen die Schlechtesten des kommen sein. Herzlichen Glückwunsch zum Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "105043",
+			"text": "Der Lack ist zwar ab, aber die Grundierung ist immer noch erste Sahne!",
+			"author": null
+		},
+		{
+			"id": "105044",
+			"text": "Geburtstage sind nicht dazu da, um wehmütig zurückzublicken, sondern um hoffnungsvoll vorauszuschauen!",
+			"author": null
+		},
+		{
+			"id": "105045",
+			"text": "Man beginnt immer deutlicher zu erkennen: Das Leben ist nur eine Zeit der Aussaat, und die Ernte ist nicht hier.",
+			"author": "Vincent van Gogh"
+		},
+		{
+			"id": "105046",
+			"text": "Ich wünsche zum Geburtstagsfeste, vom Schönsten das Schönste, vom Guten das Beste.",
+			"author": null
+		},
+		{
+			"id": "105047",
+			"text": "Die Sonne soll für dich scheinen und jeden Tag zu einem glücklichen machen.",
+			"author": null
+		},
+		{
+			"id": "105048",
+			"text": "Zum Geburtstag wünsche ich dir alles Gute und viel Glück für das kommende Jahr!",
+			"author": null
+		},
+		{
+			"id": "105049",
+			"text": "Man wird nicht älter, sondern besser.",
+			"author": null
+		},
+		{
+			"id": "105050",
+			"text": "Ein neues Jahr des Lebens heißt: neue Gnade, neues Licht, neue Gedanken, neue Wege zum Ziel der neuen Wege.",
+			"author": "Otto Riethmüller"
+		},
+
+		{
+			"id": "105052",
+			"text": "Mögest du leben, solange du willst – und es wollen, solange du lebst!",
+			"author": null
+		},
+		{
+			"id": "105053",
+			"text": "Ein Jahr älter – nimm es nicht so schwer und erhalte dir die Faxen, denn sonst bist du erwachsen. Herzlichen Glückwunsch zum Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "105054",
+			"text": "Kummer, sei lahm! Sorge, sei blind! Es lebe das Geburtstagskind!",
+			"author": "Theodor Fontane"
+		},
+		{
+			"id": "105055",
+			"text": "Ich schicke dir tausend Küsse und Umarmungen zum Geburtstag! Happy Birthday!",
+			"author": null
+		},
+		{
+			"id": "105056",
+			"text": "Bleib gesund und stets vergnügt, weil mir das am Herzen liegt.",
+			"author": null
+		},
+		{
+			"id": "105057",
+			"text": "Ich wünsche dir vom Herzen alles gute zu deinem Geburtstag und bedenke stets: Die wirklich schönen Dinge im Leben sind kostenlos – Umarmungen, Lächeln, Familie, Freunde und natürlich Liebe.",
+			"author": null
+		},
+		{
+			"id": "105058",
+			"text": "Für dich soll jeder Tag noch schöner sein als der vorherige. Zum Geburtstag alles Liebe und Gute!",
+			"author": null
+		},
+		{
+			"id": "105059",
+			"text": "Alles Liebe und Gute zu Deinem Geburtstag! Lass Dich ordnungsgemäß feiern und genieße Deinen Tag.",
+			"author": null
+		},
+		{
+			"id": "105060",
+			"text": "Happy Birthday und alles Liebe zu deinem Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "105061",
+			"text": "Ein Jährchen älter, sei nicht sauer. du wirst nur reifer, interessanter und immer schlauer.",
+			"author": null
+		},
+		{
+			"id": "105062",
+			"text": "Es ist gut, wenn uns die verrinnende Zeit nicht als etwas erscheint, das uns verbraucht oder zerstört, sondern als etwas, das uns vollendet.",
+			"author": null
+		},
+		{
+			"id": "105063",
+			"text": "Mögest du leben, so lange du willst und es wollen, so lange du lebst.",
+			"author": null
+		},
+		{
+			"id": "105064",
+			"text": "Ich wünsche dir ein Jahr voller Freude und Erfolg!",
+			"author": null
+		},
+		{
+			"id": "105066",
+			"text": "Nicht nur heute, sondern jeden Tag wünsche ich dir Glück, Gesundheit und Spaß am Leben.",
+			"author": null
+		},
+		{
+			"id": "105067",
+			"text": "Auch dieser Geburtstag ist der Start in eine 365 Tage dauernde Reise der Erde um die Sonne. Genieße die nächste Runde!",
+			"author": null
+		},
+		{
+			"id": "105068",
+			"text": "Wer so viele Kerzen auspusten kann, hat noch massig Luft nach oben!",
+			"author": null
+		},
+
+		{
+			"id": "105070",
+			"text": "Ich wünsche dir zum Wiegenfeste von ganzem Herzen alles Beste und außerdem – das ist ganz klar: Ein schönes neues Lebensjahr!",
+			"author": null
+		},
+
+		{
+			"id": "105072",
+			"text": "Statistiken besagen, dass Menschen die viele Geburtstage haben länger leben!",
+			"author": null
+		},
+		{
+			"id": "105073",
+			"text": "Was Du heute kannst entkorken, das verschiebe nicht auf morgen! Prost!",
+			"author": null
+		},
+
+		{
+			"id": "105075",
+			"text": "Ich hoffe du feierst deinen Geburtstag so, wie du auf die Welt gekommen bist. Nackt und schreiend. Happy Birthday.",
+			"author": null
+		},
+		{
+			"id": "105076",
+			"text": "Wir wünschen dir ein buntes Fest und drücken dich zum Geburtstag ganz fest.",
+			"author": null
+		},
+		{
+			"id": "105077",
+			"text": "Liebes Geburtstagskind, viele Kerzen thronen heute auf der Torte. Puste sie alle aus und wünsche dir was. Dass es in Erfüllung geht, dabei helfe ich dir. Alles Gute!",
+			"author": null
+		},
+		{
+			"id": "105078",
+			"text": "Das Geheimnis des Glücks ist, statt der Geburtstage die Höhepunkte des Lebens zu zählen.",
+			"author": null
+		},
+
+		{
+			"id": "105080",
+			"text": "Die allerbesten Wünsche zu Deinem Geburtstag senden wir Dir aus der Ferne, wobei wir hoffen, dass Du Dein Glas mit uns von weitem erheben wirst.",
+			"author": null
+		},
+		{
+			"id": "105081",
+			"text": "Du sollst jeden Tag glücklich aufwachen und zufrieden ins Bett gehen. Happy Birthday!",
+			"author": null
+		},
+		{
+			"id": "105082",
+			"text": "Will das Glück nach seinem Sinn dir was Gutes schenken, sage Dank und nimm es hin ohne viel Bedenken.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "105083",
+			"text": "Möge das kommende Lebensjahr viele wunderbare Abenteuer, Erfolge und tolle Erinnerungen bringen.",
+			"author": null
+		},
+		{
+			"id": "105084",
+			"text": "Lass dich reich beschenken, genieße den Tag und freue dich auf das wundervolle Jahr, das vor dir liegt.",
+			"author": null
+		},
+		{
+			"id": "105085",
+			"text": "Mögen all deine Träume und Wünsche wahr werden.",
+			"author": null
+		},
+
+		{
+			"id": "105087",
+			"text": "Nur Mut! Im neuen Lebensjahr wird alles gut.",
+			"author": null
+		},
+		{
+			"id": "105088",
+			"text": "Alles Gute zum Geburtstag! Wir freuen uns riesig mit dir und hoffen, dass alle deine Träume in Erfüllung gehen.",
+			"author": null
+		},
+
+
+		{
+			"id": "105091",
+			"text": "Zu deinem Geburtstag wünsche ich dir nicht nur Gesundheit, Liebe und Glück. Ich wünsche ich dir von Herzen, dass alle deine Wünsche in Erfüllung gehen und du deine persönlichen Ziele erreichst.",
+			"author": null
+		},
+		{
+			"id": "105092",
+			"text": "Viel Glück und viel Segen auf all deinen Wegen, Gesundheit und Frohsinn, sei auch mit dabei!",
+			"author": "Werner Kneist"
+		},
+		{
+			"id": "105093",
+			"text": "Ich wünsche dir zum Geburtstagsfeste: Vom Schönen das Schönste und vom Guten das Beste.",
+			"author": null
+		},
+
+		{
+			"id": "105095",
+			"text": "Wer so viele Kerzen auspusten kann, hat noch massig Luft nach oben!",
+			"author": null
+		},
+		{
+			"id": "105096",
+			"text": "Zu Deinem Geburtstag sende ich Dir gute Wünsche für das neue Lebensjahr: Glück und Erfolg sollen Dich auch in Zukunft begleiten, mögest Du gesund bleiben und Dir Deinen Frohsinn bewahren.",
+			"author": null
+		},
+
+		{
+			"id": "105098",
+			"text": "Hab einen wundervollen Tag mit wundervollen Menschen, die immer an deiner Seite stehen mögen.",
+			"author": null
+		},
+		{
+			"id": "105099",
+			"text": "Ich hoffe, liebevolle Überraschungen fliegen dir heute entgegen. Machen dir deinen Geburtstag zu einem wundervollen Tag.",
+			"author": null
+		},
+		{
+			"id": "105100",
+			"text": "Zum Geburtstag wünsche ich dir nur das Beste, Gesundheit vorne an Doch schenke ich dir das Allerbeste, meine Wenigkeit voran.",
+			"author": null
+		},
+		{
+			"id": "105101",
+			"text": "Zu Deinem Ehrentag gratuliere ich Dir ganz herzlich! Ich wünsche Dir den Mut, neue Dinge anzupacken, Glück und gutes Gelingen für all Deine Vorhaben.",
+			"author": null
+		},
+		{
+			"id": "105102",
+			"text": "Feiere jeden Geburtstag als ob es der letzte wäre und bedenke, daß Liebe das einzige Geschenk ist, das wirklich die Mühe wert ist, zu geben.",
+			"author": null
+		},
+		{
+			"id": "105103",
+			"text": "Willst du wissen, wie alt du bist, so frage nicht die Jahre, die du gelebt hast, sondern den Augenblick, den du genießt.",
+			"author": "Arthur Schnitzler"
+		},
+		{
+			"id": "105104",
+			"text": "Nicht lange will ich meine Wünsche wählen, bescheiden wünsch ich zweierlei: Noch fünfzig solcher Tage sollst du zählen, und allemal sei ich dabei.",
+			"author": "Eduard Mörike"
+		},
+		{
+			"id": "105105",
+			"text": "Die Zeit ist wie ein Bild von Mosaik, zu nah beschaut, verwirrt es nur den Blick; willst du des Ganzen Art und Sinn verstehn, so mußt dus, Freund, aus rechter Ferne sehn.",
+			"author": null
+		},
+		{
+			"id": "105106",
+			"text": "Herzlichen Glückwunsch! Lass dich feiern und reich beschenken!",
+			"author": null
+		},
+		{
+			"id": "105107",
+			"text": "Ich wünsche dir 365 Tage voller Glück, Liebe, Lachen und Gesundheit.",
+			"author": null
+		},
+		{
+			"id": "105108",
+			"text": "Ja, auf das Geburtstagskind trink ich einen kräftigen Schluck, und darin enthalten sind: Glückwunsch, Gruß und Händedruck.",
+			"author": null
+		},
+		{
+			"id": "105109",
+			"text": "Kummer sei lahm! Sorge sei blind! Es lebe das Geburtstagskind!",
+			"author": null
+		},
+		{
+			"id": "105110",
+			"text": "Kein kluger Mensch hat sich jemals gewünscht, jünger zu sein.",
+			"author": null
+		},
+
+		{
+			"id": "105112",
+			"text": "Ein Jährchen älter, sei nicht sauer. Du wirst nur reifer, interessanter und immer schlauer.",
+			"author": null
+		},
+
+
+
+		{
+			"id": "105116",
+			"text": "Möge Dir das neue Lebensjahr Glück, Gesundheit sowie viele schöne Momente bringen!",
+			"author": null
+		},
+		{
+			"id": "105117",
+			"text": "Werde, was du noch nicht bist, bleibe, was du jetzt schon bist. In diesem Bleiben und diesem Werden liegt alles Schöne hier auf Erden.",
+			"author": null
+		},
+
+		{
+			"id": "105119",
+			"text": "Heute denke ich an dich, weil du Geburtstag hast. Morgen denke ich an dich, weil ich dich mag. In einer Woche denke ich an dich, weil ich dich vermisse. In einem Monat denke ich an dich, weil ich froh bin, dass du da bist. So denke ich immer an dich, nicht nur heute.",
+			"author": null
+		}
+	]
+}

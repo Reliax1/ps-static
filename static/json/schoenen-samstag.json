@@ -1,0 +1,92 @@
+{
+	"id": "schoenen-samstag",
+	"h1title": "Schönen Samstag Sprüche",
+	"metatitel": "Schönen Samstag Sprüche mit Bildern zum herunterladen",
+	"metacontent": "Hier findest du eine große Auswahl an schönen und lustigen Samstag Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "guten-morgen-samstag-seite",
+			"header": "Guten Morgen Samstag",
+			"slug": "https://perfekterspruch.de/guten-morgen-samstag/"
+		},
+		{
+			"image": "schoenes-wochenende-bilder-seite",
+			"header": "Schönes Wochenende Bilder",
+			"slug": "https://perfekterspruch.de/schoenes-wochenende-bilder/"
+		},
+		{
+			"image": "schoenen-tag-seite",
+			"header": "Schönen Tag",
+			"slug": "https://perfekterspruch.de/schoenen-tag/"
+		},
+		{
+			"image": "guten-morgen-lustig-seite",
+			"header": "Guten Morgen lustig",
+			"slug": "https://perfekterspruch.de/guten-morgen-lustig/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "118001",
+			"image": "schoenensamstag/schoenen-samstag-kurz",
+			"text": "Es ist Wochenende! Habt ein schönen Samstag! Viel Spaß bei allem was ihr macht.",
+			"author": null
+		},
+		{
+			"id": "118002",
+			"image": "schoenensamstag/schoenen-samstag-sprueche",
+			"text": "Mit lieben Grüßen will ich Dir den Samstag versüßen! Lass den Stress der Woche hinter Dir, erhol Dich gut und hab‘ ein Happy Weekend!",
+			"author": null
+		},
+		{
+			"id": "118003",
+			"image": "schoenensamstag/schoenen-samstag-spruch",
+			"text": "Wir haben es geschafft. Hurraaa, der Samstag ist daaa! Kommt alle gut durch das Wochenende.",
+			"author": null
+		},
+		{
+			"id": "118004",
+			"image": "schoenensamstag/schoenen-samstag-whatsapp",
+			"text": "Zu einem perfekten Samstag gehörst immer Du. Schön, dass es dich gibt.",
+			"author": null
+		},
+		{
+			"id": "118005",
+			"image": "schoenensamstag/schoenen-samstag-instagram",
+			"text": "Der frühe Vogel kann den Wurm gerne haben. Ich nehme den Kaffee. Einen schönen Samstag.",
+			"author": null
+		},
+		{
+			"id": "118006",
+			"image": "schoenensamstag/schoenen-samstag-facebook",
+			"text": "Hallo Lieblingsmensch. Schön, dass wir uns kennen. Ich wünsche dir einen wundervollen Samstag.",
+			"author": null
+		},
+		{
+			"id": "118007",
+			"image": "schoenensamstag/schoenen-samstag-pinterest",
+			"text": "Meine Bestellung für heute: 4 x Samstag und 5 x Sonntag, bitte. Einen schönen Samstag an alle.",
+			"author": null
+		},
+		{
+			"id": "118008",
+			"image": "schoenensamstag/schoenensamstag008",
+			"text": "Hallöchen, liebe Freunde. Es ist Samstag. Das Wochenende ist da. Genießt es also in vollen Zügen. Ich sende euch liebe Grüße.",
+			"author": null
+		},
+		{
+			"id": "118009",
+			"image": "schoenensamstag/schoenen-samstag",
+			"text": "Vorsicht ankommender Samstag. Wenn Samstag kommt, deutlich freuen und ihn genießen. Viel Spaß dabei!",
+			"author": null
+		},
+		{
+			"id": "118010",
+			"image": "schoenensamstag/schoenes-wochenende",
+			"text": "Heute kann es regnen, stürmen oder schneien, ich sitz vor dem Fernseher und trinke meinen Wein.",
+			"author": null
+		}
+	]
+}

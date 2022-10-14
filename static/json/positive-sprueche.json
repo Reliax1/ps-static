@@ -1,0 +1,729 @@
+{
+	"id": "positive-sprueche",
+	"h1title": "Positive Sprüche",
+	"metatitel": "Positive Sprüche mit Bildern zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an positiven Sprüchen mit Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "lebensmotto-seite",
+			"header": "Lebensmotto",
+			"slug": "https://perfekterspruch.de/lebensmotto/"
+		},
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+			"header": "Sprüche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		},
+		{
+			"image": "weise-sprueche-seite",
+			"header": "Weise Sprüche",
+			"slug": "https://perfekterspruch.de/weise-sprueche/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+			"header": "Gute Sprüche",
+			"slug": "https://perfekterspruch.de/gute-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "116001",
+			"image": "positivesprueche/positive-sprueche",
+			"text": "Sei du selbst die Veränderung, die du dir wünschst für diese Welt.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "116002",
+			"image": "positivesprueche/positiver-spruech",
+			"text": "Es ist niemals zu spät - niemals zu spät, neu anzufangen; niemals zu spät, glücklich zu sein.",
+			"author": null
+		},
+		{
+			"id": "116003",
+			"image": "positivesprueche/positive-sprueche-whatsapp",
+			"text": "Beginne jeden Tag mit einem positiven Gedanken und einem dankbaren Herzen.",
+			"author": "Roy T. Bennett"
+		},
+		{
+			"id": "116004",
+			"image": "positivesprueche/positive-sprueche-pinterest",
+			"text": "Wenn du es dir vorstellen kannst, kannst du es auch tun.",
+			"author": "Walt Disney"
+		},
+		{
+			"id": "116005",
+			"image": "positivesprueche/sprueche-positiv",
+			"text": "Das Glück ist schon da. Es ist in uns. Wir haben es nur vergessen und müssen uns wieder daran erinnern.",
+			"author": "Socrates"
+		},
+		{
+			"id": "116006",
+			"image": "positivesprueche/positive-sprueche-buddha",
+			"text": "Was du denkst, bist du. Was du bist, strahlst du aus. Was du ausstrahlst, ziehst du an.",
+			"author": "Buddha"
+		},
+		{
+			"id": "116007",
+			"image": "positivesprueche/positive-sprueche-leben",
+			"text": "Positiv zu bleiben, bedeutet nicht, dass man immer glücklich sein muss. Es bedeutet, dass man auch an schweren Tagen weiß, dass es bessere Tagen geben wird.",
+			"author": null
+		},
+		{
+			"id": "116008",
+			"image": "positivesprueche/positive-sprueche-facebook",
+			"text": "Optimismus ist ein Glücksmagnet. Wenn du positiv bleibst, werden dich gute Dinge und gute Menschen anziehen.",
+			"author": "Mary Lou Retton"
+		},
+		{
+			"id": "116009",
+			"image": "positivesprueche/positive-sprueche-kurz",
+			"text": "Sei stärker als deine stärkste Ausrede.",
+			"author": null
+		},
+		{
+			"id": "116010",
+			"image": "positivesprueche/positive-sprueche-nachdenken",
+			"text": "Gestern war ich schlecht gelaunt und alles ging daneben. Heute bin ich ganz erstaunt, wie schön es ist, zu leben.",
+			"author": "Frantz Wittkamp"
+		},
+		{
+			"id": "116011",
+			"image": "positivesprueche/schoene-positive-sprueche",
+			"text": "Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "116012",
+			"image": "positivesprueche/positive-sprueche-zum-nachdenken",
+			"text": "Der Horizont ist immer düster, wenn man nur während eines Sturms aufsieht.",
+			"author": null
+		},
+		{
+			"id": "116013",
+			"image": "positivesprueche/kluge-positive-sprueche",
+			"text": "Deine härtesten Zeiten führen oft zu den größten Momenten deines Lebens. Machen Sie weiter. Schwierige Situationen schaffen am Ende starke Menschen.",
+			"author": "Roy T. Bennett"
+		},
+		{
+			"id": "116014",
+			"image": "positivesprueche/weise-positive-sprueche",
+			"text": "Probleme sind verkleidete Möglichkeiten.",
+			"author": "Henry Ford"
+		},
+		{
+			"id": "116015",
+			"image": "positivesprueche/interesante-positive-sprueche",
+			"text": "Im Leben kommt es nicht darauf an, ein gutes Blatt in der hand zu haben, sondern mit schlechten Karten gut zu spielen.",
+			"author": "Robert Louis Stevenson"
+		},
+		{
+			"id": "116016",
+			"image": "positivesprueche/positive-sprueche-bild",
+			"text": "Gib jedem Tag die Chance, der schönste deines Lebens zu werden.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "116017",
+			"image": "positivesprueche/positive-sprueche-status",
+			"text": "Lass dir von niemandem sagen, was du schaffen kannst und was nicht. Tu, was du tun möchtest und sei, wer du sein möchtest!",
+			"author": null
+		},
+		{
+			"id": "116018",
+			"image": "positivesprueche/positive-sprueche-whatsapp-status",
+			"text": "Die Kunst ist, einmal mehr aufzustehen, als man umgeworfen wird.",
+			"author": "Winston Churchill"
+		},
+		{
+			"id": "116019",
+			"image": "positivesprueche/positive-sprueche-bilder",
+			"text": "Du wirst morgen sein, was Du heute denkst.",
+			"author": "Buddha"
+		},
+		{
+			"id": "116020",
+			"image": "positivesprueche/bilder-positive-sprueche",
+			"text": "Niemand, der sein Bestes gegeben hat, hat es später bereut.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "116021",
+			"text": "Sei kein Gefangener deiner Vergangenheit, sondern der Architekt deiner Zukunft.",
+			"author": null
+		},
+		{
+			"id": "116022",
+			"text": "Der Sinn des Lebens ist ein Leben mit Sinn.",
+			"author": "Robert Burns"
+		},
+		{
+			"id": "116023",
+			"text": "Auch aus Steinen, die einem in den Weg gelegt werden, kann man etwas Schönes bauen.",
+			"author": null
+		},
+		{
+			"id": "116024",
+			"text": "Schaue immer in Richtung Sonne und alle Schatten werden hinter dich fallen.",
+			"author": "Walt Whitman"
+		},
+		{
+			"id": "116025",
+			"text": "Sobald du negative Gedanken durch positive ersetzt hast, wirst du positive Ergebnisse haben.",
+			"author": "Willie Nelson"
+		},
+		{
+			"id": "116026",
+			"text": "Es gibt zwei Arten, sein Leben zu leben: Entweder so, als wäre nichts ein Wunder, oder so, als wäre Alles eines.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "116027",
+			"text": "Trau dich, sei mutig! Kein Übel ist so schlimm wie die Angst davor.",
+			"author": "Seneca"
+		},
+		{
+			"id": "116028",
+			"text": "Die größten Menschen sind jene, die anderen Hoffnung geben können.",
+			"author": "Jean Jaurès"
+		},
+		{
+			"id": "116029",
+			"text": "Wer kämpft, kann verlieren. Wer nicht kämpft, hat schon verloren.",
+			"author": "Bertolt Brecht"
+		},
+		{
+			"id": "116030",
+			"text": "Ein positiver Gedanke am Morgen kann Deinen ganzen Tag verändern.",
+			"author": null
+		},
+		{
+			"id": "116031",
+			"text": "Ein Optimist ist ein Mensch, der alles halb so schlimm oder doppelt so gut findet.",
+			"author": "Heinz Rühmann"
+		},
+		{
+			"id": "116032",
+			"text": "Richte deinen Fokus auf die Lösung und nicht auf das Problem.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "116033",
+			"text": "Du lächelst – und die Welt verändert sich.",
+			"author": "Buddha"
+		},
+		{
+			"id": "116034",
+			"text": "Ich bin nicht gescheitert – ich habe 10.000 Wege entdeckt, die nicht funktioniert haben.",
+			"author": "Thomas Alva Edison"
+		},
+		{
+			"id": "116035",
+			"text": "Egal, was du durchmachst, es gibt ein Licht am Ende des Tunnels und es mag schwer erscheinen, es zu erreichen, aber du kannst es tun und einfach weiter daran arbeiten und du wirst die positive Seite der Dinge finden.",
+			"author": "Demi Lovato"
+		},
+		{
+			"id": "116036",
+			"text": "Wenn du etwas Positives erreichen willst, solltest du wissen, wie man Nein sagt.",
+			"author": "Pavel Kosorin"
+		},
+		{
+			"id": "116037",
+			"text": "Untergangspropheten, die vom Pessimismus leben – und gar nicht schlecht – empfinden jede Art von Zuversicht zwangsläufig als Existenzbedrohung.",
+			"author": "Bob Hope"
+		},
+		{
+			"id": "116038",
+			"text": "Der Tod lächelt uns alle an, das einzige was man machen kann ist zurücklächeln!",
+			"author": "Marcus Aurelius"
+		},
+		{
+			"id": "116039",
+			"text": "Aus einer negativen Situation wird immer eine positive.",
+			"author": "Michael Jordan"
+		},
+		{
+			"id": "116040",
+			"text": "Es ist besser, ein einziges kleines Licht anzuzünden, als die Dunkelheit zu verfluchen.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "116041",
+			"text": "Behalte dein Gesicht in der Sonne und du kannst keinen Schatten sehen.",
+			"author": "Helen Keller"
+		},
+		{
+			"id": "116042",
+			"text": "Man darf sich niemals von einem schlechten Moment, all die guten Momente verderben lassen.",
+			"author": null
+		},
+		{
+			"id": "116043",
+			"text": "Der Optimist erklärt, dass wir in der besten aller Welten leben, und der Pessimist fürchtet, dass dies wahr ist.",
+			"author": "James Branch Cabell"
+		},
+		{
+			"id": "116044",
+			"text": "Was immer mir das Leben zuwirft – ich nehme es und bin dankbar dafür.",
+			"author": "Tom Felton"
+		},
+		{
+			"id": "116045",
+			"text": "Gib niemals auf, denn du weißt nie, wie nah du deinem Ziel wirklich bist.",
+			"author": null
+		},
+		{
+			"id": "116046",
+			"text": "Wenn der Weg unendlich scheint und plötzlich nichts mehr gehen will, gerade dann darfst du nicht zaudern.",
+			"author": "Dag Hammarskjöld"
+		},
+		{
+			"id": "116047",
+			"text": "Versagen darfst du, aber nie aufgeben.",
+			"author": "Mary Crowley"
+		},
+		{
+			"id": "116048",
+			"text": "Wenn die jemand sagt Das geht nicht, denk daran: Das sind seine Grenzen, nicht deine!",
+			"author": null
+		},
+		{
+			"id": "116049",
+			"text": "Lebe jeden Tag, als hätte dein Leben gerade erst begonnen.",
+			"author": null
+		},
+		{
+			"id": "116050",
+			"text": "Was für ein wunderbares Leben ich hatte! Ich wünschte nur, ich hätte das früher realisiert.",
+			"author": null
+		},
+		{
+			"id": "116051",
+			"text": "Mit Mut fangen die schönsten Geschichten an.",
+			"author": null
+		},
+		{
+			"id": "116052",
+			"text": "Das Leben schmeißt keine Partys für dich. Das musst du schon selbst machen!",
+			"author": null
+		},
+		{
+			"id": "116053",
+			"text": "Wenn du den Eindruck hast, dass das Leben Theater ist, dann such dir eine Rolle aus, die dir so richtig Spaß macht.",
+			"author": "William Shakespeare"
+		},
+		{
+			"id": "116054",
+			"text": "Pessimismus führt zu Schwäche, Optimismus zu Macht.",
+			"author": "William James"
+		},
+		{
+			"id": "116055",
+			"text": "Suche nicht nach Fehlern, suche nach Lösungen.",
+			"author": "Henry Ford"
+		},
+		{
+			"id": "116056",
+			"text": "Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "116057",
+			"text": "Wer Gutes tut, erhält positives Karma und wird Gutes zurück bekommen.",
+			"author": null
+		},
+		{
+			"id": "116058",
+			"text": "Positives Denken ist schlimmstenfalls eine Nullnummer.",
+			"author": "Ernst Ferstl"
+		},
+		{
+			"id": "116059",
+			"text": "Achte auf das Kleine in der Welt, das macht das Leben reicher und zufriedener.",
+			"author": "Carl Hilty"
+		},
+		{
+			"id": "116060",
+			"text": "Ich schaue immer gerne auf die optimistische Seite des Lebens, aber ich bin realistisch genug, um zu wissen, dass das Leben eine komplexe Angelegenheit ist.",
+			"author": "Walt Disney"
+		},
+		{
+			"id": "116061",
+			"text": "Auch Wolkenkratzer haben mal ganz unten begonnen.",
+			"author": "Hanno Nühm"
+		},
+		{
+			"id": "116062",
+			"text": "Fange nie an aufzuhören. Höre nie auf anzufangen.",
+			"author": "Cicero"
+		},
+		{
+			"id": "116063",
+			"text": "Man sieht nur mit dem Herzen gut. Das Wesentliche ist für die Augen unsichtbar.",
+			"author": "Antoine de Saint-Exupéry"
+		},
+		{
+			"id": "116064",
+			"text": "Einen Vorsprung im Leben hat, wer da anpackt, wo die anderen erst einmal reden.",
+			"author": "John F. Kennedy"
+		},
+		{
+			"id": "116065",
+			"text": "Positive Taten setzen eine positive Einstellung voraus.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "116066",
+			"text": "Charlie Brown: \"Eines Tages werden wir sterben, Snoopy.\"Snoopy: \"Ja, aber alle anderen Tage werden wir leben!\"",
+			"author": null
+		},
+		{
+			"id": "116067",
+			"text": "Für den Optimisten ist das Leben kein Problem, sondern bereits die Lösung.",
+			"author": "Marcel Pagnol"
+		},
+		{
+			"id": "116068",
+			"text": "Niemand weiß, was er kann, bis er es probiert hat.",
+			"author": "Publilius Syrus"
+		},
+		{
+			"id": "116069",
+			"text": "Aus einer negativen Situation wird immer eine positive.",
+			"author": "Michael Jordan"
+		},
+		{
+			"id": "116070",
+			"text": "Die Hoffnungslosigkeit ist schon die vorweggenommene Niederlage.",
+			"author": "Karl Jaspers"
+		},
+		{
+			"id": "116071",
+			"text": "Optimistisch ist diejenige Weltanschauung, die das Sein höher als das Nichts stellt und so die Welt und das Leben als etwas an sich Wertvolles bejaht.",
+			"author": "Albert Schweitzer"
+		},
+		{
+			"id": "116072",
+			"text": "Alles ist schwer, bevor es leicht wird.",
+			"author": null
+		},
+		{
+			"id": "116073",
+			"text": "Es ist nie zu spät, das zu werden, was man hätte sein können.",
+			"author": "George Eliot"
+		},
+		{
+			"id": "116074",
+			"text": "Du wirst morgen sein, was Du heute denkst.",
+			"author": "Buddha"
+		},
+		{
+			"id": "116075",
+			"text": "Wenn die Hoffnung aufwacht, legt sich die Verzweiflung schlafen.",
+			"author": null
+		},
+		{
+			"id": "116076",
+			"text": "Es gibt überall Blumen für den, der sie sehen will.",
+			"author": "Henri Matisse"
+		},
+		{
+			"id": "116077",
+			"text": "Ein Pessimist ist ein Optimist, der nachgedacht hat.",
+			"author": null
+		},
+		{
+			"id": "116078",
+			"text": "Es gibt nichts, was ein Mensch nicht tun kann, wenn er an sich glaubt.",
+			"author": null
+		},
+		{
+			"id": "116079",
+			"text": "Mit Mut fangen die schönsten Geschichten an.",
+			"author": null
+		},
+		{
+			"id": "116080",
+			"text": "Wenn Du fliegen willst, musst Du loslassen, was Dich runterzieht.",
+			"author": null
+		},
+		{
+			"id": "116081",
+			"text": "Die wahre Lebenskunst besteht darin, im Alltäglichen das Wunderbare zu sehen.",
+			"author": "Pearl S. Buck"
+		},
+		{
+			"id": "116082",
+			"text": "Die Kunst ist, einmal mehr aufzustehen, als man umgeworfen wird.",
+			"author": "Winston Churchill"
+		},
+		{
+			"id": "116083",
+			"text": "Positive Taten setzen eine positive Einstellung voraus.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "116084",
+			"text": "Es ist immer zu früh, um aufzugeben.",
+			"author": null
+		},
+		{
+			"id": "116085",
+			"text": "Vollständige Sorglosigkeit und eine unerschütterliche Zuversicht sind das Wesentliche eines glücklichen Lebens.",
+			"author": "Thomas von Aquin"
+		},
+		{
+			"id": "116086",
+			"text": "Du kannst nicht negativ denken und Positives erwarten.",
+			"author": null
+		},
+		{
+			"id": "116087",
+			"text": "Sobald ein Optimist ein Licht erblickt, das es gar nicht gibt, findet sich ein Pessimist, der es wieder ausbläst.",
+			"author": "Giovanni Guareschi"
+		},
+		{
+			"id": "116088",
+			"text": "Diesem Morgen kann man vertrauenAuch wenn mans abends nicht glaubtMama sagt, auch wenn man Augen mal schließt, Geht die Sonne noch auf",
+			"author": null
+		},
+		{
+			"id": "116089",
+			"text": "Größten Menschen geben Hoffnung Zitat",
+			"author": null
+		},
+		{
+			"id": "116090",
+			"text": "Was wäre das Leben, hätten wir nicht den Mut, etwas zu riskieren?",
+			"author": "Vincent van Gogh"
+		},
+		{
+			"id": "116091",
+			"text": "Positives kann man steigern. Negatives nur vertiefen.",
+			"author": "Erhard Blanck"
+		},
+		{
+			"id": "116092",
+			"text": "Ich mag Menschen, die mir Kraft geben, anstatt sie mir zu rauben.",
+			"author": null
+		},
+		{
+			"id": "116093",
+			"text": "Positive Sprüche, die Kraft geben",
+			"author": null
+		},
+		{
+			"id": "116094",
+			"text": "Das Glück deines Lebens hängt von der Beschaffenheit deiner Gedanken ab.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "116095",
+			"text": "Egal, was auch passiert, niemand kann dir die Tänze nehmen, die du schon getanzt hast.",
+			"author": null
+		},
+		{
+			"id": "116096",
+			"text": "Das Glück deines Lebens hängt von der Beschaffenheit deiner Gedanken ab.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "116097",
+			"text": "Da, wo der Wille groß ist, können die Schwierigkeiten nicht groß sein.",
+			"author": "Niccolò Machiavelli"
+		},
+		{
+			"id": "116098",
+			"text": "Dein Auge kann die Welt trüb oder hell dir machen: Wie du sie ansiehst, wird sie weinen oder lachen.",
+			"author": "Friedrich Rückert"
+		},
+		{
+			"id": "116099",
+			"text": "Sei der Grund, warum jemand lächelt. Sei der Grund, warum sich jemand geliebt fühlt und an die Güte der Menschen glaubt.",
+			"author": "Roy T. Bennett"
+		},
+		{
+			"id": "116101",
+			"text": "Wenn die Welt dir kalt erscheint, entzünde Feuer, um sie zu wärmen.",
+			"author": null
+		},
+		{
+			"id": "116102",
+			"text": "Wir leben nicht, um zu glauben, sondern um zu lernen.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "116103",
+			"text": "Glauben Sie, dass Sie das können und Sie sind auf halbem Weg.",
+			"author": "Theodore Roosevelt"
+		},
+		{
+			"id": "116104",
+			"text": "Das Glück besteht darin, zu leben wie alle Welt und doch wie kein anderer zu sein.",
+			"author": "Simone de Beauvoir"
+		},
+		{
+			"id": "116105",
+			"text": "Ich liebe den Regen. Denn wenn ich es nicht tue, regnet es trotzdem.",
+			"author": null
+		},
+		{
+			"id": "116106",
+			"text": "Liebe dich selbst. Es ist wichtig, positiv zu bleiben, denn Schönheit kommt von innen heraus.",
+			"author": "Jenn Proske"
+		},
+		{
+			"id": "116107",
+			"text": "Ziel des Lebens ist es nicht, ein erfolgreicher Mensch zu sein, sondern ein wertvoller.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "116108",
+			"text": "Wenn du positiv bist, siehst du Chancen statt Hindernisse.",
+			"author": "Widad Akrawi"
+		},
+		{
+			"id": "116109",
+			"text": "Kleine Schritte sind besser als keine Schritte.",
+			"author": null
+		},
+		{
+			"id": "116110",
+			"text": "Im Leben geht es darum, die Herausforderungen auf dem Weg anzunehmen, weiterzugehen und die Reise zu genießen.",
+			"author": "Roy T. Bennett"
+		},
+		{
+			"id": "116111",
+			"text": "In der Minute in der du ans Aufgeben denkst, denke daran, warum du so lange durchgehalten hast.",
+			"author": null
+		},
+		{
+			"id": "116112",
+			"text": "Anstatt sich Gedanken darüber zu machen, was du nicht kontrollieren kannst, verschiebe deine Energie auf das, was du erschaffen kannst.",
+			"author": "Roy T. Bennett"
+		},
+		{
+			"id": "116113",
+			"text": "Gib jedem Tag die Chance, der schönste deines Lebens zu werden.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "116114",
+			"text": "Es gibt ein erfülltes Leben trotz vieler unerfüllter Wünsche.",
+			"author": "Dietrich Bonhoeffer"
+		},
+		{
+			"id": "116115",
+			"text": "Umweltschutz Zitate über Nachhaltigkeit und Naturschutz",
+			"author": null
+		},
+		{
+			"id": "116116",
+			"text": "Es ist dumm, sich über die Welt zu ärgern. Es kümmert sie nicht.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "116117",
+			"text": "Mut und Angst haben etwas Gemeinsames: Sie sind ansteckend.",
+			"author": null
+		},
+		{
+			"id": "116118",
+			"text": "Negativ denken und Positives erwarten Zitat",
+			"author": null
+		},
+		{
+			"id": "116119",
+			"text": "Du bist wie eine Farbe. Nicht jeder wird dich mögen. Doch es wird immer jemanden geben, dessen Lieblingsfarbe du bist.",
+			"author": null
+		},
+		{
+			"id": "116120",
+			"text": "Ich bin nicht gescheitert. Ich habe 10.000 Wege entdeckt, die nicht funktionieren.",
+			"author": "Thomas Alva Edison"
+		},
+		{
+			"id": "116121",
+			"text": "Ich möchte in meinem Leben die Dinge zum Positiven wenden.",
+			"author": null
+		},
+		{
+			"id": "116122",
+			"text": "Ich wache jeden Morgen mit dem Glauben auf, dass heute besser als gestern sein wird.",
+			"author": "Will Smith"
+		},
+		{
+			"id": "116123",
+			"text": "Der einzige Fehler ist, es nicht zu versuchen.",
+			"author": null
+		},
+		{
+			"id": "116124",
+			"text": "Gebe alles, was ich hab für alles, was ich willIch will ne ganze Menge, also geb ich ganz schön vielLebe für die Sache und weiß nicht mal, was sie istIst auch scheißegal, solange ich was fühl",
+			"author": null
+		},
+		{
+			"id": "116125",
+			"text": "Der einzige Mist, auf dem nichts wächst, ist der Pessimist.",
+			"author": "Theodor Heuss"
+		},
+		{
+			"id": "116126",
+			"text": "Wenn du es dir vorstellen kannst, kannst du es auch tun.",
+			"author": "Walt Disney"
+		},
+		{
+			"id": "116127",
+			"text": "Ich bin ein positiver Mensch, und ich versuche, die gute Seite von allem zu sehen.",
+			"author": "Leona Lewis"
+		},
+		{
+			"id": "116128",
+			"text": "Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.",
+			"author": "Seneca"
+		},
+		{
+			"id": "116129",
+			"text": "Jedes Gehen auf unvertrauten Wegen ist eine Reise ins Vertrauen.",
+			"author": "Buddha"
+		},
+		{
+			"id": "116130",
+			"text": "Wenn der Tag nicht dein Freund war, so war er doch dein Lehrer.",
+			"author": null
+		},
+		{
+			"id": "116131",
+			"text": "Positive Dinge passieren nur positiven Menschen.",
+			"author": null
+		},
+		{
+			"id": "116132",
+			"text": "Drachen steigen nur gegen den Wind besonders hoch.",
+			"author": null
+		},
+		{
+			"id": "116133",
+			"text": "Lebe das Leben in vollen Zügen und konzentriere dich auf das Positive.",
+			"author": "Matt Cameron"
+		},
+		{
+			"id": "116134",
+			"text": "Eine positive Einstellung zu lösbaren Problemen ist bereits der halbe Erfolg.",
+			"author": "Ernst Ferstl"
+		},
+		{
+			"id": "116135",
+			"text": " Hab keine Angst vor dem Leben. Glaubt, dass das Leben lebenswert ist, und euer Glaube wird helfen, diese Tatsache zu schaffen.",
+			"author": "William James"
+		},
+		{
+			"id": "116136",
+			"text": "Die wahren Optimisten sind nicht überzeugt, daß alles gutgehen wird. Aber sie sind überzeugt, daß nicht alles schiefgehen wird.",
+			"author": "Friedrich Schiller"
+		}
+	]
+}

@@ -1,0 +1,739 @@
+{
+	"id": "lebensmotto",
+	"h1title": "Lebensmotto",
+	"metatitel": "Lebensmotto: 100+ Sprüche mit Bildern zum herunterladen",
+	"metacontent": "100+ Lebensmottos ✓ Kostenlose Bilder ✓ Zum Herunterladen & Kopieren ✓ Kein langes Suchen ✓ Schnell den perfekten Spruch finden ✓",
+
+	"othersites": [
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+			"header": "Sprüche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+			"header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+			"header": "Gute Sprüche",
+			"slug": "https://perfekterspruch.de/gute-sprueche/"
+		},
+		{
+			"image": "weise-sprueche-seite",
+			"header": "Weise Sprüche",
+			"slug": "https://perfekterspruch.de/weise-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "149001",
+			"image": "lebensmotto/lebensmotto",
+			"text": "Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "149002",
+			"image": "lebensmotto/lebensmotto-bild",
+			"text": "Wer kämpft, kann verlieren. Wer nicht kämpft, hat schon verloren.",
+			"author": "Bertolt Brecht"
+		},
+		{
+			"id": "149003",
+			"image": "lebensmotto/lebensmotto-bilder",
+			"text": "Wer aufhört, besser werden zu wollen, hört auf, gut zu sein.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "149004",
+			"image": "lebensmotto/lebensmotto-nachdenken",
+			"text": "Kleine Schritte sind besser als keine Schritte.",
+			"author": null
+		},
+		{
+			"id": "149005",
+			"image": "lebensmotto/lebensmotto-klug",
+			"text": "Lass dir dein Leuchten nicht nehmen, nur weil es andere blendet.",
+			"author": null
+		},
+		{
+			"id": "149006",
+			"image": "lebensmotto/lebensmotto-weise",
+			"text": "Sei stärker als deine stärkste Ausrede.",
+			"author": null
+		},
+		{
+			"id": "149007",
+			"image": "lebensmotto/schoene-lebensmotto",
+			"text": "Die Wahrheit erkennt man nicht an schönen Worten, sondern an leisen Taten.",
+			"author": null
+		},
+		{
+			"id": "149008",
+			"image": "lebensmotto/lebensmotto-facebook",
+			"text": "Nimm das Leben nicht so ernst, du kommst da ja doch nicht lebend raus.",
+			"author": "Elbert Hubbard"
+		},
+		{
+			"id": "149009",
+			"image": "lebensmotto/lebensmotto-pinterest",
+			"text": "Wenn Deine Träume Dir keine Angst machen, sind sie nicht groß genug.",
+			"author": "Ellen Johnson-Sirleaf"
+		},
+		{
+			"id": "149010",
+			"image": "lebensmotto/lebensmottos",
+			"text": "Denke nicht so oft an das, was dir fehlt, sondern an das, was du hast.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "149011",
+			"text": "Wenn du es dir vorstellen kannst, kannst du es auch tun.",
+			"author": "Walt Disney"
+		},
+		{
+			"id": "149012",
+			"text": "Positive Dinger passieren immer positiven Menschen.",
+			"author": null
+		},
+		{
+			"id": "149013",
+			"text": "Neue Wege entstehen dadurch, dass man sie geht.",
+			"author": null
+		},
+		{
+			"id": "149014",
+			"text": "Solange du nichts veränderst, wird sich nichts verändern.",
+			"author": null
+		},
+		{
+			"id": "149015",
+			"text": "Wer will, findet Wege. Wer nicht will, findet Gründe.",
+			"author": "Götz W. Werner"
+		},
+		{
+			"id": "149016",
+			"text": "Du kannst den Wind nicht ändern, aber Du kannst die Segel anders setzen.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "149017",
+			"text": "Die Zukunft hängt von dem ab, was Du heute tust.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "149018",
+			"text": "Das Leben beginnt am Ende Deiner Komfortzone.",
+			"author": null
+		},
+		{
+			"id": "149019",
+			"text": "Ein Tag ohne Lächeln ist ein verlorener Tag.",
+			"author": "Charlie Chaplin"
+		},
+		{
+			"id": "149020",
+			"text": "Was dich nicht umbringt, das macht dich stärker.",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "149021",
+			"text": "Du musst nicht perfekt sein, solange du dir selbst treu bist.",
+			"author": null
+		},
+		{
+			"id": "149022",
+			"text": "Ich kenne keinen sicheren Weg zum Erfolg, aber einen sicheren Weg zum Misserfolg: Es allen Recht machen zu wollen.",
+			"author": "Platon"
+		},
+		{
+			"id": "149023",
+			"text": "Denken ist die schwerste Arbeit, die es gibt. Das ist wahrscheinlich auch der Grund, warum sich so wenig Leute damit beschäftigen.",
+			"author": "Henry Ford"
+		},
+		{
+			"id": "149024",
+			"text": "Du wirst morgen sein, was du heute denkst.",
+			"author": "Buddha"
+		},
+		{
+			"id": "149025",
+			"text": "Wege entstehen dadurch, dass wir sie gehen.",
+			"author": "Franz Kafka"
+		},
+		{
+			"id": "149026",
+			"text": "Um ein kreatives Leben zu leben, müssen wir die Angst davor verlieren, Fehler zu machen.",
+			"author": "Joseph Chilton Pearce"
+		},
+		{
+			"id": "149027",
+			"text": "Wer zugrunde gehen soll, der wird zuvor stolz; und Hochmut kommt vor dem Fall.",
+			"author": null
+		},
+		{
+			"id": "149028",
+			"text": "Ihr lacht über mich, weil ich anders bin. Ich lache über euch, weil ihr alle gleich seid.",
+			"author": "Kurt Cobain"
+		},
+		{
+			"id": "149029",
+			"text": "Kritisiere Dein Ich, aber verzweifle nicht daran.",
+			"author": "Epiktet"
+		},
+		{
+			"id": "149030",
+			"text": "Euer Herz soll sich freuen, und eure Freude soll niemand von euch nehmen.",
+			"author": "Johannes 16, 22"
+		},
+		{
+			"id": "149031",
+			"text": "Ich kann alles schaffen, was ich mir vornehme.",
+			"author": null
+		},
+		{
+			"id": "149032",
+			"text": "Tue das, was dein Herz dir rät.",
+			"author": null
+		},
+		{
+			"id": "149033",
+			"text": "Viele Dinge ergreifen das Auge, folge aber nur den Dingen, die das Herz ergreifen.",
+			"author": null
+		},
+		{
+			"id": "149034",
+			"text": "Wer sich den Gesetzen nicht fügen will, muss die Gegend verlassen, wo sie gelten.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "149035",
+			"text": "Das Leben beginnt am Ende Deiner Komfortzone.",
+			"author": "Neale Donald Walsch"
+		},
+		{
+			"id": "149036",
+			"text": "Gib jedem Tag die Chance, der schönste deines Lebens zu werden.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "149037",
+			"text": "Wähle den Beruf, den du liebst, und du brauchst keinen Tag in deinem Leben mehr zu arbeiten.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "149038",
+			"text": "Gib niemals auf – du weißt nie, wie nah du deinem Ziel bist.",
+			"author": null
+		},
+		{
+			"id": "149039",
+			"text": "Der einzige Fehler ist fast immer, zu glauben, dass mein Standpunkt der einzige ist, von dem aus man die Wahrheit sehen kann.",
+			"author": "Jorge Bucay"
+		},
+		{
+			"id": "149040",
+			"text": "Gib dir selbst die Erlaubnis, glücklich und frei zu sein.",
+			"author": null
+		},
+		{
+			"id": "149041",
+			"text": "Phantasie ist die Vorschau auf die kommenden Ereignisse des Lebens.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "149042",
+			"text": "Träume nicht dein Leben, sondern lebe deinen Traum.",
+			"author": null
+		},
+		{
+			"id": "149043",
+			"text": "Verändere Deine Gedanken und Du veränderst Deine Welt.",
+			"author": "Norman Vincent Peale"
+		},
+		{
+			"id": "149044",
+			"text": "Gib jedem Tag die Chance, der Schönste deines Lebens zu werden.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "149045",
+			"text": "Den größten Fehler, den man im Leben machen kann, ist, immer Angst zu haben, einen Fehler zu machen.",
+			"author": "Dietrich Bonhoeffer"
+		},
+		{
+			"id": "149046",
+			"text": "Niemand hat größere Liebe als die, dass er sein Leben lässt für seine Freunde.",
+			"author": "Johannes 15, 13"
+		},
+		{
+			"id": "149047",
+			"text": "Lächle und die Welt verändert sich.",
+			"author": "Buddha"
+		},
+		{
+			"id": "149048",
+			"text": "Wie lange ich lebe, liegt nicht in meiner Macht; dass ich aber, solange ich lebe, wirklich lebe, das hängt von mir ab.",
+			"author": "Seneca"
+		},
+		{
+			"id": "149049",
+			"text": "Don’t worry, be happy!",
+			"author": null
+		},
+		{
+			"id": "149050",
+			"text": "Durch Weisheit wird ein Haus gebaut und durch Verstand erhalten.",
+			"author": null
+		},
+		{
+			"id": "149051",
+			"text": "Ich verdiene es, Menschen in meinem Leben zu haben, die mich lieben.",
+			"author": null
+		},
+		{
+			"id": "149052",
+			"text": "Wenn der Wind stärker weht, bauen die einen Mauern, die anderen Segelschiffe.",
+			"author": null
+		},
+		{
+			"id": "149053",
+			"text": "Das Schicksal mischt die Karten und wir spielen.",
+			"author": null
+		},
+		{
+			"id": "149054",
+			"text": "Gib nie etwas auf, an das du jeden Tag denken musst.",
+			"author": null
+		},
+		{
+			"id": "149055",
+			"text": "Es ist besser, für den gehasst zu werden, der man ist, als für die Person geliebt zu werden, die man nicht ist.",
+			"author": "Kurt Cubain"
+		},
+		{
+			"id": "149056",
+			"text": "Ich gebe immer mein Bestes.",
+			"author": null
+		},
+		{
+			"id": "149057",
+			"text": "Das Leben ist wie zeichen - nur ohne Radiergummi.",
+			"author": null
+		},
+		{
+			"id": "149058",
+			"text": "Lebe dein eigenes Leben, nicht das der anderen.",
+			"author": null
+		},
+		{
+			"id": "149059",
+			"text": "Ich bin nicht gescheitert. Ich habe bloß 10.000 Wege gefunden, wie es nicht funktioniert.",
+			"author": "Thomas Alva Edison"
+		},
+		{
+			"id": "149060",
+			"text": "Lasse nie zu, dass du jemandem begegnest, der nicht nach der Begegnung mit dir glücklicher ist.",
+			"author": "Mutter Teresa"
+		},
+		{
+			"id": "149061",
+			"text": "Der Stress von heute ist die gute alte Zeit von morgen.",
+			"author": null
+		},
+		{
+			"id": "149062",
+			"text": "Jeder Mensch in meinem Leben gibt mir die Chance, etwas von ihm zu lernen.",
+			"author": null
+		},
+		{
+			"id": "149063",
+			"text": "Egal, wie schwer dein Problem auch ist, sich am Ellbogen zu lecken, ist schwerer.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "149064",
+			"text": "Ich setze auf die Gemeinsamkeiten mit anderen Menschen.",
+			"author": null
+		},
+		{
+			"id": "149065",
+			"text": "Suche nicht andere, sondern dich selbst zu übertreffen.",
+			"author": "Cicero"
+		},
+		{
+			"id": "149066",
+			"text": "Damit das Mögliche entsteht, muss immer wieder das Unmögliche versucht werden.",
+			"author": "Hermann Hesse"
+		},
+		{
+			"id": "149067",
+			"text": "Gehe deinen Weg und lass die Leute reden!",
+			"author": "Dante Alighieri"
+		},
+		{
+			"id": "149068",
+			"text": "Tue jeden Tag eine Sache, die dir Angst macht.",
+			"author": "Eleanor Roosevelt"
+		},
+		{
+			"id": "149069",
+			"text": "Leben, das Sinn hätte, fragte nicht danach.",
+			"author": "Adorno"
+		},
+		{
+			"id": "149070",
+			"text": "Mal verliert man, mal gewinnen die anderen.",
+			"author": null
+		},
+		{
+			"id": "149071",
+			"text": "Zwei Dinge auf dieser Welt sind unendlich: das Universum und die menschliche Dummheit.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "149072",
+			"text": "Wenn Deine Träume Dir keine Angst machen, sind sie nicht groß genug.",
+			"author": "Ellen Johnson-Sirleaf"
+		},
+		{
+			"id": "149073",
+			"text": "Lebe nie ohne zu lachen.",
+			"author": null
+		},
+		{
+			"id": "149074",
+			"text": "Glück ist Selbstgenügsamkeit.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "149075",
+			"text": "Sei am Ende jedes Tages dankbar für das, was du hast.",
+			"author": null
+		},
+		{
+			"id": "149076",
+			"text": "Sein Schwachsein bewahren, das nenne ich Stärke.",
+			"author": "Laotse"
+		},
+		{
+			"id": "149077",
+			"text": "Es kommt nicht darauf an, dem Leben mehr Jahre zu geben, sondern den Jahren mehr Leben zu geben.",
+			"author": "Alexis Carrel"
+		},
+		{
+			"id": "149078",
+			"text": "Der leichte Weg ist auch der richtige Weg.",
+			"author": "Bruce Lee"
+		},
+		{
+			"id": "149079",
+			"text": "Es gibt keinen Weg zum Glück. Glücklichsein ist der Weg.",
+			"author": "Buddha"
+		},
+		{
+			"id": "149080",
+			"text": "Die besten Dinge im Leben sind nicht die, die Du für Geld bekommst.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "149081",
+			"text": "Es ist immer zu früh, um aufzugeben.",
+			"author": null
+		},
+		{
+			"id": "149082",
+			"text": "Alles, was ihr also von anderen erwartet, das tut auch ihnen!",
+			"author": "Matthäus 7, 12"
+		},
+		{
+			"id": "149083",
+			"text": "Shit happens.",
+			"author": null
+		},
+		{
+			"id": "149084",
+			"text": "Glücklich allein ist die Seele die liebt.",
+			"author": "Johan Wolfgang von Goethe"
+		},
+		{
+			"id": "149085",
+			"text": "Wer nicht liebt Wein, Weib und Gesang, der bleibt ein Narr sein Leben lang.",
+			"author": "Martin Luther"
+		},
+		{
+			"id": "149086",
+			"text": "Wer kämpft, kann verlieren. Wer nicht kämpft, hat schon verloren.",
+			"author": "Bertolt Brecht"
+		},
+		{
+			"id": "149087",
+			"text": "Alles, was du willst, ist auf der anderen Seite der Angst.",
+			"author": null
+		},
+		{
+			"id": "149088",
+			"text": "Die Kunst des Ausruhens ist Teil der Kunst des Arbeitens.",
+			"author": "John Steinbeck"
+		},
+		{
+			"id": "149089",
+			"text": "Aus den Steinen, die dir in den Weg gelegt werden, kannst du etwas Schönes bauen.",
+			"author": "Erich Kästner"
+		},
+		{
+			"id": "149090",
+			"text": "Sei nicht der Gefangene deiner Vergangenheit, sondern der Architekt deiner Zukunft.",
+			"author": null
+		},
+		{
+			"id": "149091",
+			"text": "Lebe jeden Tag, als hätte dein Leben gerade erst begonnen.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "149092",
+			"text": "Jedes Problem birgt eine wichtige Lektion.",
+			"author": null
+		},
+		{
+			"id": "149093",
+			"text": "Wer sich selbst alles zutraut, wird andere übertreffen.",
+			"author": null
+		},
+		{
+			"id": "149094",
+			"text": "Nimm das Leben nicht allzu ernst, du kommst am Ende ja doch nicht lebend davon.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "149095",
+			"text": "Wenn das Leben uns in die Knie zwingt, tanzen wir Limbo.",
+			"author": null
+		},
+		{
+			"id": "149096",
+			"text": "Lebenskunst besteht zu 90 Prozent aus der Fähigkeit, mit Menschen auszukommen, die man nicht leiden kann.",
+			"author": "Samuel Goldwyn"
+		},
+		{
+			"id": "149097",
+			"text": "Wende dich der Sonne zu, dann fällt der Schatten hinter dich.",
+			"author": null
+		},
+		{
+			"id": "149098",
+			"text": "Nur der Denkende erlebt sein Leben, an Gedankenlosen zieht es vorbei.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "149099",
+			"text": "Es ist besser, zu genießen und zu bereuen, als zu bereuen, dass man nicht genossen hat.",
+			"author": "Giovanni Boccacio"
+		},
+		{
+			"id": "149101",
+			"text": "Carpe diem (Nutze den Tag)",
+			"author": null
+		},
+		{
+			"id": "149102",
+			"text": "Der sittliche Mensch liebt seine Seele, der gewöhnliche sein Eigentum.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "149103",
+			"text": "Die wahre Lebenskunst besteht darin, im Alltäglichen das Wunderbare zu sehen.",
+			"author": "Pearl S. Buck"
+		},
+		{
+			"id": "149104",
+			"text": "Ohne Musik wäre das Leben ein Irrtum.",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "149105",
+			"text": "Go hard or go home!",
+			"author": null
+		},
+		{
+			"id": "149106",
+			"text": "No regrets!",
+			"author": null
+		},
+		{
+			"id": "149107",
+			"text": "Was andere über dich denken, ist nicht dein Problem.",
+			"author": null
+		},
+		{
+			"id": "149108",
+			"text": "Ich kenne keinen sicheren Weg zum Erfolg, aber einen sicheren Weg zum Misserfolg: Es allen Recht machen zu wollen.",
+			"author": "Platon"
+		},
+		{
+			"id": "149109",
+			"text": "Sie müssen denken, dass das Leben Sie nicht vergessen hat, dass es Sie in der Hand hält. Es wird Sie nicht fallen lassen.",
+			"author": "Rainer Maria Rilke"
+		},
+		{
+			"id": "149110",
+			"text": "Beklage nicht, was nicht zu ändern ist, aber ändere, was zu beklagen ist.",
+			"author": "Shakespeare"
+		},
+		{
+			"id": "149111",
+			"text": "Nimm das Leben nicht so ernst, du kommst da ja doch nicht lebend raus.",
+			"author": "Elbert Hubbard"
+		},
+		{
+			"id": "149112",
+			"text": "Vermögen dient zur Bequemlichkeit des Lebens, nicht das Leben zur Anhäufung des Vermögens.",
+			"author": "Saadi"
+		},
+		{
+			"id": "149113",
+			"text": "Ein Tag ohne Lächeln ist ein verlorener Tag.",
+			"author": "Charlie Chaplin"
+		},
+		{
+			"id": "149114",
+			"text": "Mut steht am Anfang des Handelns, Glück am Ende.",
+			"author": "Demokrit"
+		},
+		{
+			"id": "149115",
+			"text": "Ich bin nicht auf der Welt, um so zu sein, wie andere mich haben wollen.",
+			"author": null
+		},
+		{
+			"id": "149116",
+			"text": "Fast alles, was Du tust, ist letzten Endes unwichtig. Aber es ist sehr wichtig, dass Du es tust.",
+			"author": "Gandhi"
+		},
+		{
+			"id": "149117",
+			"text": "Es ist besser, für den gehasst zu werden, der man ist, als für die Person geliebt zu werden, die man nicht ist.",
+			"author": "Kurt Cobain"
+		},
+		{
+			"id": "149118",
+			"text": "Alles, was ich brauche, trage ich bereits in mir.",
+			"author": null
+		},
+		{
+			"id": "149119",
+			"text": "Was wird, vergeht.",
+			"author": "Buddha"
+		},
+		{
+			"id": "149120",
+			"text": "Einfachheit ist die höchste Stufe der Vollendung.",
+			"author": "Leonardo da Vinci"
+		},
+		{
+			"id": "149121",
+			"text": "Du bist deine eigene Grenze, erhebe dich darüber.",
+			"author": "Hafis"
+		},
+		{
+			"id": "149122",
+			"text": "Alles, was wir sind, ist das Ergebnis dessen, was wir dachten.",
+			"author": "Buddha"
+		},
+		{
+			"id": "149123",
+			"text": "Das Leben ist eine Zugfahrt: Viele steigen ein, viele steigen aus, aber nur wenige fahren mit dir bis zur Endstation.",
+			"author": null
+		},
+		{
+			"id": "149124",
+			"text": "Lerne aus der Vergangenheit, träume von der Zukunft, lebe in der Gegenwart.",
+			"author": null
+		},
+		{
+			"id": "149125",
+			"text": "Memento mori (Sei dir deiner eigenen Sterblichkeit bewusst)",
+			"author": null
+		},
+		{
+			"id": "149126",
+			"text": "Meide negative Menschen, die haben für jede Lösung ein Problem.",
+			"author": null
+		},
+		{
+			"id": "149127",
+			"text": "Wo ein Wille ist, ist auch ein Weg",
+			"author": null
+		},
+		{
+			"id": "149128",
+			"text": "Was dich nicht umbringt, macht dich stärker!",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "149129",
+			"text": "Ein Tag ohne Lachen ist ein vergeudeter Tag.",
+			"author": null
+		},
+		{
+			"id": "149130",
+			"text": "Ohne Fleiß kein Preis.",
+			"author": null
+		},
+		{
+			"id": "149131",
+			"text": "Wie du am Ende deines Lebens wünschest, gelebt zu haben, so kannst du jetzt schon leben.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "149132",
+			"text": "Drei Dinge helfen, die Mühen des Lebens zu tragen: Die Hoffnung, der Schlaf und das Lachen.",
+			"author": "Immanuel Kant"
+		},
+		{
+			"id": "149133",
+			"text": "Ich denke niemals an die Zukunft, sie kommt früh genug.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "149134",
+			"text": "Entspanne Dich, lass das Steuer los. Trudle durch die Welt, sie ist so schön.",
+			"author": "Kurt Tucholsky"
+		},
+		{
+			"id": "149135",
+			"text": "Jedes Problem kann man lösen.",
+			"author": null
+		},
+		{
+			"id": "149136",
+			"text": "Dein Leben ist kostbar geh vorsichtig damit um!",
+			"author": null
+		},
+		{
+			"id": "149137",
+			"text": "Alles ist schwer, bevor es leicht wird.",
+			"author": null
+		},
+		{
+			"id": "149138",
+			"text": "Glücklich ist allein die Seele, die liebt.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "149139",
+			"text": "Entweder man lebt, oder man ist konsequent.",
+			"author": "Erich Kästner"
+		},
+		{
+			"id": "149140",
+			"text": "Das Leben ist entweder ein Seil, oder ein Federbett. Man gebe mir das Seil.",
+			"author": "Albrecht Dürer"
+		}
+	]
+}

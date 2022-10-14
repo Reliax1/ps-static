@@ -1,0 +1,759 @@
+{
+	"id": "karma-sprueche",
+	"h1title": "Karma Sprüche",
+	"metatitel": "Karma Sprüche mit Bildern zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an Karma Sprüchen mit passenden Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "coole-sprueche-seite",
+			"header": "Coole Sprüche",
+			"slug": "https://perfekterspruch.de/coole-sprueche/"
+		},
+		{
+			"image": "lebensmotto-seite",
+			"header": "Lebensmotto",
+			"slug": "https://perfekterspruch.de/lebensmotto/"
+		},
+		{
+			"image": "sarkastische-sprueche-seite",
+			"header": "Sarkastische Sprüche",
+			"slug": "https://perfekterspruch.de/sarkastische-sprueche/"
+		},
+		{
+			"image": "enttaeuschung-sprueche-seite",
+			"header": "Enttäuschung Sprüche",
+			"slug": "https://perfekterspruch.de/enttaeuschung-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "113001",
+			"image": "karma/karma-sprueche",
+			"text": "Karma ist kein Menü. Du bekommst das serviert, was du verdienst.",
+			"author": null
+		},
+		{
+			"id": "113002",
+			"image": "karma/karma-spruch",
+			"text": "Ein Bumerang kehrt zu der Person zurück, die ihn wirft.",
+			"author": null
+		},
+		{
+			"id": "113003",
+			"image": "karma/karma-whatsapp",
+			"text": "Wenn Karma zurückschlägt, sitze ich in der ersten Reihe und applaudiere.",
+			"author": null
+		},
+		{
+			"id": "113004",
+			"image": "karma/kurze-karma-sprueche",
+			"text": "Karma hat kein Verfallsdatum.",
+			"author": null
+		},
+		{
+			"id": "113005",
+			"image": "karma/karma-facebook",
+			"text": "Liebes Karma, ich habe eine lange Liste von Menschen die du vergessen hast.",
+			"author": null
+		},
+		{
+			"id": "113006",
+			"image": "karma/sprueche-karma",
+			"text": "Manchmal gehe ich einfach weg und überlasse dem Karma den Rest.",
+			"author": null
+		},
+		{
+			"id": "113007",
+			"image": "karma/karma-sprueche-status",
+			"text": "Was du in diese Welt einbringst kommt genau so zu dir zurück. Wie du dein Leben lebst bestimmt was für ein Leben du haben wirst.",
+			"author": null
+		},
+		{
+			"id": "113008",
+			"image": "karma/karma-sprueche-whatsapp",
+			"text": "Jeder Jäger wird einmal ein Hase, früher oder später, denn die Ewigkeit ist lang.",
+			"author": "Wilhelm BuschKlick"
+		},
+		{
+			"id": "113009",
+			"image": "karma/karma-nachdenken",
+			"text": "Die Geduld bezeichnet das Vertrauen darauf, dass die Dinge geschehen, wenn die Zeit hierfür reif ist.",
+			"author": null
+		},
+		{
+			"id": "113010",
+			"image": "karma/karma-ist",
+			"text": "Karma ist eine einfache Rechnung. Eine Tat gegen eine Tat, egal ob die Tat gut oder böse ist.",
+			"author": null
+		},
+		{
+			"id": "113011",
+			"image": "karma/sogyal-rinpoche-sprueche",
+			"text": "Was wir in unserem Leben getan haben, formt uns zu dem, der wir sind, wenn wir sterben. Und alles, wirklich alles, zählt.",
+			"author": "Sogyal Rinpoche"
+		},
+		{
+			"id": "113012",
+			"image": "karma/robert-louis-stevenson-sprueche",
+			"text": "Urteile nicht jeden Tag nach der Ernte, die du erntest, sondern nach den Samen, die du pflanzt.",
+			"author": "Robert Louis Stevenson"
+		},
+		{
+			"id": "113013",
+			"image": "karma/karma-universum",
+			"text": "Wie die Schwerkraft ist auch das Karma so grundsätzlich, dass wir es oft gar nicht bemerken.",
+			"author": null
+		},
+		{
+			"id": "113014",
+			"image": "karma/karma-freund",
+			"text": "Manche Leute kommen als Segen in dein Leben, andere jedoch als Test.",
+			"author": null
+		},
+		{
+			"id": "113015",
+			"image": "karma/gutes-karma",
+			"text": "Wie die Leute dich behandeln, ist ihr Karma, wie du reagierst, ist deins.",
+			"author": null
+		},
+		{
+			"id": "113016",
+			"image": "karma/kluge-karma-sprueche",
+			"text": "Alles, was uns im Leben begegnet, ist letztlich Resultat unseres eigenen geistigen Handelns.",
+			"author": null
+		},
+		{
+			"id": "113017",
+			"image": "karma/karma-spruch-kurz",
+			"text": "Zähle nicht die Dinge, die du tust. Tu aber die Dinge, die zählen.",
+			"author": null
+		},
+		{
+			"id": "113018",
+			"image": "karma/karma-regelt",
+			"text": "Wenn dich jemand verletzt, bleib ruhig und lächle. Karma regelt das schon.",
+			"author": null
+		},
+		{
+			"id": "113019",
+			"image": "karma/karma-zum-nachdenken",
+			"text": "Die, die du heute verurteilst, können die Urteile sein, die du morgen erträgst.",
+			"author": null
+		},
+		{
+			"id": "113020",
+			"image": "karma/schlechtes-karma-sprueche",
+			"text": "Verschwende deine Zeit nicht mit Rache. Die, die dich verletzen, werden irgendwann ihr eigenes Karma erleben.",
+			"author": null
+		},
+		{
+			"id": "113021",
+			"image": "karma/karma-positiv",
+			"text": "Umgebe dich mit positiven Menschen. Tue Gutes. Sag Gutes. Denke Gutes.",
+			"author": null
+		},
+		{
+			"id": "113022",
+			"image": "karma/karma-freiheit",
+			"text": "Karma ist die ewige Bestätigung der menschlichen Freiheit. Unsere Gedanken, unsere Worte und Taten sind Fäden in einem Netz, das wir uns umhängen.",
+			"author": null
+		},
+		{
+			"id": "113023",
+			"image": "karma/karma-rache",
+			"text": "Du wirst nie verstehen, welchen Schaden du jemandem zugefügt hast, solange dir nicht dasselbe angetan wird.",
+			"author": null
+		},
+		{
+			"id": "113024",
+			"image": "karma/karma-glueck",
+			"text": "Das Leben wird mit jedem lächeln besser.",
+			"author": null
+		},
+		{
+			"id": "113025",
+			"image": "karma/karma-nachdenken-status",
+			"text": "Es zählt weniger wo du anfängst als wo du aufhörst.",
+			"author": null
+		},
+		{
+			"id": "113026",
+			"image": "karma/karma-konto",
+			"text": "Der Moment, wenn du erkennst, dass alles, was du getan hast umsonst war. Jetzt ist es Zeit an dein Karma-Konto zu denken, denn nichts ist umsonst.",
+			"author": null
+		},
+		{
+			"id": "113027",
+			"image": "karma/karma-schmerz",
+			"text": "Der Schmerz verlässt dich, wenn du deine Lektion gelernt ist.",
+			"author": null
+		},
+		{
+			"id": "113028",
+			"image": "karma/karma-gewissen",
+			"text": "Wenn du ein schlechtes Gewissen hast ist der beste Zeitpunkt gekommen an dein Karma zu denken.",
+			"author": null
+		},
+		{
+			"id": "113029",
+			"image": "karma/karma-loslassen",
+			"text": "Loslassen ist der wahre Weg zum Glück.",
+			"author": "Buddha"
+		},
+		{
+			"id": "113030",
+			"image": "karma/karma-folgen",
+			"text": "Alles, was wir tun hat eine Folge. Aber das Kluge und Rechte bringt nicht immer etwas Günstiges und das Verkehrte nicht immer etwas Ungünstiges hervor.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "113031",
+			"text": "Jede noch so unbedeutende Handlung wird schließlich mit gleicher Wirkung zum Täter zurückkehren. Das Gute wird mit dem Guten zurückgegeben, das Böse mit dem Bösen.",
+			"author": null
+		},
+		{
+			"id": "113032",
+			"text": "Jemand der mir falsch ins Gesicht lügt, den lache ich falsch an.",
+			"author": null
+		},
+		{
+			"id": "113033",
+			"text": "Auch wenn sich die Dinge nicht so entwickeln, wie du es erwartet hast, sei nicht entmutigt oder gib auf.",
+			"author": null
+		},
+		{
+			"id": "113034",
+			"text": "Karma bewegt sich in zwei Richtungen. Wenn wir tugendhaft handeln, wird der Samen, den wir pflanzen, zu Glück führen. Wenn wir nicht-tugendhaft handeln, führt das zu leiden.",
+			"author": null
+		},
+		{
+			"id": "113035",
+			"text": "Jede letzte Tatsache ist nur die erste einer neuen Reihe.",
+			"author": null
+		},
+		{
+			"id": "113036",
+			"text": "Niemand verdient Elend, aber manchmal ist man einfach an der Reihe.",
+			"author": null
+		},
+		{
+			"id": "113037",
+			"text": "Meine Handlungen sind mein einziger wahrer Besitz. Ich kann mich den Folgen meines Handelns nicht entziehen. Mein Handeln ist der Grund, auf dem ich stehe.",
+			"author": null
+		},
+		{
+			"id": "113038",
+			"text": "Alles, was dich im Leben trifft ist leider kein Zufall und nicht zu umgehen.",
+			"author": null
+		},
+		{
+			"id": "113039",
+			"text": "Erkenne, dass alles mit allem anderen zusammenhängt.",
+			"author": null
+		},
+		{
+			"id": "113040",
+			"text": "Sei gerade zu den Menschen immer freundlich, die unfreundlich zu dir sind. Denn genau diese Menschen sind es, die Freundlichkeit am Nötigsten brauchen.",
+			"author": null
+		},
+		{
+			"id": "113041",
+			"text": "Was ist Karma denn nun wirklich? Ganz einfach formuliert, bedeutet es, dass alles, was wir tun – mit Körper, Rede oder Geist – entsprechende Ergebnisse hervorbringt.",
+			"author": null
+		},
+		{
+			"id": "113042",
+			"text": "Das, was wir in unserem Leben hinterlassen haben, wird uns nach dem Tod auf der anderen Seite gutgeschrieben.",
+			"author": null
+		},
+		{
+			"id": "113043",
+			"text": "Mit jedem Verbrechen und jeder Freundlichkeit schaffen wir unsere Zukunft.",
+			"author": null
+		},
+		{
+			"id": "113044",
+			"text": "Karma Never forget. Never forgive.",
+			"author": null
+		},
+		{
+			"id": "113045",
+			"text": "Karma ist, wenn man eine Banane in Mario Kart wirft und am Ende darauf ausrutscht.",
+			"author": null
+		},
+		{
+			"id": "113046",
+			"text": "Karma ist kein Menü, du bekommst das serviert, was du verdienst.",
+			"author": null
+		},
+		{
+			"id": "113047",
+			"text": "Ich töte nie Insekten. Wenn ich Ameisen oder Spinnen im Raum sehe, hebe ich sie auf und bringe sie nach draußen. Karma ist alles.",
+			"author": null
+		},
+		{
+			"id": "113048",
+			"text": "Ich liebe es, wenn Karma zurückschlägt und mein innerer Buddha mit winkendem Mittelfinger laut hupend eine Ehrenrunde im Bobbyear dreht. Tuuut tuuut!",
+			"author": null
+		},
+		{
+			"id": "113049",
+			"text": "Karma hat kein Problem damit, sich wieder mit dir in Verbindung zu setzen, wenn es sein muss.",
+			"author": null
+		},
+		{
+			"id": "113050",
+			"text": "Im Leben findet man kein schöneres Haus als das, in dem man glücklich ist.",
+			"author": null
+		},
+		{
+			"id": "113051",
+			"text": "Bei Karma geht es nicht nur um die Probleme, sondern auch darum, sie zu überwinden.",
+			"author": null
+		},
+		{
+			"id": "113052",
+			"text": "Es ist unmöglich, sein eigenes Glück auf dem Unglück anderer aufzubauen. Diese Perspektive ist das Herzstück der buddhistischen Lehren.",
+			"author": null
+		},
+		{
+			"id": "113053",
+			"text": "Ich bin einfach nicht der Typ Mensch, der anderen etwas Schlechtes wünscht. Allerdings finde ich schon, dass sich manche Menschen einmal selbst begegnen müssten.",
+			"author": null
+		},
+		{
+			"id": "113054",
+			"text": "Karma hat ein Gedächtnis wie ein Elefant.",
+			"author": null
+		},
+		{
+			"id": "113055",
+			"text": "Ich: Ach was kann schon schief gehen. Karma: Auch gut, dass du fragst! Alsoooo…",
+			"author": null
+		},
+		{
+			"id": "113056",
+			"text": "Steck dein Schwert weg; denn wer zum Schwert greift, wird durch das Schwert umkommen.",
+			"author": null
+		},
+		{
+			"id": "113057",
+			"text": "Respektiere dich selbst, respektiere andere und übernimm Verantwortung für das was du tust.",
+			"author": null
+		},
+		{
+			"id": "113058",
+			"text": "Was immer du dem Leben gibst, es gibt es dir zurück. Hasse niemanden. Der Hass, der von dir ausgeht, wird eines Tages zu dir zurückkehren. Liebe andere. Und die Liebe wird zu dir zurückkehren.",
+			"author": null
+		},
+		{
+			"id": "113059",
+			"text": "People who create their own drama, deserve their own karma.",
+			"author": null
+		},
+		{
+			"id": "113060",
+			"text": "Ich liebe es, wenn Karma zurückschlägt und mein innerer Buddha mit winkendem Mittelfinger laut hupend eine Ehrenrunde im Bobbcar dreht.",
+			"author": null
+		},
+		{
+			"id": "113061",
+			"text": "Du musst sehr vorsichtig sein, wenn du dich mit dem Karma eines anderen einlässt.",
+			"author": null
+		},
+		{
+			"id": "113062",
+			"text": "Karma vergisst nie.",
+			"author": null
+		},
+		{
+			"id": "113063",
+			"text": "Die Sünde macht sich ihre eigene Hölle und die Güte ihren eigenen Himmel.",
+			"author": "Mary Baker Eddy"
+		},
+		{
+			"id": "113064",
+			"text": "Denk an meine Worte, das Karma wird dich einholen.",
+			"author": null
+		},
+		{
+			"id": "113065",
+			"text": "Schöne Dinge werden dir widerfahren, wenn du anderen Menschen Gutes tust. Das wird gutes Karma erzeugen.",
+			"author": null
+		},
+		{
+			"id": "113066",
+			"text": "Wenn du einen guten Menschen siehst, denke daran, wie er zu werden. Wenn du einen weniger Guten siehst, denke über deine eigenen Schwachstellen nach.",
+			"author": null
+		},
+		{
+			"id": "113067",
+			"text": "Karma ist, wenn es richtig verstanden wird, nur die Mechanik, durch die sich das Bewusstsein manifestiert.",
+			"author": null
+		},
+		{
+			"id": "113068",
+			"text": "Du bekommst nicht, was du willst? Vielleicht bekommst du einfach was du verdienst.",
+			"author": null
+		},
+		{
+			"id": "113069",
+			"text": "Karma hat keine Speisekarte. Man kriegt was man verdient!",
+			"author": null
+		},
+		{
+			"id": "113070",
+			"text": "Wenn Du lernst, Dinge zu ignorieren, ist das der erste Schritt in die richtige Richtung dem inneren Frieden entgegen.",
+			"author": null
+		},
+		{
+			"id": "113071",
+			"text": "Ich glaube an Glück und Schicksal, und ich glaube an das Karma, dass die Energie, die du in die Welt ausgesendet hast, zurückkommt – sie trifft dich.",
+			"author": null
+		},
+		{
+			"id": "113072",
+			"text": "Jedes Tun ist Karma, d.h. schafft Schicksal. Karma kennt keine Rache, aber auch kein Mitleid. Was du säest wirst du ernten.",
+			"author": null
+		},
+		{
+			"id": "113073",
+			"text": "Kein Leben ist frei von Leid. Und das Leid ist es, das manchmal den Wendepunkt im Leben einläutet.",
+			"author": null
+		},
+		{
+			"id": "113074",
+			"text": "Karma ist eine grausame Herrin.",
+			"author": null
+		},
+		{
+			"id": "113075",
+			"text": "Jedes Mal, wenn Du lächelst, gewinnt Dein Leben an Zeit.",
+			"author": null
+		},
+		{
+			"id": "113076",
+			"text": "Wie sie gepflanzt hat, so erntet sie auch; so ist das Feld des Karmas.",
+			"author": null
+		},
+		{
+			"id": "113077",
+			"text": "Du kannst jemandem keinen Schaden zufügen, weil dir jemand Schaden zugefügt hat. Du wirst genauso bezahlen wie sie.",
+			"author": null
+		},
+		{
+			"id": "113078",
+			"text": "Das ist dein Karma. Du verstehst jetzt nicht, aber du wirst es später verstehen.",
+			"author": null
+		},
+		{
+			"id": "113079",
+			"text": "Öffne dich für Veränderungen, aber lass deine Werte nicht los.",
+			"author": null
+		},
+		{
+			"id": "113080",
+			"text": "Vergib der Person und ihren Taten, gib niemals dem Hass nach. Lass es los, lass es frei, und Karma wird sich um das kümmern, was sein soll.",
+			"author": null
+		},
+		{
+			"id": "113081",
+			"text": "Alles, was der Mensch insgeheim im Schutz der nächtlichen Finsternis tut, wird einmal ans Tageslicht gelangen.",
+			"author": " Khalil Gibran"
+		},
+		{
+			"id": "113082",
+			"text": "Karma ist kein Luxus. Es ist eine Lebenseinstellung. Es ist der Motor, der dich antreibt und dir den Weg weist.",
+			"author": null
+		},
+		{
+			"id": "113083",
+			"text": "Glaub ich an die Reinkarnation? Nun, sagen wir, dass ich an Karma glaube. Ich denke, du machst dein eigenes Karma",
+			"author": null
+		},
+		{
+			"id": "113084",
+			"text": "Karma ist das universelle Gesetz von Ursache und Wirkung. Man erntet, was man sät.",
+			"author": null
+		},
+		{
+			"id": "113085",
+			"text": "Karma ist extrem effizient, wenn man sehr geduldig ist.",
+			"author": null
+		},
+		{
+			"id": "113086",
+			"text": "Das Universum trägt keine Schulden; es kehrt immer zu dir zurück, was du ihm gegeben hast.",
+			"author": null
+		},
+		{
+			"id": "113087",
+			"text": "Mein Kind wird mir immer ähnlicher. Sehr witzig, liebes Karma. Sehr. Witzig. -Unbekannt",
+			"author": null
+		},
+		{
+			"id": "113088",
+			"text": "Das Leben ist ein lautes Echo! Was du sähst wirst du ernten. Was du aussendest kommt zurück. Was du im anderen siehst existiert in dir.",
+			"author": null
+		},
+		{
+			"id": "113089",
+			"text": "Was immer wir tun, sagen oder denken ist Karma.",
+			"author": null
+		},
+		{
+			"id": "113090",
+			"text": "Tue Gutes und Gutes wird dir begegnen.",
+			"author": null
+		},
+		{
+			"id": "113091",
+			"text": "Die besten und schönsten Dinge der Welt können weder gesehen noch berührt werden, sondern werden im Herzen gespürt.",
+			"author": null
+		},
+		{
+			"id": "113092",
+			"text": "Karma ist ein aktiver Prozeß und hat nichts mit passiver Hinnahme zu tun.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "113093",
+			"text": "Selbst zufällige Begegnungen sind das Ergebnis von Karma. Dinge im Leben werden durch unser früheres Leben bestimmt.",
+			"author": null
+		},
+		{
+			"id": "113094",
+			"text": "Ich glaube nicht an Karma. Der Grund, warum ich versuche, ein guter Mensch zu sein, ist, weil ich denke, dass es das Richtige ist.",
+			"author": null
+		},
+		{
+			"id": "113095",
+			"text": "Was wir Ungerechtigkeit nennen ist nur der Weg zur ewigen Gerechtigkeit.",
+			"author": null
+		},
+		{
+			"id": "113096",
+			"text": "Umgeworfen werden passiert einem immer wieder im Leben. Aufstehen und Weitermachen ist dagegen eine klare Entscheidung.",
+			"author": null
+		},
+		{
+			"id": "113097",
+			"text": "Wenn du wirklich ein gemeiner Mensch warst, wirst du als Fliege wiedergeboren und frisst Scheiße.",
+			"author": null
+		},
+		{
+			"id": "113098",
+			"text": "Es nimmt der Augenblick, was Jahre geben.",
+			"author": " Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "113099",
+			"text": "Wie die Schwerkraft ist das Karma so grundlegend, dass wir es oft gar nicht bemerken.",
+			"author": " Sakyong Mipham"
+		},
+		{
+			"id": "113100",
+			"text": "Lass die Spieler spielen. Lass die Hasser hassen. Und lass Karma ihr Schicksal entscheiden.",
+			"author": null
+		},
+		{
+			"id": "113101",
+			"text": "Das Leben ist ein stetiges Echo deiner Handlungen.",
+			"author": null
+		},
+		{
+			"id": "113102",
+			"text": "Ich glaube an Glück und Schicksal und ich glaube an Karma, dass die Energie, die du in der Welt freisetzt, zurückkommt, um dich zu treffen.",
+			"author": null
+		},
+		{
+			"id": "113103",
+			"text": "Alle Handlungen, alle Werke, alles Karma, gehören zur Natur, nicht zum Göttlichen. Der Mensch ist es, der sein irdisches Los bestimmt. Die Menschen besiegeln ihr Schicksal selbst.",
+			"author": "Bhagavadgita"
+		},
+		{
+			"id": "113104",
+			"text": "Ich habe keinen Grund, jemanden zu hassen; ich glaube an gutes Karma und die Verbreitung guter Energie.",
+			"author": null
+		},
+		{
+			"id": "113105",
+			"text": "Das Schicksal nimmt nichts, was es nicht gegeben hat.",
+			"author": " Lucius Annaeus Seneca"
+		},
+		{
+			"id": "113106",
+			"text": "Karma ist eine knifflige Sache. Um dem Karma zu dienen, muss man das gute Karma an andere zurückzahlen.",
+			"author": null
+		},
+		{
+			"id": "113107",
+			"text": "Du darfst mich gerne naiv und dumm nennen. Aber merke dir, dass Karma das nicht tut.",
+			"author": null
+		},
+		{
+			"id": "113108",
+			"text": "Karma hat eine überraschende Art, sich um Situationen zu kümmern. Alles, was du tun musst, ist, dich zurücklehnen und zusehen.",
+			"author": null
+		},
+		{
+			"id": "113109",
+			"text": "Das Leben mag keine Hände haben, dennoch ist es durchaus in der Lage, dir den Hintern zu versohlen.",
+			"author": null
+		},
+		{
+			"id": "113110",
+			"text": "Du bekommst nicht, was du willst? Vielleicht bekommst du einfach, was du verdienst. ",
+			"author": null
+		},
+		{
+			"id": "113111",
+			"text": "Ich glaube wirklich an Karma. Du bekommst, was du gibst, ob es schlecht oder gut ist.",
+			"author": null
+		},
+		{
+			"id": "113112",
+			"text": "Solange Karma existiert, verändert sich die Welt. Es wird immer Karma geben, um das man sich kümmern muss.",
+			"author": null
+		},
+		{
+			"id": "113113",
+			"text": "Karma ist irgendwann hinter jedem her.",
+			"author": null
+		},
+		{
+			"id": "113114",
+			"text": "Was man als Blindheit des Schicksals bezeichnet, ist in Wirklichkeit bloß die eigene Kurzsichtigkeit.",
+			"author": " William Faulkner"
+		},
+		{
+			"id": "113115",
+			"text": "Wenn du der Welt etwas Gutes gibst, dann wird dein Karma mit der Zeit gut sein und du wirst Gutes erhalten.",
+			"author": null
+		},
+		{
+			"id": "113116",
+			"text": "Wenn du merkst, dass du einen Fehler gemacht hast, unternehme sofort Schritte, um ihn zu korrigieren.",
+			"author": null
+		},
+		{
+			"id": "113117",
+			"text": "Ich will keine Rache, weil der Karma-Bus immer pünktlich ankommt.",
+			"author": null
+		},
+		{
+			"id": "113118",
+			"text": "Das Leben ist ein stätiges Echo deiner Handlungen.",
+			"author": null
+		},
+		{
+			"id": "113119",
+			"text": "Alle kommen aus der gleichen Quelle. Wenn du einen anderen Menschen hasst, hasst du einen Teil von dir selbst.",
+			"author": null
+		},
+		{
+			"id": "113120",
+			"text": "Du erntest was du säst.",
+			"author": null
+		},
+		{
+			"id": "113121",
+			"text": "Leider gibt’s kein Happy End in diesem Drama. Alles kommt zu dir zurück, das nennt man Karma.",
+			"author": null
+		},
+		{
+			"id": "113122",
+			"text": "Wenn jemand dich hasst oder mit dir kämpft, weiß, dass es dein eigenes vergangenes Karma ist, das vor dir steht.",
+			"author": null
+		},
+		{
+			"id": "113123",
+			"text": "Die Sünde macht ihre eigene Hölle, und die Gutherzigkeit ihren eigenen Himmel.",
+			"author": null
+		},
+		{
+			"id": "113124",
+			"text": "Nicht, was wir erleben, sondern wie wir empfinden, was wir erleben, macht unser Schicksal aus.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "113125",
+			"text": "Sollen Sie doch reden, was sie wollen. Früher oder später schlägt das Karma auch bei ihnen zu.",
+			"author": null
+		},
+		{
+			"id": "113126",
+			"text": "Die Menschen werden nicht für ihre Sünden bestraft, sondern von ihnen.",
+			"author": null
+		},
+		{
+			"id": "113127",
+			"text": "Ich versuche, mit der Vorstellung zu leben, dass Karma eine sehr reale Sache ist. Also gebe ich das, was ich zurückbekommen will.",
+			"author": null
+		},
+		{
+			"id": "113128",
+			"text": "Es gibt ein natürliches Gesetz des Karmas, dass rachsüchtige Menschen, die auf ihrem Weg andere verletzen, pleite und allein enden.",
+			"author": null
+		},
+		{
+			"id": "113129",
+			"text": "Die Vorstellung, dass es so etwas wie Karma tatsächlich gibt, hat irgendwie etwas Beruhigendes.",
+			"author": null
+		},
+		{
+			"id": "113130",
+			"text": "Du gewinnst einiges, du verlierst einiges, lass Karma seinen Lauf nehmen.",
+			"author": null
+		},
+		{
+			"id": "113131",
+			"text": "Bevor du auf die Reise der Rache gehst, grabe zwei Gräber.",
+			"author": null
+		},
+		{
+			"id": "113132",
+			"text": "Egal, was wir tun – das Karma macht keinen Halt.",
+			"author": null
+		},
+		{
+			"id": "113133",
+			"text": "Diejenigen, die du heute verurteilst, sind vielleicht die Urteile, die du morgen ertragen wirst.",
+			"author": null
+		},
+		{
+			"id": "113134",
+			"text": "Sobald du erkennst, dass die Natur von Wut und Freude leer ist, und du sie gehen lässt, befreist du dich vom Karma.",
+			"author": null
+		},
+		{
+			"id": "113135",
+			"text": "Das Schicksal wird schon seine Gründe haben.",
+			"author": "Voltaire"
+		},
+		{
+			"id": "113136",
+			"text": "Ich glaube an Karma, und ich glaube, wenn du jedem positive Schwingungen gibst, dass du wieder welche zurückbekommst.",
+			"author": null
+		},
+		{
+			"id": "113137",
+			"text": "Lügst du mir falsch ins Gesicht, so lache ich dich falsch an.",
+			"author": null
+		},
+		{
+			"id": "113138",
+			"text": "Solange Karma existiert, ändert sich die Welt. Es wird immer Karma geben.",
+			"author": null
+		},
+		{
+			"id": "113139",
+			"text": "Verschwende keine Zeit mit Rache. Die Menschen, die dich verletzt haben, werden sich irgendwann ihrem eigenen Karma stellen.",
+			"author": null
+		}
+	]
+}

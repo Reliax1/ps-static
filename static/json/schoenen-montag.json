@@ -1,0 +1,80 @@
+{
+	"id": "schoenen-montag",
+	"h1title": "Schönen Montag Sprüche",
+	"metatitel": "Schönen Montag Bilder zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an schönen Montag Sprüchen mit Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "guten-morgen-lustig-seite",
+			"header": "Guten Morgen lustig",
+			"slug": "https://perfekterspruch.de/guten-morgen-lustig/"
+		},
+		{
+			"image": "schoenen-tag-seite",
+			"header": "Schönen Tag",
+			"slug": "https://perfekterspruch.de/schoenen-tag/"
+		},
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+			"header": "Sprüche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		},
+		{
+			"image": "lebensmotto-seite",
+			"header": "Lebensmotto",
+			"slug": "https://perfekterspruch.de/lebensmotto/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "117001",
+			"image": "schoenenmontag/schoenen-montag",
+			"text": "Montagmorgen und die Woche will einfach kein Ende nehmen. Viel Erfolg, Kraft und starke Nerven wünsche ich euch.",
+			"author": null
+		},
+		{
+			"id": "117002",
+			"image": "schoenenmontag/schoenen-montag-whatsapp",
+			"text": "Ich wünsche Euch einen super Montag und eine tolle neue Woche.",
+			"author": null
+		},
+		{
+			"id": "117003",
+			"image": "schoenenmontag/schoenen-montag-lustig",
+			"text": "Guten Morgen, es ist Wochenstart. Möge Dein Kaffee heute stark und Dein Montag kurz sein.",
+			"author": null
+		},
+		{
+			"id": "117004",
+			"image": "schoenenmontag/schoenen-montag-facebook",
+			"text": "Alles auf Anfang. Ich wünsche Euch einen schönen Montag und einen guten Start in die neue Woche!",
+			"author": null
+		},
+		{
+			"id": "117005",
+			"image": "schoenenmontag/schoenen-montag-pinterest",
+			"text": "Jeder Tag ist ein Geschenk, auch der Montag. Daher genießt ihn und startet schön in die neue Woche.",
+			"author": null
+		},
+		{
+			"id": "117008",
+			"image": "schoenenmontag/schoenen-montag-bilder",
+			"text": "Neue Woche. Neues Glück! Kommt gut durch den Montag.",
+			"author": null
+		},
+		{
+			"id": "117009",
+			"image": "schoenenmontag/schoenen-montag-bild",
+			"text": "Vergiss Flappy Birds! Der schwerste Level ist und bleibt der Montagmorgen.",
+			"author": null
+		},
+		{
+			"id": "117010",
+			"image": "schoenenmontag/lustige-bilder-montag",
+			"text": "'Kennst du das Gefühl mit Energie und guter Laune montags aus dem Bett aufzustehen?\r\n        Nein? Ich auch nicht!'",
+			"author": null
+		}
+	]
+}

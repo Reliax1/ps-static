@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /impressum/
+Disallow: /impressum
+Disallow: /datenschutz/
+Disallow: /datenschutz
+Disallow: /kontakt/
+Disallow: /kontakt
+
+Sitemap: https://perfekterspruch.de/sitemap.xml

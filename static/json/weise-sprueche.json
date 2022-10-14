@@ -1,0 +1,654 @@
+{
+	"id": "weise-sprueche",
+	"h1title": "Weise Sprüche",
+	"metatitel": "Weise Sprüche mit Bildern zum kopieren & herunterladen",
+	"metacontent": "Hier findest du eine große Auswahl an weise Sprüchen mit passenden Bildern zum runterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+			"header": "Sprüche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		},
+		{
+			"image": "kluge-sprueche-seite",
+			"header": "Kluge Sprüche",
+			"slug": "https://perfekterspruch.de/kluge-sprueche/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+			"header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+			"header": "Gute Sprüche",
+			"slug": "https://perfekterspruch.de/gute-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "126001",
+			"image": "weise/weise-sprueche",
+			"text": "Jedes Ding hat drei Seiten: Eine die du siehst, eine die ich sehe und eine die wir beide nicht sehen.",
+			"author": null
+		},
+		{
+			"id": "126002",
+			"image": "weise/kluge-sprueche",
+			"text": "Es wäre heute nicht so, wie es ist, wäre es damals nicht gewesen, wie es war.",
+			"author": null
+		},
+		{
+			"id": "126003",
+			"image": "weise/sprueche-zum-nachdenken",
+			"text": "Hör auf, für Menschen zu ertrinken, wenn sie nicht mal für dich ins Wasser gehen würden.",
+			"author": null
+		},
+		{
+			"id": "126004",
+			"image": "weise/klug-und-weise-sprueche",
+			"text": "Sei nicht enttäuscht, wenn du es nicht geschafft hast, sondern wenn du es gar nicht erst versucht hast.",
+			"author": null
+		},
+		{
+			"id": "126005",
+			"image": "weise/albert-einstein-zitate",
+			"text": "Jeder ist ein Genie! Aber wenn du einen Fisch danach beurteilst, ob er auf einen Baum klettern kann, wird er sein ganzes Leben denken, er sei dumm.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "126006",
+			"image": "weise/kurze-weisheiten",
+			"text": "Der, der sagt, es sei nicht möglich, sollte dem nicht im Wege stehen, der es tut.",
+			"author": null
+		},
+		{
+			"id": "126007",
+			"image": "weise/weisheit-sprueche",
+			"text": "Schenk nicht jedem dein Vertrauen, der dir sagt er ist dein Freund! Denn ins Herz kannst du nicht schauen, ob er es ehrlich mit dir meint!",
+			"author": null
+		},
+		{
+			"id": "126008",
+			"image": "weise/weise-sprueche-kurz",
+			"text": "Augen können nur leuchten, wenn es etwas gibt, was das Innere zum Leuchten bringt.",
+			"author": null
+		},
+		{
+			"id": "126009",
+			"image": "weise/weisheiten",
+			"text": "Eile nicht dingen entgegen, die sowieso noch auf dich zukommen werden.",
+			"author": null
+		},
+		{
+			"id": "126010",
+			"image": "weise/intelligente-sprueche",
+			"text": "Wer anfängt zu schweigen, spricht härter mir einem Menschen, als es Worte je könnten.",
+			"author": null
+		},
+		{
+			"id": "126011",
+			"image": "weise/lange-weise-sprueche",
+			"text": "Gebe, aber lass dich nicht ausnutzen. Liebe, aber lass dein Herz nicht missbrauchen. Vertraue, aber sei nicht naiv. Höre zu, aber verliere nicht deine eigene Stimme.",
+			"author": "Samuel Johanson"
+		},
+		{
+			"id": "126012",
+			"image": "weise/weise-sprueche-facebook",
+			"text": "Wenn du schwimmen kannst, ist es nicht wichtig, wie tief das Wasser ist.",
+			"author": null
+		},
+		{
+			"id": "126013",
+			"image": "weise/weise-facebook",
+			"text": "Nichts ist so kostbar wie die Freiheit und nichts so wertvoll wie Vertrauen.",
+			"author": null
+		},
+		{
+			"id": "126014",
+			"image": "weise/kluge-sprueche-facebook",
+			"text": "Bevor du mit dem Kopf durch die Wand willst, überlege: Was will ich im Nebenzimmer?",
+			"author": null
+		},
+		{
+			"id": "126015",
+			"image": "weise/sprueche-von-buddha",
+			"text": "Verweile nicht in der Vergangenheit, träume nicht von der Zukunft. Konzentriere dich auf den gegenwärtigen Moment.",
+			"author": "Buddha"
+		},
+		{
+			"id": "126016",
+			"image": "weise/nachdenken-whatsapp",
+			"text": "Ich besitze vielleicht die Reife, dir zu verzeihen, aber bestimmt nicht die Dummheit dir nochmal zu vertrauen.",
+			"author": null
+		},
+		{
+			"id": "126017",
+			"image": "weise/weise-whatsapp",
+			"text": "Nur derjenige, der Angst hat, kann auch mutig sein.",
+			"author": null
+		},
+		{
+			"id": "126018",
+			"image": "weise/sprueche-dalai-lama",
+			"text": "Öffne der Veränderung deine Arme, aber verliere dabei deine Werte nicht aus den Augen.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "126019",
+			"image": "weise/kurze-weise-sprueche",
+			"text": "Der kürzeste Weg zwischen 2 Menschen ist ein Lächeln.",
+			"author": null
+		},
+		{
+			"id": "126020",
+			"image": "weise/sprueche-whatsapp",
+			"text": "Grosse Werke werden nicht durch Stärke, sondern durch Beharrlichkeit vollbracht.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "126021",
+			"text": "Kleine Schritte sind besser als keine Schritte. ",
+			"author": null
+		},
+		{
+			"id": "126022",
+			"text": "Tun, was du magst, ist Freiheit. Mögen, was du tust, ist Glück. ",
+			"author": null
+		},
+		{
+			"id": "126023",
+			"text": "Nicht die Glücklichen sind dankbar. Es sind die Dankbaren, die glücklich sind.",
+			"author": "Francis Bacon"
+		},
+		{
+			"id": "126024",
+			"text": "Was du liebst, lass frei. Kommt es zurück, gehört es dir – für immer!",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "126025",
+			"text": "Egal, wie stark du bist, du kannst keine Hand festhalten, die dich loslässt. ",
+			"author": null
+		},
+		{
+			"id": "126026",
+			"text": "Es gibt nur zwei Tage in deinem Leben, an denen du nichts ändern kannst: Der eine ist gestern und der andere ist morgen.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "126027",
+			"text": "Habe keine Angst, das Gute aufzugeben, um das Großartige zu erreichen.",
+			"author": "John D. Rockefeller"
+		},
+		{
+			"id": "126028",
+			"text": "Chancen sind wie Sonnenaufgänge. Wer zu lang wartet, verpasst sie.",
+			"author": null
+		},
+		{
+			"id": "126029",
+			"text": "Die Lösung ist immer einfach, man muss sie nur finden.",
+			"author": "Alexander Solschenizyn"
+		},
+		{
+			"id": "126030",
+			"text": "Alles Glück dieser Welt entsteht aus dem Wunsch, dass andere glücklich sein mögen.",
+			"author": null
+		},
+		{
+			"id": "126031",
+			"text": "Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.",
+			"author": "Arthur Schopenhauer"
+		},
+		{
+			"id": "126032",
+			"text": "Die Tat unterscheidet das Ziel vom Traum. ",
+			"author": null
+		},
+		{
+			"id": "126033",
+			"text": "Höre nicht auf, wenn es weh tut. Höre auf, wenn du fertig bist. ",
+			"author": null
+		},
+		{
+			"id": "126034",
+			"text": "Man wird nicht dadurch besser, dass man andere schlecht macht.",
+			"author": "Heinrich Nordhoff"
+		},
+		{
+			"id": "126035",
+			"text": "Kein Mensch ist perfekt, aber jeder ist auf seine Weise einzigartig.",
+			"author": null
+		},
+		{
+			"id": "126036",
+			"text": "Du bist wie eine Farbe. Nicht jeder wird dich mögen. Doch es wird immer jemanden geben, dessen Lieblingsfarbe du bist.",
+			"author": null
+		},
+		{
+			"id": "126037",
+			"text": "Wenn du ein Problem hast, versuche es zu lösen. Kannst du es nicht lösen, dann mache kein Problem daraus.",
+			"author": null
+		},
+		{
+			"id": "126038",
+			"text": "Wohin du auch gehst, geh mit deinem ganzen Herzen.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "126039",
+			"text": "Manche Menschen sind richtig arm. Sie haben nichts, außer Geld.",
+			"author": null
+		},
+		{
+			"id": "126040",
+			"text": "Die Liebe ist ein Stoff, den die Natur gewebt und die Fantasie bestickt hat.",
+			"author": "Voltaire"
+		},
+		{
+			"id": "126041",
+			"text": "Wenn du ein Problem hast, versuche es zu lösen. Kannst du es nicht lösen, dann mach kein Problem daraus.",
+			"author": "Buddha"
+		},
+		{
+			"id": "126042",
+			"text": "Drei Dinge sollten dich niemals kontrollieren: Geld, Menschen und die Vergangenheit. ",
+			"author": null
+		},
+		{
+			"id": "126043",
+			"text": "Alles was wir jetzt sind, ist das Resultat unserer Gedanken.",
+			"author": null
+		},
+		{
+			"id": "126044",
+			"text": "Man sagt, man vergesse einander schnell, wenn man sich länger nicht sieht. Ich denke aber, dass man nur diejenigen vergisst, die man nicht im Herzen trägt.",
+			"author": null
+		},
+		{
+			"id": "126045",
+			"text": "Ich fragte Gott: „Warum führst du mich in stürmische Gewässer?“ Er antwortete: „Damit deine Feinde, dir nicht folgen können.“",
+			"author": null
+		},
+		{
+			"id": "126046",
+			"text": "Augen können nur leuchten, wenn es etwas gibt, was das Innere zum Leuchten bringt.",
+			"author": null
+		},
+		{
+			"id": "126047",
+			"text": "Wenn dir etwas wirklich wichtig ist, gibt es kein Aber. ",
+			"author": null
+		},
+		{
+			"id": "126048",
+			"text": "Liebe ist nicht alles, was wir brauchen. Aber wir brauchen sie, um alles zu haben. ",
+			"author": null
+		},
+		{
+			"id": "126049",
+			"text": "Freiheit ist nicht nur, tun können was man will, sondern vorallem, nicht tun müssen, was andere wollen.",
+			"author": null
+		},
+		{
+			"id": "126050",
+			"text": "Die Vernunft kann nur reden. Es ist die Liebe, die singt.",
+			"author": "Joseph de Maistre"
+		},
+		{
+			"id": "126051",
+			"text": "Es zählt nicht, wer du warst, als du hingefallen bist. Es zählt, wer du wurdest als du wieder aufgestanden bist.",
+			"author": null
+		},
+		{
+			"id": "126052",
+			"text": "Nichts ist so kostbar wie die Freiheit und nichts so wertvoll wie Vertrauen.",
+			"author": null
+		},
+		{
+			"id": "126053",
+			"text": "Jeder Mensch begegnet einmal dem Menschen seines Lebens, aber nur wenige erkennen ihn rechtzeitig!",
+			"author": null
+		},
+		{
+			"id": "126054",
+			"text": "Es nützt nichts, ein guter Mensch zu sein, wenn man nichts tut.",
+			"author": null
+		},
+		{
+			"id": "126055",
+			"text": "Du lächelst – und die Welt verändert sich.",
+			"author": null
+		},
+		{
+			"id": "126056",
+			"text": "Man darf die Mehrheit nicht mit der Wahrheit verwechseln.",
+			"author": "Jean Cocteau"
+		},
+		{
+			"id": "126057",
+			"text": "Alles was wir hören, ist eine Meinung, kein Fakt. Alles was wir sehen, ist eine Perspektive, nicht die Wahrheit.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "126058",
+			"text": "Messer können jemanden verfehlen, Worte treffen hingegen immer!",
+			"author": null
+		},
+		{
+			"id": "126059",
+			"text": "Das Glück besteht darin, zu leben wie alle Welt und doch wie kein anderer zu sein.",
+			"author": "Simone de Beauvoir"
+		},
+		{
+			"id": "126060",
+			"text": "Ich mache mir keine Gedanken um die Menschen meiner Vergangenheit. Denn es hat seine Gründe, warum sie es nicht bis in meine Zukunft geschafft haben!",
+			"author": null
+		},
+		{
+			"id": "126061",
+			"text": "Das Glück liegt in uns, nicht in den Dingen.",
+			"author": null
+		},
+		{
+			"id": "126062",
+			"text": "Weise Wörter werden oft nur mit Verspätung als solche erkannt. ",
+			"author": null
+		},
+		{
+			"id": "126063",
+			"text": "Wir leben alle unter dem gleichen Himmel, aber wir haben nicht alle den gleichen Horizont.",
+			"author": "Konrad Adenauer"
+		},
+		{
+			"id": "126064",
+			"text": "Leben, das ist das Allerseltenste in der Welt – die meisten Menschen existieren nur.",
+			"author": "Oscar Wilde"
+		},
+		{
+			"id": "126065",
+			"text": "Liebe ist kein Solo. Liebe ist ein Duett. Schwindet sie bei einem, verstummt das Lied.",
+			"author": "Adelbert von Chamisso"
+		},
+		{
+			"id": "126066",
+			"text": "Denke immer daran! Die Art, wie dich jemand behandelt, sagt aus, was für ein Mensch er ist. Es sagt nichts darüber aus, was für ein Mensch du bist.",
+			"author": null
+		},
+		{
+			"id": "126067",
+			"text": "Erfolg ist die Fähigkeit, von einem Misserfolg zum anderen zu gehen, ohne seine Begeisterung zu verlieren. (Winston Churchill",
+			"author": null
+		},
+		{
+			"id": "126068",
+			"text": "Nur wer seinen eigenen Weg geht, kann Spuren hinterlassen.",
+			"author": null
+		},
+		{
+			"id": "126069",
+			"text": "Es kommt nicht darauf an, dem Leben mehr Jahre zu geben, sondern den Jahren mehr Leben zu geben.",
+			"author": "Alexis Carrel"
+		},
+		{
+			"id": "126070",
+			"text": "Gut zu reisen ist besser als anzukommen.",
+			"author": null
+		},
+		{
+			"id": "126071",
+			"text": "Niemand weiß, was er kann, bis er es probiert hat.",
+			"author": "Publilius Syrus"
+		},
+		{
+			"id": "126072",
+			"text": "Ein Schiff, das im Hafen liegt, ist sicher vor dem Sturm. Aber dafür ist es nicht gebaut. ",
+			"author": null
+		},
+		{
+			"id": "126073",
+			"text": "Halte dich immer für dümmer als die anderen – sei es aber nicht!",
+			"author": "Jean Cocteau"
+		},
+		{
+			"id": "126074",
+			"text": "Augen können nur leuchten, wenn es etwas gibt, was das Innere zum Leuchten bringt.",
+			"author": null
+		},
+		{
+			"id": "126075",
+			"text": "Der Zimmermann bearbeitet das Holz. Der Schütze krümmt den Bogen. Der Weise formt sich selbst.",
+			"author": null
+		},
+		{
+			"id": "126076",
+			"text": "Berühre nie ein Herz, wenn du nicht in der Lage bist, es zu ehren und zu schützen! Verwechsle niemals Liebe mit Leidenschaft. Du könntest dieses Herz so verletzen, dass es nie wieder lieben kann.",
+			"author": null
+		},
+		{
+			"id": "126077",
+			"text": "Die Schönheit der Dinge lebt in der Seele dessen, der sie betrachtet.",
+			"author": "David Hume"
+		},
+		{
+			"id": "126078",
+			"text": "Zwischen dem, was man sagt und dem, was andere hören und verstehen, können Welten liegen. ",
+			"author": null
+		},
+		{
+			"id": "126079",
+			"text": "Heute kennt man von allem den Preis, von nichts den Wert.",
+			"author": "Oscar Wilde"
+		},
+		{
+			"id": "126080",
+			"text": "Wer keinen Sinn im Leben sieht, ist nicht nur unglücklich, sondern kaum lebensfähig.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "126081",
+			"text": "Liebe ist in dem, der liebt, nicht in dem, der geliebt wird.",
+			"author": "Platon"
+		},
+		{
+			"id": "126082",
+			"text": "Warum klappst du bei dem ganzen Stress nicht zusammen? Keine Zeit.",
+			"author": null
+		},
+		{
+			"id": "126083",
+			"text": "Das Herz hat seine Gründe, die der Verstand nicht kennt.",
+			"author": "Blaise Pascal"
+		},
+		{
+			"id": "126084",
+			"text": "Jeder möchte lange leben, aber keiner will alt werden.",
+			"author": "Jonathan Swift"
+		},
+		{
+			"id": "126085",
+			"text": "Es gibt nichts Schöneres als geliebt zu werden, geliebt um seiner selbst willen oder vielmehr trotz seiner selbst.",
+			"author": "Victor Hugo"
+		},
+		{
+			"id": "126086",
+			"text": "Es gibt keinen Weg zum Glück. Glücklichsein ist der Weg.",
+			"author": null
+		},
+		{
+			"id": "126087",
+			"text": "Es ist keine Schande, nichts zu wissen – wohl aber, nichts lernen zu wollen.",
+			"author": "Platon"
+		},
+		{
+			"id": "126088",
+			"text": "Einen Vorsprung im Leben hat, wer da anpackt, wo die anderen erst einmal reden.",
+			"author": "John F. Kennedy"
+		},
+		{
+			"id": "126089",
+			"text": "Eines Tages wirst du aufwachen und keine Zeit mehr haben für die Dinge, die du immer tun wolltest. Tu sie jetzt!",
+			"author": "Paulo Coelho"
+		},
+		{
+			"id": "126090",
+			"text": "Das Glück Deines Lebens hängt von der Beschaffenheit Deiner Gedanken ab.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "126091",
+			"text": "Denken ist die schwerste Arbeit, die es gibt. Das ist wahrscheinlich auch der Grund, dass sich so wenige Leute damit beschäftigen.",
+			"author": null
+		},
+		{
+			"id": "126092",
+			"text": "Starke Menschen haben nie eine einfache Vergangenheit.",
+			"author": null
+		},
+		{
+			"id": "126093",
+			"text": "Du siehst die Welt nicht so wie sie ist. Du siehst die Welt so wie du bist.",
+			"author": "Mooji"
+		},
+		{
+			"id": "126094",
+			"text": "Alle Dinge sind schwer bevor sie leicht werden.",
+			"author": "Thomas Fuller"
+		},
+		{
+			"id": "126095",
+			"text": "Bevor du über mich und mein Leben urteilst, zieh meine Schuhe an und geh meinen Weg.",
+			"author": null
+		},
+		{
+			"id": "126096",
+			"text": "Ob ein Mensch klug ist, erkennt man an seinen Antworten. Ob ein Mensch weise ist, erkennt man an seinen Fragen.",
+			"author": "Nagib Mahfuz"
+		},
+		{
+			"id": "126097",
+			"text": "Liebe zu allen Wesen ist wahre Religion.",
+			"author": null
+		},
+		{
+			"id": "126098",
+			"text": "Sage einem Menschen so oft du kannst, dass du ihn liebst! Denn der Tag wird kommen, an dem es zu spät ist!",
+			"author": null
+		},
+		{
+			"id": "126099",
+			"text": "Solange du nach dem Glücke jagst, bist du nicht reif zum Glücklichsein.",
+			"author": "Hermann Hesse"
+		},
+		{
+			"id": "126101",
+			"text": "Lass das Verhalten anderer nicht deinen inneren Frieden zerstören.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "126102",
+			"text": "Du wirst draußen nichts finden, was dir innen fehlt.",
+			"author": null
+		},
+		{
+			"id": "126103",
+			"text": "Wer zu oft liebt, der liebt niemals richtig. ",
+			"author": null
+		},
+		{
+			"id": "126104",
+			"text": "Was du denkst, bist du. Was du bist, strahlst du aus. Was du ausstrahlst, ziehst du an.",
+			"author": null
+		},
+		{
+			"id": "126105",
+			"text": "Vertrauen ist das Gefühl, einem Menschen sogar dann glauben zu können, wenn man genau weiss, dass man an seiner Stelle lügen würde!",
+			"author": null
+		},
+		{
+			"id": "126106",
+			"text": "Krise ist ein produktiver Zustand. Muss muss ihr nur den Beigeschmack der Katastrophe nehmen.",
+			"author": "Max Frisch"
+		},
+		{
+			"id": "126107",
+			"text": "Was wäre das Leben, hätten wir nicht den Mut, etwas zu riskieren.",
+			"author": "Vincent van Gogh"
+		},
+		{
+			"id": "126108",
+			"text": "Manchmal geht es im Leben nicht darum, sich selbst zu finden, sondern sich selbst neu zu erschaffen. ",
+			"author": null
+		},
+		{
+			"id": "126109",
+			"text": "Dumme Gedanken hat jeder, aber der Weise verschweigt sie.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "126110",
+			"text": "Sei jeden Tag stärker als deine stärkste Ausrede. ",
+			"author": null
+		},
+		{
+			"id": "126111",
+			"text": "Die Frage ist nicht, ob wir einen Menschen lieben oder nicht, sondern ob es uns mit ihm besser oder schlechter geht.",
+			"author": null
+		},
+		{
+			"id": "126112",
+			"text": "Fange nie an aufzuhören – und höre nie auf anzufangen.",
+			"author": "Cicero"
+		},
+		{
+			"id": "126113",
+			"text": "An alle die behaupten, sie wüssten wie der Hase läuft: Er hoppelt!",
+			"author": null
+		},
+		{
+			"id": "126114",
+			"text": "Alles im Leben hat einen Sinn. Manchmal braucht man nur etwas Abstand, um ihn zu erkennen.",
+			"author": null
+		},
+		{
+			"id": "126115",
+			"text": "Alles, was das Böse braucht, um zu triumphieren, ist das Schweigen der Mehrheit.",
+			"author": "Kofi Annan"
+		},
+		{
+			"id": "126116",
+			"text": "Vielleicht sollte der Sinn des Lebens einfach darin bestehen, anderen einen Sinn zum Leben zu geben.",
+			"author": null
+		},
+		{
+			"id": "126117",
+			"text": "Love it, change it or leave it. ",
+			"author": null
+		},
+		{
+			"id": "126118",
+			"text": "Der sicherste Weg zum Erfolg ist immer, es noch einmal zu versuchen.",
+			"author": "Thomas Alva Edison"
+		},
+		{
+			"id": "126119",
+			"text": "Der Mensch hat dreierlei Wege klug zu handeln: erstens durch Nachdenken, das ist der edelste; zweitens durch Nachahmen, das ist der leichteste; drittens durch Erfahrung, das ist der bitterste.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "126120",
+			"text": "Ich mag Menschen, die niemanden klein machen müssen, um sich selbst groß zu fühlen.",
+			"author": null
+		},
+		{
+			"id": "126121",
+			"text": "Ein Optimist findest immer einen Weg. Ein Pessimist findet immer eine Sackgasse.",
+			"author": "Napoleon Hill"
+		}
+	]
+}

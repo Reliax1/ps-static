@@ -1,0 +1,92 @@
+{
+	"id": "ich-liebe-dich-bilder",
+	"h1title": "Ich liebe dich Bilder",
+	"metatitel": "Ich liebe dich Bilder - runterladen für Whatsapp & Facebook",
+	"metacontent": "Hier findest du eine große Auswahl an Ich liebe dich Bildern zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "beziehungssprueche-seite",
+			"header": "Beziehungssprüche",
+			"slug": "https://perfekterspruch.de/beziehungssprueche/"
+		},
+		{
+			"image": "suesse-sprueche-seite",
+			"header": "Süße Sprüche",
+			"slug": "https://perfekterspruch.de/suesse-sprueche/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+			"header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "valentinstag-sprueche-seite",
+			"header": "Valentinstag Sprüche",
+			"slug": "https://perfekterspruch.de/valentinstag-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "112001",
+			"image": "ichliebedichbilder/ich-liebe-dich",
+			"text": "Ich liebe dich",
+			"author": null
+		},
+		{
+			"id": "112002",
+			"image": "ichliebedichbilder/ich-liebe-dich-bilder",
+			"text": "Du bist der wichtigste Mensch in meinem Leben. Ich liebe dich!",
+			"author": null
+		},
+		{
+			"id": "112003",
+			"image": "ichliebedichbilder/ich-liebe-dich-kurz",
+			"text": "Ich liebe Dich über alles",
+			"author": null
+		},
+		{
+			"id": "112004",
+			"image": "ichliebedichbilder/ich-liebe-dich-schoen",
+			"text": "Du bist der Stern an den ich denke und mein Herz so gern verschenke. Du bist der Stern mit dem hellsten Licht, denn er heißt ICH LIEBE DICH!",
+			"author": null
+		},
+		{
+			"id": "112005",
+			"image": "ichliebedichbilder/ich-liebe-dich-bilder-whatsapp",
+			"text": "Ich werde dich für immer lieben",
+			"author": null
+		},
+		{
+			"id": "112006",
+			"image": "ichliebedichbilder/ich-liebe-dich-schatz",
+			"text": "Ich liebe dich mein Schatz",
+			"author": null
+		},
+		{
+			"id": "112007",
+			"image": "ichliebedichbilder/ich-liebe-dich-pizza",
+			"text": "Ich liebe dich mehr als Pizza",
+			"author": null
+		},
+		{
+			"id": "112008",
+			"image": "ichliebedichbilder/ich-liebe-dich-status",
+			"text": "Ich brauche dich, weil ich dich liebe und ich liebe dich, weil ich dich brauche!",
+			"author": null
+		},
+		{
+			"id": "112009",
+			"image": "ichliebedichbilder/ich-liebe-dich-Pinterest",
+			"text": "Ich liebe dich, denn ohne dich kann nicht sein!",
+			"author": null
+		},
+		{
+			"id": "112010",
+			"image": "ichliebedichbilder/liebe-ist",
+			"text": "Liebe ist… wenn die Realität schöner ist als jeder Traum. I Love You!",
+			"author": null
+		}
+	]
+}

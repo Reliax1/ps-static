@@ -1,0 +1,334 @@
+{
+	"id": "sonntagsgruesse",
+	"h1title": "Sonntagsgrüße",
+	"metatitel": "Sonntagsgrüße mit Bildern zum herunterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an Sonntagsgrüßen mit Bildern zum herunterladen, kopieren & teilen.",
+
+	"othersites": [
+		{
+			"image": "guten-morgen-sonntag-seite",
+			"header": "Guten Morgen Sonntag",
+			"slug": "https://perfekterspruch.de/guten-morgen-sonntag/"
+		},
+		{
+			"image": "sonntag-lustig-seite",
+			"header": "Sonntag lustig",
+			"slug": "https://perfekterspruch.de/sonntag-lustig/"
+		},
+		{
+			"image": "karneval-sprueche-seite",
+			"header": "Karneval Sprüche",
+			"slug": "https://perfekterspruch.de/karneval-sprueche/"
+		},
+		{
+			"image": "sonntagsgruesse-seite",
+			"header": "Sonntagsgrüße",
+			"slug": "https://perfekterspruch.de/sonntagsgruesse/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "129001",
+			"image": "sonntagsgruesse/sonntagsgruesse-freund",
+			"text": "Hurra! Hurra! Endlich ist der Sonntag da! Wünsche euch einen schönen Tag.",
+			"author": null
+		},
+		{
+			"id": "129002",
+			"image": "sonntagsgruesse/sonntagsgruesse-kurz",
+			"text": "Guten Morgen! Genießt diesen wunderschönen Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129003",
+			"image": "sonntagsgruesse/sonntagsgruesse-bild",
+			"text": "Hier kommen ganz knuddelige Grüße nur für dich. Genieß deinen Sonntag!",
+			"author": null
+		},
+		{
+			"id": "129004",
+			"image": "sonntagsgruesse/sonntagsgruesse-whatsapp",
+			"text": "Du kannst mich heute Mofa nennen – halb Mensch, halb Sofa.",
+			"author": null
+		},
+		{
+			"id": "129005",
+			"image": "sonntagsgruesse/sonntagsgruesse-facebook",
+			"text": "Gib der Seele einen Sonntag und dem Sonntag eine Seele.",
+			"author": null
+		},
+		{
+			"id": "129006",
+			"image": "sonntagsgruesse/sonntagsgruesse-pinterest",
+			"text": "Möge dieser Sonntag voller Segen und Glück sein. Ich wünsche dir einen schönen Sonntag und freue mich schon darauf, dich wiederzusehen.",
+			"author": null
+		},
+		{
+			"id": "129007",
+			"image": "sonntagsgruesse/sonntagsgruesse-freundin",
+			"text": "Zutaten für einen perfekten Sonntag: Sonne, gute Laune und ganz viel Zeit zum Relaxen.",
+			"author": null
+		},
+		{
+			"id": "129008",
+			"image": "sonntagsgruesse/sonntagsgruesse-lustig",
+			"text": "Und denk daran: Kalorien werden am Wochenende nicht gezählt. Noch einen schönen Sonntag!",
+			"author": null
+		},
+		{
+			"id": "129009",
+			"image": "sonntagsgruesse/sonntagsgruesse-bilder",
+			"text": "Sonntag: Der perfekte Tag, um das zu tun, was uns gefällt. Und um in aller Ruhe zu faulenzen.",
+			"author": null
+		},
+		{
+			"id": "129010",
+			"image": "sonntagsgruesse/schoene-sonntagsgruesse",
+			"text": "Sonntags ist Ruhetag! Ich wünsche dir einen gemütlichen und ruhigen Tag im Kreise deiner Liebsten. Viel Spaß bei allem, was du vorhast!",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "129002",
+			"text": "Man sollte auch an Wochentagen ein paar Augenblicke Sonntag sein lassen.",
+			"author": null
+		},
+		{
+			"id": "129003",
+			"text": "Ich hoffe, dieser Sonntag bringt dir eine Menge Erholung, gutes Essen und eine Menge schöner Momente. Einen schönen Sonntag für dich, mein Schatz.",
+			"author": null
+		},
+		{
+			"id": "129005",
+			"text": "Während ich so meinen ersten Kaffee des Tages trinke, musste ich an dich denken. Ich wünsche dir einen schönen Sonntag voller schöner Momente und viel Ruhe!",
+			"author": null
+		},
+		{
+			"id": "129006",
+			"text": "Sag mir die magischen drei Worte: „Heute ist Sonntag.“",
+			"author": null
+		},
+		{
+			"id": "129007",
+			"text": "Ich wünschte du wärst heute hier. Ein Sonntag ist einfach nicht das gleiche ohne dich, beste Freundin.",
+			"author": null
+		},
+		{
+			"id": "129008",
+			"text": "Dieser Moment, wenn der Sonntag-Abend sich schon wie ein Montag-Morgen anfühlt.",
+			"author": null
+		},
+		{
+			"id": "129010",
+			"text": "Hallo, heute morgen bin ich dein persönlicher Sonntagsschatz und verbringe heute den Tag mit dir, mein Spatz. So sage ich dir in einem Satz, ich liebe dich, du bist mein größter Schatz.",
+			"author": null
+		},
+		{
+			"id": "129012",
+			"text": "Dieser Nachmittag eignet sich doch wunderbar für einen Sonntagsspaziergang, also wie wärs mit einem Ausflug vom Bett zur Küche und danach auf die Couch?",
+			"author": null
+		},
+		{
+			"id": "129013",
+			"text": "Kuchen ist das Brot zum Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129014",
+			"text": "Ich wünsche dir heute einen wolkenlosen Himmel, den Duft der Blumen in der Nase, ein schönes Lied in den Ohren, ein Lächeln auf den Lippen und dass jeder deiner Wünsche in Erfüllung geht. Hab einen tollen Sonntag!",
+			"author": null
+		},
+		{
+			"id": "129015",
+			"text": "Diesen Sonntag verbringst du ohne mich, nun das ist doch schade und geht doch nich‘. Mit diesen Worten verabschiede ich mich von dir, bis zum nächsten Mal, ich wünschte du wärst jetzt hier.",
+			"author": null
+		},
+		{
+			"id": "129016",
+			"text": "Meine Liebe zu dir wächst von Tag zu Tag mehr. Ich hoffe, dein Wochenende ist voller Liebe, Glück und schöner Momente. Ich wünsche dir einen schönen Sonntag, meine Liebe.",
+			"author": null
+		},
+		{
+			"id": "129017",
+			"text": "Genieße den letzten Tag der Woche. Ich bin dem Universum sehr dankbar, dass es uns zusammengeführt hat. Frohen Sonntag, mein Liebster.",
+			"author": null
+		},
+		{
+			"id": "129018",
+			"text": "Das Schönste am Sonntag ist der Samstagabend.",
+			"author": null
+		},
+		{
+			"id": "129019",
+			"text": "Es ist Sonntag – lass dich heute vom Leben umarmen und genieße den Tag!",
+			"author": null
+		},
+		{
+			"id": "129020",
+			"text": "Ich kann nicht aufhören, an dich zu denken, mein Schatz. Genieße das Wochenende in vollen Zügen. Hab einen schönen Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129021",
+			"text": "Morgääähn und einen schönen Sonntag!",
+			"author": null
+		},
+		{
+			"id": "129023",
+			"text": "Familie und Freunde sind die Heimat des Herzens, also genieße deinen Nachmittag mit deinen Liebsten. Grüße zum Sonntag",
+			"author": null
+		},
+		{
+			"id": "129024",
+			"text": "Heute ist Ruhetag! Schönen Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129025",
+			"text": "Das Träumen ist der Sonntag des Denkens.",
+			"author": null
+		},
+		{
+			"id": "129026",
+			"text": "Guten Morgen und einen schönen Sonntag! Behalte heute im Hinterkopf: Egal wie schnell du rennen kannst, das Wochenende rennt schneller. Genieß also deinen Tag und liebe Grüße.",
+			"author": null
+		},
+		{
+			"id": "129027",
+			"text": "Guten Morgen! Und wieder niemand, der heute früh an meinem Bett stand und gesagt hat: Königliche Hoheit, hier ist Ihr Kaffee. Hab einen schönen Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129029",
+			"text": "Ein Sonntag bedeutet für mich: So lange schlafen bis ich hungrig bin und so lange essen bis ich wieder müde bin. Ich wünsche dir einen schönen Sonntagnachmittag.",
+			"author": null
+		},
+		{
+			"id": "129030",
+			"text": "Ich wünsche dir einen entspannten und erholsamen Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129031",
+			"text": "Das Einzige, was schneller ist als Licht, ist das Wochenende. Also passt gut auf, es ist schneller vorbei, als du denkst. Genieß es und wir sehen uns nächste Woche.",
+			"author": null
+		},
+		{
+			"id": "129032",
+			"text": "Einen guten Morgen an wunderschöne Freundin. Ich hoffe, du hast eine tolle Woche vor dir. Einen schönen Sonntag!",
+			"author": null
+		},
+		{
+			"id": "129033",
+			"text": "Schönen Sonntag, nimm dir Zeit für dich und genieß dein Frühstück. Lass dich heute vom Leben umarmen und hab einen schönen Tag!",
+			"author": null
+		},
+		{
+			"id": "129034",
+			"text": "Was gibt es schöneres, als einfach mal nichts zu tun? Ich wünsche einen relaxten Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129035",
+			"text": "Hey du, ich wünsche dir einen Sonntag, der so wundervoll ist wie du. Genieß den Tag, iss was leckeres und ruh dich aus, bevor die neue Woche beginnt! Hab dich lieb!",
+			"author": null
+		},
+		{
+			"id": "129037",
+			"text": "Der Wetterbericht hat mich gerade erreicht, für morgen ist ein langer Montag gemeldet, bei dem mit hoher Wahrscheinlichkeit Müdigkeit und Frust aufziehen wird.",
+			"author": null
+		},
+		{
+			"id": "129038",
+			"text": "Hallo, findest du nicht auch, dass wir eine Petition starten sollen, dass es einen Tag zwischen Sonntag und Montag geben sollte? Bis es soweit ist, wünsche ich dir einen schönen Nachmittag.",
+			"author": null
+		},
+		{
+			"id": "129039",
+			"text": "Auch die Urlaubsliebe ist Liebe. Aber ein Urlaub ist wie Sonntag, und was weiß der Sonntag von der Woche?",
+			"author": null
+		},
+		{
+			"id": "129040",
+			"text": "Hallo, ich wünsche euch heute einen fantastischen Tag und ganz viel Zeit zum „Nichts tun“.",
+			"author": null
+		},
+		{
+			"id": "129041",
+			"text": "Mit dir möchte ich heute den Sonntag verbringen und ins Paradies fliegen. Heute ist ein toller Tag, an dem ich dir sage, wie sehr ich dich mag.",
+			"author": null
+		},
+		{
+			"id": "129042",
+			"text": "Kaffee gekocht und ihn professionell bis zur Couch getragen. Somit habe ich alles erledigt, was ich mir für Sonntag vorgenommen habe.",
+			"author": null
+		},
+		{
+			"id": "129043",
+			"text": "Sonntagsregel: Wenn du es von der Couch aus nicht erreichen kannst, brauchst du es nicht!",
+			"author": null
+		},
+		{
+			"id": "129045",
+			"text": "Genieß den Tag und erlaube dir, heute auch mal nicht erreichbar zu sein.",
+			"author": null
+		},
+		{
+			"id": "129048",
+			"text": "Ganz süße Grüße zum Sonntag. Wünsche dir einen schönen Tag.",
+			"author": null
+		},
+		{
+			"id": "129049",
+			"text": "Lass es an diesem Morgen ruhig angehen. Am Sonntag kann früh aufstehen schon mal den ganzen Tag dauern.",
+			"author": null
+		},
+		{
+			"id": "129050",
+			"text": "Ich wünsche dir einen Sonntag vollgepackt mit schönen Momenten. Bleib gesund, meine Liebe!",
+			"author": null
+		},
+		{
+			"id": "129051",
+			"text": "Es ist nicht alle Tage Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129052",
+			"text": "Ohne Sonntag gibt's nur noch Werktage.",
+			"author": null
+		},
+		{
+			"id": "129053",
+			"text": "Wie der Freitag sich neigt, so der Sonntag sich zeigt.",
+			"author": null
+		},
+		{
+			"id": "129054",
+			"text": "Wer alle Tage feiert, fragt nicht nach dem Sonntag.",
+			"author": null
+		},
+		{
+			"id": "129055",
+			"text": "Wenn die Glocken der Erinnerung läuten, wird es Sonntag im Herzen.",
+			"author": "Peter Sirius"
+		},
+		{
+			"id": "129056",
+			"text": "Unter der Woche wohnt Gott im Himmel. Nur Sonntag kommt er in die Kirche.",
+			"author": null
+		},
+		{
+			"id": "129057",
+			"text": "Viele denken, daß der Sonntag ein Schwamm ist, um alle Sünden der Woche auszuwischen.",
+			"author": null
+		},
+		{
+			"id": "129058",
+			"text": "Wie der Sonntag am schönsten ist nach einer Woche voll großer Arbeitslast, so ist Glück nach Leiden am erquickendsten und am wenigsten gefährlich.",
+			"author": "Carl Hilty"
+		}
+	]
+}

@@ -1,0 +1,755 @@
+{
+	"id": "sprueche-zum-nachdenken",
+	"h1title": "Sprüche zum Nachdenken",
+	"metatitel": "140 Sprüche zum Nachdenken mit Bildern zum herunterladen",
+	"metacontent": "Hier findest du eine große Auswahl an Sprüchen zum Nachdenken mit passenden Bildern zum runterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "kluge-sprueche-seite",
+			"header": "Kluge Sprüche",
+			"slug": "https://perfekterspruch.de/kluge-sprueche/"
+		},
+		{
+			"image": "weise-sprueche-seite",
+			"header": "Weise Sprüche",
+			"slug": "https://perfekterspruch.de/weise-sprueche/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+			"header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+			"header": "Gute Sprüche",
+			"slug": "https://perfekterspruch.de/gute-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "123001",
+			"image": "nachdenken/sprueche-zum-nachdenken",
+			"text": "Der Schwache kann nicht verzeihen. Verzeihen ist eine Eigenschaft des Starken.",
+			"author": "Mahatma Gandhi"
+		},
+		{
+			"id": "123002",
+			"image": "nachdenken/schoene-sprueche-zum-nachdenken",
+			"text": "Die schönste Zeit im Leben sind die kleinen Momente, in denen du spürst, du bist zur richtigen Zeit, am richtigen Ort.",
+			"author": null
+		},
+		{
+			"id": "123003",
+			"image": "nachdenken/Albert-Einstein-sprueche",
+			"text": "Es gibt zwei Arten, sein Leben zu leben: Entweder so, als wäre nichts ein Wunder, oder so, als wäre alles eines.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "123004",
+			"image": "nachdenken/sprueche-zum-nachdenken-ueber-gefuehle",
+			"text": "Bei der falschen Person kannst du nichts richtig machen. Bei der richtigen Person kannst du nichts falsch machen.",
+			"author": null
+		},
+		{
+			"id": "123005",
+			"image": "nachdenken/sprueche-Konfuzius",
+			"text": "Wer einen Fehler begangen hat und ihn nicht korrigiert, begeht einen weiteren Fehler.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "123006",
+			"image": "nachdenken/whatsapp-status-sprueche-zum-nachdenken",
+			"text": "Vielleicht brauchen wir im Leben manchmal eine zweite Chance, weil die erste viel zu früh kam.",
+			"author": null
+		},
+		{
+			"id": "123007",
+			"image": "nachdenken/whatsapp-sprueche-zum-nachdenken",
+			"text": "Lass dir von der Vergangenheit nicht das Leben diktieren, aber lass sie dir für die Zukunft einen guten Ratgeber sein.",
+			"author": null
+		},
+		{
+			"id": "123008",
+			"image": "nachdenken/traurige-sprueche-zum-nachdenken",
+			"text": "Ich weiss nicht, ob es besser wird, wenn es anders wird. Aber es muss anders werden, wenn es besser werden soll.",
+			"author": null
+		},
+		{
+			"id": "123009",
+			"image": "nachdenken/status-sprueche-zum-nachdenken",
+			"text": "Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.",
+			"author": null
+		},
+		{
+			"id": "123010",
+			"image": "nachdenken/spruch-Mooji",
+			"text": "Du siehst die Welt nicht so wie sie ist, du siehst die Welt so wie du bist.",
+			"author": "Mooji"
+		},
+		{
+			"id": "123011",
+			"image": "nachdenken/gute-sprueche-zum-nachdenken",
+			"text": "Der Wunsch klug und tüchtig zu erscheinen, hindert uns oft, es zu werden.",
+			"author": "François de La Rochefoucauld"
+		},
+		{
+			"id": "123012",
+			"image": "nachdenken/charakter-sprueche-zum-nachdenken",
+			"text": "'Der Charakter offenbart sich nicht an großen Taten;\r\n        an Kleinigkeiten zeigt sich die Natur des Menschen.'",
+			"author": "Jean Jacques Rousseau"
+		},
+		{
+			"id": "123013",
+			"image": "nachdenken/sprueche-zum-nachdenken-whatsapp",
+			"text": "Im Leben geht es nicht darum, gute Karten zu haben, sondern auch mit einem schlechten Blatt gut zu spielen.",
+			"author": null
+		},
+		{
+			"id": "123014",
+			"image": "nachdenken/kurze-sprueche-zum-nachdenken",
+			"text": "Alles Geschaffene ist vergänglich. Strebt weiter, bemüht euch, unablässig achtsam zu sein.",
+			"author": "Buddha"
+		},
+		{
+			"id": "123015",
+			"image": "nachdenken/sprueche-zum-nachdenken-kurz",
+			"text": "Entscheide lieber ungefähr richtig, als genau falsch",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "123016",
+			"image": "nachdenken/weise-sprueche-zum-nachdenken",
+			"text": "Was Du hast, können viele haben. Doch was Du bist, kann keiner sein.",
+			"author": null
+		},
+		{
+			"id": "123017",
+			"image": "nachdenken/gefuehl-sprueche-zum-nachdenken",
+			"text": "Das Glück deines Lebens hängt von der Beschaffenheit deiner Gedanken ab.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "123018",
+			"image": "nachdenken/traurige-sprueche-zum-nachdenken-fuer-facebook",
+			"text": "Niemand kann andere Menschen glücklich machen. Das kann man nur selbst.",
+			"author": null
+		},
+		{
+			"id": "123019",
+			"image": "nachdenken/sprueche-ueber-das-leben-zum-nachdenken",
+			"text": "Dumme Gedanken hat jeder, aber der Weise verschweigt sie.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "123020",
+			"image": "nachdenken/schoene-bilder-sprueche-zum-nachdenken",
+			"text": "Wir alle haben zwei Leben. Das Zweite beginnt, wenn wir realisieren, dass wir nur Eins haben.",
+			"author": null
+		},
+		{
+			"id": "123021",
+			"image": "nachdenken/leben-sprueche-zum-nachdenken",
+			"text": "Glück entsteht oft durch Aufmerksamkeit in kleinen Dingen, Unglück oft durch Vernachlässigung kleiner Dinge.",
+			"author": "Wilhelm Busch"
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "123022",
+			"text": "Am meisten fühlt man sich von der Wahrheit getroffen, die man selbst verheimlichen wollte.",
+			"author": "Friedl Beutelroc"
+		},
+		{
+			"id": "123023",
+			"text": "Wenn du dich kraftlos fühlst, erinnere dich an all die Dinge, die du bereits geschafft hast.",
+			"author": null
+		},
+		{
+			"id": "123072",
+			"text": "Der Marathon ist ein Wettstreit zwischen deinem Willen und deinen Möglichkeiten.",
+			"author": "Jeff Galloway"
+		},
+		{
+			"id": "123024",
+			"text": "Versuche nicht, ein erfolgreicher, sondern ein wertvoller Mensch zu werden.",
+			"author": "Albert Einstei"
+		},
+		{
+			"id": "123025",
+			"text": "Sei der Mensch, den du selbst gerne treffen würdest.",
+			"author": null
+		},
+		{
+			"id": "123026",
+			"text": "Die höchsten Türme fangen beim Fundament an.",
+			"author": "Thomas Alva Ediso"
+		},
+		{
+			"id": "123027",
+			"text": "Manchmal vergessen wir die Erinnerungen, aber nicht die Person.",
+			"author": null
+		},
+		{
+			"id": "123028",
+			"text": "Die Ungeduld verlangt das Unmögliche, nämlich die Erreichung des Ziels ohne die Mittel.",
+			"author": "Georg Wilhelm Friedrich Hege"
+		},
+		{
+			"id": "123029",
+			"text": "Die schlimmste Art jemanden zu vermissen, ist neben ihm zu stehenund zu wissen er wird nie dir gehören.",
+			"author": null
+		},
+		{
+			"id": "123030",
+			"text": "Wir sollten nie aus Furcht handeln, aber wir sollten niemals Furcht haben, zu handeln.",
+			"author": "John F. Kenned"
+		},
+		{
+			"id": "123031",
+			"text": "Es ist unmöglich jemand zu finden der dich niemals verletzten wird. Also suche jemand für den sich der Schmerz lohnt.",
+			"author": null
+		},
+		{
+			"id": "123032",
+			"text": "Ich weiß, dass ich nichts weiß. Um diesen Unterschied bin ich wohl klüger als die anderen.",
+			"author": "Sokrate"
+		},
+		{
+			"id": "123033",
+			"text": "Den perfekten Zeitpunkt gibt es nicht. Wenn du etwas willst, dann fang an.",
+			"author": null
+		},
+		{
+			"id": "123034",
+			"text": "Was wir wissen, ist ein Tropfen. Was wir nicht wissen, ist ein Ozean.",
+			"author": "Isaac Newto"
+		},
+		{
+			"id": "123035",
+			"text": "Momente vergehen, doch Erinnerungen bleiben.",
+			"author": null
+		},
+		{
+			"id": "123036",
+			"text": "Die Kunst besteht darin, jeweils das Richtige festzuhalten oder loszulassen. Und manches erst gar nicht anzufassen.",
+			"author": null
+		},
+		{
+			"id": "123037",
+			"text": "Wer dir alles geben kann, kann dir auch alles nehmen.",
+			"author": null
+		},
+		{
+			"id": "123038",
+			"text": "Erbitte dir zuerst Gesundheit, dann Wohlergehen, drittens ein frohes Herz und zuletzt, niemandes Schuldner zu sein.",
+			"author": "Philemo"
+		},
+		{
+			"id": "123039",
+			"text": "Sein Herz zu verlieren ist die beste Art zu entdecken, dass man eins hat.",
+			"author": null
+		},
+		{
+			"id": "123040",
+			"text": "Jeder sieht, wie du scheinst. Nur wenige fühlen, wie du bist.",
+			"author": "Niccolò Machiavell"
+		},
+		{
+			"id": "123041",
+			"text": "Der Edle gewinnt Freunde durch seine kultivierte Gelehrsamkeit. Und mit Hilfe dieser Freunde fördert er seine Menschlichkeit.",
+			"author": "Konfuziu"
+		},
+		{
+			"id": "123042",
+			"text": "Manchmal ist Schweigen, die einzige Möglichkeit, zuzugeben, wie verletzt man eigentlich ist.",
+			"author": null
+		},
+		{
+			"id": "123043",
+			"text": "Nicht die Vollkommenen, sondern die Unvollkommenen brauchen unsere Liebe.",
+			"author": "Oscar Wild"
+		},
+		{
+			"id": "123044",
+			"text": "Mancher Mensch hat ein großes Feuer in der Seele, und niemand kommt, um sich daran zu wärmen.",
+			"author": "Vincent van Gog"
+		},
+		{
+			"id": "123045",
+			"text": "Die Liebe ist nicht kompliziert, sondern die Menschen sind es.",
+			"author": null
+		},
+		{
+			"id": "123046",
+			"text": "Für sich selbst ist jeder unsterblich. Er mag wissen, dass er sterben muss, aber er kann nie wissen, dass er tot ist.",
+			"author": "Samuel Butle"
+		},
+		{
+			"id": "123047",
+			"text": "Wer immer tut, was er schon kann, bleibt immer das, was er schon ist.",
+			"author": "Henry For"
+		},
+		{
+			"id": "123048",
+			"text": "Wer sich nicht mehr wundern kann, ist seelisch bereits tot.",
+			"author": "Albert Einstei"
+		},
+		{
+			"id": "123049",
+			"text": "Zeit, die wir uns nehmen, ist die Zeit, die uns etwas gibt.",
+			"author": "Ernst Ferst"
+		},
+		{
+			"id": "123050",
+			"text": "Wenn du die Freiheit aufgibst, um Sicherheit zu gewinnen, wirst du am Ende beides verlieren.",
+			"author": null
+		},
+		{
+			"id": "123051",
+			"text": "Die Liebe findet dich, wenn du aufhörst dich zu verstecken.",
+			"author": null
+		},
+		{
+			"id": "123052",
+			"text": "Finde das, was du liebst. Und begnüge dich niemals mit etwas Geringerem.",
+			"author": "Steve Job"
+		},
+		{
+			"id": "123053",
+			"text": "Manchmal passiert lange Zeit nichts und dann alles auf einmal.",
+			"author": null
+		},
+		{
+			"id": "123054",
+			"text": "Arroganz ist die Kunst, auf seine eigene Dummheit stolz zu sein.",
+			"author": null
+		},
+		{
+			"id": "123055",
+			"text": "Ich bereue nicht meine Vergangenheit, sondern nur die Zeit die ich für falsche Menschen geopfert habe.",
+			"author": null
+		},
+		{
+			"id": "123056",
+			"text": "Fehler machen kann wirklich jeder. Doch einen Fehler einzugestehen dazu braucht man Charakter!",
+			"author": null
+		},
+		{
+			"id": "123057",
+			"text": "Einen Fehler machen und ihn nicht korrigieren – das erst heißt wirklich einen Fehler machen.",
+			"author": "Konfuziu"
+		},
+		{
+			"id": "123058",
+			"text": "Jede kleine Ehrlichkeit ist besser als eine große Lüge.",
+			"author": "Leonardo da Vinc"
+		},
+		{
+			"id": "123059",
+			"text": "In der heutigen Gesellschaft vergisst der Mensch das Wichtigste – die Menschlichkeit.",
+			"author": null
+		},
+		{
+			"id": "123060",
+			"text": "Habe Mut, dich deines eigenen Verstandes zu bedienen.",
+			"author": "Immanuel Kan"
+		},
+		{
+			"id": "123061",
+			"text": "Es kommt ein Zeitpunkt in deinem Leben, wo Du realisierst, wer Dir wirklich wichtig ist, wer es nie war und wer es immer sein wird.",
+			"author": null
+		},
+		{
+			"id": "123062",
+			"text": "Das sind die Starken der Welt: die unter Tränen lachen, eigene Sorgen verbergen, und andere glücklich machen.",
+			"author": null
+		},
+		{
+			"id": "123063",
+			"text": "Glücklich ist, wer sich bei Sonnenuntergang auf die Sterne freut.",
+			"author": null
+		},
+		{
+			"id": "123064",
+			"text": "Kein Mensch war ohne Grund in deinem Leben. Der eine war ein Geschenk, der andere eine Lektion.",
+			"author": null
+		},
+		{
+			"id": "123065",
+			"text": "Ich kenne keinen sicheren Weg zum Erfolg, aber einen sicheren Weg zum Misserfolg: Es allen Recht machen zu wollen.",
+			"author": "Plato"
+		},
+		{
+			"id": "123066",
+			"text": "Schön ist eigentlich alles, was man mit Liebe betrachtet. Je mehr jemand die Welt liebt, desto schöner wird er sie finden.",
+			"author": "Christian Morgenster"
+		},
+		{
+			"id": "123067",
+			"text": "Vernachlässige nie die Menschen, die dir zeigen das Du ihnen wichtig bist, denn es wird der Tag kommen an dem du Zeit mit ihnen verbringen möchtest, es aber nicht mehr kannst.",
+			"author": null
+		},
+		{
+			"id": "123068",
+			"text": "Solange die Leute über Dich reden, kannst du davon ausgehen, dass sie dein Leben spannender finden als ihr eigenes!",
+			"author": null
+		},
+		{
+			"id": "123069",
+			"text": "Heute kennt man von allem den Preis, von nichts den Wert.",
+			"author": "Oscar Wild"
+		},
+		{
+			"id": "123070",
+			"text": "Beim Spiel kann man einen Menschen in einer Stunde besser kennenlernen, als im Gespräch in einem Jahr.",
+			"author": "Plato"
+		},
+		{
+			"id": "123071",
+			"text": "Das Vergleichen ist das Ende des Glücks und der Anfang der Unzufriedenheit.",
+			"author": "Søren Kierkegaar"
+		},
+		{
+			"id": "123072",
+			"text": "Erfahrungen sind die Summe aller Fehler, die wir in unserem Leben gemacht haben.",
+			"author": "Arthur Wellesley"
+		},
+		{
+			"id": "123073",
+			"text": "Aber das Leben ist kurz und die Wahrheit wirkt ferner und lange: Sagen wir die Wahrheit.",
+			"author": "Arthur Schopenhauer"
+		},
+		{
+			"id": "123074",
+			"text": "Entscheide lieber ungefähr richtig als genau falsch.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "123075",
+			"text": "Die Neugier steht immer an erster Stelle eines Problems, das gelöst werden will.",
+			"author": "Galileo Galilei"
+		},
+		{
+			"id": "123076",
+			"text": "Man spürt selten, was Glück ist, aber man weiß meistens, was Glück war.",
+			"author": "Françoise Sagan"
+		},
+		{
+			"id": "123077",
+			"text": "Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.",
+			"author": "Seneca"
+		},
+		{
+			"id": "123078",
+			"text": "Mit dem Wissen wächst der Zweifel.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "123079",
+			"text": "Wer mit dem eigenen Leben zufrieden ist, schaut weniger auf das Leben der anderen.",
+			"author": null
+		},
+		{
+			"id": "123080",
+			"text": "Nicht den Tod sollte man fürchten, sondern dass man nie beginnen wird, zu leben.",
+			"author": "Mark Aurel"
+		},
+		{
+			"id": "123081",
+			"text": "Dumme Gedanken hat jeder, aber der Weise verschweigt sie.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "123082",
+			"text": "Um einen guten Liebesbrief zu schreiben, musst du anfangen, ohne zu wissen, was du sagen willst, und endigen, ohne zu wissen, was du gesagt hast.",
+			"author": "Jean-Jacques Rousseau"
+		},
+		{
+			"id": "123083",
+			"text": "Es gibt eine Kraft, die stärker ist als alles andere, eine Kraft, welche uns weitermachen lässt: die Liebe.",
+			"author": null
+		},
+		{
+			"id": "123084",
+			"text": "Charakter ist das, was vom Menschen übrig bleibt, wenn es unbequem wird.",
+			"author": null
+		},
+		{
+			"id": "123085",
+			"text": "Man kann nicht dankbar und unglücklich zugleich sein.",
+			"author": null
+		},
+		{
+			"id": "123086",
+			"text": "Du bist das, worüber ich vor dem einschlafen nachdenke.",
+			"author": null
+		},
+		{
+			"id": "123087",
+			"text": "Es ist schlimm, erst dann zu merken, dass man keine Freunde hat, wenn man Freunde nötig hat.",
+			"author": "Plutarch"
+		},
+		{
+			"id": "123088",
+			"text": "Wenn du ein Problem hast, versuche es zu lösen. Kannst du es nicht lösen, dann mache kein Problem daraus.",
+			"author": "Buddha"
+		},
+		{
+			"id": "123089",
+			"text": "Eine gute Schwäche ist besser als eine schlechte Stärke.",
+			"author": "Charles Aznavour"
+		},
+		{
+			"id": "123090",
+			"text": "Man lässt niemanden zurück, den man liebt.",
+			"author": null
+		},
+		{
+			"id": "123091",
+			"text": "Am Ende wird alles gut. Wenn es nicht gut ist, ist es noch nicht das Ende.",
+			"author": "Oscar Wilde"
+		},
+		{
+			"id": "123092",
+			"text": "Glatte Worte und schmeichelnde Mienen vereinen sich selten mit einem anständigen Charakter.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "123093",
+			"text": "Liebe ist wenn dich jemand morgens anlächelt, obwohl du aussiehst wie ein Waschbär auf Drogen.",
+			"author": null
+		},
+		{
+			"id": "123094",
+			"text": "Vergiss Sicherheit. Lebe, wo du fürchtest zu leben. Zerstöre deinen Ruf. Sei berüchtigt.",
+			"author": "Rumi"
+		},
+		{
+			"id": "123095",
+			"text": "Hast du keine Feinde, dann hast du keinen Charakter.",
+			"author": "Paul Newman"
+		},
+		{
+			"id": "123096",
+			"text": "Courage ist gut, aber Ausdauer ist besser. Ausdauer, das ist die Hauptsache.",
+			"author": "Theodor Fontane"
+		},
+		{
+			"id": "123097",
+			"text": "Die Tat unterscheidet das Ziel vom Traum.",
+			"author": null
+		},
+		{
+			"id": "123098",
+			"text": "Und plötzlich ging es in jedem Liebelied um dich.",
+			"author": null
+		},
+		{
+			"id": "123099",
+			"text": "Der Mensch, der dir, ohne dich zu berühren und ohne mit dir zu sprechen ein Lächeln ins Gesicht zaubern kann, sollte der Mensch sein, dem du dein Herz schenkst.",
+			"author": null
+		},
+		{
+			"id": "123101",
+			"text": "Tapferkeit in Verbindung mit Macht führt zu Tollkühnheit.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "123102",
+			"text": "Das Leben ist dazu da, um gelebt zu werden und nicht um begriffen zu werden, oder sich vorgegebenen Mustern zu fügen.",
+			"author": "Bruce Lee"
+		},
+		{
+			"id": "123103",
+			"text": "Die besten Freunde sind die, mit denen man über dieselben Dinge schweigen kann.",
+			"author": null
+		},
+		{
+			"id": "123104",
+			"text": "Arbeit ist eine der besten Erzieher des Charakters.",
+			"author": "Samuel Smiles"
+		},
+		{
+			"id": "123105",
+			"text": "Jede schwierige Situation, die du jetzt meisterst, bleibt dir in der Zukunft erspart.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "123106",
+			"text": "Freundschaft ist wie Geld – leichter gewonnen als erhalten.",
+			"author": "Samuel Butler"
+		},
+		{
+			"id": "123107",
+			"text": "Nichts Unvollendetes kann für etwas Maßstab sein.",
+			"author": "Platon"
+		},
+		{
+			"id": "123108",
+			"text": "Menschen lügen aus vielen Gründen, aber niemals ohne Grund.",
+			"author": null
+		},
+		{
+			"id": "123109",
+			"text": "Zur Resignation gehört Charakter.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "123110",
+			"text": "Ein tiefer Fall führt oft zu hohem Glück.",
+			"author": "William Shakespeare"
+		},
+		{
+			"id": "123111",
+			"text": "Lebe ein gutes, ehrbares Leben! Wenn du älter bist und zurückdenkst, wirst du es noch einmal genießen können.",
+			"author": "Dalai Lama"
+		},
+		{
+			"id": "123112",
+			"text": "Die Harmonie, die sich unter den Wahrheiten befindet, ist wie die Übereinstimmung in einem Gemälde.",
+			"author": "Immanuel Kant"
+		},
+		{
+			"id": "123113",
+			"text": "Ein bisschen Freundschaft ist mir mehr wert als die Bewunderung der ganzen Welt.",
+			"author": "Otto von Bismarck"
+		},
+		{
+			"id": "123114",
+			"text": "Willst du den Charakter eines Menschen erkennen, so gib ihm Macht.",
+			"author": "Abraham Lincoln"
+		},
+		{
+			"id": "123115",
+			"text": "Ohne Glauben an ihre Dauer wäre die Liebe nichts, nur Beständigkeit macht sie groß.",
+			"author": "Honore de Balzac"
+		},
+		{
+			"id": "123116",
+			"text": "Fehler macht jeder. Einen Fehler einzugestehen, erfordert jedoch Charakter.",
+			"author": null
+		},
+		{
+			"id": "123117",
+			"text": "Wenn man glücklich ist, soll man nicht noch glücklicher werden wollen.",
+			"author": "Theodor Fontane"
+		},
+		{
+			"id": "123118",
+			"text": "Wir leben im Überdruss, in Scheu des Todes.",
+			"author": "Platon"
+		},
+		{
+			"id": "123119",
+			"text": "Zur Erforschung der Wahrheit bedarf es notwendig der Methode. Rene Descartes",
+			"author": null
+		},
+		{
+			"id": "123120",
+			"text": "Was wir wissen, ist ein Tropfen. Was wir nicht wissen, ist ein Ozean.",
+			"author": "Isaac Newton"
+		},
+		{
+			"id": "123121",
+			"text": "Wer aufhört, besser zu werden, hat aufgehört, gut zu sein.",
+			"author": "Philip Rosenthal"
+		},
+		{
+			"id": "123122",
+			"text": "Das wertvollste im Leben ist die Zeit – Leben heißt, mit der Zeit richtig umzugehen.",
+			"author": "Bruce Lee"
+		},
+		{
+			"id": "123123",
+			"text": "Es gibt keinen Weg zum Glück. Glücklichsein ist der Weg.",
+			"author": "Buddha"
+		},
+		{
+			"id": "123124",
+			"text": "Die Lösung ist immer einfach, man muss sie nur finden.",
+			"author": "Alexander Solschenizyn"
+		},
+		{
+			"id": "123125",
+			"text": "Erlebnisse der Seele sind Zustände der Begeisterung und prophetischer Ahndung, die sich aufgrund von Traumerfahrungen einstellen.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "123126",
+			"text": "Mit dem Tod habe ich nichts zu schaffen. Bin ich, ist er nicht. Ist er, bin ich nicht.",
+			"author": "Epikur"
+		},
+		{
+			"id": "123127",
+			"text": "Worte verbinden nur, wo unsere Wellenlängen längst übereinstimmen.",
+			"author": "Max Frisch"
+		},
+		{
+			"id": "123128",
+			"text": "Tun was du magst, ist Freiheit. Mögen was du tust, ist Glück.",
+			"author": null
+		},
+		{
+			"id": "123129",
+			"text": "Wir müssen von ganzem Herzen alles, was uns trifft, willkommen heißen, wir dürfen auch innerlich nicht murren, ja uns nicht einmal wundern.",
+			"author": "Mark Aurel"
+		},
+		{
+			"id": "123130",
+			"text": "Die meisten Menschen merken nicht, was die Zeit aus ihnen macht.",
+			"author": null
+		},
+		{
+			"id": "123131",
+			"text": "Ohne Rechtschaffenheit ist es nicht leicht, in äußerem Glück die Bescheidenheit zu wahren.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "123132",
+			"text": "Was man ernst meint, sagt man am besten im Spaß.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "123133",
+			"text": "Auch, was wir am meisten sind, sind wir nicht immer.",
+			"author": "Marie von Ebner-Eschenbach"
+		},
+		{
+			"id": "123134",
+			"text": "Die Harmonie, die sich unter den Wahrheiten befindet, ist wie die Übereinstimmung in einem Gemälde.",
+			"author": "Immanuel Kant"
+		},
+		{
+			"id": "123135",
+			"text": "Ein Freund ist jemand, der dich mag, obwohl er dich kennt.",
+			"author": "Elbert Hubbard"
+		},
+		{
+			"id": "123136",
+			"text": "Lass‘ dir dein Leuchten nicht nehmen, nur weil es andere blendet.",
+			"author": null
+		},
+		{
+			"id": "123137",
+			"text": "Persönlichkeiten werden nicht durch schöne Reden geformt, sondern durch Arbeit und eigene Leistung.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "123138",
+			"text": "Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.",
+			"author": "Arthur Schopenhauer"
+		},
+		{
+			"id": "123139",
+			"text": "Es gibt nur einen Weg, um Kritik zu vermeiden: Nichts tun, nichts sagen, nicht sein.",
+			"author": "Aristoteles"
+		},
+		{
+			"id": "123140",
+			"text": "Es ist nicht von Bedeutung, wie langsam du gehst, solange du nicht stehenbleibst.",
+			"author": "Konfuzius"
+		}
+	]
+}

@@ -1,0 +1,712 @@
+{
+	"id": "sprueche-zum-abschied",
+	"h1title": "Sprüche zum Abschied",
+	"metatitel": "Sprüche zum Abschied mit Bildern zum runterladen & kopieren",
+	"metacontent": "Hier findest du eine große Auswahl an schönen und inspirierenden Sprüchen zum Abschied zum herunterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "traurige-sprueche-seite",
+			"header": "Traurige Sprüche",
+			"slug": "https://perfekterspruch.de/traurige-sprueche/"
+		},
+		{
+			"image": "positive-sprueche-seite",
+			"header": "Positive Sprüche",
+			"slug": "https://perfekterspruch.de/positive-sprueche/"
+		},
+		{
+			"image": "lebensmotto-seite",
+			"header": "Lebensmotto",
+			"slug": "https://perfekterspruch.de/lebensmotto/"
+		},
+		{
+			"image": "sprueche-zum-nachdenken-seite",
+			"header": "Sprüche zum Nachdenken",
+			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "122001",
+			"image": "spruechezumabschied/schoene-abschiedssprueche",
+			"text": "Wohin du auch gehst, geh mit deinem ganzen Herzen.",
+			"author": "Konfuzius"
+		},
+		{
+			"id": "122003",
+			"image": "spruechezumabschied/abschiedssprueche-kurz",
+			"text": "Weine nicht, weil es vorüber ist, sondern lächle, weil es so schön war.",
+			"author": "Gabriel García Márquez"
+		},
+		{
+			"id": "122005",
+			"image": "spruechezumabschied/spruch-abschied",
+			"text": "Menschen treten in unser Leben und begleiten uns eine Weile. Einige bleiben für immer, denn sie hinterlassen ihre Spuren in unseren Herzen.",
+			"author": null
+		},
+		{
+			"id": "122006",
+			"image": "spruechezumabschied/sprueche-zum-abschied-kurz",
+			"text": "So schmerzhaft der Abschied jetzt ist, umso schöner soll deine Zukunft sein.",
+			"author": null
+		},
+		{
+			"id": "122008",
+			"image": "spruechezumabschied/abschiedsspruch",
+			"text": "Das Leben ist ein ewiger Abschied. Wer aber von seinen Erinnerungen genießen kann, lebt zweimal.",
+			"author": "Marcus Valerius Martial"
+		},
+		{
+			"id": "122009",
+			"image": "spruechezumabschied/schoene-sprueche-zum-abschied",
+			"text": "Je schöner und voller die Erinnerung, desto schwerer ist die Trennung.",
+			"author": "Friedrich Bonhoeffer"
+		},
+		{
+			"id": "122010",
+			"image": "spruechezumabschied/sprueche-zum-abschied",
+			"text": "Alles hat seine Zeit, es gibt eine Zeit der Freude, eine Zeit der Stille, eine Zeit des Schmerzes, der Trauer und eine Zeit der dankbaren Erinnerung.",
+			"author": null
+		},
+		{
+			"id": "122011",
+			"image": "spruechezumabschied/abschiedssprueche",
+			"text": "Es ist Zeit, für das, was war, Danke zu sagen, damit das, was kommen wird, unter einem guten Stern beginnt.",
+			"author": null
+		},
+		{
+			"id": "122012",
+			"image": "spruechezumabschied/sprueche-zum-abschied-bilder",
+			"text": "Ein neuer Job ist ein neuer Weg – auf allen deinen Wegen wünsche ich dir alles erdenklich gute und viel Erfolg in deiner neuen Arbeitsstelle.",
+			"author": null
+		},
+		{
+			"id": "122014",
+			"image": "spruechezumabschied/gedicht-zum-abschied",
+			"text": "Beim Abschied wird uns oft erst klar, wie kostbar jeder Moment doch war. Wäre dieser Abschied nicht, hätte die Zeit davor wenig Gewicht.",
+			"author": null
+		},
+		{
+			"id": "122015",
+			"image": "spruechezumabschied/abschiedssprueche-bild",
+			"text": "Danke für die tolle Zusammenarbeit und die vielen lustigen Momente in einem stressigen Alltag. Du wirst uns fehlen! Viel Erfolg auf deinem weiteren Weg.",
+			"author": null
+		},
+		{
+			"id": "122016",
+			"image": "spruechezumabschied/abschied-bild",
+			"text": "Ein „Lebe Wohl“ ist nie schön. Ich sage dir daher „Auf Wiedersehen“ denn ich bin mir sicher, dieser Abschied ist nicht für immer. Ich freue mich schon jetzt auf den Tag, an dem wir uns wieder in die Arme schließen können.",
+			"author": "Amalia von Wendlingen"
+		},
+		{
+			"id": "122020",
+			"image": "spruechezumabschied/abschied-spruch",
+			"text": "Manchmal muss man Lebewohl sagen, um sich neuen Herausforderungen zu stellen und neue Ziele zu erreichen.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "122021",
+			"text": "Das Leben ist ein ewiger Abschied. Wer aber von seinen Erinnerungen genießen kann, lebt zweimal.",
+			"author": "Marcus Valerius Martial"
+		},
+		{
+			"id": "122022",
+			"text": "Ein Abschied verleitet immer dazu, etwas zu sagen, was man sonst nicht ausgesprochen hätte.",
+			"author": "Michel de Montaigne"
+		},
+		{
+			"id": "122023",
+			"text": "Weine nicht, weil es vorüber ist, sondern lächle, weil es so schön war.",
+			"author": "Gabriel García Márquez"
+		},
+		{
+			"id": "122024",
+			"text": "Ein schwerer Abschied bedeutet ein noch schöneres Wiedersehen.",
+			"author": null
+		},
+		{
+			"id": "122025",
+			"text": "Abschied bedeutet nicht Trennung, sondern Pause auf Zeit.",
+			"author": null
+		},
+		{
+			"id": "122027",
+			"text": "Abschied tut weh. Doch jeder Abschied trägt wunderbare, neue Lebensmöglichkeiten in sich.",
+			"author": null
+		},
+		{
+			"id": "122028",
+			"text": "Begleitest du deinen Freund auch tausend Meilen weit, einmal heißt es Abschied nehmen.",
+			"author": null
+		},
+		{
+			"id": "122029",
+			"text": "Abschied ist so ein schweres Wort. Es birgt Endgültigkeit in sich. Sag nur „bis bald“, denn im Leben ist nichts endgültig.",
+			"author": null
+		},
+		{
+			"id": "122030",
+			"text": "Abschied nehmen bedeutet immer ein wenig sterben.",
+			"author": null
+		},
+		{
+			"id": "122031",
+			"text": "Abschiedsworte müssen kurz sein wie Liebeserklärungen. Mach’s gut und viel Glück für deinen weiteren Lebensweg.",
+			"author": "Theodor Fontane"
+		},
+		{
+			"id": "122033",
+			"text": "Der Abschied von einer langen und wichtigen Arbeit ist immer mehr traurig als erfreulich.",
+			"author": "Friedrich von Schiller"
+		},
+		{
+			"id": "122036",
+			"text": "Ein Abschied fällt immer schwer. Doch ist dieser nur auf Zeit. Keine Angst, wir werden uns wiedersehen und es wird so sein, als wenn du nie weggewesen wärst.",
+			"author": "Jole von Weißenberg"
+		},
+		{
+			"id": "122038",
+			"text": "So lass uns Abschied nehmen wie zwei Sterne, durch jedes Übermaß von Nacht getrennt, das eine Nähe ist, die sich an Ferne erprobt und an dem Fernsten sich erkennt.",
+			"author": "Rainer Maria Rilke"
+		},
+		{
+			"id": "122039",
+			"text": "Wenn Menschen auseinandergehen, so sagen sie: auf Wiedersehen!",
+			"author": "Ernst von Feuchtersleben"
+		},
+		{
+			"id": "122040",
+			"text": "Nichts lässt uns so sehr auf ein Wiedersehen hoffen wir der Augenblick des Abschieds.",
+			"author": null
+		},
+		{
+			"id": "122041",
+			"text": "Irgendwann ist es an der Zeit, Abschied zu nehmen, um sich neuen Herausforderungen zuzuwenden.",
+			"author": null
+		},
+		{
+			"id": "122042",
+			"text": "Tränen abtupfen, Maskara ausbessern und lächeln: Kein Abschied zerstört mein Make-up.",
+			"author": null
+		},
+		{
+			"id": "122046",
+			"text": "Was es ist und was es war, das wird uns erst beim Abschied klar.",
+			"author": null
+		},
+		{
+			"id": "122051",
+			"text": "Jeder neue Job ist auch eine neue Chance – dabei wünschen wir viel Erfolg und hoffen, dass du uns zwischendurch besuchen kommst.",
+			"author": null
+		},
+		{
+			"id": "122055",
+			"text": "Gute Freunde kann niemand trennen. Keine Distanz und keine Zeit. Wir werden uns nie aus den Augen verlieren, versprochen!",
+			"author": "Amalia von Wendlingen"
+		},
+		{
+			"id": "122056",
+			"text": "Der Abschied schmerzt immer, auch wenn man sich lange auf ihn freut.",
+			"author": "Arthur Schnitzler"
+		},
+		{
+			"id": "122057",
+			"text": "Eine große Aufgabe des Lebens ist es, dass wir lernen müssen Abschied zu nehmen!",
+			"author": null
+		},
+		{
+			"id": "122058",
+			"text": "Bei einem Abschied werden meist viele ehrliche Worte gesagt. Das ist viel leichter als sie zu sagen, wenn der Empfänger vor Ort bleibt.",
+			"author": null
+		},
+		{
+			"id": "122059",
+			"text": "Der größte Schritt ist der aus der Tür.",
+			"author": null
+		},
+		{
+			"id": "122061",
+			"text": "Wenn ein Freund weggeht, muss man die Türe schließen, sonst wird es kalt.",
+			"author": "Bertolt Brecht"
+		},
+		{
+			"id": "122062",
+			"text": "Es ist an der Zeit, dass ich das Feld räume. Ich beginne, die Dinge so zu sehen, wie sie sind.",
+			"author": null
+		},
+		{
+			"id": "122063",
+			"text": "Lass uns zum Abschied keine Tränen vergießen. Ich möchte dich mit einem Lächeln in Erinnerung behalten.",
+			"author": null
+		},
+		{
+			"id": "122064",
+			"text": "Beim Abschied wird die Zuneigung zu den Sachen, die uns lieb sind, immer ein wenig wärmer.",
+			"author": "Michel de Montaigne"
+		},
+		{
+			"id": "122068",
+			"text": "Das einzig Wichtige im Leben sind die Spuren der Liebe, die wir hinterlassen, wenn wir gehen.",
+			"author": "Albert Schweitzer"
+		},
+		{
+			"id": "122069",
+			"text": "Der Abschied schmerzt immer, auch wenn man sich schon lange auf ihn freut.",
+			"author": "Arthur Schnitzler"
+		},
+		{
+			"id": "122070",
+			"text": "Schade, dass Sie uns verlassen. Die Arbeit wird ohne Sie nicht mehr dieselbe sein.",
+			"author": null
+		},
+		{
+			"id": "122073",
+			"text": "Du hast dir den Ruhestandverdient und wir wünschen dir alles Gute. Trotzdem werden wir dich vermissen!",
+			"author": null
+		},
+		{
+			"id": "122074",
+			"text": "Ein Abschied ist immer auch ein Anfang.",
+			"author": null
+		},
+		{
+			"id": "122075",
+			"text": "Es heißt zwar, man solle aufhören, wenn es am schönsten ist, doch der Abschied fällt dennoch schwer. Für den Ruhestand wünscht Ihnen das gesamte Team alles Gute!",
+			"author": null
+		},
+		{
+			"id": "122076",
+			"text": "Wir sagen nicht Lebe wohl, wir sagen Auf Wiedersehen, denn auf nichts freue ich mich mehr, als unser nächstes Treffen.",
+			"author": null
+		},
+		{
+			"id": "122080",
+			"text": "Wer den Abschied nicht scheut, der wird mit Abenteuer, Erfahrungen und einem reichen Leben belohnt.",
+			"author": null
+		},
+		{
+			"id": "122082",
+			"text": "Je schöner und voller die Erinnerung, desto schwerer ist die Trennung.",
+			"author": "Dietrich Bonhoeffer"
+		},
+		{
+			"id": "122083",
+			"text": "Meistens hat, wenn zwei sich scheiden, einer etwas mehr zu leiden.",
+			"author": "Wilhelm Busch"
+		},
+		{
+			"id": "122085",
+			"text": "Sie waren ein Vorbild, an dem wir uns orientieren konnten. Vielen Dank für Ihre Arbeit und viel Erfolg auf dem weiteren Weg.",
+			"author": null
+		},
+		{
+			"id": "122086",
+			"text": "Heute geht nicht nur ein Kollege, sondern ein lieber Freund, der jeden Arbeitstag verschönert hat.",
+			"author": null
+		},
+		{
+			"id": "122087",
+			"text": "Ein Abschied verleitet immer dazu, etwas zu sagen, was man sonst nicht ausgesprochen hätte.",
+			"author": "Michel de Montaigne"
+		},
+		{
+			"id": "122088",
+			"text": "Man geht immer mit einem lachenden und mit einem weinenden Auge.",
+			"author": null
+		},
+		{
+			"id": "122089",
+			"text": "Abschied, Trennung, Entfernung von einem geliebten Wesen, alle diese traurigen Ereignisse des menschlichen Lebens sind für uns eine Lehrzeit für den Tod.",
+			"author": null
+		},
+		{
+			"id": "122091",
+			"text": "Abschiede sind Tore in neue Welten.",
+			"author": "Albert Einstein"
+		},
+		{
+			"id": "122092",
+			"text": "Jeder Neuanfang ist immer auch ein Abschied. Schade, dass wir eine solch tolle Kollegin gehen lassen müssen.",
+			"author": null
+		},
+		{
+			"id": "122094",
+			"text": "Beim Abschied wird die Zuneigung zu den Dingen, die uns lieb sind, immer ein wenig wärmer.",
+			"author": null
+		},
+		{
+			"id": "122095",
+			"text": "Wer den Abschied nicht scheut, der wird mit Abenteuer, Erfahrungen und einem reichen Leben belohnt.",
+			"author": null
+		},
+		{
+			"id": "122096",
+			"text": "Beim Abschied wird die Zuneigung zu den Sachen, die uns lieb sind, immer ein wenig wärmer.",
+			"author": "Michel de Montaigne"
+		},
+		{
+			"id": "122097",
+			"text": "In jeder großen Trennung liegt ein Keim von Wahnsinn; man muß sich hüten, ihn nachdenklich auszubrüten und zu pflegen.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "122099",
+			"text": "Auf wiedersehen, Adieu, So long, Au revoir, Arrivederci! Egal in welcher Sprache ich mich verabschiede, ich werde dich auf alle Fälle vermissen.",
+			"author": null
+		},
+		{
+			"id": "122101",
+			"text": "Abschied tut weh. Doch jeder Abschied trägt wunderbare, neue Lebensmöglichkeiten in sich.",
+			"author": null
+		},
+		{
+			"id": "122103",
+			"text": "Nun sind sie vorüber, jene Stunden, die der Himmel unsrer Liebe gab. Schöne Kränze haben sie gebunden, manche Wonne floss mit ihnen ab. Was der Augenblick geboren, schlang der Augenblick hinab. Aber ewig bleibt es unverloren, was das Herz dem Herzen gab.",
+			"author": "Adalbert Stifter"
+		},
+		{
+			"id": "122106",
+			"text": "Abschiede sind Tore in neue Welten.",
+			"author": null
+		},
+		{
+			"id": "122107",
+			"text": "Es gibt zwei Arten von Abschieden: den einen erlebt man, den andern erleidet man.",
+			"author": null
+		},
+		{
+			"id": "122110",
+			"text": "Ein „Lebe Wohl“ ist nie schön. Ich sage dir daher „Auf Wiedersehen“, denn ich bin mir sicher, dieser Abschied ist nicht für immer. Ich freue mich schon jetzt auf den Tag, an dem wir uns wieder in die Arme schließen können.",
+			"author": "Amalia von Wendlingen"
+		},
+		{
+			"id": "122111",
+			"text": "Abschied, Abschied, böse Stunde! Wer hat dich zuerst ersonnen?",
+			"author": "Joseph Victor von Scheffel"
+		},
+		{
+			"id": "122112",
+			"text": "Kein Abschied auf der Welt fällt schwerer als der Abschied von der Macht.",
+			"author": "Charles-Maurice de Talleyrand"
+		},
+		{
+			"id": "122113",
+			"text": "Jeder Abschied ist ein kleiner Tod, aber jeder Tod ein großer Abschied.",
+			"author": "Alphonse Allais"
+		},
+		{
+			"id": "122114",
+			"text": "Wenn der Mensch nicht beizeiten von der Erde Abschied nimmt, so nimmt sie Abschied von ihm.",
+			"author": "Friedrich Hebbel"
+		},
+		{
+			"id": "122115",
+			"text": "Abschied ist ein schweres Wort.",
+			"author": null
+		},
+		{
+			"id": "122116",
+			"text": "Sei jedem Abschied voraus!",
+			"author": "Rainer Maria Rilke"
+		},
+		{
+			"id": "122117",
+			"text": "Kein Abschied soll in diesem glücklichen Erdstrich gehört werden als einst der Abschied zur Reise in ein noch schöneres Land.",
+			"author": "Henriette Frölich"
+		},
+		{
+			"id": "122118",
+			"text": "Die Rückkehr lässt dich den Abschied lieben.",
+			"author": "Alfred de Musset"
+		},
+		{
+			"id": "122119",
+			"text": "Den Abschied muß man nehmen, nicht erdulden.",
+			"author": null
+		},
+		{
+			"id": "122120",
+			"text": "Von nichts nimmt man so lange Abschied wie von seiner Jugend; sie ist längst fort – und noch immer nimmt man Abschied von ihr.",
+			"author": "Emanuel Wertheimer"
+		},
+		{
+			"id": "122121",
+			"text": "Kurz ist der Abschied für die lange Freundschaft.",
+			"author": "Friedrich von Schiller"
+		},
+		{
+			"id": "122122",
+			"text": "Der letzte Abschied stellt etwas Unendliches dar.",
+			"author": null
+		},
+		{
+			"id": "122123",
+			"text": "Wo Verdacht einkehrt, nimmt die Ruhe Abschied.",
+			"author": null
+		},
+		{
+			"id": "122124",
+			"text": "Als ich Abschied nahm, als ich Abschied nahm, Waren Kisten und Kasten so schwer. Als ich wiederkam, als ich wiederkam, war alles leer.",
+			"author": "Friedrich Rückert"
+		},
+		{
+			"id": "122125",
+			"text": "Da heißt es laufen, Herr, und ohne Abschied!",
+			"author": "Molière"
+		},
+		{
+			"id": "122126",
+			"text": "Ach ja, die Erfüllung ist ein Abschied von der Sehnsucht.",
+			"author": "Bruno Wille"
+		},
+		{
+			"id": "122127",
+			"text": "Leben heißt Abschied nehmen, Tod ist ewig leben.",
+			"author": null
+		},
+		{
+			"id": "122128",
+			"text": "Im Augenblick der Geburt beginnt für die Eltern der Abschied.",
+			"author": null
+		},
+		{
+			"id": "122129",
+			"text": "Man schreibt nicht so ausführlich, wenn man den Abschied gibt.",
+			"author": "Heinrich Heine"
+		},
+		{
+			"id": "122130",
+			"text": "Wer liebt und Abschied nimmt, der lebt, um woanders weiterzulieben.",
+			"author": "Claude Anet"
+		},
+		{
+			"id": "122131",
+			"text": "Bis in sein spätes Alter nimmt man Abschied von seiner Jugend.",
+			"author": null
+		},
+		{
+			"id": "122132",
+			"text": "Bei einem rührenden Abschied floß statt der Tränen viel Speichel.",
+			"author": "Jean Paul"
+		},
+		{
+			"id": "122133",
+			"text": "Jeder Abschied ist betäubend. Man denkt und empfindet weniger, als man glaubte",
+			"author": "Johann Gottfried von Herder"
+		},
+		{
+			"id": "122134",
+			"text": "Ein Abschied, der auf einen nassen Boden fällt, bringt keine Früchte.",
+			"author": "Theodor Gottlieb von Hippel der Ältere"
+		},
+		{
+			"id": "122135",
+			"text": "Der Abschied ebnet manchen Widerspruch, die Freundschaft darf zu dem Entfernten freier sprechen.",
+			"author": "Achim von Arnim"
+		},
+		{
+			"id": "122136",
+			"text": "Ein Abschied schmerzt immer, auch wenn man sich schon lange darauf freut!",
+			"author": "Arthur Schnitzler"
+		},
+		{
+			"id": "122137",
+			"text": "In dem Abschied, vom Besitz genommen, erhältst du dir das einzig Deine: dich.",
+			"author": "Franz Grillparzer"
+		},
+		{
+			"id": "122138",
+			"text": "Manche Menschen gehen so plötzlich, daß die Zeit für einen Abschied nicht reicht",
+			"author": null
+		},
+		{
+			"id": "122139",
+			"text": "Zum Leben gehört auch der Abschied. Aber die Erinnerung bewahre uns ihre Gegenwart.",
+			"author": null
+		},
+		{
+			"id": "122140",
+			"text": "Irgendwo blüht die Blume des Abschieds und streut immerfort Blütenstaub den wir atmen herüber, und auch noch im kommendsten Wind atmen wir Abschied.",
+			"author": "Rainer Maria Rilke"
+		},
+		{
+			"id": "122141",
+			"text": "Ein schöner Freund, der mit der Flut gekommen Und mit der Ebbe Abschied schon genommen!",
+			"author": "Johann Dietrich Lüttringhaus"
+		},
+		{
+			"id": "122142",
+			"text": "Ein Abschied verleitet immer dazu, etwas zu sagen, was man sonst nicht ausgesprochen hätte.",
+			"author": "Michel de Montaigne"
+		},
+		{
+			"id": "122143",
+			"text": "Vertreibe den Sehnsuchtsschmerz und küsse mich. Auf diese Weise nehme ich Abschied von dir.",
+			"author": "Konrad von Würzburg"
+		},
+		{
+			"id": "122144",
+			"text": "Wenn zwei Freunde Abschied nehmen müssen sie ihre Geheimnisse einschließen und den Schlüssel wegwerfen.",
+			"author": null
+		},
+		{
+			"id": "122145",
+			"text": "Das Leben ist ein ewiger Abschied. Wer aber von seinen Erinnerungen genießen kann, lebt zweimal.",
+			"author": "Marcus Valerius Martial"
+		},
+		{
+			"id": "122146",
+			"text": "Ein unfreundliches Willkommen läßt sich leicht vergessen, wenn einem ein guter Abschied bereitet wird.",
+			"author": "Maxim Gorki"
+		},
+		{
+			"id": "122147",
+			"text": "Beim Abschied wird die Zuneigung zu den Sachen, die uns lieb sind, immer ein wenig wärmer.",
+			"author": "Michel de Montaigne"
+		},
+		{
+			"id": "122148",
+			"text": "Abschied auf einige Stunden oder auf einige Jahre, Das ist, däucht mich, fast einerlei.",
+			"author": "Friedrich Gottlieb Klopstock"
+		},
+		{
+			"id": "122149",
+			"text": "Der Erfolg eines Liebhabers hängt in größtem Maße von der Art ab, wie er Abschied nimmt.",
+			"author": "Sei Shonagon"
+		},
+		{
+			"id": "122150",
+			"text": "Leben heißt bereit sein, irgendwann zu sterben. Lieben heißt bereit sein, irgendwann Abschied zu nehmen.",
+			"author": null
+		},
+		{
+			"id": "122151",
+			"text": "Wenn ich Abschied nehme, will ich leise gehn, keine Hand mehr drücken, nimmer rückwärts sehn.",
+			"author": null
+		},
+		{
+			"id": "122152",
+			"text": "Hast du eine große Freude an etwas gehabt? So nimm Abschied, nie kommt es zum zweiten Male.",
+			"author": "Friedrich Nietzsche"
+		},
+		{
+			"id": "122153",
+			"text": "Es ist gut, dass es in der Welt Gutes und Schlechtes gibt; sonst wäre man verzweifelt beim Abschied vom Leben.",
+			"author": "Charles de Secondat, Baron de Montesquieu"
+		},
+		{
+			"id": "122154",
+			"text": "Ehe man nämlich ganz Abschied von dem alten Leben nimmt, sehnt man sich noch einmal gründlich danach zurück.",
+			"author": "Theodor Fontane"
+		},
+		{
+			"id": "122155",
+			"text": "Süß Erkennen erster Liebe, Abschied von der weiten Welt, Aus dem Felsen schlägt sie trübe Einen Funken, der erhellt.",
+			"author": "Achim von Arnim"
+		},
+		{
+			"id": "122156",
+			"text": "Die Weisheit ist eine vornehme Göttin, erst wenn alle anderen Götter den Abschied genommen haben, dann kehrt sie ein.",
+			"author": "Johann Jakob Mohr"
+		},
+		{
+			"id": "122157",
+			"text": "Erst dann hört man auf jung zu sein, wenn ein Verlangen nach dem anderen Abschied nimmt oder totgemacht wird.",
+			"author": "Fanny zu Reventlow"
+		},
+		{
+			"id": "122158",
+			"text": "Man sollte nie ohne Abschied voneinander gehen. Denn weiß man, ob man sich – als diese Persönlichkeiten – wieder begegnet?",
+			"author": "Christian Morgenstern"
+		},
+		{
+			"id": "122159",
+			"text": "Lebe so, als müßtest du sofort Abschied vom Leben nehmen, als sei die Zeit, die dir geblieben ist, ein unerwartetes Geschenk.",
+			"author": "Marc Aurel"
+		},
+		{
+			"id": "122160",
+			"text": "Gesittete Menschen nehmen so Abschied aus dem Leben, wie aus der Gesellschaft, gleich als wenn sie vermuteten, solche einmal wieder zu sehen.",
+			"author": "Immanuel Kant"
+		},
+		{
+			"id": "122161",
+			"text": "Abschied heißt, die vielen Nebel unserer Vergangenheit zu durchkämmen. Ein wenig von der Macht der Gegenwart Abstand zu nehmen und das Damals mit seinen glänzenden Erinnerungen zu überblicken. Der Abschied beschattet alles mit einem mystischen Schimmer, der tief in dir Worte zu wecken vermag, über die dein Verstand nur seine Wahrheit senken kann.",
+			"author": null
+		},
+		{
+			"id": "122162",
+			"text": "Zuerst dachte ich, es sei ein Abschied für immer, doch dann fühlte ich deine Seele in meinem Herzen, und ich war froh.",
+			"author": null
+		},
+		{
+			"id": "122163",
+			"text": "Abschied, Trennung, Entfernung von einem geliebten Wesen, alle diese traurigen Ereignisse des menschlichen Lebens sind für uns eine Lehrzeit für den Tod.",
+			"author": null
+		},
+		{
+			"id": "122164",
+			"text": "Heute geh ich. Komm ich wieder, Singen wir ganz andre Lieder. Wo so viel sich hoffen läßt, Ist der Abschied ja ein Fest.",
+			"author": "Quelle: Goethe"
+		},
+		{
+			"id": "122165",
+			"text": "Das Leben großer Menschen erinnert uns daran, daß wir unser Leben erhaben leben und beim Abschied unseren Fußabdruck im Sand der Zeit hinterlassen können.",
+			"author": "Henry Wadsworth Longfellow"
+		},
+		{
+			"id": "122166",
+			"text": "Aber ich glaube es wohl, daß ihm das Herz weh tut; denn lassen, was man liebt, ist nicht viel anders, als Abschied nehmen vom Leben.",
+			"author": "Adolf L'Arronge"
+		},
+		{
+			"id": "122167",
+			"text": "Von der Jugend Abschied zu nehmen, weil man Großvater geworden ist, ist für viele Männer nicht so schmerzlich wie der Gedanke, mit einer Großmutter verheiratet zu sein.",
+			"author": null
+		},
+		{
+			"id": "122168",
+			"text": "Laß mein Aug den Abschied sagen, Den mein Mund nicht nehmen kann! Schwer, wie schwer ist er zu tragen! Und ich bin doch sonst ein Mann.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "122169",
+			"text": "Sachte gehe ich, so, wie ich gekommen war; sachte winke ich den Wolken des Abendhimmels zum Abschied. Still gehe ich, .... nehme keine Wolken mit.",
+			"author": null
+		},
+		{
+			"id": "122170",
+			"text": "Man muß jedesmal so schreiben, als ob man zum ersten und zum letzten Male schriebe. So viel sagen, als obs's ein Abschied wäre, und so gut, als bestände man ein Debüt.",
+			"author": "Karl Kraus"
+		},
+		{
+			"id": "122171",
+			"text": "Alles Wachstum ist Verzweigung. Eine Frau verliert sogar ein Kind, indem sie ein Kind bekommt. Die ganze Schöpfung ist Trennung. Die Geburt ist ein ebenso feierlicher Abschied wie der Tod.",
+			"author": "G. K. Chesterton"
+		},
+		{
+			"id": "122172",
+			"text": "So laß uns Abschied nehmen wie zwei Sterne, durch jedes Übermaß von Nacht getrennt, das eine Nähe ist, die sich an Ferne erprobt und an dem Fernsten sich erkennt.",
+			"author": "Rainer Maria Rilke"
+		},
+		{
+			"id": "122173",
+			"text": "Das Exil verdammt dazu, sich selbst zu überleben: Der Abschied, die Trennung, alles geschieht wie im Augenblick des Sterbens, und doch wohnt man dem allen in voller Kraft des Lebens bei.",
+			"author": "Germaine de Staël"
+		},
+		{
+			"id": "122174",
+			"text": "Siehe, ich bin am Ende! Wende deine lieben Augen nicht ab Von meinem Grab, Ich könnte nicht im Himmel sein, Dächtest du nicht manchmal mein.",
+			"author": "Paul Keller"
+		},
+		{
+			"id": "122175",
+			"text": "Zum letztenmal betritt mein scheuer Fuß Den Ort der Liebe, den ich hassen muß. Vor diesem Abschied wehret sich mein Herz Und krümmt sich wimmernd im verwaisten Schmerz!",
+			"author": "Eduard Mörike"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+$font-h2: 0.9vw;
+$font-h2-slug: 2vw;
+$font-text: 1.2vw;
+$main-color: #770737;
+
+$filter-white: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(38%) hue-rotate(321deg)
+brightness(110%) contrast(110%);
+
+$main-color-filter: invert(12%) sepia(90%) saturate(3043%) hue-rotate(319deg)
+  brightness(76%) contrast(104%);
+
+$main-color-filter-notBlack: brightness(0) saturate(100%) invert(12%) sepia(90%)
+  saturate(3043%) hue-rotate(319deg) brightness(76%) contrast(104%);
+
+$dark-nav: #212121;
+$dark-background: #181818;
+$dark-second-background: #242424;
+$dark-onhover: lighten($dark-background, 10%); // #383838
+$dark-first-font-color: #f8f8f8;
+$dark-border: #373737;
+
+$light-nav: #ffffff;
+$light-background: #f9f9f9;
+$light-second-background: #f2f2f2;
+$light-onhover: darken($light-background, 10%); // #e5e5e5
+$light-first-font-color: #030303;
+
+$transition-time: 0.5s;
+
+$line-height: 1.5625;
+
+$font-text-mobile: 5vw;
+
+$font-card-mobile-small-text: 3vw;
+$font-card-mobile-normal-text: 5vw;
+
+
+$font-16: 1.481vh; //16px
+
+$font-mobile-h1: 30px;
+$font-mobile-h2: 8.5vw;
+$font-mobile-h3: 7vw;
+$font-mobile-p: 4.75vw;
+$font-mobile-figcaption: 3vw;
+$mobile-p-margin: 5vw;
+
+$mobile-border-radius: 4vw; // 5vw

@@ -1,0 +1,549 @@
+{
+	"id": "coole-sprueche",
+	"h1title": "Coole Sprüche",
+	"metatitel": "Coole Sprüche mit Bildern zum kopieren & herunterladen",
+	"metacontent": "Hier findest du eine große Auswahl an Coolen Sprüchen mit passenden Bildern zum runterladen, kopieren und teilen.",
+
+	"othersites": [
+		{
+			"image": "karma-sprueche-seite",
+			"header": "Karma Sprüche",
+			"slug": "https://perfekterspruch.de/karma-sprueche/"
+		},
+		{
+			"image": "lebensmotto-seite",
+			"header": "Lebensmotto",
+			"slug": "https://perfekterspruch.de/lebensmotto/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+			"header": "Gute Sprüche",
+			"slug": "https://perfekterspruch.de/gute-sprueche/"
+		},
+		{
+			"image": "sarkastische-sprueche-seite",
+			"header": "Sarkastische Sprüche",
+			"slug": "https://perfekterspruch.de/sarkastische-sprueche/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "102001",
+			"image": "coole/coole-sprueche",
+			"text": "Was du heute kannst besorgen das verschiebe ruhig auf morgen. Denn was du heute kannst erleben kann dir morgen keiner geben!",
+			"author": null
+		},
+		{
+			"id": "102002",
+			"image": "coole/cooler-spruch",
+			"text": "Ich bin immer artig: Bösartig, Abartig, Eigenartig und einzigartig.",
+			"author": null
+		},
+		{
+			"id": "102003",
+			"image": "coole/coole-sprueche-whatsapp",
+			"text": "Wenn du barfuß durchs Leben läufst, kann man dir auch nichts in die Schuhe schieben.",
+			"author": null
+		},
+		{
+			"id": "102004",
+			"image": "coole/coole-sprueche-facebook",
+			"text": "An alle, die hinter meinem Rücken über mich reden: Danke, dass ich im Mittelpunkt eures Lebens stehe.",
+			"author": null
+		},
+		{
+			"id": "102005",
+			"image": "coole/cooler-whatsapp-status",
+			"text": "Ich bin alt genug, um es besser zu wissen, aber jung genug, um es trotzdem zu tun.",
+			"author": null
+		},
+		{
+			"id": "102006",
+			"image": "coole/coole-sprueche-kurz",
+			"text": "Meine zweite Fremdsprache in der Schule war Mathe.",
+			"author": null
+		},
+		{
+			"id": "102007",
+			"image": "coole/kurzer-cooler-spruch",
+			"text": "Die ersten 5 Tage nach dem Wochenende sind die allerschlimmsten.",
+			"author": null
+		},
+		{
+			"id": "102008",
+			"image": "coole/coole-lustige-sprueche",
+			"text": "An alle, die über mich lästern: I love to entertain you!",
+			"author": null
+		},
+		{
+			"id": "102009",
+			"image": "coole/sprueche-cool",
+			"text": "An alle die behaupten, sie wüssten wie der Hase läuft: Er hoppelt!",
+			"author": null
+		},
+		{
+			"id": "102010",
+			"image": "coole/spruch-cool",
+			"text": "Wer mich nicht mag, muss eben noch etwas an sich arbeiten.",
+			"author": null
+		},
+		{
+			"id": "102011",
+			"image": "coole/sehr-cool",
+			"text": "Ich bin nicht neugierig. Ich bin nur einfach gern über alles informiert.",
+			"author": null
+		},
+		{
+			"id": "102012",
+			"image": "coole/cool-sein",
+			"text": "Manche Menschen fahren so langsam, die werden nicht geblitzt, sondern gemalt.",
+			"author": null
+		},
+		{
+			"id": "102013",
+			"image": "coole/lustig-lachen",
+			"text": "Im nächsten Leben werde ich Kaffeemaschine. Man wird geliebt, bekommt den ganzen Tag Aufmerksamkeit und ständig wird man gedrückt.",
+			"author": null
+		},
+		{
+			"id": "102014",
+			"image": "coole/lachen",
+			"text": "Wenn du nicht über dich selbst lachen kannst, dann sag Bescheid. Ich mach das gern!",
+			"author": null
+		},
+		{
+			"id": "102015",
+			"image": "coole/cool-nachdenken",
+			"text": "Wenn du Größe erreichen willst, hör auf, um Erlaubnis zu bitten.",
+			"author": null
+		},
+		{
+			"id": "102016",
+			"image": "coole/kuhle-sprueche",
+			"text": "Keine Sorge, wenn Plan A scheitert, es gibt noch 25 weitere Buchstaben im Alphabet.",
+			"author": null
+		},
+		{
+			"id": "102017",
+			"image": "coole/lustig-cool",
+			"text": "Denk immer dran: Alle anderen Leben auch zum ersten Mal.",
+			"author": null
+		},
+		{
+			"id": "102018",
+			"image": "coole/cool-lustig",
+			"text": "Ich bin nicht gestört, ich bin eine Limited Edition.",
+			"author": null
+		},
+		{
+			"id": "102019",
+			"image": "coole/kule-sprueche",
+			"text": "Sehr rücksichtsvoll vom Badspiegel, dass er beschlägt, wenn ich aus der Dusche komme.",
+			"author": null
+		},
+		{
+			"id": "102020",
+			"image": "coole/whatsapp-status1",
+			"text": "Auf der Suche nach dem Warum ein Egal gefunden.",
+			"author": null
+		}
+	],
+
+	"weiteredata": [
+		{
+			"id": "102021",
+			"text": "Was Du heute kannst besorgen, das verschiebe ruhig auf morgen. Denn was Du heute kannst erleben, kann Dir morgen keiner geben!",
+			"author": null
+		},
+		{
+			"id": "102022",
+			"text": "Ich habe heute mal wieder Sport gemacht. Ritter Sport. Zwei Tafeln.",
+			"author": null
+		},
+		{
+			"id": "102023",
+			"text": "Manches sollte man einfach liegen lassen. Mich im Bett, zum Beispiel.",
+			"author": null
+		},
+		{
+			"id": "102024",
+			"text": "Mit den Jahren lernt man dann ja, wo auf der Arbeit die Stärken liegen. Meine sind Urlaub und Wochenende.",
+			"author": null
+		},
+		{
+			"id": "102025",
+			"text": "Ich bin nicht klein, sondern nur auf das Beste reduziert!",
+			"author": null
+		},
+		{
+			"id": "102026",
+			"text": "Sei wie eine Ananas. Steh aufrecht. Trage eine Krone und sei Innen ganz süß.",
+			"author": null
+		},
+		{
+			"id": "102027",
+			"text": "Der größte Unterschied zwischen Männern und Frauen ist die Bedeutung des Satzes „Was für ein Arsch!“.",
+			"author": null
+		},
+		{
+			"id": "102028",
+			"text": "Ich habe herausgefunden, dass Geld allein mich nicht glücklich macht – es muss mir auch gehören.",
+			"author": null
+		},
+		{
+			"id": "102029",
+			"text": "Ich bin lieber ein ehrliches Arschloch, als verlogen und nett!",
+			"author": null
+		},
+		{
+			"id": "102030",
+			"text": "Ich laufe niemals weg! Ich umrunde die Erde und greif von hinten an.",
+			"author": null
+		},
+		{
+			"id": "102031",
+			"text": "Der Strand hat angerufen und gefragt, wo wir bleiben.",
+			"author": null
+		},
+
+		{
+			"id": "102032",
+			"text": "Ich hätte jetzt Lust, meine Sachen zu packen, dich abzuholen und ans Meer zu fahren.",
+			"author": null
+		},
+		{
+			"id": "102033",
+			"text": "Ach wie gut, dass niemand weiß, auf wen und was ich alles scheiß!",
+			"author": null
+		},
+		{
+			"id": "102034",
+			"text": "Letztes Jahr habe ich eine Weltreise gemacht, dieses Jahr fahre ich mal woanders hin.",
+			"author": null
+		},
+		{
+			"id": "102035",
+			"text": "Das Reh springt hoch, das Reh springt weit, wieso auch nicht, es hat ja Zeit.",
+			"author": null
+		},
+		{
+			"id": "102036",
+			"text": "Sei stark genug, um allein zu stehen, klug genug, um zu wissen, wann du Hilfe brauchst, und mutig genug, um darum zu bitten.",
+			"author": null
+		},
+		{
+			"id": "102037",
+			"text": "Wir sind wie Peter Pan – kein Stück erwachsen, aber verdammt cool.",
+			"author": null
+		},
+		{
+			"id": "102038",
+			"text": "Laut Physikbuch dehnen sich alle heißen Körper aus. Das heißt, dass ich gar nicht dick bin, sondern heiß.",
+			"author": null
+		},
+		{ "id": "102039", "text": "Einfach mal machen, könnte ja gut werden.", "author": null },
+
+		{
+			"id": "102040",
+			"text": "Falls jemand noch gute Gründe sucht, um im Bett zu bleiben. Es ist kalt, dunkel und noch nicht Freitag.",
+			"author": null
+		},
+		{
+			"id": "102041",
+			"text": "Ich habe dich nicht beleidigt, ich habe dich beschrieben.",
+			"author": null
+		},
+		{
+			"id": "102042",
+			"text": "Ich bin durchaus in der Lage, vernünftig zu sein, das macht aber keinen Spaß!",
+			"author": null
+		},
+		{
+			"id": "102043",
+			"text": "Beziehungsstatus: Paare ertrage ich nur noch in Form von Schuhen!",
+			"author": null
+		},
+		{
+			"id": "102044",
+			"text": "Kann ich dir noch was bringen? Deine Jacke zum Beispiel? Oder ein Taxi?",
+			"author": null
+		},
+		{
+			"id": "102045",
+			"text": "Und sobald du die Antwort hast, ändert das Leben die Frage.",
+			"author": null
+		},
+		{
+			"id": "102046",
+			"text": "Mein Schienbein hilft mir im Dunkeln Möbel zu finden.",
+			"author": null
+		},
+		{
+			"id": "102047",
+			"text": "Als ich mich in diese Schuhe verliebt habe, machte es nur Sinn, dass sie auch bei mir einziehen.",
+			"author": null
+		},
+		{
+			"id": "102048",
+			"text": "Kleiner Tipp: Das Passwort fürs Leben heißt Humor!",
+			"author": null
+		},
+		{
+			"id": "102049",
+			"text": "Komm gerne noch mal vorbei, wenn du nicht so viel Zeit hast.",
+			"author": null
+		},
+		{ "id": "102050", "text": "Wieso wohnt das Meer nur so weit weg von mir?", "author": null },
+		{
+			"id": "102051",
+			"text": "Ich lese keine Anleitungen, ich drücke Knöpfe bis es klappt!",
+			"author": null
+		},
+		{
+			"id": "102052",
+			"text": "Ja, dich hab ich gebraucht. Mir fehlt noch die Nummer 52 im Panini-Idioten-Sammelalbum.",
+			"author": null
+		},
+		{
+			"id": "102053",
+			"text": "Finde heraus, was dich glücklich macht und tue es immer wieder.",
+			"author": null
+		},
+		{ "id": "102054", "text": "Kopfhörer rein! Musik an! Welt aus!", "author": null },
+		{ "id": "102055", "text": "Halt dein Wort oder deine Fresse.", "author": null },
+		{
+			"id": "102056",
+			"text": "Oh man Armor, es reicht. Gib mir diesen Pfeil – Ich mache die Scheiße jetzt selber!",
+			"author": null
+		},
+		{
+			"id": "102057",
+			"text": "Je größer der Dachschaden, umso besser der Blick auf die Sterne.",
+			"author": null
+		},
+		{
+			"id": "102058",
+			"text": "Kommst du auf mein Niveau oder soll ich runterkommen?",
+			"author": null
+		},
+		{
+			"id": "102059",
+			"text": "Bei manchen Menschen denke ich mir: “Der dreht bestimmt auch das Quadrat bei Tetris.”",
+			"author": null
+		},
+		{
+			"id": "102060",
+			"text": "Ich bin nicht klein, ich bekomm nur später die Regentropfen ab als du.",
+			"author": null
+		},
+		{
+			"id": "102061",
+			"text": "Du redest so viel Scheiße, da kann man ein ganzes Feld mit düngen.",
+			"author": null
+		},
+		{
+			"id": "102062",
+			"text": "Vergiss niemals, dass ältere Frauen coole Mädchen sind, die nur schon lange leben.",
+			"author": null
+		},
+		{
+			"id": "102063",
+			"text": "Wenn du traurig bist, dann sing einfach. Du wirst merken, dass deine Stimme schlimmer ist als dein Problem.",
+			"author": null
+		},
+		{
+			"id": "102064",
+			"text": "Das ist kein Chaos du verstehst nur mein System nicht.",
+			"author": null
+		},
+		{
+			"id": "102065",
+			"text": "Ich wäre dann jetzt bereit, abgeholt zu werden und ans Meer zu fahren.",
+			"author": null
+		},
+		{ "id": "102066", "text": "Solange es Spaß macht, ist mir der Sinn egal.", "author": null },
+		{
+			"id": "102067",
+			"text": "Auf dem Boden der Tatsachen liegt eindeutig zu wenig Glitzer.",
+			"author": null
+		},
+		{
+			"id": "102068",
+			"text": "Manchmal muss man einfach weg. Egal wohin. Hauptsache ans Meer.",
+			"author": null
+		},
+		{
+			"id": "102069",
+			"text": "Jeder ist seines Glückes Schmied, aber nicht jeder hat ein schmuckes Glied.",
+			"author": null
+		},
+		{ "id": "102070", "text": "Man muss auch mal die Schuld bei anderen suchen!", "author": null },
+		{ "id": "102071", "text": "Urlaub könnte ich echt beruflich machen.", "author": null },
+		{
+			"id": "102072",
+			"text": "Das sind keine Stirnfalten. Das ist ein Sixpack vom Denken.",
+			"author": null
+		},
+		{ "id": "102073", "text": "Man muss auch mal die Schuld bei anderen suchen.", "author": null },
+		{
+			"id": "102074",
+			"text": "„Frauen sind dafür geboren, den Haushalt zu schmeißen!“ Die Frage ist nur wohin, wie weit und wem an den Kopf?",
+			"author": null
+		},
+		{
+			"id": "102075",
+			"text": "Nein, ich lese nicht. Ist mir zu langweilig. Sind ja immer die gleichen Buchstaben.",
+			"author": null
+		},
+		{
+			"id": "102076",
+			"text": "Alle wollen individuell sein, aber wehe, jemand ist anders.",
+			"author": null
+		},
+		{
+			"id": "102077",
+			"text": "Heute nehme ich mir vor, morgen mal ganz spontan zu sein.",
+			"author": null
+		},
+		{
+			"id": "102078",
+			"text": "Mir egal ob das Glas halbvoll oder halbleer ist. Hauptsache es ist noch was drin.",
+			"author": null
+		},
+		{
+			"id": "102079",
+			"text": "Richtige Freunde sitzen beim Weltuntergang neben Dir, saufen, lachen und wetten wer zuerst abkratzt.",
+			"author": null
+		},
+		{
+			"id": "102080",
+			"text": "Früher hat man noch mit Anstand per SMS Schluss gemacht. Und heute ändert man einfach seinen Facebook-Status auf Single…",
+			"author": null
+		},
+		{
+			"id": "102081",
+			"text": "„Ach, wie gut, dass niemand weiß, auf wen und was ich alles schei*.“",
+			"author": null
+		},
+		{ "id": "102082", "text": "69% Akku! Romantischer wirds heute nicht.", "author": null },
+		{
+			"id": "102083",
+			"text": "Egal wie cool du bist, wenn ein Kind an der Ampel steht und auf grün wartet, dann wartest du auch!",
+			"author": null
+		},
+		{
+			"id": "102084",
+			"text": "Wo ich bin herrscht Chaos. Aber ich kann ja nicht überall sein!",
+			"author": null
+		},
+		{
+			"id": "102085",
+			"text": "Man fragt nicht „Bist du dumm?“, sondern stattdessen „Hast du einen limitierten Erkenntnishorizont bezüglich der objektiven Realität?“",
+			"author": null
+		},
+		{
+			"id": "102086",
+			"text": "Ich muss nicht immer im Mittelpunkt stehen, sitzen ist auch okay!",
+			"author": null
+		},
+		{
+			"id": "102087",
+			"text": "Als du dieses Fettnäpfchen gesehen hast, hast du da gedacht, ich nehme nochmal Anlauf?",
+			"author": null
+		},
+		{
+			"id": "102088",
+			"text": "Es ist nicht so, dass ich immer nur auf Partys und am Feiern bin - beim Lernen macht nur niemand Fotos.",
+			"author": null
+		},
+		{
+			"id": "102089",
+			"text": "Erschreckend, wie lieb ich sein kann, wenn ich was will!",
+			"author": null
+		},
+		{
+			"id": "102090",
+			"text": "Man geht leichtfertig in einer Kneipe und kommt leicht fertig wieder raus.",
+			"author": null
+		},
+		{
+			"id": "102091",
+			"text": "Ich bin nicht die Regel. Aber die Ausnahme, die sie bestätigt!",
+			"author": null
+		},
+		{ "id": "102092", "text": "Mein Lieblingstier ist der Zapfhahn.", "author": null },
+		{ "id": "102093", "text": "Die Hand voller Asse und das Leben spielt Schach!", "author": null },
+		{
+			"id": "102094",
+			"text": "Ich hätte so gerne ein Lama. Das wäre dann immer bei mir und würde alle anspucken, die ich nicht mag.",
+			"author": null
+		},
+		{
+			"id": "102095",
+			"text": "Ich bin nicht klein, sondern auf das Beste reduziert.",
+			"author": null
+		},
+		{
+			"id": "102096",
+			"text": "Das sind keine Speckröllchen! Das ist externer Speicherplatz für mehr Bauchgefühl.",
+			"author": null
+		},
+		{
+			"id": "102097",
+			"text": "Erwachsenwerden? Ich mach ja viel Scheiß mit, aber nicht jeden!",
+			"author": null
+		},
+		{ "id": "102098", "text": "Das Leben ist kurz. Nimm dir Zeit für Meer!", "author": null },
+		{
+			"id": "102099",
+			"text": "Man geht leichtfertig in eine Kneipe und kommt leicht fertig wieder raus.",
+			"author": null
+		},
+		{
+			"id": "102100",
+			"text": "Man kann über fast alles lachen. Nur nicht mit jedem.",
+			"author": null
+		},
+		{
+			"id": "102101",
+			"text": "Frech? Ich nenne es verbal überlegen.",
+			"author": null
+		},
+		{
+			"id": "102102",
+			"text": "Ich habe keine Macken, das sind Special Effekts.",
+			"author": null
+		},
+		{
+			"id": "102103",
+			"text": "Immer schön lächeln und winken.",
+			"author": null
+		},
+		{
+			"id": "102104",
+			"text": "Das einzige, was mich hier noch hält, ist die Schwerkraft.",
+			"author": null
+		},
+		{
+			"id": "102105",
+			"text": "Ich mag die Nacht. Da sind alle Schaukeln frei.",
+			"author": null
+		},
+		{
+			"id": "102106",
+			"text": "In meinem Kleiderschrank hängen Klamotten für 10 Frauen, 5 Größen, 4 Jahreszeiten – nur für mich ist wieder nichts dabei.",
+			"author": null
+		},
+		{
+			"id": "102107",
+			"text": "Ich bin eine Frau, ich kann machen, dass du denkst, du hättest es so gewollt.",
+			"author": null
+		},
+		{
+			"id": "102108",
+			"text": "Wir werden die alten Damen sein, die im Altenheim Ärger machen.",
+			"author": null
+		}
+	]
+}

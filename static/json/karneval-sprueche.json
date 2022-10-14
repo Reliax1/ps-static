@@ -1,0 +1,521 @@
+{
+	"id": "karneval-sprueche",
+	"h1title": "Karneval Sprüche",
+	"metatitel": "100 Karneval Sprüche mit Bildern zum herunterladen (2022)",
+	"metacontent": "100 Karneval Sprüche ✓ Kostenlose Bilder ✓ Zum Herunterladen & Kopieren ✓ Kein langes Suchen ✓ Schnell den perfekten Spruch finden ✓",
+
+	"othersites": [
+		{
+			"image": "guten-morgen-lustig-seite",
+			"header": "Guten Morgen lustig",
+			"slug": "https://perfekterspruch.de/guten-morgen-lustig/"
+		},
+		{
+			"image": "ostergruesse-bilder-seite",
+			"header": "Ostergrüße",
+			"slug": "https://perfekterspruch.de/ostergruesse-bilder/"
+		},
+		{
+			"image": "guten-morgen-samstag-seite",
+			"header": "Guten Morgen Samstag",
+			"slug": "https://perfekterspruch.de/guten-morgen-samstag/"
+		},
+		{
+			"image": "schoenes-wochenende-bilder-seite",
+			"header": "Schönes Wochenende Bilder",
+			"slug": "https://perfekterspruch.de/schoenes-wochenende-bilder/"
+		}
+	],
+
+	"spruchcarddata": [
+		{
+			"id": "153001",
+			"image": "karnevalsprueche/karneval-sprueche",
+			"text": "Ich zähl bis drei, dann ist hier Karneval!",
+			"author": null
+		},
+		{
+			"id": "153002",
+			"image": "karnevalsprueche/karneval-sprueche-lustig",
+			"text": "Ich geh dieses Jahr als Sofa und bleib Zuhause.",
+			"author": null
+		},
+		{
+			"id": "153003",
+			"image": "karnevalsprueche/karneval-sprueche-whatsapp",
+			"text": "Fasching: Die Zeit, in der der Humor erst macht.",
+			"author": null
+		},
+		{
+			"id": "153004",
+			"image": "karnevalsprueche/karneval-kollegen",
+			"text": "Der Fasching ist vorbei, was sind wir froh – die Narren sind jetzt wieder im Büro!",
+			"author": null
+		},
+		{
+			"id": "153007",
+			"image": "karnevalsprueche/karneval-bild",
+			"text": "Wenn keine Narren auf der Welt wären, was wäre dann die Welt?",
+			"author": "Goethe"
+		},
+		{
+			"id": "153009",
+			"image": "karnevalsprueche/karneval-asche",
+			"text": "Lieber Rosen am Montag als Asche am Mittwoch.",
+			"author": null
+		},
+		{
+			"id": "153010",
+			"image": "karnevalsprueche/karneval-sprueche-lachen",
+			"text": "Im Karneval hat jeder Mann das Recht, so lächerlich zu sein, wie seine Frau ihn sonst macht.",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "153011",
+			"text": "Für Karneval fehlt mir der nötige Ernst.",
+			"author": null
+		},
+		{
+			"id": "153012",
+			"text": "Je kürzer der Fasching, je mehr wird getanzt.",
+			"author": null
+		},
+		{
+			"id": "153014",
+			"text": "Der einzige Montag auf den wir uns freuen? Rosenmontag!",
+			"author": null
+		},
+		{
+			"id": "153015",
+			"text": "Et kütt wie et kütt & et hätt noch emmer joot jejange.",
+			"author": null
+		},
+		{
+			"id": "153016",
+			"text": "Ob’s warm, ob’s kalt, in jedem Fall viel Narren gibt’s im Karneval",
+			"author": null
+		},
+		{
+			"id": "153017",
+			"text": "Der Februar ist sozusagen reich an Narren, arm an Tagen.",
+			"author": null
+		},
+		{
+			"id": "153018",
+			"text": "Habt ihr schon ein Karnevalskostüm? Einfach mal als Zalando-Karton verkleiden und kreischende Frauen werden euch anspringen.",
+			"author": null
+		},
+		{
+			"id": "153019",
+			"text": "Was macht ein Clown im Büro? – Faxen",
+			"author": null
+		},
+		{
+			"id": "153020",
+			"text": "Auf der Geige auf dem Baß, Auf der Flöte spielt der Spaß. Kunterbunten Maskenscherz Treiben froh wir allerwärts.",
+			"author": null
+		},
+		{
+			"id": "153021",
+			"text": "Man muss sich schon selbst Konfetti in sein Leben pusten",
+			"author": null
+		},
+		{
+			"id": "153023",
+			"text": "Ob Fastnacht oder Karneval, Aal und Wal ists fast egal.",
+			"author": null
+		},
+		{
+			"id": "153024",
+			"text": "Karneval löst selbst bei Menschen im Norden heftige Reaktionen aus: Wir sagen dann „Aha” und zucken mit den Schultern.",
+			"author": null
+		},
+		{
+			"id": "153026",
+			"text": "Narren sind alle, die es scheinen, und die Hälfte derer, die es nicht scheinen.",
+			"author": "Balthasar Gracián"
+		},
+		{
+			"id": "153027",
+			"text": "Lustge, lustge Fastnachtszeit! Heute jubeln alle Leut, Heute sind wir alle toll, Alle bunter Scherze voll.",
+			"author": null
+		},
+		{
+			"id": "153031",
+			"text": "Es wechseln die Moden, Aber der Hosenboden sitzt sinngemäß Immer unterm Gesäß. Bunt stimmt viel froher Als beispielsweise Grau. Aber viel sowiesoer reizt der Busen der Frau. Das nächste Mal gedenke ich Als ganz Nackter mitzumachen. Und auch dies Kostüm verschenke ich. Nur damit die Leute lachen.",
+			"author": "Joachim Ringelnatz"
+		},
+		{
+			"id": "153032",
+			"text": "Kurzer Fasching, viele Hochzeiten.",
+			"author": null
+		},
+		{
+			"id": "153033",
+			"text": "Jeck zu sein heißt, das Leben in vollen Zügen zu genießen",
+			"author": null
+		},
+		{
+			"id": "153034",
+			"text": "Jeder Jeck ist anders",
+			"author": null
+		},
+		{
+			"id": "153035",
+			"text": "O wär im Februar doch auch, Wie`s ander Orten ist der Brauch Bei uns die Narrheit zünftig! Denn wer, so lang das Jahr sich mißt, Nicht einmal herzlich närrisch ist, Wie wäre der zu andrer Frist Wohl jemals ganz vernünftig.",
+			"author": "Theodor Storm"
+		},
+		{
+			"id": "153036",
+			"text": "Wenn mir irgendwann der Kopf platzt, fliegt hier wenigstens Glitzer, Feenstaub und jede Menge Konfetti.",
+			"author": null
+		},
+		{
+			"id": "153037",
+			"text": "Karneval ist doch wie eine große, friedliche Demonstration. Hier werden die Polizisten sogar geküsst und nicht beworfen.",
+			"author": null
+		},
+		{
+			"id": "153038",
+			"text": "Am Aschermittwoch ist alles vorbei – besonders die Einnahmefrist für die Pille danach!",
+			"author": null
+		},
+		{
+			"id": "153039",
+			"text": "Der Narr lebt seine Narrheit, nicht nur am Karneval. Auch sonst bleibt ein Narr eben ein Narr.",
+			"author": null
+		},
+		{
+			"id": "153041",
+			"text": "Karneval: Der Frohsinn als eingetragener Verein.",
+			"author": null
+		},
+		{
+			"id": "153042",
+			"text": "Erstaunlich, dass der Mensch nur hinter einer Maske ganz er selbst ist.",
+			"author": null
+		},
+		{
+			"id": "153043",
+			"text": "Fasching ist etwas für die, für die Fasching etwas ist.",
+			"author": null
+		},
+		{
+			"id": "153044",
+			"text": "Nix is esu schläch, dat et net och för jet joot wör.",
+			"author": null
+		},
+		{
+			"id": "153047",
+			"text": "Für dich solls heute Konfetti regnen!",
+			"author": null
+		},
+		{
+			"id": "153048",
+			"text": "Niemand kann auf Dauer eine Maske tragen.",
+			"author": "Seneca"
+		},
+		{
+			"id": "153050",
+			"text": "Ohne Fastnachtstanz und Mummenspiel ist im Februar auch nicht viel.",
+			"author": "Johann Wolfgang von Goethe"
+		},
+		{
+			"id": "153051",
+			"text": "Wer schwankend nach Hause läuft, hat mehr vom Weg",
+			"author": null
+		},
+		{
+			"id": "153053",
+			"text": "Je kürzer der Karneval, desto mehr wurde getanzt.",
+			"author": null
+		},
+		{
+			"id": "153055",
+			"text": "Seid ihr alle so hässlich oder warum habt ihr euch verkleidetet?",
+			"author": null
+		},
+		{
+			"id": "153056",
+			"text": "Der einzige Montag, auf den sich die Jecken freuen: Der Rosenmontag",
+			"author": null
+		},
+		{
+			"id": "153057",
+			"text": "Ist doch unsere zivilisierte Welt nur eine große Maskerade.",
+			"author": "Arthur Schopenhauer"
+		},
+		{
+			"id": "153061",
+			"text": "Narrheit gibt Freiheit",
+			"author": null
+		},
+		{
+			"id": "153062",
+			"text": "Zapft ihr Narren, der König hat Durst!",
+			"author": null
+		},
+		{
+			"id": "153064",
+			"text": "Geht die Magd zum Maskenball, ist wahrscheinlich Karneval.",
+			"author": null
+		},
+		{
+			"id": "153065",
+			"text": "Fastnacht, genau! In manchen Köpfen wird es fast Nacht.",
+			"author": null
+		},
+		{
+			"id": "153066",
+			"text": "Ne, ich kotze nicht, ich bin ein Vulkan!",
+			"author": null
+		},
+		{
+			"id": "153068",
+			"text": "Narrheit heißt Freiheit.",
+			"author": null
+		},
+		{
+			"id": "153071",
+			"text": "Karneval: Der Frohsinn als eingetragener Verein.",
+			"author": null
+		},
+		{
+			"id": "153072",
+			"text": "Karneval? Sich albern verkleiden, laut rumgrölen und anderen auf den Sack gehen – das kennen wir doch schon von den Superstars! ",
+			"author": null
+		},
+		{
+			"id": "153075",
+			"text": "Karneval ist ein Fest, das dem Volke eigentlich nicht gegeben wird, sondern sich das Volk selbst gibt.",
+			"author": "Goethe"
+		},
+		{
+			"id": "153076",
+			"text": "Das schönste an einem Feiertag ist die Aussicht auf einen zweiten. Daher ist der letzte stets ein Aschermittwoch.",
+			"author": "Jean Paul"
+		},
+		{
+			"id": "153077",
+			"text": "Karneval? Ich bin nur zum Saufen hier.",
+			"author": null
+		},
+		{
+			"id": "153078",
+			"text": "Leck mich en de Täsch!",
+			"author": null
+		},
+		{
+			"id": "153081",
+			"text": "KEEP CALM and THROW CONFETTI",
+			"author": null
+		},
+		{
+			"id": "153082",
+			"text": "Männer, habt ihr schon ein Karnevalkostüm ? Einfach als Zalando-Karton verkleiden und kreischende Frauen werden euch anspringen.",
+			"author": null
+		},
+		{
+			"id": "153083",
+			"text": "Helau from the other Side",
+			"author": null
+		},
+		{
+			"id": "153084",
+			"text": "Fasching / Karneval: Die Zeit, in der der Humor ernst macht.",
+			"author": null
+		},
+		{
+			"id": "153085",
+			"text": "Et kütt wie et kütt.",
+			"author": null
+		},
+		{
+			"id": "153086",
+			"text": "Karnevalsliebe stirbt zur faschenzeit.",
+			"author": null
+		},
+		{
+			"id": "153087",
+			"text": "Wer alles zu tun begehrt, was ihn gelüstet, muss entweder als König oder als Narr geboren sein.",
+			"author": null
+		},
+		{
+			"id": "153088",
+			"text": "Ich möch ze Fooss noh Kölle jon.",
+			"author": null
+		},
+		{
+			"id": "153094",
+			"text": "Mein Kostüm ist in der Wäsche.",
+			"author": null
+		},
+		{
+			"id": "153095",
+			"text": "Karneval. Bütte nicht!",
+			"author": null
+		},
+		{
+			"id": "153096",
+			"text": "Ist der Karneval der Laien vorbei, so beginnt der Karneval der Priester.",
+			"author": null
+		},
+		{
+			"id": "153097",
+			"text": "Kurzer Fasching, viele Heiraten.",
+			"author": null
+		},
+		{
+			"id": "153099",
+			"text": "Das Verhalten der Karnevalspräsidenten: Erst saufen wie der russische Präsident, dann sich benehmen wie der amerikanische!“ ",
+			"author": null
+		},
+		{
+			"id": "153101",
+			"text": "Humor ist der Knopf, der verhindert, dass uns der Kragen platzt.",
+			"author": null
+		},
+		{
+			"id": "153102",
+			"text": "Zieht die Schellenkappen um, Hänget bunte Kleider drum! Keiner kennt uns mehr heraus: Welt ist wie ein Narrenhaus.",
+			"author": null
+		},
+		{
+			"id": "153103",
+			"text": "Ein Leben ohne Feste gleicht einer weiteren Reise ohne Einkehr.",
+			"author": "Demokrit"
+		},
+		{
+			"id": "153104",
+			"text": "Was ist das Besondere am schottischen Karneval? Das Konfetti hängt an einem Gummiband.",
+			"author": null
+		},
+		{
+			"id": "153107",
+			"text": "An Karneval maskiert man sich, damit man die Maske fallen lassen kann.",
+			"author": null
+		},
+		{
+			"id": "153108",
+			"text": "An der Maske, die wir uns vorbinden, erkennt man uns.",
+			"author": "Otto Erich Hartleben"
+		},
+		{
+			"id": "153109",
+			"text": "Ich schätze, wir sind alle Narren. Von Geburt an, wahrscheinlich.",
+			"author": "Mark Twain"
+		},
+		{
+			"id": "153110",
+			"text": "Karneval: Die einzige Zeit, in der man in seiner Hogwarts Schuluniform durch die Stadt laufen kann, ohne dass die Muggel einen schief angucken.",
+			"author": null
+		},
+		{
+			"id": "153111",
+			"text": "Niemand kann auf Dauer eine Maske tragen.",
+			"author": "Seneca"
+		},
+		{
+			"id": "153113",
+			"text": "Jedem Dierche sing Pläsierche.",
+			"author": null
+		},
+		{
+			"id": "153115",
+			"text": "Mer läv nur eimol.",
+			"author": null
+		},
+		{
+			"id": "153117",
+			"text": "Zum Karneval verkleide ich mich als Pi... damit rechnet niemand.",
+			"author": null
+		},
+		{
+			"id": "153118",
+			"text": "Ich bin die verrückte Karnevalistin, vor der dich alle gewarnt haben.",
+			"author": null
+		},
+		{
+			"id": "153120",
+			"text": "Küss de hück nit, küss de morje.",
+			"author": null
+		},
+		{
+			"id": "153122",
+			"text": "Isch han disch jän!",
+			"author": null
+		},
+		{
+			"id": "153123",
+			"text": "Ich schätze, wir sind alle Narren. Von Geburt an, warscheinlich.",
+			"author": null
+		},
+		{
+			"id": "153124",
+			"text": "Ich gehe an Karneval als Berliner Flughafen, dann bin ich am nächster Tag nicht so fertig!",
+			"author": null
+		},
+		{
+			"id": "153126",
+			"text": "Geht die Magd zum Maskenball, ist wahrscheinlich Karneval.",
+			"author": null
+		},
+		{
+			"id": "153128",
+			"text": "Schwad doch nit!",
+			"author": null
+		},
+		{
+			"id": "153129",
+			"text": "Räuber kommen wild heran, Ritter reihen stolz sich dran, Die Zigeuner fehlen nicht, Schäfersmann ist jener Wicht.",
+			"author": null
+		},
+		{
+			"id": "153130",
+			"text": "Ein Leben ohne Alaaf ist möglich, aber sinnlos.",
+			"author": null
+		},
+		{
+			"id": "153132",
+			"text": "Das schönste an einem Feiertag ist die Aussicht auf einen zweiten. Daher ist der letzte stets ein Aschermittwoch.",
+			"author": "Jean Paul"
+		},
+		{
+			"id": "153133",
+			"text": "L’amore di carnevale muore di quaresima. – Karnevalsliebe stirbt zur Fastenzeit.",
+			"author": null
+		},
+		{
+			"id": "153139",
+			"text": "Fasching in Ehren wird niemand wehren.",
+			"author": null
+		},
+		{
+			"id": "153140",
+			"text": "Achtung! Aschermittwoch sind auf dem Wege vom Kapuzinergraben, Friedrich-Wilhelm-Platz und Wirichsbongardstraße mehrere Hundert Werthscheine vulgo Passepartout verloren gegangen. Die glücklichen Finder werden gebeten, selbige in den betreffenden Lokalen abzutrinken. Prost!",
+			"author": null
+		},
+		{
+			"id": "153141",
+			"text": "Karneval: Der Frohsinn als eingetragener Verein.",
+			"author": null
+		},
+		{
+			"id": "153142",
+			"text": "Karneval in Köln ist wie Kommunismus: Alles säuft, keiner arbeitet.",
+			"author": null
+		},
+		{
+			"id": "153143",
+			"text": "Der Fasching währt, verehren wir die Lüge, Der Rolle treu mit lächerlichem Ernst, Den süßen Rausch des Haufens nicht zu stören.",
+			"author": null
+		},
+		{
+			"id": "153144",
+			"text": "Lust’ge, lust’ge Fastnachtszeit! Heute jubeln alle Leut’, Heute sind wir alle toll, Alle bunter Scherze voll.",
+			"author": null
+		}
+	]
+}
