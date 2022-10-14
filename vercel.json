@@ -8,6 +8,5 @@
 			"source": "/stats/api/event/",
 			"destination": "https://p.macheskurz.de/api/event"
 		}
-	],
-	"routes": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "/index.html" }]
+	]
 }
