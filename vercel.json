@@ -10,7 +10,8 @@
 		},
 		{
 			"source": "/schoenen-abend-bilder-fuer-die-seele/",
-			"destination": "/schoenen-abend-bilder/"
+			"destination": "https://perfekterspruch.de/schoenen-abend-bilder/",
+			"permanent": true
 		}
 	]
 }
