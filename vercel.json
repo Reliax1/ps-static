@@ -12,7 +12,7 @@
 	"redirects": [
 		{
 			"source": "/schoenen-abend-bilder-fuer-die-seele/",
-			"destination": "https://perfekterspruch.de/schoenen-abend-bilder/",
+			"destination": "/schoenen-abend-bilder/",
 			"permanent": true
 		}
 	]
