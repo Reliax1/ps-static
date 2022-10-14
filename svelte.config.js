@@ -11,7 +11,6 @@ const config = {
 			crawl: true,
 			entries: [
 				'*',
-				'/',
 				'/impressum',
 				'/datenschutz',
 				'/kontakt',
