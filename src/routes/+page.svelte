@@ -1,40 +1,9 @@
-<!-- <script context="module">
-	export async function load({ fetch }) {
-		const response = await fetch(
-			`https://8xfm8zzg6c.execute-api.eu-central-1.amazonaws.com/dev/spruchdestages`
-		);
-		const spruchpre = await response.json();
-
-		console.log(spruchpre);
-
-		const spruch = spruchpre;
-
-		let derspruch = {
-			id: null,
-			image: null,
-			text: null,
-			author: null
-		};
-		derspruch.id = spruch.id2;
-		derspruch.image = spruch.image;
-		derspruch.text = spruch.spruch;
-		derspruch.author = spruch.author;
-
-		return {
-			props: {
-				derspruch
-			}
-		};
-	}
-</script> -->
 <script>
-	import { onMount } from 'svelte';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import MobileStore from '../stores/MobileStore';
 
 	export let data;
-	let userIsMobile;
 
 	let index = 1;
 
@@ -251,11 +220,7 @@
 		<div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
 
-			<Spruchcard
-				card={data.derspruch}
-				{index}
-				userIsMobile={$MobileStore.userIsMobile}
-			/>
+			<Spruchcard card={data.derspruch} {index} userIsMobile={$MobileStore.userIsMobile} />
 		</div>
 		<h2 class="homebeliebt-h22">Themen-Menü Übersicht</h2>
 		<p class="home-pp">
