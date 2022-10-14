@@ -7,7 +7,7 @@
 
 	import MobileLogo from '$lib/core/MobileLogo.svelte';
 
-	let setUrl = dev ? 'http://127.0.0.1:5173' : '{setUrl}';
+	let setUrl = dev ? 'http://127.0.0.1:5173' : 'https://perfekterspruch.de';
 
 	let menu1 = false;
 	let menu2 = false;
