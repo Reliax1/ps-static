@@ -9,7 +9,6 @@
 	export let index;
 
 	let shareOpen = false;
-	// let renderShare = false;
 	let activeIndex = undefined;
 
 	const downloadCount = (id, button) => {
