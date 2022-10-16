@@ -77,7 +77,8 @@ const config = {
 				'/vertrauen-sprueche',
 				'/hoffnung-sprueche',
 				'/sarkastische-sprueche',
-				'/geburtstagswuensche-kollegin'
+				'/geburtstagswuensche-kollegin',
+				'/glueckwuensche-zur-goldenen-hochzeit'
 			]
 		},
 		trailingSlash: 'always'

@@ -456,6 +456,11 @@
 						>
 					</li>
 					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/glueckwuensche-zur-goldenen-hochzeit/"
+							>Glückwünsche zur goldenen Hochzeit</a
+						>
+					</li>
+					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/jugendweihe-sprueche/"
 							>Jugendweihe Sprüche</a
 						>

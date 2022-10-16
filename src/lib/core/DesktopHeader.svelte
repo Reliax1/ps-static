@@ -352,6 +352,12 @@
 										</li>
 
 										<li>
+											<a href="{setUrl}/glueckwuensche-zur-goldenen-hochzeit/">
+												Glückwünsche zur goldenen Hochzeit
+											</a>
+										</li>
+
+										<li>
 											<a href="{setUrl}/jugendweihe-sprueche/"> Jugendweihe Sprüche </a>
 										</li>
 									</ul>
