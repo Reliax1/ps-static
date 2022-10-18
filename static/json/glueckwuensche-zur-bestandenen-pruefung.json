@@ -92,60 +92,70 @@
 			"image": "bestandenenpruefung/pruefung-bestanden",
 			"text": "Du hast alles geschafft, was du dir vorgenommen und gewünscht hast. Ich gratuliere dir daher mit großer Hochachtung zu deiner Leistung, die dich für die Zukunft motivieren soll! Alles Gute auf deinem weiteren Lebensweg!",
 			"author": null
-		}
-	],
-	"weiteredata": [
+		},
+	
 		{
 			"id": "106118",
+			"image": "bestandenenpruefung/bestandene-pruefung-bild",
 			"text": "Das Leben hat dir Zitronen gegeben und du hast Limonade draus gemacht. Wir gratulieren dir herzlich zur bestandenen Prüfung und wünschen dir alles Gute für die Zukunft.",
 			"author": null
 		},
 		{
 			"id": "106120",
+			"image": "bestandenenpruefung/bestandene-pruefung-bilder",
 			"text": "Die Nächte durch gebüffelt, die Hände wund geschrieben, und jetzt ist es geschafft, dazu möchten wir dir herzlich gratulieren.",
 			"author": null
 		},
 		{
 			"id": "106121",
+			"image": "bestandenenpruefung/bestandene-pruefung-whatsapp",
 			"text": "Ich wusste, dass du auch diese Prüfung mit Bravour meistern wirst. Herzlichen Glückwunsch zur bestandenen Prüfung!",
 			"author": null
 		},
 		{
 			"id": "106122",
+			"image": "bestandenenpruefung/bestandene-pruefung-facebook",
 			"text": "Nach vielen langen Nächten und Literweise Redbull hast du es geschafft. Wir gratulieren dir zu deiner bestandenen Meisterprüfung und wünschen dir für deine Zukunft nur das Beste.",
 			"author": null
 		},
 		{
 			"id": "106123",
+			"image": "bestandenenpruefung/bestandene-pruefung-schoen",
 			"text": "Ich wusste das du diese Etappe deines Lebens erfolgreich schaffen wirst. Herzlichen Glückwunsch zu deiner bestandenen Prüfung.",
 			"author": null
 		},
 		{
 			"id": "106124",
+			"image": "bestandenenpruefung/bestandene-pruefung-enkel",
 			"text": "Jetzt hast du deine Gesellenprüfung erfolgreich bestanden und dazu möchten wir dir herzlich gratulieren. Wir wünschen dir weiterhin viel Erfolg in deinem Beruf.",
 			"author": null
 		},
 		{
 			"id": "106125",
+			"image": "bestandenenpruefung/bestandene-pruefung-kind",
 			"text": "Dein Fleiß und deine harte Arbeit haben sich nun ausgezahlt. Zur bestandenen Prüfung gratulieren wir dir herzlich und wünschen dir weiterhin alles Gute.",
 			"author": null
 		},
 		{
 			"id": "106126",
+			"image": "bestandenenpruefung/bestandene-pruefung-bachelor",
 			"text": "Nach vielen Jahren harter Arbeit hast du nun deinen Bachelor bestanden. Dazu gratulieren wir dir ganz herzlich und wünschen dir auf deinem weiteren Berufsweg viel Erfolg.",
 			"author": null
 		},
 		{
 			"id": "106127",
+			"image": "bestandenenpruefung/bestandene-pruefung-gut",
 			"text": "Herzlichen Glückwunsch zur bestandenen Prüfung. Möge Gott weiterhin dein Begleiter sein und über dich wachen.",
 			"author": null
 		},
-
 		{
 			"id": "106023",
+			"image": "bestandenenpruefung/bestandene-pruefung-lustig",
 			"text": "Nach einer absolvierten Prüfung ist es wichtig, dennen zu danken, die mitverantwortlich für das Bestehen waren. Also vielen dank an Google, Wikipedia und Red Bull!",
 			"author": null
-		},
+		}
+	],
+	"weiteredata": [
 		{
 			"id": "106024",
 			"text": "Du hast Tag und Nacht gelernt und dich dabei mit Kaffee, Schokolade und Gummibärchen gedopt! Doch die Mühe hat sich gelohnt - du hast es geschafft! Gratulation zur bestandenen Prüfung!",
