@@ -14,7 +14,7 @@
 
 	let scrollPosition = 0;
 
-	$: if (scrollPosition > 800 && !$MobileStore.userIsMobile) {
+	$: if (scrollPosition > 800 && !data.isMobile) {
 		showScrollToTop = true;
 	} else {
 		showScrollToTop = false;
@@ -71,36 +71,40 @@
 
 		<div class="sprueche-card">
 			<div class="sprueche-card-mobile">
-				{#each data.spruchData.spruchcarddata as spruch, index}
-					{#if index <= 1}
-						<Spruchcard card={spruch} {index} userIsMobile={$MobileStore.userIsMobile} />
-					{/if}
-				{/each}
+				{#if data.isMobile}
+					{#each data.spruchData.spruchcarddata as spruch, index}
+						{#if index <= 1}
+							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+						{/if}
+					{/each}
 
-				<RelatedArticles imageArray={data.spruchData.othersites} />
+					<RelatedArticles imageArray={data.spruchData.othersites} />
 
-				{#each data.spruchData.spruchcarddata as spruch, index}
-					{#if index > 1}
-						<Spruchcard card={spruch} {index} userIsMobile={$MobileStore.userIsMobile} />
-					{/if}
-				{/each}
+					{#each data.spruchData.spruchcarddata as spruch, index}
+						{#if index > 1}
+							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+						{/if}
+					{/each}
+				{/if}
 			</div>
 
-			<div class="sprueche-card-desktop">
-				{#each data.spruchData.spruchcarddata as spruch, index}
-					{#if index <= 3}
-						<Spruchcard card={spruch} {index} userIsMobile={$MobileStore.userIsMobile} />
-					{/if}
-				{/each}
+			{#if !data.isMobile}
+				<div class="sprueche-card-desktop">
+					{#each data.spruchData.spruchcarddata as spruch, index}
+						{#if index <= 3}
+							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+						{/if}
+					{/each}
 
-				<RelatedArticles imageArray={data.spruchData.othersites} />
+					<RelatedArticles imageArray={data.spruchData.othersites} />
 
-				{#each data.spruchData.spruchcarddata as spruch, index}
-					{#if index > 3}
-						<Spruchcard card={spruch} {index} userIsMobile={$MobileStore.userIsMobile} />
-					{/if}
-				{/each}
-			</div>
+					{#each data.spruchData.spruchcarddata as spruch, index}
+						{#if index > 3}
+							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+						{/if}
+					{/each}
+				</div>
+			{/if}
 
 			<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
 
@@ -111,7 +115,7 @@
 			{/if}
 		</div>
 
-		{#if !$MobileStore.userIsMobile}
+		{#if !data.isMobile}
 			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
 				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
 			</div>
@@ -125,9 +129,11 @@
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-wrap: wrap;
+		min-height: 100vh;
 	}
 	.sprueche-card-mobile {
 		display: none;
+		min-height: 100vh;
 	}
 	.sprueche-main {
 		display: flex;
@@ -215,6 +221,7 @@
 			flex-direction: column;
 			align-items: center;
 			flex-wrap: wrap;
+			min-height: 100vh;
 		}
 		.sprueche-main {
 			width: 100%;

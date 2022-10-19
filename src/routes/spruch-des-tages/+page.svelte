@@ -4,7 +4,7 @@
 
 	export let data;
 
-	let index = 1;
+	let index = 0;
 
 	let beliebtData = [
 		{
@@ -155,7 +155,7 @@
 <div class="sdt-main">
 	<h1 class="sdt-h11">Spruch des Tages</h1>
 
-	<Spruchcard card={data.derspruch} {index} userIsMobile={$MobileStore.userIsMobile} />
+	<Spruchcard card={data.derspruch} {index} userIsMobile={data.isMobile} />
 	<div class="home-beliebt">
 		<h2 class="homebeliebt-h22">Hier ist eine Übersicht über unsere beliebtesten Themen:</h2>
 		{#each beliebtData as beliebt (beliebt.id)}

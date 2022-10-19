@@ -73,7 +73,8 @@
 		const button = document.getElementsByClassName('spruchcard-copy-copied')[index];
 		const copyText = document
 			.getElementsByClassName('spruchcard-text-container')
-			[index].innerText.slice(0, -17);
+			[index].innerText.slice(0, -18)
+			.trim();
 
 		navigator.clipboard.writeText(copyText);
 
@@ -180,8 +181,7 @@
 				document.body.appendChild(a);
 				a.click();
 				window.URL.revokeObjectURL(url);
-			})
-			.catch(() => alert('An error sorry'));
+			});
 	};
 
 	onMount(async () => {

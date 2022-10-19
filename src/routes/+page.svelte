@@ -5,7 +5,7 @@
 
 	export let data;
 
-	let index = 1;
+	let index = 0;
 
 	const beliebtData = [
 		{
@@ -220,7 +220,7 @@
 		<div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
 
-			<Spruchcard card={data.derspruch} {index} userIsMobile={$MobileStore.userIsMobile} />
+			<Spruchcard card={data.derspruch} {index} userIsMobile={data.isMobile} />
 		</div>
 		<h2 class="homebeliebt-h22">Themen-Menü Übersicht</h2>
 		<p class="home-pp">

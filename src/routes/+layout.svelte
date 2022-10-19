@@ -1,7 +1,7 @@
 <script>
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 
-	import MobileStore from '../stores/MobileStore';
+	// import MobileStore from '../stores/MobileStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
 	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
@@ -44,14 +44,9 @@
 	// 	});
 	// };
 
-	const setUserIsMobile = () => {
-		$MobileStore.userIsMobile = window.navigator.userAgent.includes('Mobile');
-	};
-
-	onMount(() => {
-		setUserIsMobile();
-		// lazyLoading();
-	});
+	// onMount(() => {
+	// 	// lazyLoading();
+	// });
 </script>
 
 <svelte:head>

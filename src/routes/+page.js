@@ -1,3 +1,5 @@
+import { browser } from '$app/environment';
+
 export const load = async ({ fetch }) => {
 	const res = await fetch(
 		'https://8xfm8zzg6c.execute-api.eu-central-1.amazonaws.com/dev/spruchdestages'
@@ -15,7 +17,14 @@ export const load = async ({ fetch }) => {
 	derspruch.text = derSpruchPre.spruch;
 	derspruch.author = derSpruchPre.author;
 
+	let isMobile;
+
+	if (browser) {
+		isMobile = window.navigator.userAgent.includes('Mobile');
+	}
+
 	return {
-		derspruch
+		derspruch,
+		isMobile
 	};
 };
