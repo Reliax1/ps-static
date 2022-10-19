@@ -327,7 +327,7 @@
 							data-pin-lang="de"
 							on:click={() =>
 								sharePopup(
-									`https://de.pinterest.com/pin/create/button/?url=https://perfekterspruch.de&media=https://perfekterspruch.de/images/${card.image}.jpg`
+									`https://de.pinterest.com/pin/create/button/?url=https://perfekterspruch.de&media=https://bilder.perfekterspruch.de/download/${card.image}.jpg`
 								)}
 						>
 							<img class="spruchcard-share-svg" src="/svg/pinterest.svg" alt="social media logo" />

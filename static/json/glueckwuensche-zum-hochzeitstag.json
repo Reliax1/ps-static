@@ -87,9 +87,8 @@
 			"image": "glueckwuenschezumhochzeitstag/hochzeitstag-schwester",
 			"text": "Da haben sich zwei gefunden, die einfach perfekt zusammenpassen. Glückwunsch zum Hochzeitstag!",
 			"author": null
-		}
-	],
-	"weiteredata": [
+		},
+
 		{
 			"id": "148011",
 			"text": "Habt Sonne im Herzen und Pizza im Bauch, dann bleibt ihr glücklich und satt seid ihr auch. Alles Gute zum Hochzeitstag!",
@@ -139,7 +138,9 @@
 			"id": "148020",
 			"text": "Aus Liebe macht man komische Sachen – manche heiraten sogar! Gut, dass ihr das gemacht habt. Macht weiter so, ihr Komiker – alles Gute zum Hochzeitstag!",
 			"author": null
-		},
+		}
+	],
+	"weiteredata": [
 		{
 			"id": "148021",
 			"text": "Euer gemeinsamer Lebensweg dauert schon ganz schön lange an! Alle Achtung! Alles Gute für den Rest Eures Lebens!",
