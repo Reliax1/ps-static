@@ -95,7 +95,7 @@
 		// 	`https://res.cloudinary.com/dd79nq7sg/image/upload/f_webp%2Cq_auto%2Cw_972/psimages/${image}.jpg`
 		// );
 
-		const response = await fetch(`../images/${image}.jpg`);
+		const response = await fetch(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`);
 		const blob = await response.blob();
 
 		const filesArray = new File([blob], `PerferkterSpruch${id}.jpg`, { type: blob.type });
