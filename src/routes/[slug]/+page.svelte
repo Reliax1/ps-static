@@ -93,15 +93,15 @@
 			{#each data.spruchData.spruchcarddata as spruch, index}
 				<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-				<!-- {#if data.isMobile && index === 1}
+				{#if index === 1}
 					<div class="sprueche-card-mobile">
 						<RelatedArticles imageArray={data.spruchData.othersites} />
 					</div>
-				{:else if !data.isMobile && index === 3}
+				{:else if index === 3}
 					<div class="sprueche-card-desktop">
 						<RelatedArticles imageArray={data.spruchData.othersites} />
 					</div>
-				{/if} -->
+				{/if}
 			{/each}
 			<!-- {/if} -->
 
