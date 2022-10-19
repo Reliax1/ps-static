@@ -1,6 +1,6 @@
 <script>
-	import { onMount } from 'svelte';
-	import MobileStore from '../../stores/MobileStore';
+	// import { onMount } from 'svelte';
+	// import MobileStore from '../../stores/MobileStore';
 
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
@@ -29,9 +29,9 @@
 		});
 	};
 
-	onMount(() => {
-		console.log('data', data.isMobile);
-	});
+	// onMount(() => {
+	// 	console.log('data', data.isMobile);
+	// });
 </script>
 
 <svelte:window bind:scrollY={scrollPosition} />
