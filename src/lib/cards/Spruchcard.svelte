@@ -290,7 +290,8 @@
 						<li
 							class="spruchcard-share-cointainer"
 							class:spruchcard-share-transition1={shareOpen && activeIndex == index}
-							on:click={() => cardDrucken(`/images/${card.image}.jpg`)}
+							on:click={() =>
+								cardDrucken(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`)}
 							on:click={() => downloadCount(card.id, 'drucken')}
 							on:click={() => downloadCountDate(card.id, index, 'drucken')}
 						>
