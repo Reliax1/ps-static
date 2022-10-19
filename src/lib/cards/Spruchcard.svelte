@@ -4,7 +4,7 @@
 
 	import 'lazysizes';
 
-	//
+	// redeploy
 
 	export let userIsMobile;
 	export let card;
