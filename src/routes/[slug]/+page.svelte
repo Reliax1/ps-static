@@ -71,7 +71,7 @@
 		<Headerh1 h1title={data.spruchData.h1title} />
 
 		<div class="sprueche-card">
-			<div class="sprueche-card-mobile">
+			<!-- <div class="sprueche-card-mobile">
 				{#if data.isMobile}
 					{#each data.spruchData.spruchcarddata as spruch, index}
 						{#if index <= 1}
@@ -87,25 +87,23 @@
 						{/if}
 					{/each}
 				{/if}
-			</div>
+			</div> -->
 
-			{#if !data.isMobile}
-				<div class="sprueche-card-desktop">
-					{#each data.spruchData.spruchcarddata as spruch, index}
-						{#if index <= 3}
-							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
-						{/if}
-					{/each}
+			<!-- {#if !data.isMobile} -->
+			{#each data.spruchData.spruchcarddata as spruch, index}
+				<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					<RelatedArticles imageArray={data.spruchData.othersites} />
-
-					{#each data.spruchData.spruchcarddata as spruch, index}
-						{#if index > 3}
-							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
-						{/if}
-					{/each}
-				</div>
-			{/if}
+				{#if data.isMobile && index === 1}
+					<div class="sprueche-card-mobile">
+						<RelatedArticles imageArray={data.spruchData.othersites} />
+					</div>
+				{:else if !data.isMobile && index === 3}
+					<div class="sprueche-card-desktop">
+						<RelatedArticles imageArray={data.spruchData.othersites} />
+					</div>
+				{/if}
+			{/each}
+			<!-- {/if} -->
 
 			<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
 
@@ -126,15 +124,10 @@
 
 <style lang="scss">
 	.sprueche-card-desktop {
-		display: flex;
-		justify-content: flex-start;
-		align-items: flex-start;
-		flex-wrap: wrap;
-		min-height: 100vh;
+		display: block;
 	}
 	.sprueche-card-mobile {
 		display: none;
-		min-height: 100vh;
 	}
 	.sprueche-main {
 		display: flex;
@@ -192,11 +185,7 @@
 			display: none;
 		}
 		.sprueche-card-mobile {
-			display: flex;
-			justify-content: flex-start;
-			flex-direction: column;
-			align-items: center;
-			flex-wrap: wrap;
+			display: block;
 		}
 		.sprueche-main {
 			width: 100%;
@@ -217,12 +206,7 @@
 			display: none;
 		}
 		.sprueche-card-mobile {
-			display: flex;
-			justify-content: flex-start;
-			flex-direction: column;
-			align-items: center;
-			flex-wrap: wrap;
-			min-height: 100vh;
+			display: block;
 		}
 		.sprueche-main {
 			width: 100%;
