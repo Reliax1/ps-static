@@ -70,7 +70,7 @@
 		<Headerh1 h1title={data.spruchData.h1title} />
 
 		<div class="sprueche-card">
-			<div class="sprueche-card-mobile">
+			<!-- <div class="sprueche-card-mobile"> -->
 				{#if data.isMobile}
 					{#each data.spruchData.spruchcarddata as spruch, index}
 						{#if index <= 1}
@@ -86,7 +86,7 @@
 						{/if}
 					{/each}
 				{/if}
-			</div>
+			<!-- </div> -->
 
 			{#if !data.isMobile}
 				<div class="sprueche-card-desktop">
