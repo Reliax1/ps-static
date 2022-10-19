@@ -11,7 +11,7 @@ export const load = async ({ fetch, url }) => {
 	}
 
 	return {
-		spruchData,
-		isMobile
+		isMobile,
+		spruchData
 	};
 };

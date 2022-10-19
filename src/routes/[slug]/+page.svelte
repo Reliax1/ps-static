@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import MobileStore from '../../stores/MobileStore';
 
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
@@ -28,9 +29,9 @@
 		});
 	};
 
-	// onMount(() => {
-
-	// });
+	onMount(() => {
+		console.log('data', data.isMobile);
+	});
 </script>
 
 <svelte:window bind:scrollY={scrollPosition} />
