@@ -7,7 +7,6 @@
 	import Headerh1 from '$lib/cards/Headerh1.svelte';
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
 	import { page } from '$app/stores';
-	// import { onMount } from 'svelte';
 
 	export let data;
 
@@ -71,25 +70,7 @@
 		<Headerh1 h1title={data.spruchData.h1title} />
 
 		<div class="sprueche-card">
-			<!-- <div class="sprueche-card-mobile">
-				{#if data.isMobile}
-					{#each data.spruchData.spruchcarddata as spruch, index}
-						{#if index <= 1}
-							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
-						{/if}
-					{/each}
 
-					<RelatedArticles imageArray={data.spruchData.othersites} />
-
-					{#each data.spruchData.spruchcarddata as spruch, index}
-						{#if index > 1}
-							<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
-						{/if}
-					{/each}
-				{/if}
-			</div> -->
-
-			<!-- {#if !data.isMobile} -->
 			{#each data.spruchData.spruchcarddata as spruch, index}
 				<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
@@ -103,7 +84,6 @@
 					</div>
 				{/if}
 			{/each}
-			<!-- {/if} -->
 
 			<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
 

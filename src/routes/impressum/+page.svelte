@@ -74,7 +74,7 @@
 		umgehend entfernen.
 	</p>
 	<h3>Quellenangaben Für Verwendete Bilder Und Grafiken</h3>
-	<p>pexels.com<br>unsplash.com<br>pixabay.com</p>
+	<p>pexels.com<br />istockphoto.com<br />pixabay.com<br />unsplash.com</p>
 </div>
 
 <style lang="scss">
