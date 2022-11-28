@@ -196,14 +196,14 @@
 		<div class="spruchcard-image-container">
 			{#if index <= 3}
 				<picture>
-					<source
+					<!-- <source
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
 					(min-width: 1366px) 285px,
 						100vw"
 						srcSet="https://bilder.perfekterspruch.de/avif/1366/{card.image}.avif 285w, https://bilder.perfekterspruch.de/avif/1920/{card.image}.avif 400w, https://bilder.perfekterspruch.de/avif/360/{card.image}.avif 972w"
 						type="image/avif"
-					/>
+					/> -->
 					<source
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
@@ -232,7 +232,7 @@
 				</picture>
 			{:else}
 				<picture>
-					<source
+					<!-- <source
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
 					(min-width: 1366px) 285px,
@@ -240,7 +240,7 @@
 						srcSet="https://bilder.perfekterspruch.de/avif/placeholder/{card.image}.avif"
 						data-srcSet="https://bilder.perfekterspruch.de/avif/1366/{card.image}.avif 285w, https://bilder.perfekterspruch.de/avif/1920/{card.image}.avif 400w, https://bilder.perfekterspruch.de/avif/360/{card.image}.avif 972w"
 						type="image/avif"
-					/>
+					/> -->
 					<source
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
