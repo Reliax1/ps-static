@@ -67,37 +67,38 @@
 
 <div class="sprueche-main">
 	{#key $page.params.slug}
-		<Headerh1 h1title={data.spruchData.h1title} />
+		{#if data}
+			<Headerh1 h1title={data.spruchData.h1title} />
 
-		<div class="sprueche-card">
+			<div class="sprueche-card">
+				{#each data.spruchData.spruchcarddata as spruch, index}
+					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-			{#each data.spruchData.spruchcarddata as spruch, index}
-				<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
-
-				{#if index === 1}
-					<div class="sprueche-card-mobile">
-						<RelatedArticles imageArray={data.spruchData.othersites} />
-					</div>
-				{:else if index === 3}
-					<div class="sprueche-card-desktop">
-						<RelatedArticles imageArray={data.spruchData.othersites} />
-					</div>
-				{/if}
-			{/each}
-
-			<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
-
-			{#if data.spruchData.weiteredata}
-				<Weiteresprueche weiteredata={data.spruchData.weiteredata} />
+					{#if index === 1}
+						<div class="sprueche-card-mobile">
+							<RelatedArticles imageArray={data.spruchData.othersites} />
+						</div>
+					{:else if index === 3}
+						<div class="sprueche-card-desktop">
+							<RelatedArticles imageArray={data.spruchData.othersites} />
+						</div>
+					{/if}
+				{/each}
 
 				<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
-			{/if}
-		</div>
 
-		{#if !data.isMobile}
-			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
-				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
+				{#if data.spruchData.weiteredata}
+					<Weiteresprueche weiteredata={data.spruchData.weiteredata} />
+
+					<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
+				{/if}
 			</div>
+
+			{#if !data.isMobile}
+				<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
+					<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
+				</div>
+			{/if}
 		{/if}
 	{/key}
 </div>
