@@ -1,5 +1,5 @@
 <script>
-	// import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	// import MobileStore from '../../stores/MobileStore';
 
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
@@ -10,11 +10,13 @@
 
 	export let data;
 
+	let isMobile;
+
 	let showScrollToTop = false;
 
 	let scrollPosition = 0;
 
-	$: if (scrollPosition > 800 && !data.isMobile) {
+	$: if (scrollPosition > 800 && !isMobile) {
 		showScrollToTop = true;
 	} else {
 		showScrollToTop = false;
@@ -28,9 +30,10 @@
 		});
 	};
 
-	// onMount(() => {
-	// 	console.log('data', data.isMobile);
-	// });
+	onMount(() => {
+		// console.log('data', isMobile);
+		isMobile = window.navigator.userAgent.includes('Mobile');
+	});
 </script>
 
 <svelte:window bind:scrollY={scrollPosition} />
@@ -72,7 +75,7 @@
 
 			<div class="sprueche-card">
 				{#each data.spruchData.spruchcarddata as spruch, index}
-					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+					<Spruchcard card={spruch} {index} userIsMobile={isMobile} />
 
 					{#if index === 1}
 						<div class="sprueche-card-mobile">
@@ -94,7 +97,7 @@
 				{/if}
 			</div>
 
-			{#if !data.isMobile}
+			{#if !isMobile}
 				<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
 					<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
 				</div>
