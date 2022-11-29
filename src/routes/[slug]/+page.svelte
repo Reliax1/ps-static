@@ -69,7 +69,7 @@
 </svelte:head>
 
 <div class="sprueche-main">
-	{#key $page.params.slug}
+	<!-- {#key $page.params.slug} -->
 		{#if data}
 			<Headerh1 h1title={data.spruchData.h1title} />
 
@@ -103,7 +103,7 @@
 				</div>
 			{/if}
 		{/if}
-	{/key}
+	<!-- {/key} -->
 </div>
 
 <style lang="scss">
