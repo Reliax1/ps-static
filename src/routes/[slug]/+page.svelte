@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	// import MobileStore from '../../stores/MobileStore';
 
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
@@ -10,13 +10,11 @@
 
 	export let data;
 
-	let isMobile;
-
 	let showScrollToTop = false;
 
 	let scrollPosition = 0;
 
-	$: if (scrollPosition > 800 && !isMobile) {
+	$: if (scrollPosition > 800 && !data.isMobile) {
 		showScrollToTop = true;
 	} else {
 		showScrollToTop = false;
@@ -30,10 +28,9 @@
 		});
 	};
 
-	onMount(() => {
-		// console.log('data', isMobile);
-		isMobile = window.navigator.userAgent.includes('Mobile');
-	});
+	// onMount(() => {
+	// 	console.log('data', data.isMobile);
+	// });
 </script>
 
 <svelte:window bind:scrollY={scrollPosition} />
@@ -69,41 +66,40 @@
 </svelte:head>
 
 <div class="sprueche-main">
-	<!-- {#key $page.params.slug} -->
-		{#if data}
-			<Headerh1 h1title={data.spruchData.h1title} />
+	{#key $page.params.slug}
+		<Headerh1 h1title={data.spruchData.h1title} />
 
-			<div class="sprueche-card">
-				{#each data.spruchData.spruchcarddata as spruch, index}
-					<Spruchcard card={spruch} {index} userIsMobile={isMobile} />
+		<div class="sprueche-card">
 
-					{#if index === 1}
-						<div class="sprueche-card-mobile">
-							<RelatedArticles imageArray={data.spruchData.othersites} />
-						</div>
-					{:else if index === 3}
-						<div class="sprueche-card-desktop">
-							<RelatedArticles imageArray={data.spruchData.othersites} />
-						</div>
-					{/if}
-				{/each}
+			{#each data.spruchData.spruchcarddata as spruch, index}
+				<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+
+				{#if index === 1}
+					<div class="sprueche-card-mobile">
+						<RelatedArticles imageArray={data.spruchData.othersites} />
+					</div>
+				{:else if index === 3}
+					<div class="sprueche-card-desktop">
+						<RelatedArticles imageArray={data.spruchData.othersites} />
+					</div>
+				{/if}
+			{/each}
+
+			<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
+
+			{#if data.spruchData.weiteredata}
+				<Weiteresprueche weiteredata={data.spruchData.weiteredata} />
 
 				<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
-
-				{#if data.spruchData.weiteredata}
-					<Weiteresprueche weiteredata={data.spruchData.weiteredata} />
-
-					<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
-				{/if}
-			</div>
-
-			{#if !isMobile}
-				<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
-					<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
-				</div>
 			{/if}
+		</div>
+
+		{#if !data.isMobile}
+			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
+				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
+			</div>
 		{/if}
-	<!-- {/key} -->
+	{/key}
 </div>
 
 <style lang="scss">
