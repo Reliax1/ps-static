@@ -35,7 +35,7 @@
 
 <svelte:window bind:scrollY={scrollPosition} />
 
-<!-- <svelte:head>
+<svelte:head>
 	<link
 		rel="preload"
 		as="image"
@@ -63,13 +63,10 @@
 
 	<meta name="twitter:title" content={data.spruchData.metatitel} />
 	<meta name="twitter:description" content={data.spruchData.metacontent} />
-</svelte:head> -->
+</svelte:head>
 
 <div class="sprueche-main">
-	{#each data.spruchData.spruchcarddata as spruch, index}
-		<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
-	{/each}
-	<!-- {#key $page.params.slug}
+	{#key $page.params.slug}
 		<Headerh1 h1title={data.spruchData.h1title} />
 
 		<div class="sprueche-card">
@@ -102,7 +99,7 @@
 				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
 			</div>
 		{/if}
-	{/key} -->
+	{/key}
 </div>
 
 <style lang="scss">
