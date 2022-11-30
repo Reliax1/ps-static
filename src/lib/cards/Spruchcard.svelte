@@ -194,7 +194,7 @@
 <div id={card.id} class="spruchcard-maindiv">
 	<div class="spruchcard-firstcard">
 		<div class="spruchcard-image-container">
-			{#if index <= 3}
+			<!-- {#if index <= 3} -->
 				<picture>
 					<!-- <source
 						sizes="(max-width: 1024px) 972px, 
@@ -230,9 +230,9 @@
 						alt={card.image.split('/')[1].replace(/-/g, ' ')}
 					/>
 				</picture>
-			{:else}
+			<!-- {:else}
 				<picture>
-					<!-- <source
+					<source
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
 					(min-width: 1366px) 285px,
@@ -240,7 +240,7 @@
 						srcSet="https://bilder.perfekterspruch.de/avif/placeholder/{card.image}.avif"
 						data-srcSet="https://bilder.perfekterspruch.de/avif/1366/{card.image}.avif 285w, https://bilder.perfekterspruch.de/avif/1920/{card.image}.avif 400w, https://bilder.perfekterspruch.de/avif/360/{card.image}.avif 972w"
 						type="image/avif"
-					/> -->
+					/>
 					<source
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
@@ -270,7 +270,7 @@
 						alt={card.image.split('/')[1].replace(/-/g, ' ')}
 					/>
 				</picture>
-			{/if}
+			{/if} -->
 		</div>
 
 		<div class="spruchcard-share-teilen">
