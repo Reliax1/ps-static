@@ -212,14 +212,6 @@
 						srcSet="https://bilder.perfekterspruch.de/webp/1366/{card.image}.webp 285w, https://bilder.perfekterspruch.de/webp/1920/{card.image}.webp 400w, https://bilder.perfekterspruch.de/webp/360/{card.image}.webp 972w"
 						type="image/webp"
 					/>
-					<source
-						sizes="(max-width: 1024px) 972px, 
-					(min-width: 1920px) 400px, 
-					(min-width: 1366px) 285px,
-						100vw"
-						srcSet="https://bilder.perfekterspruch.de/jpg/1366/{card.image}.jpg 285w, https://bilder.perfekterspruch.de/jpg/1920/{card.image}.jpg 400w, https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg 972w"
-						type="image/jpeg"
-					/>
 					<img
 						sizes="(max-width: 1024px) 972px, 
 					(min-width: 1920px) 400px, 
@@ -250,15 +242,6 @@
 						srcSet="https://bilder.perfekterspruch.de/webp/placeholder/{card.image}.webp"
 						data-srcSet="https://bilder.perfekterspruch.de/webp/1366/{card.image}.webp 285w, https://bilder.perfekterspruch.de/webp/1920/{card.image}.webp 400w, https://bilder.perfekterspruch.de/webp/360/{card.image}.webp 972w"
 						type="image/webp"
-					/>
-					<source
-						sizes="(max-width: 1024px) 972px, 
-					(min-width: 1920px) 400px, 
-					(min-width: 1366px) 285px,
-						100vw"
-						srcSet="https://bilder.perfekterspruch.de/jpg/placeholder/{card.image}.jpg"
-						data-srcSet="https://bilder.perfekterspruch.de/jpg/1366/{card.image}.jpg 285w, https://bilder.perfekterspruch.de/jpg/1920/{card.image}.jpg 400w, https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg 972w"
-						type="image/jpeg"
 					/>
 					<img
 						sizes="(max-width: 1024px) 972px, 
