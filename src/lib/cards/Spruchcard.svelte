@@ -71,10 +71,7 @@
 
 	const copyCardText = (index) => {
 		const button = document.getElementsByClassName('spruchcard-copy-copied')[index];
-		const copyText = document
-			.getElementsByClassName('spruchcard-text-container')
-			[index].innerText.slice(0, -18)
-			.trim();
+		const copyText = document.getElementsByClassName('spruchcard-text')[index].innerText;
 
 		navigator.clipboard.writeText(copyText);
 
