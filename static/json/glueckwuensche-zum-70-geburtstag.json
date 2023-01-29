@@ -342,73 +342,518 @@
 			"author": null
 		},
 		{
-			"id": "140201",
-			"text": "Der Juni kam. Lind weht die Luft. Geschoren ist der Rasen. Ein wonnevoller Rosenduft Dringt tief in alle Nasen. Manch angenehmes Vögelein Sitzt flötend auf den Bäumen, Indes die Jungen, zart und klein, Im warmen Neste träumen. Flugs kommt denn auch dahergerennt, Schon früh im Morgentaue, Mit seinem alten Instrument Der Musikant, der graue. Im Juni, wie er das gewohnt, Besucht er einen Garten, Um der Signora, die da thront, Mit Tönen aufzuwarten. Er räuspert sich, er macht sich lang, Er singt und streicht die Fiedel, Er singt, was er schon öfter sang; Du kennst das alte Liedel. Und wenn du gut geschlafen hast Und lächelst hold hernieder, Dann kommt der Kerl, ich fürchte fast, Zum nächsten Juni wieder.",
-			"author": "Wilhelm Busch"
-		},
-		{
-			"id": "140202",
-			"text": "Ein Album! Schneeweiß Pergamentpapier, und Schnitt und Decke schön verziert mit Golde! Nicht wahr, wenn sich's nur nicht so langsam füllen wollte mit Sprüchen, Bildern, hundertfacher Zier? Zur Hälfte wenigstens säh man es zu gern schon ausstaffiert, geistreich von Damenhänden und, hätten sie was Kluges dreinzuspenden, zur Not wohl auch von dem und jenem Herrn? Geduld, mein Kind! Es blicken diese Blätter dich heut' wie deine künft'gen Jahre an; die Muse weiht den ausgeworf'nen Plan – wie er sich fülle, wissen nur die Götter! Auch wird dies Buch von einem vollen Leben zuletzt nur ein schöner Auszug eben, und wieviel Holdes auf den Seiten steht, von Lieb' und Freundschaft, sonnenhellen Tagen: Was unsichtbar dazwischen geht, ist köstlicher, als was die Blätter sagen.",
-			"author": "Eduard Mörike"
-		},
-		{
-			"id": "140203",
-			"text": "Liebe Mutter! Du zählst sie gerne, deine dreiunddreißig Geburtstagssterne. Hier stehn sie strahlend; und daneben siehst du zwei silberne Halbmonde schweben. Das sind zwei Lampen fürs Klavier, eine von Vater, die andre von mir. Kommt nun der Abend mit müden Beinen, dann läßt du deine Monde scheinen und spielst; und wir, wir hören und träumen von den hohen himmlischen Räumen, von deinem Sternenringelreihn – Vater wacht noch, ich schlafe ein.",
-			"author": "Richard Dehmel"
-		},
-		{
-			"id": "140204",
-			"text": "Lieber Vater! ich kann dir garnichts schenken, blos mein kleines Herz und alle meine Küsse, und – eins, zwei, drei, vier, fünf Haselnüsse, dabei kannst du dir was Wunderschönes denken. Du kannst dir denken, jede Nuß hat ein kleines Herz, noch kleiner als das meine; und hätte sie auch zwei kleine Beine, lief' sie auf dich zu und gäb' dir einen Kuß, einen wundervollen, herzhaften Geburtstagskuß!",
-			"author": "Richard Dehmel"
-		},
-		{
-			"id": "140205",
-			"text": "Wol dir, aller Freunde Freund, dem itzt seine Sonne scheint, dem wir diese Blumen binden, dem wir diese Schlingen winden, dem wir diesen Tag begehn! Komm herfür, komm hieher stehn, hieher, da wir Nymphen scherzen, da sich Hirt' und Schäfrin herzen, da die buhlerischen Winde bald gelinde, bald geschwinde ihre leichten Flügel schwingen, da sich Schaf' am Schafe dringen, da die Erde, See und Luft laut in einem Rufen ruft: Lange lebe dieser Freund, dem itzt seine Sonne scheint! So viel Tropfen der Näglinen, so viel durch ganz Reußland Bienen, so viel Schritte Moskaw weit, so viel man da Glocken läut't, so viel man in Jahresfrist Lauch und Wein da trinkt und ißt: so viel hundert schöner Tage, so viel tausent Lust ohn' Klage, so viel hundert tausent Freuden ohne das geringste Leiden müsse der allzeit empfinden, dem wir diese Blumen binden, dem wir diese Schlingen winden, dem itzt seine Sonne scheint, der ist aller Freunde Freund!",
-			"author": "Paul Fleming"
-		},
-		{
-			"id": "140206",
-			"text": "Glück und Heil am Tage, Der dich einst gebar! Vater, was ich sage, Ist so fromm und wahr. Lies auf diesem Blättchen, Das mein Herz dir giebt, Wie dein kleines Mädchen Dich so herzlich liebt. Küsse deine Kleine, Sieh ihr ins Gesicht; Liebe, wie die meine, Schildert kein Gedicht. Wo die Sternlein stehen, Ist ein großer Mann, Der, was Kinder flehen, Auch erfüllen kann. O, der wird dir geben – Denn ich bitt' ihn ja – Langes, frohes Leben, Herziger Papa. Und mir wird's gelingen, Immer wohlgemuth Um dich her zu springen, Wie das Lämmlein thut. Will dich streicheln, herzen, Will mit Mädchenlist Um dich hüpfen, scherzen, Wenn du traurig bist. Will dein Knie umschlingen, Bester Vater, du! Will ein Lied dir singen, Und du geigst dazu. Heisa! Welche Freude! Vater, tanz' mit mir! Alles freut sich heute Innig über dir. Mama wünscht dir Glücke, Und der Ludwig zeigt Schon in seinem Blicke, Was der Mund verschweigt.",
-			"author": "Christian Friedrich Daniel Schubart"
-		},
-		{
-			"id": "140207",
-			"text": "Der Tag, schöne Menschgöttinne, der Tag scheinet euch zu Sinne, euch und uns und aller Schaar, die euch heute Bänder bindet, die euch frische Kränze windet und setzt auf das güldne Haar. Daß der Lenz die Welt umarmet, daß der Erden Schoß erwarmet, daß die Nächte werden klein, daß der Wind gelinder wehet, daß der lucker' Schnee zergehet: das macht euer Sonnenschein. Euer Sonnenschein, der schöne, da die muntern Venus-Söhne heut' in lauter Jauchzen stehn, den die edlen Karitinnen und gelehrten Pierinnen heut' in Fröligkeit begehn. See und Wald und Feld und Auen sieht man sich nach Lust umschauen, die sich heut' auch schon stellt ein. Mensch und Vieh und Fisch' und Vögel halten heute diese Regel: Niemand nicht soll traurig sein. Ihr auch, Schöne, braucht der Süße und der lieben Sternen Küsse, die das Firmament euch giebt, das für euer Glücke wachet und euch itzt schon das zulachet, was ihr wie euch selbsten liebt! Und du liebster ihrer Tage, nim hin alle Sorg' und Klage, bringe neue Lust herfür, daß du, wenn du kömmest wieder, von uns hörest neue Lieder, ihr und dir und uns zur Zier!",
-			"author": "Paul Fleming"
-		},
-		{
-			"id": "140208",
-			"text": "Den Jahreszeiten allen Selbviert sei Preis und Ehr! Nur sag ich: Mir gefallen Sie minder oder mehr. Der Frühling wird ja immer Gerühmt, wie sich's gebührt, Weil er mit grünem Schimmer Die graue Welt verziert. Doch hat in unsrer Zone Er durch den Reif der Nacht Schon manche grüne Bohne Und Gurke umgebracht. Stets wird auch Ruhm erwerben Der Herbst, vorausgesetzt, Daß er mit vollen Körben Uns Aug und Mund ergötzt. Indes durch leises Tupfen Gemahnt er uns bereits: Bald, Kinder, kommt der Schnupfen Und 's Gripperl seinerseits. Der Winter kommt. Es blasen Die Winde scharf und kühl; Rot werden alle Nasen, Und Kohlen braucht man viel. Nein, mir gefällt am besten Das, was der Sommer bringt, Wenn auf belaubten Ästen Die Schar der Vöglein singt. Wenn Rosen, zahm und wilde, In vollster Blüte stehn, Wenn über Lustgefilde Zephire kosend wehn. Und wollt' mich einer fragen, Wann's mir im Sommer dann Besonders tät behagen, Den Juni gäb ich an. Und wieder dann darunter Den selben Tag gerad, Wo einst ein Kindlein munter Zuerst zutage trat. Drum flattert dies Gedichtchen Jetzt über Berg und Tal Und grüßt das liebe Nichtchen Vom Onkel tausendmal.",
-			"author": "Wilhelm Busch"
-		},
-		{
-			"id": "140209",
-			"text": "Mag auch ein schöner Tag gefunden werden können, wol durch das ganze Jahr, der unsre Mut und Sinnen durch sich selbst mehr vergnügt und uns heißt frölich sein, als eben heute der, der seinen lieben Schein auf uns, auf unser Haus, auf unsern Vater senket, der ihm den seinen Tag, uns seine Freude schenket? Nein! Es ist keiner nicht, der uns mehr Freude macht, als dieser, der uns itzt so süß' hat angelacht. Drum ist es billig auch, daß wir ihn recht begehen und mit Glückwündschungen vor unserm Vater stehen. Komt, komt, ihr Schwestern, komt, laßt uns die werte Zeit begehn mit süßer Lust und schöner Frölichkeit! Diß Band, das wir selbselbst so haben aufgewunden und auf den schönen Tag zu Ehren euch gebunden, nehmt, Vater, wie es ist, von euren Töchtern an! Den Wundsch hat iede schon vor euch zu Gott getan: Lebt lange, lebt gesund, lebt selig, wie ihr lebet, seht nichts als Glück und Heil, das allzeit um euch schwebet, so daß noch lange Zeit bei gutem Sonnenschein' ihr unser Vater mügt, wir eure Kinder sein!",
-			"author": "Paul Fleming"
-		},
-		{
-			"id": "140210",
-			"text": "Ob ihr mit vollen Backen Trompetet Lug und Neid, In tückischen Attacken Garstige Granaten speit, Ihr Helden von der Feder, Vom kritischen Katheder, Mir sitzt der Schalk im Nacken In Lust und Leid. Ihr seid die alte Meute, Die schwarze Meute ja, Ich aber läute, läute Mein hell Halleluja. Von meinem Fensterbrette Pfeif' ich die Frühlingsmette, Geburtstag feir' ich heute, Was wollt ihr da? Mir wirft die Post der Gaben So viele auf den Tisch: Die 'Herzli' sind erhaben, Die Kuchen süß und frisch! Die Freundschaft streut mir Grüße Und Blumen vor die Füße, Die Liebe will mich laben Verschwenderisch. Die Sonne steigt im Osten, Die Amsel ladet hell: 'Vom Lichtquell laß uns kosten, Frischauf, frischauf, Gesell! Nach all den toten Tagen Wir mögen's wohl vertragen, Die weichen Veilchen sproßten Am jungen Quell. Und laß dich's nicht verdrießen Und laß dich's nicht gereun, Den Guten auszugießen Gesänge, die dich freun! Die Merker und die Mucker, Das sind die ärmsten Schlucker, Die lieben in Verließen Das Licht zu scheun.' Die ihr mit plumpen Rüsseln Mich schnuppernd untersucht, Mit gelben Himmelsschlüsseln Jag' ich euch in die Flucht. Ihr seid die schwarze Meute, Ich aber läute, läute Und samml' auf Silberschüsseln Goldsaftige Frucht.",
-			"author": "Karl Henckell"
-		},
-		{
-			"id": "140211",
-			"text": "So bald der vierte Tag des Wintermonats kommen, so hat man in der Welt auch andre Zeit vernommen. Der Sonnen güldnes Liecht, das nunmehr ganz und gar in so viel Wochen nicht gesehen worden war, goß seine Strahlen aus. Die trüben Wolken liefen, und ließen eilends nach mit Regen so zu triefen. Die Lüfte wurden klar. Anstatt daß Sturm und Wind zu Land und See erschreckt' so manches Mutterkind, da trat der Westwind ein mit seinem sanften Sausen. Die Flut der grünen See ließ nach sich so zu krausen. Es fiel ein sanfter Schnee, und ein gesunder Frost macht' aus die weiche Zeit, uns eine frische Lust. Herr Vetter, diese Zier ist euch zur Zier geschehen, mit der ihr euren Tag gekrönet könnet sehen, den wir mit euch begehn aus herzlicher Begier. Sonst ist hier Traurigs nichts, als daß ihr nicht seid hier. Der allerhöchste Gott, der woll' euch langes Leben in Glück und Unglück Heil und alle Wolfahrt geben! Und daß man rühmen mag, wie wol er euch getan, so bring' er euch allhier bald frisch und glücklich an! Und daß ihr gleichwol auch in Absein seid gebunden, so sei euch dieses Band zu Ehren aufgewunden, das keiner zwar von uns euch itzt anlegen kan; doch binden wir euch mehr mit unsern Herzen an. Soll diß dem Höchsten wol nicht gehn zu Herzen-Grunde? Sechs Schwestern sprechen es zugleich aus einem Munde.",
-			"author": "Paul Fleming"
-		},
-		{
-			"id": "140212",
+			"id": "140141",
 			"text": "70 ist man nur einmal im Leben. Genieß den heutigen tag in vollen Zügen!",
 			"author": null
 		},
 		{
-			"id": "140213",
+			"id": "140142",
 			"text": "Heute möchten wir dir zu deinem 70. Geburtstag gratulieren. Wir wünschen dir viel Gesundheut und freude in deinem Leben.",
 			"author": null
 		},
 		{
-			"id": "140214",
+			"id": "140143",
 			"text": "Heute möchten wir dir zu deinem 70. Geburtstag gratulieren. Wir wünschen dir viel Gesundheut und freude in deinem Leben.",
+			"author": null
+		},
+		{
+			"id": "140144",
+			"text": "Herzlichen Glückwunsch zu Deinem 70. Geburtstag! Wir wünschen Dir ein wunderschönes Fest und viele schöne Momente voller Freude.",
+			"author": null
+		},
+		{
+			"id": "140145",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir Gesundheit, Glück und Zufriedenheit.",
+			"author": null
+		},
+		{
+			"id": "140146",
+			"text": "Alles Gute zu Deinem 70. Geburtstag! Möge Dein Tag voller Freude und Erfüllung sein und Dir mit jedem Jahr neue Kraft schenken!",
+			"author": null
+		},
+		{
+			"id": "140147",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir, dass Du all Deine Wünsche und Träume erfüllen kannst.",
+			"author": null
+		},
+		{
+			"id": "140148",
+			"text": "Zu Deinem 70. Geburtstag wünschen wir Dir viele schöne Momente, viel Glück und alles Liebe.",
+			"author": null
+		},
+		{
+			"id": "140149",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du immer ein glückliches und gesundes Leben führen kannst.",
+			"author": null
+		},
+		{
+			"id": "140150",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Möge der heutige Tag voller schöner Erinnerungen, Freude und Vergnügen sein.",
+			"author": null
+		},
+		{
+			"id": "140151",
+			"text": "Wir gratulieren Dir von Herzen zu Deinem 70. Geburtstag und wünschen Dir, dass Dein Leben immer voller Glück und Freude ist.",
+			"author": null
+		},
+		{
+			"id": "140152",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Möge dieser Tag Dein ganzes Leben lang in Erinnerung bleiben.",
+			"author": null
+		},
+		{
+			"id": "140153",
+			"text": "Wir gratulieren Dir von Herzen zu Deinem 70. Geburtstag und wünschen Dir, dass Du immer gut versorgt und glücklich bist.",
+			"author": null
+		},
+		{
+			"id": "140154",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir alles Gute für die Zukunft. Mögen sich Deine Wünsche erfüllen und Deine Träume in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "140155",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Dein Leben immer voller Liebe, Gesundheit und Glück ist.",
+			"author": null
+		},
+		{
+			"id": "140156",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir alles Gute auf Deinem weiteren Lebensweg.",
+			"author": null
+		},
+		{
+			"id": "140157",
+			"text": "Alles Gute zu Deinem 70. Geburtstag! Möge Dein Tag voller Freude und Erfolg sein und Dir alles geben, was Du Dir wünschst.",
+			"author": null
+		},
+		{
+			"id": "140158",
+			"text": "Wir gratulieren Dir von Herzen zu Deinem 70. Geburtstag und wünschen Dir, dass Du Deine Träume verwirklichen und Deine Ziele erreichen kannst.",
+			"author": null
+		},
+		{
+			"id": "140159",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Du jeden Tag Deines Lebens mit Freude und Dankbarkeit erfüllst.",
+			"author": null
+		},
+		{
+			"id": "140160",
+			"text": "Herzlichen Glückwunsch zu Deinem 70. Geburtstag! Möge Dein Tag voller Wünsche und Träume sein und Dir viele schöne Momente bereiten.",
+			"author": null
+		},
+		{
+			"id": "140161",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du immer gesegnet und gesund bist.",
+			"author": null
+		},
+		{
+			"id": "140162",
+			"text": "Alles Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Dein Leben voller Glück und Erfüllung ist und Du jeden Tag neue Kraft und Inspiration schöpfst.",
+			"author": null
+		},
+		{
+			"id": "140163",
+			"text": "Wir gratulieren Dir von Herzen zu Deinem 70. Geburtstag und wünschen Dir, dass Du die schönen Dinge des Lebens genießen und Dein Glück immer mehr wächst.",
+			"author": null
+		},
+		{
+			"id": "140164",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Du weiterhin voller Energie und Lebensfreude bist und Deine Ziele erreichst.",
+			"author": null
+		},
+		{
+			"id": "140165",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du immer in Frieden und Harmonie lebst und Deine Träume verwirklichst.",
+			"author": null
+		},
+		{
+			"id": "140166",
+			"text": "Alles Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Du weiterhin voller Freude und Mut im Herzen bist und Dein Leben immer voller positiver Energie ist.",
+			"author": null
+		},
+		{
+			"id": "140167",
+			"text": "Wir gratulieren Dir von Herzen zu Deinem 70. Geburtstag und wünschen Dir, dass Du immer gesund und glücklich bist und all Deine Wünsche in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "140168",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Dein Leben voller Glück und Wohlstand ist und Du Deinen Weg immer voller Zuversicht gehst.",
+			"author": null
+		},
+		{
+			"id": "140169",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du Deine Träume verwirklichst und Deine Erfolge weiterhin mehrt.",
+			"author": null
+		},
+		{
+			"id": "140170",
+			"text": "Alles Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Du jeden Tag voller Freude, Glück und Zufriedenheit erlebst und Dein Leben immer voller Liebe und Harmonie ist.",
+			"author": null
+		},
+		{
+			"id": "140171",
+			"text": "Wir gratulieren Dir von Herzen zu Deinem 70. Geburtstag und wünschen Dir, dass Du Deine Ziele erreichst und Dein Leben immer voller Gesundheit und Erfolg ist.",
+			"author": null
+		},
+		{
+			"id": "140172",
+			"text": "Alles Liebe und Gute zu Deinem 70. Geburtstag! Wir wünschen Dir, dass Du Dein Leben immer voller Mut, Kraft und Inspiration lebst und die schönen Dinge des Lebens genießt.",
+			"author": null
+		},
+		{
+			"id": "140173",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du immer wissen wirst, wie wertvoll und wichtig Du bist, und Deine Träume verwirklichst.",
+			"author": null
+		},
+		{
+			"id": "140174",
+			"text": "Wir gratulieren Ihnen herzlich zu Ihrem 70. Geburtstag und wünschen Ihnen viel Glück, Gesundheit und Freude im neuen Lebensjahr.",
+			"author": null
+		},
+		{
+			"id": "140175",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem 70. Geburtstag – mögen alle Ihre Wünsche und Träume in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "140176",
+			"text": "Wir gratulieren Ihnen herzlich zum 70. Geburtstag und wünschen Ihnen, dass Sie noch viele weitere erfüllte und gesegnete Jahre erleben dürfen.",
+			"author": null
+		},
+		{
+			"id": "140177",
+			"text": "An Ihrem besonderen Tag wünschen wir Ihnen, dass Sie all das erreichen, was Sie sich vornehmen, und ein langes, glückliches und erfülltes Leben haben.",
+			"author": null
+		},
+		{
+			"id": "140178",
+			"text": "Alles Gute zu Ihrem 70. Geburtstag! Mögen Sie viele schöne Erinnerungen sammeln und viele weitere Jahre des Glücks und der Freude erleben.",
+			"author": null
+		},
+		{
+			"id": "140179",
+			"text": "Wir gratulieren Ihnen herzlich zu Ihrem großen Tag und wünschen Ihnen viele weitere Jahre voller Zufriedenheit und Glück.",
+			"author": null
+		},
+		{
+			"id": "140180",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem 70. Geburtstag. Mögen alle Wünsche und Träume, die Sie sich machen, in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "140181",
+			"text": "Wir gratulieren Ihnen ganz herzlich zu Ihrem 70. Geburtstag und wünschen Ihnen, dass Sie Ihr Leben in vollen Zügen genießen und viele weitere Jahre mit Freude und Glück erleben.",
+			"author": null
+		},
+		{
+			"id": "140182",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem besonderen Tag. Mögen Sie weiterhin voller Energie und Tatendrang durchs Leben gehen und unvergessliche Momente erleben.",
+			"author": null
+		},
+		{
+			"id": "140183",
+			"text": "Möge Ihnen Ihr 70. Geburtstag viele schöne Erinnerungen bereiten und Sie in Ihrem weiteren Leben viele weitere Glücksmomente erleben.",
+			"author": null
+		},
+		{
+			"id": "140184",
+			"text": "Wir wünschen Ihnen ein langes und glückliches Leben und hoffen, dass Sie Ihr neues Lebensjahr voller Freude und Erfolg erleben dürfen. Alles Gute zu Ihrem 70. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "140185",
+			"text": "Wir gratulieren Ihnen herzlich zum 70. Geburtstag und wünschen Ihnen, dass Sie weiterhin voller Freude und Optimismus durchs Leben gehen.",
+			"author": null
+		},
+		{
+			"id": "140186",
+			"text": "Mögen Sie noch viele weitere Jahre voller Freude und Glück erleben und Ihr Leben in vollen Zügen genießen. Alles Gute zu Ihrem besonderen Tag!",
+			"author": null
+		},
+		{
+			"id": "140187",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem 70. Geburtstag. Mögen Sie immer Gesundheit und Freude haben und Ihre Träume verwirklichen.",
+			"author": null
+		},
+		{
+			"id": "140188",
+			"text": "Wir gratulieren Ihnen herzlich zum 70. Geburtstag und wünschen Ihnen alles Gute für die kommenden Jahre. Mögen Sie ein langes, glückliches und erfülltes Leben haben.",
+			"author": null
+		},
+		{
+			"id": "140189",
+			"text": "Wir wünschen Ihnen einen wundervollen Tag und viele weitere Jahre voller Freude und Zufriedenheit. Alles Gute zu Ihrem 70. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "140190",
+			"text": "Mögen Sie alles erreichen, was Sie sich vornehmen, und viele weitere Jahre des Glücks und der Freude erleben. Alles Gute zu Ihrem großen Tag!",
+			"author": null
+		},
+		{
+			"id": "140191",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem 70. Geburtstag. Mögen Sie noch viele schöne Momente erleben und viele weitere glückliche Jahre haben.",
+			"author": null
+		},
+		{
+			"id": "140192",
+			"text": "An Ihrem besonderen Tag wünschen wir Ihnen, dass Sie weiterhin ein langes und erfülltes Leben haben. Alles Gute zu Ihrem 70. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "140193",
+			"text": "Wir gratulieren Ihnen zu Ihrem 70. Geburtstag und wünschen Ihnen, dass Sie all Ihre Wünsche und Träume verwirklichen und viele weitere Jahre des Glücks erleben.",
+			"author": null
+		},
+		{
+			"id": "140194",
+			"text": "Mögen Sie noch viele schöne und unvergessliche Erlebnisse erfahren und in den kommenden Jahren viel Freude und Glück erleben. Alles Gute zu Ihrem 70. Geburtstag.",
+			"author": null
+		},
+		{
+			"id": "140195",
+			"text": "Wir gratulieren Ihnen herzlich zu Ihrem 70. Geburtstag und wünschen Ihnen alles Gute für die kommenden Jahre. Mögen Sie viele erfüllte Momente erleben.",
+			"author": null
+		},
+		{
+			"id": "140196",
+			"text": "Wir wünschen Ihnen einen wundervollen Tag und viele weitere glückliche Jahre. Alles Gute zu Ihrem 70. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "140197",
+			"text": "Mögen Sie alles erreichen, was Sie sich vornehmen, und viele weitere schöne Erinnerungen sammeln. Alles Gute zu Ihrem besonderen Tag!",
+			"author": null
+		},
+		{
+			"id": "140198",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem 70. Geburtstag. Mögen Sie in Ihrem weiteren Leben viele weitere Glücksmomente erleben und ein langes und erfülltes Leben haben.",
+			"author": null
+		},
+		{
+			"id": "140199",
+			"text": "Wir gratulieren Ihnen herzlich zu Ihrem 70. Geburtstag und wünschen Ihnen, dass Sie weiterhin voller Energie und Tatendrang durchs Leben gehen.",
+			"author": null
+		},
+		{
+			"id": "140200",
+			"text": "Möge Ihnen Ihr 70. Geburtstag viele schöne Erinnerungen bereiten und Sie noch viele weitere Jahre voller Freude und Glück erleben.",
+			"author": null
+		},
+		{
+			"id": "140201",
+			"text": "Wir wünschen Ihnen alles Gute zu Ihrem besonderen Tag und hoffen, dass Sie Ihr neues Lebensjahr voller Zufriedenheit und Erfolg erleben dürfen.",
+			"author": null
+		},
+		{
+			"id": "140202",
+			"text": "Wir gratulieren Ihnen ganz herzlich zu Ihrem 70. Geburtstag und wünschen Ihnen, dass Sie weiterhin voller Optimismus und Freude durchs Leben gehen.",
+			"author": null
+		},
+		{
+			"id": "140203",
+			"text": "Alles Gute zu Ihrem großen Tag! Mögen Sie Ihr neues Lebensjahr voller Glück erleben und noch viele weitere Jahre des Friedens und der Freude haben.",
+			"author": null
+		},
+		{
+			"id": "140204",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 70. Geburtstag und wünschen Dir alles Gute, Gesundheit und Glück! ",
+			"author": null
+		},
+		{
+			"id": "140205",
+			"text": "Auf dass Dein Geburtstag gebührend gefeiert und ein Tag der Freude und des Glücks werde, gratulieren wir Dir ganz herzlich zu Deinem 70. Geburtstag. ",
+			"author": null
+		},
+		{
+			"id": "140206",
+			"text": "Wir wünschen Dir alles Liebe und Gute zu Deinem 70. Geburtstag und wünschen Dir, dass Dein Tag ganz besonders wird! ",
+			"author": null
+		},
+		{
+			"id": "140207",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir, dass Du viele schöne Momente erlebst und noch viele glückliche Jahre erleben kannst. ",
+			"author": null
+		},
+		{
+			"id": "140208",
+			"text": "Wir senden Dir liebe Grüße und wünschen Dir an Deinem 70. Geburtstag alles Gute und die besten Wünsche. ",
+			"author": null
+		},
+		{
+			"id": "140209",
+			"text": "Wir feiern mit Dir und wünschen Dir an Deinem 70. Geburtstag nur das Beste! ",
+			"author": null
+		},
+		{
+			"id": "140210",
+			"text": "Wir möchten Dir an Deinem 70. Geburtstag alles Liebe und Gute wünschen und hoffen, dass Du einen wundervollen Tag erlebst. ",
+			"author": null
+		},
+		{
+			"id": "140211",
+			"text": "Zu Deinem 70. Geburtstag wünschen wir Dir alles Gute, viel Glück und viele schöne Momente. ",
+			"author": null
+		},
+		{
+			"id": "140212",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du einen wundervollen Tag erlebst. ",
+			"author": null
+		},
+		{
+			"id": "140213",
+			"text": "Wir wünschen Dir an Deinem 70. Geburtstag nur das Beste und dass Dein Tag ganz besonders wird. ",
+			"author": null
+		},
+		{
+			"id": "140214",
+			"text": "Wir möchten Dir alles Liebe und Gute wünschen an Deinem 70. Geburtstag und hoffen, dass Du einen Tag der Freude und des Glücks erlebst. ",
+			"author": null
+		},
+		{
+			"id": "140215",
+			"text": "Wir feiern mit Dir und wünschen Dir an Deinem 70. Geburtstag alles Gute und viele schöne Momente. ",
+			"author": null
+		},
+		{
+			"id": "140216",
+			"text": "Wir wünschen Dir an Deinem 70. Geburtstag alles Liebe und Gute und hoffen, dass Du einen schönen Tag erlebst. ",
+			"author": null
+		},
+		{
+			"id": "140217",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir viel Glück und Freude für die Zukunft. ",
+			"author": null
+		},
+		{
+			"id": "140218",
+			"text": "Wir wünschen Dir an Deinem 70. Geburtstag alles Gute und dass Dein Tag ganz besonders wird. ",
+			"author": null
+		},
+		{
+			"id": "140219",
+			"text": "Zu Deinem 70. Geburtstag wünschen wir Dir viel Freude und viele glückliche Jahre. ",
+			"author": null
+		},
+		{
+			"id": "140220",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du noch viele wundervolle Momente erlebst. ",
+			"author": null
+		},
+		{
+			"id": "140221",
+			"text": "Wir möchten Dir alles Liebe und Gute wünschen an Deinem 70. Geburtstag und hoffen, dass Du einen Tag der Freude und des Glücks erlebst. ",
+			"author": null
+		},
+		{
+			"id": "140222",
+			"text": "Wir feiern mit Dir und wünschen Dir an Deinem 70. Geburtstag nur das Beste und viel Glück. ",
+			"author": null
+		},
+		{
+			"id": "140223",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 70. Geburtstag und wünschen Dir alles Liebe und Gute für die Zukunft.",
+			"author": null
+		},
+		{
+			"id": "140224",
+			"text": "Wir gratulieren Dir herzlich zum 70. Geburtstag! Wir wünschen Dir, dass Du bei bester Gesundheit bleibst und noch viele weitere erfüllende und glückliche Jahre vor Dir hast.",
+			"author": null
+		},
+		{
+			"id": "140225",
+			"text": "Wir wünschen Dir einen Tag voller Freude und Glück, denn Du hast es verdient! Genieße den Tag und lass Dich von allen Deinen Liebsten verwöhnen!",
+			"author": null
+		},
+		{
+			"id": "140226",
+			"text": "An Deinem besonderen Tag wünschen wir Dir ein langes, erfülltes Leben und viel Freude beim Feiern Deines Geburtstages.",
+			"author": null
+		},
+		{
+			"id": "140227",
+			"text": "Wir wünschen Dir, dass alle Deine Wünsche und Träume in Erfüllung gehen und Du ein erfülltes, zufriedenes und glückliches Leben hast.",
+			"author": null
+		},
+		{
+			"id": "140228",
+			"text": "Wir wünschen Dir an Deinem Geburtstag nur das Beste, viel Liebe und ein langes glückliches Leben.",
+			"author": null
+		},
+		{
+			"id": "140229",
+			"text": "Wir wünschen Dir, dass Du Dein Leben in vollen Zügen genießen kannst und dass an Deinem Geburtstag alle Deine Wünsche und Träume in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "140230",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du noch viele weitere Jahre voller Freude und Glück erleben kannst.",
+			"author": null
+		},
+		{
+			"id": "140231",
+			"text": "Wir wünschen Dir, dass Du noch viele schöne Momente erlebst, gesund bleibst und dass Dein Geburtstag zu einem unvergesslichen Ereignis wird.",
+			"author": null
+		},
+		{
+			"id": "140232",
+			"text": "Wir wünschen Dir, dass Du Dein Leben noch viele Jahre mit Freude und Zufriedenheit genießen kannst und dass Dein Geburtstag der Beginn einer neuen, aufregenden und glücklichen Zeit wird.",
+			"author": null
+		},
+		{
+			"id": "140233",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir alles Gute. Genieße den Tag und lass Dich von Deinen Liebsten verwöhnen!",
+			"author": null
+		},
+		{
+			"id": "140234",
+			"text": "An Deinem besonderen Tag wünschen wir Dir ein langes, gesundes und erfülltes Leben. Möge Dein Geburtstag zu einem unvergesslichen Ereignis werden!",
+			"author": null
+		},
+		{
+			"id": "140235",
+			"text": "Wir wünschen Dir, dass alle Deine Träume und Wünsche in Erfüllung gehen und dass Du weiterhin voller Freude und Zufriedenheit leben kannst.",
+			"author": null
+		},
+		{
+			"id": "140236",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir alles Gute und viele schöne Momente.",
+			"author": null
+		},
+		{
+			"id": "140237",
+			"text": "Wir wünschen Dir, dass Du ein langes und glückliches Leben hast und dass Dein Geburtstag zu einem unvergesslichen Ereignis wird.",
+			"author": null
+		},
+		{
+			"id": "140238",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir, dass Du noch viele Jahre voller Freude und Glück erlebst.",
+			"author": null
+		},
+		{
+			"id": "140239",
+			"text": "Wir wünschen Dir, dass Dein Geburtstag der Beginn einer neuen, aufregenden und glücklichen Zeit wird und dass es Dir an nichts fehlen wird.",
+			"author": null
+		},
+		{
+			"id": "140240",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 70. Geburtstag und wünschen Dir, dass Du noch viele weitere Jahre voller Freude und Zufriedenheit erlebst.",
+			"author": null
+		},
+		{
+			"id": "140241",
+			"text": "Wir wünschen Dir, dass Dein Geburtstag zu einem unvergesslichen Ereignis wird und dass alle Deine Wünsche und Träume in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "140242",
+			"text": "Wir gratulieren Dir zu Deinem 70. Geburtstag und wünschen Dir alles Gute und viele schöne Momente. Genieße den Tag und lass Dich von Deinen Liebsten verwöhnen!",
+			"author": null
+		},
+		{
+			"id": "140243",
+			"text": "An Deinem besonderen Tag wünschen wir Dir ein langes, erfülltes und glückliches Leben. Möge Dein Geburtstag zu einer unvergesslichen Feier werden!",
 			"author": null
 		}
 	]
