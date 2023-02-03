@@ -786,7 +786,7 @@
 		transform: translateY(0) !important;
 	}
 
-	@media screen and (min-width: 1920px) {
+	@media screen and (min-width: 1921px) {
 		.spruchcard-share-teilen {
 			height: 54px;
 		}
