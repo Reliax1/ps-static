@@ -12,6 +12,7 @@
 
 	let shareOpen = false;
 	let activeIndex = undefined;
+	let hideCopy = false;
 
 	const downloadCount = (id, button) => {
 		if (window.location.hostname.includes('perfekterspruch')) {
@@ -60,11 +61,9 @@
 			$page.params.slug == 'geburtstagswuensche-fuer-frauen'
 		) {
 			const spruchcardText = document.getElementsByClassName('spruchcard-text')[index];
-			const spruchcardtextcontainer = document.getElementsByClassName('spruchcard-text-container')[
-				index
-			];
+			const spruchcardtextcontainer = document.getElementsByClassName('main-text')[index];
 			if (spruchcardtextcontainer.scrollHeight > spruchcardtextcontainer.clientHeight) {
-				spruchcardText.style.fontSize = '19.5px';
+				spruchcardText.style.fontSize = '1vw';
 			}
 		}
 	};
@@ -82,32 +81,27 @@
 	};
 
 	async function openShare(index, text, image, id) {
-		// navigator.canShare
-
-		const cardTitle = window.document.title;
-		const cardUrl = window.document.location.href + '#' + id;
-		const cardText = text;
-
 		// https://benkaiser.dev/sharing-images-using-the-web-share-api/
 		// const response = await fetch(
 		// 	`https://res.cloudinary.com/dd79nq7sg/image/upload/f_webp%2Cq_auto%2Cw_972/psimages/${image}.jpg`
 		// );
 
-		const response = await fetch(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`);
-		const blob = await response.blob();
+		if (userIsMobile && navigator.canShare(shareData)) {
+			const cardTitle = window.document.title;
+			const cardUrl = window.document.location.href + '#' + id;
+			const cardText = text;
 
-		const filesArray = new File([blob], `PerferkterSpruch${id}.jpg`, { type: blob.type });
+			const response = await fetch(`https://bilder.perfekterspruch.de/download/${image}.jpg`);
+			const blob = await response.blob();
+			const filesArray = new File([blob], `PerferkterSpruch${id}.jpg`, { type: blob.type });
 
-		const shareData = {
-			title: cardTitle,
-			url: cardUrl,
-			text: cardText,
-			files: [filesArray]
-		};
+			const shareData = {
+				title: cardTitle,
+				url: cardUrl,
+				text: cardText,
+				files: [filesArray]
+			};
 
-		// && userIsMobile
-
-		if (navigator.canShare(shareData) && userIsMobile) {
 			try {
 				await navigator.share(shareData);
 			} catch (err) {
@@ -116,6 +110,7 @@
 				}
 			}
 		} else {
+			hideCopy = !hideCopy;
 			setTimeout(() => {
 				if (!shareOpen) {
 					shareOpen = true;
@@ -255,131 +250,140 @@
 			{/if}
 		</div>
 
-		<div class="spruchcard-share-teilen">
-			<div
-				class="spruchcard-share-teilen-span"
-				on:click={() => openShare(index, card.text, card.image, card.id)}
-				on:click={() => downloadCount(card.id, 'sharebutton')}
-				on:click={() => downloadCountDate(card.id, index, 'sharebutton')}
-			>
-				<img
-					class="spruchcard-share-teilen-share-svg"
-					src="/svg/share.svg"
-					alt="social media logo"
-				/>
-				<ul class="spruchcard-share-all">
-					{#if !userIsMobile}
-						<li
-							class="spruchcard-share-cointainer"
-							class:spruchcard-share-transition1={shareOpen && activeIndex == index}
-							on:click={() =>
-								cardDrucken(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`)}
-							on:click={() => downloadCount(card.id, 'drucken')}
-							on:click={() => downloadCountDate(card.id, index, 'drucken')}
-						>
-							<img class="spruchcard-share-svg" src="/svg/printer.svg" alt="printer logo" />
-							<span class="spruchcard-share-svg-text1">Drucken</span>
-						</li>
-					{/if}
-					{#if userIsMobile}
-						<li
-							class="spruchcard-share-cointainer"
-							class:spruchcard-share-transition1={shareOpen && activeIndex == index}
-							on:click={() => downloadCount(card.id, 'whatsapp')}
-							on:click={() => downloadCountDate(card.id, index, 'whatsapp')}
-						>
-							<a
-								href="whatsapp://send?text={card.text}"
-								data-action="share/whatsapp/share"
-								target="_blank"
-							>
-								<img class="spruchcard-share-svg" src="/svg/whatsapp.svg" alt="printer logo" />
-							</a>
-
-							<span class="spruchcard-share-svg-text2">Whatsapp</span>
-						</li>
-					{/if}
-					<li
-						class="spruchcard-share-cointainer"
-						class:spruchcard-share-transition4={shareOpen && activeIndex == index}
-						on:click={() => downloadCount(card.id, 'pinterest')}
-						on:click={() => downloadCountDate(card.id, index, 'pinterest')}
-					>
-						<div
-							data-pin-do="buttonPin"
-							data-pin-count="above"
-							data-pin-custom="true"
-							data-pin-lang="de"
-							on:click={() =>
-								sharePopup(
-									`https://de.pinterest.com/pin/create/button/?url=https://perfekterspruch.de&media=https://bilder.perfekterspruch.de/download/${card.image}.jpg`
-								)}
-						>
-							<img class="spruchcard-share-svg" src="/svg/pinterest.svg" alt="social media logo" />
-						</div>
-
-						<span class="spruchcard-share-svg-text4">Pinterest</span>
-					</li>
-					<li
-						ref="share5"
-						class="spruchcard-share-cointainer"
-						class:spruchcard-share-transition5={shareOpen && activeIndex == index}
-						on:click={() => downloadCount(card.id, 'facebook')}
-						on:click={() => downloadCountDate(card.id, index, 'facebook')}
-					>
-						<div
-							on:click={() =>
-								sharePopup(
-									`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fperfekterspruch.de%2F${$page.params.slug}%2F%23${card.id}&title=PerfekterSpruch.de%20-%20Dein%20perfekter%20Spruch%20f%C3%BCr%20jeden%20Anlass&description=${card.text}&quote=${card.text}%20&hashtag=%23spr%C3%BCche`
-								)}
-						>
-							<img class="spruchcard-share-svg" src="/svg/facebook.svg" alt="social media logo" />
-						</div>
-
-						<span class="spruchcard-share-svg-text5">Facebook</span>
-					</li>
-				</ul>
-				<span class="spruchcard-share-text-teilen">Teilen</span>
-			</div>
-			<button
-				class="spruchcard-share-teilen-span"
-				on:click={() => downloadCount(card.id, 'downloads')}
-				on:click={() => downloadCountDate(card.id, index, 'downloads')}
-				on:click={() =>
-					downloadImage(
-						`https://bilder.perfekterspruch.de/download/${card.image}.jpg`,
-						`PerferkterSpruch ${card.id}.jpg`
-					)}
-			>
-				<img
-					class="spruchcard-share-teilen-download-svg"
-					src="/svg/download1.svg"
-					alt="download logo"
-				/>
-
-				<span class="spruchcard-share-text-teilen">Download</span>
-			</button>
-		</div>
-
 		<div class="spruchcard-text-container">
-			<p class="spruchcard-text">
-				{card.text}
-			</p>
-			<div
-				class="spruchcard-copy-container"
-				on:click={() => copyCardText(index)}
-				on:click={() => downloadCount(card.id, 'kopies')}
-				on:click={() => downloadCountDate(card.id, index, 'kopies')}
-			>
-				<button class="spruchcard-copy-button">
-					<div class="spruchcard-copy-copied">kopiert</div>
-					<img class="spruchcard-copy-svg" src="/svg/copy.svg" alt="copy" />
-					<span class="spruchcard-copy-span">Kopieren</span>
+			<div class="main-text" class:text-center={!card.author}>
+				<p class="spruchcard-text" class:text-100={!card.author}>
+					{card.text}
+				</p>
+
+				{#if card.author}
+					<span class="spruchcard-text-span">{card.author}</span>
+				{/if}
+			</div>
+
+			<div class="spruchcard-share-teilen">
+				<div
+					class="spruchcard-copy-container"
+					class:opacity-0={hideCopy}
+					on:click={() => copyCardText(index)}
+					on:click={() => downloadCount(card.id, 'kopies')}
+					on:click={() => downloadCountDate(card.id, index, 'kopies')}
+				>
+					<button class="spruchcard-copy-button">
+						<div class="spruchcard-copy-copied">kopiert</div>
+						<img class="spruchcard-copy-svg" src="/svg/copy.svg" alt="copy" />
+						<span class="spruchcard-copy-span">Kopieren</span>
+					</button>
+				</div>
+
+				<div
+					class="spruchcard-share-teilen-span"
+					on:click={() => openShare(index, card.text, card.image, card.id)}
+					on:click={() => downloadCount(card.id, 'sharebutton')}
+					on:click={() => downloadCountDate(card.id, index, 'sharebutton')}
+				>
+					<img
+						class="spruchcard-share-teilen-share-svg"
+						src="/svg/share.svg"
+						alt="social media logo"
+					/>
+					<ul class="spruchcard-share-all">
+						{#if !userIsMobile}
+							<li
+								class="spruchcard-share-cointainer"
+								class:spruchcard-share-transition1={shareOpen && activeIndex == index}
+								on:click={() =>
+									cardDrucken(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`)}
+								on:click={() => downloadCount(card.id, 'drucken')}
+								on:click={() => downloadCountDate(card.id, index, 'drucken')}
+							>
+								<img class="spruchcard-share-svg" src="/svg/printer.svg" alt="printer logo" />
+								<span class="spruchcard-share-svg-text1">Drucken</span>
+							</li>
+						{/if}
+						{#if userIsMobile}
+							<li
+								class="spruchcard-share-cointainer"
+								class:spruchcard-share-transition1={shareOpen && activeIndex == index}
+								on:click={() => downloadCount(card.id, 'whatsapp')}
+								on:click={() => downloadCountDate(card.id, index, 'whatsapp')}
+							>
+								<a
+									href="whatsapp://send?text={card.text}"
+									data-action="share/whatsapp/share"
+									target="_blank"
+								>
+									<img class="spruchcard-share-svg" src="/svg/whatsapp.svg" alt="printer logo" />
+								</a>
+
+								<span class="spruchcard-share-svg-text2">Whatsapp</span>
+							</li>
+						{/if}
+						<li
+							class="spruchcard-share-cointainer"
+							class:spruchcard-share-transition4={shareOpen && activeIndex == index}
+							on:click={() => downloadCount(card.id, 'pinterest')}
+							on:click={() => downloadCountDate(card.id, index, 'pinterest')}
+						>
+							<div
+								data-pin-do="buttonPin"
+								data-pin-count="above"
+								data-pin-custom="true"
+								data-pin-lang="de"
+								on:click={() =>
+									sharePopup(
+										`https://de.pinterest.com/pin/create/button/?url=https://perfekterspruch.de&media=https://bilder.perfekterspruch.de/download/${card.image}.jpg`
+									)}
+							>
+								<img
+									class="spruchcard-share-svg"
+									src="/svg/pinterest.svg"
+									alt="social media logo"
+								/>
+							</div>
+
+							<span class="spruchcard-share-svg-text4">Pinterest</span>
+						</li>
+						<li
+							ref="share5"
+							class="spruchcard-share-cointainer"
+							class:spruchcard-share-transition5={shareOpen && activeIndex == index}
+							on:click={() => downloadCount(card.id, 'facebook')}
+							on:click={() => downloadCountDate(card.id, index, 'facebook')}
+						>
+							<div
+								on:click={() =>
+									sharePopup(
+										`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fperfekterspruch.de%2F${$page.params.slug}%2F%23${card.id}&title=PerfekterSpruch.de%20-%20Dein%20perfekter%20Spruch%20f%C3%BCr%20jeden%20Anlass&description=${card.text}&quote=${card.text}%20&hashtag=%23spr%C3%BCche`
+									)}
+							>
+								<img class="spruchcard-share-svg" src="/svg/facebook.svg" alt="social media logo" />
+							</div>
+
+							<span class="spruchcard-share-svg-text5">Facebook</span>
+						</li>
+					</ul>
+					<span class="spruchcard-share-text-teilen">Teilen</span>
+				</div>
+				<button
+					class="spruchcard-share-teilen-span"
+					on:click={() => downloadCount(card.id, 'downloads')}
+					on:click={() => downloadCountDate(card.id, index, 'downloads')}
+					on:click={() =>
+						downloadImage(
+							`https://bilder.perfekterspruch.de/download/${card.image}.jpg`,
+							`PerferkterSpruch ${card.id}.jpg`
+						)}
+				>
+					<img
+						class="spruchcard-share-teilen-download-svg"
+						src="/svg/download1.svg"
+						alt="download logo"
+					/>
+
+					<span class="spruchcard-share-text-teilen">Download</span>
 				</button>
 			</div>
-			{#if card.author}
-				<span class="spruchcard-text-span">{card.author}</span>
-			{/if}
 		</div>
 	</div>
 </div>
@@ -400,13 +404,37 @@
 		transform: scale(1) !important;
 	}
 
+	.main-text {
+		width: 100%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 0.52vw;
+	}
+	.text-100 {
+		height: 100% !important;
+	}
+	.text-center {
+		justify-content: center;
+	}
+	.opacity-0 {
+		opacity: 0 !important;
+		pointer-events: none;
+	}
+
 	.spruchcard-share-teilen {
 		position: relative;
-		height: 2.813vw;
+		width: 100%;
+		padding: 0 3vw;
+		height: 20%;
 		display: flex;
-		justify-content: flex-end;
-		align-items: flex-start;
+		justify-content: space-between;
+		align-items: flex-end;
 		user-select: none;
+		opacity: 0;
+		transition: opacity 0.4s ease;
 	}
 
 	.spruchcard-share-teilen-span {
@@ -416,9 +444,9 @@
 		cursor: pointer;
 		// font-size: 1vw;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-end;
 		align-items: center;
-		padding: 0 0.45vw 0.35vw 0;
+		flex-direction: column;
 
 		div {
 			position: absolute;
@@ -432,39 +460,38 @@
 	}
 
 	.spruchcard-share-text-teilen {
-		position: absolute;
-		bottom: -0.1vw;
+		position: relative;
 		font-size: 0.6vw;
 		text-decoration: none;
-		// color: black;
 		backface-visibility: hidden;
 	}
 
 	.spruchcard-share-teilen-share-svg {
 		width: 1.563vw;
 		z-index: 10;
+		margin-bottom: 0.15vw;
 	}
 	.spruchcard-share-teilen-download-svg {
-		width: 2vw;
 		z-index: 10;
+		width: 1.85vw;
 	}
 
 	.spruchcard-share-transition1 {
 		opacity: 1 !important;
 		pointer-events: all !important;
-		transform: translateX(-12vw) !important;
+		transform: translateX(-8vw) !important;
 	}
 
 	.spruchcard-share-transition4 {
 		opacity: 1 !important;
 		pointer-events: all !important;
-		transform: translateX(-8vw) !important;
+		transform: translateX(-5vw) !important;
 	}
 
 	.spruchcard-share-transition5 {
 		opacity: 1 !important;
 		pointer-events: all !important;
-		transform: translateX(-4vw) !important;
+		transform: translateX(-2vw) !important;
 	}
 
 	.spruchcard-share-transition1 {
@@ -602,11 +629,7 @@
 	}
 
 	.spruchcard-maindiv {
-		// // height: auto;
-		// // min-height: 100vh;
-		// width: 100%;
-		// // margin-top: 10vh;
-		padding: 1vw 1vw 1vw 1vw;
+		margin: 1vw 1vw 1vw 1vw;
 	}
 
 	.spruchcard-firstcard {
@@ -614,9 +637,6 @@
 		height: 44.271vw; //900px
 		position: relative;
 		border-radius: 10px;
-		// box-shadow: 0.104vw 0.156vw 0.208vw rgba(0, 0, 0, 0.3),
-		// 	-0.104vw 0.156vw 0.208vw rgba(0, 0, 0, 0.3);
-		// box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), -2px 2px 3px rgba(0, 0, 0, 0.3);
 		box-shadow: 0.104vw 0.104vw 0.156vw rgba(0, 0, 0, 0.3),
 			-0.104vw 0.104vw 0.156vw rgba(0, 0, 0, 0.3);
 		backface-visibility: hidden;
@@ -624,26 +644,20 @@
 		transition-property: transform, box-shadow;
 		transition-duration: 0.15s;
 		transition-timing-function: linear;
-
-		// &:hover {
+	}
+	@media (hover: hover) and (pointer: fine) {
+		// .spruchcard-firstcard:hover {
 		// 	transform: translateY(-0.1vw);
-		// 	// box-shadow: 0.156vw 0.208vw 0.26vw 0 rgba(0, 0, 0, 0.3),
-		// 	// 	-0.156vw 0.208vw 0.26vw 0 rgba(0, 0, 0, 0.3);
-		// 	// box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3), -3px 3px 4px rgba(0, 0, 0, 0.3);
 		// 	box-shadow: 0.156vw 0.156vw 0.208vw rgba(0, 0, 0, 0.3),
 		// 		-0.156vw 0.156vw 0.208vw rgba(0, 0, 0, 0.3);
 		// }
-	}
-	@media (hover: hover) and (pointer: fine) {
-		.spruchcard-firstcard:hover {
-			transform: translateY(-0.1vw);
-			box-shadow: 0.156vw 0.156vw 0.208vw rgba(0, 0, 0, 0.3),
-				-0.156vw 0.156vw 0.208vw rgba(0, 0, 0, 0.3);
+		.spruchcard-firstcard:hover .spruchcard-share-teilen {
+			opacity: 1;
 		}
 	}
 	.spruchcard-image-container {
 		width: 100%;
-		height: 26.042vw; //500px
+		height: 59%; //500px // 26.042vw
 		user-select: none;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
@@ -655,26 +669,22 @@
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 		object-fit: cover;
-
-		// filter: blur(0);
-		// transform: scale(1);
 		transition-property: filter, transform;
 		transition-duration: 0.3s;
 		transition-timing-function: ease-out;
 	}
-	// .spruchcard-image-opacity {
-	// 	opacity: 1 !important;
-	// }
+
 	.spruchcard-text-container {
 		width: 100%;
-		height: 15.396vw; //400px
+		height: 41%;
+		// height: 15.396vw; //400px
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		flex-wrap: wrap;
-		padding-bottom: 3.5vw;
+		flex-direction: column;
+		padding: 0.6vw 0.52vw;
 	}
 
 	.spruchcard-text::selection {
@@ -686,16 +696,17 @@
 		width: 100%;
 		line-height: 1.45;
 		font-size: 1.2vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		text-align: center;
-		padding: 0.52vw 0.52vw;
+		height: 90%;
 	}
 
 	.spruchcard-text-span {
-		// font-family: 'futura', sans-serif;
+		position: relative;
 		width: 100%;
-		height: 1.563vw;
-		position: absolute;
-		bottom: 0;
+		height: 10%;
 		font-size: 1vw;
 		text-align: center;
 		font-style: italic;
@@ -706,12 +717,13 @@
 		color: #ffff;
 	}
 	.spruchcard-copy-container {
-		position: absolute;
+		position: relative;
+		height: 2.6vw;
+		width: 2.604vw;
+		display: flex;
 		flex-direction: column;
-		right: 0vw;
-		bottom: 1vw;
+		justify-content: flex-end;
 		cursor: pointer;
-		padding: 0.26vw;
 		user-select: none;
 		z-index: 10;
 	}
@@ -730,9 +742,10 @@
 		flex-direction: column;
 	}
 	.spruchcard-copy-svg {
-		width: 1.3vw;
+		width: 1.35vw;
 		transition: width 0.1s ease;
 		will-change: width;
+		margin-bottom: 0.2vw;
 	}
 
 	.spruchcard-copy-span {
@@ -781,7 +794,6 @@
 			height: 49.92px;
 			width: 50px;
 			font-size: 19.2px;
-			padding: 0 0.45vw 0.35vw 0;
 		}
 		.spruchcard-share-text-teilen {
 			font-size: 11.52px;
@@ -796,15 +808,15 @@
 		}
 
 		.spruchcard-share-transition1 {
-			transform: translateX(-230.4px) !important;
-		}
-
-		.spruchcard-share-transition4 {
 			transform: translateX(-153.6px) !important;
 		}
 
+		.spruchcard-share-transition4 {
+			transform: translateX(-96px) !important;
+		}
+
 		.spruchcard-share-transition5 {
-			transform: translateX(-76.8px) !important;
+			transform: translateX(-38.4px) !important;
 		}
 
 		.spruchcard-share-svg-text1,
@@ -860,21 +872,10 @@
 			width: 40.704px;
 			margin-top: 3.456px;
 		}
-		// .spruchcard-maindiv {
-
-		// }
 
 		.spruchcard-firstcard {
 			width: 400px; //20.833vw
 			height: 850px; //46.875vw
-			// box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, 0.3),
-			//   -2px 3px 4px 0 rgba(0, 0, 0, 0.3);
-
-			// &:hover {
-			// 	transform: translateY(-1.92px);
-			// 	// box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.3),
-			// 	//   -3px 4px 5px 0 rgba(0, 0, 0, 0.3);
-			// }
 		}
 		@media (hover: hover) and (pointer: fine) {
 			.spruchcard-firstcard:hover {
@@ -890,11 +891,9 @@
 			height: 295.6px; //400px
 			border-bottom-left-radius: 10px;
 			border-bottom-right-radius: 10px;
-			padding-bottom: 3.5vw;
 		}
 		.spruchcard-text {
 			font-size: 23.04px;
-			padding: 9.984px 9.984px;
 		}
 		.spruchcard-text-span {
 			height: 30.01px;
@@ -933,9 +932,12 @@
 			grid-template-columns: 1fr;
 			grid-gap: 45px 0;
 			margin-top: 0;
-			padding: 0;
-			padding-bottom: 6vw;
+			margin: 0;
+			margin-bottom: 6vw;
 			// margin: 4vw 0;
+		}
+		.main-text {
+			padding-bottom: 8vw;
 		}
 		.spruchcard-firstcard {
 			width: 90vw; //400px
@@ -949,9 +951,6 @@
 			transition-timing-function: unset;
 			box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), -2px 2px 3px rgba(0, 0, 0, 0.3);
 		}
-		// .mobile-right-margin {
-		// 	margin-right: 10vw !important;
-		// }
 
 		.spruchcard-image-container {
 			width: 100%;
@@ -967,33 +966,29 @@
 			justify-content: center;
 			align-items: center;
 			flex-wrap: wrap;
-			padding-bottom: 13vw;
-			padding-top: 3vw;
+			padding: 4vw 2vw;
 		}
 		.spruchcard-text {
 			line-height: 1.45;
 			font-size: $font-card-mobile-normal-text;
-			padding: 2vw 2vw;
 		}
 		.spruchcard-text-span {
-			height: 6vw;
-			position: absolute;
+			position: relative;
 			bottom: 0;
 			font-size: 4vw;
 			text-align: center;
 			font-style: italic;
 			display: block;
-			padding-bottom: 1vw;
+			margin-top: 6vw;
 		}
 		.spruchcard-copy-container {
-			right: 1vw;
-			bottom: 1.5vw;
+			height: 9vw;
+			width: 14vw;
 			cursor: none;
-			padding: 1vw;
 			z-index: 10;
 		}
 		.spruchcard-copy-svg {
-			width: 5vw;
+			width: 5.5vw;
 			transition: width 0.1s ease;
 			will-change: width;
 		}
@@ -1021,13 +1016,13 @@
 
 		.spruchcard-share-teilen {
 			height: 11vw;
+			width: 100%;
+			opacity: 1;
 		}
 		.spruchcard-share-teilen-span {
 			height: 9vw;
 			width: 14vw;
 			cursor: none;
-			padding: 0;
-			margin-right: 2vw;
 
 			a {
 				width: 7vw;
@@ -1035,8 +1030,7 @@
 			}
 		}
 		.spruchcard-share-text-teilen {
-			position: absolute;
-			bottom: -2.7vw;
+			position: relative;
 			font-size: $font-card-mobile-small-text;
 		}
 		.spruchcard-share-teilen-share-svg {
@@ -1044,13 +1038,9 @@
 			z-index: 10;
 		}
 		.spruchcard-share-teilen-download-svg {
-			width: 8vw;
+			width: 7.5vw;
 			z-index: 10;
 		}
-		// .spruchcard-share-download-link {
-		// 	// width: 5vw;
-		// 	height: 8vw;
-		// }
 		.spruchcard-share-cointainer {
 			height: 8vw;
 			width: 8vw;
@@ -1065,19 +1055,19 @@
 		.spruchcard-share-transition1 {
 			opacity: 1 !important;
 			pointer-events: all !important;
-			transform: translateX(-54vw) !important;
+			transform: translateX(-27vw) !important;
 		}
 
 		.spruchcard-share-transition4 {
 			opacity: 1 !important;
 			pointer-events: all !important;
-			transform: translateX(-37vw) !important;
+			transform: translateX(-18.5vw) !important;
 		}
 
 		.spruchcard-share-transition5 {
 			opacity: 1 !important;
 			pointer-events: all !important;
-			transform: translateX(-20vw) !important;
+			transform: translateX(-10vw) !important;
 		}
 	}
 
@@ -1088,6 +1078,9 @@
 			margin-top: 0;
 			padding: 0;
 			padding-bottom: 4vw;
+		}
+		.main-text {
+			padding-bottom: 5vw;
 		}
 		.spruchcard-firstcard {
 			width: 81vw; //400px
@@ -1120,33 +1113,29 @@
 			justify-content: center;
 			align-items: center;
 			flex-wrap: wrap;
-			padding-bottom: 13vw;
-			padding-top: 3vw;
+			padding: 4vw 2vw;
 		}
 		.spruchcard-text {
 			line-height: 1.45;
 			font-size: 4.5vw;
-			padding: 2vw 2vw;
 		}
 		.spruchcard-text-span {
-			height: 6vw;
-			position: absolute;
+			position: relative;
 			bottom: 0;
 			font-size: 4.5vw;
 			text-align: center;
 			font-style: italic;
 			display: block;
-			padding-bottom: 1vw;
+			margin-top: 5vw;
 		}
 		.spruchcard-copy-container {
-			right: 1vw;
-			bottom: 1.5vw;
+			height: 9vw;
+			width: 14vw;
 			cursor: none;
-			padding: 1vw;
 			z-index: 10;
 		}
 		.spruchcard-copy-svg {
-			width: 4vw;
+			width: 4.5vw;
 			transition: width 0.1s ease;
 			will-change: width;
 		}
@@ -1174,12 +1163,12 @@
 
 		.spruchcard-share-teilen {
 			height: 11vw;
+			opacity: 1;
 		}
 		.spruchcard-share-teilen-span {
 			height: 9vw;
 			width: 11vw;
 			cursor: none;
-			padding: 0;
 			margin-right: 2vw;
 
 			a {
@@ -1188,8 +1177,7 @@
 			}
 		}
 		.spruchcard-share-text-teilen {
-			position: absolute;
-			bottom: -2.7vw;
+			position: relative;
 			font-size: 2.5vw;
 		}
 		.spruchcard-share-teilen-share-svg {
@@ -1197,13 +1185,9 @@
 			z-index: 10;
 		}
 		.spruchcard-share-teilen-download-svg {
-			width: 7vw;
+			width: 6.5vw;
 			z-index: 10;
 		}
-		// .spruchcard-share-download-link {
-		// 	// width: 5vw;
-		// 	height: 8vw;
-		// }
 		.spruchcard-share-cointainer {
 			height: 6.5vw;
 			width: 6.5vw;

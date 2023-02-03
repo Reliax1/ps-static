@@ -98,7 +98,7 @@
 	@media (max-width: 1024px) {
 		.wrapper {
 			min-height: 15vw;
-			margin-bottom: 2vw;
+			margin: 4vw 0;
 		}
 
 		.swipe {
@@ -112,7 +112,7 @@
 			font-size: 7vw;
 			line-height: 1;
 			text-transform: uppercase;
-			padding: 14px 0px;
+			padding: 4vw 0px;
 			text-align: center;
 		}
 

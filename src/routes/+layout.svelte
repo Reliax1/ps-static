@@ -1,7 +1,4 @@
 <script>
-	// import { onMount } from 'svelte';
-
-	// import MobileStore from '../stores/MobileStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
 	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
@@ -10,43 +7,6 @@
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
-
-	// const lazyLoading = () => {
-	// 	const lazyClass = 'lazy-loading';
-	// 	const lazyImages = document.querySelectorAll(`.${lazyClass}`);
-
-	// 	if (isBot) {
-	// 		return lazyImages.forEach((image) => {
-	// 			showImage(image);
-	// 		});
-	// 	}
-
-	// 	function showImage(image) {
-	// 		image.src = image.dataset.src;
-	// 		image.classList.remove(lazyClass);
-	// 	}
-
-	// 	const lazyObserver = new IntersectionObserver(
-	// 		(elements) => {
-	// 			elements.forEach((element) => {
-	// 				if (element.isIntersecting) {
-	// 					const image = element.target;
-	// 					showImage(image);
-	// 					lazyObserver.unobserve(image);
-	// 				}
-	// 			});
-	// 		},
-	// 		{ rootMargin: '0px 0px 25% 0px', threshold: [0] }
-	// 	);
-
-	// 	lazyImages.forEach((image) => {
-	// 		lazyObserver.observe(image);
-	// 	});
-	// };
-
-	// onMount(() => {
-	// 	// lazyLoading();
-	// });
 </script>
 
 <svelte:head>
@@ -111,7 +71,7 @@
 	@media (max-width: 1024px) {
 		main {
 			grid-template-columns: 1fr;
-			margin-top: 2vw;
+			margin-top: 0;
 			overflow-x: hidden;
 			margin-bottom: 100px; // delete or 50px ? calc(50px + 20vw)
 		}

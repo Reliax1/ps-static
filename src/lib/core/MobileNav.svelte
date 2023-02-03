@@ -196,7 +196,7 @@
 	.navContainer {
 		position: fixed;
 		bottom: 0;
-		height: 50px;
+		height: 55px;
 		width: 100%;
 		background-color: $dark-nav;
 		z-index: 900;
@@ -210,7 +210,7 @@
 		position: relative;
 		width: 100%;
 		height: 50px;
-		padding-top: 8px;
+		padding-top: 10.5px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -261,7 +261,7 @@
 		.mobilenav1 {
 			width: 100%;
 			height: 60px;
-			padding-top: 8px;
+			padding-top: 10.5px;
 
 			.nav1 {
 				width: 20%;
