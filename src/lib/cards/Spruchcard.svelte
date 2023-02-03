@@ -899,10 +899,6 @@
 			height: 30.01px;
 			font-size: 19.2px;
 		}
-		.spruchcard-copy-container {
-			bottom: 19.2px;
-			padding: 0.26vw;
-		}
 		.spruchcard-copy-svg {
 			width: 24.998px;
 		}
