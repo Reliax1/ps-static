@@ -86,22 +86,22 @@
 		// 	`https://res.cloudinary.com/dd79nq7sg/image/upload/f_webp%2Cq_auto%2Cw_972/psimages/${image}.jpg`
 		// );
 
+		const cardTitle = window.document.title;
+		const cardUrl = window.document.location.href + '#' + id;
+		const cardText = text;
+
+		const response = await fetch(`https://bilder.perfekterspruch.de/download/${image}.jpg`);
+		const blob = await response.blob();
+		const filesArray = new File([blob], `PerferkterSpruch${id}.jpg`, { type: blob.type });
+
+		const shareData = {
+			title: cardTitle,
+			url: cardUrl,
+			text: cardText,
+			files: [filesArray]
+		};
+
 		if (userIsMobile && navigator.canShare(shareData)) {
-			const cardTitle = window.document.title;
-			const cardUrl = window.document.location.href + '#' + id;
-			const cardText = text;
-
-			const response = await fetch(`https://bilder.perfekterspruch.de/download/${image}.jpg`);
-			const blob = await response.blob();
-			const filesArray = new File([blob], `PerferkterSpruch${id}.jpg`, { type: blob.type });
-
-			const shareData = {
-				title: cardTitle,
-				url: cardUrl,
-				text: cardText,
-				files: [filesArray]
-			};
-
 			try {
 				await navigator.share(shareData);
 			} catch (err) {
