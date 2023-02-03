@@ -985,6 +985,7 @@
 		}
 		.spruchcard-copy-svg {
 			width: 5.5vw;
+			margin-bottom: 0.8vw;
 			transition: width 0.1s ease;
 			will-change: width;
 		}
@@ -1030,8 +1031,9 @@
 			font-size: $font-card-mobile-small-text;
 		}
 		.spruchcard-share-teilen-share-svg {
-			width: 6.5vw;
+			width: 6vw;
 			z-index: 10;
+			margin-bottom: 0.8vw;
 		}
 		.spruchcard-share-teilen-download-svg {
 			width: 7.5vw;
@@ -1132,6 +1134,7 @@
 		}
 		.spruchcard-copy-svg {
 			width: 4.5vw;
+			margin-bottom: 0.8vw;
 			transition: width 0.1s ease;
 			will-change: width;
 		}
@@ -1177,8 +1180,9 @@
 			font-size: 2.5vw;
 		}
 		.spruchcard-share-teilen-share-svg {
-			width: 5.5vw;
+			width: 5vw;
 			z-index: 10;
+			margin-bottom: 0.8vw;
 		}
 		.spruchcard-share-teilen-download-svg {
 			width: 6.5vw;
