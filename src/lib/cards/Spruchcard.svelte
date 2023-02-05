@@ -877,11 +877,11 @@
 			width: 400px; //20.833vw
 			height: 850px; //46.875vw
 		}
-		@media (hover: hover) and (pointer: fine) {
-			.spruchcard-firstcard:hover {
-				transform: translateY(-1.92px);
-			}
-		}
+		// @media (hover: hover) and (pointer: fine) {
+		// 	.spruchcard-firstcard:hover {
+		// 		transform: translateY(-1.92px);
+		// 	}
+		// }
 		.spruchcard-image-container {
 			width: 100%;
 			height: 59%; //500px // 500px
