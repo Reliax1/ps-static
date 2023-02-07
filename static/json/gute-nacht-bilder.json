@@ -1,9 +1,7 @@
 {
-	"id": "gute-nacht-bilder",
 	"h1title": "Gute Nacht Bilder",
 	"metatitel": "127 Gute Nacht Bilder zum herunterladen & teilen (2023)",
 	"metacontent": "Hier findest du eine große Auswahl an lustigen und schönen Gute Nacht Bildern zum herunterladen, kopieren und teilen.",
-
 	"othersites": [
 		{
 			"image": "suesse-sprueche-seite",
@@ -26,7 +24,6 @@
 			"slug": "https://perfekterspruch.de/lebensmotto/"
 		}
 	],
-
 	"spruchcarddata": [
 		{
 			"id": "108001",
@@ -112,12 +109,7 @@
 			"text": "Hier kommt eine kurze Nachricht, die dir eine gute Nacht verspricht. Die besten Träume zu dir lenkt, das schrieb dir jemand, der an dich denkt.",
 			"author": null
 		},
-		{
-			"id": "108015",
-			"image": "gutenacht/gute-nacht-kurz",
-			"text": "Gute Nacht",
-			"author": null
-		},
+		{ "id": "108015", "image": "gutenacht/gute-nacht-kurz", "text": "Gute Nacht", "author": null },
 		{
 			"id": "108016",
 			"image": "gutenacht/gute-nacht-bild",
@@ -135,462 +127,797 @@
 			"image": "gutenacht/gute-nacht-schoen",
 			"text": "Ich wünsche dir einen schönen Abend und später eine erholsame Nacht",
 			"author": null
-		}
-	],
-	"weiteredata": [
+		},
 		{
-			"id": "108022",
+			"id": "108019",
+			"image": "gutenacht/gute-nacht-bilder-1",
 			"text": "Ich hab‘ dich lieb bis zum Mond und wieder zurück!",
 			"author": null
 		},
 		{
-			"id": "108023",
+			"id": "108020",
+			"image": "gutenacht/gute-nacht-bilder-2",
 			"text": "Wenn du einen dunklen Moment erlebst, mach dich nicht nieder. Denk dran, dass man nur im Dunkeln die Sterne sieht. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108024",
+			"id": "108021",
+			"image": "gutenacht/gute-nacht-bilder-3",
 			"text": "Gute Nacht, ich wünsche euch ein gesegneten Schönheitsschlaf.",
 			"author": null
 		},
 		{
-			"id": "108025",
+			"id": "108022",
+			"image": "gutenacht/gute-nacht-bilder-4",
 			"text": "Ich schicke Dir durch Zeit und Raum einen wunderschönen Traum. Träum von Freunden, Tanzen, Lachen und allen, die Dich glücklich machen.",
 			"author": null
 		},
 		{
-			"id": "108026",
+			"id": "108023",
+			"image": "gutenacht/gute-nacht-bilder-5",
 			"text": "Eintausend Küsse schick ich dir. Fang sie ein und träum von mir.",
 			"author": null
 		},
 		{
-			"id": "108027",
+			"id": "108024",
+			"image": "gutenacht/gute-nacht-bilder-6",
 			"text": "Mögen deine Kissen weich sein, deine Decken warm und dein Geist erfüllt von aller Liebe. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108029",
+			"id": "108025",
+			"image": "gutenacht/gute-nacht-bilder-7",
 			"text": "Der frühe Vogel hat hoffentlich Kaffee gekocht.",
 			"author": null
 		},
 		{
-			"id": "108030",
+			"id": "108026",
+			"image": "gutenacht/gute-nacht-bilder-8",
 			"text": "Es ist verdammt schwer, einzuschlafen, wenn man nicht aufhören kann, an dich zu denken.",
 			"author": null
 		},
 		{
-			"id": "108031",
+			"id": "108027",
+			"image": "gutenacht/gute-nacht-bilder-9",
 			"text": "Schlafen du jetzt musst. Sonst du morgen komplett im Arsch sein!",
 			"author": null
 		},
 		{
-			"id": "108032",
+			"id": "108028",
+			"image": "gutenacht/gute-nacht-bilder-10",
 			"text": "Einen Gutenachtkuss send ich Dir, es wär so schön, wärst Du bei mir. Doch egal ob nah oder fern, es bleibt dabei, ich hab Dich gern!",
 			"author": null
 		},
 		{
-			"id": "108033",
+			"id": "108029",
+			"image": "gutenacht/gute-nacht-bilder-11",
 			"text": "Denke an all die guten Momente dieses Tages und bewahre dir ein Lächeln für morgen.",
 			"author": null
 		},
 		{
-			"id": "108034",
+			"id": "108030",
+			"image": "gutenacht/gute-nacht-bilder-12",
 			"text": "Ich wünsche dir eine gute Nacht. Träum was schönes und wach morgen wieder gesund auf.",
 			"author": null
 		},
 		{
-			"id": "108035",
+			"id": "108031",
+			"image": "gutenacht/gute-nacht-bilder-13",
 			"text": "Wenn die Welt Kopf steht und alles schiefläuft, leg dich schlafen und versuch, was Gutes zu träumen.",
 			"author": null
 		},
 		{
-			"id": "108037",
+			"id": "108032",
+			"image": "gutenacht/gute-nacht-bilder-14",
 			"text": "Ich habe die Sterne zu sehr geliebt, um Angst vor der Nacht zu haben.",
 			"author": "Sarah Williams"
 		},
 		{
-			"id": "108038",
+			"id": "108033",
+			"image": "gutenacht/gute-nacht-bilder-15",
 			"text": "Kommt ein Kuss von ganz weit her, den Grund zu erraten ist nicht schwer. Ich habe gerade an dich gedacht und wünsch dir eine gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108039",
+			"id": "108034",
+			"image": "gutenacht/gute-nacht-bilder-16",
 			"text": "Die Augen voll Tränen, in Gedanken bei Dir, so leg ich mich schlafen und träume von Dir.",
 			"author": null
 		},
 		{
-			"id": "108040",
+			"id": "108035",
+			"image": "gutenacht/gute-nacht-bilder-17",
 			"text": "Jetzt geht’s ins Bettchen. Gute Nacht und schlaft schön!",
 			"author": null
 		},
 		{
-			"id": "108042",
+			"id": "108036",
+			"image": "gutenacht/gute-nacht-bilder-18",
 			"text": "Schließ Deine Augen und denk an mich, denn ich denk gerade ganz fest an Dich! Träum was Süßes und träum von mir, denn ich träum ganz bestimmt von Dir!",
 			"author": null
 		},
 		{
-			"id": "108043",
+			"id": "108037",
+			"image": "gutenacht/gute-nacht-bilder-19",
 			"text": "Ein kleiner Kuss geschickt von mir,  macht sich auf dem Weg zu Dir.  Er trifft Dich sanft und flüstert sacht:  ICH LIEBE DICH und Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108044",
+			"id": "108038",
+			"image": "gutenacht/gute-nacht-bilder-20",
 			"text": "Schlafe nun beruhigt ein, ich werde stets bei dir sein. Hier noch ein letzter Kuss weil ich jetzt auch ins Bettchen muss.",
 			"author": null
 		},
 		{
-			"id": "108046",
+			"id": "108039",
+			"image": "gutenacht/gute-nacht-bilder-21",
 			"text": "Bevor ich es mir in meinem Bettchen gemütlich mache, möchte ich dir noch schnell eine gute Nacht wünschen.",
 			"author": null
 		},
 		{
-			"id": "108047",
+			"id": "108040",
+			"image": "gutenacht/gute-nacht-bilder-22",
 			"text": "Jeden Abend die selbe Frage: Wecker stellen oder Kündigung schreiben? In diesem Sinne Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108048",
+			"id": "108041",
+			"image": "gutenacht/gute-nacht-bilder-23",
 			"text": "Ich wünsche dir einen netten Abend und süße Träume.",
 			"author": null
 		},
 		{
-			"id": "108049",
+			"id": "108042",
+			"image": "gutenacht/gute-nacht-bilder-24",
 			"text": "Es wünscht Dir eine gute Nacht, Dein Schatz, der alles für Dich macht. Er sendet Dir einen dicken Kuss, weil er ständig an Dich denken muss.",
 			"author": null
 		},
 		{
-			"id": "108050",
+			"id": "108043",
+			"image": "gutenacht/gute-nacht-bilder-25",
 			"text": "Zeit schlafen zu gehen. Gib gut auf dich acht, ich wünsche dir eine Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108051",
+			"id": "108044",
+			"image": "gutenacht/gute-nacht-bilder-26",
 			"text": "Freunde sind wie Sterne, du kannst sie nicht immer sehen, aber du weißt, dass sie immer da sind.",
 			"author": null
 		},
 		{
-			"id": "108052",
+			"id": "108045",
+			"image": "gutenacht/gute-nacht-bilder-27",
 			"text": "Der Mond am Himmel lacht, ich wünsche dir eine gute Nacht",
 			"author": null
 		},
 		{
-			"id": "108053",
+			"id": "108046",
+			"image": "gutenacht/gute-nacht-bilder-28",
 			"text": "Kurze Zusammenfassung meines Tages: 1. Aus dem Tiefschlaf gerissen. 2. Keine Ahnung. 3. Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108055",
+			"id": "108047",
+			"image": "gutenacht/gute-nacht-bilder-29",
 			"text": "Gute Nacht, bis morgen in alter Frische!",
 			"author": null
 		},
 		{
-			"id": "108056",
+			"id": "108048",
+			"image": "gutenacht/gute-nacht-bilder-30",
 			"text": "Ich blinzle immer langsamer und kann nichts dagegen machen! Ich glaube es ist Zeit ins Bett zu gehen. Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108057",
+			"id": "108049",
+			"image": "gutenacht/gute-nacht-bilder-31",
 			"text": "Wollte dir noch schnell was senden, bevor meine Gedanken im Schlafe enden. Wollt nur sagen du fehlst mir sehr. Freu mich ganz doll auf deine Wiederkehr!",
 			"author": null
 		},
 		{
-			"id": "108058",
+			"id": "108050",
+			"image": "gutenacht/gute-nacht-bilder-32",
 			"text": "Und hiermit erkläre ich den Tag für beendet. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108062",
+			"id": "108051",
+			"image": "gutenacht/gute-nacht-bilder-33",
 			"text": "Alles wunderbare, was wir im Leben schaffen, beginnt immer mit einem Traum.",
 			"author": null
 		},
 		{
-			"id": "108063",
+			"id": "108052",
+			"image": "gutenacht/gute-nacht-bilder-34",
 			"text": "Wenn wir träumen betreten wir eine Welt, die ganz und gar uns gehört.",
 			"author": null
 		},
 		{
-			"id": "108064",
+			"id": "108053",
+			"image": "gutenacht/gute-nacht-bilder-35",
 			"text": "Denke an all die guten Momente dieses Tages und bewahre dir ein Lächeln für morgen!",
 			"author": null
 		},
 		{
-			"id": "108066",
+			"id": "108054",
+			"image": "gutenacht/gute-nacht-bilder-36",
 			"text": "Mir ist kalt, das Bett ist leer. Du neben mir: Wie schön das wär! Wünsche dir die süssesten Träume!",
 			"author": null
 		},
 		{
-			"id": "108067",
+			"id": "108055",
+			"image": "gutenacht/gute-nacht-bilder-37",
 			"text": "Ein Kuss getragen vom warmen Wind, voll Zärtlichkeit wie meine Gedanken sind, legt sich auf deinen Mund ganz sacht und wünscht Dir lieb eine gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108069",
+			"id": "108056",
+			"image": "gutenacht/gute-nacht-bilder-38",
 			"text": "Ich parke mein Herz bei dir heute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108070",
+			"id": "108057",
+			"image": "gutenacht/gute-nacht-bilder-39",
 			"text": "Ich hoffe, dein Tag endet mit positiven Gedanken und Dankbarkeit im Herzen. Ich wünsche dir einen wunderbaren Schlaf!",
 			"author": null
 		},
 		{
-			"id": "108072",
+			"id": "108058",
+			"image": "gutenacht/gute-nacht-bilder-40",
 			"text": "Da kommt man heim und will aufräumen, stolpert aber so ungünstig, dass man plötzlich zugedeckt im Bett liegt. Da kann man echt nichts machen. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108074",
+			"id": "108059",
+			"image": "gutenacht/gute-nacht-bilder-41",
 			"text": "Meine Gedanken begleiten dich durch die Nacht. Schlaf schön!",
 			"author": null
 		},
 		{
-			"id": "108075",
+			"id": "108060",
+			"image": "gutenacht/gute-nacht-bilder-42",
 			"text": "Ich wünsche Dir eine gute Nacht, das Lichtlein wird nun ausgemacht. Träum was schönes, schlafe fein, denn bald wird es wieder morgen sein.",
 			"author": null
 		},
 		{
-			"id": "108076",
+			"id": "108061",
+			"image": "gutenacht/gute-nacht-bilder-43",
 			"text": "Schicht im Schacht und gute Nacht bis ein neuer Tag erwacht.",
 			"author": null
 		},
 		{
-			"id": "108079",
+			"id": "108062",
+			"image": "gutenacht/gute-nacht-bilder-44",
 			"text": "Jetzt, wo die Nächte wieder kälter werden, verstecken sich Spinnen, auf der Suche nach Wärme oft in euren Betten. Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108081",
+			"id": "108063",
+			"image": "gutenacht/gute-nacht-bilder-45",
 			"text": "Ich schlepp mich jetzt von der Couch ins Bett. Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108082",
+			"id": "108064",
+			"image": "gutenacht/gute-nacht-bilder-46",
 			"text": "Gute Nacht, schlaf gut! Und Schäfchen nicht mit Vögeln verwechseln!",
 			"author": null
 		},
 		{
-			"id": "108084",
+			"id": "108065",
+			"image": "gutenacht/gute-nacht-bilder-47",
 			"text": "Braucht mich heute noch jemand oder kann ich ins Bett gehen?",
 			"author": null
 		},
 		{
-			"id": "108085",
+			"id": "108066",
+			"image": "gutenacht/gute-nacht-bilder-48",
 			"text": "Papa, machst du bevor du raus gehst noch die Schranktür zu? Wieso? Alles, was dich töten kann, kann auch die Schranktür aufmachen. Schlaf gut.",
 			"author": null
 		},
 		{
-			"id": "108086",
+			"id": "108067",
+			"image": "gutenacht/gute-nacht-bilder-49",
 			"text": "Es fällt mir schwer, nicht neben dir einzuschlafen. Doch das Gefühl, dass ich dich im Traum wiedersehen werde, beruhigt mich.",
 			"author": null
 		},
 		{
-			"id": "108087",
+			"id": "108068",
+			"image": "gutenacht/gute-nacht-bilder-50",
 			"text": "Meine Schäfchen sind zu dick, um über den Zaun zu springen. Ich kann einfach nicht einschlafen!",
 			"author": null
 		},
 		{
-			"id": "108088",
+			"id": "108069",
+			"image": "gutenacht/gute-nacht-bilder-51",
 			"text": "Gute Nacht und träume was süßes. Aber passe auf, wo du schlafwandelst.",
 			"author": null
 		},
 		{
-			"id": "108089",
+			"id": "108070",
+			"image": "gutenacht/gute-nacht-bilder-52",
 			"text": "Wenn es küssende Handys gäbe, würde dich deins jetzt überfallen und dir einen dicken Gute Nacht Kuss geben!",
 			"author": null
 		},
 		{
-			"id": "108090",
+			"id": "108071",
+			"image": "gutenacht/gute-nacht-bilder-53",
 			"text": "Bett stellt keine Fragen. Bett redet nicht. Bett ist weich und warm. Bett ist lieb.",
 			"author": null
 		},
 		{
-			"id": "108091",
+			"id": "108072",
+			"image": "gutenacht/gute-nacht-bilder-54",
 			"text": "Das Sternchen der Hoffnung hält irgendwo im Universum die Stellung für dich. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108092",
+			"id": "108073",
+			"image": "gutenacht/gute-nacht-bilder-55",
 			"text": "Meine Gedanken begleiten dich durch die Nacht. Schlaf schön!",
 			"author": null
 		},
 		{
-			"id": "108093",
+			"id": "108074",
+			"image": "gutenacht/gute-nacht-bilder-56",
 			"text": "Kann nicht essen. Kann nicht schlafen. Kann dich nicht vergessen.",
 			"author": null
 		},
 		{
-			"id": "108094",
-			"text": "Morgens kann ich nichts essen, weil ich Dich liebe! Mittags kann ich nichts essen, weil ich Dich Liebe! Abends kann ich nichts essen, weil ich Dich Liebe! Nachts kann ich nicht schlafen, WEIL ICH HUNGER HABE!",
-			"author": null
-		},
-		{
-			"id": "108095",
+			"id": "108075",
+			"image": "gutenacht/gute-nacht-bilder-57",
 			"text": "Hier kommt eine Kurznachricht, die Dir eine gute Nacht verspricht, die besten Träume zu Dir lenkt, das schrieb Dir jemand, der an Dich denkt.",
 			"author": null
 		},
 		{
-			"id": "108096",
-			"text": "Ich würde dich jetzt gerne zudecken und morgen mit einem Küsschen zärtlich wecken. Beschützen werde ich dich die ganze Nacht, bis die Sonne morgens wieder lacht.",
-			"author": null
-		},
-		{
-			"id": "108097",
+			"id": "108076",
+			"image": "gutenacht/gute-nacht-bilder-58",
 			"text": "Es heißt nicht mehr Schlaf, sondern herbeigesehnter Zustand völliger Entspannung ohne Denkhintergrund. Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108099",
+			"id": "108077",
+			"image": "gutenacht/gute-nacht-bilder-59",
 			"text": "Ich wäre jetzt bereit, von dir in den Schlaf geküsst zu werden.",
 			"author": null
 		},
 		{
-			"id": "108101",
+			"id": "108078",
+			"image": "gutenacht/gute-nacht-bilder-60",
 			"text": "Ruhe sanft, schlafe ein, auch Engel dürfen müde sein. Und da Du einer bist, der was Besonderes ist, träume süß und schlaf gut, sammle Kraft und neuen Mut.",
 			"author": null
 		},
 		{
-			"id": "108104",
+			"id": "108079",
+			"image": "gutenacht/gute-nacht-bilder-61",
 			"text": "Ich gehe jetzt ins Bett. Oder wie die Mücken sagen würden: “Das Buffet ist eröffnet!“",
 			"author": null
 		},
 		{
-			"id": "108105",
+			"id": "108080",
+			"image": "gutenacht/gute-nacht-bilder-62",
 			"text": "Der Mond am Himmel scheint für dich, er sagt zu dir: Vergiss mich nicht!",
 			"author": null
 		},
 		{
-			"id": "108106",
+			"id": "108081",
+			"image": "gutenacht/gute-nacht-bilder-63",
 			"text": "Ich bin super im Bett! Ne, Moment. Super ich bin im Bett!",
 			"author": null
 		},
 		{
-			"id": "108109",
+			"id": "108082",
+			"image": "gutenacht/gute-nacht-bilder-64",
 			"text": "Ich wünsche euch ein paar schöne, dreckige Träume. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108110",
+			"id": "108083",
+			"image": "gutenacht/gute-nacht-bilder-65",
 			"text": "Dieser Moment, wenn du endlich so richtig gemütlich im Bett liegst und dann feststellst, dass du pinkeln musst!",
 			"author": null
 		},
 		{
-			"id": "108112",
+			"id": "108084",
+			"image": "gutenacht/gute-nacht-bilder-66",
 			"text": "So ab ins Bett. Zu viel Realität ist ungesund. Ab in die Traumwelt!",
 			"author": null
 		},
 		{
-			"id": "108115",
+			"id": "108085",
+			"image": "gutenacht/gute-nacht-bilder-67",
 			"text": "So, jetzt wird nur noch gechillt. Ich wünsche dir einen schönen Abend und später eine gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108116",
+			"id": "108086",
+			"image": "gutenacht/gute-nacht-bilder-68",
 			"text": "Die Nacht verbirgt die Welt, enthüllt aber das Weltall.",
 			"author": null
 		},
 		{
-			"id": "108117",
+			"id": "108087",
+			"image": "gutenacht/gute-nacht-bilder-69",
 			"text": "Ich wünsche Dir eine gute Nacht,  das Lichtlein wird nun ausgemacht.  Träum was schönes, schlafe fein,  denn bald wird es wieder morgen sein.",
 			"author": null
 		},
 		{
-			"id": "108118",
+			"id": "108088",
+			"image": "gutenacht/gute-nacht-bilder-70",
 			"text": "Träum dich glücklich! Gute Nacht.",
 			"author": null
 		},
 		{
-			"id": "108121",
+			"id": "108089",
+			"image": "gutenacht/gute-nacht-bilder-71",
 			"text": "Das Schlafen fällt mir wirklich schwer. Mir fehlen Deine netten Worte sehr. Du hast mich in Deinen Bann gezogen und das ist wirklich ungelogen!",
 			"author": null
 		},
 		{
-			"id": "108123",
+			"id": "108090",
+			"image": "gutenacht/gute-nacht-bilder-72",
 			"text": "Du bist der erste Gedanke, der mich weckt. Du bist mein letzter Gedanke bevor ich einschlafe.",
 			"author": null
 		},
 		{
-			"id": "108124",
+			"id": "108091",
+			"image": "gutenacht/gute-nacht-bilder-73",
 			"text": "Fürs schnelle Einschlafen schicke ich dir noch ein paar imaginäre Schafe. Gute Nacht!",
 			"author": null
 		},
 		{
-			"id": "108125",
+			"id": "108092",
+			"image": "gutenacht/gute-nacht-bilder-74",
 			"text": "Tschüss und winke winke. Ich schicke dir einen ganz lieben Gute-Nacht-Gruß. Schlaf gut und träum was schönes. Bis morgen!",
 			"author": null
 		},
 		{
-			"id": "108127",
+			"id": "108093",
+			"image": "gutenacht/gute-nacht-bilder-75",
 			"text": "Bin der Engel, der über Dich wacht. Der Dich lieb hat Tag und Nacht. Der Dich drückt in Deinem Traum - ich hab Dich so lieb - Du glaubst es kaum!",
 			"author": null
 		},
 		{
-			"id": "108128",
-			"text": "Gute Nacht! Bis an den Morgen Schlafen wir und uns're Sorgen! Unser Landeswächter wacht Für uns alle! Gute Nacht! Gute Nacht! Die guten Geister, Die uns schützen, bleiben Meister Im Getümmel ihrer Schlacht! Gute, gute, gute Nacht!",
-			"author": "Johann Wilhelm Ludwig Gleim"
-		},
-		{
-			"id": "108129",
+			"id": "108094",
+			"image": "gutenacht/gute-nacht-bilder-76",
 			"text": "Guten Morgen… Gute Nacht…, dies ist das Leben.",
 			"author": "Lucius Annaeus Seneca"
 		},
 		{
-			"id": "108130",
-			"text": "Gute Nacht? ach, bös ist die Zeit, die, was Sie einen sollte, scheiden macht; Noch im Verein uns bleiben lass', Dann ist es gute Nacht. Kann ich die Einsame wohl gut Nennen, ob auch dein Wunsch drauf ruht! Sei's nicht gesagt, und nicht gedacht, Dann ist es gute Nacht. Für Herzen, die von Abend immer Vereint sind, bis der Morgen tagt, Ist gut die Nacht, denn, Liebe, nimmer Sie sagen, gute Nacht.",
-			"author": "Percy Bysshe Shelley"
-		},
-		{
-			"id": "108131",
+			"id": "108095",
+			"image": "gutenacht/gute-nacht-bilder-77",
 			"text": "Gute Nacht! Vergessen Sie bitte nicht, die Antenne zu erden!",
 			"author": null
 		},
 		{
-			"id": "108132",
+			"id": "108096",
+			"image": "gutenacht/gute-nacht-bilder-78",
 			"text": "Das Licht, das ist das Gute; die Finsternis, die Nacht, Das ist das Reich der Sünde und ist des Bösen Macht.",
 			"author": "Adelbert von Chamisso"
 		},
 		{
-			"id": "108133",
+			"id": "108097",
+			"image": "gutenacht/gute-nacht-bilder-79",
 			"text": "Ich sag euch gute Nacht und trete willig ab. Sonst alles ist getan bis an das schwarze Grab.",
 			"author": "Paul Fleming"
 		},
 		{
-			"id": "108134",
-			"text": "Es ist vollbracht! Gottlob, es ist vollbracht. Mein Jesus nimmt mich auf. Fahr heim, o Welt! Ihr Freunde, gute Nacht! Ich schließe meinen Lauf und alle Not, die mich getroffen; wohl mir, ich seh den Himmel offen. Es ist vollbracht.",
-			"author": null
-		},
-		{
-			"id": "108135",
+			"id": "108098",
+			"image": "gutenacht/gute-nacht-bilder-80",
 			"text": "Guter Rat kommt über Nacht.",
 			"author": "Pierre Choderlos de Laclos"
 		},
 		{
-			"id": "108136",
+			"id": "108099",
+			"image": "gutenacht/gute-nacht-bilder-81",
 			"text": "Auf die guten Täg' haben die Reichen, aber auf die guten Nächt' nur die Glücklichen ein Monopol.",
 			"author": "Johann Nepomuk Nestroy"
 		},
 		{
-			"id": "108137",
+			"id": "108100",
+			"image": "gutenacht/gute-nacht-bilder-82",
 			"text": "Manche Männer sind die geborenen Eisenbahner: Abends haben sie einen guten Zug, nachts Verspätung und morgens bleiben sie auf der Strecke.",
 			"author": null
 		},
 		{
-			"id": "108138",
+			"id": "108101",
+			"image": "gutenacht/gute-nacht-bilder-83",
 			"text": "Gute Nacht mein lieber Schatz. Ich werde heute nur von dir Träumen!",
 			"author": null
 		},
 		{
-			"id": "108139",
+			"id": "108102",
+			"image": "gutenacht/gute-nacht-bilder-84",
 			"text": "Schlaf schön und ruh dich aus! Du hast es dir redlich verdient.",
 			"author": null
 		},
 		{
-			"id": "108140",
+			"id": "108103",
+			"image": "gutenacht/gute-nacht-bilder-85",
 			"text": "Ab ins Bett, dass Sandmännchen ruft.",
 			"author": null
 		},
 		{
-			"id": "108141",
+			"id": "108104",
+			"image": "gutenacht/gute-nacht-bilder-86",
 			"text": "Endlich geht es ab ins Bett. Schlaf gut und ruh dich ganz ausführlich aus, damit du genug Kraft für den morgigen Tag hast.",
+			"author": null
+		},
+		{
+			"id": "108105",
+			"image": "gutenacht/gute-nacht-bilder-87",
+			"text": "Schlaf gut, wünsche dir eine wunderschöne Nacht.",
+			"author": null
+		},
+		{
+			"id": "108106",
+			"image": "gutenacht/gute-nacht-bilder-88",
+			"text": "Möge dein Tag morgen mit viel Glück erfüllt sein.",
+			"author": null
+		},
+		{
+			"id": "108107",
+			"image": "gutenacht/gute-nacht-bilder-89",
+			"text": "Möge dich die Liebe des Universums umschließen und dich in einen tiefen und friedlichen Schlaf wiegen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108108",
+			"image": "gutenacht/gute-nacht-bilder-90",
+			"text": "Möge jeder Stern am Himmel deine Träume erhellen, damit du schöne Träume hast und dich am Morgen erfrischt fühlst. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108109",
+			"image": "gutenacht/gute-nacht-bilder-91",
+			"text": "Gute Nacht mein Liebster, lass mich dir sagen, wie sehr du mir bedeutest und dass du immer in meinem Herzen bist.",
+			"author": null
+		},
+		{
+			"id": "108110",
+			"image": "gutenacht/gute-nacht-bilder-92",
+			"text": "Wenn die Dunkelheit der Nacht hereinbricht, möge sie dir Frieden bringen und deine Seele heilen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108111",
+			"image": "gutenacht/gute-nacht-bilder-93",
+			"text": "Der Tag ist vorbei, aber die Erinnerung an dein Lächeln bleibt für immer in meinem Herzen bewahrt. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108112",
+			"image": "gutenacht/gute-nacht-bilder-94",
+			"text": "Wünsche dir eine gesegnete Nachtruhe und träume vom Regenbogen der Hoffnung für den neuen Tag morgen früh!",
+			"author": null
+		},
+		{
+			"id": "108113",
+			"image": "gutenacht/gute-nacht-bilder-95",
+			"text": "Mögest du von Engeln beschützt werden, damit du friedlich schlafen kannst ohne Sorgen oder Ängste in der dunklen Nacht - gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108114",
+			"image": "gutenacht/gute-nacht-bilder-96",
+			"text": "Ich hoffe das Beste für dich auf deiner Reise in die Traumwelt - schlafe sanft und träume von unserer gemeinsamen Zukunft! Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108115",
+			"image": "gutenacht/gute-nacht-bilder-97",
+			"text": "10 .Lass mich dir sagen, dass du mein Einziger bist - mein Sternchen des Abends - guten Abend & gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108116",
+			"image": "gutenacht/gute-nacht-bilder-98",
+			"text": "Gute Nacht, schlaf gut und träume süß. Ich denke an dich und wünsche dir eine wunderschöne Nacht.",
+			"author": null
+		},
+		{
+			"id": "108117",
+			"image": "gutenacht/gute-nacht-bilder-99",
+			"text": "Mögen Engel dich begleiten durch die Nacht, schützen vor allem Bösen und dir Frieden schenken heut Nacht.",
+			"author": null
+		},
+		{
+			"id": "108118",
+			"image": "gutenacht/gute-nacht-bilder-100",
+			"text": "Lass deinen Geist in ein Meer der Ruhe tauchen, lass deine Seele in den Schlaf schweben, lass dich von Träumen liebkosen und gute Nacht sagen.",
+			"author": null
+		},
+		{
+			"id": "108119",
+			"image": "gutenacht/gute-nacht-bilder-101",
+			"text": "Verliere niemals dein Lächeln, auch wenn es dunkel ist draußen, denn im Dunkeln leuchten die Sterne am hellsten.",
+			"author": null
+		},
+		{
+			"id": "108120",
+			"image": "gutenacht/gute-nacht-bilder-102",
+			"text": "Es gibt so viele Sterne am Himmel, aber du bist der hellste von allen. Gute Nacht mein Liebling!",
+			"author": null
+		},
+		{
+			"id": "108121",
+			"image": "gutenacht/gute-nacht-bilder-103",
+			"text": "Gute Nacht mein Stern, schlafe gut und träume süße Träume heut Nacht.",
+			"author": null
+		},
+		{
+			"id": "108122",
+			"image": "gutenacht/gute-nacht-bilder-104",
+			"text": "Lass deine Sorgen hinter dir zurück und lass dir neue Kraft für morgen schenken.",
+			"author": null
+		},
+		{
+			"id": "108123",
+			"image": "gutenacht/gute-nacht-bilder-105",
+			"text": "„Wie gerne würde ich jetzt bei dir sein! Doch stattdessen sage ich Gute Nacht - schlaf gut!“",
+			"author": null
+		},
+		{
+			"id": "108124",
+			"image": "gutenacht/gute-nacht-bilder-106",
+			"text": "„Ich wünsche dir eine erholsame Nachtruhe mit angenehmen Träumen, bevor der neue Tag beginnt!“",
+			"author": null
+		},
+		{
+			"id": "108125",
+			"image": "gutenacht/gute-nacht-bilder-107",
+			"text": "„Bevor du deine Augen schließt und die Welt vergisst, will ich dir noch einmal sagen: Gute Nacht mein Schatz!“",
+			"author": null
+		},
+		{
+			"id": "108126",
+			"image": "gutenacht/gute-nacht-bilder-108",
+			"text": "Schlaf gut und träume schöne Dinge, die dich in eine Welt voller Freude entführen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108127",
+			"image": "gutenacht/gute-nacht-bilder-109",
+			"text": "Lass deinen Tag zur Ruhe kommen und deine Sorgen auf dich zukommen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108128",
+			"image": "gutenacht/gute-nacht-bilder-110",
+			"text": "Der Tag geht zu Ende, nun ist es Zeit sich auszuruhen und die Seele baumeln zu lassen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108129",
+			"image": "gutenacht/gute-nacht-bilder-111",
+			"text": "Mit einem Lächeln im Gesicht schlafe ein, dann werden dir die schönsten Träume gelingen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108130",
+			"image": "gutenacht/gute-nacht-bilder-112",
+			"text": "Der Tag hat sein Ende gefunden, nun ist es an der Zeit sich hinzulegen und den Morgen zu erwarten. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108131",
+			"image": "gutenacht/gute-nacht-bilder-113",
+			"text": "Keine Sorge, kein Stress mehr, nur ein tiefer Frieden in der ruhigen Dunkelheit der Nacht. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108132",
+			"image": "gutenacht/gute-nacht-bilder-114",
+			"text": "Die Müdigkeit bringt dich ins Land der Träume, wo du alles vergessen kannst was dich quält und plagen mag. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108133",
+			"image": "gutenacht/gute-nacht-bilder-115",
+			"text": "Mögen heutende Traumwinde sanft über deine Seele wehen, sodass du morgen fröhlich und munter erwachen kannst. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108134",
+			"image": "gutenacht/gute-nacht-bilder-116",
+			"text": "Schlafe gut und träume süß, lass die Sorgen hinter dir und geh in eine Welt voller Glück. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108135",
+			"image": "gutenacht/gute-nacht-bilder-117",
+			"text": "Möge dein Kissen weich und dein Traum schön sein. Lass dich von der Dunkelheit des Abends umarmen und von den Sternen beschützen. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108136",
+			"image": "gutenacht/gute-nacht-bilder-118",
+			"text": "Der Tag hat nun seine Arbeit getan, die Nacht ist da um dich zu erholen. Genieße es und wünsche dir eine gesegnete Nachtruhe. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108137",
+			"image": "gutenacht/gute-nacht-bilder-119",
+			"text": "Bedecke deinen Kopf nicht unter der Decke, sondern lass die Sterne leuchten, damit du glücklich schlafen kannst. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108138",
+			"image": "gutenacht/gute-nacht-bilder-120",
+			"text": "Wenn du heute Abend nicht schlafen kannst, denk an all die schönen Dinge, die dir das Leben bietet - besonders an mich! Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108139",
+			"image": "gutenacht/gute-nacht-bilder-121",
+			"text": "Die Sonne ist untergegangen, aber Träume stehen noch auf dem Programm. Wünsche dir eine erholsame Nacht und viele angenehme Träume! Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108140",
+			"image": "gutenacht/gute-nacht-bilder-122",
+			"text": "7 .Möge dein Schlaf so sanft sein wie das Flüstern des Windes im Sommerhimmel und so friedlich wie das Rauschen des Meeres bei Sonnenuntergang. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108141",
+			"image": "gutenacht/gute-nacht-bilder-123",
+			"text": "Schlaf gut, mein Liebling. Lass deinen Traumland eine Welt voll Abenteuer und Freude sein.",
+			"author": null
+		},
+		{
+			"id": "108142",
+			"image": "gutenacht/gute-nacht-bilder-124",
+			"text": "Egal was gestern passiert ist, egal was morgen kommen wird - nimm dir jetzt die Zeit, um zu entspannen und eine gute Nacht zu haben. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108143",
+			"image": "gutenacht/gute-nacht-bilder-125",
+			"text": "Ich wünsche dir eine schöne Nacht voller Frieden und Harmonie. Schlafe gut und träume süße Träume!",
+			"author": null
+		},
+		{
+			"id": "108144",
+			"image": "gutenacht/gute-nacht-bilder-126",
+			"text": "Möge dein Bett so weich sein wie Wattebausch und deine Decken so warm wie der Sommerwind. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108145",
+			"image": "gutenacht/gute-nacht-bilder-127",
+			"text": "Die Dunkelheit der Nacht bringt den Tag zur Ruhe, aber lass die Schönheit des Augenblicks niemals aus deinem Herzen verschwinden. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108146",
+			"image": "gutenacht/gute-nacht-bilder-128",
+			"text": "Dein Tag war hart, also vergiss alles Schlechte und genieße die Stille der Nacht, in der du Kraft für neue Taten sammeln kannst. Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108147",
+			"image": "gutenacht/gute-nacht-bilder-129",
+			"text": "Lasse deinen Geist in den Sternenhimmel fliegen, wo alle Sorgen verschwinden und alles friedlich ist - Gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108148",
+			"image": "gutenacht/gute-nacht-bilder-130",
+			"text": "Schenke deiner Seele jede Nacht etwas Erholung und gib ihr die Chance aufzutanken für neue Abenteuer am nächsten Tag - gute Nacht!",
+			"author": null
+		},
+		{
+			"id": "108149",
+			"image": "gutenacht/gute-nacht-bilder-131",
+			"text": "Wünsche dir eine gute Nacht und schöne Träume, mein Liebling.",
+			"author": null
+		},
+		{
+			"id": "108150",
+			"image": "gutenacht/gute-nacht-bilder-132",
+			"text": "Lass dein Tag zu Ende gehen und deine Sorgen verschwinden, während du in den Schlaf sinkst.",
 			"author": null
 		}
 	]
