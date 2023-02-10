@@ -274,6 +274,7 @@
 						100vw"
 						class="spruchcard-image lazyload"
 						src="https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg"
+						data-src="https://bilder.perfekterspruch.de/jpg/1366/{card.image}.jpg"
 						data-srcSet="https://bilder.perfekterspruch.de/jpg/1366/{card.image}.jpg 285w, https://bilder.perfekterspruch.de/jpg/1920/{card.image}.jpg 400w, https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg 972w"
 						alt={card.image.split('/')[1].replace(/-/g, ' ')}
 					/>
