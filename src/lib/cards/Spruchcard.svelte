@@ -215,7 +215,7 @@
 						alt={card.image.split('/')[1].replace(/-/g, ' ')}
 					/>
 				</picture>
-			{:else}
+			{:else if index >= 4 && index <= 30}
 				<picture>
 					<source
 						sizes="(max-width: 1024px) 972px, 
@@ -243,6 +243,35 @@
 						class="spruchcard-image lazyload"
 						src="https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg"
 						srcSet="https://bilder.perfekterspruch.de/jpg/placeholder/{card.image}.jpg"
+						data-srcSet="https://bilder.perfekterspruch.de/jpg/1366/{card.image}.jpg 285w, https://bilder.perfekterspruch.de/jpg/1920/{card.image}.jpg 400w, https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg 972w"
+						alt={card.image.split('/')[1].replace(/-/g, ' ')}
+					/>
+				</picture>
+			{:else}
+				<picture>
+					<source
+						sizes="(max-width: 1024px) 972px, 
+					(min-width: 1920px) 400px, 
+					(min-width: 1366px) 285px,
+						100vw"
+						data-srcSet="https://bilder.perfekterspruch.de/avif/1366/{card.image}.avif 285w, https://bilder.perfekterspruch.de/avif/1920/{card.image}.avif 400w, https://bilder.perfekterspruch.de/avif/360/{card.image}.avif 972w"
+						type="image/avif"
+					/>
+					<source
+						sizes="(max-width: 1024px) 972px, 
+					(min-width: 1920px) 400px, 
+					(min-width: 1366px) 285px,
+						100vw"
+						data-srcSet="https://bilder.perfekterspruch.de/webp/1366/{card.image}.webp 285w, https://bilder.perfekterspruch.de/webp/1920/{card.image}.webp 400w, https://bilder.perfekterspruch.de/webp/360/{card.image}.webp 972w"
+						type="image/webp"
+					/>
+					<img
+						sizes="(max-width: 1024px) 972px, 
+					(min-width: 1920px) 400px, 
+					(min-width: 1366px) 285px,
+						100vw"
+						class="spruchcard-image lazyload"
+						src="https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg"
 						data-srcSet="https://bilder.perfekterspruch.de/jpg/1366/{card.image}.jpg 285w, https://bilder.perfekterspruch.de/jpg/1920/{card.image}.jpg 400w, https://bilder.perfekterspruch.de/jpg/360/{card.image}.jpg 972w"
 						alt={card.image.split('/')[1].replace(/-/g, ' ')}
 					/>
