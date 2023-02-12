@@ -1,8 +1,10 @@
 <script>
+	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 
 	import 'lazysizes';
+	import Kopiert from '../core/Kopiert.svelte';
 
 	// redeploy
 
@@ -13,6 +15,7 @@
 	let shareOpen = false;
 	let activeIndex = undefined;
 	let hideCopy = false;
+	let active_copy = false;
 
 	const downloadCount = (id, button) => {
 		if (window.location.hostname.includes('perfekterspruch')) {
@@ -69,15 +72,16 @@
 	};
 
 	const copyCardText = (index) => {
-		const button = document.getElementsByClassName('spruchcard-copy-copied')[index];
+		// const button = document.getElementsByClassName('spruchcard-copy-copied')[index];
 		const copyText = document.getElementsByClassName('spruchcard-text')[index].innerText;
 
 		navigator.clipboard.writeText(copyText);
 
-		button.classList.add('activecopie');
+		// button.classList.add('activecopie');
+		active_copy = true;
 		setTimeout(function () {
-			button.classList.remove('activecopie');
-		}, 1500);
+			active_copy = false;
+		}, 1000);
 	};
 
 	async function openShare(index, text, image, id) {
@@ -270,7 +274,11 @@
 					on:click={() => downloadCountDate(card.id, index, 'kopies')}
 				>
 					<button class="spruchcard-copy-button">
-						<div class="spruchcard-copy-copied">kopiert</div>
+						{#if active_copy}
+							<div transition:fly={{ y: 10, duration: 1000 }} class="spruchcard-copy-animation">
+								<Kopiert />
+							</div>
+						{/if}
 
 						<img class="spruchcard-copy-svg" src="/svg/copy.svg" alt="copy" />
 						<span class="spruchcard-copy-span">Kopieren</span>
@@ -411,6 +419,12 @@
 	:global(.lazyloaded) {
 		filter: blur(0) !important;
 		transform: scale(1) !important;
+	}
+
+	.spruchcard-copy-animation {
+		position: absolute;
+		top: -2.5vw;
+		left: -0.25vw;
 	}
 
 	.main-text {
@@ -762,39 +776,6 @@
 		font-size: 0.6vw;
 	}
 
-	.spruchcard-copy-copied {
-		position: absolute;
-		padding: 0.4vw 0.45vw;
-		top: -2.4vw;
-		background-color: $main-color;
-		border-radius: 20px;
-		font-size: 0.8vw;
-		color: #fff;
-		opacity: 0;
-		transition-property: opacity, transform;
-		transition-duration: 0.2s;
-		transition-timing-function: ease-out;
-		will-change: top;
-		pointer-events: none;
-		transform: translateY(0.4vw);
-	}
-	.spruchcard-copy-copied:after {
-		content: '';
-		position: absolute;
-		width: 0;
-		height: 0;
-		border-left: 0.313vw solid transparent;
-		border-right: 0.313vw solid transparent;
-		border-top: 0.625vw solid $main-color;
-		bottom: -0.521vw;
-		right: 1.3vw;
-	}
-
-	:global(.activecopie) {
-		opacity: 1 !important;
-		transform: translateY(0) !important;
-	}
-
 	@media screen and (min-width: 1921px) {
 		.spruchcard-share-teilen {
 			height: 54px;
@@ -916,20 +897,6 @@
 			padding-top: 1.92px;
 			font-size: 11.52px;
 		}
-
-		.spruchcard-copy-copied {
-			padding: 7.68px 8.64px;
-			top: -46.08px;
-			transform: translateY(7.68px);
-			font-size: 15.36px;
-		}
-		.spruchcard-copy-copied:after {
-			border-left: 6.01px solid transparent;
-			border-right: 6.01px solid transparent;
-			border-top: 12px solid $main-color;
-			bottom: -10.003px;
-			right: 24.96px;
-		}
 	}
 
 	@media screen and (max-width: 480px) {
@@ -943,6 +910,10 @@
 		}
 		.main-text {
 			padding-bottom: 8vw;
+		}
+		.spruchcard-copy-animation {
+			top: -10vw;
+			left: 1vw;
 		}
 		.spruchcard-firstcard {
 			width: 90vw; //400px
@@ -1002,22 +973,6 @@
 		.spruchcard-copy-span {
 			padding-top: 0.1vw;
 			font-size: $font-card-mobile-small-text;
-		}
-
-		.spruchcard-copy-copied {
-			padding: 1.5vw 1.6vw;
-			top: -8.5vw;
-			border-radius: 20px;
-			font-size: $font-card-mobile-small-text;
-			opacity: 0;
-			transform: translateY(2vw);
-		}
-		.spruchcard-copy-copied:after {
-			border-left: 1vw solid transparent;
-			border-right: 1vw solid transparent;
-			border-top: 2vw solid $main-color;
-			bottom: -1.8vw;
-			right: 4.9vw;
 		}
 
 		.spruchcard-share-teilen {
@@ -1089,6 +1044,11 @@
 		.main-text {
 			padding-bottom: 5vw;
 		}
+		.spruchcard-copy-animation {
+			top: -9vw;
+			left: 1vw;
+		}
+
 		.spruchcard-firstcard {
 			width: 81vw; //400px
 			height: auto; //900px 175vw
@@ -1151,22 +1111,6 @@
 		.spruchcard-copy-span {
 			padding-top: 0.1vw;
 			font-size: 2.5vw;
-		}
-
-		.spruchcard-copy-copied {
-			padding: 1.5vw 1.6vw;
-			top: -8.5vw;
-			border-radius: 20px;
-			font-size: $font-card-mobile-small-text;
-			opacity: 0;
-			transform: translateY(2vw);
-		}
-		.spruchcard-copy-copied:after {
-			border-left: 1vw solid transparent;
-			border-right: 1vw solid transparent;
-			border-top: 2vw solid $main-color;
-			bottom: -1.8vw;
-			right: 4.9vw;
 		}
 
 		.spruchcard-share-teilen {
