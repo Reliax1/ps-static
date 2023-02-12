@@ -41,11 +41,11 @@
 				<div class="spruchcard-copy-container" on:click={() => copyCardText(index)}>
 					<button class="spruchcard-copy-button">
 						<!-- <div class="spruchcard-copy-copied-weitere">kopiert</div> -->
-						<!-- {#if active_copy && index === index}
+						{#if active_copy && index === index}
 							<div transition:fly={{ y: 10, duration: 1000 }} class="spruchcard-copy-animation">
 								<Kopiert />
 							</div>
-						{/if} -->
+						{/if}
 						<img class="spruchcard-copy-svg" src="/svg/copy.svg" alt="copy" />
 						<span class="spruchcard-copy-span">Kopieren</span>
 					</button>
@@ -165,34 +165,6 @@
 		font-size: 0.6vw;
 	}
 
-	.spruchcard-copy-copied-weitere {
-		position: absolute;
-		padding: 0.4vw 0.45vw;
-		top: -2.4vw;
-		background-color: $main-color;
-		border-radius: 20px;
-		font-size: 0.8vw;
-		color: #fff;
-		opacity: 0;
-		transition-property: opacity, transform;
-		transition-duration: 0.2s;
-		transition-timing-function: ease-out;
-		will-change: top;
-		pointer-events: none;
-		transform: translateY(0.4vw);
-	}
-	.spruchcard-copy-copied-weitere:after {
-		content: '';
-		position: absolute;
-		width: 0;
-		height: 0;
-		border-left: 0.313vw solid transparent;
-		border-right: 0.313vw solid transparent;
-		border-top: 0.625vw solid $main-color;
-		bottom: -0.521vw;
-		right: 1.3vw;
-	}
-
 	.ws-h2 {
 		font-size: 1.7vw;
 		font-weight: bold;
@@ -285,22 +257,6 @@
 		.spruchcard-copy-span {
 			padding-top: 0.1vw;
 			font-size: $font-card-mobile-small-text;
-		}
-
-		.spruchcard-copy-copied-weitere {
-			padding: 1.5vw 1.6vw;
-			top: -8.5vw;
-			border-radius: 20px;
-			font-size: $font-card-mobile-small-text;
-			opacity: 0;
-			transform: translateY(2vw);
-		}
-		.spruchcard-copy-copied-weitere:after {
-			border-left: 1vw solid transparent;
-			border-right: 1vw solid transparent;
-			border-top: 2vw solid $main-color;
-			bottom: -1.8vw;
-			right: 4.9vw;
 		}
 
 		.ws-h2 {
