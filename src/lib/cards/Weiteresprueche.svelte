@@ -1,21 +1,26 @@
 <script>
 	import { page } from '$app/stores';
-	import { fade } from 'svelte/transition';
+	import { fade, fly } from 'svelte/transition';
+
+	import Kopiert from '$lib/core/Kopiert.svelte';
 
 	export let weiteredata;
 
+	let active_copy = false;
 	// const debug = () = {
 	//   console.dir(this.weiteresprueche)
 	// }
 	const copyCardText = (index) => {
-		const button = document.getElementsByClassName('spruchcard-copy-copied-weitere')[index];
+		// const button = document.getElementsByClassName('spruchcard-copy-copied-weitere')[index];
 		const copyText = document.getElementsByClassName('ws-pp')[index].innerText;
 
 		navigator.clipboard.writeText(copyText);
-		button.classList.add('activecopie');
+		// button.classList.add('activecopie');
+		active_copy = true;
 		setTimeout(function () {
-			button.classList.remove('activecopie');
-		}, 1500);
+			// button.classList.remove('activecopie');
+			active_copy = false;
+		}, 1000);
 	};
 </script>
 
@@ -35,7 +40,12 @@
 				{/if}
 				<div class="spruchcard-copy-container" on:click={() => copyCardText(index)}>
 					<button class="spruchcard-copy-button">
-						<div class="spruchcard-copy-copied-weitere">kopiert</div>
+						<!-- <div class="spruchcard-copy-copied-weitere">kopiert</div> -->
+						<!-- {#if active_copy && index === index}
+							<div transition:fly={{ y: 10, duration: 1000 }} class="spruchcard-copy-animation">
+								<Kopiert />
+							</div>
+						{/if} -->
 						<img class="spruchcard-copy-svg" src="/svg/copy.svg" alt="copy" />
 						<span class="spruchcard-copy-span">Kopieren</span>
 					</button>
@@ -62,6 +72,12 @@
 	.ws-second {
 		width: 100%;
 		padding: 0 1vw;
+	}
+
+	.spruchcard-copy-animation {
+		position: absolute;
+		top: -2.5vw;
+		left: -0.25vw;
 	}
 
 	.ws-h2 {
@@ -203,8 +219,12 @@
 		}
 
 		.ws-second {
-
 			padding: 0;
+		}
+
+		.spruchcard-copy-animation {
+			top: -10vw;
+			left: 1vw;
 		}
 
 		.ws-loop {

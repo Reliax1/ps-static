@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 
 	import 'lazysizes';
-	import Kopiert from '../core/Kopiert.svelte';
+	import Kopiert from '$lib/core/Kopiert.svelte';
 
 	// redeploy
 
