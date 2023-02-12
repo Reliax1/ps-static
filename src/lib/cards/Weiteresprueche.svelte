@@ -7,6 +7,7 @@
 	export let weiteredata;
 
 	let active_copy = false;
+	let active_index;
 	// const debug = () = {
 	//   console.dir(this.weiteresprueche)
 	// }
@@ -16,6 +17,7 @@
 
 		navigator.clipboard.writeText(copyText);
 		// button.classList.add('activecopie');
+		active_index = index;
 		active_copy = true;
 		setTimeout(function () {
 			// button.classList.remove('activecopie');
@@ -41,7 +43,7 @@
 				<div class="spruchcard-copy-container" on:click={() => copyCardText(index)}>
 					<button class="spruchcard-copy-button">
 						<!-- <div class="spruchcard-copy-copied-weitere">kopiert</div> -->
-						{#if active_copy && index === index}
+						{#if active_copy && index === active_index}
 							<div transition:fly={{ y: 10, duration: 1000 }} class="spruchcard-copy-animation">
 								<Kopiert />
 							</div>
