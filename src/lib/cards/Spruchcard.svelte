@@ -6,8 +6,6 @@
 	import 'lazysizes';
 	import Kopiert from '$lib/core/Kopiert.svelte';
 
-	// redeploy
-
 	export let userIsMobile;
 	export let card;
 	export let index;
@@ -17,47 +15,6 @@
 	let hideCopy = false;
 	let active_copy = false;
 
-	const downloadCount = (id, button) => {
-		if (window.location.hostname.includes('perfekterspruch')) {
-			fetch(
-				'https://8xfm8zzg6c.execute-api.eu-central-1.amazonaws.com/dev' + '/putdownloads/' + id,
-				{
-					method: 'PUT',
-					headers: {
-						'Content-Type': 'application/json'
-					},
-					body: JSON.stringify({
-						site: $page.params.slug,
-						sitebutton: button
-					})
-				}
-			);
-		}
-	};
-	const downloadCountDate = (id, index, button) => {
-		if (window.location.hostname.includes('perfekterspruch')) {
-			const date = new Date();
-			const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-			const ISODate = date.toISOString().substring(0, 10);
-			const ISOWeekDay = days[date.getDay()];
-			fetch('https://8xfm8zzg6c.execute-api.eu-central-1.amazonaws.com/dev' + '/putdownloadsdate', {
-				method: 'PUT',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify({
-					site: $page.params.slug,
-					id: id + '/' + ISODate,
-					id2: id,
-					pos: index + 1,
-					isodate: ISODate,
-					isoweekday: ISOWeekDay,
-					sitebutton: button,
-					alldatakey: 'alldata'
-				})
-			});
-		}
-	};
 	const changeTextSize = () => {
 		if (
 			$page.params.slug == 'geburtstagswuensche-freundin' ||
@@ -270,8 +227,6 @@
 					class="spruchcard-copy-container"
 					class:opacity-0={hideCopy}
 					on:click={() => copyCardText(index)}
-					on:click={() => downloadCount(card.id, 'kopies')}
-					on:click={() => downloadCountDate(card.id, index, 'kopies')}
 				>
 					<button class="spruchcard-copy-button">
 						{#if active_copy}
@@ -288,8 +243,6 @@
 				<div
 					class="spruchcard-share-teilen-span"
 					on:click={() => openShare(index, card.text, card.image, card.id)}
-					on:click={() => downloadCount(card.id, 'sharebutton')}
-					on:click={() => downloadCountDate(card.id, index, 'sharebutton')}
 				>
 					<img
 						class="spruchcard-share-teilen-share-svg"
@@ -305,8 +258,6 @@
 									class:spruchcard-share-transition1={shareOpen && activeIndex == index}
 									on:click={() =>
 										cardDrucken(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`)}
-									on:click={() => downloadCount(card.id, 'drucken')}
-									on:click={() => downloadCountDate(card.id, index, 'drucken')}
 								>
 									<img class="spruchcard-share-svg" src="/svg/printer.svg" alt="printer logo" />
 									<span class="spruchcard-share-svg-text1">Drucken</span>
@@ -316,8 +267,6 @@
 								<li
 									class="spruchcard-share-cointainer"
 									class:spruchcard-share-transition1={shareOpen && activeIndex == index}
-									on:click={() => downloadCount(card.id, 'whatsapp')}
-									on:click={() => downloadCountDate(card.id, index, 'whatsapp')}
 								>
 									<a
 										href="whatsapp://send?text={card.text}"
@@ -333,8 +282,6 @@
 							<li
 								class="spruchcard-share-cointainer"
 								class:spruchcard-share-transition4={shareOpen && activeIndex == index}
-								on:click={() => downloadCount(card.id, 'pinterest')}
-								on:click={() => downloadCountDate(card.id, index, 'pinterest')}
 							>
 								<div
 									data-pin-do="buttonPin"
@@ -359,8 +306,6 @@
 								ref="share5"
 								class="spruchcard-share-cointainer"
 								class:spruchcard-share-transition5={shareOpen && activeIndex == index}
-								on:click={() => downloadCount(card.id, 'facebook')}
-								on:click={() => downloadCountDate(card.id, index, 'facebook')}
 							>
 								<div
 									on:click={() =>
@@ -384,8 +329,6 @@
 				</div>
 				<button
 					class="spruchcard-share-teilen-span"
-					on:click={() => downloadCount(card.id, 'downloads')}
-					on:click={() => downloadCountDate(card.id, index, 'downloads')}
 					on:click={() =>
 						downloadImage(
 							`https://bilder.perfekterspruch.de/download/${card.image}.jpg`,
