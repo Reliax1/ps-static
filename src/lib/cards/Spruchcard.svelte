@@ -271,6 +271,7 @@
 				>
 					<button class="spruchcard-copy-button">
 						<div class="spruchcard-copy-copied">kopiert</div>
+
 						<img class="spruchcard-copy-svg" src="/svg/copy.svg" alt="copy" />
 						<span class="spruchcard-copy-span">Kopieren</span>
 					</button>
@@ -287,82 +288,90 @@
 						src="/svg/share.svg"
 						alt="social media logo"
 					/>
-					<ul class="spruchcard-share-all">
-						{#if !userIsMobile}
-							<li
-								class="spruchcard-share-cointainer"
-								class:spruchcard-share-transition1={shareOpen && activeIndex == index}
-								on:click={() =>
-									cardDrucken(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`)}
-								on:click={() => downloadCount(card.id, 'drucken')}
-								on:click={() => downloadCountDate(card.id, index, 'drucken')}
-							>
-								<img class="spruchcard-share-svg" src="/svg/printer.svg" alt="printer logo" />
-								<span class="spruchcard-share-svg-text1">Drucken</span>
-							</li>
-						{/if}
-						{#if userIsMobile}
-							<li
-								class="spruchcard-share-cointainer"
-								class:spruchcard-share-transition1={shareOpen && activeIndex == index}
-								on:click={() => downloadCount(card.id, 'whatsapp')}
-								on:click={() => downloadCountDate(card.id, index, 'whatsapp')}
-							>
-								<a
-									href="whatsapp://send?text={card.text}"
-									data-action="share/whatsapp/share"
-									target="_blank"
+
+					{#if shareOpen}
+						<ul class="spruchcard-share-all">
+							{#if !userIsMobile}
+								<li
+									class="spruchcard-share-cointainer"
+									class:spruchcard-share-transition1={shareOpen && activeIndex == index}
+									on:click={() =>
+										cardDrucken(`https://bilder.perfekterspruch.de/download/${card.image}.jpg`)}
+									on:click={() => downloadCount(card.id, 'drucken')}
+									on:click={() => downloadCountDate(card.id, index, 'drucken')}
 								>
-									<img class="spruchcard-share-svg" src="/svg/whatsapp.svg" alt="printer logo" />
-								</a>
+									<img class="spruchcard-share-svg" src="/svg/printer.svg" alt="printer logo" />
+									<span class="spruchcard-share-svg-text1">Drucken</span>
+								</li>
+							{/if}
+							{#if userIsMobile}
+								<li
+									class="spruchcard-share-cointainer"
+									class:spruchcard-share-transition1={shareOpen && activeIndex == index}
+									on:click={() => downloadCount(card.id, 'whatsapp')}
+									on:click={() => downloadCountDate(card.id, index, 'whatsapp')}
+								>
+									<a
+										href="whatsapp://send?text={card.text}"
+										data-action="share/whatsapp/share"
+										target="_blank"
+									>
+										<img class="spruchcard-share-svg" src="/svg/whatsapp.svg" alt="printer logo" />
+									</a>
 
-								<span class="spruchcard-share-svg-text2">Whatsapp</span>
+									<span class="spruchcard-share-svg-text2">Whatsapp</span>
+								</li>
+							{/if}
+							<li
+								class="spruchcard-share-cointainer"
+								class:spruchcard-share-transition4={shareOpen && activeIndex == index}
+								on:click={() => downloadCount(card.id, 'pinterest')}
+								on:click={() => downloadCountDate(card.id, index, 'pinterest')}
+							>
+								<div
+									data-pin-do="buttonPin"
+									data-pin-count="above"
+									data-pin-custom="true"
+									data-pin-lang="de"
+									on:click={() =>
+										sharePopup(
+											`https://de.pinterest.com/pin/create/button/?url=https://perfekterspruch.de&media=https://bilder.perfekterspruch.de/download/${card.image}.jpg`
+										)}
+								>
+									<img
+										class="spruchcard-share-svg"
+										src="/svg/pinterest.svg"
+										alt="social media logo"
+									/>
+								</div>
+
+								<span class="spruchcard-share-svg-text4">Pinterest</span>
 							</li>
-						{/if}
-						<li
-							class="spruchcard-share-cointainer"
-							class:spruchcard-share-transition4={shareOpen && activeIndex == index}
-							on:click={() => downloadCount(card.id, 'pinterest')}
-							on:click={() => downloadCountDate(card.id, index, 'pinterest')}
-						>
-							<div
-								data-pin-do="buttonPin"
-								data-pin-count="above"
-								data-pin-custom="true"
-								data-pin-lang="de"
-								on:click={() =>
-									sharePopup(
-										`https://de.pinterest.com/pin/create/button/?url=https://perfekterspruch.de&media=https://bilder.perfekterspruch.de/download/${card.image}.jpg`
-									)}
+							<li
+								ref="share5"
+								class="spruchcard-share-cointainer"
+								class:spruchcard-share-transition5={shareOpen && activeIndex == index}
+								on:click={() => downloadCount(card.id, 'facebook')}
+								on:click={() => downloadCountDate(card.id, index, 'facebook')}
 							>
-								<img
-									class="spruchcard-share-svg"
-									src="/svg/pinterest.svg"
-									alt="social media logo"
-								/>
-							</div>
+								<div
+									on:click={() =>
+										sharePopup(
+											`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fperfekterspruch.de%2F${$page.params.slug}%2F%23${card.id}&title=PerfekterSpruch.de%20-%20Dein%20perfekter%20Spruch%20f%C3%BCr%20jeden%20Anlass&description=${card.text}&quote=${card.text}%20&hashtag=%23spr%C3%BCche`
+										)}
+								>
+									<img
+										class="spruchcard-share-svg"
+										src="/svg/facebook.svg"
+										alt="social media logo"
+									/>
+								</div>
 
-							<span class="spruchcard-share-svg-text4">Pinterest</span>
-						</li>
-						<li
-							ref="share5"
-							class="spruchcard-share-cointainer"
-							class:spruchcard-share-transition5={shareOpen && activeIndex == index}
-							on:click={() => downloadCount(card.id, 'facebook')}
-							on:click={() => downloadCountDate(card.id, index, 'facebook')}
-						>
-							<div
-								on:click={() =>
-									sharePopup(
-										`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fperfekterspruch.de%2F${$page.params.slug}%2F%23${card.id}&title=PerfekterSpruch.de%20-%20Dein%20perfekter%20Spruch%20f%C3%BCr%20jeden%20Anlass&description=${card.text}&quote=${card.text}%20&hashtag=%23spr%C3%BCche`
-									)}
-							>
-								<img class="spruchcard-share-svg" src="/svg/facebook.svg" alt="social media logo" />
-							</div>
+								<span class="spruchcard-share-svg-text5">Facebook</span>
+							</li>
+						</ul>
+					{/if}
 
-							<span class="spruchcard-share-svg-text5">Facebook</span>
-						</li>
-					</ul>
 					<span class="spruchcard-share-text-teilen">Teilen</span>
 				</div>
 				<button
