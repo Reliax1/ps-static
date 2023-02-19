@@ -78,7 +78,8 @@ const config = {
 				'/hoffnung-sprueche',
 				'/sarkastische-sprueche',
 				'/geburtstagswuensche-kollegin',
-				'/glueckwuensche-zur-goldenen-hochzeit'
+				'/glueckwuensche-zur-goldenen-hochzeit',
+				'/erinnerungen-sprueche'
 			]
 		},
 		trailingSlash: 'always'

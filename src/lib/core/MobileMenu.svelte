@@ -173,6 +173,11 @@
 					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/positive-sprueche/">Positive Sprüche</a>
 					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/erinnerungen-sprueche/"
+							>Erinnerungen Sprüche</a
+						>
+					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
 			</li> -->

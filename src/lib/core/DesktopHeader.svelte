@@ -69,6 +69,9 @@
 										<li>
 											<a href="{setUrl}/positive-sprueche/"> Positive Sprüche </a>
 										</li>
+										<li>
+											<a href="{setUrl}/erinnerungen-sprueche/"> Erinnerungen Sprüche </a>
+										</li>
 									</ul>
 								</nav>
 							</div>
