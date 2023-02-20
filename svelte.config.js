@@ -79,7 +79,9 @@ const config = {
 				'/sarkastische-sprueche',
 				'/geburtstagswuensche-kollegin',
 				'/glueckwuensche-zur-goldenen-hochzeit',
-				'/erinnerungen-sprueche'
+				'/erinnerungen-sprueche',
+				'/montagsgruesse',
+				'/dienstagsgruesse'
 			]
 		},
 		trailingSlash: 'always'
