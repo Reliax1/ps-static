@@ -196,6 +196,14 @@
 										<li>
 											<a href="{setUrl}/sonntag-lustig/"> Sonntag lustig </a>
 										</li>
+
+										<li>
+											<a href="{setUrl}/montagsgruesse/"> Montagsgrüße </a>
+										</li>
+
+										<li>
+											<a href="{setUrl}/dienstagsgruesse/"> Dienstagsgrüße </a>
+										</li>
 									</ul>
 								</nav>
 							</div>
