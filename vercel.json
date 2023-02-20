@@ -8,12 +8,5 @@
 			"source": "/stats/api/event/",
 			"destination": "https://p.macheskurz.de/api/event"
 		}
-	],
-	"redirects": [
-		{
-			"source": "/schoenen-abend-bilder-fuer-die-seele/",
-			"destination": "/schoenen-abend-bilder/",
-			"permanent": true
-		}
 	]
 }
