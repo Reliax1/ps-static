@@ -81,7 +81,9 @@ const config = {
 				'/glueckwuensche-zur-goldenen-hochzeit',
 				'/erinnerungen-sprueche',
 				'/montagsgruesse',
-				'/dienstagsgruesse'
+				'/dienstagsgruesse',
+				'/mittwochsgruesse',
+				'/donnerstagsgruesse'
 			]
 		},
 		trailingSlash: 'always'

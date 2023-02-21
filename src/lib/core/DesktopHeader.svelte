@@ -204,6 +204,12 @@
 										<li>
 											<a href="{setUrl}/dienstagsgruesse/"> Dienstagsgrüße </a>
 										</li>
+										<li>
+											<a href="{setUrl}/mittwochsgruesse/"> Mittwochsgruesse </a>
+										</li>
+										<li>
+											<a href="{setUrl}/donnerstagsgruesse/"> Donnerstagsgruesse </a>
+										</li>
 									</ul>
 								</nav>
 							</div>

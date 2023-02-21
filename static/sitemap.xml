@@ -346,6 +346,16 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://perfekterspruch.de/mittwochsgruesse/</loc>
+        <lastmod>2023-02-21T09:11:01.849Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://perfekterspruch.de/donnerstagsgruesse/</loc>
+        <lastmod>2023-02-21T13:20:01.849Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://perfekterspruch.de/</loc>
         <lastmod>2022-12-01T03:44:11.280Z</lastmod>
         <priority>1.00</priority>
