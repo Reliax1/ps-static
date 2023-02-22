@@ -83,7 +83,9 @@ const config = {
 				'/montagsgruesse',
 				'/dienstagsgruesse',
 				'/mittwochsgruesse',
-				'/donnerstagsgruesse'
+				'/donnerstagsgruesse',
+				'/freitagsgruesse',
+				'/samstagsgruesse'
 			]
 		},
 		trailingSlash: 'always'

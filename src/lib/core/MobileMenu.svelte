@@ -339,6 +339,14 @@
 						<a on:click={closeMobileStore} href="{setUrl}/donnerstagsgruesse/">Donnerstagsgruesse</a
 						>
 					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/freitagsgruesse/">Freitagsgruesse</a
+						>
+					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/samstagsgruesse/">Samstagsgruesse</a
+						>
+					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
 			</li> -->
