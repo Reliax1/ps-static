@@ -200,21 +200,20 @@
 										<li>
 											<a href="{setUrl}/montagsgruesse/"> Montagsgrüße </a>
 										</li>
-
 										<li>
 											<a href="{setUrl}/dienstagsgruesse/"> Dienstagsgrüße </a>
 										</li>
 										<li>
-											<a href="{setUrl}/mittwochsgruesse/"> Mittwochsgruesse </a>
+											<a href="{setUrl}/mittwochsgruesse/"> Mittwochsgrüße </a>
 										</li>
 										<li>
-											<a href="{setUrl}/donnerstagsgruesse/"> Donnerstagsgruesse </a>
+											<a href="{setUrl}/donnerstagsgruesse/"> Donnerstagsgrüße </a>
 										</li>
 										<li>
-											<a href="{setUrl}/freitagsgruesse/"> Freitagsgruesse </a>
+											<a href="{setUrl}/freitagsgruesse/"> Freitagsgrüße </a>
 										</li>
 										<li>
-											<a href="{setUrl}/samstagsgruesse/"> Samstagsgruesse </a>
+											<a href="{setUrl}/samstagsgruesse/"> Samstagsgrüße </a>
 										</li>
 									</ul>
 								</nav>

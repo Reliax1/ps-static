@@ -333,19 +333,16 @@
 						<a on:click={closeMobileStore} href="{setUrl}/dienstagsgruesse/">Dienstagsgrüße</a>
 					</li>
 					<li class="menu-li">
-						<a on:click={closeMobileStore} href="{setUrl}/mittwochsgruesse/">Mittwochsgruesse</a>
+						<a on:click={closeMobileStore} href="{setUrl}/mittwochsgruesse/">Mittwochsgrüße</a>
 					</li>
 					<li class="menu-li">
-						<a on:click={closeMobileStore} href="{setUrl}/donnerstagsgruesse/">Donnerstagsgruesse</a
-						>
+						<a on:click={closeMobileStore} href="{setUrl}/donnerstagsgruesse/">Donnerstagsgrüße</a>
 					</li>
 					<li class="menu-li">
-						<a on:click={closeMobileStore} href="{setUrl}/freitagsgruesse/">Freitagsgruesse</a
-						>
+						<a on:click={closeMobileStore} href="{setUrl}/freitagsgruesse/">Freitagsgrüße</a>
 					</li>
 					<li class="menu-li">
-						<a on:click={closeMobileStore} href="{setUrl}/samstagsgruesse/">Samstagsgruesse</a
-						>
+						<a on:click={closeMobileStore} href="{setUrl}/samstagsgruesse/">Samstagsgrüße</a>
 					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
