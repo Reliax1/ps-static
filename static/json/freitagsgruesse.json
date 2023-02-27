@@ -1,755 +1,819 @@
 {
-  "h1title": "Freitagsgrüße",
-  "metatitel": "150 Freitagsgrüße mit Bildern zum herunterladen (2023)",
-  "metacontent": "150 Freitagsgrüße ✓ Kostenlose Bilder 🖼️ ✓ Zum Herunterladen & Kopieren ✓ Kein langes Suchen ✓ Schnell den perfekten Spruch finden ✓",
-  "othersites": [
-    {
-      "image": "guten-morgen-freitag-seite",
-      "header": "Guten Morgen Freitag",
-      "slug": "https://perfekterspruch.de/guten-morgen-freitag/"
-    },
-    {
-      "image": "schoenes-wochenende-bilder-seite",
-      "header": "Schönes Wochenende Bilder",
-      "slug": "https://perfekterspruch.de/schoenes-wochenende-bilder/"
-    },
-    {
-      "image": "gute-sprueche-seite",
-      "header": "Spruch des Tages",
-      "slug": "https://perfekterspruch.de/spruch-des-tages/"
-    },
-    {
-      "image": "schoenen-samstag-seite",
-      "header": "Schönen Samstag",
-      "slug": "https://perfekterspruch.de/schoenen-samstag/"
-    }
-  ],
-  "spruchcarddata": [
-    {
-      "id": "164001",
-      "image": "freitagsgruesse/freitagsgruesse",
-      "text": "Der Freitag ist da, die Woche geht zu Ende und es ist Zeit loszulassen und das Wochenende zu genießen!",
-      "author": null
-    },
-    {
-      "id": "164002",
-      "image": "freitagsgruesse/freitagsgruesse-bilder",
-      "text": "Mit einem Lächeln auf dem Gesicht in den Freitag starten – es wird ein toller Tag!",
-      "author": null
-    },
-    {
-      "id": "164003",
-      "image": "freitagsgruesse/freitagsgruesse-kostenlos",
-      "text": "Genieße den Freitag, er hat so viel zu bieten: Entspannung, Abenteuer und Freude!",
-      "author": null
-    },
-    {
-      "id": "164004",
-      "image": "freitagsgruesse/freitagsgruesse-4",
-      "text": "Heute ist der Tag des Glücks – lasst uns alle feiern! Es ist Freitag!",
-      "author": null
-    },
-    {
-      "id": "164005",
-      "image": "freitagsgruesse/freitagsgruesse-5",
-      "text": "Lasst uns an diesem Freitag all unsere Sorgen vergessen und uns auf das bevorstehende Wochenende freuen!",
-      "author": null
-    },
-    {
-      "id": "164006",
-      "image": "freitagsgruesse/freitagsgruesse-lustig",
-      "text": "Heut lacht die Sonne, heut lacht das Herz - Happy Friday jeder für sich!",
-      "author": null
-    },
-    {
-      "id": "164007",
-      "image": "freitagsgruesse/freitagsgruesse-7",
-      "text": "Der Freitag schenkt dir Erholung und Ruhe - nimm dir die Zeit für dich selbst und deine Liebsten.",
-      "author": null
-    },
-    {
-      "id": "164008",
-      "image": "freitagsgruesse/freitagsgruesse-8",
-      "text": "Genieße den Tag, lasse ihn nicht ungenutzt verstreichen - er wird bald vorbei sein!",
-      "author": null
-    },
-    {
-      "id": "164009",
-      "image": "freitagsgruesse/freitagsgruesse-9",
-      "text": "Heute ist der perfekte Tag, um neue Dinge auszuprobieren - also los gehts!",
-      "author": null
-    },
-    {
-      "id": "164010",
-      "image": "freitagsgruesse/freitagsgruesse-10",
-      "text": "Einen herrlichen Freitag voller schöner Momente wünschen wir dir von Herzen!",
-      "author": null
-    },
-    {
-      "id": "164011",
-      "image": "freitagsgruesse/freitagsgruesse-11",
-      "text": "Genieße den heutigen Tag und freue dich auf ein erfolgreiches Wochenende!",
-      "author": null
-    },
-    {
-      "id": "164012",
-      "image": "freitagsgruesse/freitagsgruesse-12",
-      "text": "Lass deine Sorgen hinter dir und genieße den Freitag!",
-      "author": null
-    },
-    {
-      "id": "164013",
-      "image": "freitagsgruesse/freitagsgruesse-13",
-      "text": "Am Freitag kann man alles schaffen, was man sich vornimmt!",
-      "author": null
-    },
-    {
-      "id": "164014",
-      "image": "freitagsgruesse/freitagsgruesse-14",
-      "text": "Der Freitag ist der Beginn des Wochenendes – also genieß es und mach das Beste draus!",
-      "author": null
-    },
-    {
-      "id": "164015",
-      "image": "freitagsgruesse/freitagsgruesse-15",
-      "text": "Freitagabend steht für Entspannung, Party und Spaß!",
-      "author": null
-    },
-    {
-      "id": "164016",
-      "image": "freitagsgruesse/freitagsgruesse-16",
-      "text": "Sei stolz auf das, was du diese Woche erreicht hast – und feiere einen guten Start ins Wochenende!",
-      "author": null
-    },
-    {
-      "id": "164017",
-      "image": "freitagsgruesse/freitagsgruesse-17",
-      "text": "Es ist Freitag – Zeit für Abenteuer und neue Erfahrungen!",
-      "author": null
-    },
-    {
-      "id": "164018",
-      "image": "freitagsgruesse/freitagsgruesse-18",
-      "text": "Heute ist ein Tag zum Feiern, also lass die guten Zeiten rollen!",
-      "author": null
-    },
-    {
-      "id": "164019",
-      "image": "freitagsgruesse/freitagsgruesse-19",
-      "text": "Schöne Momente am Freitag machen uns neuen Mut für die kommende Woche.",
-      "author": null
-    },
-    {
-      "id": "164020",
-      "image": "freitagsgruesse/freitagsgruesse-20",
-      "text": "Lasse deine Seele baumeln – jetzt ist es an der Zeit, sich zu entspannen und zu genießen!",
-      "author": null
-    },
-    {
-      "id": "164021",
-      "image": "freitagsgruesse/freitagsgruesse-21",
-      "text": "Heute ist Freitag und es ist Zeit, die Woche zu feiern und sich auf das Wochenende vorzubereiten!",
-      "author": null
-    },
-    {
-      "id": "164022",
-      "image": "freitagsgruesse/freitagsgruesse-22",
-      "text": "Genieße den Freitag, als wäre es dein letzter Tag!",
-      "author": null
-    },
-    {
-      "id": "164023",
-      "image": "freitagsgruesse/freitagsgruesse-23",
-      "text": "Neue Möglichkeiten erwarten dich am Freitag - lass deiner Kreativität freien Lauf!",
-      "author": null
-    },
-    {
-      "id": "164024",
-      "image": "freitagsgruesse/freitagsgruesse-24",
-      "text": "Der Freitag ist eine Erinnerung daran, dass wir uns manchmal bemühen müssen, um unser Glück zu finden.",
-      "author": null
-    },
-    {
-      "id": "164025",
-      "image": "freitagsgruesse/freitagsgruesse-25",
-      "text": "Freitags konntest du vergessen, was in der Woche schief gelaufen ist und anfangen neu zu planen!",
-      "author": null
-    },
-    {
-      "id": "164026",
-      "image": "freitagsgruesse/freitagsgruesse-26",
-      "text": "Lache heute Abend, weil du es dir verdient hast – es ist endlich Freitag!",
-      "author": null
-    },
-    {
-      "id": "164027",
-      "image": "freitagsgruesse/freitagsgruesse-27",
-      "text": "Der perfekte Freitag beginnt mit einem guten Frühstück und endet mit einem glücklichen Lächeln!",
-      "author": null
-    },
-    {
-      "id": "164028",
-      "image": "freitagsgruesse/freitagsgruesse-28",
-      "text": "Vergiss nicht, am Freitagabend etwas mehr Zeit für dich selbst zu haben – du hast es dir verdient!",
-      "author": null
-    },
-    {
-      "id": "164029",
-      "image": "freitagsgruesse/freitagsgruesse-29",
-      "text": "Ein langer Freitag bedeutet mehr Zeit zum Entspannen und alle Ziele erreichen!",
-      "author": null
-    },
-    {
-      "id": "164030",
-      "image": "freitagsgruesse/freitagsgruesse-30",
-      "text": "Lass den Stress hinter dir und genieße den wundervollen Tag des Freitags – er wird nicht wiederkommen!",
-      "author": null
-    },
-    {
-      "id": "164031",
-      "image": "freitagsgruesse/freitagsgruesse-31",
-      "text": "Heute ist Freitag, erfreuen wir uns des Augenblicks und machen das Beste daraus!",
-      "author": null
-    },
-    {
-      "id": "164032",
-      "image": "freitagsgruesse/freitagsgruesse-32",
-      "text": "Der Freitag ist ein Tag voller Möglichkeiten - nutze ihn als Inspiration, um deine Träume zu verwirklichen.",
-      "author": null
-    },
-    {
-      "id": "164033",
-      "image": "freitagsgruesse/freitagsgruesse-33",
-      "text": "Es ist Freitag! Genieße den Tag und verschwende keine Zeit - nur weil es Wochenende ist, heißt das noch lange nicht, dass du nicht produktiv sein kannst!",
-      "author": null
-    },
-    {
-      "id": "164034",
-      "image": "freitagsgruesse/freitagsgruesse-34",
-      "text": "Einen schönen Freitag wünsche ich dir! Genieß die Nacht und bereite dich auf ein tolles Wochenende vor!",
-      "author": null
-    },
-    {
-      "id": "164035",
-      "image": "freitagsgruesse/freitagsgruesse-35",
-      "text": "Auf dem Weg ins Wochenende solltest du deine Ängste überwinden und deinem Herzen folgen - du wirst es nicht bereuen!",
-      "author": null
-    },
-    {
-      "id": "164036",
-      "image": "freitagsgruesse/freitagsgruesse-36",
-      "text": "Lasse alle Sorgen hinter dir und genieße den Freitagabend mit deinen Liebsten!",
-      "author": null
-    },
-    {
-      "id": "164037",
-      "image": "freitagsgruesse/freitagsgruesse-37",
-      "text": "Endlich ist der Freitag da - also lass uns feiern und unsere ganze Energie in die Nacht stecken!",
-      "author": null
-    },
-    {
-      "id": "164038",
-      "image": "freitagsgruesse/freitagsgruesse-38",
-      "text": "Lass uns in dieser Nacht alles tanzen was wir mögen und den Moment so richtig genießen!",
-      "author": null
-    },
-    {
-      "id": "164039",
-      "image": "freitagsgruesse/freitagsgruesse-39",
-      "text": "Es ist endlich Freitag, also lausche dem Ticken der Uhr und mach etwas Verrücktes oder Unerwartetes - man weiß ja nie was passiert!",
-      "author": null
-    },
-    {
-      "id": "164040",
-      "image": "freitagsgruesse/freitagsgruesse-40",
-      "text": "Genieße jede Sekunde des anbrechenden Abends und habe Spaß beim Entdecken neuer Horizonte - Happy Friday Night everyone!",
-      "author": null
-    },
-    {
-      "id": "164041",
-      "image": "freitagsgruesse/freitagsgruesse-41",
-      "text": "Genieße den Freitag und mache das Beste aus deinem Tag!",
-      "author": null
-    },
-    {
-      "id": "164042",
-      "image": "freitagsgruesse/freitagsgruesse-42",
-      "text": "Lass die Arbeit zurück und lass dich von Freitagsfreude erfüllen!",
-      "author": null
-    },
-    {
-      "id": "164043",
-      "image": "freitagsgruesse/freitagsgruesse-43",
-      "text": "Es ist Freitag, also feiere jede Sekunde des Tages!",
-      "author": null
-    },
-    {
-      "id": "164044",
-      "image": "freitagsgruesse/freitagsgruesse-44",
-      "text": "Endlich wieder ein Freitag - es ist Zeit für Entspannung und Ruhe!",
-      "author": null
-    },
-    {
-      "id": "164045",
-      "image": "freitagsgruesse/freitagsgruesse-45",
-      "text": "Voller Vorfreude auf ein Wochenende voller schöner Momente!",
-      "author": null
-    },
-    {
-      "id": "164046",
-      "image": "freitagsgruesse/freitagsgruesse-46",
-      "text": "Lasse deine Gedanken frei fliegen und genieße den Tag in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "164047",
-      "image": "freitagsgruesse/freitagsgruesse-47",
-      "text": "Heute ist Freitag - lasse Dich vom Glück des Wochenendes erfüllen!",
-      "author": null
-    },
-    {
-      "id": "164048",
-      "image": "freitagsgruesse/freitagsgruesse-48",
-      "text": "Vergiss die Sorgen und vergib Dir selbst, es ist der perfekte Tag dazu!",
-      "author": null
-    },
-    {
-      "id": "164049",
-      "image": "freitagsgruesse/freitagsgruesse-49",
-      "text": "Mache etwas Besonderes an diesem besonderen Tag - es ist schließlich Freitag!",
-      "author": null
-    },
-    {
-      "id": "164050",
-      "image": "freitagsgruesse/freitagsgruesse-50",
-      "text": "Der Beginn eines neuen Abenteuers - genieße den Freitag mit allem was du hast!",
-      "author": null
-    }
-  ],
-  "weiteredata": [
-    { "id": "164051", "text": "Genieße den Freitag – sei gesellig, sei fröhlich, sei glücklich!", "author": null },
-    { "id": "164052", "text": "Der Freitag ist der Tag der Freude und des Glücks!", "author": null },
-    { "id": "164053", "text": "Genieße die Freude des Wochenendes am Freitag!", "author": null },
-    { "id": "164054", "text": "Heute ist ein Tag zum Feiern und Tanzen – es ist endlich Freitag!", "author": null },
-    { "id": "164055", "text": "Lasse die Sorgen des Tages hinter dir und lächle am Freitag!", "author": null },
-    {
-      "id": "164056",
-      "text": "Ein neuer Tag beginnt, lass uns alle gemeinsam schwelgen in den Freuden des Freitags!",
-      "author": null
-    },
-    { "id": "164057", "text": "Komm und feiere den Beginn eines schönen Wochenendes am Freitag!", "author": null },
-    {
-      "id": "164058",
-      "text": "Der perfekte Abend für leckere Cocktails und viel Spaß: Es ist endlich wieder Freitag!",
-      "author": null
-    },
-    {
-      "id": "164059",
-      "text": "Genieße die Ruhe und Entspannung des Wochenendes am heutigen verdienten Freitagabend!",
-      "author": null
-    },
-    {
-      "id": "164060",
-      "text": "Möge der letzte Arbeitstag der Woche von Erfolg und Glück gekrönt sein – Happy Friday everyone!",
-      "author": null
-    },
-    {
-      "id": "164061",
-      "text": "Genieße deinen Freitag mit einem Lächeln auf dem Gesicht und dem Gefühl, dass alles möglich ist!",
-      "author": null
-    },
-    { "id": "164062", "text": "Ein Freitag ist wie ein kleines Wochenende in einem Tag!", "author": null },
-    {
-      "id": "164063",
-      "text": "Heute ist der perfekte Tag, um deine Träume zu verfolgen und deine Ziele zu erreichen!",
-      "author": null
-    },
-    {
-      "id": "164064",
-      "text": "Heute ist der Tag, an dem du etwas anpacken, neue Dinge ausprobieren und alles herumwirbeln kannst!",
-      "author": null
-    },
-    {
-      "id": "164065",
-      "text": "Es gibt kein besseres Gefühl als an einem Freitag guten Grund zur Freude zu haben!",
-      "author": null
-    },
-    {
-      "id": "164066",
-      "text": "Nutze den heutigen Tag, um dich selbst glücklich zu machen und die Welt um dich herum besser zu machen!",
-      "author": null
-    },
-    {
-      "id": "164067",
-      "text": "Heute ist der perfekte Tag, um jemanden zu überraschen oder sich selbst mit etwas Besonderem zu belohnen!",
-      "author": null
-    },
-    {
-      "id": "164068",
-      "text": "Vergiss nicht, dass es heute Freitag ist - also lass uns feiern und unsere Probleme vergessen!",
-      "author": null
-    },
-    {
-      "id": "164069",
-      "text": "Beginne deinen Freitag mit einer positiven Einstellung und du wirst sehen, dass sich alle Dinge für dich fügen werden!",
-      "author": null
-    },
-    {
-      "id": "164070",
-      "text": "Genieße diesen wundervollen Freitag - erinnere dich daran, dass du so viel mehr bist als nur was andere von dir denken!",
-      "author": null
-    },
-    {
-      "id": "164071",
-      "text": "Genieße den heutigen Tag und mache das Beste aus ihm – Alles Gute zum Freitag!",
-      "author": null
-    },
-    {
-      "id": "164072",
-      "text": "Heute ist ein wunderbarer Tag, um neue Dinge zu beginnen und alte Ziele zu erreichen – viel Glück und Erfolg am Freitag!",
-      "author": null
-    },
-    {
-      "id": "164073",
-      "text": "Heute ist der Beginn eines neuen Abenteuers: Genieße deinen Freitag und nutze die Gelegenheit!",
-      "author": null
-    },
-    {
-      "id": "164074",
-      "text": "Heute ist der perfekte Tag, um deine Träume Wirklichkeit werden zu lassen – viel Spaß beim Feiern des Freitags!",
-      "author": null
-    },
-    {
-      "id": "164075",
-      "text": "Lasse dich von dem Glanz des heutigen Tages inspirieren und nimm dir die Zeit, glücklich zu sein – alles Gute am Freitag!",
-      "author": null
-    },
-    {
-      "id": "164076",
-      "text": "Der heutige Tag ist ein besonderer Tag: Nimm dir die Zeit, gönn dir etwas Schönes und hab einen schönen Freitag!",
-      "author": null
-    },
-    {
-      "id": "164077",
-      "text": "Es ist an der Zeit, die Herausforderungen des Tages anzunehmen und sich auf das Positive zu konzentrieren – alles Gute für den Freitag!",
-      "author": null
-    },
-    {
-      "id": "164078",
-      "text": "Egal was du an diesem Tag tust: Vergiss nicht, jede Minute zu genießen - have a nice Friday!",
-      "author": null
-    },
-    {
-      "id": "164079",
-      "text": "Nutze deine Energie sinnvoll und erfreue dich an den Möglichkeiten des heutigen Tages - fröhlichen Freitag wünschen wir dir!",
-      "author": null
-    },
-    {
-      "id": "164080",
-      "text": "Es ist ein neuer Tag mit neuen Chancen - Alles Gute für einen wundervollen Freitag!",
-      "author": null
-    },
-    {
-      "id": "164081",
-      "text": "Genieße den Freitag, denn er ist der perfekte Tag, um die Woche zu verabschieden und sich auf das Wochenende zu freuen!",
-      "author": null
-    },
-    {
-      "id": "164082",
-      "text": "Freitagabend ist ein Grund zum Feiern, die ganze Woche über haben wir es uns verdient!",
-      "author": null
-    },
-    {
-      "id": "164083",
-      "text": "Freitags ist es an der Zeit loszulassen und alles Gute hinter sich zu lassen.",
-      "author": null
-    },
-    {
-      "id": "164084",
-      "text": "Heute ist Freitag – mein Lieblingstag der Woche! Jetzt gibt es keine Ausreden mehr, nur noch Gründe zum Feiern!",
-      "author": null
-    },
-    {
-      "id": "164085",
-      "text": "Lasst uns das Wochenende begrüßen und jeden Tag voll genießen! Happy Friday!",
-      "author": null
-    },
-    { "id": "164086", "text": "Der Freitagabend hat begonnen – feiert ihn mit allem was ihr könnt!", "author": null },
-    {
-      "id": "164087",
-      "text": "Es ist endlich wieder Freitag – lasst uns die Arbeit ruhen lassen und das Wochenende mit Spaß beginnen!",
-      "author": null
-    },
-    {
-      "id": "164088",
-      "text": "Heute ist ein besonderer Tag – heute ist der Tag der Vorfreude auf das Wochenende!",
-      "author": null
-    },
-    {
-      "id": "164089",
-      "text": "Stell dir vor, du hättest alle deine Träume: Heute Abend könntest du sie erfüllen, also mach dich bereit für einen großartigen Freitagabend!",
-      "author": null
-    },
-    {
-      "id": "164090",
-      "text": "Auf in ein neues Abenteuer: Lasst uns den Freitag feiern und die Party steigen lassen!",
-      "author": null
-    },
-    {
-      "id": "164091",
-      "text": "Freitag ist der Tag, an dem wir unsere innere Freude feiern und uns auf das Wochenende freuen!",
-      "author": null
-    },
-    {
-      "id": "164092",
-      "text": "Genieße heute den Tag, als ob es dein letzter wäre und sei dankbar für alles was du hast.",
-      "author": null
-    },
-    {
-      "id": "164093",
-      "text": "Lasse die Liebe zu dir selbst und jeden anderen dein Leben erfüllen und genieße den Freitag!",
-      "author": null
-    },
-    {
-      "id": "164094",
-      "text": "Lache über die kleinen Dinge im Leben, die uns glücklich machen und freue dich auf den Freitagabend!",
-      "author": null
-    },
-    {
-      "id": "164095",
-      "text": "Tanze wie niemand dich sieht und lasse dich vom schönen Freitagsgefühl inspirieren!",
-      "author": null
-    },
-    {
-      "id": "164096",
-      "text": "Schöner Freitag – Zeit zum Entspannen, Lachen, Lieben und einfach mal loslassen!",
-      "author": null
-    },
-    {
-      "id": "164097",
-      "text": "Ein neuer Tag beginnt – Sei begleitet von einem Hauch Glückseligkeit am Freitag!",
-      "author": null
-    },
-    {
-      "id": "164098",
-      "text": "Der Tag ist gekommen – nutze ihn um neue Erinnerungen zu schaffen am Freitag!",
-      "author": null
-    },
-    {
-      "id": "164099",
-      "text": "Wirke Gutes in der Welt – denn positive Gedanken sind heute besonders wichtig am Freitag!",
-      "author": null
-    },
-    {
-      "id": "164100",
-      "text": "Koste den Tag voll aus - mit einem Lächeln auf den Lippen, dem Gefühl des Glücks im Herzen an diesem schönen Freitag !",
-      "author": null
-    },
-    {
-      "id": "164101",
-      "text": "Der Freitag ist ein Tag, an dem man die Woche feiern und sich auf das Wochenende freuen kann!",
-      "author": null
-    },
-    {
-      "id": "164102",
-      "text": "Genieße den Freitag und lass dich von der positiven Energie des Wochenendes inspirieren!",
-      "author": null
-    },
-    {
-      "id": "164103",
-      "text": "Die besten Dinge im Leben kommen nicht am Montag, sondern am Freitag! Genieße das Wochenende!",
-      "author": null
-    },
-    {
-      "id": "164104",
-      "text": "Heute ist Freitag! Zeit zum Feiern und zum Entspannen. Genieße deine Freiheit und deine Ruhepause!",
-      "author": null
-    },
-    {
-      "id": "164105",
-      "text": "Habe einen schönen Freitag voller Glück, Liebe und Erfolg! Genieße jeden Moment des Tages voll aus!",
-      "author": null
-    },
-    {
-      "id": "164106",
-      "text": "Genieße den Freitag mit all seinen Möglichkeiten - nutze die Gelegenheit, um etwas Neues zu lernen oder eine neue Erfahrung zu machen!",
-      "author": null
-    },
-    {
-      "id": "164107",
-      "text": "Guten Morgen, schöner Freitag - es ist Zeit für etwas Spaß und Abenteuer in diesem Wochenende!",
-      "author": null
-    },
-    {
-      "id": "164108",
-      "text": "Der Freitag ist der Tag als Zeichen der Hoffnung und Ermutigung für neue Chancen und Abenteuer im kommenden Wochenende!",
-      "author": null
-    },
-    {
-      "id": "164109",
-      "text": "Nutze den heutigen Tag, um deinem Körper etwas Gutes zu tun; er hole dir dein verdientes Wochenende bereits heute abend!",
-      "author": null
-    },
-    {
-      "id": "164110",
-      "text": "Ein weiteres mal hat uns der schöne Freitag besucht - also nimm dir Zeit für dich selbst und genieße jeden Moment des Tages voll aus!",
-      "author": null
-    },
-    {
-      "id": "164111",
-      "text": "Ein Freitag ist ein Tag, an dem man das Wochenende und alles, was es zu bieten hat, erwartet!",
-      "author": null
-    },
-    {
-      "id": "164112",
-      "text": "Freitag ist der Tag, an dem du deine Sorgen hinter dir lassen und loslassen kannst!",
-      "author": null
-    },
-    { "id": "164113", "text": "Es ist Freitag - Das Wochenende wird toll!", "author": null },
-    { "id": "164114", "text": "Der Freitag ist der Tag des Lachens, Tanzens und der guten Laune!", "author": null },
-    { "id": "164115", "text": "Jeder Tag ist ein Geschenk, aber Freitags ist es noch schöner.", "author": null },
-    {
-      "id": "164116",
-      "text": "Es gibt keinen besseren Weg, das Wochenende zu beginnen als am Freitag mit einem Lächeln.",
-      "author": null
-    },
-    {
-      "id": "164117",
-      "text": "Endlich Freitag! Machs dir gemütlich und genieße die Zeit mit den Menschen, die du liebst.",
-      "author": null
-    },
-    { "id": "164118", "text": "Genieße den Freitag und lasse dich vom Wochenende inspirieren!", "author": null },
-    {
-      "id": "164119",
-      "text": "Heute ist ein großartiger Tag, um Neues zu beginnen und alte Ideen zu verwirklichen.",
-      "author": null
-    },
-    { "id": "164120", "text": "Es ist Freitag! Lass die Party losgehen und die Sorgen hinter dir!", "author": null },
-    {
-      "id": "164121",
-      "text": "Lasse heute Abend den Stress der Arbeitswoche bei einem schönen Abendessen hinter dir.",
-      "author": null
-    },
-    {
-      "id": "164122",
-      "text": "Es ist Freitag, also freue dich auf das, was kommt und genieße jeden Moment davon!",
-      "author": null
-    },
-    { "id": "164123", "text": "Heute ist der perfekte Tag, um deine Träume wahr werden zu lassen!", "author": null },
-    {
-      "id": "164124",
-      "text": "Vergiss die Sorgen der Woche und bereite dich auf ein tolles Wochenende vor!",
-      "author": null
-    },
-    {
-      "id": "164125",
-      "text": "Ein neuer Tag beginnt; nutze ihn, um deinen wildesten Träumen zu folgen!",
-      "author": null
-    },
-    {
-      "id": "164126",
-      "text": "Es ist Zeit für ein paar Tage voller Entspannung und Erholung - es ist Freitag!",
-      "author": null
-    },
-    {
-      "id": "164127",
-      "text": "Genieße den Sonnenschein des Freitags und lache über alles was du willst!",
-      "author": null
-    },
-    {
-      "id": "164128",
-      "text": "Genieße diesen wunderschönen Freitag und lasse die Sonne in dein Herz scheinen!",
-      "author": null
-    },
-    { "id": "164129", "text": "Heute ist ein neuer Tag, lass ihn nicht ohne Lächeln beginnen!", "author": null },
-    { "id": "164130", "text": "Es ist Freitag und Zeit für Wohlfühlmomente!", "author": null },
-    {
-      "id": "164131",
-      "text": "Der Freitag ist der Tag, an dem du die ganze Woche über verdient hast!",
-      "author": null
-    },
-    {
-      "id": "164132",
-      "text": "Der Freitag ist der perfekte Tag, um loszulassen und das Leben zu genießen!",
-      "author": null
-    },
-    { "id": "164133", "text": "An Freitagen trifft man sich zum Feiern und Lachen!", "author": null },
-    {
-      "id": "164134",
-      "text": "Mach deinen Freitag zu einem Tag voller Glückseligkeit und positiver Energie!",
-      "author": null
-    },
-    {
-      "id": "164135",
-      "text": "Heute ist der perfekte Tag, um alle Sorgen hinter dir zu lassen und einfach mal abzuschalten!",
-      "author": null
-    },
-    {
-      "id": "164136",
-      "text": "Sei heute freundlich, glücklich und mache jeden Moment des Tages zu etwas Besonderem!",
-      "author": null
-    },
-    {
-      "id": "164137",
-      "text": "Nutze den heutigen Tag für all das Gute, was dein Leben ausmacht - es gibt nur einen solchen wundervollen Freitag pro Woche!",
-      "author": null
-    },
-    {
-      "id": "164138",
-      "text": "Am Freitag gibts ein Feierabend-Glück: Genieße die Zeit, fühl Dich wohl und zieh Dir was Schönes an!",
-      "author": null
-    },
-    { "id": "164139", "text": "Jeder Freitag ist der Beginn eines neuen Abenteuers!", "author": null },
-    {
-      "id": "164140",
-      "text": "Endlich Freitag – mach Dir selbst ein Geschenk und genieße die Zeit mit Deinen Liebsten!",
-      "author": null
-    },
-    {
-      "id": "164141",
-      "text": "Eine schöne Woche geht zu Ende - freue Dich auf ein verdientes Wochenende voller Entspannung und Erholung!",
-      "author": null
-    },
-    {
-      "id": "164142",
-      "text": "Lasse allen Stress hinter Dir und stürze Dich ins Wochenende - es wird wundervoll!",
-      "author": null
-    },
-    {
-      "id": "164143",
-      "text": "Sei stark für die letzte Arbeitswoche, dann kannst Du am Freitag richtig abfeiern!",
-      "author": null
-    },
-    {
-      "id": "164144",
-      "text": "Heute ist der Tag an dem sich alle Mühe lohnt – begrüße den Freitag mit offenen Armen!",
-      "author": null
-    },
-    {
-      "id": "164145",
-      "text": "Der Freitag ist ein Tag voller Energie und Freude – nutze ihn zum Nachdenken, Entspannen und Relaxen!",
-      "author": null
-    },
-    {
-      "id": "164146",
-      "text": "Es ist soweit: Die letzte Arbeitswoche hat ihr Ende erreicht und das Wochenende steht vor der Tür - juhuuu!!!",
-      "author": null
-    },
-    {
-      "id": "164147",
-      "text": "Genieße den Freitag und lass das Wochenende beginnen - sei glücklich und freue Dich auf tolle Momente!",
-      "author": null
-    },
-    {
-      "id": "164148",
-      "text": "Genieße den Tag! Heute ist Freitag und du hast das ganze Wochenende vor dir, um zu entspannen und die schönen Seiten des Lebens zu genießen.",
-      "author": null
-    },
-    { "id": "164149", "text": "Es ist Freitag! Lass es uns feiern und uns auf das Wochenende freuen!", "author": null },
-    {
-      "id": "164150",
-      "text": "Nutze den Tag und lasse heute etwas Besonderes passieren! Es ist Freitag, mach etwas Spaßiges!",
-      "author": null
-    }
-  ]
+	"h1title": "Freitagsgrüße",
+	"metatitel": "150 Freitagsgrüße mit Bildern zum herunterladen (2023)",
+	"metacontent": "150 Freitagsgrüße ✓ Kostenlose Bilder 🖼️ ✓ Zum Herunterladen & Kopieren ✓ Kein langes Suchen ✓ Schnell den perfekten Spruch finden ✓",
+	"othersites": [
+		{
+			"image": "guten-morgen-freitag-seite",
+			"header": "Guten Morgen Freitag",
+			"slug": "https://perfekterspruch.de/guten-morgen-freitag/"
+		},
+		{
+			"image": "schoenes-wochenende-bilder-seite",
+			"header": "Schönes Wochenende Bilder",
+			"slug": "https://perfekterspruch.de/schoenes-wochenende-bilder/"
+		},
+		{
+			"image": "gute-sprueche-seite",
+			"header": "Spruch des Tages",
+			"slug": "https://perfekterspruch.de/spruch-des-tages/"
+		},
+		{
+			"image": "schoenen-samstag-seite",
+			"header": "Schönen Samstag",
+			"slug": "https://perfekterspruch.de/schoenen-samstag/"
+		}
+	],
+	"spruchcarddata": [
+		{
+			"id": "169001",
+			"image": "freitagsgruesse/freitagsgruesse",
+			"text": "Der Freitag ist da, die Woche geht zu Ende und es ist Zeit loszulassen und das Wochenende zu genießen!",
+			"author": null
+		},
+		{
+			"id": "169002",
+			"image": "freitagsgruesse/freitagsgruesse-bilder",
+			"text": "Mit einem Lächeln auf dem Gesicht in den Freitag starten – es wird ein toller Tag!",
+			"author": null
+		},
+		{
+			"id": "169003",
+			"image": "freitagsgruesse/freitagsgruesse-kostenlos",
+			"text": "Genieße den Freitag, er hat so viel zu bieten: Entspannung, Abenteuer und Freude!",
+			"author": null
+		},
+		{
+			"id": "169004",
+			"image": "freitagsgruesse/freitagsgruesse-4",
+			"text": "Heute ist der Tag des Glücks – lasst uns alle feiern! Es ist Freitag!",
+			"author": null
+		},
+		{
+			"id": "169005",
+			"image": "freitagsgruesse/freitagsgruesse-5",
+			"text": "Lasst uns an diesem Freitag all unsere Sorgen vergessen und uns auf das bevorstehende Wochenende freuen!",
+			"author": null
+		},
+		{
+			"id": "169006",
+			"image": "freitagsgruesse/freitagsgruesse-lustig",
+			"text": "Heut lacht die Sonne, heut lacht das Herz - Happy Friday jeder für sich!",
+			"author": null
+		},
+		{
+			"id": "169007",
+			"image": "freitagsgruesse/freitagsgruesse-7",
+			"text": "Der Freitag schenkt dir Erholung und Ruhe - nimm dir die Zeit für dich selbst und deine Liebsten.",
+			"author": null
+		},
+		{
+			"id": "169008",
+			"image": "freitagsgruesse/freitagsgruesse-8",
+			"text": "Genieße den Tag, lasse ihn nicht ungenutzt verstreichen - er wird bald vorbei sein!",
+			"author": null
+		},
+		{
+			"id": "169009",
+			"image": "freitagsgruesse/freitagsgruesse-9",
+			"text": "Heute ist der perfekte Tag, um neue Dinge auszuprobieren - also los gehts!",
+			"author": null
+		},
+		{
+			"id": "169010",
+			"image": "freitagsgruesse/freitagsgruesse-10",
+			"text": "Einen herrlichen Freitag voller schöner Momente wünschen wir dir von Herzen!",
+			"author": null
+		},
+		{
+			"id": "169011",
+			"image": "freitagsgruesse/freitagsgruesse-11",
+			"text": "Genieße den heutigen Tag und freue dich auf ein erfolgreiches Wochenende!",
+			"author": null
+		},
+		{
+			"id": "169012",
+			"image": "freitagsgruesse/freitagsgruesse-12",
+			"text": "Lass deine Sorgen hinter dir und genieße den Freitag!",
+			"author": null
+		},
+		{
+			"id": "169013",
+			"image": "freitagsgruesse/freitagsgruesse-13",
+			"text": "Am Freitag kann man alles schaffen, was man sich vornimmt!",
+			"author": null
+		},
+		{
+			"id": "169014",
+			"image": "freitagsgruesse/freitagsgruesse-14",
+			"text": "Der Freitag ist der Beginn des Wochenendes – also genieß es und mach das Beste draus!",
+			"author": null
+		},
+		{
+			"id": "169015",
+			"image": "freitagsgruesse/freitagsgruesse-15",
+			"text": "Freitagabend steht für Entspannung, Party und Spaß!",
+			"author": null
+		},
+		{
+			"id": "169016",
+			"image": "freitagsgruesse/freitagsgruesse-16",
+			"text": "Sei stolz auf das, was du diese Woche erreicht hast – und feiere einen guten Start ins Wochenende!",
+			"author": null
+		},
+		{
+			"id": "169017",
+			"image": "freitagsgruesse/freitagsgruesse-17",
+			"text": "Es ist Freitag – Zeit für Abenteuer und neue Erfahrungen!",
+			"author": null
+		},
+		{
+			"id": "169018",
+			"image": "freitagsgruesse/freitagsgruesse-18",
+			"text": "Heute ist ein Tag zum Feiern, also lass die guten Zeiten rollen!",
+			"author": null
+		},
+		{
+			"id": "169019",
+			"image": "freitagsgruesse/freitagsgruesse-19",
+			"text": "Schöne Momente am Freitag machen uns neuen Mut für die kommende Woche.",
+			"author": null
+		},
+		{
+			"id": "169020",
+			"image": "freitagsgruesse/freitagsgruesse-20",
+			"text": "Lasse deine Seele baumeln – jetzt ist es an der Zeit, sich zu entspannen und zu genießen!",
+			"author": null
+		},
+		{
+			"id": "169021",
+			"image": "freitagsgruesse/freitagsgruesse-21",
+			"text": "Heute ist Freitag und es ist Zeit, die Woche zu feiern und sich auf das Wochenende vorzubereiten!",
+			"author": null
+		},
+		{
+			"id": "169022",
+			"image": "freitagsgruesse/freitagsgruesse-22",
+			"text": "Genieße den Freitag, als wäre es dein letzter Tag!",
+			"author": null
+		},
+		{
+			"id": "169023",
+			"image": "freitagsgruesse/freitagsgruesse-23",
+			"text": "Neue Möglichkeiten erwarten dich am Freitag - lass deiner Kreativität freien Lauf!",
+			"author": null
+		},
+		{
+			"id": "169024",
+			"image": "freitagsgruesse/freitagsgruesse-24",
+			"text": "Der Freitag ist eine Erinnerung daran, dass wir uns manchmal bemühen müssen, um unser Glück zu finden.",
+			"author": null
+		},
+		{
+			"id": "169025",
+			"image": "freitagsgruesse/freitagsgruesse-25",
+			"text": "Freitags konntest du vergessen, was in der Woche schief gelaufen ist und anfangen neu zu planen!",
+			"author": null
+		},
+		{
+			"id": "169026",
+			"image": "freitagsgruesse/freitagsgruesse-26",
+			"text": "Lache heute Abend, weil du es dir verdient hast – es ist endlich Freitag!",
+			"author": null
+		},
+		{
+			"id": "169027",
+			"image": "freitagsgruesse/freitagsgruesse-27",
+			"text": "Der perfekte Freitag beginnt mit einem guten Frühstück und endet mit einem glücklichen Lächeln!",
+			"author": null
+		},
+		{
+			"id": "169028",
+			"image": "freitagsgruesse/freitagsgruesse-28",
+			"text": "Vergiss nicht, am Freitagabend etwas mehr Zeit für dich selbst zu haben – du hast es dir verdient!",
+			"author": null
+		},
+		{
+			"id": "169029",
+			"image": "freitagsgruesse/freitagsgruesse-29",
+			"text": "Ein langer Freitag bedeutet mehr Zeit zum Entspannen und alle Ziele erreichen!",
+			"author": null
+		},
+		{
+			"id": "169030",
+			"image": "freitagsgruesse/freitagsgruesse-30",
+			"text": "Lass den Stress hinter dir und genieße den wundervollen Tag des Freitags – er wird nicht wiederkommen!",
+			"author": null
+		},
+		{
+			"id": "169031",
+			"image": "freitagsgruesse/freitagsgruesse-31",
+			"text": "Heute ist Freitag, erfreuen wir uns des Augenblicks und machen das Beste daraus!",
+			"author": null
+		},
+		{
+			"id": "169032",
+			"image": "freitagsgruesse/freitagsgruesse-32",
+			"text": "Der Freitag ist ein Tag voller Möglichkeiten - nutze ihn als Inspiration, um deine Träume zu verwirklichen.",
+			"author": null
+		},
+		{
+			"id": "169033",
+			"image": "freitagsgruesse/freitagsgruesse-33",
+			"text": "Es ist Freitag! Genieße den Tag und verschwende keine Zeit - nur weil es Wochenende ist, heißt das noch lange nicht, dass du nicht produktiv sein kannst!",
+			"author": null
+		},
+		{
+			"id": "169034",
+			"image": "freitagsgruesse/freitagsgruesse-34",
+			"text": "Einen schönen Freitag wünsche ich dir! Genieß die Nacht und bereite dich auf ein tolles Wochenende vor!",
+			"author": null
+		},
+		{
+			"id": "169035",
+			"image": "freitagsgruesse/freitagsgruesse-35",
+			"text": "Auf dem Weg ins Wochenende solltest du deine Ängste überwinden und deinem Herzen folgen - du wirst es nicht bereuen!",
+			"author": null
+		},
+		{
+			"id": "169036",
+			"image": "freitagsgruesse/freitagsgruesse-36",
+			"text": "Lasse alle Sorgen hinter dir und genieße den Freitagabend mit deinen Liebsten!",
+			"author": null
+		},
+		{
+			"id": "169037",
+			"image": "freitagsgruesse/freitagsgruesse-37",
+			"text": "Endlich ist der Freitag da - also lass uns feiern und unsere ganze Energie in die Nacht stecken!",
+			"author": null
+		},
+		{
+			"id": "169038",
+			"image": "freitagsgruesse/freitagsgruesse-38",
+			"text": "Lass uns in dieser Nacht alles tanzen was wir mögen und den Moment so richtig genießen!",
+			"author": null
+		},
+		{
+			"id": "169039",
+			"image": "freitagsgruesse/freitagsgruesse-39",
+			"text": "Es ist endlich Freitag, also lausche dem Ticken der Uhr und mach etwas Verrücktes oder Unerwartetes - man weiß ja nie was passiert!",
+			"author": null
+		},
+		{
+			"id": "169040",
+			"image": "freitagsgruesse/freitagsgruesse-40",
+			"text": "Genieße jede Sekunde des anbrechenden Abends und habe Spaß beim Entdecken neuer Horizonte - Happy Friday Night everyone!",
+			"author": null
+		},
+		{
+			"id": "169041",
+			"image": "freitagsgruesse/freitagsgruesse-41",
+			"text": "Genieße den Freitag und mache das Beste aus deinem Tag!",
+			"author": null
+		},
+		{
+			"id": "169042",
+			"image": "freitagsgruesse/freitagsgruesse-42",
+			"text": "Lass die Arbeit zurück und lass dich von Freitagsfreude erfüllen!",
+			"author": null
+		},
+		{
+			"id": "169043",
+			"image": "freitagsgruesse/freitagsgruesse-43",
+			"text": "Es ist Freitag, also feiere jede Sekunde des Tages!",
+			"author": null
+		},
+		{
+			"id": "169044",
+			"image": "freitagsgruesse/freitagsgruesse-44",
+			"text": "Endlich wieder ein Freitag - es ist Zeit für Entspannung und Ruhe!",
+			"author": null
+		},
+		{
+			"id": "169045",
+			"image": "freitagsgruesse/freitagsgruesse-45",
+			"text": "Voller Vorfreude auf ein Wochenende voller schöner Momente!",
+			"author": null
+		},
+		{
+			"id": "169046",
+			"image": "freitagsgruesse/freitagsgruesse-46",
+			"text": "Lasse deine Gedanken frei fliegen und genieße den Tag in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "169047",
+			"image": "freitagsgruesse/freitagsgruesse-47",
+			"text": "Heute ist Freitag - lasse Dich vom Glück des Wochenendes erfüllen!",
+			"author": null
+		},
+		{
+			"id": "169048",
+			"image": "freitagsgruesse/freitagsgruesse-48",
+			"text": "Vergiss die Sorgen und vergib Dir selbst, es ist der perfekte Tag dazu!",
+			"author": null
+		},
+		{
+			"id": "169049",
+			"image": "freitagsgruesse/freitagsgruesse-49",
+			"text": "Mache etwas Besonderes an diesem besonderen Tag - es ist schließlich Freitag!",
+			"author": null
+		},
+		{
+			"id": "169050",
+			"image": "freitagsgruesse/freitagsgruesse-50",
+			"text": "Der Beginn eines neuen Abenteuers - genieße den Freitag mit allem was du hast!",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "169051",
+			"text": "Genieße den Freitag – sei gesellig, sei fröhlich, sei glücklich!",
+			"author": null
+		},
+		{
+			"id": "169052",
+			"text": "Der Freitag ist der Tag der Freude und des Glücks!",
+			"author": null
+		},
+		{ "id": "169053", "text": "Genieße die Freude des Wochenendes am Freitag!", "author": null },
+		{
+			"id": "169054",
+			"text": "Heute ist ein Tag zum Feiern und Tanzen – es ist endlich Freitag!",
+			"author": null
+		},
+		{
+			"id": "169055",
+			"text": "Lasse die Sorgen des Tages hinter dir und lächle am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169056",
+			"text": "Ein neuer Tag beginnt, lass uns alle gemeinsam schwelgen in den Freuden des Freitags!",
+			"author": null
+		},
+		{
+			"id": "169057",
+			"text": "Komm und feiere den Beginn eines schönen Wochenendes am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169058",
+			"text": "Der perfekte Abend für leckere Cocktails und viel Spaß: Es ist endlich wieder Freitag!",
+			"author": null
+		},
+		{
+			"id": "169059",
+			"text": "Genieße die Ruhe und Entspannung des Wochenendes am heutigen verdienten Freitagabend!",
+			"author": null
+		},
+		{
+			"id": "169060",
+			"text": "Möge der letzte Arbeitstag der Woche von Erfolg und Glück gekrönt sein – Happy Friday everyone!",
+			"author": null
+		},
+		{
+			"id": "169061",
+			"text": "Genieße deinen Freitag mit einem Lächeln auf dem Gesicht und dem Gefühl, dass alles möglich ist!",
+			"author": null
+		},
+		{
+			"id": "169062",
+			"text": "Ein Freitag ist wie ein kleines Wochenende in einem Tag!",
+			"author": null
+		},
+		{
+			"id": "169063",
+			"text": "Heute ist der perfekte Tag, um deine Träume zu verfolgen und deine Ziele zu erreichen!",
+			"author": null
+		},
+		{
+			"id": "169064",
+			"text": "Heute ist der Tag, an dem du etwas anpacken, neue Dinge ausprobieren und alles herumwirbeln kannst!",
+			"author": null
+		},
+		{
+			"id": "169065",
+			"text": "Es gibt kein besseres Gefühl als an einem Freitag guten Grund zur Freude zu haben!",
+			"author": null
+		},
+		{
+			"id": "169066",
+			"text": "Nutze den heutigen Tag, um dich selbst glücklich zu machen und die Welt um dich herum besser zu machen!",
+			"author": null
+		},
+		{
+			"id": "169067",
+			"text": "Heute ist der perfekte Tag, um jemanden zu überraschen oder sich selbst mit etwas Besonderem zu belohnen!",
+			"author": null
+		},
+		{
+			"id": "169068",
+			"text": "Vergiss nicht, dass es heute Freitag ist - also lass uns feiern und unsere Probleme vergessen!",
+			"author": null
+		},
+		{
+			"id": "169069",
+			"text": "Beginne deinen Freitag mit einer positiven Einstellung und du wirst sehen, dass sich alle Dinge für dich fügen werden!",
+			"author": null
+		},
+		{
+			"id": "169070",
+			"text": "Genieße diesen wundervollen Freitag - erinnere dich daran, dass du so viel mehr bist als nur was andere von dir denken!",
+			"author": null
+		},
+		{
+			"id": "169071",
+			"text": "Genieße den heutigen Tag und mache das Beste aus ihm – Alles Gute zum Freitag!",
+			"author": null
+		},
+		{
+			"id": "169072",
+			"text": "Heute ist ein wunderbarer Tag, um neue Dinge zu beginnen und alte Ziele zu erreichen – viel Glück und Erfolg am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169073",
+			"text": "Heute ist der Beginn eines neuen Abenteuers: Genieße deinen Freitag und nutze die Gelegenheit!",
+			"author": null
+		},
+		{
+			"id": "169074",
+			"text": "Heute ist der perfekte Tag, um deine Träume Wirklichkeit werden zu lassen – viel Spaß beim Feiern des Freitags!",
+			"author": null
+		},
+		{
+			"id": "169075",
+			"text": "Lasse dich von dem Glanz des heutigen Tages inspirieren und nimm dir die Zeit, glücklich zu sein – alles Gute am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169076",
+			"text": "Der heutige Tag ist ein besonderer Tag: Nimm dir die Zeit, gönn dir etwas Schönes und hab einen schönen Freitag!",
+			"author": null
+		},
+		{
+			"id": "169077",
+			"text": "Es ist an der Zeit, die Herausforderungen des Tages anzunehmen und sich auf das Positive zu konzentrieren – alles Gute für den Freitag!",
+			"author": null
+		},
+		{
+			"id": "169078",
+			"text": "Egal was du an diesem Tag tust: Vergiss nicht, jede Minute zu genießen - have a nice Friday!",
+			"author": null
+		},
+		{
+			"id": "169079",
+			"text": "Nutze deine Energie sinnvoll und erfreue dich an den Möglichkeiten des heutigen Tages - fröhlichen Freitag wünschen wir dir!",
+			"author": null
+		},
+		{
+			"id": "169080",
+			"text": "Es ist ein neuer Tag mit neuen Chancen - Alles Gute für einen wundervollen Freitag!",
+			"author": null
+		},
+		{
+			"id": "169081",
+			"text": "Genieße den Freitag, denn er ist der perfekte Tag, um die Woche zu verabschieden und sich auf das Wochenende zu freuen!",
+			"author": null
+		},
+		{
+			"id": "169082",
+			"text": "Freitagabend ist ein Grund zum Feiern, die ganze Woche über haben wir es uns verdient!",
+			"author": null
+		},
+		{
+			"id": "169083",
+			"text": "Freitags ist es an der Zeit loszulassen und alles Gute hinter sich zu lassen.",
+			"author": null
+		},
+		{
+			"id": "169084",
+			"text": "Heute ist Freitag – mein Lieblingstag der Woche! Jetzt gibt es keine Ausreden mehr, nur noch Gründe zum Feiern!",
+			"author": null
+		},
+		{
+			"id": "169085",
+			"text": "Lasst uns das Wochenende begrüßen und jeden Tag voll genießen! Happy Friday!",
+			"author": null
+		},
+		{
+			"id": "169086",
+			"text": "Der Freitagabend hat begonnen – feiert ihn mit allem was ihr könnt!",
+			"author": null
+		},
+		{
+			"id": "169087",
+			"text": "Es ist endlich wieder Freitag – lasst uns die Arbeit ruhen lassen und das Wochenende mit Spaß beginnen!",
+			"author": null
+		},
+		{
+			"id": "169088",
+			"text": "Heute ist ein besonderer Tag – heute ist der Tag der Vorfreude auf das Wochenende!",
+			"author": null
+		},
+		{
+			"id": "169089",
+			"text": "Stell dir vor, du hättest alle deine Träume: Heute Abend könntest du sie erfüllen, also mach dich bereit für einen großartigen Freitagabend!",
+			"author": null
+		},
+		{
+			"id": "169090",
+			"text": "Auf in ein neues Abenteuer: Lasst uns den Freitag feiern und die Party steigen lassen!",
+			"author": null
+		},
+		{
+			"id": "169091",
+			"text": "Freitag ist der Tag, an dem wir unsere innere Freude feiern und uns auf das Wochenende freuen!",
+			"author": null
+		},
+		{
+			"id": "169092",
+			"text": "Genieße heute den Tag, als ob es dein letzter wäre und sei dankbar für alles was du hast.",
+			"author": null
+		},
+		{
+			"id": "169093",
+			"text": "Lasse die Liebe zu dir selbst und jeden anderen dein Leben erfüllen und genieße den Freitag!",
+			"author": null
+		},
+		{
+			"id": "169094",
+			"text": "Lache über die kleinen Dinge im Leben, die uns glücklich machen und freue dich auf den Freitagabend!",
+			"author": null
+		},
+		{
+			"id": "169095",
+			"text": "Tanze wie niemand dich sieht und lasse dich vom schönen Freitagsgefühl inspirieren!",
+			"author": null
+		},
+		{
+			"id": "169096",
+			"text": "Schöner Freitag – Zeit zum Entspannen, Lachen, Lieben und einfach mal loslassen!",
+			"author": null
+		},
+		{
+			"id": "169097",
+			"text": "Ein neuer Tag beginnt – Sei begleitet von einem Hauch Glückseligkeit am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169098",
+			"text": "Der Tag ist gekommen – nutze ihn um neue Erinnerungen zu schaffen am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169099",
+			"text": "Wirke Gutes in der Welt – denn positive Gedanken sind heute besonders wichtig am Freitag!",
+			"author": null
+		},
+		{
+			"id": "169100",
+			"text": "Koste den Tag voll aus - mit einem Lächeln auf den Lippen, dem Gefühl des Glücks im Herzen an diesem schönen Freitag !",
+			"author": null
+		},
+		{
+			"id": "169101",
+			"text": "Der Freitag ist ein Tag, an dem man die Woche feiern und sich auf das Wochenende freuen kann!",
+			"author": null
+		},
+		{
+			"id": "169102",
+			"text": "Genieße den Freitag und lass dich von der positiven Energie des Wochenendes inspirieren!",
+			"author": null
+		},
+		{
+			"id": "169103",
+			"text": "Die besten Dinge im Leben kommen nicht am Montag, sondern am Freitag! Genieße das Wochenende!",
+			"author": null
+		},
+		{
+			"id": "169104",
+			"text": "Heute ist Freitag! Zeit zum Feiern und zum Entspannen. Genieße deine Freiheit und deine Ruhepause!",
+			"author": null
+		},
+		{
+			"id": "169105",
+			"text": "Habe einen schönen Freitag voller Glück, Liebe und Erfolg! Genieße jeden Moment des Tages voll aus!",
+			"author": null
+		},
+		{
+			"id": "169106",
+			"text": "Genieße den Freitag mit all seinen Möglichkeiten - nutze die Gelegenheit, um etwas Neues zu lernen oder eine neue Erfahrung zu machen!",
+			"author": null
+		},
+		{
+			"id": "169107",
+			"text": "Guten Morgen, schöner Freitag - es ist Zeit für etwas Spaß und Abenteuer in diesem Wochenende!",
+			"author": null
+		},
+		{
+			"id": "169108",
+			"text": "Der Freitag ist der Tag als Zeichen der Hoffnung und Ermutigung für neue Chancen und Abenteuer im kommenden Wochenende!",
+			"author": null
+		},
+		{
+			"id": "169109",
+			"text": "Nutze den heutigen Tag, um deinem Körper etwas Gutes zu tun; er hole dir dein verdientes Wochenende bereits heute abend!",
+			"author": null
+		},
+		{
+			"id": "169110",
+			"text": "Ein weiteres mal hat uns der schöne Freitag besucht - also nimm dir Zeit für dich selbst und genieße jeden Moment des Tages voll aus!",
+			"author": null
+		},
+		{
+			"id": "169111",
+			"text": "Ein Freitag ist ein Tag, an dem man das Wochenende und alles, was es zu bieten hat, erwartet!",
+			"author": null
+		},
+		{
+			"id": "169112",
+			"text": "Freitag ist der Tag, an dem du deine Sorgen hinter dir lassen und loslassen kannst!",
+			"author": null
+		},
+		{ "id": "169113", "text": "Es ist Freitag - Das Wochenende wird toll!", "author": null },
+		{
+			"id": "169114",
+			"text": "Der Freitag ist der Tag des Lachens, Tanzens und der guten Laune!",
+			"author": null
+		},
+		{
+			"id": "169115",
+			"text": "Jeder Tag ist ein Geschenk, aber Freitags ist es noch schöner.",
+			"author": null
+		},
+		{
+			"id": "169116",
+			"text": "Es gibt keinen besseren Weg, das Wochenende zu beginnen als am Freitag mit einem Lächeln.",
+			"author": null
+		},
+		{
+			"id": "169117",
+			"text": "Endlich Freitag! Machs dir gemütlich und genieße die Zeit mit den Menschen, die du liebst.",
+			"author": null
+		},
+		{
+			"id": "169118",
+			"text": "Genieße den Freitag und lasse dich vom Wochenende inspirieren!",
+			"author": null
+		},
+		{
+			"id": "169119",
+			"text": "Heute ist ein großartiger Tag, um Neues zu beginnen und alte Ideen zu verwirklichen.",
+			"author": null
+		},
+		{
+			"id": "169120",
+			"text": "Es ist Freitag! Lass die Party losgehen und die Sorgen hinter dir!",
+			"author": null
+		},
+		{
+			"id": "169121",
+			"text": "Lasse heute Abend den Stress der Arbeitswoche bei einem schönen Abendessen hinter dir.",
+			"author": null
+		},
+		{
+			"id": "169122",
+			"text": "Es ist Freitag, also freue dich auf das, was kommt und genieße jeden Moment davon!",
+			"author": null
+		},
+		{
+			"id": "169123",
+			"text": "Heute ist der perfekte Tag, um deine Träume wahr werden zu lassen!",
+			"author": null
+		},
+		{
+			"id": "169124",
+			"text": "Vergiss die Sorgen der Woche und bereite dich auf ein tolles Wochenende vor!",
+			"author": null
+		},
+		{
+			"id": "169125",
+			"text": "Ein neuer Tag beginnt; nutze ihn, um deinen wildesten Träumen zu folgen!",
+			"author": null
+		},
+		{
+			"id": "169126",
+			"text": "Es ist Zeit für ein paar Tage voller Entspannung und Erholung - es ist Freitag!",
+			"author": null
+		},
+		{
+			"id": "169127",
+			"text": "Genieße den Sonnenschein des Freitags und lache über alles was du willst!",
+			"author": null
+		},
+		{
+			"id": "169128",
+			"text": "Genieße diesen wunderschönen Freitag und lasse die Sonne in dein Herz scheinen!",
+			"author": null
+		},
+		{
+			"id": "169129",
+			"text": "Heute ist ein neuer Tag, lass ihn nicht ohne Lächeln beginnen!",
+			"author": null
+		},
+		{ "id": "169130", "text": "Es ist Freitag und Zeit für Wohlfühlmomente!", "author": null },
+		{
+			"id": "169131",
+			"text": "Der Freitag ist der Tag, an dem du die ganze Woche über verdient hast!",
+			"author": null
+		},
+		{
+			"id": "169132",
+			"text": "Der Freitag ist der perfekte Tag, um loszulassen und das Leben zu genießen!",
+			"author": null
+		},
+		{
+			"id": "169133",
+			"text": "An Freitagen trifft man sich zum Feiern und Lachen!",
+			"author": null
+		},
+		{
+			"id": "169134",
+			"text": "Mach deinen Freitag zu einem Tag voller Glückseligkeit und positiver Energie!",
+			"author": null
+		},
+		{
+			"id": "169135",
+			"text": "Heute ist der perfekte Tag, um alle Sorgen hinter dir zu lassen und einfach mal abzuschalten!",
+			"author": null
+		},
+		{
+			"id": "169136",
+			"text": "Sei heute freundlich, glücklich und mache jeden Moment des Tages zu etwas Besonderem!",
+			"author": null
+		},
+		{
+			"id": "169137",
+			"text": "Nutze den heutigen Tag für all das Gute, was dein Leben ausmacht - es gibt nur einen solchen wundervollen Freitag pro Woche!",
+			"author": null
+		},
+		{
+			"id": "169138",
+			"text": "Am Freitag gibts ein Feierabend-Glück: Genieße die Zeit, fühl Dich wohl und zieh Dir was Schönes an!",
+			"author": null
+		},
+		{
+			"id": "169139",
+			"text": "Jeder Freitag ist der Beginn eines neuen Abenteuers!",
+			"author": null
+		},
+		{
+			"id": "169140",
+			"text": "Endlich Freitag – mach Dir selbst ein Geschenk und genieße die Zeit mit Deinen Liebsten!",
+			"author": null
+		},
+		{
+			"id": "169141",
+			"text": "Eine schöne Woche geht zu Ende - freue Dich auf ein verdientes Wochenende voller Entspannung und Erholung!",
+			"author": null
+		},
+		{
+			"id": "169142",
+			"text": "Lasse allen Stress hinter Dir und stürze Dich ins Wochenende - es wird wundervoll!",
+			"author": null
+		},
+		{
+			"id": "169143",
+			"text": "Sei stark für die letzte Arbeitswoche, dann kannst Du am Freitag richtig abfeiern!",
+			"author": null
+		},
+		{
+			"id": "169144",
+			"text": "Heute ist der Tag an dem sich alle Mühe lohnt – begrüße den Freitag mit offenen Armen!",
+			"author": null
+		},
+		{
+			"id": "169145",
+			"text": "Der Freitag ist ein Tag voller Energie und Freude – nutze ihn zum Nachdenken, Entspannen und Relaxen!",
+			"author": null
+		},
+		{
+			"id": "169146",
+			"text": "Es ist soweit: Die letzte Arbeitswoche hat ihr Ende erreicht und das Wochenende steht vor der Tür - juhuuu!!!",
+			"author": null
+		},
+		{
+			"id": "169147",
+			"text": "Genieße den Freitag und lass das Wochenende beginnen - sei glücklich und freue Dich auf tolle Momente!",
+			"author": null
+		},
+		{
+			"id": "169148",
+			"text": "Genieße den Tag! Heute ist Freitag und du hast das ganze Wochenende vor dir, um zu entspannen und die schönen Seiten des Lebens zu genießen.",
+			"author": null
+		},
+		{
+			"id": "169149",
+			"text": "Es ist Freitag! Lass es uns feiern und uns auf das Wochenende freuen!",
+			"author": null
+		},
+		{
+			"id": "169150",
+			"text": "Nutze den Tag und lasse heute etwas Besonderes passieren! Es ist Freitag, mach etwas Spaßiges!",
+			"author": null
+		}
+	]
 }

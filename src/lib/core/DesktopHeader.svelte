@@ -72,6 +72,9 @@
 										<li>
 											<a href="{setUrl}/erinnerungen-sprueche/"> Erinnerungen Sprüche </a>
 										</li>
+										<li>
+											<a href="{setUrl}/falsche-menschen-sprueche/"> Falsche Menschen Sprüche </a>
+										</li>
 									</ul>
 								</nav>
 							</div>

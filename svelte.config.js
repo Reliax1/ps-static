@@ -85,7 +85,8 @@ const config = {
 				'/mittwochsgruesse',
 				'/donnerstagsgruesse',
 				'/freitagsgruesse',
-				'/samstagsgruesse'
+				'/samstagsgruesse',
+				'/falsche-menschen-sprueche'
 			]
 		},
 		trailingSlash: 'always'
