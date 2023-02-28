@@ -75,6 +75,9 @@
 										<li>
 											<a href="{setUrl}/falsche-menschen-sprueche/"> Falsche Menschen Sprüche </a>
 										</li>
+										<li>
+											<a href="{setUrl}/loyalitaet-sprueche/"> Loyalität Sprüche </a>
+										</li>
 									</ul>
 								</nav>
 							</div>

@@ -86,7 +86,8 @@ const config = {
 				'/donnerstagsgruesse',
 				'/freitagsgruesse',
 				'/samstagsgruesse',
-				'/falsche-menschen-sprueche'
+				'/falsche-menschen-sprueche',
+				'/loyalitaet-sprueche'
 			]
 		},
 		trailingSlash: 'always'

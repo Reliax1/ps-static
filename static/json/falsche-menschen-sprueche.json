@@ -5,12 +5,12 @@
 	"othersites": [
 		{
 			"image": "sprueche-zum-nachdenken-seite",
-			"header": "Sprueche zum Nachdenken",
+			"header": "Sprüche zum Nachdenken",
 			"slug": "https://perfekterspruch.de/sprueche-zum-nachdenken/"
 		},
 		{
 			"image": "weise-sprueche-seite",
-			"header": "Weise Sprueche",
+			"header": "Weise Sprüche",
 			"slug": "https://perfekterspruch.de/weise-sprueche/"
 		},
 		{
@@ -20,7 +20,7 @@
 		},
 		{
 			"image": "kluge-sprueche-seite",
-			"header": "Erinnerungen Sprueche",
+			"header": "Erinnerungen Sprüche",
 			"slug": "https://perfekterspruch.de/erinnerungen-sprueche/"
 		}
 	],
