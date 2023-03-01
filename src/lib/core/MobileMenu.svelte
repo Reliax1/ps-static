@@ -187,6 +187,9 @@
 						<a on:click={closeMobileStore} href="{setUrl}/loyalitaet-sprueche/">Loyalität Sprüche</a
 						>
 					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/schicksal-sprueche/">Schicksal Sprüche</a>
+					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
 			</li> -->

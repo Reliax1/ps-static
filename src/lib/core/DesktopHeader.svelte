@@ -78,6 +78,9 @@
 										<li>
 											<a href="{setUrl}/loyalitaet-sprueche/"> Loyalität Sprüche </a>
 										</li>
+										<li>
+											<a href="{setUrl}/schicksal-sprueche/"> Schicksal Sprüche </a>
+										</li>
 									</ul>
 								</nav>
 							</div>
