@@ -82,7 +82,7 @@
 											<a href="{setUrl}/schicksal-sprueche/"> Schicksal Sprüche </a>
 										</li>
 										<li>
-											<a href="{setUrl}/falsche-freunde-spruche/"> Falsche Freunde Sprüche </a>
+											<a href="{setUrl}/falsche-freunde-sprueche/"> Falsche Freunde Sprüche </a>
 										</li>
 									</ul>
 								</nav>

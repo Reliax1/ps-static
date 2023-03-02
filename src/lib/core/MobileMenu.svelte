@@ -191,7 +191,7 @@
 						<a on:click={closeMobileStore} href="{setUrl}/schicksal-sprueche/">Schicksal Sprüche</a>
 					</li>
 					<li class="menu-li">
-						<a on:click={closeMobileStore} href="{setUrl}/falsche-freunde-spruche/"
+						<a on:click={closeMobileStore} href="{setUrl}/falsche-freunde-sprueche/"
 							>Falsche Freunde Sprüche</a
 						>
 					</li>

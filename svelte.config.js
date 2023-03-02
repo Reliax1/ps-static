@@ -89,7 +89,7 @@ const config = {
 				'/falsche-menschen-sprueche',
 				'/loyalitaet-sprueche',
 				'/schicksal-sprueche',
-				'/falsche-freunde-spruche'
+				'/falsche-freunde-sprueche'
 			]
 		},
 		trailingSlash: 'always'
