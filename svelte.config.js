@@ -88,7 +88,8 @@ const config = {
 				'/samstagsgruesse',
 				'/falsche-menschen-sprueche',
 				'/loyalitaet-sprueche',
-				'/schicksal-sprueche'
+				'/schicksal-sprueche',
+				'/falsche-freunde-spruche'
 			]
 		},
 		trailingSlash: 'always'
