@@ -84,6 +84,9 @@
 										<li>
 											<a href="{setUrl}/falsche-freunde-sprueche/"> Falsche Freunde Sprüche </a>
 										</li>
+										<li>
+											<a href="{setUrl}/einsamkeit-sprueche/"> Einsamkeit Sprüche </a>
+										</li>
 									</ul>
 								</nav>
 							</div>

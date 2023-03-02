@@ -195,6 +195,11 @@
 							>Falsche Freunde Sprüche</a
 						>
 					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/einsamkeit-sprueche/"
+							>Einsamkeit Sprüche</a
+						>
+					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
 			</li> -->
