@@ -297,6 +297,11 @@
 							>Sarkastische Sprüche</a
 						>
 					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/gute-laune-sprueche/"
+							>Gute Laune Sprüche</a
+						>
+					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
 			</li> -->

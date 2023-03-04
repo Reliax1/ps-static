@@ -391,6 +391,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://perfekterspruch.de/gute-laune-sprueche/</loc>
+        <lastmod>2023-03-04T02:10:01.849Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://perfekterspruch.de/</loc>
         <lastmod>2022-12-01T03:44:11.280Z</lastmod>
         <priority>1.00</priority>

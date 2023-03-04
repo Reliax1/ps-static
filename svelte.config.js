@@ -90,7 +90,8 @@ const config = {
 				'/loyalitaet-sprueche',
 				'/schicksal-sprueche',
 				'/falsche-freunde-sprueche',
-				'/einsamkeit-sprueche'
+				'/einsamkeit-sprueche',
+				'/gute-laune-sprueche'
 			]
 		},
 		trailingSlash: 'always'

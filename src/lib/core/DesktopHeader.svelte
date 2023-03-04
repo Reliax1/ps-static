@@ -163,6 +163,10 @@
 											<a href="{setUrl}/sarkastische-sprueche/"> Sarkastische Sprüche </a>
 										</li>
 										<li>
+											<a href="{setUrl}/gute-laune-sprueche/"> Gute Laune Sprüche </a>
+										</li>
+
+										<li>
 											<a href="{setUrl}/spruch-des-tages/"> Spruch des Tages </a>
 										</li>
 
