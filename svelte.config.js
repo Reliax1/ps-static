@@ -91,7 +91,9 @@ const config = {
 				'/schicksal-sprueche',
 				'/falsche-freunde-sprueche',
 				'/einsamkeit-sprueche',
-				'/gute-laune-sprueche'
+				'/gute-laune-sprueche',
+				'/montag-bilder',
+				'/dienstag-bilder'
 			]
 		},
 		trailingSlash: 'always'

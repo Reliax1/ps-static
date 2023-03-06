@@ -234,6 +234,13 @@
 										<li>
 											<a href="{setUrl}/samstagsgruesse/"> Samstagsgrüße </a>
 										</li>
+
+										<li>
+											<a href="{setUrl}/montag-bilder/"> Montag Bilder </a>
+										</li>
+										<li>
+											<a href="{setUrl}/dienstag-bilder/"> Dienstag Bilder </a>
+										</li>
 									</ul>
 								</nav>
 							</div>
