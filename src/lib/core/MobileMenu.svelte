@@ -378,6 +378,9 @@
 					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/dienstag-bilder/">Dienstag Bilder</a>
 					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/donnerstag-bilder/">Donnerstag Bilder</a>
+					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />
 			</li> -->

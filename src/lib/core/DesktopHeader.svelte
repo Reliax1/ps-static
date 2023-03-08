@@ -241,6 +241,9 @@
 										<li>
 											<a href="{setUrl}/dienstag-bilder/"> Dienstag Bilder </a>
 										</li>
+										<li>
+											<a href="{setUrl}/donnerstag-bilder/"> Donnerstag Bilder </a>
+										</li>
 									</ul>
 								</nav>
 							</div>

@@ -93,7 +93,8 @@ const config = {
 				'/einsamkeit-sprueche',
 				'/gute-laune-sprueche',
 				'/montag-bilder',
-				'/dienstag-bilder'
+				'/dienstag-bilder',
+				'/donnerstag-bilder',
 			]
 		},
 		trailingSlash: 'always'
