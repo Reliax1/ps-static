@@ -187,6 +187,9 @@
 										<li>
 											<a href="{setUrl}/gute-nacht-bilder/"> Gute Nacht Bilder </a>
 										</li>
+										<li>
+											<a href="{setUrl}/schoenen-abend-bilder/"> Schönen Abend Bilder </a>
+										</li>
 
 										<li>
 											<a href="{setUrl}/schoenen-samstag/"> Schönen Samstag Sprüche </a>
@@ -194,10 +197,6 @@
 
 										<li>
 											<a href="{setUrl}/schoenen-tag/"> Schönen Tag Sprüche </a>
-										</li>
-
-										<li>
-											<a href="{setUrl}/mittwoch-bilder/"> Mittwoch Bilder </a>
 										</li>
 
 										<li>
@@ -242,7 +241,16 @@
 											<a href="{setUrl}/dienstag-bilder/"> Dienstag Bilder </a>
 										</li>
 										<li>
+											<a href="{setUrl}/mittwoch-bilder/"> Mittwoch Bilder </a>
+										</li>
+										<li>
 											<a href="{setUrl}/donnerstag-bilder/"> Donnerstag Bilder </a>
+										</li>
+										<li>
+											<a href="{setUrl}/freitag-bilder/"> Freitag Bilder </a>
+										</li>
+										<li>
+											<a href="{setUrl}/samstag-bilder/"> Samstag Bilder </a>
 										</li>
 									</ul>
 								</nav>

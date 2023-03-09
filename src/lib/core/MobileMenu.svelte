@@ -327,15 +327,17 @@
 						<a on:click={closeMobileStore} href="{setUrl}/gute-nacht-bilder/">Gute Nacht Bilder</a>
 					</li>
 					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/schoenen-abend-bilder/"
+							>Schönen Abend Bilder</a
+						>
+					</li>
+					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/schoenen-samstag/"
 							>Schönen Samstag Sprüche</a
 						>
 					</li>
 					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/schoenen-tag/">Schönen Tag Sprüche</a>
-					</li>
-					<li class="menu-li">
-						<a on:click={closeMobileStore} href="{setUrl}/mittwoch-bilder/">Mittwoch Bilder</a>
 					</li>
 					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/schoenen-montag/"
@@ -379,7 +381,16 @@
 						<a on:click={closeMobileStore} href="{setUrl}/dienstag-bilder/">Dienstag Bilder</a>
 					</li>
 					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/mittwoch-bilder/">Mittwoch Bilder</a>
+					</li>
+					<li class="menu-li">
 						<a on:click={closeMobileStore} href="{setUrl}/donnerstag-bilder/">Donnerstag Bilder</a>
+					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/freitag-bilder/">Freitag Bilder</a>
+					</li>
+					<li class="menu-li">
+						<a on:click={closeMobileStore} href="{setUrl}/samstag-bilder/">Samstag Bilder</a>
 					</li>
 					<!-- <li class="menu-li-newsletter">
 				<div class="newsletter-placeholder" />

@@ -95,6 +95,8 @@ const config = {
 				'/montag-bilder',
 				'/dienstag-bilder',
 				'/donnerstag-bilder',
+				'/freitag-bilder',
+				'/samstag-bilder'
 			]
 		},
 		trailingSlash: 'always'
