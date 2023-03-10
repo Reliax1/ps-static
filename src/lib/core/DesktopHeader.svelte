@@ -252,6 +252,9 @@
 										<li>
 											<a href="{setUrl}/samstag-bilder/"> Samstag Bilder </a>
 										</li>
+										<li>
+											<a href="{setUrl}/sonntag-bilder/"> Sonntag Bilder </a>
+										</li>
 									</ul>
 								</nav>
 							</div>
