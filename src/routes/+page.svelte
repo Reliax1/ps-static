@@ -1,9 +1,12 @@
 <script>
+	import { dev } from '$app/environment';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import MobileStore from '../stores/MobileStore';
 
 	export let data;
+
+	let setUrl = dev ? 'http://127.0.0.1:5173' : 'https://perfekterspruch.de';
 
 	let index = 0;
 
@@ -11,112 +14,117 @@
 		{
 			id: '1',
 			thema: 'Sprüche zum Nachdenken',
-			slug: 'https://perfekterspruch.de/sprueche-zum-nachdenken/'
+			slug: '/sprueche-zum-nachdenken/'
 		},
 		{
 			id: '2',
 			thema: 'Beziehungssprüche',
-			slug: 'https://perfekterspruch.de/beziehungssprueche/'
+			slug: '/beziehungssprueche/'
 		},
 		{
 			id: '3',
 			thema: 'Karma Sprüche',
-			slug: 'https://perfekterspruch.de/karma-sprueche/'
+			slug: '/karma-sprueche/'
 		},
 		{
 			id: '4',
 			thema: 'Süße Sprüche',
-			slug: 'https://perfekterspruch.de/suesse-sprueche/'
+			slug: '/suesse-sprueche/'
 		},
 		{
 			id: '5',
 			thema: 'Positive Sprüche',
-			slug: 'https://perfekterspruch.de/positive-sprueche/'
+			slug: '/positive-sprueche/'
 		},
 		{
 			id: '6',
 			thema: 'Gute Sprüche',
-			slug: 'https://perfekterspruch.de/gute-sprueche/'
+			slug: '/gute-sprueche/'
 		},
 		{
 			id: '7',
 			thema: 'Kluge Sprüche',
-			slug: 'https://perfekterspruch.de/kluge-sprueche/'
+			slug: '/kluge-sprueche/'
 		},
 		{
 			id: '8',
 			thema: 'Coole Sprüche',
-			slug: 'https://perfekterspruch.de/coole-sprueche/'
+			slug: '/coole-sprueche/'
 		},
 		{
 			id: '9',
 			thema: 'Traurige Sprüche',
-			slug: 'https://perfekterspruch.de/traurige-sprueche/'
+			slug: '/traurige-sprueche/'
 		},
 		{
 			id: '10',
 			thema: 'Weise Sprüche',
-			slug: 'https://perfekterspruch.de/weise-sprueche/'
+			slug: '/weise-sprueche/'
 		},
 		{
 			id: '11',
 			thema: 'Lebensmotto',
-			slug: 'https://perfekterspruch.de/lebensmotto/'
+			slug: '/lebensmotto/'
 		},
 		{
 			id: '22',
 			thema: 'Geburtstagsgrüße',
-			slug: 'https://perfekterspruch.de/geburtstagsgruesse/'
+			slug: '/geburtstagsgruesse/'
 		},
 		{
 			id: '12',
 			thema: 'Gute Nacht Bilder',
-			slug: 'https://perfekterspruch.de/gute-nacht-bilder/'
+			slug: '/gute-nacht-bilder/'
 		},
 		{
 			id: '13',
 			thema: 'Guten Morgen Montag',
-			slug: 'https://perfekterspruch.de/guten-morgen-montag/'
+			slug: '/guten-morgen-montag/'
 		},
 		{
 			id: '14',
 			thema: 'Guten Morgen Dienstag',
-			slug: 'https://perfekterspruch.de/guten-morgen-dienstag/'
+			slug: '/guten-morgen-dienstag/'
 		},
 		{
 			id: '15',
 			thema: 'Guten Morgen Mittwoch',
-			slug: 'https://perfekterspruch.de/guten-morgen-mittwoch/'
+			slug: '/guten-morgen-mittwoch/'
 		},
 		{
 			id: '16',
 			thema: 'Guten Morgen Donnerstag',
-			slug: 'https://perfekterspruch.de/guten-morgen-donnerstag/'
+			slug: '/guten-morgen-donnerstag/'
 		},
 		{
 			id: '17',
 			thema: 'Guten Morgen Freitag',
-			slug: 'https://perfekterspruch.de/guten-morgen-freitag/'
+			slug: '/guten-morgen-freitag/'
 		},
 		{
 			id: '18',
 			thema: 'Guten Morgen Samstag',
-			slug: 'https://perfekterspruch.de/guten-morgen-samstag/'
+			slug: '/guten-morgen-samstag/'
 		},
 		{
 			id: '19',
 			thema: 'Guten Morgen Sonntag',
-			slug: 'https://perfekterspruch.de/guten-morgen-sonntag/'
+			slug: '/guten-morgen-sonntag/'
 		},
 		{
 			id: '20',
 			thema: 'Schönes Wochenende Bilder',
-			slug: 'https://perfekterspruch.de/schoenes-wochenende-bilder/'
+			slug: '/schoenes-wochenende-bilder/'
 		},
 		{
 			id: '21',
 			thema: 'Sonntagsgrüße',
-			slug: 'https://perfekterspruch.de/sonntagsgruesse/'
+			slug: '/sonntagsgruesse/'
+		},
+		{
+			id: '23',
+			thema: 'Alle Themen',
+			slug: '/alle-themen/'
 		}
 	];
 
@@ -186,7 +194,7 @@
 			<h2 class="homebeliebt-h22">Beliebte Seiten</h2>
 			<div class="home-beliebt-loop">
 				{#each beliebtData as beliebt (beliebt.id)}
-					<a class="home-beliebt-link" href={beliebt.slug}>
+					<a class="home-beliebt-link" href="{setUrl}{beliebt.slug}">
 						<span class="home-beliebt-text">{beliebt.thema}</span>
 					</a>
 				{/each}

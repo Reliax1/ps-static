@@ -2,6 +2,15 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
+import fs from 'fs';
+
+const pathArray = [];
+
+fs.readdirSync('static/json').forEach((file) => {
+	const newPath = '/' + file.replace('.json', '').trim();
+	pathArray.push(newPath);
+});
+
 // https://kit.svelte.dev/docs/configuration#prerender
 // https://github.com/sveltejs/kit/tree/master/packages/adapter-static#spa-mode   fallback: 'index.html'
 const config = {
@@ -10,94 +19,15 @@ const config = {
 		prerender: {
 			crawl: true,
 			entries: [
+				...pathArray,
 				'*',
-				'/impressum',
-				'/datenschutz',
-				'/kontakt',
-				'/beziehungssprueche',
-				'/coole-sprueche',
-				'/geburtstagsgruesse',
-				'/geburtstagssprueche',
-				'/frohe-weihnachten-bilder',
-				'/geburtstagswuensche-freundin',
-				'/geburtstagswuensche-fuer-kinder',
-				'/geburtstagswuensche-fuer-frauen',
-				'/geburtstagswuensche-mann',
-				'/geburtstagswuensche-nachtraeglich',
-				'/glueckwuensche-zum-18-geburtstag',
-				'/geburtstagswuensche',
-				'/glueckwuensche-zum-20-geburtstag',
-				'/glueckwuensche-zum-30-geburtstag',
-				'/glueckwuensche-zum-40-geburtstag',
-				'/glueckwuensche-zum-60-geburtstag',
-				'/glueckwuensche-zum-50-geburtstag',
-				'/glueckwuensche-zum-hochzeitstag',
-				'/glueckwuensche-zum-70-geburtstag',
-				'/glueckwuensche-zur-bestandenen-pruefung',
-				'/glueckwuensche-zur-kommunion',
-				'/gute-besserung-wuensche',
-				'/glueckwuensche-zur-konfirmation',
-				'/gute-nacht-bilder',
-				'/guten-morgen-donnerstag',
-				'/gute-sprueche',
-				'/guten-morgen-lustig',
-				'/guten-morgen-freitag',
-				'/guten-morgen-dienstag',
-				'/guten-morgen-mittwoch',
-				'/guten-morgen-montag',
-				'/guten-morgen-samstag',
-				'/guten-morgen-sonntag',
-				'/ich-liebe-dich-bilder',
-				'/hoelzerne-hochzeit-glueckwuensche-sprueche',
-				'/karneval-sprueche',
-				'/karma-sprueche',
-				'/kluge-sprueche',
-				'/lebensmotto',
-				'/mittwoch-bilder',
-				'/neujahrswuensche',
-				'/ostergruesse-bilder',
-				'/schoenen-montag',
-				'/schoenen-samstag',
-				'/positive-sprueche',
-				'/schoenen-tag',
-				'/sonntag-lustig',
-				'/sonntagsgruesse',
-				'/schoenes-wochenende-bilder',
-				'/sprueche-zum-abschied',
-				'/sprueche-zum-nachdenken',
-				'/valentinstag-sprueche',
-				'/traurige-sprueche',
-				'/suesse-sprueche',
-				'/weise-sprueche',
+				'/',
+				'/alle-themen',
 				'/spruch-des-tages',
 				'/zitate-sprueche-generator',
-				'/schoenen-abend-bilder',
-				'/jugendweihe-sprueche',
-				'/enttaeuschung-sprueche',
-				'/vertrauen-sprueche',
-				'/hoffnung-sprueche',
-				'/sarkastische-sprueche',
-				'/geburtstagswuensche-kollegin',
-				'/glueckwuensche-zur-goldenen-hochzeit',
-				'/erinnerungen-sprueche',
-				'/montagsgruesse',
-				'/dienstagsgruesse',
-				'/mittwochsgruesse',
-				'/donnerstagsgruesse',
-				'/freitagsgruesse',
-				'/samstagsgruesse',
-				'/falsche-menschen-sprueche',
-				'/loyalitaet-sprueche',
-				'/schicksal-sprueche',
-				'/falsche-freunde-sprueche',
-				'/einsamkeit-sprueche',
-				'/gute-laune-sprueche',
-				'/montag-bilder',
-				'/dienstag-bilder',
-				'/donnerstag-bilder',
-				'/freitag-bilder',
-				'/samstag-bilder',
-				'/sonntag-bilder'
+				'/impressum',
+				'/datenschutz',
+				'/kontakt'
 			]
 		},
 		trailingSlash: 'always'

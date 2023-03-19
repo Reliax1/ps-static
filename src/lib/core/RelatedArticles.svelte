@@ -39,6 +39,7 @@
 	.text-span {
 		font-size: 4.5vw;
 		word-break: break-word;
+		padding-right: 1vw;
 		// hyphens: auto;
 	}
 	.text-div {
@@ -232,6 +233,7 @@
 
 		.text-span {
 			font-size: 1.05vw;
+			padding-right: 0.5vw;
 		}
 
 		.text-div {
@@ -270,6 +272,7 @@
 		}
 		.text-span {
 			font-size: 21px;
+			padding-right: 0.5vw;
 		}
 		.relatedarticles-image {
 			width: 100px;

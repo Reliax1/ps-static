@@ -92,3 +92,7 @@ a:active {
 	filter: blur(10px) !important;
 	transform: scale(1.05) !important;
 }
+
+:root {
+	--angle: 4vw;
+}
