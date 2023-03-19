@@ -7,7 +7,10 @@
 
 <svelte:head>
 	<title>Alle Themen - Perfekterspruch.de</title>
-	<meta name="description" content="Alle Themen - Perfekterspruch.de" />
+	<meta
+		name="description"
+		content="Hier findest du eine Übersicht über alle Themen auf Perfekterspruch.de"
+	/>
 	<link rel="canonical" href="https://perfekterspruch.de/alle-themen/" />
 	<meta
 		name="robots"
@@ -16,10 +19,16 @@
 
 	<meta property="og:url" content="https://perfekterspruch.de/alle-themen/" />
 	<meta property="og:title" content="Alle Themen - Perfekterspruch.de" />
-	<meta property="og:description" content="Alle Themen - Perfekterspruch.de" />
+	<meta
+		property="og:description"
+		content="Hier findest du eine Übersicht über alle Themen auf Perfekterspruch.de"
+	/>
 
 	<meta name="twitter:title" content="Alle Themen - Perfekterspruch.de" />
-	<meta name="twitter:description" content="Alle Themen - Perfekterspruch.de" />
+	<meta
+		name="twitter:description"
+		content="Hier findest du eine Übersicht über alle Themen auf Perfekterspruch.de"
+	/>
 </svelte:head>
 
 <div class="alle-themen-wrapper">
