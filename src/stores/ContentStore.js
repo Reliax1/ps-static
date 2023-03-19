@@ -190,7 +190,7 @@ const ContentStore = writable({
 				},
 				{
 					name: 'Montag Bilder',
-					link: '/montag-bilder'
+					link: 'montag-bilder'
 				},
 				{
 					name: 'Dienstag Bilder',

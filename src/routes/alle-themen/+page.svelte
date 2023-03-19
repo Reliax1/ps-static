@@ -5,6 +5,23 @@
 	let setUrl = dev ? 'http://127.0.0.1:5173' : 'https://perfekterspruch.de';
 </script>
 
+<svelte:head>
+	<title>Alle Themen - Perfekterspruch.de</title>
+	<meta name="description" content="Alle Themen - Perfekterspruch.de" />
+	<link rel="canonical" href="https://perfekterspruch.de/alle-themen/" />
+	<meta
+		name="robots"
+		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+	/>
+
+	<meta property="og:url" content="https://perfekterspruch.de/alle-themen/" />
+	<meta property="og:title" content="Alle Themen - Perfekterspruch.de" />
+	<meta property="og:description" content="Alle Themen - Perfekterspruch.de" />
+
+	<meta name="twitter:title" content="Alle Themen - Perfekterspruch.de" />
+	<meta name="twitter:description" content="Alle Themen - Perfekterspruch.de" />
+</svelte:head>
+
 <div class="alle-themen-wrapper">
 	<h1>Alle Themen</h1>
 

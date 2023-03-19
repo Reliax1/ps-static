@@ -1,831 +1,831 @@
 {
-  "h1title": "Glückwünsche zum 100. Geburtstag",
-  "metatitel": "150 Glückwünsche zum 100. Geburtstag mit Bildern",
-  "metacontent": "150 Glückwünsche zum 100. Geburtstag ✓ Kostenlose Bilder ✓ Zum Herunterladen & Kopieren ✓ Kein langes Suchen ✓ Schnell den perfekten Spruch finden ✓",
-  "othersites": [
-    {
-      "image": "geburtstag-bild-seite",
-      "header": "Glückwünsche zum 101. Geburtstag",
-      "slug": "https://perfekterspruch.de/glueckwuensche-zum-101-geburtstag/"
-    },
-    {
-      "image": "geburtstagsgruesse-seite",
-      "header": "Geburtstagsgrüße",
-      "slug": "https://perfekterspruch.de/geburtstagsgruesse/"
-    },
-    {
-      "image": "geburtstagssprueche-seite",
-      "header": "Geburtstagssprüche",
-      "slug": "https://perfekterspruch.de/geburtstagssprueche/"
-    },
-    {
-      "image": "geburtstagswuensche-seite",
-      "header": "Geburtstagswünsche",
-      "slug": "https://perfekterspruch.de/geburtstagswuensche/"
-    }
-  ],
-  "spruchcarddata": [
-    {
-      "id": "230001",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir noch viele weitere erfüllende Jahre voller Freude und Glück.",
-      "author": null
-    },
-    {
-      "id": "230002",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-herz",
-      "text": "Alles Gute zum 100. Geburtstag! Mögen sich all Deine Wünsche erfüllen und Dein Tag voller Fortschritt und Freude sein.",
-      "author": null
-    },
-    {
-      "id": "230003",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kostenlos",
-      "text": "Zu Deinem 100. Geburtstag wünschen wir Dir einen Tag voll kleiner Freuden, Freundschaft und Liebe.",
-      "author": null
-    },
-    {
-      "id": "230004",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-mutter",
-      "text": "Herzliche Gratulation zu Deinem 100. Geburtstag! Wir hoffen, dass dieser Tag unvergesslich bleibt und Du nur die schönsten Erinnerungen behalten wirst.",
-      "author": null
-    },
-    {
-      "id": "230005",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkel",
-      "text": "Wir wünschen Dir von ganzem Herzen einen wundervollen Tag anlässlich Deines 100sten Geburtstags! Möge er voller positiver Energie für Dich sein!",
-      "author": null
-    },
-    {
-      "id": "230006",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-lang",
-      "text": "Anlässlich Deines 100-jährigen Jubiläums möchten wir Dir alles Liebe, Gesundheit und Glück der Welt auf deinem Weg wünschen!",
-      "author": null
-    },
-    {
-      "id": "230007",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nachbar",
-      "text": "Herzlichen Glückwunsch zum 100. Geburtstag! Wir wünschen Dir viele weitere Jahre voller Gesundheit und Freude!",
-      "author": null
-    },
-    {
-      "id": "230008",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-jugendlich",
-      "text": "Wir gratulieren Dir ganz herzlich zu Deinem 100. Geburtstag und wünschen Dir alles Liebe, Glück und Erfolg für die Zukunft!",
-      "author": null
-    },
-    {
-      "id": "230009",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-junge",
-      "text": "Alles Gute zum 100. Geburtstag! Möge Dein neues Lebensjahr noch schöner werden als das letzte - mit vielen glücklichen Momenten und einer Prise Abenteuer!",
-      "author": null
-    },
-    {
-      "id": "230010",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-cousine",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir viel Glück und Freude an diesem besonderen Tag!",
-      "author": null
-    },
-    {
-      "id": "230011",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-freundin",
-      "text": "An Deinem 100. Geburtstag möchten wir Dir alles Gute, Gesundheit und vor allem Freude auf die kommenden Jahre wünschen!",
-      "author": null
-    },
-    {
-      "id": "230012",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-neffe",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Mögest Du noch viele Jahre erfüllt mit Liebe, Lachen und Glück verbringen!",
-      "author": null
-    },
-    {
-      "id": "230013",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-cousin",
-      "text": "Zu Deinem hundertsten Geburtstag gratulieren wir Dir ganz herzlich und wünschen Dir alles Liebe in der Zeit, die noch kommt!",
-      "author": null
-    },
-    {
-      "id": "230014",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkelsohn",
-      "text": "Ein großartiges Ereignis: Du feierst heute Deinen 100. Geburtstag! Wir wünschen Dir einen Tag voller Freude und Glück!",
-      "author": null
-    },
-    {
-      "id": "230015",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-opa",
-      "text": "Aus tiefstem Herzen gratulieren wir Dir zu Deinem Jubiläum – möge es ein bemerkenswerter Tag für Dich sein! Alles Liebe zum 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230016",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkelin",
-      "text": "Mögen alle deine Träume an diesem besonderen Tag in Erfüllung gehen – Herzliche Gratulation zu Deinem 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230017",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkelkind",
-      "text": "Auf dass Du immer bester Laune bist und das Leben genießen kannst – alles Liebe und alles erdenklich Beste anlässlich des runden Jubiläums!",
-      "author": null
-    },
-    {
-      "id": "230018",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-eltern",
-      "text": "Der heutige Tag ist ein Grund zur Freude: Wir gratulieren Dir ganz herzlich zu Deinem 100-jährigen Jubiläum!",
-      "author": null
-    },
-    {
-      "id": "230019",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-sohn",
-      "text": "Wir sind hocherfreut, dass Du heute Deinen hundertsten Ehrentag begehren darfst: Alles Liebe und alles Gute für Dich an diesem großartigen Tag!",
-      "author": null
-    },
-    {
-      "id": "230020",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-tante",
-      "text": "Möge dieser Ehrentag ein Tag des Lachens, der Freude und des Feierns sein – alles Gute zu deinem 100sten Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230021",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkeltochter",
-      "text": "Zu Deinem 100sten Geburtstag möchten wir Dir viel Gesundheit, Glück und Freude wünschen – genieße es in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "230022",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nichte",
-      "text": "Alles Gute zu deinem 100. Geburtstag! Möge es ein Tag voller Freude und Erinnerungen sein!",
-      "author": null
-    },
-    {
-      "id": "230023",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-oma-opa",
-      "text": "Wir gratulieren dir ganz herzlich zu deinem 100. Geburtstag! Es ist wirklich eine großartige Leistung, darauf so stolz zu sein!",
-      "author": null
-    },
-    {
-      "id": "230024",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-grosseltern",
-      "text": "Herzlichen Glückwunsch zu deinem 100-jährigen Jubiläum! Du bist ein Vorbild für alle und hast so viel erreicht - wir sind stolz auf dich!",
-      "author": null
-    },
-    {
-      "id": "230025",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-mann",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge dieser Tag voller Glück und Freude sein, und mögen sich alle Deine Wünsche erfüllen.",
-      "author": null
-    },
-    {
-      "id": "230026",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-patenkind",
-      "text": "Ich gratuliere Dir herzlich zum 100. Geburtstag! Möge jeder neue Tag mehr Freude bringen als der letzte und mögen alle Deine Träume wahr werden!",
-      "author": null
-    },
-    {
-      "id": "230027",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nachtraeglich",
-      "text": "Alles Liebe vom ganzen Herzen zu deinem hundertsten Geburtstag – mögest du noch lange Zeit in Gesundheit genießen können!",
-      "author": null
-    },
-    {
-      "id": "230028",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-bild",
-      "text": "Meinen herzlichsten Glückwunsch zum 100-jährigen Jubiläum - möge dieser Tag für dich unvergesslich bleiben und dir viele schöne Stunden bereiten!",
-      "author": null
-    },
-    {
-      "id": "230029",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-oma",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir gratulieren Dir aufrichtig und wünschen Dir alles Gute und viel Glück für die nächsten 100 Jahre!",
-      "author": null
-    },
-    {
-      "id": "230030",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nachbarin",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Mögest Du ein langes und glückliches Leben führen und noch viel mehr erreichen!",
-      "author": null
-    },
-    {
-      "id": "230031",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-frau",
-      "text": "Alles Liebe zum 100. Geburtstag! Möge dein kommendes Lebensjahr voller Erfolg und Freude sein!",
-      "author": null
-    },
-    {
-      "id": "230032",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-maedchen",
-      "text": "Zu deinem 100-sten wünschen wir dir alles, was das Herz begehrt: Gesundheit, Glück und Liebe – heute und immer. Genieße den Tag in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "230033",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kurz",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge das neue Jahr voller Freude und Abenteuer sein!",
-      "author": null
-    },
-    {
-      "id": "230034",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-vater",
-      "text": "Alles Gute zum 100. Geburtstag! Es ist eine besondere Leistung, die du da erreicht hast und wir sind so stolz auf dich! Genieße jeden Tag.",
-      "author": null
-    },
-    {
-      "id": "230035",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-frauen",
-      "text": "Wir gratulieren Dir herzlich zu Deinem 100sten Geburtstag! Ein solches Ereignis ist etwas ganz Besonderes und Du hast es verdient, gefeiert zu werden.",
-      "author": null
-    },
-    {
-      "id": "230036",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-schoen",
-      "text": "Zu Deinem 100. Geburtstag wünschen wir Dir alles Liebe und Gute, Gesundheit, Glück und Erfolg im neuen Lebensjahr!",
-      "author": null
-    },
-    {
-      "id": "230037",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-bruder",
-      "text": "Wir gratulieren Dir ganz herzlich zu Deinem 100. Geburtstag! Mögest Du noch viele weitere wunderbare Jahre erleben!",
-      "author": null
-    },
-    {
-      "id": "230038",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-onkel",
-      "text": "Herzlichen Glückwunsch zum 100. Geburtstag! Wir wünschen Dir, dass Du auch in Zukunft voller Energie und Freude lebst!",
-      "author": null
-    },
-    {
-      "id": "230039",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-bilder",
-      "text": "Alles Liebe, Gesundheit und Glück zu Deinem 100. Geburtstag! Mögen all Deine Träume wahr werden!",
-      "author": null
-    },
-    {
-      "id": "230040",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-lustig",
-      "text": "Möge dieser besondere Tag ein Tag der Freude und des Feierns für Dich sein – herzlichen Glückwunsch zum 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230041",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-persoenlich",
-      "text": "Anlässlich deines 100-sten Geburtstages senden wir Dir die besten Wünsche für noch viele weitere schöne Jahre mit Gesundheit, Erfolg und Glückseligkeit!",
-      "author": null
-    },
-    {
-      "id": "230042",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-whatsapp",
-      "text": "Für Deinen 100sten Geburtstag wünschen wir Dir vor allem Freude, Glück und Zufriedenheit – möge sich alles was Du dir ersehnst erfüllen!",
-      "author": null
-    },
-    {
-      "id": "230043",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-facebook",
-      "text": "Herzlichen Glückwunsch zu deinem 100. Geburtstag! Möge jeder Tag deines Lebens voll Freude, Gesundheit und Frieden sein.",
-      "author": null
-    },
-    {
-      "id": "230044",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-freund",
-      "text": "Alles Gute zum 100. Geburtstag! Wir wünschen dir ein langes und glückliches Leben voller Liebe, Licht und Lachen.",
-      "author": null
-    },
-    {
-      "id": "230045",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-schwester",
-      "text": "Ein riesiges Hoch auf dich zu deinem 100. Geburtstag! Möge das neue Jahrzehnt in deinem Leben alles bringen, was du dir erträumst.",
-      "author": null
-    },
-    {
-      "id": "230046",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kollegin",
-      "text": "Zu deinem hundertsten Geburtstag senden wir dir unsere besten Glückwünsche - möge es eine Zeit der Freude und des Segens für dich sein!",
-      "author": null
-    },
-    {
-      "id": "230047",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-maenner",
-      "text": "Heute gratulieren wir dir ganz herzlich zu deinem stolzen Alter - mögest du viele weitere schöne Lebensjahre haben, die du genießen kannst!",
-      "author": null
-    },
-    {
-      "id": "230048",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-tochter",
-      "text": "Viel Glück und Gottes Segen auf dem Weg zum nächsten Meilenstein in deinem Leben – alles Liebe an dich an diesem besonderen Tag!",
-      "author": null
-    },
-    {
-      "id": "230049",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kind",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge dieser Tag voller Freude und Erfüllung sein!",
-      "author": null
-    },
-    {
-      "id": "230050",
-      "image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstagundefined",
-      "text": "Wir gratulieren Dir ganz herzlich zu Deinem besonderen Jubiläum und wünschen Dir, dass Du nur noch weitere schöne Tage erlebst!",
-      "author": null
-    }
-  ],
-  "weiteredata": [
-    {
-      "id": "230051",
-      "text": "Auf Deinen 100. Geburtstag kannst Du stolz sein, denn es ist ein Meilenstein in jedem Leben! Genieße den Tag mit Freunden und Familie und lass Dich feiern!",
-      "author": null
-    },
-    {
-      "id": "230052",
-      "text": "Ein großes Jubiläum verdient natürlich große Feierlichkeiten - willkommen im Club der Centener! Alles Gute zu Deinem runden Geburtstag, von uns allen hier!",
-      "author": null
-    },
-    {
-      "id": "230053",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir, dass Du noch viele weitere Glückstage erlebst und Dir all Deine Wünsche in Erfüllung gehen.",
-      "author": null
-    },
-    {
-      "id": "230054",
-      "text": "Herzliche Glückwünsche zu Deinem 100. Geburtstag! Genieße diesen Tag in vollen Zügen und habe jede Menge Spaß mit Freunden und Familie!",
-      "author": null
-    },
-    {
-      "id": "230055",
-      "text": "Unsere liebsten Gratulationen anlässlich des besonderen Ereignisses, das da heißt 100 Jahre! Lasse es Dir gutgehen und genieße den Tag in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "230056",
-      "text": "Ein Hoch auf die nächsten hundert Jahre - unser aller beste Wünsche zu Deinem Hundertsten!",
-      "author": null
-    },
-    {
-      "id": "230057",
-      "text": "Es ist uns eine Ehre, Dich bei diesem festlichen Anlass beglückwünschen zu dürfen - Happy Birthday und alles Liebe für Deinen 100-Jahr-Feiertag!",
-      "author": null
-    },
-    {
-      "id": "230058",
-      "text": "Nochmals herzlich gratuliert zur Vollendung der magischen Marke - einfach unglaublich, aber wahr: Du bist schon 100 Jahre alt geworden!",
-      "author": null
-    },
-    {
-      "id": "230059",
-      "text": "Lass Dich feiern an diesem besonderen Tag - als stolzer Jubilar hast Du allen Grund zur Freude und Genugtuung! All unsere Glückwunsche zu Deinem Ehrentag!",
-      "author": null
-    },
-    {
-      "id": "230060",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Mögen Dir noch viele weitere Jahre beschert sein!",
-      "author": null
-    },
-    {
-      "id": "230061",
-      "text": "Wir gratulieren Dir ganz herzlich zum 100. Geburtstag und wünschen Dir weiterhin viel Freude und Glück im Leben.",
-      "author": null
-    },
-    {
-      "id": "230062",
-      "text": "Zu Deinem 100. Geburtstag wünschen wir Dir Gesundheit, Glück und Liebe – heute und in allen kommenden Jahren!",
-      "author": null
-    },
-    {
-      "id": "230063",
-      "text": "Auf dass alle Deine Träume in Erfüllung gehen mögen und Du ein langes, glückliches Leben voller schöner Momente erlebst! Alles Liebe zum 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230064",
-      "text": "Zu Deinem 100sten Geburtstag senden wir Dir unsere besten Wünsche für ein langes und erfülltes Leben mit guten Gesundheit, Wohlstand und Glück!",
-      "author": null
-    },
-    {
-      "id": "230065",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge die nächsten 100 Jahre noch viel mehr Freude und Erfolg bereithalten.",
-      "author": null
-    },
-    {
-      "id": "230066",
-      "text": "Es ist ein ganz besonderer Tag, an dem du deinen 100. Geburtstag feierst! Alles Liebe und Gute wünschen Dir diejenigen, die Dich lieben.",
-      "author": null
-    },
-    {
-      "id": "230067",
-      "text": "Zu Deinem 100. Geburtstag möchte ich Dir meine besten Wünsche übermitteln und dazu sagen: Viel Glück und Freude in den nächsten hundert Jahren!",
-      "author": null
-    },
-    {
-      "id": "230068",
-      "text": "Alles Gute zum 100. Geburtstag! Wir wünschen Dir viel Glück, Gesundheit und ein langes, glückliches Leben.",
-      "author": null
-    },
-    {
-      "id": "230069",
-      "text": "An Deinem besonderen Tag möchten wir Dir die allerherzlichsten Glückwünsche übermitteln und Dir sagen, wie sehr Du uns gefehlt hast.",
-      "author": null
-    },
-    {
-      "id": "230070",
-      "text": "Wir hoffen, dass Du noch viele schöne Erinnerungen sammeln kannst und dass deine nächsten 100 Jahre ebenso aufregend sind wie deine bisherigen Jahre.",
-      "author": null
-    },
-    {
-      "id": "230071",
-      "text": "Möge heute an Deinem großartigen Tag Dein Lachen noch heller als die Sonne strahlen und Dich durch alle Situationen leiten!",
-      "author": null
-    },
-    {
-      "id": "230072",
-      "text": "Lasse es Dir gut gehen an diesem besonderen Tag und lass Dich verwöhnen – genieße jeden Moment in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "230073",
-      "text": "Zu Deinem Ehrentag möchten wir Dir von Herzen gratulieren und Dir alles Liebe für die Zukunft wünschen!",
-      "author": null
-    },
-    {
-      "id": "230074",
-      "text": "Lass Dich verzaubern von diesem besonderen Tag und genieße die Aufmerksamkeit der Menschen in Deiner Nähe!",
-      "author": null
-    },
-    {
-      "id": "230075",
-      "text": "Heute solltest Du Feiern bis zum Abwinken und immer daran denken, was für ein Glück es ist, bereits 100 Jahre alt zu sein!",
-      "author": null
-    },
-    {
-      "id": "230076",
-      "text": "Genieße den Tag in vollen Zügen und erinnere Dich an all die schönen Momente des letzten Jahrhunderts!",
-      "author": null
-    },
-    {
-      "id": "230077",
-      "text": "An Deinem großartigen Ehrentag wünschen wir Dir weiterhin ein langes, gesundes Leben mit viel Freude und Erfahrungen!",
-      "author": null
-    },
-    {
-      "id": "230078",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir Gesundheit, Glück und Freude für die nächsten Jahre!",
-      "author": null
-    },
-    {
-      "id": "230079",
-      "text": "Herzlichen Glückwunsch zum 100. Geburtstag! Möge dein Tag voller Liebe, Freude und Erinnerungen sein.",
-      "author": null
-    },
-    {
-      "id": "230080",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Mögest Du viele weitere glückliche Jahre erleben!",
-      "author": null
-    },
-    {
-      "id": "230081",
-      "text": "Wir gratulieren Dir herzlich zu Deinem runden Geburtstag und wünschen Dir auf diesem Weg alles Liebe, Gesundheit und Glück für die nächsten 100 Jahre!",
-      "author": null
-    },
-    {
-      "id": "230082",
-      "text": "Anlässlich Deines 100. Geburtstages senden wir Dir herzliche Glückwünsche und freuen uns, dass Du mit Deiner Lebensfreude so viele Menschen bereicherst!",
-      "author": null
-    },
-    {
-      "id": "230083",
-      "text": "Herzlichen Glückwunsch zum 100. Geburtstag! Möge Dich Dein Alter niemals einholen und Dir immer ein Lächeln ins Gesicht zaubern!",
-      "author": null
-    },
-    {
-      "id": "230084",
-      "text": "Wir feiern mit Dir die Erfüllung von 100 Lebensjahren und wünschen Dir, dass Gott noch lange Seine Hand über Dich hält!",
-      "author": null
-    },
-    {
-      "id": "230085",
-      "text": "Auf den Tag genau vor 100 Jahren begann Deine Zeit auf Erden – heute ist es soweit: Alles Gute zum großen runden Jubiläum!",
-      "author": null
-    },
-    {
-      "id": "230086",
-      "text": "Ein Jubiläum der besonderen Art – alle sind sich einig: Mit großer Freude beglückwünschen wir Dich zu Deinem 100ten Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230087",
-      "text": "Wir gratulieren Dir ganz herzlich zu diesem ganz besonderen Tag – sei stolz auf all die schönen Erinnerungen der letzten 100 Jahre!",
-      "author": null
-    },
-    {
-      "id": "230088",
-      "text": "Alles Gute zum 100. Geburtstag! Mögen alle Deine Wünsche und Träume in Erfüllung gehen!",
-      "author": null
-    },
-    {
-      "id": "230089",
-      "text": "Herzlichen Glückwunsch zu Deinem großen Ereignis, dem 100. Geburtstag! Genieße es und lass Dich feiern!",
-      "author": null
-    },
-    {
-      "id": "230090",
-      "text": "Wir gratulieren Dir ganz herzlich zu Deinem Ehrentag, dem 100. Geburtstag! Mögen die nächsten Jahre ebenso gesegnet sein wie die letzten 100 Jahre!",
-      "author": null
-    },
-    {
-      "id": "230091",
-      "text": "Zu Deinem hundertsten Geburtstag wünschen wir Dir alles erdenklich Liebe und Gute, Gesundheit und Freude im Leben!",
-      "author": null
-    },
-    {
-      "id": "230092",
-      "text": "Auf ein weiteres hundert Jahre Gesundheit, Glück und Freude - Alles Liebe Gratulation anlässlich des 100-jährigen Jubiläums des Lebensweges von... !",
-      "author": null
-    },
-    {
-      "id": "230093",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir, dass Du noch viele weitere schöne und erfüllte Jahre vor Dir hast.",
-      "author": null
-    },
-    {
-      "id": "230094",
-      "text": "An Deinem besonderen Tag möchten wir Dir alles Gute und viel Glück für die Zukunft wünschen. Genieße den Tag und feiere ihn gebührend!",
-      "author": null
-    },
-    {
-      "id": "230095",
-      "text": "Wir gratulieren Dir herzlich zu Deinem runden Jubiläum und wünschen Dir Gesundheit, Erfolg und Lebensfreude in den nächsten 100 Jahren!",
-      "author": null
-    },
-    {
-      "id": "230096",
-      "text": "Alles Gute zu Deinem 100-jährigen Geburtstag! Mögen alle Deine Träume in Erfüllung gehen und Du noch lange gesund und glücklich bleiben.",
-      "author": null
-    },
-    {
-      "id": "230097",
-      "text": "Alles Gute zu Deinem hundertsten Geburtstag! Wir wünschen Dir alles Glück und Freude, Gesundheit und Erfolg auf Deinem weiteren Lebensweg.",
-      "author": null
-    },
-    {
-      "id": "230098",
-      "text": "Anlässlich Deines 100. Geburtstages senden wir Dir die besten Glückwünsche! Mögest Du noch lange Jahre in Gesundheit und Freude erleben dürfen!",
-      "author": null
-    },
-    {
-      "id": "230099",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Möge dein Leben noch viele glückliche Tage bereithalten und du in guter Gesundheit bleiben.",
-      "author": null
-    },
-    {
-      "id": "230100",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir alles Liebe und Gute und hoffen, dass Du noch viele Jahre glücklich und gesund bleibst.",
-      "author": null
-    },
-    {
-      "id": "230101",
-      "text": "Herzlichen Glückwunsch zu deinem 100. Geburtstag! Möge dieser Tag für dich und diejenigen, die du liebst, ein Tag voller Freude und Erinnerungen sein.",
-      "author": null
-    },
-    {
-      "id": "230102",
-      "text": "Wir wünschen dir alles Gute zu deinem 100. Geburtstag! Mögen deine Tage gefüllt sein mit Licht und Liebe, ja sogar noch mehr als in den letzten 100 Jahren!",
-      "author": null
-    },
-    {
-      "id": "230103",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Mögest Du noch viele weitere Jahre in Gesundheit, Wohlstand und Freude erleben.",
-      "author": null
-    },
-    {
-      "id": "230104",
-      "text": "Gratuliere Dir zu Deinem Ehrentag und wünsche Dir Glück, Frieden und Freude in den kommenden Jahren.",
-      "author": null
-    },
-    {
-      "id": "230105",
-      "text": "Herzlichen Glückwunsch zu Deinem großen Meilenstein! Möge das neue Jahrhundert Dich mit Erfolg und Zufriedenheit erfüllen.",
-      "author": null
-    },
-    {
-      "id": "230106",
-      "text": "Mögen Dir die nächsten 100 Jahre noch mehr Erfolg, Liebe und Freude bringen! Alles Gute zum 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230107",
-      "text": "Wir gratulieren Dir herzlich zum 100-jährigen Jubiläum und wünschen alles Liebe und Gute für die nächsten hundert Jahre deines Lebensweges.",
-      "author": null
-    },
-    {
-      "id": "230108",
-      "text": "Heute ist ein besonderer Tag für Dich - der Tag an dem Du Deinen 100sten Geburtstag feierst! Alles Liebe, Glück und Segen wünschen wir Dir von Herzen!",
-      "author": null
-    },
-    {
-      "id": "230109",
-      "text": "Alles Gute zum 100. Geburtstag! Viel Glück und Gesundheit mögen Dich auf Deinem Weg begleiten. Genieße den Tag in vollen Zügen und lass es Dir gutgehen!",
-      "author": null
-    },
-    {
-      "id": "230110",
-      "text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir einen Tag voller Freude und schöner Momente.",
-      "author": null
-    },
-    {
-      "id": "230111",
-      "text": "Mögen Dich Liebe, Glück und Gesundheit an jedem Tag Deines Lebens begleiten und Dich auf allem Weg unterstützen.",
-      "author": null
-    },
-    {
-      "id": "230112",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir viel Freude, Glück und Zufriedenheit.",
-      "author": null
-    },
-    {
-      "id": "230113",
-      "text": "Wir feiern Deinen großen Tag mit Dir! Mit einem herzlichen Ständchen gratulieren wir Dir zu Deinem 100. Geburtstag.",
-      "author": null
-    },
-    {
-      "id": "230114",
-      "text": "Ein ganzes Jahrhundert hast Du bereits erlebt – schön, dass Du uns noch immer begleitest! Alles Liebe und Gute zum 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230115",
-      "text": "Mögen die nächsten 100 Jahre genauso schön sein wie die letzten 100 Jahre – herzliche Glückwünsche zu Deinem runden Jubiläum!",
-      "author": null
-    },
-    {
-      "id": "230116",
-      "text": "Als Zeichen unserer Freundschaft möchten wir Dich an Deinem besonderen Tag beglückwünschen: Alles Liebe zum 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230117",
-      "text": "Wir wollen ein Glas heben und auf Dich anstoßen bei diesem festlichen Anlass: Unsere besten Glückwünsche zu Deinem hundertsten Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230118",
-      "text": "Nun hast Du das höchste Lebensjahr erreicht – eine beachtliche Leistung, auf die man stolz sein kann! Auch von uns herzlichste Gratulation zum Ehrentag!",
-      "author": null
-    },
-    {
-      "id": "230119",
-      "text": "Zu deinem 100. Geburtstag wünschen wir dir alles Liebe und Gute! Mögest du noch viele schöne Momente erleben und ein langes, glückliches Leben führen.",
-      "author": null
-    },
-    {
-      "id": "230120",
-      "text": "Wir gratulieren dir recht herzlich zu deinem runden Geburtstag! Genieße die besonderen Momente am heutigen Tag und möge Gott stets an deiner Seite sein.",
-      "author": null
-    },
-    {
-      "id": "230121",
-      "text": "Alles Gute zu Deinem so besonderen Ehrentag! Mögen 100 Jahre voller Freude und Glück Dir noch bevorstehen.",
-      "author": null
-    },
-    {
-      "id": "230122",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir, dass Du noch viele schöne Momente mit Deinen Liebsten erleben kannst.",
-      "author": null
-    },
-    {
-      "id": "230123",
-      "text": "Wir feiern ein ganz besonderes Jubiläum: 100 Jahre voller Lebenserfahrung, Einsichten und Erinnerungen! Alles Gute zum Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230124",
-      "text": "Zu Deinem 100. Geburtstag wünschen wir Dir alles Liebe und alles Gute auf Deinem weiteren Lebensweg. Genieße die nächsten Schritte in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "230125",
-      "text": "Anlässlich des heutigen Tages möchten wir Dich beglückwünschen: Vom ganzen Herzen gratulieren wir Dir zu Deinem fantastischen 100. Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230126",
-      "text": "Herzliche Gratulation an Dich – an diesem Tag der Freude und des Feierns schenken wir Dir unsere besten Wünsche für ein langes, glückliches Leben!",
-      "author": null
-    },
-    {
-      "id": "230127",
-      "text": "Auf dass Du noch sehr lange von den schönsten Dingen im Leben profitierst: Zu Deinem großen Jubiläum gratulieren wir Dir herzlich!",
-      "author": null
-    },
-    {
-      "id": "230128",
-      "text": "In dieser besonderen Zeit genieße jeden Moment mit Freude, Zufriedenheit und Gelassenheit: Alles Liebe zu Deinem 100-jährigen Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230129",
-      "text": "Zu deinem 100. Geburtstag gratulieren wir dir von ganzem Herzen! Wir wünschen dir ein langes, volles und glückliches Leben!",
-      "author": null
-    },
-    {
-      "id": "230130",
-      "text": "Herzliche Glückwünsche zu deinem 100. Geburtstag! Genieße jeden Tag, so als ob es dein Letzter wäre und lasse dich verwöhnen!",
-      "author": null
-    },
-    {
-      "id": "230131",
-      "text": "Anlässlich deines 100. Geburtstags überbringen wir dir die besten Wünsche für ein langes, gesundes und fröhliches Leben!",
-      "author": null
-    },
-    {
-      "id": "230132",
-      "text": "Wir gratulieren dir herzlich zu deinem 100sten Geburtstag und hoffen, dass du einen schönen Tag mit allen Menschen verbringst, die du liebst!",
-      "author": null
-    },
-    {
-      "id": "230133",
-      "text": "Liebster Glückwunsch zu deinem 100-jährigen Jubiläum! Mach aus diesem Tag etwas ganz Besonderes und genieße ihn in vollen Zügen - du hast es verdient!",
-      "author": null
-    },
-    {
-      "id": "230134",
-      "text": "Anlässlich des großartigen Datums: Hier senden wir unsere besten Glückwünsche zu deinem niemals endenden Abenteuer auf Erden – deinem 100sten Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230135",
-      "text": "Wir gratulieren Dir ganz herzlich zu Deinem 100. Geburtstag! Möge dieser Tag ganz besonders schön für Dich sein, voller Glück und Freude.",
-      "author": null
-    },
-    {
-      "id": "230136",
-      "text": "Alles Gute zum 100. Geburtstag! Mögen alle Deine Träume in Erfüllung gehen und stets ein Lächeln auf Dein Gesicht zaubern!",
-      "author": null
-    },
-    {
-      "id": "230137",
-      "text": "Wir gratulieren Dir ganz herzlich zu Deinem runden Geburtstag und wünschen Dir alles erdenklich Liebe und Gute! Genieße den Tag in vollen Zügen!",
-      "author": null
-    },
-    {
-      "id": "230138",
-      "text": "Heute ist ein besonderer Tag: Alles Liebe und Gute zu Deinem 100ten Geburtstag! Möge er für Dich unvergesslich sein und Du noch lange Freude an ihm haben!",
-      "author": null
-    },
-    {
-      "id": "230139",
-      "text": "Anlässlich des großen Ereignisses möchten wir Dir von Herzen gratulieren – alles Liebe und Beste anlässlich Deines 100sten Geburtstags!",
-      "author": null
-    },
-    {
-      "id": "230140",
-      "text": "Herzlichen Glückwunsch zum 100. Geburtstag! Wir wünschen Dir alles Liebe und Gute für die nächsten 100 Jahre.",
-      "author": null
-    },
-    {
-      "id": "230141",
-      "text": "Ein ganz besonderer Tag, an dem man 100 Jahre alt wird – gratulieren musst Du Dich selbst! Alles Gute zum runden Geburtstag!",
-      "author": null
-    },
-    {
-      "id": "230142",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge Dein nächstes Jahrhundert ebenso erfüllt sein voller Freude und Erfolg wie das letzte.",
-      "author": null
-    },
-    {
-      "id": "230143",
-      "text": "Alles Gute zum 100. Geburtstag! Wir wünschen Dir alles erdenklich Gute und hoffen, dass Du noch lange gesund und glücklich bleibst.",
-      "author": null
-    },
-    {
-      "id": "230144",
-      "text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir von Herzen alles Gute und einen Tag voller Freude, Glück und Zufriedenheit.",
-      "author": null
-    },
-    {
-      "id": "230145",
-      "text": "Herzliche Glückwünsche zu Deinem 100. Geburtstag! Mögen Dir noch viele Jahre und viele schöne Momente geschenkt werden.",
-      "author": null
-    },
-    {
-      "id": "230146",
-      "text": "Ein besonderer Tag, ein besonderer Mensch: Alles Gute zum 100. Geburtstag! Wir wünschen Dir alles erdenklich Gute auf Deinem weiteren Weg durchs Leben.",
-      "author": null
-    },
-    {
-      "id": "230147",
-      "text": "Heute ist ein Tag voller Freude und Glückwunsch! Wir feiern Dich als Teil unserer Familie anlässlich des runden Jubiläums - Deines 100ten Geburtstags!",
-      "author": null
-    },
-    {
-      "id": "230148",
-      "text": "Herzlichen Glückwunsch an Dich zu Deinem 100. Geburtstag! Möge dieser Tag ein ganz besonderer sein und Dir viel Freude bereiten.",
-      "author": null
-    },
-    {
-      "id": "230149",
-      "text": "Wir gratulieren Dir ganz herzlich zum 100. Geburtstag und wünschen Dir weiterhin viel Gesundheit, Glück und ein langes Leben!",
-      "author": null
-    },
-    {
-      "id": "230150",
-      "text": "Ganz liebe Grüße zum besonderen Tag des 100. Geburtstages! Wir wünschen Dir viele schöne Erinnerungen an diesen Tag und mögen sie Dich immer begleiten.",
-      "author": null
-    }
-  ]
+	"h1title": "Glückwünsche zum 100. Geburtstag",
+	"metatitel": "150 Glückwünsche zum 100. Geburtstag mit Bildern",
+	"metacontent": "150 Glückwünsche zum 100. Geburtstag ✓ Kostenlose Bilder ✓ Zum Herunterladen & Kopieren ✓ Kein langes Suchen ✓ Schnell den perfekten Spruch finden ✓",
+	"othersites": [
+		{
+			"image": "geburtstag-bild-seite",
+			"header": "Glückwünsche zum 1. Geburtstag",
+			"slug": "https://perfekterspruch.de/glueckwuensche-zum-1-geburtstag/"
+		},
+		{
+			"image": "geburtstagsgruesse-seite",
+			"header": "Geburtstagsgrüße",
+			"slug": "https://perfekterspruch.de/geburtstagsgruesse/"
+		},
+		{
+			"image": "geburtstagssprueche-seite",
+			"header": "Geburtstagssprüche",
+			"slug": "https://perfekterspruch.de/geburtstagssprueche/"
+		},
+		{
+			"image": "geburtstagswuensche-seite",
+			"header": "Geburtstagswünsche",
+			"slug": "https://perfekterspruch.de/geburtstagswuensche/"
+		}
+	],
+	"spruchcarddata": [
+		{
+			"id": "230001",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir noch viele weitere erfüllende Jahre voller Freude und Glück.",
+			"author": null
+		},
+		{
+			"id": "230002",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-herz",
+			"text": "Alles Gute zum 100. Geburtstag! Mögen sich all Deine Wünsche erfüllen und Dein Tag voller Fortschritt und Freude sein.",
+			"author": null
+		},
+		{
+			"id": "230003",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kostenlos",
+			"text": "Zu Deinem 100. Geburtstag wünschen wir Dir einen Tag voll kleiner Freuden, Freundschaft und Liebe.",
+			"author": null
+		},
+		{
+			"id": "230004",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-mutter",
+			"text": "Herzliche Gratulation zu Deinem 100. Geburtstag! Wir hoffen, dass dieser Tag unvergesslich bleibt und Du nur die schönsten Erinnerungen behalten wirst.",
+			"author": null
+		},
+		{
+			"id": "230005",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkel",
+			"text": "Wir wünschen Dir von ganzem Herzen einen wundervollen Tag anlässlich Deines 100sten Geburtstags! Möge er voller positiver Energie für Dich sein!",
+			"author": null
+		},
+		{
+			"id": "230006",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-lang",
+			"text": "Anlässlich Deines 100-jährigen Jubiläums möchten wir Dir alles Liebe, Gesundheit und Glück der Welt auf deinem Weg wünschen!",
+			"author": null
+		},
+		{
+			"id": "230007",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nachbar",
+			"text": "Herzlichen Glückwunsch zum 100. Geburtstag! Wir wünschen Dir viele weitere Jahre voller Gesundheit und Freude!",
+			"author": null
+		},
+		{
+			"id": "230008",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-jugendlich",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 100. Geburtstag und wünschen Dir alles Liebe, Glück und Erfolg für die Zukunft!",
+			"author": null
+		},
+		{
+			"id": "230009",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-junge",
+			"text": "Alles Gute zum 100. Geburtstag! Möge Dein neues Lebensjahr noch schöner werden als das letzte - mit vielen glücklichen Momenten und einer Prise Abenteuer!",
+			"author": null
+		},
+		{
+			"id": "230010",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-cousine",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir viel Glück und Freude an diesem besonderen Tag!",
+			"author": null
+		},
+		{
+			"id": "230011",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-freundin",
+			"text": "An Deinem 100. Geburtstag möchten wir Dir alles Gute, Gesundheit und vor allem Freude auf die kommenden Jahre wünschen!",
+			"author": null
+		},
+		{
+			"id": "230012",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-neffe",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Mögest Du noch viele Jahre erfüllt mit Liebe, Lachen und Glück verbringen!",
+			"author": null
+		},
+		{
+			"id": "230013",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-cousin",
+			"text": "Zu Deinem hundertsten Geburtstag gratulieren wir Dir ganz herzlich und wünschen Dir alles Liebe in der Zeit, die noch kommt!",
+			"author": null
+		},
+		{
+			"id": "230014",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkelsohn",
+			"text": "Ein großartiges Ereignis: Du feierst heute Deinen 100. Geburtstag! Wir wünschen Dir einen Tag voller Freude und Glück!",
+			"author": null
+		},
+		{
+			"id": "230015",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-opa",
+			"text": "Aus tiefstem Herzen gratulieren wir Dir zu Deinem Jubiläum – möge es ein bemerkenswerter Tag für Dich sein! Alles Liebe zum 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230016",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkelin",
+			"text": "Mögen alle deine Träume an diesem besonderen Tag in Erfüllung gehen – Herzliche Gratulation zu Deinem 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230017",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkelkind",
+			"text": "Auf dass Du immer bester Laune bist und das Leben genießen kannst – alles Liebe und alles erdenklich Beste anlässlich des runden Jubiläums!",
+			"author": null
+		},
+		{
+			"id": "230018",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-eltern",
+			"text": "Der heutige Tag ist ein Grund zur Freude: Wir gratulieren Dir ganz herzlich zu Deinem 100-jährigen Jubiläum!",
+			"author": null
+		},
+		{
+			"id": "230019",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-sohn",
+			"text": "Wir sind hocherfreut, dass Du heute Deinen hundertsten Ehrentag begehren darfst: Alles Liebe und alles Gute für Dich an diesem großartigen Tag!",
+			"author": null
+		},
+		{
+			"id": "230020",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-tante",
+			"text": "Möge dieser Ehrentag ein Tag des Lachens, der Freude und des Feierns sein – alles Gute zu deinem 100sten Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230021",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-enkeltochter",
+			"text": "Zu Deinem 100sten Geburtstag möchten wir Dir viel Gesundheit, Glück und Freude wünschen – genieße es in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "230022",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nichte",
+			"text": "Alles Gute zu deinem 100. Geburtstag! Möge es ein Tag voller Freude und Erinnerungen sein!",
+			"author": null
+		},
+		{
+			"id": "230023",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-oma-opa",
+			"text": "Wir gratulieren dir ganz herzlich zu deinem 100. Geburtstag! Es ist wirklich eine großartige Leistung, darauf so stolz zu sein!",
+			"author": null
+		},
+		{
+			"id": "230024",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-grosseltern",
+			"text": "Herzlichen Glückwunsch zu deinem 100-jährigen Jubiläum! Du bist ein Vorbild für alle und hast so viel erreicht - wir sind stolz auf dich!",
+			"author": null
+		},
+		{
+			"id": "230025",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-mann",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge dieser Tag voller Glück und Freude sein, und mögen sich alle Deine Wünsche erfüllen.",
+			"author": null
+		},
+		{
+			"id": "230026",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-patenkind",
+			"text": "Ich gratuliere Dir herzlich zum 100. Geburtstag! Möge jeder neue Tag mehr Freude bringen als der letzte und mögen alle Deine Träume wahr werden!",
+			"author": null
+		},
+		{
+			"id": "230027",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nachtraeglich",
+			"text": "Alles Liebe vom ganzen Herzen zu deinem hundertsten Geburtstag – mögest du noch lange Zeit in Gesundheit genießen können!",
+			"author": null
+		},
+		{
+			"id": "230028",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-bild",
+			"text": "Meinen herzlichsten Glückwunsch zum 100-jährigen Jubiläum - möge dieser Tag für dich unvergesslich bleiben und dir viele schöne Stunden bereiten!",
+			"author": null
+		},
+		{
+			"id": "230029",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-oma",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir gratulieren Dir aufrichtig und wünschen Dir alles Gute und viel Glück für die nächsten 100 Jahre!",
+			"author": null
+		},
+		{
+			"id": "230030",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-nachbarin",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Mögest Du ein langes und glückliches Leben führen und noch viel mehr erreichen!",
+			"author": null
+		},
+		{
+			"id": "230031",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-frau",
+			"text": "Alles Liebe zum 100. Geburtstag! Möge dein kommendes Lebensjahr voller Erfolg und Freude sein!",
+			"author": null
+		},
+		{
+			"id": "230032",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-maedchen",
+			"text": "Zu deinem 100-sten wünschen wir dir alles, was das Herz begehrt: Gesundheit, Glück und Liebe – heute und immer. Genieße den Tag in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "230033",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kurz",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge das neue Jahr voller Freude und Abenteuer sein!",
+			"author": null
+		},
+		{
+			"id": "230034",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-vater",
+			"text": "Alles Gute zum 100. Geburtstag! Es ist eine besondere Leistung, die du da erreicht hast und wir sind so stolz auf dich! Genieße jeden Tag.",
+			"author": null
+		},
+		{
+			"id": "230035",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-frauen",
+			"text": "Wir gratulieren Dir herzlich zu Deinem 100sten Geburtstag! Ein solches Ereignis ist etwas ganz Besonderes und Du hast es verdient, gefeiert zu werden.",
+			"author": null
+		},
+		{
+			"id": "230036",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-schoen",
+			"text": "Zu Deinem 100. Geburtstag wünschen wir Dir alles Liebe und Gute, Gesundheit, Glück und Erfolg im neuen Lebensjahr!",
+			"author": null
+		},
+		{
+			"id": "230037",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-bruder",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 100. Geburtstag! Mögest Du noch viele weitere wunderbare Jahre erleben!",
+			"author": null
+		},
+		{
+			"id": "230038",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-onkel",
+			"text": "Herzlichen Glückwunsch zum 100. Geburtstag! Wir wünschen Dir, dass Du auch in Zukunft voller Energie und Freude lebst!",
+			"author": null
+		},
+		{
+			"id": "230039",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-bilder",
+			"text": "Alles Liebe, Gesundheit und Glück zu Deinem 100. Geburtstag! Mögen all Deine Träume wahr werden!",
+			"author": null
+		},
+		{
+			"id": "230040",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-lustig",
+			"text": "Möge dieser besondere Tag ein Tag der Freude und des Feierns für Dich sein – herzlichen Glückwunsch zum 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230041",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-persoenlich",
+			"text": "Anlässlich deines 100-sten Geburtstages senden wir Dir die besten Wünsche für noch viele weitere schöne Jahre mit Gesundheit, Erfolg und Glückseligkeit!",
+			"author": null
+		},
+		{
+			"id": "230042",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-whatsapp",
+			"text": "Für Deinen 100sten Geburtstag wünschen wir Dir vor allem Freude, Glück und Zufriedenheit – möge sich alles was Du dir ersehnst erfüllen!",
+			"author": null
+		},
+		{
+			"id": "230043",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-facebook",
+			"text": "Herzlichen Glückwunsch zu deinem 100. Geburtstag! Möge jeder Tag deines Lebens voll Freude, Gesundheit und Frieden sein.",
+			"author": null
+		},
+		{
+			"id": "230044",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-freund",
+			"text": "Alles Gute zum 100. Geburtstag! Wir wünschen dir ein langes und glückliches Leben voller Liebe, Licht und Lachen.",
+			"author": null
+		},
+		{
+			"id": "230045",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-schwester",
+			"text": "Ein riesiges Hoch auf dich zu deinem 100. Geburtstag! Möge das neue Jahrzehnt in deinem Leben alles bringen, was du dir erträumst.",
+			"author": null
+		},
+		{
+			"id": "230046",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kollegin",
+			"text": "Zu deinem hundertsten Geburtstag senden wir dir unsere besten Glückwünsche - möge es eine Zeit der Freude und des Segens für dich sein!",
+			"author": null
+		},
+		{
+			"id": "230047",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-maenner",
+			"text": "Heute gratulieren wir dir ganz herzlich zu deinem stolzen Alter - mögest du viele weitere schöne Lebensjahre haben, die du genießen kannst!",
+			"author": null
+		},
+		{
+			"id": "230048",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-tochter",
+			"text": "Viel Glück und Gottes Segen auf dem Weg zum nächsten Meilenstein in deinem Leben – alles Liebe an dich an diesem besonderen Tag!",
+			"author": null
+		},
+		{
+			"id": "230049",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstag-kind",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge dieser Tag voller Freude und Erfüllung sein!",
+			"author": null
+		},
+		{
+			"id": "230050",
+			"image": "glueckwuensche-zum-100-geburtstag/glueckwuensche-100-geburtstagundefined",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem besonderen Jubiläum und wünschen Dir, dass Du nur noch weitere schöne Tage erlebst!",
+			"author": null
+		}
+	],
+	"weiteredata": [
+		{
+			"id": "230051",
+			"text": "Auf Deinen 100. Geburtstag kannst Du stolz sein, denn es ist ein Meilenstein in jedem Leben! Genieße den Tag mit Freunden und Familie und lass Dich feiern!",
+			"author": null
+		},
+		{
+			"id": "230052",
+			"text": "Ein großes Jubiläum verdient natürlich große Feierlichkeiten - willkommen im Club der Centener! Alles Gute zu Deinem runden Geburtstag, von uns allen hier!",
+			"author": null
+		},
+		{
+			"id": "230053",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir, dass Du noch viele weitere Glückstage erlebst und Dir all Deine Wünsche in Erfüllung gehen.",
+			"author": null
+		},
+		{
+			"id": "230054",
+			"text": "Herzliche Glückwünsche zu Deinem 100. Geburtstag! Genieße diesen Tag in vollen Zügen und habe jede Menge Spaß mit Freunden und Familie!",
+			"author": null
+		},
+		{
+			"id": "230055",
+			"text": "Unsere liebsten Gratulationen anlässlich des besonderen Ereignisses, das da heißt 100 Jahre! Lasse es Dir gutgehen und genieße den Tag in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "230056",
+			"text": "Ein Hoch auf die nächsten hundert Jahre - unser aller beste Wünsche zu Deinem Hundertsten!",
+			"author": null
+		},
+		{
+			"id": "230057",
+			"text": "Es ist uns eine Ehre, Dich bei diesem festlichen Anlass beglückwünschen zu dürfen - Happy Birthday und alles Liebe für Deinen 100-Jahr-Feiertag!",
+			"author": null
+		},
+		{
+			"id": "230058",
+			"text": "Nochmals herzlich gratuliert zur Vollendung der magischen Marke - einfach unglaublich, aber wahr: Du bist schon 100 Jahre alt geworden!",
+			"author": null
+		},
+		{
+			"id": "230059",
+			"text": "Lass Dich feiern an diesem besonderen Tag - als stolzer Jubilar hast Du allen Grund zur Freude und Genugtuung! All unsere Glückwunsche zu Deinem Ehrentag!",
+			"author": null
+		},
+		{
+			"id": "230060",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Mögen Dir noch viele weitere Jahre beschert sein!",
+			"author": null
+		},
+		{
+			"id": "230061",
+			"text": "Wir gratulieren Dir ganz herzlich zum 100. Geburtstag und wünschen Dir weiterhin viel Freude und Glück im Leben.",
+			"author": null
+		},
+		{
+			"id": "230062",
+			"text": "Zu Deinem 100. Geburtstag wünschen wir Dir Gesundheit, Glück und Liebe – heute und in allen kommenden Jahren!",
+			"author": null
+		},
+		{
+			"id": "230063",
+			"text": "Auf dass alle Deine Träume in Erfüllung gehen mögen und Du ein langes, glückliches Leben voller schöner Momente erlebst! Alles Liebe zum 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230064",
+			"text": "Zu Deinem 100sten Geburtstag senden wir Dir unsere besten Wünsche für ein langes und erfülltes Leben mit guten Gesundheit, Wohlstand und Glück!",
+			"author": null
+		},
+		{
+			"id": "230065",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge die nächsten 100 Jahre noch viel mehr Freude und Erfolg bereithalten.",
+			"author": null
+		},
+		{
+			"id": "230066",
+			"text": "Es ist ein ganz besonderer Tag, an dem du deinen 100. Geburtstag feierst! Alles Liebe und Gute wünschen Dir diejenigen, die Dich lieben.",
+			"author": null
+		},
+		{
+			"id": "230067",
+			"text": "Zu Deinem 100. Geburtstag möchte ich Dir meine besten Wünsche übermitteln und dazu sagen: Viel Glück und Freude in den nächsten hundert Jahren!",
+			"author": null
+		},
+		{
+			"id": "230068",
+			"text": "Alles Gute zum 100. Geburtstag! Wir wünschen Dir viel Glück, Gesundheit und ein langes, glückliches Leben.",
+			"author": null
+		},
+		{
+			"id": "230069",
+			"text": "An Deinem besonderen Tag möchten wir Dir die allerherzlichsten Glückwünsche übermitteln und Dir sagen, wie sehr Du uns gefehlt hast.",
+			"author": null
+		},
+		{
+			"id": "230070",
+			"text": "Wir hoffen, dass Du noch viele schöne Erinnerungen sammeln kannst und dass deine nächsten 100 Jahre ebenso aufregend sind wie deine bisherigen Jahre.",
+			"author": null
+		},
+		{
+			"id": "230071",
+			"text": "Möge heute an Deinem großartigen Tag Dein Lachen noch heller als die Sonne strahlen und Dich durch alle Situationen leiten!",
+			"author": null
+		},
+		{
+			"id": "230072",
+			"text": "Lasse es Dir gut gehen an diesem besonderen Tag und lass Dich verwöhnen – genieße jeden Moment in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "230073",
+			"text": "Zu Deinem Ehrentag möchten wir Dir von Herzen gratulieren und Dir alles Liebe für die Zukunft wünschen!",
+			"author": null
+		},
+		{
+			"id": "230074",
+			"text": "Lass Dich verzaubern von diesem besonderen Tag und genieße die Aufmerksamkeit der Menschen in Deiner Nähe!",
+			"author": null
+		},
+		{
+			"id": "230075",
+			"text": "Heute solltest Du Feiern bis zum Abwinken und immer daran denken, was für ein Glück es ist, bereits 100 Jahre alt zu sein!",
+			"author": null
+		},
+		{
+			"id": "230076",
+			"text": "Genieße den Tag in vollen Zügen und erinnere Dich an all die schönen Momente des letzten Jahrhunderts!",
+			"author": null
+		},
+		{
+			"id": "230077",
+			"text": "An Deinem großartigen Ehrentag wünschen wir Dir weiterhin ein langes, gesundes Leben mit viel Freude und Erfahrungen!",
+			"author": null
+		},
+		{
+			"id": "230078",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir Gesundheit, Glück und Freude für die nächsten Jahre!",
+			"author": null
+		},
+		{
+			"id": "230079",
+			"text": "Herzlichen Glückwunsch zum 100. Geburtstag! Möge dein Tag voller Liebe, Freude und Erinnerungen sein.",
+			"author": null
+		},
+		{
+			"id": "230080",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Mögest Du viele weitere glückliche Jahre erleben!",
+			"author": null
+		},
+		{
+			"id": "230081",
+			"text": "Wir gratulieren Dir herzlich zu Deinem runden Geburtstag und wünschen Dir auf diesem Weg alles Liebe, Gesundheit und Glück für die nächsten 100 Jahre!",
+			"author": null
+		},
+		{
+			"id": "230082",
+			"text": "Anlässlich Deines 100. Geburtstages senden wir Dir herzliche Glückwünsche und freuen uns, dass Du mit Deiner Lebensfreude so viele Menschen bereicherst!",
+			"author": null
+		},
+		{
+			"id": "230083",
+			"text": "Herzlichen Glückwunsch zum 100. Geburtstag! Möge Dich Dein Alter niemals einholen und Dir immer ein Lächeln ins Gesicht zaubern!",
+			"author": null
+		},
+		{
+			"id": "230084",
+			"text": "Wir feiern mit Dir die Erfüllung von 100 Lebensjahren und wünschen Dir, dass Gott noch lange Seine Hand über Dich hält!",
+			"author": null
+		},
+		{
+			"id": "230085",
+			"text": "Auf den Tag genau vor 100 Jahren begann Deine Zeit auf Erden – heute ist es soweit: Alles Gute zum großen runden Jubiläum!",
+			"author": null
+		},
+		{
+			"id": "230086",
+			"text": "Ein Jubiläum der besonderen Art – alle sind sich einig: Mit großer Freude beglückwünschen wir Dich zu Deinem 100ten Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230087",
+			"text": "Wir gratulieren Dir ganz herzlich zu diesem ganz besonderen Tag – sei stolz auf all die schönen Erinnerungen der letzten 100 Jahre!",
+			"author": null
+		},
+		{
+			"id": "230088",
+			"text": "Alles Gute zum 100. Geburtstag! Mögen alle Deine Wünsche und Träume in Erfüllung gehen!",
+			"author": null
+		},
+		{
+			"id": "230089",
+			"text": "Herzlichen Glückwunsch zu Deinem großen Ereignis, dem 100. Geburtstag! Genieße es und lass Dich feiern!",
+			"author": null
+		},
+		{
+			"id": "230090",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem Ehrentag, dem 100. Geburtstag! Mögen die nächsten Jahre ebenso gesegnet sein wie die letzten 100 Jahre!",
+			"author": null
+		},
+		{
+			"id": "230091",
+			"text": "Zu Deinem hundertsten Geburtstag wünschen wir Dir alles erdenklich Liebe und Gute, Gesundheit und Freude im Leben!",
+			"author": null
+		},
+		{
+			"id": "230092",
+			"text": "Auf ein weiteres hundert Jahre Gesundheit, Glück und Freude - Alles Liebe Gratulation anlässlich des 100-jährigen Jubiläums des Lebensweges von... !",
+			"author": null
+		},
+		{
+			"id": "230093",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir, dass Du noch viele weitere schöne und erfüllte Jahre vor Dir hast.",
+			"author": null
+		},
+		{
+			"id": "230094",
+			"text": "An Deinem besonderen Tag möchten wir Dir alles Gute und viel Glück für die Zukunft wünschen. Genieße den Tag und feiere ihn gebührend!",
+			"author": null
+		},
+		{
+			"id": "230095",
+			"text": "Wir gratulieren Dir herzlich zu Deinem runden Jubiläum und wünschen Dir Gesundheit, Erfolg und Lebensfreude in den nächsten 100 Jahren!",
+			"author": null
+		},
+		{
+			"id": "230096",
+			"text": "Alles Gute zu Deinem 100-jährigen Geburtstag! Mögen alle Deine Träume in Erfüllung gehen und Du noch lange gesund und glücklich bleiben.",
+			"author": null
+		},
+		{
+			"id": "230097",
+			"text": "Alles Gute zu Deinem hundertsten Geburtstag! Wir wünschen Dir alles Glück und Freude, Gesundheit und Erfolg auf Deinem weiteren Lebensweg.",
+			"author": null
+		},
+		{
+			"id": "230098",
+			"text": "Anlässlich Deines 100. Geburtstages senden wir Dir die besten Glückwünsche! Mögest Du noch lange Jahre in Gesundheit und Freude erleben dürfen!",
+			"author": null
+		},
+		{
+			"id": "230099",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Möge dein Leben noch viele glückliche Tage bereithalten und du in guter Gesundheit bleiben.",
+			"author": null
+		},
+		{
+			"id": "230100",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir alles Liebe und Gute und hoffen, dass Du noch viele Jahre glücklich und gesund bleibst.",
+			"author": null
+		},
+		{
+			"id": "230101",
+			"text": "Herzlichen Glückwunsch zu deinem 100. Geburtstag! Möge dieser Tag für dich und diejenigen, die du liebst, ein Tag voller Freude und Erinnerungen sein.",
+			"author": null
+		},
+		{
+			"id": "230102",
+			"text": "Wir wünschen dir alles Gute zu deinem 100. Geburtstag! Mögen deine Tage gefüllt sein mit Licht und Liebe, ja sogar noch mehr als in den letzten 100 Jahren!",
+			"author": null
+		},
+		{
+			"id": "230103",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Mögest Du noch viele weitere Jahre in Gesundheit, Wohlstand und Freude erleben.",
+			"author": null
+		},
+		{
+			"id": "230104",
+			"text": "Gratuliere Dir zu Deinem Ehrentag und wünsche Dir Glück, Frieden und Freude in den kommenden Jahren.",
+			"author": null
+		},
+		{
+			"id": "230105",
+			"text": "Herzlichen Glückwunsch zu Deinem großen Meilenstein! Möge das neue Jahrhundert Dich mit Erfolg und Zufriedenheit erfüllen.",
+			"author": null
+		},
+		{
+			"id": "230106",
+			"text": "Mögen Dir die nächsten 100 Jahre noch mehr Erfolg, Liebe und Freude bringen! Alles Gute zum 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230107",
+			"text": "Wir gratulieren Dir herzlich zum 100-jährigen Jubiläum und wünschen alles Liebe und Gute für die nächsten hundert Jahre deines Lebensweges.",
+			"author": null
+		},
+		{
+			"id": "230108",
+			"text": "Heute ist ein besonderer Tag für Dich - der Tag an dem Du Deinen 100sten Geburtstag feierst! Alles Liebe, Glück und Segen wünschen wir Dir von Herzen!",
+			"author": null
+		},
+		{
+			"id": "230109",
+			"text": "Alles Gute zum 100. Geburtstag! Viel Glück und Gesundheit mögen Dich auf Deinem Weg begleiten. Genieße den Tag in vollen Zügen und lass es Dir gutgehen!",
+			"author": null
+		},
+		{
+			"id": "230110",
+			"text": "Alles Gute zu Deinem 100. Geburtstag! Wir wünschen Dir einen Tag voller Freude und schöner Momente.",
+			"author": null
+		},
+		{
+			"id": "230111",
+			"text": "Mögen Dich Liebe, Glück und Gesundheit an jedem Tag Deines Lebens begleiten und Dich auf allem Weg unterstützen.",
+			"author": null
+		},
+		{
+			"id": "230112",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir viel Freude, Glück und Zufriedenheit.",
+			"author": null
+		},
+		{
+			"id": "230113",
+			"text": "Wir feiern Deinen großen Tag mit Dir! Mit einem herzlichen Ständchen gratulieren wir Dir zu Deinem 100. Geburtstag.",
+			"author": null
+		},
+		{
+			"id": "230114",
+			"text": "Ein ganzes Jahrhundert hast Du bereits erlebt – schön, dass Du uns noch immer begleitest! Alles Liebe und Gute zum 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230115",
+			"text": "Mögen die nächsten 100 Jahre genauso schön sein wie die letzten 100 Jahre – herzliche Glückwünsche zu Deinem runden Jubiläum!",
+			"author": null
+		},
+		{
+			"id": "230116",
+			"text": "Als Zeichen unserer Freundschaft möchten wir Dich an Deinem besonderen Tag beglückwünschen: Alles Liebe zum 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230117",
+			"text": "Wir wollen ein Glas heben und auf Dich anstoßen bei diesem festlichen Anlass: Unsere besten Glückwünsche zu Deinem hundertsten Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230118",
+			"text": "Nun hast Du das höchste Lebensjahr erreicht – eine beachtliche Leistung, auf die man stolz sein kann! Auch von uns herzlichste Gratulation zum Ehrentag!",
+			"author": null
+		},
+		{
+			"id": "230119",
+			"text": "Zu deinem 100. Geburtstag wünschen wir dir alles Liebe und Gute! Mögest du noch viele schöne Momente erleben und ein langes, glückliches Leben führen.",
+			"author": null
+		},
+		{
+			"id": "230120",
+			"text": "Wir gratulieren dir recht herzlich zu deinem runden Geburtstag! Genieße die besonderen Momente am heutigen Tag und möge Gott stets an deiner Seite sein.",
+			"author": null
+		},
+		{
+			"id": "230121",
+			"text": "Alles Gute zu Deinem so besonderen Ehrentag! Mögen 100 Jahre voller Freude und Glück Dir noch bevorstehen.",
+			"author": null
+		},
+		{
+			"id": "230122",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir, dass Du noch viele schöne Momente mit Deinen Liebsten erleben kannst.",
+			"author": null
+		},
+		{
+			"id": "230123",
+			"text": "Wir feiern ein ganz besonderes Jubiläum: 100 Jahre voller Lebenserfahrung, Einsichten und Erinnerungen! Alles Gute zum Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230124",
+			"text": "Zu Deinem 100. Geburtstag wünschen wir Dir alles Liebe und alles Gute auf Deinem weiteren Lebensweg. Genieße die nächsten Schritte in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "230125",
+			"text": "Anlässlich des heutigen Tages möchten wir Dich beglückwünschen: Vom ganzen Herzen gratulieren wir Dir zu Deinem fantastischen 100. Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230126",
+			"text": "Herzliche Gratulation an Dich – an diesem Tag der Freude und des Feierns schenken wir Dir unsere besten Wünsche für ein langes, glückliches Leben!",
+			"author": null
+		},
+		{
+			"id": "230127",
+			"text": "Auf dass Du noch sehr lange von den schönsten Dingen im Leben profitierst: Zu Deinem großen Jubiläum gratulieren wir Dir herzlich!",
+			"author": null
+		},
+		{
+			"id": "230128",
+			"text": "In dieser besonderen Zeit genieße jeden Moment mit Freude, Zufriedenheit und Gelassenheit: Alles Liebe zu Deinem 100-jährigen Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230129",
+			"text": "Zu deinem 100. Geburtstag gratulieren wir dir von ganzem Herzen! Wir wünschen dir ein langes, volles und glückliches Leben!",
+			"author": null
+		},
+		{
+			"id": "230130",
+			"text": "Herzliche Glückwünsche zu deinem 100. Geburtstag! Genieße jeden Tag, so als ob es dein Letzter wäre und lasse dich verwöhnen!",
+			"author": null
+		},
+		{
+			"id": "230131",
+			"text": "Anlässlich deines 100. Geburtstags überbringen wir dir die besten Wünsche für ein langes, gesundes und fröhliches Leben!",
+			"author": null
+		},
+		{
+			"id": "230132",
+			"text": "Wir gratulieren dir herzlich zu deinem 100sten Geburtstag und hoffen, dass du einen schönen Tag mit allen Menschen verbringst, die du liebst!",
+			"author": null
+		},
+		{
+			"id": "230133",
+			"text": "Liebster Glückwunsch zu deinem 100-jährigen Jubiläum! Mach aus diesem Tag etwas ganz Besonderes und genieße ihn in vollen Zügen - du hast es verdient!",
+			"author": null
+		},
+		{
+			"id": "230134",
+			"text": "Anlässlich des großartigen Datums: Hier senden wir unsere besten Glückwünsche zu deinem niemals endenden Abenteuer auf Erden – deinem 100sten Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230135",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem 100. Geburtstag! Möge dieser Tag ganz besonders schön für Dich sein, voller Glück und Freude.",
+			"author": null
+		},
+		{
+			"id": "230136",
+			"text": "Alles Gute zum 100. Geburtstag! Mögen alle Deine Träume in Erfüllung gehen und stets ein Lächeln auf Dein Gesicht zaubern!",
+			"author": null
+		},
+		{
+			"id": "230137",
+			"text": "Wir gratulieren Dir ganz herzlich zu Deinem runden Geburtstag und wünschen Dir alles erdenklich Liebe und Gute! Genieße den Tag in vollen Zügen!",
+			"author": null
+		},
+		{
+			"id": "230138",
+			"text": "Heute ist ein besonderer Tag: Alles Liebe und Gute zu Deinem 100ten Geburtstag! Möge er für Dich unvergesslich sein und Du noch lange Freude an ihm haben!",
+			"author": null
+		},
+		{
+			"id": "230139",
+			"text": "Anlässlich des großen Ereignisses möchten wir Dir von Herzen gratulieren – alles Liebe und Beste anlässlich Deines 100sten Geburtstags!",
+			"author": null
+		},
+		{
+			"id": "230140",
+			"text": "Herzlichen Glückwunsch zum 100. Geburtstag! Wir wünschen Dir alles Liebe und Gute für die nächsten 100 Jahre.",
+			"author": null
+		},
+		{
+			"id": "230141",
+			"text": "Ein ganz besonderer Tag, an dem man 100 Jahre alt wird – gratulieren musst Du Dich selbst! Alles Gute zum runden Geburtstag!",
+			"author": null
+		},
+		{
+			"id": "230142",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Möge Dein nächstes Jahrhundert ebenso erfüllt sein voller Freude und Erfolg wie das letzte.",
+			"author": null
+		},
+		{
+			"id": "230143",
+			"text": "Alles Gute zum 100. Geburtstag! Wir wünschen Dir alles erdenklich Gute und hoffen, dass Du noch lange gesund und glücklich bleibst.",
+			"author": null
+		},
+		{
+			"id": "230144",
+			"text": "Herzlichen Glückwunsch zu Deinem 100. Geburtstag! Wir wünschen Dir von Herzen alles Gute und einen Tag voller Freude, Glück und Zufriedenheit.",
+			"author": null
+		},
+		{
+			"id": "230145",
+			"text": "Herzliche Glückwünsche zu Deinem 100. Geburtstag! Mögen Dir noch viele Jahre und viele schöne Momente geschenkt werden.",
+			"author": null
+		},
+		{
+			"id": "230146",
+			"text": "Ein besonderer Tag, ein besonderer Mensch: Alles Gute zum 100. Geburtstag! Wir wünschen Dir alles erdenklich Gute auf Deinem weiteren Weg durchs Leben.",
+			"author": null
+		},
+		{
+			"id": "230147",
+			"text": "Heute ist ein Tag voller Freude und Glückwunsch! Wir feiern Dich als Teil unserer Familie anlässlich des runden Jubiläums - Deines 100ten Geburtstags!",
+			"author": null
+		},
+		{
+			"id": "230148",
+			"text": "Herzlichen Glückwunsch an Dich zu Deinem 100. Geburtstag! Möge dieser Tag ein ganz besonderer sein und Dir viel Freude bereiten.",
+			"author": null
+		},
+		{
+			"id": "230149",
+			"text": "Wir gratulieren Dir ganz herzlich zum 100. Geburtstag und wünschen Dir weiterhin viel Gesundheit, Glück und ein langes Leben!",
+			"author": null
+		},
+		{
+			"id": "230150",
+			"text": "Ganz liebe Grüße zum besonderen Tag des 100. Geburtstages! Wir wünschen Dir viele schöne Erinnerungen an diesen Tag und mögen sie Dich immer begleiten.",
+			"author": null
+		}
+	]
 }
