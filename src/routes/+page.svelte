@@ -439,9 +439,9 @@
 
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
 		.sdt-h11 {
-			font-size: 6vw;
-			padding: 15px 0px;
-			margin-bottom: 3.5vw;
+			font-size: 5vw;
+			padding: 2vw 0px;
+			margin: 4vw 0;
 		}
 
 		.sdt-h11:before {
@@ -449,6 +449,23 @@
 		}
 		.sdt-h11:after {
 			height: 5.5px;
+		}
+		.home-pp {
+			font-size: 3.5vw;
+			margin: 1.5vw 0;
+		}
+		.home-h11 {
+			font-size: 5vw;
+		}
+		.homebeliebt-h22 {
+			font-size: 5vw;
+			margin: 1vw 0 1vw 0;
+		}
+		.home-beliebt-text {
+			// padding: 0.6vw;
+			// margin: 0.3vw 0;
+			font-size: 3vw;
+			// border-radius: 20px;
 		}
 	}
 </style>

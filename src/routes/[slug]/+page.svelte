@@ -194,10 +194,10 @@
 		}
 
 		.sprueche-card {
-			justify-content: flex-start;
-			align-items: center;
+			justify-content: space-around;
+			align-items: flex-start;
 			flex-wrap: wrap;
-			flex-direction: column;
+			flex-direction: row;
 			width: 100%;
 		}
 	}

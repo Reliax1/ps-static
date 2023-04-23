@@ -293,16 +293,6 @@
 		height: 100%;
 		padding: 3.5vw 0;
 	}
-	// .menu-li-newsletter {
-	// 	margin-top: 4vh;
-	// }
-	// .newsletter-placeholder {
-	// 	height: 12vh;
-	// 	width: 100%;
-	// 	background-color: darkgoldenrod;
-	// 	border-bottom: 1px solid #e1dfdd;
-	// 	border-bottom: 1px solid #e1dfdd;
-	// }
 
 	.menu-li-top-2 {
 		position: relative;
@@ -326,7 +316,40 @@
 		transition: transform 0.15s ease;
 		filter: $main-color-filter;
 	}
-	// .no-border {
-	// 	border-bottom: unset;
-	// }
+
+	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.menu-li-nonelink {
+			font-size: 4vw;
+			padding: 3.5vw 0;
+		}
+		.menu-li {
+			font-size: 4vw;
+		}
+		.tools-content-svg-right {
+			width: 3vw;
+			right: 1.5vw;
+		}
+		.placeholder span {
+			font-size: 6vw;
+		}
+		.tools-content-svg-left {
+			top: 37%;
+			width: 5vw;
+		}
+		.menu-nav-2 {
+			padding: 0 4vw;
+			top: 10vw;
+		}
+		.spruchcard-share-svg {
+			height: 8vw;
+			width: 8vw;
+			margin: 0 5vw;
+		}
+		.menu-li-top {
+			margin-bottom: 0;
+		}
+		.manu-social-div {
+			height: 10vh;
+		}
+	}
 </style>

@@ -125,11 +125,19 @@
 	}
 
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.wrapper {
+			min-height: 9vw;
+			margin: 3vw 0;
+		}
+		.h111 {
+			font-size: 5vw;
+			padding: 2vw 0px;
+		}
 		.h111:before {
-			height: 8px;
+			height: 6px;
 		}
 		.h111:after {
-			height: 8px;
+			height: 6px;
 		}
 	}
 </style>

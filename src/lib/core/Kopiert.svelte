@@ -7,9 +7,9 @@
 	.spruchcard-copy-copied {
 		color: #fff;
 		background-color: $main-color;
-		padding: 1.5vw 1.6vw;
+		padding: 2vw 2vw;
 		border-radius: 20px;
-		font-size: $font-card-mobile-small-text;
+		font-size: 3.5vw;
 	}
 	.spruchcard-copy-copied:after {
 		content: '';
@@ -17,8 +17,8 @@
 		border-left: 1vw solid transparent;
 		border-right: 1vw solid transparent;
 		border-top: 2vw solid $main-color;
-		bottom: -1.9vw;
-		right: 5vw;
+		bottom: -2vw;
+		right: 6.5vw;
 	}
 
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
@@ -26,6 +26,7 @@
 			padding: 1.5vw 1.6vw;
 			border-radius: 20px;
 			font-size: $font-card-mobile-small-text;
+			font-size: 2.5vw;
 		}
 		.spruchcard-copy-copied:after {
 			content: '';
@@ -34,7 +35,7 @@
 			border-right: 1vw solid transparent;
 			border-top: 2vw solid $main-color;
 			bottom: -1.8vw;
-			right: 4.9vw;
+			right: 4.5vw;
 		}
 	}
 

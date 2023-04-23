@@ -127,27 +127,33 @@
 
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
 		.relatedarticles-image {
-			width: 200px;
-			height: 200px;
+			width: 120px;
+			height: 120px;
 		}
 		.relatedarticles-container {
-			height: 250px;
-			width: 500px;
+			height: 180px;
+			width: 360px;
 			padding: 2vw;
 		}
 		.mobile-device {
-			height: 260px;
-			margin-top: 2.5vw;
+			height: 205px;
+			margin-top: 2vw;
 		}
 		.text-span {
-			font-size: 4vw;
+			font-size: 3.25vw;
 			margin-left: 1.5vw;
 		}
 		.relatedarticles-header {
-			font-size: 4.5vw;
+			font-size: 4vw;
 		}
 		.tabbed-icon a {
 			display: block;
+		}
+		.relatedarticles-wrapper {
+			margin: 4vw 0;
+		}
+		.tabbed-icon {
+			margin: 0 3vw 0 1vw;
 		}
 	}
 

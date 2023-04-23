@@ -989,11 +989,11 @@
 		}
 		.spruchcard-copy-animation {
 			top: -9vw;
-			left: 1vw;
+			left: 5vw;
 		}
 
 		.spruchcard-firstcard {
-			width: 81vw; //400px
+			width: 47vw; //400px
 			height: auto; //900px 175vw
 			position: relative;
 			border-radius: 10px;
@@ -1011,7 +1011,7 @@
 
 		.spruchcard-image-container {
 			width: 100%;
-			height: 101.7vw; //500px
+			height: 59vw; //500px
 			user-select: none;
 		}
 		.spruchcard-text-container {
@@ -1027,7 +1027,7 @@
 		}
 		.spruchcard-text {
 			line-height: 1.45;
-			font-size: 4.5vw;
+			font-size: 3vw;
 		}
 		.spruchcard-text-span {
 			position: relative;
@@ -1045,7 +1045,7 @@
 			z-index: 10;
 		}
 		.spruchcard-copy-svg {
-			width: 4.5vw;
+			width: 3vw;
 			margin-bottom: 0.8vw;
 			transition: width 0.1s ease;
 			will-change: width;
@@ -1053,7 +1053,7 @@
 
 		.spruchcard-copy-span {
 			padding-top: 0.1vw;
-			font-size: 2.5vw;
+			font-size: 1.8vw;
 		}
 
 		.spruchcard-share-teilen {
@@ -1073,15 +1073,15 @@
 		}
 		.spruchcard-share-text-teilen {
 			position: relative;
-			font-size: 2.5vw;
+			font-size: 1.8vw;
 		}
 		.spruchcard-share-teilen-share-svg {
-			width: 5vw;
+			width: 3.5vw;
 			z-index: 10;
 			margin-bottom: 0.8vw;
 		}
 		.spruchcard-share-teilen-download-svg {
-			width: 6.5vw;
+			width: 5vw;
 			z-index: 10;
 		}
 		.spruchcard-share-cointainer {

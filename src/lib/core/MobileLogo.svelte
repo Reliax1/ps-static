@@ -54,14 +54,14 @@
 	}
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
 		.LogoMain {
-			min-height: 8vh;
-			height: 8vh;
+			min-height: 7vh;
+			height: 7vh;
 		}
 		.LogoSecond {
-			font-size: 7.2vw !important;
+			font-size: 6vw !important;
 
 			span {
-				font-size: 9vw !important;
+				font-size: 8vw !important;
 			}
 		}
 	}

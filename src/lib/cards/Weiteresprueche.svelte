@@ -198,7 +198,7 @@
 
 		.spruchcard-copy-animation {
 			top: -10vw;
-			left: 1vw;
+			left: 0vw;
 		}
 
 		.ws-loop {
@@ -275,6 +275,39 @@
 		}
 		.ws-h2 {
 			font-size: 32.64px;
+		}
+	}
+
+	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.ws-second {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+		}
+		.ws-pp {
+			font-size: 3vw;
+		}
+		.ws-h2 {
+			font-size: 4.5vw;
+		}
+
+		.spruchcard-copy-span {
+			// padding-top: 0.1vw;
+			font-size: 1.8vw;
+		}
+		.spruchcard-copy-svg {
+			width: 3vw;
+		}
+		.ws-loop {
+			// min-height: 5vw;
+			margin: 1.2rem 0;
+			border-radius: 10px;
+			padding: 3vw 2vw 9vw 2vw;
+		}
+		.spruchcard-copy-animation {
+			top: -8.5vw;
+			left: -1.5vw;
 		}
 	}
 </style>

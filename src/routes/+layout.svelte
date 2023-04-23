@@ -73,7 +73,7 @@
 			grid-template-columns: 1fr;
 			margin-top: 0;
 			overflow-x: hidden;
-			margin-bottom: 100px; // delete or 50px ? calc(50px + 20vw)
+			margin-bottom: 55px; // delete or 50px ? calc(50px + 20vw)
 		}
 		.desktop-wrapper {
 			display: none;
