@@ -7,23 +7,25 @@
 		<span class="relatedarticles-header">Verwandte Themen</span>
 		<div class="mobile-device">
 			<ul class="tabbed-icons">
-				{#each imageArray as image}
-					<li class="tabbed-icon">
-						<a href={image.slug}>
-							<div class="relatedarticles-container">
-								<div class="image-div">
-									<img
-										class="relatedarticles-image"
-										src={`../sprueche/${image.image}.webp`}
-										alt={image.image.replace(/-/g, ' ')}
-									/>
+				{#each imageArray as image, index}
+					{#if index <= 2}
+						<li class="tabbed-icon">
+							<a href={image.slug}>
+								<div class="relatedarticles-container">
+									<div class="image-div">
+										<img
+											class="relatedarticles-image"
+											src={`../sprueche/${image.image}.webp`}
+											alt={image.image.replace(/-/g, ' ')}
+										/>
+									</div>
+									<div class="text-div">
+										<span class="text-span">{image.header}</span>
+									</div>
 								</div>
-								<div class="text-div">
-									<span class="text-span">{image.header}</span>
-								</div>
-							</div>
-						</a>
-					</li>
+							</a>
+						</li>
+					{/if}
 				{/each}
 			</ul>
 		</div>

@@ -6,6 +6,7 @@
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
 	import Headerh1 from '$lib/cards/Headerh1.svelte';
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
+	import YellowImage from '$lib/core/YellowImage.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
@@ -29,7 +30,7 @@
 	};
 
 	// onMount(() => {
-	// 	console.log('data', data.isMobile);
+	// 	console.log('data', data.spruchData.spruchcarddata.length);
 	// });
 </script>
 
@@ -69,29 +70,42 @@
 	{#key $page.params.slug}
 		<Headerh1 h1title={data.spruchData.h1title} />
 
-		<div class="sprueche-card">
+		<div class="sprueche-grid">
+			<div class="sprueche-card">
+				{#each data.spruchData.spruchcarddata as spruch, index}
+					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-			{#each data.spruchData.spruchcarddata as spruch, index}
-				<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
+					{#if index === 0 || index === 3 || index === 6 || index === 9 || index === data.spruchData.spruchcarddata.length - 1}
+						<YellowImage isMobile={true} />
+						<!-- <div class="yellow-wrapper-mobile">
+							<img class="yellow-image-mobile" src="/main-small.jpg" alt="main-small" />
+						</div> -->
+					{/if}
 
-				{#if index === 1}
-					<div class="sprueche-card-mobile">
-						<RelatedArticles imageArray={data.spruchData.othersites} />
-					</div>
-				{:else if index === 3}
-					<div class="sprueche-card-desktop">
-						<RelatedArticles imageArray={data.spruchData.othersites} />
-					</div>
-				{/if}
-			{/each}
-
-			<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
-
-			{#if data.spruchData.weiteredata}
-				<Weiteresprueche weiteredata={data.spruchData.weiteredata} />
+					{#if index === 6}
+						<div class="sprueche-card-mobile">
+							<RelatedArticles imageArray={data.spruchData.othersites} />
+						</div>
+					{:else if index === 2}
+						<div class="sprueche-card-desktop">
+							<RelatedArticles imageArray={data.spruchData.othersites} />
+						</div>
+					{/if}
+				{/each}
 
 				<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
-			{/if}
+
+				{#if data.spruchData.weiteredata}
+					<Weiteresprueche weiteredata={data.spruchData.weiteredata} />
+
+					<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
+				{/if}
+			</div>
+
+			<YellowImage isMobile={false} />
+			<!-- <div class="yellow-wrapper-desktop">
+				<img class="yellow-image-desktop" src="/main-small.jpg" alt="main-small" />
+			</div> -->
 		</div>
 
 		{#if !data.isMobile}
@@ -104,10 +118,10 @@
 
 <style lang="scss">
 	.sprueche-card-desktop {
-		display: block;
+		display: block !important;
 	}
 	.sprueche-card-mobile {
-		display: none;
+		display: none !important;
 	}
 	.sprueche-main {
 		display: flex;
@@ -121,6 +135,12 @@
 		padding-bottom: 2vw;
 		margin-top: 0.5vw;
 	}
+	.sprueche-grid {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		justify-items: center;
+	}
+
 	.sprueche-card {
 		display: flex;
 		justify-content: flex-start;
@@ -161,11 +181,15 @@
 	}
 
 	@media (max-width: 480px) {
+		.sprueche-grid {
+			display: block !important;
+		}
+
 		.sprueche-card-desktop {
-			display: none;
+			display: none !important;
 		}
 		.sprueche-card-mobile {
-			display: block;
+			display: block !important;
 		}
 		.sprueche-main {
 			width: 100%;
@@ -182,11 +206,15 @@
 		}
 	}
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.sprueche-grid {
+			display: block !important;
+		}
+
 		.sprueche-card-desktop {
-			display: none;
+			display: none !important;
 		}
 		.sprueche-card-mobile {
-			display: block;
+			display: block !important;
 		}
 		.sprueche-main {
 			width: 100%;
@@ -205,6 +233,7 @@
 		.sprueche-main {
 			width: 1920px;
 		}
+
 		.sprueche-card {
 			width: 100%;
 		}

@@ -17,9 +17,11 @@
 		51588 Nümbrecht
 	</p>
 
+	<p>Umsatzsteuer ID: DE360573626</p>
+
 	<h2>Kontakt</h2>
 	<p>
-		Telefon: +49 (0) 179 2585642 (Kontaktaufnahme bitte per E-Mail: perfekterspruch@gmail.com)<br />
+		<!-- Telefon: +49 (0) 179 2585642 (Kontaktaufnahme bitte per E-Mail: perfekterspruch@gmail.com)<br /> -->
 		E-Mail: perfekterspruch@gmail.com
 	</p>
 

@@ -10,7 +10,7 @@
 	let transitionOn = false;
 	let transitionVision = false;
 
-	let setUrl = dev ? 'http://127.0.0.1:5173' : 'https://perfekterspruch.de';
+	let setUrl = dev ? 'http://localhost:5173' : 'https://perfekterspruch.de';
 
 	$: if (scrollPosition <= 0) {
 		offSetTracker = true;
