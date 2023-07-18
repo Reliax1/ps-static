@@ -1,5 +1,6 @@
 <script>
 	export let isMobile;
+	let imageNumber = '2';
 
 	const yellowBaseUrl = 'https://images.arkunis.com/yellow/perfekt';
 
@@ -15,20 +16,20 @@
 		<picture>
 			<source
 				sizes={yellowSizes}
-				srcSet="{yellowBaseUrl}/1366/avif/1.avif 304w, {yellowBaseUrl}/1920/avif/1.avif 427w, {yellowBaseUrl}/2560/avif/1.avif 423w, {yellowBaseUrl}/3840/avif/1.avif 417w, {yellowBaseUrl}/360/avif/1.avif 912w"
+				srcSet="{yellowBaseUrl}/1366/avif/{imageNumber}.avif 304w, {yellowBaseUrl}/1920/avif/{imageNumber}.avif 427w, {yellowBaseUrl}/2560/avif/{imageNumber}.avif 423w, {yellowBaseUrl}/3840/avif/{imageNumber}.avif 417w, {yellowBaseUrl}/360/avif/{imageNumber}.avif 912w"
 				type="image/avif"
 			/>
 			<source
 				sizes={yellowSizes}
-				srcSet="{yellowBaseUrl}/1366/webp/1.webp 304w, {yellowBaseUrl}/1920/webp/1.webp 427w, {yellowBaseUrl}/2560/webp/1.webp 423w, {yellowBaseUrl}/3840/webp/1.webp 417w, {yellowBaseUrl}/360/webp/1.webp 912w"
+				srcSet="{yellowBaseUrl}/1366/webp/{imageNumber}.webp 304w, {yellowBaseUrl}/1920/webp/{imageNumber}.webp 427w, {yellowBaseUrl}/2560/webp/{imageNumber}.webp 423w, {yellowBaseUrl}/3840/webp/{imageNumber}.webp 417w, {yellowBaseUrl}/360/webp/{imageNumber}.webp 912w"
 				type="image/webp"
 			/>
 			<img
 				sizes={yellowSizes}
-				src="{yellowBaseUrl}/1366/jpg/1.jpg"
+				src="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg"
 				class:yellow-image-mobile={isMobile === true}
 				class:yellow-image-desktop={isMobile === false}
-				srcSet="{yellowBaseUrl}/1366/jpg/1.jpg 304w, {yellowBaseUrl}/1920/jpg/1.jpg 427w, {yellowBaseUrl}/2560/jpg/1.jpg 423w, {yellowBaseUrl}/3840/jpg/1.jpg 417w, {yellowBaseUrl}/360/jpg/1.jpg 912w"
+				srcSet="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg 304w, {yellowBaseUrl}/1920/jpg/{imageNumber}.jpg 427w, {yellowBaseUrl}/2560/jpg/{imageNumber}.jpg 423w, {yellowBaseUrl}/3840/jpg/{imageNumber}.jpg 417w, {yellowBaseUrl}/360/jpg/{imageNumber}.jpg 912w"
 				alt="yellow"
 			/>
 		</picture>
