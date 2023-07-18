@@ -75,7 +75,7 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if index === 0 || index === 3 || index === 6 || index === 9 || index === data.spruchData.spruchcarddata.length - 1}
+					{#if index === 0 || index === 2 || index === 5 || index === 6 || index === data.spruchData.spruchcarddata.length - 1}
 						<YellowImage isMobile={true} />
 						<!-- <div class="yellow-wrapper-mobile">
 							<img class="yellow-image-mobile" src="/main-small.jpg" alt="main-small" />
