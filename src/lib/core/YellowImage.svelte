@@ -12,7 +12,7 @@
 	class:yellow-wrapper-mobile={isMobile === true}
 	class:yellow-wrapper-desktop={isMobile === false}
 >
-	<a href="https://www.arkunis.de/" target="_blank">
+	<a href="https://www.arkunis.de/konfigurator" target="_blank">
 		<picture>
 			<source
 				sizes={yellowSizes}
