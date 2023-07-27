@@ -1,6 +1,6 @@
 <script>
 	export let isMobile;
-	let imageNumber = '3';
+	let imageNumber = '4';
 
 	const yellowBaseUrl = 'https://images.arkunis.com/yellow/perfekt';
 
