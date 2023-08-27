@@ -75,18 +75,15 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if index === 0 || index === 2 || index === 5 || index === 8 || index === data.spruchData.spruchcarddata.length - 1}
+					<!-- {#if index === 0 || index === 2 || index === 5 || index === 8 || index === data.spruchData.spruchcarddata.length - 1}
 						<YellowImage isMobile={true} />
-						<!-- <div class="yellow-wrapper-mobile">
-							<img class="yellow-image-mobile" src="/main-small.jpg" alt="main-small" />
-						</div> -->
-					{/if}
+					{/if} -->
 
-					{#if index === 6}
+					{#if index === 1}
 						<div class="sprueche-card-mobile">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
-					{:else if index === 2}
+					{:else if index === 3}
 						<div class="sprueche-card-desktop">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
@@ -102,10 +99,7 @@
 				{/if}
 			</div>
 
-			<YellowImage isMobile={false} />
-			<!-- <div class="yellow-wrapper-desktop">
-				<img class="yellow-image-desktop" src="/main-small.jpg" alt="main-small" />
-			</div> -->
+			<!-- <YellowImage isMobile={false} /> -->
 		</div>
 
 		{#if !data.isMobile}
@@ -119,6 +113,7 @@
 <style lang="scss">
 	.sprueche-card-desktop {
 		display: block !important;
+		width: 92%; // delete
 	}
 	.sprueche-card-mobile {
 		display: none !important;
@@ -137,16 +132,18 @@
 	}
 	.sprueche-grid {
 		display: grid;
-		grid-template-columns: 3fr 1fr;
+		// grid-template-columns: 3fr 1fr;
+		grid-template-columns: auto;
 		justify-items: center;
 	}
 
 	.sprueche-card {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: flex-start;
 		flex-wrap: wrap;
-		width: 91.9%;
+		// width: 91.9%;
+		width: 100%;
 	}
 
 	@media (min-width: 1025px) {
