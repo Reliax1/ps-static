@@ -1,14 +1,4 @@
 <script>
-	const testConsent = () => {
-		console.log('CHECK1');
-		if (typeof gtag != undefined) {
-			console.log('CHECK1');
-			gtag('consent', 'update', {
-				ad_storage: 'granted',
-				analytics_storage: 'granted'
-			});
-		}
-	};
 </script>
 
 <svelte:head>
@@ -19,7 +9,7 @@
 
 <div>
 	<h1>Datenschutz&shy;erkl&auml;rung</h1>
-	<h2 on:click={testConsent}>1. Datenschutz auf einen Blick</h2>
+	<h2>1. Datenschutz auf einen Blick</h2>
 	<h3>Allgemeine Hinweise</h3>
 	<p>
 		Die folgenden Hinweise geben einen einfachen &Uuml;berblick dar&uuml;ber, was mit Ihren
