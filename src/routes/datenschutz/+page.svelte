@@ -1,4 +1,14 @@
 <script>
+	const testConsent = () => {
+		console.log('CHECK1');
+		if (typeof gtag != undefined) {
+			console.log('CHECK1');
+			gtag('consent', 'update', {
+				ad_storage: 'granted',
+				analytics_storage: 'granted'
+			});
+		}
+	};
 </script>
 
 <svelte:head>
@@ -9,7 +19,7 @@
 
 <div>
 	<h1>Datenschutz&shy;erkl&auml;rung</h1>
-	<h2>1. Datenschutz auf einen Blick</h2>
+	<h2 on:click={testConsent}>1. Datenschutz auf einen Blick</h2>
 	<h3>Allgemeine Hinweise</h3>
 	<p>
 		Die folgenden Hinweise geben einen einfachen &Uuml;berblick dar&uuml;ber, was mit Ihren
@@ -444,6 +454,36 @@
 		Weitere Informationen finden Sie in den Nutzungsrichtlinien von Google und den
 		Datenschutzhinweisen von Google für dieses Produkt.
 	</p>
+
+	<h3>Widerspruchsrecht</h3>
+	<p>
+		Soweit wir zur Wahrung unserer im Rahmen einer Interessensabwägung überwiegenden berechtigten
+		Interessen personenbezogene Daten wie oben erläutert verarbeiten, können Sie dieser Verarbeitung
+		mit Wirkung für die Zukunft widersprechen. Erfolgt die Verarbeitung zu Zwecken des
+		Direktmarketings, können Sie dieses Recht jederzeit wie oben beschrieben ausüben. Soweit die
+		Verarbeitung zu anderen Zwecken erfolgt, steht Ihnen ein Widerspruchsrecht nur bei Vorliegen von
+		Gründen, die sich aus Ihrer besonderen Situation ergeben, zu.
+	</p>
+	<p>
+		Nach Ausübung Ihres Widerspruchsrechts werden wir Ihre personenbezogenen Daten nicht weiter zu
+		diesen Zwecken verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die
+		Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder wenn die
+		Verarbeitung der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen dient.
+	</p>
+	<p>
+		Dies gilt nicht, wenn die Verarbeitung zu Zwecken des Direktmarketings erfolgt. Dann werden wir
+		Ihre personenbezogenen Daten nicht weiter zu diesem Zweck verarbeiten.
+	</p>
+
+	<h2>8 Kontaktmöglichkeiten</h2>
+	<p>
+		Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei
+		Auskünften, Berichtigung, Einschränkung oder Löschung von Daten sowie Widerruf erteilter
+		Einwilligungen oder Widerspruch gegen eine bestimmte Datenverwendung wenden Sie sich bitte
+		direkt an uns über die E-Mail-Adresse: perfekterspruch@gmail.com.
+	</p>
+
+	<p>Letzte Aktualisierung: 30.08.2023</p>
 </div>
 
 <style lang="scss">
