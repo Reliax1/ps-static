@@ -285,6 +285,165 @@
 		Anliegens). Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche
 		Aufbewahrungsfristen &ndash; bleiben unber&uuml;hrt.
 	</p>
+	<h2>5. Cookies</h2>
+	<h3>Technisch notwendige Cookies</h3>
+	<p>
+		Soweit nachstehend in der Datenschutzerklärung keine anderen Angaben gemacht werden setzen wir
+		nur diese technisch notwendigen Cookies zu dem Zweck ein, unser Angebot nutzerfreundlicher,
+		effektiver und sicherer zu machen. Des Weiteren ermöglichen Cookies unseren Systemen, Ihren
+		Browser auch nach einem Seitenwechsel zu erkennen und Ihnen Services anzubieten. Einige
+		Funktionen unserer Internetseite können ohne den Einsatz von Cookies nicht angeboten werden. Für
+		diese ist es erforderlich, dass der Browser auch nach einem Seitenwechsel wiedererkannt wird.
+	</p>
+	<h3>Transiente Cookies</h3>
+	<p>
+		Transiente Cookies, diese werden automatisch gelöscht, wenn Sie Ihren Browser schließen. Dazu
+		zählen insbesondere die Session-Cookies. Diese speichern eine sogenannte Session-ID, mit welcher
+		sich die verschiedenen Anfragen Ihres Browsers der gemeinsamen Sitzung zuordnen lassen. Dadurch
+		kann Ihr Rechner wiedererkannt werden, wenn Sie auf unsere Webseite zurückkehren. Die
+		Session-Cookies werden gelöscht, wenn Sie sich ausloggen oder den Browser schließen.
+	</p>
+	<h3>Persistente Cookie</h3>
+	<p>
+		Persistente Cookies, diese werden automatisiert nach einer vorgegebenen Dauer gelöscht, die sich
+		je nach Cookie unterscheiden kann. Sie können die Cookies in der Sicherheitseinstellung Ihres
+		Browsers jederzeit löschen. Sie können auf den Einsatz von Cookies durch Veränderungen an den
+		Einstellungen Ihres Browsers Einfluss nehmen. Die meisten Browser verfügen über eine Option, mit
+		der das Speichern von Cookies eingeschränkt oder verhindert werden kann. Jeder Browser ist
+		individuell in der Art und Weise, wie er die Cookie-Einstellungen verwaltet. Diese ist in dem
+		jeweiligen Hilfemenü Ihres Browsers beschrieben.
+	</p>
+
+	<p>Diese finden Sie für die jeweiligen Browser unter den folgenden Links:</p>
+
+	<ul>
+		<li>
+			Internet Explorer: <a
+				href="http://windows.microsoft.com/de-DE/windows-vista/Block-or-allow-cookies"
+				>http://windows.microsoft.com/de-DE/windows-vista/Block-or-allow-cookies</a
+			>
+		</li>
+		<li>
+			Firefox: <a href="https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen"
+				>https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen</a
+			>
+		</li>
+		<li>
+			Chrome: <a href="http://support.google.com/chrome/bin/answer.py?hl=de&hlrm=en&answer=95647"
+				>http://support.google.com/chrome/bin/answer.py?hl=de&hlrm=en&answer=95647</a
+			>
+		</li>
+		<li>
+			Safari: <a href="https://support.apple.com/kb/ph21411?locale=de_DE"
+				>https://support.apple.com/kb/ph21411?locale=de_DE</a
+			>
+		</li>
+	</ul>
+
+	<p>
+		Bitte beachten Sie jedoch, dass die Deaktivierung von Cookies bewirken kann, dass Ihnen nur
+		eingeschränkte Funktionen der Webseite zur Verfügung stehen. Rechtsgrundlage für den Einsatz von
+		Cookies ist Art. 6 Abs. 1 lit. f DS-GVO. Bei dem Einsatz von Cookies ist zwischen den zwingend
+		erforderlichen Cookies und den für weitergehende Zwecke (Messung von Zugriffszahlen,
+		Werbezwecke) zu unterscheiden. Sie haben über unseren Consent-Manager grundsätzlich die Wahl,
+		alle oder einige der nicht-notwendigen Cookies zu akzeptieren oder abzulehnen. Sofern Sie sich
+		für die letzte Variante entscheiden, ist es möglich, dass Sie unser Angebot nicht vollständig
+		nutzen können. Diese Einwilligung können Sie über unser Consent-Management (auch bekannt als
+		„Cookie-Banner“ oder „Cookie-Einstellungen“) steuern und widerrufen.
+	</p>
+
+	<p>
+		Die Nutzung von Cookies oder vergleichbarer Technologien erfolgt auf Grundlage des § 25 Abs. 2
+		TTDSG. Die Verarbeitung Ihrer personenbezogenen Daten erfolgt auf Grundlage des Art. 6 Abs. 1
+		lit. f DSGVO aus unserem überwiegenden berechtigten Interesse an der Gewährleistung der
+		optimalen Funktionalität der Website sowie einer nutzerfreundlichen und effektiven Gestaltung
+		unseres Angebots. Sie haben das Recht aus Gründen, die sich aus Ihrer besonderen Situation
+		ergeben, jederzeit dieser Verarbeitungen Sie betreffender personenbezogener Daten zu
+		widersprechen.
+	</p>
+
+	<h2>6. Analysetool - Google Analytics</h2>
+	<p>
+		Unsere Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“).
+		Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert
+		werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den
+		Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen
+		Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der
+		IP-Anonymisierung auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von
+		Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den
+		Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an
+		einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser
+		Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um
+		Reports über die Website-Aktivitäten zusammenzustellen und um weitere mit der Website-Nutzung
+		und der Internetnutzung verbundene Dienstleistungen gegenüber dem Website-Betreiber zu
+		erbringen.
+	</p>
+	<p>
+		Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit
+		anderen Daten von Google zusammengeführt.
+	</p>
+	<p>
+		Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer
+		Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall
+		gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+		Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der
+		Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten
+		durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plug-in
+		herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de"
+			>http://tools.google.com/dlpage/gaoptout?hl=de</a
+		> .
+	</p>
+	<p>
+		Wir nutzen Google Analytics, um die Nutzung unserer Website analysieren und regelmäßig
+		verbessern zu können. Über die gewonnenen Statistiken können wir unser Angebot verbessern und
+		für Sie als Nutzer interessanter ausgestalten. Für die Ausnahmefälle, in denen personenbezogene
+		Daten in die USA übertragen werden, hat sich Google dem EU-US Privacy Shield unterworfen,
+		<a href="https://www.privacyshield.gov/EU-US-Framework"
+			>https://www.privacyshield.gov/EU-US-Framework</a
+		>.
+	</p>
+	<p>
+		Informationen des Drittanbieters: Google Dublin, Google Ireland Ltd., Gordon House, Barrow
+		Street, Dublin 4, Ireland, Fax: +353 (1) 436 1001. Nutzerbedingungen:
+		<a href="http://www.google.com/analytics/terms/de.html"
+			>http://www.google.com/analytics/terms/de.html</a
+		>, Übersicht zum Datenschutz:
+		<a href="http://www.google.com/intl/de/analytics/learn/privacy.html"
+			>http://www.google.com/intl/de/analytics/learn/privacy.html</a
+		>, sowie die Datenschutzerklärung:
+		<a href="http://www.google.de/intl/de/policies/privacy"
+			>http://www.google.de/intl/de/policies/privacy</a
+		>.
+	</p>
+
+	<h2>7. Google Tag Manager</h2>
+	<p>
+		Wir nutzen auf unserer Seite den Dienst Google Tag Manager der Google Inc., 1600 Amphitheatre
+		Parkway, Mountain View, CA 94.043 USA. Mit dem Google Tag Manager können Vermarkter Website-Tags
+		über eine Oberfläche verwalten. Bei einem Tag handelt es sich um eine von Markierung oder
+		Auszeichnung eines Datenbestandes. Der Tag Manager selbst, der die Tags einsetzt, funktioniert
+		jedoch ohne Cookies und erfasst keine personenbezogenen Daten. Die über den Google Tag Manager
+		eingerichteten Tags sorgen lediglich für die Erfassung von Daten, die an das Zielsystem
+		weitergegeben werden. Weil die Daten nur durchgereicht werden, erhebt bzw. speichert das System
+		die ermittelten Daten nicht selbst. Der Tag Manager sorgt somit lediglich für die Auslösung
+		anderer Tags, die ihrerseits unter Umständen Daten erfassen. Zu diesen jeweiligen Drittanbietern
+		finden sich entsprechende Erklärungen in dieser Datenschutzerklärung. Der Google Tag Manager
+		verwendet diese Daten aber nicht. Haben Sie eine Deaktivierung von Cookies eingestellt oder
+		sonst vorgenommen, wird diese für alle Tracking-Tags beachtet, die mit dem Google Tag Manager
+		eingesetzt wurden, das Tool ändert also Ihre Cookie-Einstellungen nicht.
+	</p>
+	<p>
+		Möglicherweise bittet Google Sie um die Erlaubnis, einige Produktdaten (z. B. Ihre
+		Kontoinformationen) an andere Google-Produkte weiterzugeben, um bestimmte Funktionen zu
+		aktivieren, z. B. die Hinzufügung neuer Conversion-Tracking-Tags für AdWords zu vereinfachen.
+		Außerdem überprüfen die Entwickler von Google von Zeit zu Zeit Informationen zur Produktnutzung,
+		um das Produkt weiter zu optimieren. Google wird jedoch keine Daten dieser Art ohne Ihre
+		Zustimmung an andere Google-Produkte weitergeben.
+	</p>
+	<p>
+		Weitere Informationen finden Sie in den Nutzungsrichtlinien von Google und den
+		Datenschutzhinweisen von Google für dieses Produkt.
+	</p>
 </div>
 
 <style lang="scss">
@@ -313,6 +472,9 @@
 	p {
 		margin: 1.4vh 0;
 		width: 100%;
+	}
+	a {
+		word-break: break-all;
 	}
 	// a {
 	//   color: $main-color;
