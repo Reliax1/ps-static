@@ -25,7 +25,7 @@
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
 	<!-- Google tag (gtag.js) -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
@@ -39,7 +39,7 @@
 		gtag('js', new Date());
 
 		gtag('config', 'G-7PT3JH3660');
-	</script> -->
+	</script>
 </svelte:head>
 
 <div class="desktop-wrapper">
