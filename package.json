@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@beyonk/async-script-loader": "^2.3.0",
 		"lazysizes": "^5.3.2",
 		"svelte-preprocess": "^4.10.7"
 	}
