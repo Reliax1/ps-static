@@ -105,10 +105,10 @@
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		gtag('consent', 'default', {
-			ad_storage: 'denied',
-			analytics_storage: 'denied'
-		});
+		// gtag('consent', 'default', {
+		// 	ad_storage: 'denied',
+		// 	analytics_storage: 'denied'
+		// });
 
 		gtag('js', new Date());
 
