@@ -61,7 +61,7 @@
 			coo_deleted = true;
 
 			setTimeout(() => {
-				console.log('CHECK');
+				// console.log('CHECK');
 
 				document.cookie.split(';').forEach(function (c) {
 					document.cookie = c
