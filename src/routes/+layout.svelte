@@ -58,10 +58,11 @@
 
 	function deleteAllCookies() {
 		if (document.cookie.indexOf('_ga_7PT3JH3660') > -1 && document.cookie.indexOf('_ga') > -1) {
-			console.log('CHECK');
 			coo_deleted = true;
 
 			setTimeout(() => {
+				console.log('CHECK');
+
 				document.cookie.split(';').forEach(function (c) {
 					document.cookie = c
 						.replace(/^ +/, '')
@@ -91,7 +92,7 @@
 				// 	ad_storage: 'denied',
 				// 	analytics_storage: 'denied'
 				// });
-			}, 750); // ????????????????
+			}, 1500); // ????????????????
 		} else if (coo_deleted === false && counter < 300) {
 			counter++;
 
@@ -115,11 +116,11 @@
 		gtag('config', mainProperty);
 	}
 
-	onMount(async () => {
-		setTimeout(() => {
-			init();
-		}, 100);
-	});
+	// onMount(async () => {
+	// 	setTimeout(() => {
+	// 		init();
+	// 	}, 100);
+	// });
 </script>
 
 <svelte:head>
