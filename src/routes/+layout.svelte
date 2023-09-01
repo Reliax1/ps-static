@@ -92,6 +92,9 @@
 				// 	ad_storage: 'denied',
 				// 	analytics_storage: 'denied'
 				// });
+				setTimeout(() => {
+					deleteAllCookies();
+				}, 5000);
 			}, 750); // ????????????????
 		} else if (coo_deleted === false && counter < 300) {
 			counter++;
