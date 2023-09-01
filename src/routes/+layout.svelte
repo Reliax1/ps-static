@@ -92,7 +92,7 @@
 				// 	ad_storage: 'denied',
 				// 	analytics_storage: 'denied'
 				// });
-			}, 1500); // ????????????????
+			}, 750); // ????????????????
 		} else if (coo_deleted === false && counter < 300) {
 			counter++;
 
@@ -116,11 +116,11 @@
 		gtag('config', mainProperty);
 	}
 
-	// onMount(async () => {
-	// 	setTimeout(() => {
-	// 		init();
-	// 	}, 100);
-	// });
+	onMount(async () => {
+		setTimeout(() => {
+			init();
+		}, 100);
+	});
 </script>
 
 <svelte:head>
