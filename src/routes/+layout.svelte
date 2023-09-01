@@ -45,7 +45,7 @@
 			callback
 		);
 
-		// deleteAllCookies();
+		deleteAllCookies();
 	}
 
 	function test() {
