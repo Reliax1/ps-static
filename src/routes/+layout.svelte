@@ -45,7 +45,7 @@
 			callback
 		);
 
-		deleteAllCookies();
+		// deleteAllCookies();
 	}
 
 	function test() {
@@ -86,35 +86,40 @@
 						d.shift();
 					}
 				}
-			}, 1000); // ????????????????
-		} else if (coo_deleted === false && counter < 200) {
+
+				// gtag('consent', 'update', {
+				// 	ad_storage: 'denied',
+				// 	analytics_storage: 'denied'
+				// });
+			}, 750); // ????????????????
+		} else if (coo_deleted === false && counter < 300) {
 			counter++;
 
 			console.log('not found');
 			setTimeout(() => {
 				deleteAllCookies();
-			}, 100);
+			}, 200);
 		}
 	}
 
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		// gtag('consent', 'default', {
-		// 	ad_storage: 'denied',
-		// 	analytics_storage: 'denied'
-		// });
+		gtag('consent', 'default', {
+			ad_storage: 'denied',
+			analytics_storage: 'denied'
+		});
 
 		gtag('js', new Date());
 
 		gtag('config', mainProperty);
 	}
 
-	// onMount(async () => {
-	// 	setTimeout(() => {
-	// 		init();
-	// 	}, 500);
-	// });
+	onMount(async () => {
+		setTimeout(() => {
+			init();
+		}, 100);
+	});
 </script>
 
 <svelte:head>
