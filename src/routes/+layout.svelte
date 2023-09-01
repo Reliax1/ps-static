@@ -16,22 +16,22 @@
 	let coo_deleted = false;
 	// let ga;
 
-	function enableAnalytics() {
-		// ga.init();
+	// function enableAnalytics() {
+	// 	// ga.init();
 
-		// if (typeof gtag != undefined) {
-		// 	console.log('CHECK');
-		// 	gtag('consent', 'update', {
-		// 		ad_storage: 'granted',
-		// 		analytics_storage: 'granted'
-		// 	});
-		// }
+	// 	// if (typeof gtag != undefined) {
+	// 	// 	console.log('CHECK');
+	// 	// 	gtag('consent', 'update', {
+	// 	// 		ad_storage: 'granted',
+	// 	// 		analytics_storage: 'granted'
+	// 	// 	});
+	// 	// }
 
-		gtag('consent', 'update', {
-			ad_storage: 'granted',
-			analytics_storage: 'granted'
-		});
-	}
+	// 	gtag('consent', 'update', {
+	// 		ad_storage: 'granted',
+	// 		analytics_storage: 'granted'
+	// 	});
+	// }
 
 	async function init() {
 		await loader(
@@ -96,10 +96,10 @@
 		} else if (coo_deleted === false && counter < 300) {
 			counter++;
 
-			console.log('not found');
+			// console.log('not found');
 			setTimeout(() => {
 				deleteAllCookies();
-			}, 200);
+			}, 1);
 		}
 	}
 
