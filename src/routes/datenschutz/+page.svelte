@@ -79,29 +79,6 @@
 	<p>
 		Vercel Inc. <br />340 S Lemon Ave #4133<br />Walnut<br />CA 91789<br />USA
 	</p>
-	<!-- <h4>Server-Log-Dateien</h4>
-    <p>
-      Der Provider der Seiten erhebt und speichert automatisch Informationen in
-      so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns
-      übermittelt. Dies sind:
-    </p>
-    <ul>
-      <li>Browsertyp und Browserversion</li>
-      <li>verwendetes Betriebssystem</li>
-      <li>Referrer URL</li>
-      <li>Hostname des zugreifenden Rechners</li>
-      <li>Uhrzeit der Serveranfrage</li>
-      <li>IP-Adresse</li>
-    </ul>
-    <p>
-      Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht
-      vorgenommen.
-    </p>
-    <p>
-      Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der
-      die Verarbeitung von Daten zur Erfüllung eines Vertrags oder
-      vorvertraglicher Maßnahmen gestattet.
-    </p> -->
 	<h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
 	<h3>Datenschutz</h3>
 	<p>
@@ -443,6 +420,16 @@
 	<p>
 		Weitere Informationen finden Sie in den Nutzungsrichtlinien von Google und den
 		Datenschutzhinweisen von Google für dieses Produkt.
+	</p>
+
+	<h2>8. Monumetric</h2>
+	<p>
+		*This Site is affiliated with Monumetric (dba for The Blogger Network, LLC) for the purposes of
+		placing advertising on the Site, and Monumetric will collect and use certain data for
+		advertising purposes. To learn more about Monumetric's data usage, click here: <a
+			href="http://www.monumetric.com/publisher-advertising-privacy"
+			>Publisher Advertising Privacy</a
+		>*
 	</p>
 
 	<h3>Widerspruchsrecht</h3>
