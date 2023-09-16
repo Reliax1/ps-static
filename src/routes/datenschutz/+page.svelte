@@ -422,16 +422,6 @@
 		Datenschutzhinweisen von Google für dieses Produkt.
 	</p>
 
-	<h2>8. Monumetric</h2>
-	<p>
-		*This Site is affiliated with Monumetric (dba for The Blogger Network, LLC) for the purposes of
-		placing advertising on the Site, and Monumetric will collect and use certain data for
-		advertising purposes. To learn more about Monumetric's data usage, click here: <a
-			href="http://www.monumetric.com/publisher-advertising-privacy"
-			>Publisher Advertising Privacy</a
-		>*
-	</p>
-
 	<h3>Widerspruchsrecht</h3>
 	<p>
 		Soweit wir zur Wahrung unserer im Rahmen einer Interessensabwägung überwiegenden berechtigten
