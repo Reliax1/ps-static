@@ -276,6 +276,10 @@
 		94025, USA;
 	</p>
 	<p>
+		für Pinterest und dessen Internetauftritt die Pinterest Inc., 808 Brannan Street, San Francisco,
+		CA 94103, USA;
+	</p>
+	<p>
 		Weitere Informationen über den Zweck und den Umfang der Datenerhebung und über die weitere
 		Verarbeitung und Nutzung Ihrer Daten durch den jeweiligen Social Media-Dienst entnehmen Sie
 		bitten den Datenschutzrichtlinien der jeweiligen Plattform.
