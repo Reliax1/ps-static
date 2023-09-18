@@ -3,7 +3,7 @@
 	import { fly } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
-	import MobileStore from '../../stores/MobileStore';
+	import HelperStore from '../../stores/HelperStore';
 	import ContentStore from '../../stores/ContentStore';
 
 	import MobileLogo from '$lib/core/MobileLogo.svelte';
@@ -48,15 +48,15 @@
 	};
 
 	const closeMobileStore = () => {
-		$MobileStore.mobileMenu = false;
+		$HelperStore.mobileMenu = false;
 	};
 
-	$: if ($MobileStore.mobileMenu === false) {
+	$: if ($HelperStore.mobileMenu === false) {
 		all_menus.forEach((element) => (element.menu = false));
 	}
 </script>
 
-{#if $MobileStore.mobileMenu}
+{#if $HelperStore.mobileMenu}
 	<div
 		transition:fly={{ duration: 500, x: -500, y: 0, opacity: 1, easing: quintOut }}
 		class="menu-main-wrapper"

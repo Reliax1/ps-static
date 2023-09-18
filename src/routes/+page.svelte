@@ -2,7 +2,6 @@
 	import { dev } from '$app/environment';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
-	import MobileStore from '../stores/MobileStore';
 
 	export let data;
 

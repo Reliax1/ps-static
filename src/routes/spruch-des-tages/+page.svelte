@@ -1,6 +1,5 @@
 <script>
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
-	import MobileStore from '../../stores/MobileStore';
 
 	export let data;
 

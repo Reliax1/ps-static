@@ -7,31 +7,12 @@
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
+	import ConsentBanner from '$lib/core/ConsentBanner.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
 
 	const mainProperty = 'G-7PT3JH3660';
-	let counter = 1;
-	let coo_deleted = false;
-	// let ga;
-
-	// function enableAnalytics() {
-	// 	// ga.init();
-
-	// 	// if (typeof gtag != undefined) {
-	// 	// 	console.log('CHECK');
-	// 	// 	gtag('consent', 'update', {
-	// 	// 		ad_storage: 'granted',
-	// 	// 		analytics_storage: 'granted'
-	// 	// 	});
-	// 	// }
-
-	// 	gtag('consent', 'update', {
-	// 		ad_storage: 'granted',
-	// 		analytics_storage: 'granted'
-	// 	});
-	// }
 
 	async function init() {
 		await loader(
@@ -44,8 +25,6 @@
 			test,
 			callback
 		);
-
-		deleteAllCookies();
 	}
 
 	function test() {
@@ -56,63 +35,13 @@
 		window.dataLayer.push(arguments);
 	}
 
-	function deleteAllCookies() {
-		if (document.cookie.indexOf('_ga_7PT3JH3660') > -1 && document.cookie.indexOf('_ga') > -1) {
-			coo_deleted = true;
-
-			setTimeout(() => {
-				// console.log('CHECK');
-
-				document.cookie.split(';').forEach(function (c) {
-					document.cookie = c
-						.replace(/^ +/, '')
-						.replace(/=.*/, '=;expires=' + new Date().toUTCString() + ';path=/');
-				});
-
-				let cookies = document.cookie.split('; ');
-				for (let c = 0; c < cookies.length; c++) {
-					let d = window.location.hostname.split('.');
-					while (d.length > 0) {
-						let cookieBase =
-							encodeURIComponent(cookies[c].split(';')[0].split('=')[0]) +
-							'=; expires=Thu, 01-Jan-1970 00:00:01 GMT; domain=' +
-							d.join('.') +
-							' ;path=';
-						let p = location.pathname.split('/');
-						document.cookie = cookieBase + '/';
-						while (p.length > 0) {
-							document.cookie = cookieBase + p.join('/');
-							p.pop();
-						}
-						d.shift();
-					}
-				}
-
-				// gtag('consent', 'update', {
-				// 	ad_storage: 'denied',
-				// 	analytics_storage: 'denied'
-				// });
-				setTimeout(() => {
-					deleteAllCookies();
-				}, 5000);
-			}, 2000); // ???????????????? | old 750
-		} else if (coo_deleted === false && counter < 300) {
-			counter++;
-
-			// console.log('not found');
-			setTimeout(() => {
-				deleteAllCookies();
-			}, 1);
-		}
-	}
-
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		// gtag('consent', 'default', {
-		// 	ad_storage: 'denied',
-		// 	analytics_storage: 'denied'
-		// });
+		gtag('consent', 'default', {
+			ad_storage: 'denied',
+			analytics_storage: 'denied'
+		});
 
 		gtag('js', new Date());
 
@@ -140,6 +69,8 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
+
+	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
 
 	<!-- Google tag (gtag.js) -->
 	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
@@ -177,6 +108,8 @@
 	<TheFooter />
 	<!-- </div> -->
 </main>
+
+<ConsentBanner />
 
 <div class="mobile-wrapper">
 	<MobileNav />

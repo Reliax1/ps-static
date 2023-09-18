@@ -1,7 +1,4 @@
 <script>
-	// import { onMount } from 'svelte';
-	// import MobileStore from '../../stores/MobileStore';
-
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
 	import Headerh1 from '$lib/cards/Headerh1.svelte';

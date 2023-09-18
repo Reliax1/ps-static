@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import MobileStore from '../../stores/MobileStore';
+	import HelperStore from '../../stores/HelperStore';
 
 	// let openInhalt = false;
 	let openmenu2 = false; // not defined
@@ -26,12 +26,12 @@
 		});
 	};
 	const clickCloseMenuHome = () => {
-		if ($MobileStore.mobileMenu) {
-			$MobileStore.mobileMenu = false;
+		if ($HelperStore.mobileMenu) {
+			$HelperStore.mobileMenu = false;
 		}
 	};
 	const clickopenmenu = () => {
-		$MobileStore.mobileMenu = !$MobileStore.mobileMenu;
+		$HelperStore.mobileMenu = !$HelperStore.mobileMenu;
 	};
 </script>
 
@@ -82,8 +82,8 @@
 		<div class="nav1" on:click={() => buttonclick('Menu' + openmenu2.toString())}>
 			<div class="menu-div">
 				<div
-					class:menu-btn={!$MobileStore.mobileMenu}
-					class:menu-btn-open={$MobileStore.mobileMenu}
+					class:menu-btn={!$HelperStore.mobileMenu}
+					class:menu-btn-open={$HelperStore.mobileMenu}
 					on:click={clickopenmenu}
 				>
 					<div class="menu-btn__burger" />
