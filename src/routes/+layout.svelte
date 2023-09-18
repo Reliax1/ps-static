@@ -38,10 +38,12 @@
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		gtag('consent', 'default', {
-			ad_storage: 'denied',
-			analytics_storage: 'denied'
-		});
+		if (localStorage.consent === undefined || localStorage.consent.startsWith('false')) {
+			gtag('consent', 'default', {
+				ad_storage: 'denied',
+				analytics_storage: 'denied'
+			});
+		}
 
 		gtag('js', new Date());
 
