@@ -715,7 +715,7 @@
 		}
 		.consent-einstellungen {
 			width: 100%;
-			height: 52vh;
+			// height: 52vh;
 			margin-bottom: 1vw;
 		}
 		.einstellungen-h2 {
@@ -777,7 +777,7 @@
 		}
 
 		.datenschutz-wrapper {
-			height: 52vh;
+			// height: 52vh;
 			font-size: 0.8vw;
 			margin-bottom: 15px;
 			box-shadow: $mobile-shadow;
