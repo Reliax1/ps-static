@@ -38,7 +38,7 @@
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		if (localStorage.consent === undefined || localStorage.consent.startsWith('false')) {
+		if (localStorage.consent != 'true') {
 			gtag('consent', 'default', {
 				ad_storage: 'denied',
 				analytics_storage: 'denied'
