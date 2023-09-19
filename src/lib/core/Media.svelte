@@ -13,7 +13,7 @@
 	const yellowSizes =
 		'(max-width: 360px) 360px and (max-width: 1024px)) 304px, (min-width: 3840px) 417px, (min-width: 2560px) 423px, (min-width: 1920px) 427px, (min-width: 1025px) 304px, 100vw';
 
-	async function init() {
+	async function initMedia() {
 		function callback() {
 			(window.adsbygoogle = window.adsbygoogle || []).push({});
 		}
@@ -32,7 +32,7 @@
 	onMount(() => {
 		setTimeout(() => {
 			if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-				init();
+				initMedia();
 			}
 		}, 500);
 	});

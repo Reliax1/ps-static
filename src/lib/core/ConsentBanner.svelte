@@ -37,16 +37,67 @@
 			ablauf: '2 Jahre',
 			zweck:
 				'Enthält eine zufallsgenerierte User-ID. Anhand dieser ID kann Google Analytics wiederkehrende User auf dieser Website wiedererkennen und die Daten von früheren Besuchen zusammenführen.'
+		},
+		{
+			name: '__gpi',
+			anbieter: 'google.com',
+			domain: 'perfekterspruch.de',
+			weg: '/',
+			typ: '3rd-party',
+			ablauf: '13 Monate',
+			zweck:
+				'Anzeige personalisierter Werbeanzeigen im Google-Werbenetzwerk auf Basis Ihres über Google erfassten pseudonymisierten Surfverhaltens. Messung und Optimierung des Erfolgs unserer Google Ads-Werbekampagnen.'
+		},
+		{
+			name: '__gads',
+			anbieter: 'google.com',
+			domain: 'perfekterspruch.de',
+			weg: '/',
+			typ: '3rd-party',
+			ablauf: '13 Monate',
+			zweck:
+				'Anzeige personalisierter Werbeanzeigen im Google-Werbenetzwerk auf Basis Ihres über Google erfassten pseudonymisierten Surfverhaltens. Messung und Optimierung des Erfolgs unserer Google Ads-Werbekampagnen.'
+		},
+		{
+			name: '__gpi',
+			anbieter: 'google.com',
+			domain: 'perfekterspruch.de',
+			weg: '/',
+			typ: '3rd-party',
+			ablauf: '13 Monate',
+			zweck:
+				'Anzeige personalisierter Werbeanzeigen im Google-Werbenetzwerk auf Basis Ihres über Google erfassten pseudonymisierten Surfverhaltens. Messung und Optimierung des Erfolgs unserer Google Ads-Werbekampagnen.'
+		},
+		{
+			name: '__gads',
+			anbieter: 'google.com',
+			domain: 'perfekterspruch.de',
+			weg: '/',
+			typ: '3rd-party',
+			ablauf: '13 Monate',
+			zweck:
+				'Anzeige personalisierter Werbeanzeigen im Google-Werbenetzwerk auf Basis Ihres über Google erfassten pseudonymisierten Surfverhaltens. Messung und Optimierung des Erfolgs unserer Google Ads-Werbekampagnen.'
+		},
+		{
+			name: 'IDE',
+			anbieter: 'google.com',
+			domain: 'perfekterspruch.de',
+			weg: '/',
+			typ: '3rd-party',
+			ablauf: '2 Jahre',
+			zweck:
+				'Besucherzahlen, Klickverhalten, Nutzungsströme zur Verbesserung von Webseiteninhalten, Individualisierte Werbung auf der Webseite / Personalisierte Produktvorschläge (Targeting), Erstellung von Nutzerprofilen, Statistische Auswertungen.'
+		},
+		{
+			name: 'DSID',
+			anbieter: 'google.com',
+			domain: 'perfekterspruch.de',
+			weg: '/',
+			typ: '3rd-party',
+			ablauf: '2 Jahre',
+			zweck:
+				'Anzeige personalisierter Werbeanzeigen im Google-Werbenetzwerk auf Basis Ihres über Google erfassten pseudonymisierten Surfverhaltens. Messung und Optimierung des Erfolgs unserer Google Ads-Werbekampagnen.'
 		}
-		// {
-		// 	name: 'test',
-		// 	anbieter: 'test',
-		// 	domain: 'test',
-		// 	weg: 'test',
-		// 	typ: 'test',
-		// 	ablauf: 'test',
-		// 	zweck: 'test'
-		// }
 	];
 
 	function gtag() {
