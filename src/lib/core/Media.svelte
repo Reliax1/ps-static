@@ -1,7 +1,10 @@
 <script>
+	import { onMount } from 'svelte';
+	import loader from '@beyonk/async-script-loader';
 	import HelperStore from '../../../src/stores/HelperStore';
 
 	export let isMobile;
+	export let manuelMobile;
 
 	let imageNumber = '2-1';
 
@@ -9,56 +12,83 @@
 
 	const yellowSizes =
 		'(max-width: 360px) 360px and (max-width: 1024px)) 304px, (min-width: 3840px) 417px, (min-width: 2560px) 423px, (min-width: 1920px) 427px, (min-width: 1025px) 304px, 100vw';
+
+	async function init() {
+		function callback() {
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
+		}
+
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src =
+				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		}).then(callback);
+	}
+
+	onMount(() => {
+		setTimeout(() => {
+			if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
+				init();
+			}
+		}, 500);
+	});
 </script>
 
 <div class="anz-mobile">Anzeige</div>
 <div
-	class:yellow-wrapper-mobile={isMobile === true}
-	class:yellow-wrapper-desktop={isMobile === false}
+	class:yellow-wrapper-mobile={manuelMobile === true}
+	class:yellow-wrapper-desktop={manuelMobile === false}
 >
-	{#if $HelperStore.mediaType === 'yellow'}
-		<a href="https://www.arkunis.de/konfigurator" target="_blank">
-			<div class="anz-desktop">Anzeige</div>
-			<picture>
-				<source
-					sizes={yellowSizes}
-					srcSet="{yellowBaseUrl}/1366/avif/{imageNumber}.avif 304w, {yellowBaseUrl}/1920/avif/{imageNumber}.avif 427w, {yellowBaseUrl}/2560/avif/{imageNumber}.avif 423w, {yellowBaseUrl}/3840/avif/{imageNumber}.avif 417w, {yellowBaseUrl}/360/avif/{imageNumber}.avif 912w"
-					type="image/avif"
-				/>
-				<source
-					sizes={yellowSizes}
-					srcSet="{yellowBaseUrl}/1366/webp/{imageNumber}.webp 304w, {yellowBaseUrl}/1920/webp/{imageNumber}.webp 427w, {yellowBaseUrl}/2560/webp/{imageNumber}.webp 423w, {yellowBaseUrl}/3840/webp/{imageNumber}.webp 417w, {yellowBaseUrl}/360/webp/{imageNumber}.webp 912w"
-					type="image/webp"
-				/>
-				<img
-					sizes={yellowSizes}
-					src="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg"
-					class:yellow-image-mobile={isMobile === true}
-					class:yellow-image-desktop={isMobile === false}
-					srcSet="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg 304w, {yellowBaseUrl}/1920/jpg/{imageNumber}.jpg 427w, {yellowBaseUrl}/2560/jpg/{imageNumber}.jpg 423w, {yellowBaseUrl}/3840/jpg/{imageNumber}.jpg 417w, {yellowBaseUrl}/360/jpg/{imageNumber}.jpg 912w"
-					alt="yellow"
-				/>
-			</picture>
-		</a>
-	{:else if $HelperStore.mediaType === 'google'}
-		<div class="goo">
-			<script
-				async
-				src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
-				crossorigin="anonymous"></script>
-			<!-- Display-Vertical -->
-			<ins
-				class="adsbygoogle"
-				style="display:block"
-				data-ad-client="ca-pub-6800691774097678"
-				data-ad-slot="7607089982"
-				data-ad-format="auto"
-				data-full-width-responsive="true"
-			/>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
+	{#if isMobile === manuelMobile && localStorage.consent != undefined}
+		{#if $HelperStore.mediaType === 'yellow'}
+			<a href="https://www.arkunis.de/konfigurator" target="_blank">
+				<div class="anz-desktop">Anzeige</div>
+				<picture>
+					<source
+						sizes={yellowSizes}
+						srcSet="{yellowBaseUrl}/1366/avif/{imageNumber}.avif 304w, {yellowBaseUrl}/1920/avif/{imageNumber}.avif 427w, {yellowBaseUrl}/2560/avif/{imageNumber}.avif 423w, {yellowBaseUrl}/3840/avif/{imageNumber}.avif 417w, {yellowBaseUrl}/360/avif/{imageNumber}.avif 912w"
+						type="image/avif"
+					/>
+					<source
+						sizes={yellowSizes}
+						srcSet="{yellowBaseUrl}/1366/webp/{imageNumber}.webp 304w, {yellowBaseUrl}/1920/webp/{imageNumber}.webp 427w, {yellowBaseUrl}/2560/webp/{imageNumber}.webp 423w, {yellowBaseUrl}/3840/webp/{imageNumber}.webp 417w, {yellowBaseUrl}/360/webp/{imageNumber}.webp 912w"
+						type="image/webp"
+					/>
+					<img
+						sizes={yellowSizes}
+						src="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg"
+						class:yellow-image-mobile={manuelMobile === true}
+						class:yellow-image-desktop={manuelMobile === false}
+						srcSet="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg 304w, {yellowBaseUrl}/1920/jpg/{imageNumber}.jpg 427w, {yellowBaseUrl}/2560/jpg/{imageNumber}.jpg 423w, {yellowBaseUrl}/3840/jpg/{imageNumber}.jpg 417w, {yellowBaseUrl}/360/jpg/{imageNumber}.jpg 912w"
+						alt="yellow"
+					/>
+				</picture>
+			</a>
+		{:else if $HelperStore.mediaType === 'google'}
+			<div class="goo">
+				{#if isMobile === true && manuelMobile === true}
+					<ins
+						class="adsbygoogle"
+						style="display:block"
+						data-ad-client="ca-pub-6800691774097678"
+						data-ad-slot="7607089982"
+						data-ad-format="vertical"
+						data-full-width-responsive="true"
+					/>
+				{:else}
+					<ins
+						class="adsbygoogle"
+						style="display:inline-block;width:450px;height:850px"
+						data-ad-client="ca-pub-6800691774097678"
+						data-ad-slot="1438989650"
+					/>
+				{/if}
+			</div>
+		{/if}
 	{/if}
 </div>
 
@@ -77,8 +107,9 @@
 		left: 0;
 	}
 	.goo {
-		width: 100%;
+		width: 24.5vw;
 		height: 100%;
+		background-color: grey;
 	}
 	a {
 		width: 100%;
@@ -122,6 +153,9 @@
 	}
 
 	@media (max-width: 1024px) {
+		.goo {
+			width: 100%;
+		}
 		.anz-desktop {
 			display: none;
 		}

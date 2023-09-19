@@ -46,7 +46,7 @@
 				ad_storage: 'denied',
 				analytics_storage: 'denied'
 			});
-		} else if (localStorage.consent.startsWith('false')) {
+		} else if (localStorage.consent === 'true') {
 			$HelperStore.mediaType = 'google';
 		}
 

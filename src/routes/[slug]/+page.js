@@ -7,7 +7,7 @@ export const load = async ({ fetch, url }) => {
 	let isMobile;
 
 	if (browser) {
-		isMobile = window.navigator.userAgent.includes('Mobile');
+		isMobile = navigator.maxTouchPoints > 0;
 	}
 
 	return {

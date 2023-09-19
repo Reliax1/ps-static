@@ -3,7 +3,7 @@
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
 	import Headerh1 from '$lib/cards/Headerh1.svelte';
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
-	import YellowImage from '$lib/core/YellowImage.svelte';
+	// import YellowImage from '$lib/core/YellowImage.svelte';
 	import Media from '$lib/core/Media.svelte';
 	import { page } from '$app/stores';
 
@@ -74,7 +74,7 @@
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
 					{#if index === 0 || index === 2 || (index >= 3 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
-						<Media isMobile={true} />
+						<Media manuelMobile={true} isMobile={data.isMobile} />
 					{/if}
 
 					{#if index === 1}
@@ -97,8 +97,7 @@
 				{/if}
 			</div>
 
-			<Media isMobile={false} />
-			<!-- <YellowImage isMobile={false} /> -->
+			<Media manuelMobile={false} isMobile={data.isMobile} />
 		</div>
 
 		{#if !data.isMobile}
@@ -134,6 +133,7 @@
 		grid-template-columns: 3fr 1fr; // media
 		// grid-template-columns: auto; // no media
 		justify-items: center;
+		width: 97%;
 	}
 
 	.sprueche-card {
@@ -141,7 +141,7 @@
 		justify-content: center;
 		align-items: flex-start;
 		flex-wrap: wrap;
-		width: 91.9%; // media
+		width: 96%; // media
 		// width: 100%;
 	}
 
@@ -179,6 +179,7 @@
 	@media (max-width: 480px) {
 		.sprueche-grid {
 			display: block !important;
+			width: 100%;
 		}
 
 		.sprueche-card-desktop {
@@ -204,6 +205,7 @@
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
 		.sprueche-grid {
 			display: block !important;
+			width: 100%;
 		}
 
 		.sprueche-card-desktop {
