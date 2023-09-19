@@ -769,7 +769,7 @@
 			flex-direction: column;
 			justify-content: flex-end;
 			left: 50%;
-			transform: translate(-50%, 0);
+			transform: translate(-50%, 30%);
 			width: 33vw;
 			// height: 21.5vh;
 			padding: 1.5vw 1.5vw;
