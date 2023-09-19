@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import loader from '@beyonk/async-script-loader';
 	// import { GoogleAnalytics } from '@beyonk/svelte-google-analytics';
+	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
 	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
@@ -39,10 +40,14 @@
 		window.dataLayer = window.dataLayer || [];
 
 		if (localStorage.consent != 'true') {
+			$HelperStore.mediaType = 'yellow';
+
 			gtag('consent', 'default', {
 				ad_storage: 'denied',
 				analytics_storage: 'denied'
 			});
+		} else if (localStorage.consent.startsWith('false')) {
+			$HelperStore.mediaType = 'google';
 		}
 
 		gtag('js', new Date());

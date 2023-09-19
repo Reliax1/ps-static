@@ -4,6 +4,7 @@
 	import Headerh1 from '$lib/cards/Headerh1.svelte';
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
 	import YellowImage from '$lib/core/YellowImage.svelte';
+	import Media from '$lib/core/Media.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
@@ -72,15 +73,15 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					<!-- {#if index === 0 || index === 2 || index === 5 || index === 8 || index === data.spruchData.spruchcarddata.length - 1}
-						<YellowImage isMobile={true} />
-					{/if} -->
+					{#if index === 0 || index === 2 || (index >= 3 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
+						<Media isMobile={true} />
+					{/if}
 
 					{#if index === 1}
 						<div class="sprueche-card-mobile">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
-					{:else if index === 3}
+					{:else if index === 2}
 						<div class="sprueche-card-desktop">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
@@ -96,6 +97,7 @@
 				{/if}
 			</div>
 
+			<Media isMobile={false} />
 			<!-- <YellowImage isMobile={false} /> -->
 		</div>
 
@@ -110,7 +112,7 @@
 <style lang="scss">
 	.sprueche-card-desktop {
 		display: block !important;
-		width: 92%; // delete
+		// width: 92%; // no media
 	}
 	.sprueche-card-mobile {
 		display: none !important;
@@ -129,8 +131,8 @@
 	}
 	.sprueche-grid {
 		display: grid;
-		// grid-template-columns: 3fr 1fr;
-		grid-template-columns: auto;
+		grid-template-columns: 3fr 1fr; // media
+		// grid-template-columns: auto; // no media
 		justify-items: center;
 	}
 
@@ -139,8 +141,8 @@
 		justify-content: center;
 		align-items: flex-start;
 		flex-wrap: wrap;
-		// width: 91.9%;
-		width: 100%;
+		width: 91.9%; // media
+		// width: 100%;
 	}
 
 	@media (min-width: 1025px) {
