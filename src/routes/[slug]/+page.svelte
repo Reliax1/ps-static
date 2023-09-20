@@ -6,7 +6,6 @@
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
 	// import YellowImage from '$lib/core/YellowImage.svelte';
 	import Media from '$lib/core/Media.svelte';
-	// import MediaMobile from '$lib/core/MediaMobile.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
@@ -97,7 +96,7 @@
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
 					{#if index === 0 || index === 2 || (index >= 3 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
-						<Media manuelMobile={true} isMobile={data.isMobile} />
+						<Media source='normal' manuelMobile={true} isMobile={data.isMobile} />
 					{/if}
 
 					{#if index === 1}
@@ -120,7 +119,7 @@
 				{/if}
 			</div>
 
-			<Media manuelMobile={false} isMobile={data.isMobile} />
+			<Media source='normal' manuelMobile={false} isMobile={data.isMobile} />
 		</div>
 
 		<!-- {#if data.isMobile === true && $HelperStore.mediaType === 'yellow'}

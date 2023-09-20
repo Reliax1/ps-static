@@ -5,6 +5,7 @@
 
 	export let isMobile;
 	export let manuelMobile;
+	export let source;
 
 	let imageNumber = '2-1';
 
@@ -38,12 +39,11 @@
 	});
 </script>
 
-<div class="anz-mobile">Anzeige</div>
 <div
 	class:yellow-wrapper-mobile={manuelMobile === true}
 	class:yellow-wrapper-desktop={manuelMobile === false}
 >
-	{#if isMobile === manuelMobile && localStorage.consent != undefined}
+	{#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined}
 		{#if $HelperStore.mediaType === 'yellow'}
 			<a href="https://www.arkunis.de/konfigurator" target="_blank">
 				<div class="anz-desktop">Anzeige</div>
@@ -70,6 +70,7 @@
 			</a>
 		{:else if $HelperStore.mediaType === 'google'}
 			<div class="goo">
+				<div class="anz-mobile">Anzeige</div>
 				{#if isMobile === true && manuelMobile === true}
 					<ins
 						class="adsbygoogle"
@@ -89,6 +90,13 @@
 				{/if}
 			</div>
 		{/if}
+	{:else if source === 'mobileBanner' && $HelperStore.mediaType === 'google' && isMobile === true}
+		<ins
+			class="adsbygoogle"
+			style="display:inline-block;width:300px;height:50px"
+			data-ad-client="ca-pub-6800691774097678"
+			data-ad-slot="1381512858"
+		/>
 	{/if}
 </div>
 

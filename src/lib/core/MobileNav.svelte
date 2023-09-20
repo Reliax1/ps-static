@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import HelperStore from '../../stores/HelperStore';
+	import Media from '$lib/core/Media.svelte';
 
 	// let openInhalt = false;
 	let openmenu2 = false; // not defined
@@ -43,12 +44,7 @@
 	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
 		<div class="media-mobile-wrapper">
 			<div class="media-mobile">
-				<ins
-					class="adsbygoogle"
-					style="display:inline-block;width:300px;height:50px"
-					data-ad-client="ca-pub-6800691774097678"
-					data-ad-slot="1381512858"
-				/>
+				<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
 			</div>
 		</div>
 	{/if}
