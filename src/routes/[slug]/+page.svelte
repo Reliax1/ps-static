@@ -109,28 +109,28 @@
 						</div>
 					{/if}
 
-					{#if $HelperStore.mediaType === 'google' && index === 5}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 11}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 17}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 23}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 23}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 29}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 29}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 35}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 35}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 41}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 41}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if $HelperStore.mediaType === 'google' && index === 47}
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 47}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
 				{/each}
