@@ -125,7 +125,7 @@
 		margin: 0 auto;
 		width: 96%;
 		height: 300px;
-		background-color: grey;
+		// background-color: grey;
 	}
 	.anz-mobile {
 		display: none;
