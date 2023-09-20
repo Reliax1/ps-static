@@ -30,7 +30,9 @@
 	}
 
 	onMount(() => {
-		initMedia();
+		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
+			initMedia();
+		}
 		// setTimeout(() => {
 		// 	if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
 		// 		initMedia();
