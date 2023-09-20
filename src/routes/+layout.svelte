@@ -56,9 +56,10 @@
 	}
 
 	onMount(async () => {
-		setTimeout(() => {
-			init();
-		}, 100);
+		// setTimeout(() => {
+		// 	init();
+		// }, 100);
+		init();
 	});
 </script>
 
