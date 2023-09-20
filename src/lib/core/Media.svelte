@@ -73,7 +73,7 @@
 		{:else if source === 'normal' && $HelperStore.mediaType === 'google'}
 			<div class="goo">
 				<!-- <div class="anz-mobile">Anzeige</div> -->
-				{#if isMobile === true && manuelMobile === true}
+				{#if manuelMobile === true}
 					<ins
 						class="adsbygoogle"
 						style="display:block"
