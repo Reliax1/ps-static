@@ -95,8 +95,10 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
-						<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+					{#if data.isMobile}
+						 {#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
+							 <Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+						 {/if}
 					{/if}
 
 					{#if index === 1}
