@@ -148,7 +148,8 @@
 		// background-color: grey;
 		display: flex;
 		justify-content: center;
-		margin-bottom: 6vw;
+		margin-bottom: 7vw;
+		margin-top: 1vw;
 	}
 	.yellow-image-mobile {
 		display: none !important;
