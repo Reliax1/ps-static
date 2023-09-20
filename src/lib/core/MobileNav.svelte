@@ -44,6 +44,12 @@
 	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
 		<div class="media-mobile-wrapper">
 			<div class="media-mobile">
+				<!-- <ins
+					class="adsbygoogle"
+					style="display:inline-block;width:320px;height:50px"
+					data-ad-client="ca-pub-6800691774097678"
+					data-ad-slot="1381512858"
+				/> -->
 				<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
 			</div>
 		</div>

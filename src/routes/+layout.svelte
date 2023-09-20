@@ -15,6 +15,22 @@
 
 	const mainProperty = 'G-7PT3JH3660';
 
+	async function initMedia() {
+		function mediaCallback() {
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
+		}
+
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src =
+				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		}).then(mediaCallback);
+	}
+
 	async function init() {
 		await loader(
 			[
@@ -26,6 +42,8 @@
 			test,
 			callback
 		);
+
+		initMedia();
 	}
 
 	function test() {
