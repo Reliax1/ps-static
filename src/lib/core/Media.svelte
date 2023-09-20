@@ -29,13 +29,17 @@
 	// 	}).then(callback);
 	// }
 
-	// onMount(() => {
-	// 	setTimeout(() => {
-	// 		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-	// 			initMedia();
-	// 		}
-	// 	}, 500);
-	// });
+	function mediaCallback() {
+		(window.adsbygoogle = window.adsbygoogle || []).push({});
+	}
+
+	onMount(() => {
+		setTimeout(() => {
+			if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
+				mediaCallback();
+			}
+		}, 500);
+	});
 </script>
 
 <div
