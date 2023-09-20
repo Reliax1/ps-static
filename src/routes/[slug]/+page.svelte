@@ -95,17 +95,19 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if data.isMobile}
-						 {#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
-							 <Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
-						 {/if}
+					{#if data.isMobile && $HelperStore.mediaType === 'google'}
+						{#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
+							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+						{/if}
 					{/if}
 
-					{#if index === 1}
+					{#if data.isMobile && index === 1}
 						<div class="sprueche-card-mobile">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
-					{:else if index === 2}
+					{/if}
+
+					{#if data.isMobile === false && index === 2}
 						<div class="sprueche-card-desktop">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
