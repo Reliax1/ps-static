@@ -1,6 +1,5 @@
 <script>
 	import { onMount } from 'svelte';
-	import loader from '@beyonk/async-script-loader';
 	import HelperStore from '../../../src/stores/HelperStore';
 
 	export let isMobile;
@@ -46,7 +45,7 @@
 	{#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined}
 		{#if source === 'normal' && $HelperStore.mediaType === 'yellow'}
 			<a href="https://www.arkunis.de/konfigurator" target="_blank">
-				<div class="anz-desktop">Anzeige</div>
+				<!-- <div class="anz-desktop">Anzeige</div> -->
 				<picture>
 					<source
 						sizes={yellowSizes}
@@ -70,7 +69,7 @@
 			</a>
 		{:else if source === 'normal' && $HelperStore.mediaType === 'google'}
 			<div class="goo">
-				<div class="anz-mobile">Anzeige</div>
+				<!-- <div class="anz-mobile">Anzeige</div> -->
 				{#if isMobile === true && manuelMobile === true}
 					<ins
 						class="adsbygoogle"
