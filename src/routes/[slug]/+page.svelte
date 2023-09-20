@@ -148,7 +148,9 @@
 				{/if}
 			</div>
 
-			<Media source="normal" manuelMobile={false} isMobile={data.isMobile} />
+			{#if data.isMobile === false}
+				<Media source="normal" manuelMobile={false} isMobile={data.isMobile} />
+			{/if}
 		</div>
 
 		<!-- {#if data.isMobile === true && $HelperStore.mediaType === 'yellow'}
