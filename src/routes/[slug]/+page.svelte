@@ -1,23 +1,46 @@
 <script>
+	import HelperStore from '../../../src/stores/HelperStore';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
 	import Headerh1 from '$lib/cards/Headerh1.svelte';
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
 	// import YellowImage from '$lib/core/YellowImage.svelte';
 	import Media from '$lib/core/Media.svelte';
+	// import MediaMobile from '$lib/core/MediaMobile.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
 
+	$HelperStore.isMobile = data.isMobile;
+
 	let showScrollToTop = false;
 
+	let oldPosition = 0;
 	let scrollPosition = 0;
 
-	$: if (scrollPosition > 800 && !data.isMobile) {
-		showScrollToTop = true;
-	} else {
-		showScrollToTop = false;
-	}
+	$: scrollFunc(scrollPosition);
+
+	// $: if (scrollPosition > 800 && !data.isMobile) {
+	// 	showScrollToTop = true;
+	// } else {
+	// 	showScrollToTop = false;
+	// }
+
+	const scrollFunc = (scrollPosition) => {
+		if (oldPosition < scrollPosition) {
+			$HelperStore.mobileMenuDown = true;
+		} else {
+			$HelperStore.mobileMenuDown = false;
+		}
+
+		oldPosition = scrollPosition;
+
+		if (scrollPosition > 800 && !data.isMobile) {
+			showScrollToTop = true;
+		} else {
+			showScrollToTop = false;
+		}
+	};
 
 	const scrollToTop = () => {
 		window.scrollTo({
@@ -99,6 +122,10 @@
 
 			<Media manuelMobile={false} isMobile={data.isMobile} />
 		</div>
+
+		<!-- {#if data.isMobile === true && $HelperStore.mediaType === 'yellow'}
+			<MediaMobile isMobile={data.isMobile} />
+		{/if} -->
 
 		{#if !data.isMobile}
 			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>

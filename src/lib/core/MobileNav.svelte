@@ -35,7 +35,22 @@
 	};
 </script>
 
-<div class="navContainer">
+<div
+	class="navContainer"
+	class:navContainer-active={$HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
+	class:navContainer-down={$HelperStore.mediaType === 'google' && $HelperStore.mobileMenuDown}
+>
+	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
+		<div class="media-mobile-wrapper">
+			<ins
+				class="adsbygoogle"
+				style="display:inline-block;width:300px;height:50px"
+				data-ad-client="ca-pub-6800691774097678"
+				data-ad-slot="1381512858"
+			/>
+		</div>
+	{/if}
+
 	<nav class="mobilenav1">
 		<div class="nav1" on:click={clickCloseMenuHome} on:click={buttonclick}>
 			<a class="nav-link" href="https://perfekterspruch.de/">
@@ -196,14 +211,27 @@
 	.navContainer {
 		position: fixed;
 		bottom: 0;
-		height: 55px;
+		height: 55px; // 55px
 		width: 100%;
 		background-color: $dark-nav;
 		z-index: 900;
-		// backface-visibility: hidden;
-		// transform:translate3d(0,0,0);
-		// overflow: hidden;
-		// border-radius: entfernen
+		transition: transform 0.5s ease;
+	}
+	.navContainer-active {
+		height: 105px; // 55px
+	}
+	.navContainer-down {
+		transform: translateY(55px);
+	}
+
+	.media-mobile-wrapper {
+		width: 100%;
+		height: 50px;
+		// background-color: grey;
+		z-index: 900;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.mobilenav1 {
