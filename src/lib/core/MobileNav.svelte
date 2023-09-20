@@ -36,24 +36,19 @@
 	};
 </script>
 
-<div
+<div class="navContainer" class:navContainer-active={false} class:navContainer-down={false}>
+	<!-- <div
 	class="navContainer"
 	class:navContainer-active={$HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
 	class:navContainer-down={$HelperStore.mediaType === 'google' && $HelperStore.mobileMenuDown}
->
-	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
+> -->
+	<!-- {#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
 		<div class="media-mobile-wrapper">
 			<div class="media-mobile">
-				<!-- <ins
-					class="adsbygoogle"
-					style="display:inline-block;width:320px;height:50px"
-					data-ad-client="ca-pub-6800691774097678"
-					data-ad-slot="1381512858"
-				/> -->
 				<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
 			</div>
 		</div>
-	{/if}
+	{/if} -->
 
 	<nav class="mobilenav1">
 		<div class="nav1" on:click={clickCloseMenuHome} on:click={buttonclick}>

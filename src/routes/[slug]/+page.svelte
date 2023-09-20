@@ -153,10 +153,6 @@
 			{/if}
 		</div>
 
-		<!-- {#if data.isMobile === true && $HelperStore.mediaType === 'yellow'}
-			<MediaMobile isMobile={data.isMobile} />
-		{/if} -->
-
 		{#if !data.isMobile}
 			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
 				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
