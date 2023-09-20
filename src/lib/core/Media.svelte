@@ -40,11 +40,11 @@
 </script>
 
 <div
-	class:yellow-wrapper-mobile={manuelMobile === true}
-	class:yellow-wrapper-desktop={manuelMobile === false}
+	class:yellow-wrapper-mobile={source === 'normal' && manuelMobile === true}
+	class:yellow-wrapper-desktop={source === 'normal' && manuelMobile === false}
 >
 	{#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined}
-		{#if $HelperStore.mediaType === 'yellow'}
+		{#if source === 'normal' && $HelperStore.mediaType === 'yellow'}
 			<a href="https://www.arkunis.de/konfigurator" target="_blank">
 				<div class="anz-desktop">Anzeige</div>
 				<picture>
@@ -68,7 +68,7 @@
 					/>
 				</picture>
 			</a>
-		{:else if $HelperStore.mediaType === 'google'}
+		{:else if source === 'normal' && $HelperStore.mediaType === 'google'}
 			<div class="goo">
 				<div class="anz-mobile">Anzeige</div>
 				{#if isMobile === true && manuelMobile === true}
@@ -90,17 +90,43 @@
 				{/if}
 			</div>
 		{/if}
-	{:else if source === 'mobileBanner' && $HelperStore.mediaType === 'google' && isMobile === true}
-		<ins
-			class="adsbygoogle"
-			style="display:inline-block;width:320px;height:50px"
-			data-ad-client="ca-pub-6800691774097678"
-			data-ad-slot="1381512858"
-		/>
 	{/if}
 </div>
 
+{#if source === 'mobileBanner' && $HelperStore.mediaType === 'google' && isMobile === true}
+	<ins
+		class="adsbygoogle"
+		style="display:inline-block;width:320px;height:50px"
+		data-ad-client="ca-pub-6800691774097678"
+		data-ad-slot="1381512858"
+	/>
+{:else if source === 'desktopInline' && $HelperStore.mediaType === 'google' && isMobile === false}
+	<div
+		class="desktop-inline-wrapper"
+		class:desktop-inline-active={$HelperStore.mediaType === 'google'}
+	>
+		<ins
+			class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-6800691774097678"
+			data-ad-slot="2188733030"
+			data-ad-format="auto"
+			data-full-width-responsive="true"
+		/>
+	</div>
+{/if}
+
 <style lang="scss">
+	.desktop-inline-wrapper {
+		display: none;
+	}
+	.desktop-inline-active {
+		display: block;
+		margin: 0 auto;
+		width: 96%;
+		height: 300px;
+		background-color: grey;
+	}
 	.anz-mobile {
 		display: none;
 	}

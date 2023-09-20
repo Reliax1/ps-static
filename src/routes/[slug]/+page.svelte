@@ -95,8 +95,8 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if index === 0 || index === 2 || (index >= 3 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
-						<Media source='normal' manuelMobile={true} isMobile={data.isMobile} />
+					{#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
+						<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
 					{/if}
 
 					{#if index === 1}
@@ -107,6 +107,31 @@
 						<div class="sprueche-card-desktop">
 							<RelatedArticles imageArray={data.spruchData.othersites} />
 						</div>
+					{/if}
+
+					{#if $HelperStore.mediaType === 'google' && index === 5}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 11}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 17}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 23}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 29}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 35}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 41}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{/if}
+					{#if $HelperStore.mediaType === 'google' && index === 47}
+						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
 				{/each}
 
@@ -119,7 +144,7 @@
 				{/if}
 			</div>
 
-			<Media source='normal' manuelMobile={false} isMobile={data.isMobile} />
+			<Media source="normal" manuelMobile={false} isMobile={data.isMobile} />
 		</div>
 
 		<!-- {#if data.isMobile === true && $HelperStore.mediaType === 'yellow'}
