@@ -95,8 +95,13 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if data.isMobile && $HelperStore.mediaType === 'google'}
+					<!-- {#if data.isMobile && $HelperStore.mediaType === 'google'}
 						{#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
+							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+						{/if}
+					{/if} -->
+					{#if data.isMobile && $HelperStore.mediaType === 'google'}
+						{#if index === 0 || index === 2 || index === 4}
 							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
 						{/if}
 					{/if}
@@ -119,7 +124,7 @@
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
+					<!-- {#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 23}
@@ -136,7 +141,7 @@
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 47}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
-					{/if}
+					{/if} -->
 				{/each}
 
 				<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />
