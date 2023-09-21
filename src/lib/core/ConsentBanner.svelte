@@ -9,15 +9,16 @@
 	let datenschutz_open = false;
 	let einstellungen_open = false; // false
 
-	let required_opened = false; // false
-	let optinale_opened = false;
+	let performance_opened = false; // false
+	let targeting_opened = false;
 
-	let required_opened_coo = false; // false
-	let optinale_opened_coo = false;
+	let performance_opened_coo = false; // false
+	let targeting_opened_coo = false;
 
-	let consent_given = false;
+	let consent_given_performance = false;
+	let consent_given_targeting = false;
 
-	const optionale_array = [
+	const performance_array = [
 		{
 			name: '_ga',
 			anbieter: 'google.com',
@@ -37,7 +38,10 @@
 			ablauf: '2 Jahre',
 			zweck:
 				'Enthält eine zufallsgenerierte User-ID. Anhand dieser ID kann Google Analytics wiederkehrende User auf dieser Website wiedererkennen und die Daten von früheren Besuchen zusammenführen.'
-		},
+		}
+	];
+
+	const targeting_array = [
 		{
 			name: '__gpi',
 			anbieter: 'google.com',
@@ -150,10 +154,10 @@
 			height_open = false;
 			datenschutz_open = false;
 			einstellungen_open = false;
-			required_opened = false;
-			optinale_opened = false;
-			required_opened_coo = false;
-			optinale_opened_coo = false;
+			performance_opened = false;
+			targeting_opened = false;
+			performance_opened_coo = false;
+			targeting_opened_coo = false;
 		}, 400);
 	};
 
@@ -181,10 +185,10 @@
 			height_open = false;
 			datenschutz_open = false;
 			einstellungen_open = false;
-			required_opened = false;
-			optinale_opened = false;
-			required_opened_coo = false;
-			optinale_opened_coo = false;
+			performance_opened = false;
+			targeting_opened = false;
+			performance_opened_coo = false;
+			targeting_opened_coo = false;
 		}, 400);
 	};
 
@@ -248,7 +252,7 @@
 			einstellungen_open = true;
 			document.body.classList.add('stopScroll');
 		} else {
-			if (consent_given === true) {
+			if (consent_given_performance === true && consent_given_targeting === true) {
 				acceptConsent();
 			} else {
 				NOTacceptConsent();
@@ -257,15 +261,15 @@
 	};
 	const openCoo = (number) => {
 		if (number === 1) {
-			required_opened = !required_opened;
-			required_opened_coo = false;
+			performance_opened = !performance_opened;
+			performance_opened_coo = false;
 		} else if (number === 2) {
-			optinale_opened = !optinale_opened;
-			optinale_opened_coo = false;
+			targeting_opened = !targeting_opened;
+			targeting_opened_coo = false;
 		} else if (number === 3) {
-			required_opened_coo = !required_opened_coo;
+			performance_opened_coo = !performance_opened_coo;
 		} else if (number === 4) {
-			optinale_opened_coo = !optinale_opened_coo;
+			targeting_opened_coo = !targeting_opened_coo;
 		}
 	};
 
@@ -294,41 +298,128 @@
 				<div class="einstellungen-coo-wrapper">
 					<div class="einstellungen-coo">
 						<div class="einstellungen-coo-top">
-							<button on:click={() => openCoo(2)} class="arrow-text">
+							<button on:click={() => openCoo(1)} class="arrow-text">
 								<span class="arrow-span">
 									<img
 										class="arrow"
-										class:arrow-rotate={optinale_opened}
+										class:arrow-rotate={performance_opened}
 										src="/svg/arrow-left.svg"
 										alt="arrow"
 									/>
 								</span>
 								<!-- <div class="coo-text">Performance-Cookies</div> -->
-								<div class="coo-text">Optionale-Cookies</div>
+								<div class="coo-text">Performance-Cookies</div>
 							</button>
 							<div class="switch-container">
 								<label class="switch">
-									<input class="checkbox" type="checkbox" bind:checked={consent_given} />
+									<input
+										class="checkbox"
+										type="checkbox"
+										bind:checked={consent_given_performance}
+									/>
 									<span class="slider" />
 								</label>
 							</div>
 						</div>
 
-						{#if optinale_opened}
+						{#if performance_opened}
 							<div transition:fadeSlide={{ duration: 500 }} class="coo-second-wrapper">
 								<div class="coo-second">
-									Bei den optionalen Cookies handelt es sich um Performance- und Targeting-Cookies.
-									Diese helfen uns dabei, Besuche zu zählen, Verkehrsquellen zu identifizieren und
-									dir relevante Werbung anzuzeigen. Damit können wir deinen Besuch auf unserer
-									Website noch angenehmer gestalten.
+									Bei den Performance-Cookies handelt es sich um Cookies, die uns dabei helfen,
+									Besuche zu zählen und Verkehrsquellen zu identifizieren. Dadurch können die
+									Webseite stetig weiter verbessern.
+								</div>
+								<button on:click={() => openCoo(3)} class="coo-second-link">Cookie-Details</button>
+							</div>
+						{/if}
+
+						{#if performance_opened_coo}
+							<div in:fade={{ duration: 400 }} class="coo-second-wrapper">
+								{#each performance_array as item}
+									<div class="main-coo-wrapper">
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Name</div>
+											<div class="main-coo-right">
+												{item.name}
+											</div>
+										</div>
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Anbieter</div>
+											<div class="main-coo-right">
+												{item.anbieter}
+											</div>
+										</div>
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Domain</div>
+											<div class="main-coo-right">
+												{item.domain}
+											</div>
+										</div>
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Weg</div>
+											<div class="main-coo-right">
+												{item.weg}
+											</div>
+										</div>
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Typ</div>
+											<div class="main-coo-right">
+												{item.typ}
+											</div>
+										</div>
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Ablauf</div>
+											<div class="main-coo-right">
+												{item.ablauf}
+											</div>
+										</div>
+										<div class="coo-second-wrap">
+											<div class="main-coo-left">Zweck</div>
+											<div class="main-coo-right">
+												{item.zweck}
+											</div>
+										</div>
+									</div>
+								{/each}
+							</div>
+						{/if}
+					</div>
+					<div class="einstellungen-coo">
+						<div class="einstellungen-coo-top">
+							<button on:click={() => openCoo(2)} class="arrow-text">
+								<span class="arrow-span">
+									<img
+										class="arrow"
+										class:arrow-rotate={targeting_opened}
+										src="/svg/arrow-left.svg"
+										alt="arrow"
+									/>
+								</span>
+								<!-- <div class="coo-text">Performance-Cookies</div> -->
+								<div class="coo-text">Targeting-Cookies</div>
+							</button>
+							<div class="switch-container">
+								<label class="switch">
+									<input class="checkbox" type="checkbox" bind:checked={consent_given_targeting} />
+									<span class="slider" />
+								</label>
+							</div>
+						</div>
+
+						{#if targeting_opened}
+							<div transition:fadeSlide={{ duration: 500 }} class="coo-second-wrapper">
+								<div class="coo-second">
+									Bei den Targeting-Cookies handelt es sich um Cookies, die uns dabei helfen, dir
+									relevante Werbung anzuzeigen. Damit können wir deinen Besuch auf unserer Website
+									noch angenehmer gestalten.
 								</div>
 								<button on:click={() => openCoo(4)} class="coo-second-link">Cookie-Details</button>
 							</div>
 						{/if}
 
-						{#if optinale_opened_coo}
+						{#if targeting_opened_coo}
 							<div in:fade={{ duration: 400 }} class="coo-second-wrapper">
-								{#each optionale_array as item}
+								{#each targeting_array as item}
 									<div class="main-coo-wrapper">
 										<div class="coo-second-wrap">
 											<div class="main-coo-left">Name</div>
