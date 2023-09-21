@@ -33,7 +33,7 @@
 		} else if (index === 5) {
 			cssNumber = '40vw';
 		} else if (index === 6) {
-			cssNumber = '48vw';
+			cssNumber = '47vw';
 		}
 
 		document.documentElement.style.setProperty('--angle', cssNumber);
@@ -234,13 +234,15 @@
 		position: absolute;
 		left: 0;
 		top: 100%;
-		width: 100%;
-		min-width: 34.259vh;
-		padding: 1.574vh 3vw;
+		// width: 100%;
+		width: 50vw;
+		// min-width: 34.259vh;
+		// padding: 1.574vh 3vw;
+		padding: 1vw;
 		visibility: hidden;
 		opacity: 0;
 		left: 50%;
-		transform: translate(-50%, 0);
+		transform: translate(-53%, 0);
 		// transition: opacity 0.2s, visibility 0.2s;
 	}
 	.ul-items {

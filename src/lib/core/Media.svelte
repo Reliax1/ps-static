@@ -146,7 +146,7 @@
 		// width: 24.5vw;
 		width: 450px;
 		height: 100%;
-		// background-color: grey;
+		background-color: grey;
 	}
 	a {
 		width: 100%;
