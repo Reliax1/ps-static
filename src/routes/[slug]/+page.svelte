@@ -6,6 +6,7 @@
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
 	// import YellowImage from '$lib/core/YellowImage.svelte';
 	import Media from '$lib/core/Media.svelte';
+	import Lazy from '$lib/lazymedia/Lazy.svelte';
 	import { page } from '$app/stores';
 
 	const test = import('../../lib/core/Media.svelte');
@@ -97,14 +98,18 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					<!-- {#if data.isMobile && $HelperStore.mediaType === 'google'}
-						{#if index === 0 || index === 2 || (index >= 4 && index % 3 === 0) || index === data.spruchData.spruchcarddata.length - 1}
+					{#if data.isMobile && $HelperStore.mediaType === 'google'}
+						{#if index === 0}
 							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
 						{/if}
-					{/if} -->
-					{#if data.isMobile && $HelperStore.mediaType === 'google'}
-						{#if index === 0 || index === 2 || index === 4}
-							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+
+						{#if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
+							<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+								<!-- <div slot="loading">Loading...</div> -->
+								<svelte:fragment slot="component" let:Component>
+									<Component source="normal" manuelMobile={true} isMobile={data.isMobile} />
+								</svelte:fragment>
+							</Lazy>
 						{/if}
 					{/if}
 
@@ -123,27 +128,56 @@
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
+
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
 					{/if}
-					<!-- {#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 23}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 29}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 35}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 41}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 47}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
-					{/if} -->
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
+					{/if}
 				{/each}
 
 				<RelatedArticles imageArray={data.spruchData.othersites.reverse()} />

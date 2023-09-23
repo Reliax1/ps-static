@@ -30,6 +30,7 @@
 	}
 
 	onMount(() => {
+		// console.log('GOGOGOGOGOG');
 		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
 			initMedia();
 		}
@@ -98,7 +99,7 @@
 {#if source === 'mobileBanner' && $HelperStore.mediaType === 'google' && isMobile === true}
 	<ins
 		class="adsbygoogle"
-		style="display:inline-block;width:360px;height:50px"
+		style="display:inline-block;width:320px;height:50px"
 		data-ad-client="ca-pub-6800691774097678"
 		data-ad-slot="1381512858"
 	/>

@@ -13,6 +13,8 @@
 	import '../styles/global.css';
 	import '../styles/global.scss';
 
+	export let data;
+
 	const mainProperty = 'G-7PT3JH3660';
 
 	async function init() {
@@ -56,10 +58,8 @@
 	}
 
 	onMount(async () => {
-		// setTimeout(() => {
-		// 	init();
-		// }, 100);
 		init();
+		$HelperStore.isMobile = data.isMobile;
 	});
 </script>
 
@@ -164,7 +164,7 @@
 			grid-template-columns: 1fr;
 			margin-top: 0;
 			overflow-x: hidden;
-			margin-bottom: 55px; // delete or 50px ? calc(50px + 20vw)
+			margin-bottom: 55px; // delete or 50px ? calc(50px + 20vw) // 55px
 		}
 		.desktop-wrapper {
 			display: none;

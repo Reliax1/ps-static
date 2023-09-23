@@ -2,12 +2,16 @@
 	import { dev } from '$app/environment';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
+	import HelperStore from '../../src/stores/HelperStore';
 
 	export let data;
 
 	let setUrl = dev ? 'http://localhost:5173' : 'https://perfekterspruch.de';
 
 	let index = 0;
+
+	let oldPosition = 0;
+	let scrollPosition = 0;
 
 	const beliebtData = [
 		{
@@ -127,6 +131,18 @@
 		}
 	];
 
+	$: scrollFunc(scrollPosition);
+
+	const scrollFunc = (scrollPosition) => {
+		if (oldPosition < scrollPosition) {
+			$HelperStore.mobileMenuDown = true;
+		} else {
+			$HelperStore.mobileMenuDown = false;
+		}
+
+		oldPosition = scrollPosition;
+	};
+
 	const buttonclick = (buttonName) => {
 		if (window.location.hostname.includes('perfekterspruch')) {
 			if (screen.width >= 1025 && !navigator.userAgent.includes('Mobile')) {
@@ -176,6 +192,8 @@
 		content="Auf PerfekterSpruch.de findest du einen perfekten Spruch für jeden Anlass und für jede Stimmung. Dein perfekter Spruch wartet bereits auf dich."
 	/>
 </svelte:head>
+
+<svelte:window bind:scrollY={scrollPosition} />
 
 <div class="main-container22">
 	<div class="home-top">

@@ -1,5 +1,7 @@
 <script>
+	// import { onMount } from 'svelte';
 	import { page } from '$app/stores';
+	import { fly } from 'svelte/transition';
 	import HelperStore from '../../stores/HelperStore';
 	import Media from '$lib/core/Media.svelte';
 
@@ -34,21 +36,30 @@
 	const clickopenmenu = () => {
 		$HelperStore.mobileMenu = !$HelperStore.mobileMenu;
 	};
+
+	// onMount(() => {
+	// 	setTimeout(() => {
+	// 		console.log('$page.routeId', $page.routeId);
+	// 		console.log('$page.url.pathname  ', $page.url.pathname);
+	// 	}, 500);
+	// });
 </script>
 
-<div class="navContainer" class:navContainer-active={false} class:navContainer-down={false}>
-	<!-- <div
+<!-- <div class="navContainer" class:navContainer-active={false} class:navContainer-down={false}> -->
+<div
 	class="navContainer"
-	class:navContainer-active={$HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
+	class:navContainer-active={$HelperStore.isMobile === true &&
+		$HelperStore.mediaType === 'google' &&
+		($page.routeId === '[slug]' || $page.url.pathname === '/')}
 	class:navContainer-down={$HelperStore.mediaType === 'google' && $HelperStore.mobileMenuDown}
-> -->
-	<!-- {#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google'}
+>
+	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
 		<div class="media-mobile-wrapper">
-			<div class="media-mobile">
+			<div in:fly={{ y: 55, duration: 1000, opacity: 1 }} class="media-mobile">
 				<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
 			</div>
 		</div>
-	{/if} -->
+	{/if}
 
 	<nav class="mobilenav1">
 		<div class="nav1" on:click={clickCloseMenuHome} on:click={buttonclick}>
@@ -212,7 +223,7 @@
 		bottom: 0;
 		height: 55px; // 55px
 		width: 100%;
-		background-color: $dark-nav;
+		// background-color: $dark-nav;
 		z-index: 900;
 		transition: transform 0.5s ease;
 	}
@@ -230,21 +241,24 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background-color: transparent;
 	}
 	.media-mobile {
-		width: 300px;
+		width: 360px;
 		height: 50px;
+		// background-color: grey;
 	}
 
 	.mobilenav1 {
 		position: relative;
 		width: 100%;
-		height: 50px;
+		height: 55px;
 		padding-top: 10.5px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		z-index: 900;
+		background-color: $dark-nav;
 
 		.nav1 {
 			width: 20%;
