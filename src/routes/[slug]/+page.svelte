@@ -8,6 +8,8 @@
 	import Media from '$lib/core/Media.svelte';
 	import { page } from '$app/stores';
 
+	const test = import('../../lib/core/Media.svelte');
+
 	export let data;
 
 	$HelperStore.isMobile = data.isMobile;

@@ -32,8 +32,8 @@
 			width: 0%;
 			height: 100%;
 			background-color: $main-color;
-			// animation: swipe 1.5s ease-out 1s forwards;
-			animation: swipe 1s ease-out 0.25s forwards;
+			// animation: swipe 1s ease-out 0.25s forwards;
+			// will-change: width;
 		}
 	}
 
@@ -44,9 +44,9 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		padding: 0.781vw 1.302vw;
-		opacity: 0;
+		opacity: 1; // 0
 		// animation: fade 0.01s ease-out 1.75s forwards;
-		animation: fade 0.01s ease-out 0.75s forwards;
+		// animation: fade 0.01s ease-out 0.75s forwards;
 	}
 	.h111:before {
 		background-color: $main-color;
@@ -69,32 +69,32 @@
 		bottom: 0;
 	}
 
-	@keyframes fade {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
-	}
+	// @keyframes fade {
+	// 	from {
+	// 		opacity: 0;
+	// 	}
+	// 	to {
+	// 		opacity: 1;
+	// 	}
+	// }
 
-	@keyframes swipe {
-		0% {
-			right: 100%;
-			left: 0;
-			width: 0%;
-		}
-		50% {
-			right: 0;
-			left: 0;
-			width: 100%;
-		}
-		100% {
-			right: 0;
-			left: 100%;
-			width: 0%;
-		}
-	}
+	// @keyframes swipe {
+	// 	0% {
+	// 		right: 100%;
+	// 		left: 0;
+	// 		width: 0%;
+	// 	}
+	// 	50% {
+	// 		right: 0;
+	// 		left: 0;
+	// 		width: 100%;
+	// 	}
+	// 	100% {
+	// 		right: 0;
+	// 		left: 100%;
+	// 		width: 0%;
+	// 	}
+	// }
 	@media (max-width: 1024px) {
 		.wrapper {
 			min-height: 15vw;
