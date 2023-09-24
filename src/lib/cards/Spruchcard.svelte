@@ -1032,7 +1032,7 @@
 		.spruchcard-text-span {
 			position: relative;
 			bottom: 0;
-			font-size: 4.5vw;
+			font-size: 3vw;
 			text-align: center;
 			font-style: italic;
 			display: block;

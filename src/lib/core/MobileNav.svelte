@@ -55,8 +55,12 @@
 >
 	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
 		<div class="media-mobile-wrapper">
-			<div in:fly={{ y: 55, duration: 1000, opacity: 1 }} class="media-mobile">
-				<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
+			<div class="media-mobile">
+				{#if $HelperStore.isTablet === true}
+					<Media source="mobileTablet" manuelMobile={true} isMobile={$HelperStore.isMobile} />
+				{:else}
+					<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
+				{/if}
 			</div>
 		</div>
 	{/if}
@@ -246,7 +250,7 @@
 	.media-mobile {
 		width: 360px;
 		height: 50px;
-		// background-color: grey;
+		// // background-color: grey;
 	}
 
 	.mobilenav1 {
@@ -298,7 +302,7 @@
 			bottom: 0;
 			height: 60px;
 			width: 100%;
-			background-color: $dark-nav;
+			// background-color: $dark-nav;
 			z-index: 900;
 		}
 
@@ -326,6 +330,20 @@
 		}
 		.nav-svg {
 			height: 25px;
+		}
+		.navContainer-active {
+			height: 120px;
+		}
+		.navContainer-down {
+			transform: translateY(60px);
+		}
+		.media-mobile-wrapper {
+			width: 100%;
+			height: 60px;
+		}
+		.media-mobile {
+			width: 450px;
+			height: 60px;
 		}
 	}
 </style>

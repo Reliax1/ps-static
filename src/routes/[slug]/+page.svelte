@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import HelperStore from '../../../src/stores/HelperStore';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
@@ -8,8 +9,6 @@
 	import Media from '$lib/core/Media.svelte';
 	import Lazy from '$lib/lazymedia/Lazy.svelte';
 	import { page } from '$app/stores';
-
-	const test = import('../../lib/core/Media.svelte');
 
 	export let data;
 
@@ -21,12 +20,6 @@
 	let scrollPosition = 0;
 
 	$: scrollFunc(scrollPosition);
-
-	// $: if (scrollPosition > 800 && !data.isMobile) {
-	// 	showScrollToTop = true;
-	// } else {
-	// 	showScrollToTop = false;
-	// }
 
 	const scrollFunc = (scrollPosition) => {
 		if (oldPosition < scrollPosition) {
@@ -52,9 +45,9 @@
 		});
 	};
 
-	// onMount(() => {
-	// 	console.log('data', data.spruchData.spruchcarddata.length);
-	// });
+	onMount(() => {
+		console.log('data.isTablet ', data.isTablet);
+	});
 </script>
 
 <svelte:window bind:scrollY={scrollPosition} />
@@ -99,13 +92,20 @@
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
 					{#if data.isMobile && $HelperStore.mediaType === 'google'}
-						{#if index === 0}
+						{#if data.isTablet === false && index === 0}
 							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
 						{/if}
 
-						{#if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
+						{#if data.isTablet}
+							{#if index === 3 || index === 7 || index === 11 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
+								<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+									<svelte:fragment slot="component" let:Component>
+										<Component source="tablet" manuelMobile={true} isMobile={data.isMobile} />
+									</svelte:fragment>
+								</Lazy>
+							{/if}
+						{:else if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
 							<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
-								<!-- <div slot="loading">Loading...</div> -->
 								<svelte:fragment slot="component" let:Component>
 									<Component source="normal" manuelMobile={true} isMobile={data.isMobile} />
 								</svelte:fragment>

@@ -116,6 +116,13 @@
 			data-full-width-responsive="true"
 		/>
 	</div>
+{:else if source === 'mobileTablet' && $HelperStore.mediaType === 'google' && isMobile === true}
+	<ins
+		class="adsbygoogle"
+		style="display:inline-block;width:450px;height:60px"
+		data-ad-client="ca-pub-6800691774097678"
+		data-ad-slot="9764481470"
+	/>
 {/if}
 
 <style lang="scss">

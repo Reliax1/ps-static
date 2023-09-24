@@ -60,6 +60,7 @@
 	onMount(async () => {
 		init();
 		$HelperStore.isMobile = data.isMobile;
+		$HelperStore.isTablet = data.isTablet;
 	});
 </script>
 

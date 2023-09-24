@@ -30,15 +30,10 @@
 	}
 
 	onMount(() => {
-		// console.log('GOGOGOGOGOG');
+		console.log('source', source);
 		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
 			initMedia();
 		}
-		// setTimeout(() => {
-		// 	if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-		// 		initMedia();
-		// 	}
-		// }, 500);
 	});
 </script>
 
@@ -117,10 +112,24 @@
 			data-full-width-responsive="true"
 		/>
 	</div>
+{:else if source === 'tablet' && $HelperStore.mediaType === 'google' && isMobile === true}
+	<div class="tablet-inline-wrapper">
+		<ins
+			class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-6800691774097678"
+			data-ad-slot="1958143648"
+			data-ad-format="auto"
+			data-full-width-responsive="true"
+		/>
+	</div>
 {/if}
 
 <style lang="scss">
 	.desktop-inline-wrapper {
+		display: none;
+	}
+	.tablet-inline-wrapper {
 		display: none;
 	}
 	.desktop-inline-active {
@@ -240,6 +249,15 @@
 		}
 		.yellow-image-mobile {
 			display: none !important;
+		}
+	}
+
+	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.tablet-inline-wrapper {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+			height: 300px;
 		}
 	}
 </style>
