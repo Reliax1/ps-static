@@ -256,7 +256,7 @@
 		.tablet-inline-wrapper {
 			display: block;
 			width: 100%;
-			margin: 0 auto;
+			margin: 3vh auto;
 			height: 300px;
 		}
 	}
