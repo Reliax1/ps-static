@@ -31,7 +31,10 @@
 
 	onMount(() => {
 		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-			initMedia();
+			// initMedia();
+			setTimeout(() => {
+				(window.adsbygoogle = window.adsbygoogle || []).push({});
+			}, 500);
 		}
 		// setTimeout(() => {
 		// 	if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
