@@ -8,7 +8,7 @@
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
-	import ConsentBanner from '$lib/core/ConsentBanner.svelte';
+	// import ConsentBanner from '$lib/core/ConsentBanner.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
@@ -82,7 +82,7 @@
 	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
 
 	// consent check
-	<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+	<!-- <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
 
 	<script
 		async
