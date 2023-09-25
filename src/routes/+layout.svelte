@@ -44,10 +44,10 @@
 		if (localStorage.consent != 'true') {
 			$HelperStore.mediaType = 'yellow';
 
-			// gtag('consent', 'default', {
-			// 	ad_storage: 'denied',
-			// 	analytics_storage: 'denied'
-			// });
+			gtag('consent', 'default', {
+				ad_storage: 'denied',
+				analytics_storage: 'denied'
+			});
 		} else if (localStorage.consent === 'true') {
 			$HelperStore.mediaType = 'google';
 		}
@@ -89,6 +89,9 @@
 		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
 		crossorigin="anonymous"></script>
 
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 	<!-- Google tag (gtag.js) -->
 	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
 	<script>

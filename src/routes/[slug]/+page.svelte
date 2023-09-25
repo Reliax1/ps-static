@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import HelperStore from '../../../src/stores/HelperStore';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import Weiteresprueche from '$lib/cards/Weiteresprueche.svelte';
@@ -45,9 +45,9 @@
 		});
 	};
 
-	onMount(() => {
-		console.log('data.isTablet ', data.isTablet);
-	});
+	// onMount(() => {
+	// 	console.log('data.isTablet ', data.isTablet);
+	// });
 </script>
 
 <svelte:window bind:scrollY={scrollPosition} />
