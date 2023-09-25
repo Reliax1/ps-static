@@ -13,26 +13,27 @@
 	const yellowSizes =
 		'(max-width: 360px) 360px and (max-width: 1024px)) 304px, (min-width: 3840px) 417px, (min-width: 2560px) 423px, (min-width: 1920px) 427px, (min-width: 1025px) 304px, 100vw';
 
-	async function initMedia() {
-		function callback() {
-			(window.adsbygoogle = window.adsbygoogle || []).push({});
-		}
+	// async function initMedia() {
+	// 	function callback() {
+	// 		(window.adsbygoogle = window.adsbygoogle || []).push({});
+	// 	}
 
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src =
-				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		}).then(callback);
-	}
+	// 	return new Promise(function (resolve, reject) {
+	// 		let s;
+	// 		s = document.createElement('script');
+	// 		s.src =
+	// 			'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
+	// 		s.onload = resolve;
+	// 		s.onerror = reject;
+	// 		document.head.appendChild(s);
+	// 	}).then(callback);
+	// }
 
 	onMount(() => {
 		console.log('source', source);
 		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-			initMedia();
+			// initMedia();
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
 		}
 	});
 </script>
