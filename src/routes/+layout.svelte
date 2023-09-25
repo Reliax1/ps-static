@@ -81,7 +81,13 @@
 
 	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
 
+	// consent check
 	<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+	<script
+		async
+		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
+		crossorigin="anonymous"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
