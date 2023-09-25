@@ -5,8 +5,8 @@ const HelperStore = writable({
 	isTablet: false,
 	mobileMenu: false,
 	openconsent: false,
-	mediaType: null,
-	mobileMenuDown: false,
+	mediaType: 'google',
+	mobileMenuDown: false
 });
 
 export default HelperStore;

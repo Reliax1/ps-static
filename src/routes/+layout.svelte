@@ -52,8 +52,6 @@
 		// 	$HelperStore.mediaType = 'google';
 		// }
 
-		$HelperStore.mediaType === 'google';
-
 		gtag('js', new Date());
 
 		gtag('config', mainProperty);
