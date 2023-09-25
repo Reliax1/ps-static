@@ -57,8 +57,25 @@
 		gtag('config', mainProperty);
 	}
 
+	async function initBanner() {
+		// function callback() {
+		// 	(window.adsbygoogle = window.adsbygoogle || []).push({});
+		// }
+
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src =
+				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		});
+	}
+
 	onMount(async () => {
 		init();
+		initBanner();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
@@ -82,17 +99,15 @@
 	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
 
 	// consent check
-	<!-- <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
-
-	<script
+	<!-- <script
 		async
 		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script> -->
 
 	<!-- <script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 	</script> -->
-	
+
 	<!-- Google tag (gtag.js) -->
 	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
 	<script>
