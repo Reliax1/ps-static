@@ -30,7 +30,6 @@
 	// }
 
 	onMount(() => {
-		console.log('source', source);
 		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
 			// initMedia();
 			(window.adsbygoogle = window.adsbygoogle || []).push({});
