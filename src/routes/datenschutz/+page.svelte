@@ -2,9 +2,9 @@
 	import HelperStore from '../../../src/stores/HelperStore';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
-	const openCosent = () => {
-		$HelperStore.openconsent = true;
-	};
+	// const openCosent = () => {
+	// 	$HelperStore.openconsent = true;
+	// };
 </script>
 
 <svelte:head>
@@ -13,12 +13,12 @@
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
-<div class="finger-wrapper">
+<!-- <div class="finger-wrapper">
 	<button on:click={openCosent} class="finger-button">
 		<img class="finger-image" src="/svg/fingerprint.svg" alt="fingerprint" />
 		<span>Consent Einstellungen</span>
 	</button>
-</div>
+</div> -->
 
 <Datenschutz />
 
