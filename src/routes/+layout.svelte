@@ -58,10 +58,6 @@
 	}
 
 	async function initBanner() {
-		// function callback() {
-		// 	(window.adsbygoogle = window.adsbygoogle || []).push({});
-		// }
-
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
@@ -75,7 +71,7 @@
 
 	onMount(async () => {
 		initBanner();
-		init();
+		// init();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
