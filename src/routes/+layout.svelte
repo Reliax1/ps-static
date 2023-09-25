@@ -74,8 +74,8 @@
 	}
 
 	onMount(async () => {
-		init();
 		initBanner();
+		init();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
@@ -97,34 +97,7 @@
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
 	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
-
-	// consent check
-	<!-- <script
-		async
-		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
-		crossorigin="anonymous"></script> -->
-
-	<!-- Google tag (gtag.js) -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('consent', 'default', {
-			ad_storage: 'denied',
-			analytics_storage: 'denied'
-		});
-
-		gtag('js', new Date());
-
-		gtag('config', 'G-7PT3JH3660');
-	</script> -->
-
-	<!-- <GoogleAnalytics bind:this={ga} properties={['G-7PT3JH3660']} enabled={false} /> -->
 </svelte:head>
-
-<!-- <button on:click={enableAnalytics}>TEST</button> -->
 
 <div class="desktop-wrapper">
 	<DesktopHeader />
