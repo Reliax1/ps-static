@@ -118,7 +118,7 @@
 	<!-- </div> -->
 </main>
 
-<ConsentBanner />
+<!-- <ConsentBanner /> -->
 
 <div class="mobile-wrapper">
 	<MobileNav />
