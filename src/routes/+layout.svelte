@@ -70,10 +70,8 @@
 	}
 
 	onMount(async () => {
-		setTimeout(() => {
-			initBanner();
-			init();
-		}, 100);
+		initBanner();
+		init();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
