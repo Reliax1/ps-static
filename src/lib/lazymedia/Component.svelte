@@ -41,7 +41,8 @@
 	class:yellow-wrapper-mobile={source === 'normal' && manuelMobile === true}
 	class:yellow-wrapper-desktop={source === 'normal' && manuelMobile === false}
 >
-	{#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined}
+	{#if source === 'normal' && isMobile === manuelMobile}
+		<!-- {#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined} -->
 		{#if source === 'normal' && $HelperStore.mediaType === 'yellow'}
 			<a href="https://www.arkunis.de/konfigurator" target="_blank">
 				<!-- <div class="anz-desktop">Anzeige</div> -->
