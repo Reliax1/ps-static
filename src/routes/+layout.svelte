@@ -41,16 +41,16 @@
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		if (localStorage.consent != 'true') {
-			$HelperStore.mediaType = 'yellow';
+		// if (localStorage.consent != 'true') {
+		// 	$HelperStore.mediaType = 'yellow';
 
-			gtag('consent', 'default', {
-				ad_storage: 'denied',
-				analytics_storage: 'denied'
-			});
-		} else if (localStorage.consent === 'true') {
-			$HelperStore.mediaType = 'google';
-		}
+		// 	gtag('consent', 'default', {
+		// 		ad_storage: 'denied',
+		// 		analytics_storage: 'denied'
+		// 	});
+		// } else if (localStorage.consent === 'true') {
+		// 	$HelperStore.mediaType = 'google';
+		// }
 
 		gtag('js', new Date());
 
