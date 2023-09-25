@@ -75,7 +75,7 @@
 
 	onMount(async () => {
 		init();
-		// initBanner();
+		initBanner();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
