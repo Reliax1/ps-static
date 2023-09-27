@@ -80,26 +80,27 @@
 		});
 	}
 
-	const getCookie = (n) => {
-		let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
-		return a ? a[1] : null;
-	};
+	// const getCookie = (n) => {
+	// 	let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
+	// 	return a ? a[1] : null;
+	// };
 
-	const activateCoo = () => {
-		let isReady = getCookie('__gpi');
+	// const activateCoo = () => {
+	// 	let isReady = getCookie('__gpi');
 
-		if (isReady === null) {
-			console.log('NOTReady!!');
-			setTimeout(() => {
-				activateCoo();
-			}, 1000);
-		} else {
-			console.log('isReady!!');
-		}
-	};
+	// 	if (isReady === null) {
+	// 		console.log('NOTReady!!');
+	// 		setTimeout(() => {
+	// 			activateCoo();
+	// 		}, 1000);
+	// 	} else {
+	// 		// set Helperstore -> activate ADS
+	// 		console.log('isReady!!');
+	// 	}
+	// };
 
 	onMount(async () => {
-		activateCoo();
+		// activateCoo();
 		initBanner();
 		init();
 		initEzoic();
