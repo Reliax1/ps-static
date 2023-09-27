@@ -81,6 +81,7 @@
 	}
 
 	onMount(async () => {
+		console.log('window', window);
 		initBanner();
 		init();
 		initEzoic();
