@@ -89,6 +89,7 @@
 		let isReady = getCookie('__gpi');
 
 		if (isReady === null) {
+			console.log('NOTReady!!');
 			setTimeout(() => {
 				activateCoo();
 			}, 1000);
@@ -98,6 +99,7 @@
 	};
 
 	onMount(async () => {
+		activateCoo();
 		initBanner();
 		init();
 		initEzoic();
