@@ -69,9 +69,21 @@
 		});
 	}
 
+	async function initEzoic() {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src = 'https://www.ezojs.com/ezoic/sa.min.js';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		});
+	}
+
 	onMount(async () => {
 		initBanner();
 		init();
+		initEzoic();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
