@@ -80,8 +80,24 @@
 		});
 	}
 
+	const getCookie = (n) => {
+		let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
+		return a ? a[1] : null;
+	};
+
+	const activateCoo = () => {
+		let isReady = getCookie('__gpi');
+
+		if (isReady === null) {
+			setTimeout(() => {
+				activateCoo();
+			}, 1000);
+		} else {
+			console.log('isReady!!');
+		}
+	};
+
 	onMount(async () => {
-		console.log('window', window);
 		initBanner();
 		init();
 		initEzoic();
