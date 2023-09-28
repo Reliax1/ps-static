@@ -7,6 +7,10 @@
 		{
 			"source": "/stats/api/event/",
 			"destination": "https://p.macheskurz.de/api/event"
+		},
+		{
+			"source": "/ads.txt",
+			"destination": "https://srv.adstxtmanager.com/19390/perfekterspruch.de"
 		}
 	]
 }
