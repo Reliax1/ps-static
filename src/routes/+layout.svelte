@@ -100,8 +100,9 @@
 	// };
 	const testingFunc = () => {
 		setTimeout(() => {
+			let testing = window.googlefc.getConsentStatus();
 			console.log('googlefc', window.googlefc);
-			console.log('googlefcTEST', window.googlefc.getConsentStatus());
+			console.log('googlefcTEST', testing);
 		}, 1000);
 	};
 
