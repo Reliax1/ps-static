@@ -107,7 +107,7 @@
 	};
 
 	onMount(async () => {
-		testingFunc();
+		// testingFunc();
 		// activateCoo();
 		initBanner();
 		init();
