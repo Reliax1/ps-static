@@ -115,8 +115,6 @@
 						});
 					}
 				});
-				// let testing = window.googlefc.getConsentStatus();
-				// console.log('testing', testing);
 			}
 		});
 	};

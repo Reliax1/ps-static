@@ -250,6 +250,9 @@
 	.media-mobile {
 		width: 360px;
 		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		// // background-color: grey;
 	}
 
