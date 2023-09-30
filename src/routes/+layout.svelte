@@ -104,10 +104,13 @@
 		window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
 		// wait for consent
 		googlefc.callbackQueue.push({
-			CONSENT_DATA_READY: (e) => {
-				console.log('e', e);
+			CONSENT_DATA_READY: () => {
+				let tcfapi = window.__tcfapi('ping', (r) => {
+					console.log(r);
+				});
 				let testing = window.googlefc.getConsentStatus();
 				console.log('testing', testing);
+				console.log('tcfapi', tcfapi);
 			}
 		});
 		// setTimeout(() => {
