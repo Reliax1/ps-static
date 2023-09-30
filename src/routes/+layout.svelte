@@ -44,10 +44,10 @@
 		// if (localStorage.consent != 'true') {
 		// 	$HelperStore.mediaType = 'yellow';
 
-		// 	gtag('consent', 'default', {
-		// 		ad_storage: 'denied',
-		// 		analytics_storage: 'denied'
-		// 	});
+		gtag('consent', 'default', {
+			ad_storage: 'denied',
+			analytics_storage: 'denied'
+		});
 		// } else if (localStorage.consent === 'true') {
 		// 	$HelperStore.mediaType = 'google';
 		// }
@@ -106,7 +106,14 @@
 		googlefc.callbackQueue.push({
 			CONSENT_DATA_READY: () => {
 				window.__tcfapi('getTCData', 2.0, (data, success) => {
-					console.log('data', data.purpose.consents['1']);
+					const consent = data.purpose.consents['1'];
+
+					if (consent === true) {
+						gtag('consent', 'update', {
+							ad_storage: 'granted',
+							analytics_storage: 'granted'
+						});
+					}
 				});
 				// let testing = window.googlefc.getConsentStatus();
 				// console.log('testing', testing);
