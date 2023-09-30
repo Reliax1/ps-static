@@ -106,7 +106,7 @@
 		googlefc.callbackQueue.push({
 			CONSENT_DATA_READY: () => {
 				window.__tcfapi('getTCData', 2.0, (data, success) => {
-					console.log('data', data);
+					console.log('data', data.purpose.consents['1']);
 				});
 				// let testing = window.googlefc.getConsentStatus();
 				// console.log('testing', testing);
