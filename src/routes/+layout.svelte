@@ -105,7 +105,7 @@
 		// wait for consent
 		googlefc.callbackQueue.push({
 			CONSENT_DATA_READY: () => {
-				window.__tcfapi('getTCData', 2.0, (data, success) => {
+				__tcfapi('getTCData', 2.0, (data, success) => {
 					console.log('data', data);
 					console.log('success', success);
 				});
