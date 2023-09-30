@@ -104,8 +104,10 @@
 		window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
 		// wait for consent
 		googlefc.callbackQueue.push({
-			CONSENT_DATA_READY: () => {
+			CONSENT_DATA_READY: (e) => {
+				console.log('e', e);
 				let testing = window.googlefc.getConsentStatus();
+				console.log('testing', testing);
 			}
 		});
 		// setTimeout(() => {
@@ -116,7 +118,7 @@
 	};
 
 	onMount(async () => {
-		// testingFunc();
+		testingFunc();
 		// activateCoo();
 		initBanner();
 		init();
