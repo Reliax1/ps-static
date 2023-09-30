@@ -107,21 +107,15 @@
 			CONSENT_DATA_READY: () => {
 				window.__tcfapi('getTCData', 2.0, (data, success) => {
 					console.log('data', data);
-					console.log('success', success);
 				});
 				// let testing = window.googlefc.getConsentStatus();
 				// console.log('testing', testing);
 			}
 		});
-		// setTimeout(() => {
-		// 	let testing = window.googlefc.getConsentStatus();
-		// 	console.log('googlefc', window.googlefc);
-		// 	console.log('googlefcTEST', testing);
-		// }, 1000);
 	};
 
 	onMount(async () => {
-		// testingFunc();
+		testingFunc();
 		// activateCoo();
 		initBanner();
 		init();
