@@ -105,7 +105,7 @@
 		// wait for consent
 		googlefc.callbackQueue.push({
 			CONSENT_DATA_READY: () => {
-				__tcfapi('getTCData', 2.0, (data, success) => {
+				window.__tcfapi('getTCData', 2.0, (data, success) => {
 					console.log('data', data);
 					console.log('success', success);
 				});
@@ -121,7 +121,7 @@
 	};
 
 	onMount(async () => {
-		// testingFunc();
+		testingFunc();
 		// activateCoo();
 		initBanner();
 		init();
