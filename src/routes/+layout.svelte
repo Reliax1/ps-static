@@ -98,8 +98,15 @@
 	// 		console.log('isReady!!');
 	// 	}
 	// };
+	const testingFunc = () => {
+		setTimeout(() => {
+			console.log('window', window);
+			console.log('googlefc', window.googlefc);
+		}, 1000);
+	};
 
 	onMount(async () => {
+		testingFunc();
 		// activateCoo();
 		initBanner();
 		init();
