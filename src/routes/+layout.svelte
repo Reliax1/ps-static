@@ -99,15 +99,26 @@
 	// 	}
 	// };
 	const testingFunc = () => {
-		setTimeout(() => {
-			let testing = window.googlefc.getConsentStatus();
-			console.log('googlefc', window.googlefc);
-			console.log('googlefcTEST', testing);
-		}, 1000);
+		window.googlefc = window.googlefc || {};
+		window.googlefc.ccpa = window.googlefc.ccpa || {};
+		window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+		// wait for consent
+		googlefc.callbackQueue.push({
+			CONSENT_DATA_READY: () => {
+				console.log('CHECK!!!');
+				let testing = window.googlefc.getConsentStatus();
+				console.log('testing', testing);
+			}
+		});
+		// setTimeout(() => {
+		// 	let testing = window.googlefc.getConsentStatus();
+		// 	console.log('googlefc', window.googlefc);
+		// 	console.log('googlefcTEST', testing);
+		// }, 1000);
 	};
 
 	onMount(async () => {
-		// testingFunc();
+		testingFunc();
 		// activateCoo();
 		initBanner();
 		init();
