@@ -104,8 +104,7 @@
 		window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
 		// wait for consent
 		googlefc.callbackQueue.push({
-			CONSENT_DATA_READY: () => {
-				console.log('CHECK!!!');
+			CONSENT_API_READY: () => {
 				let testing = window.googlefc.getConsentStatus();
 				console.log('testing', testing);
 			}
