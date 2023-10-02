@@ -152,8 +152,9 @@
 
 	onMount(async () => {
 		// activateCoo();
-		initBanner();
-		init();
+		
+		// initBanner();
+		// init();
 		handleConsent();
 		// initEzoic();
 		$HelperStore.isMobile = data.isMobile;
@@ -178,13 +179,13 @@
 
 	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
 
-	<!-- <script
+	<script
 		async
 		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
-		crossorigin="anonymous"></script> -->
+		crossorigin="anonymous"></script>
 
 	<!-- Google tag (gtag.js) -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
@@ -198,7 +199,7 @@
 		gtag('js', new Date());
 
 		gtag('config', 'G-7PT3JH3660');
-	</script> -->
+	</script>
 
 	<!-- <GoogleAnalytics bind:this={ga} properties={['G-7PT3JH3660']} enabled={false} /> -->
 </svelte:head>
