@@ -2,13 +2,9 @@
 	import HelperStore from '../../../src/stores/HelperStore';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
-	const openCosent = () => {
-		console.log('check')
-		// $HelperStore.openconsent = true;
-
-		// on="googleFC.prompt(consent=googleFC, expireCache=true)"
-		googlefc.callbackQueue.push(googlefc.showRevocationMessage);
-	};
+	// const openCosent = () => {
+	// 	$HelperStore.openconsent = true;
+	// };
 </script>
 
 <svelte:head>
@@ -18,10 +14,12 @@
 </svelte:head>
 
 <div class="finger-wrapper">
-	<button on:click={openCosent} class="finger-button">
+	<!-- <button on:click={openCosent} class="finger-button"> -->
+	<a href="javascript:window.googlefc.callbackQueue.push(googlefc.showRevocationMessage)">
 		<img class="finger-image" src="/svg/fingerprint.svg" alt="fingerprint" />
 		<span>Consent Einstellungen</span>
-	</button>
+	</a>
+	<!-- </button> -->
 </div>
 
 <Datenschutz />
