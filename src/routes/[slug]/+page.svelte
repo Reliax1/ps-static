@@ -91,10 +91,16 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if data.isMobile && $HelperStore.mediaType === 'google'}
-						{#if data.isTablet === false && index === 0}
+					{#if index === 0}
+						<div class="sprueche-card-mobile">
 							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
-						{/if}
+						</div>
+					{/if}
+
+					{#if data.isMobile && $HelperStore.mediaType === 'google'}
+						<!-- {#if data.isTablet === false && index === 0}
+							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+						{/if} -->
 
 						{#if data.isTablet}
 							{#if index === 3 || index === 7 || index === 11 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
