@@ -287,6 +287,7 @@
 		}
 		.sprueche-card-mobile {
 			display: block !important;
+			width: 100%;
 		}
 		.sprueche-main {
 			width: 100%;
@@ -313,6 +314,7 @@
 		}
 		.sprueche-card-mobile {
 			display: block !important;
+			width: 100%;
 		}
 		.sprueche-main {
 			width: 100%;
