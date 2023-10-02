@@ -13,12 +13,17 @@
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
-<!-- <div class="finger-wrapper">
-	<button on:click={openCosent} class="finger-button">
+<div class="finger-wrapper">
+	<!-- <button on:click={openCosent} class="finger-button"> -->
+	<a
+		class="finger-button"
+		href="javascript:googlefc.callbackQueue.push(googlefc.showRevocationMessage)"
+	>
 		<img class="finger-image" src="/svg/fingerprint.svg" alt="fingerprint" />
 		<span>Consent Einstellungen</span>
-	</button>
-</div> -->
+	</a>
+	<!-- </button> -->
+</div>
 
 <Datenschutz />
 
