@@ -3,6 +3,7 @@
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
 	const openCosent = () => {
+		console.log('check')
 		// $HelperStore.openconsent = true;
 
 		// on="googleFC.prompt(consent=googleFC, expireCache=true)"
