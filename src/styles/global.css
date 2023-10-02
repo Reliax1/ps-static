@@ -96,7 +96,3 @@ a:active {
 :root {
 	--angle: 4vw;
 }
-
-.google-revocation-link-placeholder {
-	display: none !important;
-}

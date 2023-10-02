@@ -45,6 +45,7 @@
 <div
 	class:yellow-wrapper-mobile={source === 'normal' && manuelMobile === true}
 	class:yellow-wrapper-desktop={source === 'normal' && manuelMobile === false}
+	aria-hidden="true"
 >
 	<!-- {#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined} -->
 	{#if source === 'normal' && isMobile === manuelMobile}
