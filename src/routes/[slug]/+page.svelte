@@ -93,7 +93,7 @@
 
 					{#if index === 0}
 						<div class="sprueche-card-mobile">
-							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+							<Media source="normal" manuelMobile={true} isMobile={true} />
 						</div>
 					{/if}
 
