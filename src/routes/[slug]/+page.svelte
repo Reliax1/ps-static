@@ -93,7 +93,7 @@
 
 					{#if index === 0}
 						<div class="sprueche-card-mobile">
-							<Media source="normal" manuelMobile={true} isMobile={true} />
+							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
 						</div>
 					{/if}
 
@@ -131,9 +131,9 @@
 						</div>
 					{/if}
 
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
+					<!-- {#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
-					{/if}
+					{/if} -->
 
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
