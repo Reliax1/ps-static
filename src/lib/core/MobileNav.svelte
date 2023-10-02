@@ -55,7 +55,7 @@
 >
 	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
 		<div class="media-mobile-wrapper">
-			<div class="media-mobile">
+			<div class="media-mobile" aria-hidden="true">
 				{#if $HelperStore.isTablet === true}
 					<Media source="mobileTablet" manuelMobile={true} isMobile={$HelperStore.isMobile} />
 				{:else}
