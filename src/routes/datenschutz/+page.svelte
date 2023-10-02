@@ -15,14 +15,10 @@
 
 <div class="finger-wrapper">
 	<!-- <button on:click={openCosent} class="finger-button"> -->
-	<a
-		class="finger-button"
-		href="javascript:googlefc.callbackQueue.push(googlefc.showRevocationMessage)"
-	>
+	<button on="googleFC.prompt(consent=googleFC, expireCache=true)" class="finger-button">
 		<img class="finger-image" src="/svg/fingerprint.svg" alt="fingerprint" />
 		<span>Consent Einstellungen</span>
-	</a>
-	<!-- </button> -->
+	</button>
 </div>
 
 <Datenschutz />
