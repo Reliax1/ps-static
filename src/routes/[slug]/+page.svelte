@@ -134,6 +134,13 @@
 					<!-- {#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if} -->
+					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
+							<svelte:fragment slot="component" let:Component>
+								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+							</svelte:fragment>
+						</Lazy>
+					{/if}
 
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
