@@ -6,7 +6,7 @@
 		// $HelperStore.openconsent = true;
 
 		// on="googleFC.prompt(consent=googleFC, expireCache=true)"
-		window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
+		googlefc.callbackQueue.push(googlefc.showRevocationMessage);
 	};
 </script>
 
