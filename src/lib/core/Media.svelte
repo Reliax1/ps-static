@@ -182,7 +182,8 @@
 	.yellow-wrapper-mobile {
 		display: none !important;
 		width: 100%;
-		height: 113vw;
+		// height: 113vw;
+		height: 300px;
 		// background-color: grey;
 		display: flex;
 		justify-content: center;
@@ -248,6 +249,12 @@
 		}
 		.yellow-image-mobile {
 			display: none !important;
+		}
+	}
+
+	@media (min-width: 361px) and (max-width: 480px) {
+		.yellow-wrapper-mobile {
+			height: 343px;
 		}
 	}
 </style>
