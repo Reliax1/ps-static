@@ -12,7 +12,8 @@
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
-			s.src = 'https://consent.cookiebot.com/958b264b-d084-439a-a2f7-505f79d53549/cd.js';
+			// s.src = 'https://consent.cookiebot.com/958b264b-d084-439a-a2f7-505f79d53549/cd.js';
+			s.src = 'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549';
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
