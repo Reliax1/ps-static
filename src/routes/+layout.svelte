@@ -127,6 +127,7 @@
 		window.addEventListener(
 			'CookiebotOnAccept',
 			function () {
+				CookiebotCallback_OnAccept();
 				if (Cookiebot.consent.marketing) {
 					initEzoic();
 					$HelperStore.marketing_consent = true;
@@ -141,6 +142,7 @@
 		window.addEventListener(
 			'CookiebotOnDecline',
 			function () {
+				CookiebotCallback_OnDecline();
 				deleteAllCookies();
 			},
 			false
@@ -169,6 +171,30 @@
 			ezstandalone.display();
 		});
 	};
+
+	function CookiebotCallback_OnAccept() {
+		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
+			//jede der Zustimmungsoptionen der Benutzer festlegen
+			window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
+			window.ezConsentCategories.statistics = Cookiebot.consent.statistics;
+			window.ezConsentCategories.marketing = Cookiebot.consent.marketing;
+
+			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
+			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+		}
+	}
+
+	function CookiebotCallback_OnDecline() {
+		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
+			//jede der Zustimmungsoptionen der Benutzer festlegen
+			window.ezConsentCategories.preferences = false;
+			window.ezConsentCategories.statistics = false;
+			window.ezConsentCategories.marketing = false;
+
+			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
+			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+		}
+	}
 
 	onMount(async () => {
 		await initCockie();
