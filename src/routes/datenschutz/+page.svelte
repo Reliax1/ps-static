@@ -6,8 +6,6 @@
 	const openCosent = () => {
 		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
 		window.Cookiebot.show();
-
-		console.log('check11');
 	};
 
 	const initCockie = async () => {
@@ -22,8 +20,7 @@
 	};
 
 	onMount(async () => {
-		// initCockie();
-		console.log(window);
+		initCockie();
 
 		window.addEventListener(
 			'CookiebotOnAccept',
@@ -44,12 +41,12 @@
 	<link rel="canonical" href="https://perfekterspruch.de/datenschutz/" />
 	<meta name="robots" content="noindex" />
 
-	<script
+	<!-- <script
 		id="Cookiebot"
 		src="https://consent.cookiebot.com/uc.js"
 		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
 		data-blockingmode="auto"
-		type="text/javascript"></script>
+		type="text/javascript"></script> -->
 </svelte:head>
 
 <div class="finger-wrapper">
