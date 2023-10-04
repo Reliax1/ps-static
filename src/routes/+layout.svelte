@@ -117,7 +117,8 @@
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
-			s.src = 'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549';
+			s.src =
+				'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549&framework=TCFv2.2';
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
@@ -200,7 +201,7 @@
 	// }
 
 	onMount(async () => {
-		// initCockie();
+		initCockie();
 		cockieEvent();
 
 		$HelperStore.isMobile = data.isMobile;
@@ -223,13 +224,13 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<script
+	<!-- <script
 		id="Cookiebot"
 		src="https://consent.cookiebot.com/uc.js"
 		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
 		data-blockingmode="auto"
-		data-framework="TCFv2.0"
-		type="text/javascript"></script>
+		data-framework="IAB"
+		type="text/javascript"></script> -->
 </svelte:head>
 
 <div class="desktop-wrapper">
