@@ -4,8 +4,8 @@
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
 	const openCosent = () => {
-		// $HelperStore.openconsent = true;
-		window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
+		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
+		Cookiebot.show;
 	};
 
 	const initCockie = async () => {
