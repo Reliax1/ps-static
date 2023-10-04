@@ -251,6 +251,9 @@
 			>http://g.ezoic.net/privacy/perfekterspruch.de/annualRequestSummary</a
 		>
 	</p>
+	<p>
+		<a href="//g.ezoic.net/privacy/perfekterspruch.de">//g.ezoic.net/privacy/perfekterspruch.de</a>
+	</p>
 
 	<h2>7. Kontakt</h2>
 	<h3>Initiativ-Kontaktaufnahme des Kunden per E-Mail</h3>
