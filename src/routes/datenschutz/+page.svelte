@@ -1,40 +1,10 @@
 <script>
-	import { onMount } from 'svelte';
-	import HelperStore from '../../../src/stores/HelperStore';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
 	const openCosent = () => {
 		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
 		window.Cookiebot.show();
 	};
-
-	const initCockie = async () => {
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			// s.src = 'https://consent.cookiebot.com/958b264b-d084-439a-a2f7-505f79d53549/cd.js';
-			s.src = 'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		});
-	};
-
-	onMount(async () => {
-		initCockie();
-
-		window.addEventListener(
-			'CookiebotOnAccept',
-			function (e) {
-				if (Cookiebot.consent.marketing) {
-					console.log('Cookiebot.consent', Cookiebot.consent);
-					console.log('Cookiebot', Cookiebot);
-					console.log('WORKING', e);
-				}
-			},
-			false
-		);
-	});
 </script>
 
 <svelte:head>

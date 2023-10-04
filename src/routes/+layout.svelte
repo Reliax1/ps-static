@@ -17,7 +17,7 @@
 
 	const mainProperty = 'G-7PT3JH3660';
 
-	async function init() {
+	async function GoogleInit() {
 		await loader(
 			[
 				{
@@ -44,10 +44,10 @@
 		// if (localStorage.consent != 'true') {
 		// 	$HelperStore.mediaType = 'yellow';
 
-		gtag('consent', 'default', {
-			ad_storage: 'denied',
-			analytics_storage: 'denied'
-		});
+		// gtag('consent', 'default', {
+		// 	ad_storage: 'denied',
+		// 	analytics_storage: 'denied'
+		// });
 		// } else if (localStorage.consent === 'true') {
 		// 	$HelperStore.mediaType = 'google';
 		// }
@@ -150,11 +150,43 @@
 		});
 	};
 
+	const initCockie = async () => {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			// s.src = 'https://consent.cookiebot.com/958b264b-d084-439a-a2f7-505f79d53549/cd.js';
+			s.src = 'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		});
+	};
+
+	const cockieEvent = () => {
+		window.addEventListener(
+			'CookiebotOnAccept',
+			function () {
+				if (Cookiebot.consent.marketing) {
+					initBanner();
+				}
+				if (Cookiebot.consent.statistics) {
+					GoogleInit();
+					// console.log('Cookiebot.consent', Cookiebot.consent);
+					// console.log('Cookiebot', Cookiebot);
+					// console.log('WORKING', e);
+				}
+			},
+			false
+		);
+	};
+
 	onMount(async () => {
+		await initCockie();
+		cockieEvent();
 		// activateCoo();
-		initBanner();
-		init();
-		handleConsent();
+		// initBanner();
+		// init();
+		// handleConsent();
 		// initEzoic();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
