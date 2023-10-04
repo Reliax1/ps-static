@@ -166,11 +166,11 @@
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
-			console.log('ezstandalone', ezstandalone.enabled);
 			ezstandalone.enableConsent();
 			ezstandalone.define(105, 103, 106, 104, 107);
 			ezstandalone.enable();
 			ezstandalone.display();
+			console.log('ezstandalone', ezstandalone.enabled);
 		});
 	};
 
@@ -201,8 +201,8 @@
 	// }
 
 	onMount(async () => {
-		initCockie();
-		// cockieEvent();
+		// initCockie();
+		cockieEvent();
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
@@ -224,7 +224,13 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
+	<script
+		id="Cookiebot"
+		src="https://consent.cookiebot.com/uc.js"
+		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
+		data-blockingmode="auto"
+		data-framework="TCFv2.2"
+		type="text/javascript"></script>
 </svelte:head>
 
 <div class="desktop-wrapper">
