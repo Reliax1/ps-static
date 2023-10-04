@@ -61,7 +61,7 @@
 		</div>
 	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
-	<div class="mobilestickyplace">
+	<div class="media-mobile">
 		<!-- Ezoic - mobile_fixed - sidebar_middle -->
 		<div id="ezoic-pub-ad-placeholder-106" />
 		<!-- End Ezoic - mobile_fixed - sidebar_middle -->
@@ -149,6 +149,15 @@
 		box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), -2px 2px 3px rgba(0, 0, 0, 0.3);
 	}
 
+	.media-mobile {
+		width: 320px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		// // background-color: grey;
+	}
+
 	@media (max-width: 1024px) {
 		.goo {
 			width: 100%;
@@ -207,6 +216,11 @@
 			width: 100%;
 			margin: 3vh auto;
 			height: 300px;
+		}
+
+		.media-mobile {
+			width: 450px;
+			height: 60px;
 		}
 	}
 	@media (min-width: 361px) and (max-width: 480px) {

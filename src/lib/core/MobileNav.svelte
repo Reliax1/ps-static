@@ -55,13 +55,11 @@
 >
 	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
 		<div class="media-mobile-wrapper">
-			<div class="media-mobile" aria-hidden="true">
-				{#if $HelperStore.isTablet === true}
-					<MainMedia source="mobileTablet" isMobile={$HelperStore.isMobile} />
-				{:else}
-					<MainMedia source="mobileBanner" isMobile={$HelperStore.isMobile} />
-				{/if}
-			</div>
+			{#if $HelperStore.isTablet === true}
+				<MainMedia source="mobileTablet" isMobile={$HelperStore.isMobile} />
+			{:else}
+				<MainMedia source="mobileBanner" isMobile={$HelperStore.isMobile} />
+			{/if}
 		</div>
 	{/if}
 
@@ -247,14 +245,6 @@
 		align-items: center;
 		background-color: transparent;
 	}
-	.media-mobile {
-		width: 320px;
-		height: 50px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		// // background-color: grey;
-	}
 
 	.mobilenav1 {
 		position: relative;
@@ -342,10 +332,6 @@
 		}
 		.media-mobile-wrapper {
 			width: 100%;
-			height: 60px;
-		}
-		.media-mobile {
-			width: 450px;
 			height: 60px;
 		}
 	}
