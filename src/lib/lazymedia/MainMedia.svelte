@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { dev } from '$app/environment';
 	// import HelperStore from '../../../src/stores/HelperStore';
 
 	export let isMobile;
@@ -15,7 +16,9 @@
 		// });
 
 		// dynamic
-		ezstandalone.refresh();
+		if (dev === false) {
+			window.ezstandalone.refresh();
+		}
 
 		// ezstandalone.cmd.push(function () {
 		// 	// call new placeholders
