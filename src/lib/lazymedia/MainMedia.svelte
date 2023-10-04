@@ -16,7 +16,7 @@
 		// });
 
 		// dynamic
-		if (dev === false && marketing_consent === true) {
+		if (dev === false && $HelperStore.marketing_consent === true) {
 			window.ezstandalone.refresh();
 		}
 
