@@ -1,14 +1,11 @@
 <script>
 	import { onMount } from 'svelte';
-	import loader from '@beyonk/async-script-loader';
-	// import { GoogleAnalytics } from '@beyonk/svelte-google-analytics';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
 	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
-	// import ConsentBanner from '$lib/core/ConsentBanner.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
@@ -17,24 +14,6 @@
 
 	const mainProperty = 'G-7PT3JH3660';
 
-	// async function GoogleInit() {
-	// 	console.log('check!!');
-	// 	await loader(
-	// 		[
-	// 			{
-	// 				type: 'script',
-	// 				url: `https://www.googletagmanager.com/gtag/js?id=${mainProperty}`
-	// 			}
-	// 		],
-	// 		test,
-	// 		callback
-	// 	);
-	// }
-
-	// function test() {
-	// 	return Boolean(window.dataLayer).valueOf() && Array.isArray(window.dataLayer);
-	// }
-
 	function gtag() {
 		window.dataLayer.push(arguments);
 	}
@@ -42,16 +21,10 @@
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
 
-		// if (localStorage.consent != 'true') {
-		// 	$HelperStore.mediaType = 'yellow';
-
 		// gtag('consent', 'default', {
 		// 	ad_storage: 'denied',
 		// 	analytics_storage: 'denied'
 		// });
-		// } else if (localStorage.consent === 'true') {
-		// 	$HelperStore.mediaType = 'google';
-		// }
 
 		gtag('js', new Date());
 
@@ -84,20 +57,6 @@
 	// const getCookie = (n) => {
 	// 	let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
 	// 	return a ? a[1] : null;
-	// };
-
-	// const activateCoo = () => {
-	// 	let isReady = getCookie('__gpi');
-
-	// 	if (isReady === null) {
-	// 		console.log('NOTReady!!');
-	// 		setTimeout(() => {
-	// 			activateCoo();
-	// 		}, 1000);
-	// 	} else {
-	// 		// set Helperstore -> activate ADS
-	// 		console.log('isReady!!');
-	// 	}
 	// };
 
 	function deleteAllCookies() {
@@ -163,6 +122,7 @@
 	};
 
 	const initCockie = async () => {
+		// https://www.cookiebot.com/de/developer/
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
@@ -177,8 +137,6 @@
 		window.addEventListener(
 			'CookiebotOnAccept',
 			function () {
-				console.log('Cookiebot.consent', Cookiebot.consent);
-				console.log('Cookiebot', Cookiebot);
 				if (Cookiebot.consent.marketing) {
 					initBanner();
 				}
@@ -188,16 +146,20 @@
 			},
 			false
 		);
+
+		window.addEventListener(
+			'CookiebotOnDecline',
+			function () {
+				deleteAllCookies();
+			},
+			false
+		);
 	};
 
 	onMount(async () => {
 		await initCockie();
 		cockieEvent();
-		// activateCoo();
-		// initBanner();
-		// init();
-		// handleConsent();
-		// initEzoic();
+
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
