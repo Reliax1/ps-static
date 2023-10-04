@@ -35,9 +35,9 @@
 	// 	return Boolean(window.dataLayer).valueOf() && Array.isArray(window.dataLayer);
 	// }
 
-	// function gtag() {
-	// 	window.dataLayer.push(arguments);
-	// }
+	function gtag() {
+		window.dataLayer.push(arguments);
+	}
 
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
