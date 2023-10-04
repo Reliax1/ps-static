@@ -113,6 +113,7 @@
 	const initCockie = async () => {
 		// https://manage.cookiebot.com/de/manage#
 		// https://www.cookiebot.com/de/developer/
+		// https://support.cookiebot.com/hc/en-us/articles/360007652694-Cookiebot-and-the-IAB-Consent-Framework
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
@@ -127,7 +128,7 @@
 		window.addEventListener(
 			'CookiebotOnAccept',
 			function () {
-				CookiebotCallback_OnAccept();
+				// CookiebotCallback_OnAccept();
 				if (Cookiebot.consent.marketing) {
 					initEzoic();
 					$HelperStore.marketing_consent = true;
@@ -142,7 +143,7 @@
 		window.addEventListener(
 			'CookiebotOnDecline',
 			function () {
-				CookiebotCallback_OnDecline();
+				// CookiebotCallback_OnDecline();
 				deleteAllCookies();
 			},
 			false
@@ -165,38 +166,38 @@
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
-			// ezstandalone.enableConsent();
+			ezstandalone.enableConsent();
 			ezstandalone.define(105, 103, 106, 104, 107);
 			ezstandalone.enable();
 			ezstandalone.display();
 		});
 	};
 
-	function CookiebotCallback_OnAccept() {
-		console.log(window)
-		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
-			//jede der Zustimmungsoptionen der Benutzer festlegen
-			window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
-			window.ezConsentCategories.statistics = Cookiebot.consent.statistics;
-			window.ezConsentCategories.marketing = Cookiebot.consent.marketing;
+	// function CookiebotCallback_OnAccept() {
+	// 	console.log(window)
+	// 	if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
+	// 		//jede der Zustimmungsoptionen der Benutzer festlegen
+	// 		window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
+	// 		window.ezConsentCategories.statistics = Cookiebot.consent.statistics;
+	// 		window.ezConsentCategories.marketing = Cookiebot.consent.marketing;
 
-			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
-			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
-			console.log('window.ezConsentCategories.marketing', window.ezConsentCategories.marketing);
-		}
-	}
+	// 		//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
+	// 		__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+	// 		console.log('window.ezConsentCategories.marketing', window.ezConsentCategories.marketing);
+	// 	}
+	// }
 
-	function CookiebotCallback_OnDecline() {
-		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
-			//jede der Zustimmungsoptionen der Benutzer festlegen
-			window.ezConsentCategories.preferences = false;
-			window.ezConsentCategories.statistics = false;
-			window.ezConsentCategories.marketing = false;
+	// function CookiebotCallback_OnDecline() {
+	// 	if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
+	// 		//jede der Zustimmungsoptionen der Benutzer festlegen
+	// 		window.ezConsentCategories.preferences = false;
+	// 		window.ezConsentCategories.statistics = false;
+	// 		window.ezConsentCategories.marketing = false;
 
-			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
-			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
-		}
-	}
+	// 		//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
+	// 		__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+	// 	}
+	// }
 
 	onMount(async () => {
 		initCockie();
