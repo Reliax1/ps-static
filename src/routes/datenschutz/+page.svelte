@@ -21,6 +21,14 @@
 
 	onMount(async () => {
 		// initCockie();
+		console.log(window);
+
+		window.addEventListener('CookiebotOnAccept', function (e) {
+      if (Cookiebot.consent.marketing)
+          {
+          console.log('WORKING', e)
+          }
+      }, false);
 	});
 </script>
 
