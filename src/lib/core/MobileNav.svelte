@@ -248,7 +248,7 @@
 		background-color: transparent;
 	}
 	.media-mobile {
-		width: 360px;
+		width: 320px;
 		height: 50px;
 		display: flex;
 		justify-content: center;

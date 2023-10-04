@@ -31,28 +31,17 @@
 		gtag('config', mainProperty);
 	}
 
-	async function initBanner() {
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src =
-				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		});
-	}
-
-	async function initEzoic() {
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src = 'https://www.ezojs.com/ezoic/sa.min.js';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		});
-	}
+	// async function initGoogleads() {
+	// 	return new Promise(function (resolve, reject) {
+	// 		let s;
+	// 		s = document.createElement('script');
+	// 		s.src =
+	// 			'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
+	// 		s.onload = resolve;
+	// 		s.onerror = reject;
+	// 		document.head.appendChild(s);
+	// 	});
+	// }
 
 	// const getCookie = (n) => {
 	// 	let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
@@ -122,6 +111,7 @@
 	};
 
 	const initCockie = async () => {
+		// https://manage.cookiebot.com/de/manage#
 		// https://www.cookiebot.com/de/developer/
 		return new Promise(function (resolve, reject) {
 			let s;
@@ -138,7 +128,7 @@
 			'CookiebotOnAccept',
 			function () {
 				if (Cookiebot.consent.marketing) {
-					initBanner();
+					initEzoic();
 				}
 				if (Cookiebot.consent.statistics) {
 					GoogleInit();
@@ -154,6 +144,27 @@
 			},
 			false
 		);
+	};
+
+	async function initEzoic() {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src = 'https://www.ezojs.com/ezoic/sa.min.js';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		}).then(EzoicCallback);
+	}
+
+	const EzoicCallback = () => {
+		window.ezstandalone = window.ezstandalone || {};
+		ezstandalone.cmd = ezstandalone.cmd || [];
+		ezstandalone.cmd.push(function () {
+			ezstandalone.define(105, 103, 106, 104, 107);
+			ezstandalone.enable();
+			ezstandalone.display();
+		});
 	};
 
 	onMount(async () => {

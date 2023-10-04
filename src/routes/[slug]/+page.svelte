@@ -6,8 +6,9 @@
 	import Headerh1 from '$lib/cards/Headerh1.svelte';
 	import RelatedArticles from '$lib/core/RelatedArticles.svelte';
 	// import YellowImage from '$lib/core/YellowImage.svelte';
-	import Media from '$lib/core/Media.svelte';
+	// import Media from '$lib/core/Media.svelte';
 	import Lazy from '$lib/lazymedia/Lazy.svelte';
+	import Component from '$lib/lazymedia/Component.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
@@ -93,27 +94,27 @@
 
 					{#if index === 0}
 						<div class="sprueche-card-mobile">
-							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+							<Component source="normal" isMobile={data.isMobile} />
 						</div>
 					{/if}
 
 					{#if data.isMobile && $HelperStore.mediaType === 'google'}
 						<!-- {#if data.isTablet === false && index === 0}
-							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+							<Component source="normal" isMobile={data.isMobile} />
 						{/if} -->
 
 						{#if data.isTablet}
 							{#if index === 3 || index === 7 || index === 11 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
 								<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 									<svelte:fragment slot="component" let:Component>
-										<Component source="tablet" manuelMobile={true} isMobile={data.isMobile} />
+										<Component source="tablet" isMobile={data.isMobile} />
 									</svelte:fragment>
 								</Lazy>
 							{/if}
 						{:else if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
 							<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<Component source="normal" manuelMobile={true} isMobile={data.isMobile} />
+									<Component source="normal" isMobile={data.isMobile} />
 								</svelte:fragment>
 							</Lazy>
 						{/if}
@@ -132,12 +133,12 @@
 					{/if}
 
 					<!-- {#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
-						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+						<Component source="desktopInline" isMobile={data.isMobile} />
 					{/if} -->
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
@@ -145,49 +146,49 @@
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 23}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 29}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 35}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 41}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 47}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
+								<Component source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
@@ -203,7 +204,7 @@
 			</div>
 
 			{#if data.isMobile === false && $HelperStore.mediaType === 'google'}
-				<Media source="normal" manuelMobile={false} isMobile={data.isMobile} />
+				<Component source="normal" isMobile={data.isMobile} />
 			{/if}
 		</div>
 

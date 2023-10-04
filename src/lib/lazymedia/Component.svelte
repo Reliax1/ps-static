@@ -1,157 +1,99 @@
 <script>
 	import { onMount } from 'svelte';
-	import HelperStore from '../../../src/stores/HelperStore';
+	// import HelperStore from '../../../src/stores/HelperStore';
 
 	export let isMobile;
-	export let manuelMobile;
 	export let source;
 
-	let imageNumber = '2-1';
+	const EzoicCallback = () => {
+		// window.ezstandalone = window.ezstandalone || {};
+		// ezstandalone.cmd = ezstandalone.cmd || [];
+		// ezstandalone.cmd.push(function () {
+		// 	ezstandalone.define(102, 103, 104);
+		// 	ezstandalone.enable();
+		// 	ezstandalone.display();
+		// });
 
-	const yellowBaseUrl = 'https://images.arkunis.com/yellow/perfekt';
+		// dynamic
+		ezstandalone.refresh();
 
-	const yellowSizes =
-		'(max-width: 360px) 360px and (max-width: 1024px)) 304px, (min-width: 3840px) 417px, (min-width: 2560px) 423px, (min-width: 1920px) 427px, (min-width: 1025px) 304px, 100vw';
+		// ezstandalone.cmd.push(function () {
+		// 	// call new placeholders
+		// 	ezstandalone.displayMore(104, 105);
+		// });
 
-	// async function initMedia() {
-	// 	function callback() {
-	// 		(window.adsbygoogle = window.adsbygoogle || []).push({});
-	// 	}
+		// ezstandalone.cmd.push(function () {
+		// 	// define new placeholders and call refresh
+		// 	ezstandalone.define(104, 105, 106);
+		// 	ezstandalone.refresh();
+		// });
 
-	// 	return new Promise(function (resolve, reject) {
-	// 		let s;
-	// 		s = document.createElement('script');
-	// 		s.src =
-	// 			'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
-	// 		s.onload = resolve;
-	// 		s.onerror = reject;
-	// 		document.head.appendChild(s);
-	// 	}).then(callback);
-	// }
+		// destroy all
+		// window.ezstandalone.cmd.push(function () {
+		// 	ezstandalone.destroyAll();
+		// });
+	};
 
 	onMount(() => {
-		if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-			// initMedia();
-			(window.adsbygoogle = window.adsbygoogle || []).push({});
-		}
+		// if (isMobile === manuelMobile) {
+		// 	EzoicCallback();
+		// }
+		EzoicCallback();
 	});
 </script>
 
-<div
-	class:yellow-wrapper-mobile={source === 'normal' && manuelMobile === true}
-	class:yellow-wrapper-desktop={source === 'normal' && manuelMobile === false}
->
-	{#if source === 'normal' && isMobile === manuelMobile}
-		<!-- {#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined} -->
-		{#if source === 'normal' && $HelperStore.mediaType === 'yellow'}
-			<a href="https://www.arkunis.de/konfigurator" target="_blank">
-				<!-- <div class="anz-desktop">Anzeige</div> -->
-				<picture>
-					<source
-						sizes={yellowSizes}
-						srcSet="{yellowBaseUrl}/1366/avif/{imageNumber}.avif 304w, {yellowBaseUrl}/1920/avif/{imageNumber}.avif 427w, {yellowBaseUrl}/2560/avif/{imageNumber}.avif 423w, {yellowBaseUrl}/3840/avif/{imageNumber}.avif 417w, {yellowBaseUrl}/360/avif/{imageNumber}.avif 912w"
-						type="image/avif"
-					/>
-					<source
-						sizes={yellowSizes}
-						srcSet="{yellowBaseUrl}/1366/webp/{imageNumber}.webp 304w, {yellowBaseUrl}/1920/webp/{imageNumber}.webp 427w, {yellowBaseUrl}/2560/webp/{imageNumber}.webp 423w, {yellowBaseUrl}/3840/webp/{imageNumber}.webp 417w, {yellowBaseUrl}/360/webp/{imageNumber}.webp 912w"
-						type="image/webp"
-					/>
-					<img
-						sizes={yellowSizes}
-						src="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg"
-						class:yellow-image-mobile={manuelMobile === true}
-						class:yellow-image-desktop={manuelMobile === false}
-						srcSet="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg 304w, {yellowBaseUrl}/1920/jpg/{imageNumber}.jpg 427w, {yellowBaseUrl}/2560/jpg/{imageNumber}.jpg 423w, {yellowBaseUrl}/3840/jpg/{imageNumber}.jpg 417w, {yellowBaseUrl}/360/jpg/{imageNumber}.jpg 912w"
-						alt="yellow"
-					/>
-				</picture>
-			</a>
-		{:else if source === 'normal' && $HelperStore.mediaType === 'google'}
-			<div class="goo">
-				<!-- <div class="anz-mobile">Anzeige</div> -->
-				{#if manuelMobile === true}
-					<ins
-						class="adsbygoogle"
-						style="display:block"
-						data-ad-client="ca-pub-6800691774097678"
-						data-ad-slot="7607089982"
-						data-ad-format="vertical"
-						data-full-width-responsive="true"
-					/>
-				{:else}
-					<ins
-						class="adsbygoogle"
-						style="display:inline-block;width:450px;height:850px"
-						data-ad-client="ca-pub-6800691774097678"
-						data-ad-slot="1438989650"
-					/>
-				{/if}
-			</div>
-		{/if}
-	{/if}
-</div>
-
-{#if source === 'mobileBanner' && $HelperStore.mediaType === 'google' && isMobile === true}
-	<ins
-		class="adsbygoogle"
-		style="display:inline-block;width:320px;height:50px"
-		data-ad-client="ca-pub-6800691774097678"
-		data-ad-slot="1381512858"
-	/>
-{:else if source === 'desktopInline' && $HelperStore.mediaType === 'google' && isMobile === false}
-	<div
-		class="desktop-inline-wrapper"
-		class:desktop-inline-active={$HelperStore.mediaType === 'google'}
-	>
-		<ins
-			class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-6800691774097678"
-			data-ad-slot="2188733030"
-			data-ad-format="auto"
-			data-full-width-responsive="true"
-		/>
+{#if source === 'mobile-inline' && isMobile === true}
+	<div class="yellow-wrapper-mobile">
+		<!-- Ezoic - incontent_6 - incontent_6 -->
+		<div id="ezoic-pub-ad-placeholder-105" />
+		<!-- End Ezoic - incontent_6 - incontent_6 -->
 	</div>
-{:else if source === 'tablet' && $HelperStore.mediaType === 'google' && isMobile === true}
+{:else if source === 'desktopsticky' && isMobile === false}
+	<div class="yellow-wrapper-desktop">
+		<div class="anz-desktop">
+			<!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
+			<div id="ezoic-pub-ad-placeholder-103" />
+			<!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
+		</div>
+	</div>
+{:else if source === 'mobileBanner' && isMobile === true}
+	<div class="mobilestickyplace">
+		<!-- Ezoic - mobile_fixed - sidebar_middle -->
+		<div id="ezoic-pub-ad-placeholder-106" />
+		<!-- End Ezoic - mobile_fixed - sidebar_middle -->
+	</div>
+{:else if source === 'desktopInline' && isMobile === false}
+	<div class="desktop-inline-wrapper">
+		<!-- Ezoic - incontent_5 - incontent_5 -->
+		<div id="ezoic-pub-ad-placeholder-104" />
+		<!-- End Ezoic - incontent_5 - incontent_5 -->
+	</div>
+{:else if source === 'tablet' && isMobile === true}
 	<div class="tablet-inline-wrapper">
-		<ins
-			class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-6800691774097678"
-			data-ad-slot="1958143648"
-			data-ad-format="auto"
-			data-full-width-responsive="true"
-		/>
+		<!-- Ezoic - incontent_7 - incontent_7 -->
+		<div id="ezoic-pub-ad-placeholder-107" />
+		<!-- End Ezoic - incontent_7 - incontent_7 -->
 	</div>
 {/if}
 
 <style lang="scss">
 	.desktop-inline-wrapper {
 		display: none;
-	}
-	.tablet-inline-wrapper {
-		display: none;
-	}
-	.desktop-inline-active {
 		display: block;
 		margin: 0 auto;
 		width: 96%;
 		height: 300px;
 		// background-color: grey;
 	}
+	.tablet-inline-wrapper {
+		display: none;
+	}
 	.anz-mobile {
 		display: none;
 	}
 	.anz-desktop {
-		position: absolute;
-		width: 100%;
-		text-align: center;
-		font-size: 0.75vw;
-		text-align: right;
-		padding-right: 0.5vw;
-		top: -1vw;
-		left: 0;
+		width: 300px;
+		height: 600px;
 	}
 	.goo {
 		// width: 24.5vw;
@@ -171,7 +113,8 @@
 		display: block !important;
 		position: sticky;
 		top: 10vh;
-		height: 44.271vw;
+		// height: 44.271vw;
+		height: 600px;
 		margin: 1vw 0;
 	}
 	.yellow-image-desktop {
