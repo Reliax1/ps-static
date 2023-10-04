@@ -170,7 +170,6 @@
 			ezstandalone.define(105, 103, 106, 104, 107);
 			ezstandalone.enable();
 			ezstandalone.display();
-			console.log('ezstandalone', ezstandalone.enabled);
 		});
 	};
 
@@ -229,7 +228,7 @@
 		src="https://consent.cookiebot.com/uc.js"
 		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
 		data-blockingmode="auto"
-		data-framework="TCFv2.2"
+		data-framework="IAB"
 		type="text/javascript"></script>
 </svelte:head>
 
