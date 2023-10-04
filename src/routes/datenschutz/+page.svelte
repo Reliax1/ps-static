@@ -5,7 +5,9 @@
 
 	const openCosent = () => {
 		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
-		Cookiebot.show;
+		window.Cookiebot.show;
+
+		console.log('check11');
 	};
 
 	const initCockie = async () => {
