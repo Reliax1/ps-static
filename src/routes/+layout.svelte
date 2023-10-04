@@ -120,7 +120,7 @@
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
-		});
+		}).then(cockieEvent);
 	};
 
 	const cockieEvent = () => {
@@ -173,7 +173,7 @@
 	};
 
 	function CookiebotCallback_OnAccept() {
-		console.log('CookiebotCallback_OnAccept');
+		console.log('CookiebotCallback_OnAccept', Cookiebot.consent.marketing);
 		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
 			//jede der Zustimmungsoptionen der Benutzer festlegen
 			window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
@@ -198,8 +198,8 @@
 	}
 
 	onMount(async () => {
-		await initCockie();
-		cockieEvent();
+		initCockie();
+		// cockieEvent();
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
