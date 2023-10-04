@@ -17,27 +17,27 @@
 
 	const mainProperty = 'G-7PT3JH3660';
 
-	async function GoogleInit() {
-		console.log('check!!');
-		await loader(
-			[
-				{
-					type: 'script',
-					url: `https://www.googletagmanager.com/gtag/js?id=${mainProperty}`
-				}
-			],
-			test,
-			callback
-		);
-	}
+	// async function GoogleInit() {
+	// 	console.log('check!!');
+	// 	await loader(
+	// 		[
+	// 			{
+	// 				type: 'script',
+	// 				url: `https://www.googletagmanager.com/gtag/js?id=${mainProperty}`
+	// 			}
+	// 		],
+	// 		test,
+	// 		callback
+	// 	);
+	// }
 
-	function test() {
-		return Boolean(window.dataLayer).valueOf() && Array.isArray(window.dataLayer);
-	}
+	// function test() {
+	// 	return Boolean(window.dataLayer).valueOf() && Array.isArray(window.dataLayer);
+	// }
 
-	function gtag() {
-		window.dataLayer.push(arguments);
-	}
+	// function gtag() {
+	// 	window.dataLayer.push(arguments);
+	// }
 
 	function callback() {
 		window.dataLayer = window.dataLayer || [];
@@ -151,11 +151,21 @@
 		});
 	};
 
+	const GoogleInit = async () => {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src = `https://www.googletagmanager.com/gtag/js?id=${mainProperty}`;
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		}).then(callback);
+	};
+
 	const initCockie = async () => {
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
-			// s.src = 'https://consent.cookiebot.com/958b264b-d084-439a-a2f7-505f79d53549/cd.js';
 			s.src = 'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549';
 			s.onload = resolve;
 			s.onerror = reject;
