@@ -166,7 +166,7 @@
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
-			console.log('ezstandalone', ezstandalone);
+			console.log('ezstandalone', ezstandalone.enabled);
 			ezstandalone.enableConsent();
 			ezstandalone.define(105, 103, 106, 104, 107);
 			ezstandalone.enable();
