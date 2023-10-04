@@ -129,6 +129,7 @@
 			function () {
 				if (Cookiebot.consent.marketing) {
 					initEzoic();
+					$HelperStore.marketing_consent = true
 				}
 				if (Cookiebot.consent.statistics) {
 					GoogleInit();

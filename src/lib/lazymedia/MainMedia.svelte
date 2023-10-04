@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { dev } from '$app/environment';
-	// import HelperStore from '../../../src/stores/HelperStore';
+	import HelperStore from '../../../src/stores/HelperStore';
 
 	export let isMobile;
 	export let source;
@@ -16,7 +16,7 @@
 		// });
 
 		// dynamic
-		if (dev === false) {
+		if (dev === false && marketing_consent === true) {
 			window.ezstandalone.refresh();
 		}
 
