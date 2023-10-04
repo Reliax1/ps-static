@@ -18,7 +18,10 @@
 		// dynamic
 		if (dev === false && $HelperStore.marketing_consent === true) {
 			// window.ezstandalone.refresh();
-			window.ezstandalone.displayMore(105, 104, 107);
+			ezstandalone.cmd.push(function () {
+				// call new placeholders
+				ezstandalone.displayMore(105, 104, 107);
+			});
 		}
 
 		// ezstandalone.cmd.push(function () {
