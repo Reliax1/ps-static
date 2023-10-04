@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 	import { fly } from 'svelte/transition';
 	import HelperStore from '../../stores/HelperStore';
-	import Media from '$lib/core/Media.svelte';
+	import MainMedia from '$lib/lazymedia/MainMedia.svelte';
 
 	// let openInhalt = false;
 	let openmenu2 = false; // not defined
@@ -57,9 +57,9 @@
 		<div class="media-mobile-wrapper">
 			<div class="media-mobile" aria-hidden="true">
 				{#if $HelperStore.isTablet === true}
-					<Media source="mobileTablet" manuelMobile={true} isMobile={$HelperStore.isMobile} />
+					<MainMedia source="mobileTablet" isMobile={$HelperStore.isMobile} />
 				{:else}
-					<Media source="mobileBanner" manuelMobile={true} isMobile={$HelperStore.isMobile} />
+					<MainMedia source="mobileBanner" isMobile={$HelperStore.isMobile} />
 				{/if}
 			</div>
 		</div>
