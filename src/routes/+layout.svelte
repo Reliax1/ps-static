@@ -161,12 +161,12 @@
 	const EzoicCallback = () => {
 		console.log('EzoicCallback');
 		window.ezstandalone = window.ezstandalone || {};
-		window.ezstandalone.cmd = ezstandalone.cmd || [];
-		window.ezstandalone.cmd.push(function () {
-			window.ezstandalone.enableConsent();
-			window.ezstandalone.define(105, 103, 106, 104, 107);
-			window.ezstandalone.enable();
-			window.ezstandalone.display();
+		ezstandalone.cmd = ezstandalone.cmd || [];
+		ezstandalone.cmd.push(function () {
+			ezstandalone.enableConsent();
+			ezstandalone.define(105, 103, 106, 104, 107);
+			ezstandalone.enable();
+			ezstandalone.display();
 		});
 	};
 

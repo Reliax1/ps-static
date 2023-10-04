@@ -237,6 +237,21 @@
 		Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck ein.
 	</p>
 
+	<h2>6. EZOIC</h2>
+	<p>
+		Diese Website nutzt die Dienste von Ezoic Inc. („Ezoic“). Die Datenschutzrichtlinie von Ezoic
+		finden Sie <a href="https://www.ezoic.com/privacy-policy/">hier</a>. Ezoic kann auf dieser
+		Website verschiedene Technologien einsetzen, einschließlich der Anzeige von Werbung und der
+		Ermöglichung von Werbung für Besucher dieser Website. Weitere Informationen zu den Werbepartnern
+		von Ezoic finden Sie <a href="https://www.ezoic.com/privacy-policy/ad-partners/">hier</a> auf der
+		Werbepartnerseite von Ezoic.
+	</p>
+	<p>
+		<a href="http://g.ezoic.net/privacy/perfekterspruch.de/annualRequestSummary"
+			>http://g.ezoic.net/privacy/perfekterspruch.de/annualRequestSummary</a
+		>
+	</p>
+
 	<h2>6. Kontakt</h2>
 	<h3>Initiativ-Kontaktaufnahme des Kunden per E-Mail</h3>
 	<p>
