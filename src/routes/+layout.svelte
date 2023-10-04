@@ -129,7 +129,7 @@
 			function () {
 				if (Cookiebot.consent.marketing) {
 					initEzoic();
-					$HelperStore.marketing_consent = true
+					$HelperStore.marketing_consent = true;
 				}
 				if (Cookiebot.consent.statistics) {
 					GoogleInit();
@@ -162,6 +162,7 @@
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
+			ezstandalone.enableConsent();
 			ezstandalone.define(105, 103, 106, 104, 107);
 			ezstandalone.enable();
 			ezstandalone.display();
