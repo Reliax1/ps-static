@@ -173,6 +173,7 @@
 	};
 
 	function CookiebotCallback_OnAccept() {
+		console.log('CookiebotCallback_OnAccept');
 		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
 			//jede der Zustimmungsoptionen der Benutzer festlegen
 			window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
