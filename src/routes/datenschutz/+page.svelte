@@ -23,12 +23,17 @@
 		// initCockie();
 		console.log(window);
 
-		window.addEventListener('CookiebotOnAccept', function (e) {
-      if (Cookiebot.consent.marketing)
-          {
-          console.log('WORKING', e)
-          }
-      }, false);
+		window.addEventListener(
+			'CookiebotOnAccept',
+			function (e) {
+				if (Cookiebot.consent.marketing) {
+					console.log('Cookiebot.consent', Cookiebot.consent);
+					console.log('Cookiebot', Cookiebot);
+					console.log('WORKING', e);
+				}
+			},
+			false
+		);
 	});
 </script>
 
