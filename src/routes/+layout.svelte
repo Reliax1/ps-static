@@ -18,6 +18,7 @@
 	const mainProperty = 'G-7PT3JH3660';
 
 	async function GoogleInit() {
+		console.log('check!!');
 		await loader(
 			[
 				{
@@ -166,14 +167,14 @@
 		window.addEventListener(
 			'CookiebotOnAccept',
 			function () {
+				console.log('Cookiebot.consent', Cookiebot.consent);
+				console.log('Cookiebot', Cookiebot);
+				console.log('WORKING', e);
 				if (Cookiebot.consent.marketing) {
 					initBanner();
 				}
 				if (Cookiebot.consent.statistics) {
 					GoogleInit();
-					// console.log('Cookiebot.consent', Cookiebot.consent);
-					// console.log('Cookiebot', Cookiebot);
-					// console.log('WORKING', e);
 				}
 			},
 			false
