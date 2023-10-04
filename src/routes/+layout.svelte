@@ -87,28 +87,28 @@
 		}
 	}
 
-	const handleConsent = () => {
-		window.googlefc = window.googlefc || {};
-		window.googlefc.ccpa = window.googlefc.ccpa || {};
-		window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
-		// wait for consent
-		googlefc.callbackQueue.push({
-			CONSENT_DATA_READY: () => {
-				window.__tcfapi('getTCData', 2.0, (data, success) => {
-					const consent = data.purpose.consents['1'];
+	// const handleConsent = () => {
+	// 	window.googlefc = window.googlefc || {};
+	// 	window.googlefc.ccpa = window.googlefc.ccpa || {};
+	// 	window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+	// 	// wait for consent
+	// 	googlefc.callbackQueue.push({
+	// 		CONSENT_DATA_READY: () => {
+	// 			window.__tcfapi('getTCData', 2.0, (data, success) => {
+	// 				const consent = data.purpose.consents['1'];
 
-					if (consent === true) {
-						gtag('consent', 'update', {
-							ad_storage: 'granted',
-							analytics_storage: 'granted'
-						});
-					} else {
-						deleteAllCookies();
-					}
-				});
-			}
-		});
-	};
+	// 				if (consent === true) {
+	// 					gtag('consent', 'update', {
+	// 						ad_storage: 'granted',
+	// 						analytics_storage: 'granted'
+	// 					});
+	// 				} else {
+	// 					deleteAllCookies();
+	// 				}
+	// 			});
+	// 		}
+	// 	});
+	// };
 
 	const GoogleInit = async () => {
 		return new Promise(function (resolve, reject) {
@@ -181,30 +181,6 @@
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
 	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
-
-	<!-- <script
-		async
-		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
-		crossorigin="anonymous"></script> -->
-
-	<!-- Google tag (gtag.js) -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('consent', 'default', {
-			ad_storage: 'denied',
-			analytics_storage: 'denied'
-		});
-
-		gtag('js', new Date());
-
-		gtag('config', 'G-7PT3JH3660');
-	</script> -->
-
-	<!-- <GoogleAnalytics bind:this={ga} properties={['G-7PT3JH3660']} enabled={false} /> -->
 </svelte:head>
 
 <div class="desktop-wrapper">
@@ -217,12 +193,9 @@
 
 <main>
 	<slot />
-	<!-- <div class="the-footer"> -->
-	<TheFooter />
-	<!-- </div> -->
-</main>
 
-<!-- <ConsentBanner /> -->
+	<TheFooter />
+</main>
 
 <div class="mobile-wrapper">
 	<MobileNav />
@@ -244,24 +217,6 @@
 	}
 	.mobile-wrapper {
 		display: none;
-	}
-
-	// button {
-	// 	position: absolute;
-	// 	top: 0;
-	// 	left: 0;
-	// 	width: 5vw;
-	// 	height: 5vw;
-	// 	background-color: grey;
-	// 	padding: 2vw;
-	// 	z-index: 999;
-	// }
-
-	.the-footer {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
 	}
 
 	@media (max-width: 1024px) {
