@@ -228,7 +228,7 @@
 		src="https://consent.cookiebot.com/uc.js"
 		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
 		data-blockingmode="auto"
-		data-framework="IAB"
+		data-framework="TCFv2.0"
 		type="text/javascript"></script>
 </svelte:head>
 
