@@ -169,7 +169,6 @@
 			function () {
 				console.log('Cookiebot.consent', Cookiebot.consent);
 				console.log('Cookiebot', Cookiebot);
-				console.log('WORKING', e);
 				if (Cookiebot.consent.marketing) {
 					initBanner();
 				}
