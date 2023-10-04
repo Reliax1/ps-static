@@ -173,28 +173,29 @@
 	};
 
 	function CookiebotCallback_OnAccept() {
-		// if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
-		//jede der Zustimmungsoptionen der Benutzer festlegen
-		window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
-		window.ezConsentCategories.statistics = Cookiebot.consent.statistics;
-		window.ezConsentCategories.marketing = Cookiebot.consent.marketing;
+		console.log(window)
+		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
+			//jede der Zustimmungsoptionen der Benutzer festlegen
+			window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
+			window.ezConsentCategories.statistics = Cookiebot.consent.statistics;
+			window.ezConsentCategories.marketing = Cookiebot.consent.marketing;
 
-		//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
-		__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
-		console.log('window.ezConsentCategories.marketing', window.ezConsentCategories.marketing);
-		// }
+			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
+			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+			console.log('window.ezConsentCategories.marketing', window.ezConsentCategories.marketing);
+		}
 	}
 
 	function CookiebotCallback_OnDecline() {
-		// if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
-		//jede der Zustimmungsoptionen der Benutzer festlegen
-		window.ezConsentCategories.preferences = false;
-		window.ezConsentCategories.statistics = false;
-		window.ezConsentCategories.marketing = false;
+		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
+			//jede der Zustimmungsoptionen der Benutzer festlegen
+			window.ezConsentCategories.preferences = false;
+			window.ezConsentCategories.statistics = false;
+			window.ezConsentCategories.marketing = false;
 
-		//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
-		__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
-		// }
+			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
+			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+		}
 	}
 
 	onMount(async () => {
