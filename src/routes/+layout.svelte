@@ -173,7 +173,6 @@
 	};
 
 	function CookiebotCallback_OnAccept() {
-		console.log('CookiebotCallback_OnAccept', Cookiebot.consent.marketing);
 		if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
 			//jede der Zustimmungsoptionen der Benutzer festlegen
 			window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
@@ -182,6 +181,7 @@
 
 			//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
 			__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
+			console.log('window.ezConsentCategories.marketing', window.ezConsentCategories.marketing);
 		}
 	}
 
