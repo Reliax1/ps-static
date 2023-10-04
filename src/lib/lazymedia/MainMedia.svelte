@@ -17,12 +17,12 @@
 
 		// dynamic
 		if (typeof ezstandalone != undefined) {
-			console.log('check');
+			console.log('check!!!!!!');
 			// if (dev === false && $HelperStore.marketing_consent === true) {
 			// window.ezstandalone.refresh();
-			window.ezstandalone.cmd.push(function () {
+			ezstandalone.cmd.push(function () {
 				// call new placeholders
-				window.ezstandalone.displayMore(105, 104, 107);
+				ezstandalone.displayMore(105, 104, 107);
 			});
 			// }
 		}
