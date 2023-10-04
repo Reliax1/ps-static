@@ -6,6 +6,7 @@
 	export let isMobile;
 	export let source;
 
+	// 105 zahlen in component mitgeben, initial componants nicht displaymore
 	const EzoicCallback = () => {
 		// window.ezstandalone = window.ezstandalone || {};
 		// ezstandalone.cmd = ezstandalone.cmd || [];
@@ -20,7 +21,7 @@
 			console.log('check!!!!!!');
 			// if (dev === false && $HelperStore.marketing_consent === true) {
 			// window.ezstandalone.refresh();
-			ezstandalone.cmd.push(function () {
+			window.ezstandalone.cmd.push(function () {
 				// call new placeholders
 				ezstandalone.displayMore(105, 104, 107);
 			});
