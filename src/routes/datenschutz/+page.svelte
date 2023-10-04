@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import HelperStore from '../../../src/stores/HelperStore';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
@@ -6,12 +7,34 @@
 		// $HelperStore.openconsent = true;
 		window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
 	};
+
+	const initCockie = async () => {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src = 'https://consent.cookiebot.com/958b264b-d084-439a-a2f7-505f79d53549/cd.js';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		});
+	};
+
+	onMount(async () => {
+		initCockie();
+	});
 </script>
 
 <svelte:head>
 	<title>Datenschutz</title>
 	<link rel="canonical" href="https://perfekterspruch.de/datenschutz/" />
 	<meta name="robots" content="noindex" />
+
+	<!-- <script
+		id="Cookiebot"
+		src="https://consent.cookiebot.com/uc.js"
+		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
+		data-blockingmode="auto"
+		type="text/javascript"></script> -->
 </svelte:head>
 
 <div class="finger-wrapper">
