@@ -4,6 +4,7 @@
 	const openCosent = () => {
 		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
 		// window.Cookiebot.show();
+		console.log('window.ezCMP', window.ezCMP);
 		window.ezCMP.generateCMPFromPrivacyCenter();
 	};
 </script>
