@@ -1,12 +1,15 @@
 <script>
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
-	// const openCosent = () => {
-	// 	// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
-	// 	// window.Cookiebot.show();
-	// 	console.log('window.ezCMP', window.ezCMP);
-	// 	window.ezCMP.generateCMPFromPrivacyCenter();
-	// };
+	const openCosent = () => {
+		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
+		// window.Cookiebot.show();
+
+		// console.log('window.ezCMP', window.ezCMP);
+		// window.ezCMP.generateCMPFromPrivacyCenter();
+
+		window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
+	};
 </script>
 
 <svelte:head>
@@ -16,14 +19,14 @@
 </svelte:head>
 
 <div class="finger-wrapper">
-	<a class="finger-button" href="https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1">
+	<!-- <a class="finger-button" href="https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1">
 		<img class="finger-image" src="/svg/fingerprint.svg" alt="fingerprint" />
 		<span>Consent Einstellungen</span>
-	</a>
-	<!-- <button on:click={openCosent} class="finger-button">
+	</a> -->
+	<button on:click={openCosent} class="finger-button">
 		<img class="finger-image" src="/svg/fingerprint.svg" alt="fingerprint" />
 		<span>Consent Einstellungen</span>
-	</button> -->
+	</button>
 </div>
 
 <Datenschutz />
