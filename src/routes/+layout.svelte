@@ -212,7 +212,7 @@
 
 	onMount(async () => {
 		// initCockie();
-		cockieEvent();
+		// cockieEvent();
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
@@ -234,13 +234,14 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<script
+	<!-- <script
 		id="Cookiebot"
 		src="https://consent.cookiebot.com/uc.js"
 		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
 		data-blockingmode="auto"
 		data-framework="IAB"
-		type="text/javascript"></script>
+		type="text/javascript"></script> -->
+	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
 </svelte:head>
 
 <div class="desktop-wrapper">

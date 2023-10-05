@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 	import { fly } from 'svelte/transition';
 	import HelperStore from '../../stores/HelperStore';
-	import Component from '$lib/lazymedia/Component.svelte';
+	import Mainmedia from '$lib/lazymedia/Mainmedia.svelte';
 
 	// let openInhalt = false;
 	let openmenu2 = false; // not defined
@@ -56,9 +56,9 @@
 	{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
 		<div class="media-mobile-wrapper">
 			{#if $HelperStore.isTablet === true}
-				<Component start={true} source="mobileTablet" isMobile={$HelperStore.isMobile} />
+				<Mainmedia start={true} source="mobileTablet" isMobile={$HelperStore.isMobile} />
 			{:else}
-				<Component start={true} source="mobileBanner" isMobile={$HelperStore.isMobile} />
+				<Mainmedia start={true} source="mobileBanner" isMobile={$HelperStore.isMobile} />
 			{/if}
 		</div>
 	{/if}
