@@ -1,21 +1,13 @@
 <script>
 	import { onMount } from 'svelte';
-	import { dev } from '$app/environment';
-	import HelperStore from '../../../src/stores/HelperStore';
+	// import { dev } from '$app/environment';
+	import HelperStore from '../../stores/HelperStore';
 
 	export let isMobile;
 	export let source;
 	export let start;
 
-	// 105 zahlen in component mitgeben, initial componants nicht displaymore
 	const EzoicCallback = () => {
-		// window.ezstandalone = window.ezstandalone || {};
-		// ezstandalone.cmd = ezstandalone.cmd || [];
-		// ezstandalone.cmd.push(function () {
-		// 	ezstandalone.define(102, 103, 104);
-		// 	ezstandalone.enable();
-		// 	ezstandalone.display();
-		// });
 		let getMore = null;
 
 		if ($HelperStore.isMobile === true && $HelperStore.isTablet === false) {
@@ -27,35 +19,16 @@
 		}
 
 		// dynamic
-		// if (typeof ezstandalone != undefined) {
 		console.log('ezstandalone', window.ezstandalone);
 		console.log('getMore', getMore);
-		// if (dev === false && $HelperStore.marketing_consent === true) {
-		// window.ezstandalone.refresh();
+
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
 			// call new placeholders
-			ezstandalone.refresh();
+			ezstandalone.displayMore(getMore);
+			// ezstandalone.refresh();
 		});
-		// }
-		// }
-
-		// ezstandalone.cmd.push(function () {
-		// 	// call new placeholders
-		// 	ezstandalone.displayMore(104, 105);
-		// });
-
-		// ezstandalone.cmd.push(function () {
-		// 	// define new placeholders and call refresh
-		// 	ezstandalone.define(104, 105, 106);
-		// 	ezstandalone.refresh();
-		// });
-
-		// destroy all
-		// window.ezstandalone.cmd.push(function () {
-		// 	ezstandalone.destroyAll();
-		// });
 	};
 
 	onMount(() => {

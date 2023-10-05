@@ -8,7 +8,7 @@
 	// import YellowImage from '$lib/core/YellowImage.svelte';
 	// import Media from '$lib/core/Media.svelte';
 	import Lazy from '$lib/lazymedia/Lazy.svelte';
-	import MainMedia from '$lib/lazymedia/MainMedia.svelte';
+	import Component from '$lib/lazymedia/Component.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
@@ -94,33 +94,27 @@
 
 					{#if index === 0}
 						<div class="sprueche-card-mobile">
-							<MainMedia start={true} source="mobile-inline" isMobile={data.isMobile} />
-						</div>
-					{/if}
-
-					{#if index === 2}
-						<div class="sprueche-card-mobile">
-							<MainMedia start={true} source="mobile-inline" isMobile={data.isMobile} />
+							<Component start={true} source="mobile-inline" isMobile={data.isMobile} />
 						</div>
 					{/if}
 
 					{#if data.isMobile}
 						<!-- {#if data.isTablet === false && index === 0}
-							<MainMedia start={false} source="normal" isMobile={data.isMobile} />
+							<Component start={false} source="normal" isMobile={data.isMobile} />
 						{/if} -->
 
 						{#if data.isTablet}
 							{#if index === 3 || index === 7 || index === 11 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
-								<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+								<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 									<svelte:fragment slot="component" let:Component>
-										<MainMedia start={false} source="tablet" isMobile={data.isMobile} />
+										<Component start={false} source="tablet" isMobile={data.isMobile} />
 									</svelte:fragment>
 								</Lazy>
 							{/if}
-						{:else if index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						{:else if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
+							<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia start={false} source="mobile-inline" isMobile={data.isMobile} />
+									<Component start={false} source="mobile-inline" isMobile={data.isMobile} />
 								</svelte:fragment>
 							</Lazy>
 						{/if}
@@ -139,63 +133,63 @@
 					{/if}
 
 					{#if data.isMobile === false && index === 5}
-						<MainMedia start={true} source="desktopInline" isMobile={data.isMobile} />
+						<Component start={true} source="desktopInline" isMobile={data.isMobile} />
 					{/if}
 
 					<!-- {#if data.isMobile === false && index === 5}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if} -->
 
 					{#if data.isMobile === false && index === 11}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 17}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 23}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 29}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 35}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 41}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 47}
-						<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
-								<MainMedia start={false} source="desktopInline" isMobile={data.isMobile} />
+								<Component start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
@@ -211,7 +205,7 @@
 			</div>
 
 			{#if data.isMobile === false}
-				<MainMedia start={true} source="desktopsticky" isMobile={data.isMobile} />
+				<Component start={true} source="desktopsticky" isMobile={data.isMobile} />
 			{/if}
 		</div>
 
