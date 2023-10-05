@@ -244,18 +244,18 @@
 		type="text/javascript"></script> -->
 	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
 
-	<!-- <script>
+	<script>
 		function EzConsentCallback(consent) {
-			console.log('TEST');
+			console.log('TEST', consent);
 			// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
-			if (consent.marketing) {
-				initEzoic();
-			}
-			if (consent.statistics) {
-				GoogleInit();
-			}
+			// if (consent.marketing) {
+			// 	initEzoic();
+			// }
+			// if (consent.statistics) {
+			// 	GoogleInit();
+			// }
 		}
-	</script> -->
+	</script>
 </svelte:head>
 
 <div class="desktop-wrapper">
