@@ -34,7 +34,7 @@
 		// window.ezstandalone.refresh();
 		window.ezstandalone.cmd.push(function () {
 			// call new placeholders
-			window.ezstandalone.displayMore(getMore);
+			ezstandalone.displayMore(getMore);
 		});
 		// }
 		// }
