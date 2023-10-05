@@ -210,7 +210,30 @@
 	// 	}
 	// }
 
+	async function ezoicCMP() {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src = 'https://the.gatekeeperconsent.com/cmp.min.js';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		}).then(EzConsentCallback);
+	}
+
+	function EzConsentCallback(consent) {
+		console.log('TEST', consent);
+		// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
+		// if (consent.marketing) {
+		// 	initEzoic();
+		// }
+		// if (consent.statistics) {
+		// 	GoogleInit();
+		// }
+	}
+
 	onMount(async () => {
+		ezoicCMP();
 		// initCockie();
 		// cockieEvent();
 		console.log('window', window);
@@ -242,7 +265,8 @@
 		data-blockingmode="auto"
 		data-framework="IAB"
 		type="text/javascript"></script> -->
-	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+
+	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
 
 	<script>
 		function EzConsentCallback(consent) {
@@ -255,7 +279,7 @@
 			// 	GoogleInit();
 			// }
 		}
-	</script>
+	</script> -->
 </svelte:head>
 
 <div class="desktop-wrapper">
