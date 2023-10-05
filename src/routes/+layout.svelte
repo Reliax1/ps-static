@@ -221,8 +221,15 @@
 		}).then(EzConsentCallback);
 	}
 
-	function EzConsentCallback(consent) {
-		console.log('TEST', consent);
+	function EzConsentCallback() {
+		window.addEventListener(
+			'EzConsentCallback',
+			function (e) {
+				console.log('EVENT', e);
+			},
+			false
+		);
+		// console.log('TEST', consent);
 		// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
 		// if (consent.marketing) {
 		// 	initEzoic();
