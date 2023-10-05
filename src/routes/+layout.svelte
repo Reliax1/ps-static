@@ -122,7 +122,7 @@
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
-		}).then(cockieEvent);
+		}).then(initEzoic);
 	};
 
 	const cockieEvent = () => {
@@ -240,10 +240,9 @@
 	}
 
 	onMount(async () => {
-		// ezoicCMP();
+		ezoicCMP();
 
-		initCockie();
-		// cockieEvent();
+		// initCockie();
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
