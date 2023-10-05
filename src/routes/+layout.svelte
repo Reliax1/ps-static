@@ -240,10 +240,10 @@
 	}
 
 	onMount(async () => {
-		ezoicCMP();
-		// initCockie();
+		// ezoicCMP();
+
+		initCockie();
 		// cockieEvent();
-		console.log('window', window);
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
