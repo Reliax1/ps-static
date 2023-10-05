@@ -177,7 +177,7 @@
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
-			// ezstandalone.enableConsent();
+			ezstandalone.enableConsent();
 			ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 			ezstandalone.enable();
 			ezstandalone.display();
