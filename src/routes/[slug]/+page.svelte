@@ -106,14 +106,14 @@
 						{#if data.isTablet}
 							{#if index === 3 || index === 7 || index === 11 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
 								<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-									<svelte:fragment slot="component" let:Mainmedia>
+									<svelte:fragment slot="component" let:Component>
 										<Mainmedia start={false} source="tablet" isMobile={data.isMobile} />
 									</svelte:fragment>
 								</Lazy>
 							{/if}
 						{:else if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
 							<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-								<svelte:fragment slot="component" let:Mainmedia>
+								<svelte:fragment slot="component" let:Component>
 									<Mainmedia start={false} source="mobile-inline" isMobile={data.isMobile} />
 								</svelte:fragment>
 							</Lazy>
@@ -138,7 +138,7 @@
 
 					<!-- {#if data.isMobile === false && index === 5}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
@@ -146,49 +146,49 @@
 
 					{#if data.isMobile === false && index === 11}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 17}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 23}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 29}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 35}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 41}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
 					{#if data.isMobile === false && index === 47}
 						<Lazy this={() => import('../../lib/lazymedia/Mainmedia.svelte')}>
-							<svelte:fragment slot="component" let:Mainmedia>
+							<svelte:fragment slot="component" let:Component>
 								<Mainmedia start={false} source="desktopInline" isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
