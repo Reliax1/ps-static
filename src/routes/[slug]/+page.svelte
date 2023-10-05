@@ -98,6 +98,12 @@
 						</div>
 					{/if}
 
+					{#if index === 2}
+						<div class="sprueche-card-mobile">
+							<MainMedia start={true} source="mobile-inline" isMobile={data.isMobile} />
+						</div>
+					{/if}
+
 					{#if data.isMobile}
 						<!-- {#if data.isTablet === false && index === 0}
 							<MainMedia start={false} source="normal" isMobile={data.isMobile} />
@@ -111,7 +117,7 @@
 									</svelte:fragment>
 								</Lazy>
 							{/if}
-						{:else if index === 2 || index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
+						{:else if index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
 							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
 									<MainMedia start={false} source="mobile-inline" isMobile={data.isMobile} />

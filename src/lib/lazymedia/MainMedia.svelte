@@ -169,7 +169,7 @@
 	}
 
 	.media-mobile {
-		width: 320px;
+		width: 100%;
 		height: 50px;
 		display: flex;
 		justify-content: center;
@@ -238,7 +238,7 @@
 		}
 
 		.media-mobile {
-			width: 450px;
+			width: 100%;
 			height: 60px;
 		}
 	}
