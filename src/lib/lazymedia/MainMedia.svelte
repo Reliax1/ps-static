@@ -36,7 +36,7 @@
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
 			// call new placeholders
-			ezstandalone.displayMore(getMore);
+			ezstandalone.refresh();
 		});
 		// }
 		// }
