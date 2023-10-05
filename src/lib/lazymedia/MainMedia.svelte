@@ -5,6 +5,7 @@
 
 	export let isMobile;
 	export let source;
+	export let start;
 
 	// 105 zahlen in component mitgeben, initial componants nicht displaymore
 	const EzoicCallback = () => {
@@ -15,6 +16,15 @@
 		// 	ezstandalone.enable();
 		// 	ezstandalone.display();
 		// });
+		let getMore = null;
+
+		if ($HelperStore.isMobile === true && $HelperStore.isTablet === false) {
+			getMore = $HelperStore.placeholder.mobile_inline;
+		} else if ($HelperStore.isMobile === false) {
+			getMore = $HelperStore.placeholder.desktopInline;
+		} else if ($HelperStore.isMobile === true && $HelperStore.isTablet === true) {
+			getMore = $HelperStore.placeholder.tablet;
+		}
 
 		// dynamic
 		if (typeof ezstandalone != undefined) {
@@ -23,7 +33,7 @@
 			// window.ezstandalone.refresh();
 			window.ezstandalone.cmd.push(function () {
 				// call new placeholders
-				ezstandalone.displayMore(105, 104, 107);
+				ezstandalone.displayMore(getMore);
 			});
 			// }
 		}
@@ -46,43 +56,42 @@
 	};
 
 	onMount(() => {
-		// if (isMobile === manuelMobile) {
-		// 	EzoicCallback();
-		// }
-		EzoicCallback();
+		if (start === false) {
+			EzoicCallback();
+		}
 	});
 </script>
 
 {#if source === 'mobile-inline' && isMobile === true}
 	<div class="yellow-wrapper-mobile">
 		<!-- Ezoic - incontent_6 - incontent_6 -->
-		<div id="ezoic-pub-ad-placeholder-105" />
+		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.mobile_inline}" />
 		<!-- End Ezoic - incontent_6 - incontent_6 -->
 	</div>
 {:else if source === 'desktopsticky' && isMobile === false}
 	<div class="yellow-wrapper-desktop">
 		<div class="anz-desktop">
 			<!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
-			<div id="ezoic-pub-ad-placeholder-103" />
+			<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.desktopsticky}" />
 			<!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
 		</div>
 	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
 	<div class="media-mobile">
 		<!-- Ezoic - mobile_fixed - sidebar_middle -->
-		<div id="ezoic-pub-ad-placeholder-106" />
+		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.mobileBanner}" />
 		<!-- End Ezoic - mobile_fixed - sidebar_middle -->
 	</div>
 {:else if source === 'desktopInline' && isMobile === false}
 	<div class="desktop-inline-wrapper">
 		<!-- Ezoic - incontent_5 - incontent_5 -->
-		<div id="ezoic-pub-ad-placeholder-104" />
+		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.desktopInline}" />
 		<!-- End Ezoic - incontent_5 - incontent_5 -->
 	</div>
 {:else if source === 'tablet' && isMobile === true}
 	<div class="tablet-inline-wrapper">
 		<!-- Ezoic - incontent_7 - incontent_7 -->
-		<div id="ezoic-pub-ad-placeholder-107" />
+		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.tablet}" />
 		<!-- End Ezoic - incontent_7 - incontent_7 -->
 	</div>
 {/if}

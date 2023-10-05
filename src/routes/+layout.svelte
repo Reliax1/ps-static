@@ -163,12 +163,22 @@
 	}
 
 	const EzoicCallback = () => {
-		console.log('EzoicCallback');
+		if (data.isMobile === true && data.isTablet === false) {
+			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
+			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
+		} else if (data.isMobile === false) {
+			$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
+			$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
+		} else if (data.isMobile === true && data.isTablet === true) {
+			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobileBanner;
+			$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
+		}
+
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
 			ezstandalone.enableConsent();
-			ezstandalone.define(105, 103, 106, 104, 107);
+			ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 			ezstandalone.enable();
 			ezstandalone.display();
 		});
@@ -201,7 +211,7 @@
 	// }
 
 	onMount(async () => {
-		initCockie();
+		// initCockie();
 		cockieEvent();
 
 		$HelperStore.isMobile = data.isMobile;
@@ -224,13 +234,13 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<!-- <script
+	<script
 		id="Cookiebot"
 		src="https://consent.cookiebot.com/uc.js"
 		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
 		data-blockingmode="auto"
 		data-framework="IAB"
-		type="text/javascript"></script> -->
+		type="text/javascript"></script>
 </svelte:head>
 
 <div class="desktop-wrapper">
