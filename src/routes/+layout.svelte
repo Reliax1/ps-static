@@ -218,7 +218,7 @@
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
-		}).then(EzConsentCallback);
+		}).then(initEzoic);
 	}
 
 	function EzConsentCallback() {
