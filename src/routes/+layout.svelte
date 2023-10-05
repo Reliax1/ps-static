@@ -240,7 +240,7 @@
 	}
 
 	onMount(async () => {
-		// ezoicCMP();
+		ezoicCMP();
 
 		// initCockie();
 
@@ -272,7 +272,7 @@
 		data-framework="IAB"
 		type="text/javascript"></script> -->
 
-	<script>
+	<!-- <script>
 		function EzConsentCallback(consent) {
 			console.log('TEST', consent);
 			// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
@@ -283,11 +283,9 @@
 			// 	GoogleInit();
 			// }
 		}
-	</script>
+	</script> -->
 
-	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
-
-	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<!-- <script type="text/javascript">
 		(function () {
