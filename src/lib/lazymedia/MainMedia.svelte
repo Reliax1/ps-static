@@ -32,7 +32,9 @@
 		console.log('getMore', getMore);
 		// if (dev === false && $HelperStore.marketing_consent === true) {
 		// window.ezstandalone.refresh();
-		window.ezstandalone.cmd.push(function () {
+		window.ezstandalone = window.ezstandalone || {};
+		ezstandalone.cmd = ezstandalone.cmd || [];
+		ezstandalone.cmd.push(function () {
 			// call new placeholders
 			ezstandalone.displayMore(getMore);
 		});
