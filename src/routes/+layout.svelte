@@ -213,6 +213,7 @@
 	onMount(async () => {
 		// initCockie();
 		// cockieEvent();
+		console.log('window', window);
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
@@ -245,6 +246,7 @@
 
 	<script>
 		function EzConsentCallback(consent) {
+			console.log('TEST');
 			// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
 			if (consent.marketing) {
 				initEzoic();
