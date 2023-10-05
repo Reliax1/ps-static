@@ -290,6 +290,7 @@
 
 	<script type="text/javascript">
 		(function () {
+			console.log('check1');
 			if (typeof EzConsentCallback === 'function') {
 				var c = a('ezCMPCookieConsent');
 				var g = { necessary: 0, preferences: 0, statistics: 0, marketing: 0 };
@@ -319,6 +320,7 @@
 				}
 				EzConsentCallback(g);
 				function a(k) {
+					console.log('check2');
 					var j = k + '=';
 					var m = decodeURIComponent(document.cookie);
 					var h = m.split(';');
