@@ -27,16 +27,17 @@
 		}
 
 		// dynamic
-		if (typeof ezstandalone != undefined) {
-			console.log('check!!!!!!');
-			// if (dev === false && $HelperStore.marketing_consent === true) {
-			// window.ezstandalone.refresh();
-			window.ezstandalone.cmd.push(function () {
-				// call new placeholders
-				ezstandalone.displayMore(getMore);
-			});
-			// }
-		}
+		// if (typeof ezstandalone != undefined) {
+		console.log('ezstandalone', window.ezstandalone);
+		console.log('getMore', getMore);
+		// if (dev === false && $HelperStore.marketing_consent === true) {
+		// window.ezstandalone.refresh();
+		window.ezstandalone.cmd.push(function () {
+			// call new placeholders
+			window.ezstandalone.displayMore(getMore);
+		});
+		// }
+		// }
 
 		// ezstandalone.cmd.push(function () {
 		// 	// call new placeholders
