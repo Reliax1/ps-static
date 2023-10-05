@@ -244,7 +244,7 @@
 		type="text/javascript"></script> -->
 	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
 
-	<script>
+	<!-- <script>
 		function EzConsentCallback(consent) {
 			console.log('TEST');
 			// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
@@ -255,7 +255,7 @@
 				GoogleInit();
 			}
 		}
-	</script>
+	</script> -->
 </svelte:head>
 
 <div class="desktop-wrapper">
