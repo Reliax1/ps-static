@@ -6,9 +6,9 @@
 		// window.Cookiebot.show();
 
 		// console.log('window.ezCMP', window.ezCMP);
-		// window.ezCMP.generateCMPFromPrivacyCenter();
+		window.ezCMP.generateCMPFromPrivacyCenter();
 
-		window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
+		// window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
 	};
 </script>
 
