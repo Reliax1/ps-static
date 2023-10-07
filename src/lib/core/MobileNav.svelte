@@ -80,7 +80,7 @@
 					class="nav-svg"
 					class:navgreen={$page.routeId == ''}
 					src="/svg/core/home.svg"
-					alt="home bild"
+					alt="home"
 				/>
 				<p class="nav1-pp">Home</p>
 			</a>

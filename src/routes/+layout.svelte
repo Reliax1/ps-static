@@ -219,7 +219,6 @@
 			s.onerror = reject;
 			document.head.appendChild(s);
 		});
-
 	}
 
 	function EzConsentCallback() {
@@ -254,8 +253,8 @@
 	};
 
 	onMount(async () => {
-		ezoicCMP();
-		localstorageEnable();
+		// ezoicCMP();
+		// localstorageEnable();
 
 		// initCockie();
 
