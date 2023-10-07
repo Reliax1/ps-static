@@ -147,7 +147,7 @@
 <div id={card.id} class="spruchcard-maindiv">
 	<div class="spruchcard-firstcard">
 		<div class="spruchcard-image-container">
-			{#if index <= 3}
+			{#if userIsMobile === true ? index <= 1 : index <= 3}
 				<picture>
 					<source
 						sizes="(max-width: 1024px) 972px, 
