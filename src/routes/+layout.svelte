@@ -242,10 +242,11 @@
 	}
 
 	const localstorageEnable = () => {
-		// 1,2,3,4,5,6,7,8,9,10&1,2+&
 		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
+			initEzoic();
+			GoogleInit();
 			console.log('enable');
-		} else {
+		} else if (localStorage['ez-consents'] != '&+&') {
 			setTimeout(() => {
 				console.log('NOT ENABLED');
 				localstorageEnable();
