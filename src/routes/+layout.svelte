@@ -253,8 +253,8 @@
 	};
 
 	onMount(async () => {
-		// ezoicCMP();
-		// localstorageEnable();
+		ezoicCMP();
+		localstorageEnable();
 
 		// initCockie();
 
