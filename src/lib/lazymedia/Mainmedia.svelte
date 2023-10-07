@@ -173,11 +173,11 @@
 		</div>
 	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
-	<div class="media-mobile">
-		<!-- Ezoic - mobile_fixed - sidebar_middle -->
-		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
-		<!-- End Ezoic - mobile_fixed - sidebar_middle -->
-	</div>
+	<!-- <div class="media-mobile"> -->
+	<!-- Ezoic - mobile_fixed - sidebar_middle -->
+	<div id="ezoic-pub-ad-placeholder-{placeholder}" />
+	<!-- End Ezoic - mobile_fixed - sidebar_middle -->
+	<!-- </div> -->
 {:else if source === 'desktopInline' && isMobile === false}
 	<div class="desktop-inline-wrapper">
 		<!-- Ezoic - incontent_5 - incontent_5 -->
