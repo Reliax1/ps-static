@@ -9,11 +9,11 @@ const HelperStore = writable({
 	mobileMenuDown: false,
 	marketing_consent: false,
 	placeholder: {
-		mobile_inline: 105,
+		mobile_inline: 130,
 		desktopsticky: 103,
 		mobileBanner: 106,
-		desktopInline: 104,
-		tablet: 107,
+		desktopInline: 131,
+		tablet: 141,
 		define1: null,
 		define2: null
 	}

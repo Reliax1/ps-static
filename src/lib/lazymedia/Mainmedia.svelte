@@ -7,32 +7,152 @@
 	export let source;
 	export let start;
 
-	const EzoicCallback = () => {
-		let getMore = null;
+	export let placeholder;
 
-		if ($HelperStore.isMobile === true && $HelperStore.isTablet === false) {
-			getMore = $HelperStore.placeholder.mobile_inline;
-		} else if ($HelperStore.isMobile === false) {
-			getMore = $HelperStore.placeholder.desktopInline;
-		} else if ($HelperStore.isMobile === true && $HelperStore.isTablet === true) {
-			getMore = $HelperStore.placeholder.tablet;
-		}
+	const EzoicCallback = () => {
+		// let getMore = null;
+
+		// if ($HelperStore.isMobile === true && $HelperStore.isTablet === false) {
+		// 	getMore = $HelperStore.placeholder.mobile_inline;
+		// } else if ($HelperStore.isMobile === false) {
+		// 	getMore = $HelperStore.placeholder.desktopInline;
+		// } else if ($HelperStore.isMobile === true && $HelperStore.isTablet === true) {
+		// 	getMore = $HelperStore.placeholder.tablet;
+		// }
 
 		// dynamic
-		console.log('ezstandalone', window.ezstandalone);
-		console.log('getMore', getMore);
-
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
 			// call new placeholders
-			ezstandalone.displayMore(getMore);
+			ezstandalone.displayMore(placeholder);
 			// ezstandalone.refresh();
 		});
 	};
 
-	onMount(() => {
+	const setId = async (placeholder_id) => {
+		const all_placeholders = [
+			{
+				index: 2,
+				placeholder: 140
+			},
+			{
+				index: 5,
+				placeholder: 111
+			},
+			{
+				index: 8,
+				placeholder: 112
+			},
+			{
+				index: 11,
+				placeholder: 113
+			},
+			{
+				index: 14,
+				placeholder: 114
+			},
+			{
+				index: 17,
+				placeholder: 115
+			},
+			{
+				index: 20,
+				placeholder: 116
+			},
+			{
+				index: 23,
+				placeholder: 117
+			},
+			{
+				index: 26,
+				placeholder: 118
+			},
+			{
+				index: 29,
+				placeholder: 119
+			},
+			{
+				index: 32,
+				placeholder: 120
+			},
+			{
+				index: 35,
+				placeholder: 121
+			},
+			{
+				index: 38,
+				placeholder: 122
+			},
+			{
+				index: 7,
+				placeholder: 123
+			},
+			{
+				index: 12,
+				placeholder: 124
+			},
+			{
+				index: 15,
+				placeholder: 125
+			},
+			{
+				index: 19,
+				placeholder: 126
+			},
+			{
+				index: 23,
+				placeholder: 127
+			},
+			{
+				index: 27,
+				placeholder: 128
+			},
+			{
+				index: 31,
+				placeholder: 129
+			},
+			{
+				index: 132,
+				placeholder: 132
+			},
+			{
+				index: 133,
+				placeholder: 133
+			},
+			{
+				index: 134,
+				placeholder: 134
+			},
+			{
+				index: 135,
+				placeholder: 135
+			},
+			{
+				index: 136,
+				placeholder: 136
+			},
+			{
+				index: 137,
+				placeholder: 137
+			},
+			{
+				index: 138,
+				placeholder: 138
+			}
+		];
+
+		for (let i = 0; i < all_placeholders.length; i++) {
+			const element = all_placeholders[i];
+			if (element.index === placeholder_id) {
+				return element.placeholder;
+			}
+		}
+	};
+
+	onMount(async () => {
 		if (start === false) {
+			placeholder = await setId(placeholder);
 			EzoicCallback();
 		}
 	});
@@ -41,33 +161,33 @@
 {#if source === 'mobile-inline' && isMobile === true}
 	<div class="yellow-wrapper-mobile">
 		<!-- Ezoic - incontent_6 - incontent_6 -->
-		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.mobile_inline}" />
+		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 		<!-- End Ezoic - incontent_6 - incontent_6 -->
 	</div>
 {:else if source === 'desktopsticky' && isMobile === false}
 	<div class="yellow-wrapper-desktop">
 		<div class="anz-desktop">
 			<!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
-			<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.desktopsticky}" />
+			<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 			<!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
 		</div>
 	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
 	<div class="media-mobile">
 		<!-- Ezoic - mobile_fixed - sidebar_middle -->
-		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.mobileBanner}" />
+		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 		<!-- End Ezoic - mobile_fixed - sidebar_middle -->
 	</div>
 {:else if source === 'desktopInline' && isMobile === false}
 	<div class="desktop-inline-wrapper">
 		<!-- Ezoic - incontent_5 - incontent_5 -->
-		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.desktopInline}" />
+		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 		<!-- End Ezoic - incontent_5 - incontent_5 -->
 	</div>
 {:else if source === 'tablet' && isMobile === true}
 	<div class="tablet-inline-wrapper">
 		<!-- Ezoic - incontent_7 - incontent_7 -->
-		<div id="ezoic-pub-ad-placeholder-{$HelperStore.placeholder.tablet}" />
+		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 		<!-- End Ezoic - incontent_7 - incontent_7 -->
 	</div>
 {/if}
