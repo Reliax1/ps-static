@@ -253,7 +253,7 @@
 	};
 
 	onMount(async () => {
-		// ezoicCMP();
+		ezoicCMP();
 		localstorageEnable();
 
 		// initCockie();
@@ -264,7 +264,7 @@
 </script>
 
 <svelte:head>
-	<script src="https://the.gatekeeperconsent.com/cmp.min.js" defer data-cfasync="false"></script>
+	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<meta property="fb:app_id" content="4683318608362940" />
 	<meta property="og:site_name" content="PerfekterSpruch" />
@@ -287,84 +287,6 @@
 		data-blockingmode="auto"
 		data-framework="IAB"
 		type="text/javascript"></script> -->
-
-	<!-- <script>
-		function EzConsentCallback(consent) {
-			console.log('TEST', consent);
-			// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
-			// if (consent.marketing) {
-			// 	initEzoic();
-			// }
-			// if (consent.statistics) {
-			// 	GoogleInit();
-			// }
-		}
-	</script> -->
-
-	<script>
-		function EzConsentCallback(consent) {
-			// Check user's consent for statistics or marketing
-			if (consent.statistics) {
-				// User has given consent for statistics, initiate Google Analytics tracking
-				console.log('Google Analytics tracking initiated');
-			} else {
-				console.log(
-					'User did not give consent for statistics, Google Analytics tracking not initiated'
-				);
-			}
-		}
-	</script>
-
-	<!-- <script type="text/javascript">
-		(function () {
-			console.log('check1');
-			if (typeof EzConsentCallback === 'function') {
-				var c = a('ezCMPCookieConsent');
-				var g = { necessary: 0, preferences: 0, statistics: 0, marketing: 0 };
-				if (c !== '') {
-					var e = c.split('|');
-					for (var d = 0; d < e.length; d++) {
-						var b = e[d].split('=');
-						if (b.length !== 2) {
-							break;
-						}
-						var f = b[1] == '1' ? true : false;
-						switch (b[0]) {
-							case '1':
-								g.necessary = f;
-								break;
-							case '2':
-								g.preferences = f;
-								break;
-							case '3':
-								g.statistics = f;
-								break;
-							case '4':
-								g.marketing = f;
-								break;
-						}
-					}
-				}
-				EzConsentCallback(g);
-				function a(k) {
-					console.log('check2');
-					var j = k + '=';
-					var m = decodeURIComponent(document.cookie);
-					var h = m.split(';');
-					for (var l = 0; l < h.length; l++) {
-						var n = h[l];
-						while (n.charAt(0) == ' ') {
-							n = n.substring(1);
-						}
-						if (n.indexOf(j) == 0) {
-							return n.substring(j.length, n.length);
-						}
-					}
-					return '';
-				}
-			}
-		})();
-	</script> -->
 </svelte:head>
 
 <div class="desktop-wrapper">

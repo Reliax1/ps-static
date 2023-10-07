@@ -158,6 +158,7 @@
 	}
 	.spruchcard-copy-svg {
 		width: 1.3vw;
+		height: 1.3vw;
 		transition: width 0.1s ease;
 		will-change: width;
 	}
@@ -252,6 +253,7 @@
 		}
 		.spruchcard-copy-svg {
 			width: 5vw;
+			height: 5vw;
 			transition: width 0.1s ease;
 			will-change: width;
 		}
@@ -298,6 +300,7 @@
 		}
 		.spruchcard-copy-svg {
 			width: 3vw;
+			height: 3vw;
 		}
 		.ws-loop {
 			// min-height: 5vw;
