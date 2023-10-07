@@ -210,18 +210,18 @@
 	// 	}
 	// }
 
-	async function ezoicCMP() {
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src = 'https://the.gatekeeperconsent.com/cmp.min.js';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		});
-		// .then(initEzoic)
-		// .then(GoogleInit);
-	}
+	// async function ezoicCMP() {
+	// 	return new Promise(function (resolve, reject) {
+	// 		let s;
+	// 		s = document.createElement('script');
+	// 		s.src = 'https://the.gatekeeperconsent.com/cmp.min.js';
+	// 		s.onload = resolve;
+	// 		s.onerror = reject;
+	// 		document.head.appendChild(s);
+	// 	});
+	// 	// .then(initEzoic)
+	// 	// .then(GoogleInit);
+	// }
 
 	function EzConsentCallback() {
 		window.addEventListener(
@@ -266,6 +266,8 @@
 </script>
 
 <svelte:head>
+	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+
 	<meta property="fb:app_id" content="4683318608362940" />
 	<meta property="og:site_name" content="PerfekterSpruch" />
 	<meta property="og:type" content="website" />
@@ -314,8 +316,6 @@
 			}
 		}
 	</script>
-
-	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<!-- <script type="text/javascript">
 		(function () {
