@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
-	function deleteAllCookies() {
+	const deleteAllCookies = async () => {
 		document.cookie.split(';').forEach(function (c) {
 			document.cookie = c
 				.replace(/^ +/, '')
@@ -28,7 +28,7 @@
 				d.shift();
 			}
 		}
-	}
+	};
 
 	const openCosent = () => {
 		// window.googlefc.callbackQueue.push(googlefc.showRevocationMessage);
@@ -41,8 +41,8 @@
 		window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
 	};
 
-	onMount(() => {
-		deleteAllCookies();
+	onMount(async () => {
+		await deleteAllCookies();
 	});
 </script>
 
