@@ -218,9 +218,9 @@
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
-		})
-			.then(initEzoic)
-			.then(GoogleInit);
+		});
+		// .then(initEzoic)
+		// .then(GoogleInit);
 	}
 
 	function EzConsentCallback() {
@@ -242,9 +242,9 @@
 	}
 
 	onMount(async () => {
-		// ezoicCMP();
+		ezoicCMP();
 
-		initCockie();
+		// initCockie();
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
