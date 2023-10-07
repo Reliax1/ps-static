@@ -275,7 +275,7 @@
 			</div>
 
 			{#if data.isMobile === false}
-				<Mainmedia start={true} source="desktopsticky" isMobile={data.isMobile} />
+				<Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
 			{/if}
 		</div>
 

@@ -160,35 +160,25 @@
 
 {#if source === 'mobile-inline' && isMobile === true}
 	<div class="yellow-wrapper-mobile">
-		<!-- Ezoic - incontent_6 - incontent_6 -->
 		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
-		<!-- End Ezoic - incontent_6 - incontent_6 -->
 	</div>
 {:else if source === 'desktopsticky' && isMobile === false}
 	<div class="yellow-wrapper-desktop">
 		<div class="anz-desktop">
-			<!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
 			<div id="ezoic-pub-ad-placeholder-{placeholder}" />
-			<!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
 		</div>
 	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
 	<!-- <div class="media-mobile"> -->
-	<!-- Ezoic - mobile_fixed - sidebar_middle -->
 	<div id="ezoic-pub-ad-placeholder-{placeholder}" />
-	<!-- End Ezoic - mobile_fixed - sidebar_middle -->
 	<!-- </div> -->
 {:else if source === 'desktopInline' && isMobile === false}
 	<div class="desktop-inline-wrapper">
-		<!-- Ezoic - incontent_5 - incontent_5 -->
 		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
-		<!-- End Ezoic - incontent_5 - incontent_5 -->
 	</div>
 {:else if source === 'tablet' && isMobile === true}
 	<div class="tablet-inline-wrapper">
-		<!-- Ezoic - incontent_7 - incontent_7 -->
 		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
-		<!-- End Ezoic - incontent_7 - incontent_7 -->
 	</div>
 {/if}
 
