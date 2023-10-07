@@ -210,18 +210,16 @@
 	// 	}
 	// }
 
-	// async function ezoicCMP() {
-	// 	return new Promise(function (resolve, reject) {
-	// 		let s;
-	// 		s = document.createElement('script');
-	// 		s.src = 'https://the.gatekeeperconsent.com/cmp.min.js';
-	// 		s.onload = resolve;
-	// 		s.onerror = reject;
-	// 		document.head.appendChild(s);
-	// 	});
-	// 	// .then(initEzoic)
-	// 	// .then(GoogleInit);
-	// }
+	async function ezoicCMP() {
+		return new Promise(function (resolve, reject) {
+			let s;
+			s = document.createElement('script');
+			s.src = 'https://the.gatekeeperconsent.com/cmp.min.js';
+			s.onload = resolve;
+			s.onerror = reject;
+			document.head.appendChild(s);
+		});
+	}
 
 	function EzConsentCallback() {
 		window.addEventListener(
