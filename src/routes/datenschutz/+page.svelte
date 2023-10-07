@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
 	function deleteAllCookies() {
@@ -39,6 +40,10 @@
 
 		window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
 	};
+
+	onMount(() => {
+		deleteAllCookies();
+	});
 </script>
 
 <svelte:head>
