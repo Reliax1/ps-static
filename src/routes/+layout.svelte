@@ -287,6 +287,20 @@
 		}
 	</script> -->
 
+	<script>
+		function EzConsentCallback(consent) {
+			// Check user's consent for statistics or marketing
+			if (consent.statistics) {
+				// User has given consent for statistics, initiate Google Analytics tracking
+				console.log('Google Analytics tracking initiated');
+			} else {
+				console.log(
+					'User did not give consent for statistics, Google Analytics tracking not initiated'
+				);
+			}
+		}
+	</script>
+
 	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<!-- <script type="text/javascript">
