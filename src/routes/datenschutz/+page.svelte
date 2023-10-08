@@ -36,9 +36,14 @@
 
 		// console.log('window.ezCMP', window.ezCMP);
 		// window.ezCMP.generateCMPFromPrivacyCenter();
+		localStorage.removeItem(['ez-consents'])
 		deleteAllCookies();
 
-		window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
+		setTimeout(() => {
+			window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
+			
+		}, 500);
+
 	};
 
 	onMount(async () => {
