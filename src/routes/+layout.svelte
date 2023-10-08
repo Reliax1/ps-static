@@ -243,10 +243,10 @@
 		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
 			initEzoic();
 			GoogleInit();
-			console.log('enable');
+			// console.log('enable');
 		} else if (localStorage['ez-consents'] != '&+&') {
 			setTimeout(() => {
-				console.log('NOT ENABLED');
+				// console.log('NOT ENABLED');
 				localstorageEnable();
 			}, 500);
 		}
