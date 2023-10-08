@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import Datenschutz from '$lib/core/Datenschutz.svelte';
 
 	const deleteAllCookies = async () => {
@@ -36,19 +36,17 @@
 
 		// console.log('window.ezCMP', window.ezCMP);
 		// window.ezCMP.generateCMPFromPrivacyCenter();
-		localStorage.removeItem(['ez-consents'])
+		localStorage.removeItem(['ez-consents']);
 		deleteAllCookies();
 
 		setTimeout(() => {
 			window.location.href = 'https://perfekterspruch.de/datenschutz/?ez_force_cookie_consent=1';
-			
 		}, 500);
-
 	};
 
-	onMount(async () => {
-		await deleteAllCookies();
-	});
+	// onMount(async () => {
+	// 	await deleteAllCookies();
+	// });
 </script>
 
 <svelte:head>
