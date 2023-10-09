@@ -73,6 +73,7 @@
 
 				setTimeout(() => {
 					ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
+					ezstandalone.display();
 					// ezstandalone.displayMore(
 					// 	$HelperStore.placeholder.define1,
 					// 	$HelperStore.placeholder.define2
