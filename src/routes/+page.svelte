@@ -421,6 +421,10 @@
 			margin-bottom: 0vw;
 		}
 
+		.home-beliebt {
+			margin-bottom: 8vw;
+		}
+
 		.sdt-div {
 			width: 100%;
 			margin-top: 5vw;
