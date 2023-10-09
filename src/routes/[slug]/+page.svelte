@@ -76,7 +76,7 @@
 						$HelperStore.placeholder.define1,
 						$HelperStore.placeholder.define2
 					);
-				}, 1000);
+				}, 200);
 
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				// ezstandalone.display();
