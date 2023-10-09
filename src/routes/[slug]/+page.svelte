@@ -59,6 +59,10 @@
 			window.ezstandalone = window.ezstandalone || {};
 			ezstandalone.cmd = ezstandalone.cmd || [];
 			ezstandalone.cmd.push(function () {
+				ezstandalone.destroyPlaceholders(
+					$HelperStore.placeholder.define1,
+					$HelperStore.placeholder.define2
+				);
 				ezstandalone.displayMore(
 					$HelperStore.placeholder.define1,
 					$HelperStore.placeholder.define2
