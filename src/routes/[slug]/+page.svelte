@@ -55,11 +55,11 @@
 				$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
 			}
 
-			console.log('check');
 			// window.ezstandalone = window.ezstandalone || {};
 			// ezstandalone.cmd = ezstandalone.cmd || [];
 			// ezstandalone.cmd.push(function () {
 			window.ezstandalone.cmd.push(function () {
+				console.log('check');
 				ezstandalone.destroyAll();
 				// ezstandalone.destroyPlaceholders(
 				// 	$HelperStore.placeholder.define1,
@@ -70,7 +70,7 @@
 					$HelperStore.placeholder.define2
 				);
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
-				ezstandalone.display();
+				// ezstandalone.display();
 			});
 		}
 	};
