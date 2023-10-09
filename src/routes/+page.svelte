@@ -208,8 +208,6 @@
 			herunterladen und in WhatsApp, Facebook, Instagram oder Pinterest teilen.
 		</p>
 
-		<Mainmedia placeholder={130} start={true} source="mobile-inline" isMobile={data.isMobile} />
-
 		<div class="home-beliebt">
 			<h2 class="homebeliebt-h22">Beliebte Seiten</h2>
 			<div class="home-beliebt-loop">
@@ -220,6 +218,8 @@
 				{/each}
 			</div>
 		</div>
+
+		<Mainmedia placeholder={130} start={true} source="mobile-inline" isMobile={data.isMobile} />
 
 		<h2 class="homebeliebt-h22">Unsere Besonderheiten</h2>
 
