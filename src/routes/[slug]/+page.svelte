@@ -55,10 +55,10 @@
 			// 	$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
 			// }
 
-			window.ezstandalone = window.ezstandalone || {};
-			ezstandalone.cmd = ezstandalone.cmd || [];
-			ezstandalone.cmd.push(function () {
-				// window.ezstandalone.cmd.push(function () {
+			// window.ezstandalone = window.ezstandalone || {};
+			// ezstandalone.cmd = ezstandalone.cmd || [];
+			// ezstandalone.cmd.push(function () {
+			window.ezstandalone.cmd.push(function () {
 				console.log('CHECK');
 				// ezstandalone.destroyAll();
 
@@ -71,10 +71,12 @@
 					$HelperStore.placeholder.define2
 				);
 
-				ezstandalone.displayMore(
-					$HelperStore.placeholder.define1,
-					$HelperStore.placeholder.define2
-				);
+				setTimeout(() => {
+					ezstandalone.displayMore(
+						$HelperStore.placeholder.define1,
+						$HelperStore.placeholder.define2
+					);
+				}, 1000);
 
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				// ezstandalone.display();
