@@ -1,7 +1,7 @@
 <script>
 	// import { onMount } from 'svelte';
 	import { page } from '$app/stores';
-	import { fly } from 'svelte/transition';
+	// import { fly } from 'svelte/transition';
 	import HelperStore from '../../stores/HelperStore';
 	import Mainmedia from '$lib/lazymedia/Mainmedia.svelte';
 

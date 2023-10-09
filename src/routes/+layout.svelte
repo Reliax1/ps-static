@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 	import { dev } from '$app/environment';
 	import { onMount } from 'svelte';
 	import HelperStore from '../../src/stores/HelperStore';
@@ -178,8 +179,10 @@
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
-			// ezstandalone.enableConsent();
-			ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
+			ezstandalone.enableConsent();
+			if (data.isMobile === true || (data.isMobile === false && $page.routeId != '')) {
+				ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
+			}
 			ezstandalone.enable();
 			ezstandalone.display();
 		});
