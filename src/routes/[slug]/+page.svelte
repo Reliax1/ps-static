@@ -60,21 +60,21 @@
 			// ezstandalone.cmd.push(function () {
 			window.ezstandalone.cmd.push(function () {
 				console.log('CHECK');
-				// ezstandalone.destroyAll();
+				ezstandalone.destroyAll();
 
-				ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
+				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				// ezstandalone.refresh();
-				ezstandalone.display();
+				// ezstandalone.display();
 
 				// ezstandalone.destroyPlaceholders(
 				// 	$HelperStore.placeholder.define1,
 				// 	$HelperStore.placeholder.define2
 				// );
 
-				// ezstandalone.displayMore(
-				// 	$HelperStore.placeholder.define1,
-				// 	$HelperStore.placeholder.define2
-				// );
+				ezstandalone.displayMore(
+					$HelperStore.placeholder.define1,
+					$HelperStore.placeholder.define2
+				);
 
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				// ezstandalone.display();
