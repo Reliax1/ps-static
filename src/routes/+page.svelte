@@ -219,11 +219,9 @@
 			</div>
 		</div>
 
-		<Mainmedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
-
 		<h2 class="homebeliebt-h22">Unsere Besonderheiten</h2>
 
-		<p class="home-pp">
+		<p class="home-pp desktop-margin">
 			Bei uns findest du täglich einen neuen
 			<a
 				class="intern-link-generator"
@@ -244,6 +242,8 @@
 			Aktuell befindet sich die Seite im Aufbau und es kommen täglich viele neue Sprüche und Themen
 			hinzu. Es lohnt sich also regelmäßig vorbeizuschauen.
 		</p>
+
+		<Mainmedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
 
 		<div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
@@ -278,14 +278,12 @@
 	</div>
 
 	<div class="main-right">
-		<div class="placeholder-wrapper">
 			<Mainmedia
 				placeholder={103}
 				start={true}
 				source="desktopsticky"
 				isMobile={$HelperStore.isMobile}
 			/>
-		</div>
 	</div>
 </div>
 
@@ -293,10 +291,14 @@
 	.main-container22 {
 		position: relative;
 		display: grid;
-		grid-template-columns: 75% 25%;
+		gap: 0 2vw;
+		grid-template-columns: 80% 20%;
 		width: 80%;
 		height: auto;
 		margin-top: -2vh;
+	}
+	.desktop-margin {
+		margin-bottom: 2vw;
 	}
 	.home-top {
 		padding: 1.5vw 0;
@@ -417,6 +419,9 @@
 			text-align: center;
 			font-size: 7vw;
 			width: 100%;
+		}
+		.desktop-margin {
+			margin-bottom: 0vw;
 		}
 
 		.sdt-div {
