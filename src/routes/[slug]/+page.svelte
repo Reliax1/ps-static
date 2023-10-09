@@ -65,11 +65,11 @@
 				// 	$HelperStore.placeholder.define1,
 				// 	$HelperStore.placeholder.define2
 				// );
-				// ezstandalone.displayMore(
-				// 	$HelperStore.placeholder.define1,
-				// 	$HelperStore.placeholder.define2
-				// );
-				ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
+				ezstandalone.displayMore(
+					$HelperStore.placeholder.define1,
+					$HelperStore.placeholder.define2
+				);
+				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				ezstandalone.display();
 			});
 		}
