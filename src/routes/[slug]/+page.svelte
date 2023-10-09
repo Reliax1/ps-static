@@ -59,15 +59,19 @@
 			// ezstandalone.cmd = ezstandalone.cmd || [];
 			// ezstandalone.cmd.push(function () {
 			window.ezstandalone.cmd.push(function () {
+				ezstandalone.refresh();
 				// ezstandalone.destroyAll();
-				ezstandalone.destroyPlaceholders(
-					$HelperStore.placeholder.define1,
-					$HelperStore.placeholder.define2
-				);
-				ezstandalone.displayMore(
-					$HelperStore.placeholder.define1,
-					$HelperStore.placeholder.define2
-				);
+
+				// ezstandalone.destroyPlaceholders(
+				// 	$HelperStore.placeholder.define1,
+				// 	$HelperStore.placeholder.define2
+				// );
+
+				// ezstandalone.displayMore(
+				// 	$HelperStore.placeholder.define1,
+				// 	$HelperStore.placeholder.define2
+				// );
+
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				// ezstandalone.display();
 			});
