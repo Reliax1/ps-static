@@ -55,10 +55,10 @@
 			// 	$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
 			// }
 
-			// window.ezstandalone = window.ezstandalone || {};
-			// ezstandalone.cmd = ezstandalone.cmd || [];
-			// ezstandalone.cmd.push(function () {
-			window.ezstandalone.cmd.push(function () {
+			window.ezstandalone = window.ezstandalone || {};
+			ezstandalone.cmd = ezstandalone.cmd || [];
+			ezstandalone.cmd.push(function () {
+				// window.ezstandalone.cmd.push(function () {
 				console.log('CHECK');
 				ezstandalone.destroyAll();
 
