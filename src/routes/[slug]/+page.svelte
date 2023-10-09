@@ -1,4 +1,6 @@
 <script>
+	import { dev } from '$app/environment';
+	import { navigating } from '$app/stores';
 	// import { onMount } from 'svelte';
 	import HelperStore from '../../../src/stores/HelperStore';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
@@ -22,6 +24,8 @@
 
 	$: scrollFunc(scrollPosition);
 
+	$: if ($navigating) refreshEzoic();
+
 	const scrollFunc = (scrollPosition) => {
 		if (oldPosition < scrollPosition) {
 			$HelperStore.mobileMenuDown = true;
@@ -38,6 +42,16 @@
 		}
 	};
 
+	const refreshEzoic = () => {
+		if (dev === false) {
+			window.ezstandalone = window.ezstandalone || {};
+			ezstandalone.cmd = ezstandalone.cmd || [];
+			ezstandalone.cmd.push(function () {
+				ezstandalone.refresh();
+			});
+		}
+	};
+
 	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
@@ -47,7 +61,7 @@
 	};
 
 	// onMount(() => {
-	// 	console.log('data.isTablet ', data.isTablet);
+	// 	console.log('TEST');
 	// });
 </script>
 

@@ -1,4 +1,5 @@
 <script>
+	import { dev } from '$app/environment';
 	import { onMount } from 'svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
@@ -253,8 +254,10 @@
 	};
 
 	onMount(async () => {
-		ezoicCMP();
-		localstorageEnable();
+		if (dev === false) {
+			ezoicCMP();
+			localstorageEnable();
+		}
 
 		// initCockie();
 
