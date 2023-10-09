@@ -59,7 +59,8 @@
 			// ezstandalone.cmd = ezstandalone.cmd || [];
 			// ezstandalone.cmd.push(function () {
 			window.ezstandalone.cmd.push(function () {
-				console.log('check');
+				console.log('check', $HelperStore.placeholder.define1);
+				console.log('check', $HelperStore.placeholder.define2);
 				ezstandalone.destroyAll();
 				// ezstandalone.destroyPlaceholders(
 				// 	$HelperStore.placeholder.define1,
