@@ -165,7 +165,7 @@
 	}
 
 	const EzoicCallback = () => {
-		console.log('$page.routeId', $page.routeId);
+		// console.log('$page.routeId', $page.routeId);
 
 		if (data.isMobile === true && data.isTablet === false) {
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
