@@ -171,7 +171,7 @@
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
 		} else if (data.isMobile === false) {
-			if ($page.routeId === '') {
+			if ($page.routeId != '[slug]') {
 				$HelperStore.placeholder.define1 = null;
 				$HelperStore.placeholder.define2 = null;
 			} else {
