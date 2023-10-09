@@ -63,8 +63,8 @@
 				// ezstandalone.destroyAll();
 
 				ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
-				ezstandalone.refresh();
-				// ezstandalone.display();
+				// ezstandalone.refresh();
+				ezstandalone.display();
 
 				// ezstandalone.destroyPlaceholders(
 				// 	$HelperStore.placeholder.define1,
