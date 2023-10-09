@@ -171,7 +171,7 @@
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
 		} else if (data.isMobile === false) {
-			if ($page.routeId != '[slug]') {
+			if ($page.routeId === '') {
 				$HelperStore.placeholder.define1 = null;
 				$HelperStore.placeholder.define2 = null;
 			} else {
@@ -187,9 +187,7 @@
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
 			ezstandalone.enableConsent();
-			// if (data.isMobile === true || (data.isMobile === false && $page.routeId != '')) {
 			ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
-			// }
 			ezstandalone.enable();
 			ezstandalone.display();
 		});
