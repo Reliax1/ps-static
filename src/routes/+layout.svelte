@@ -171,13 +171,8 @@
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
 		} else if (data.isMobile === false) {
-			if ($page.routeId === '') {
-				$HelperStore.placeholder.define1 = null;
-				$HelperStore.placeholder.define2 = null;
-			} else {
-				$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
-				$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
-			}
+			$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
+			$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
 		} else if (data.isMobile === true && data.isTablet === true) {
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobileBanner;
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
@@ -193,32 +188,6 @@
 		});
 	};
 
-	// function CookiebotCallback_OnAccept() {
-	// 	console.log(window)
-	// 	if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
-	// 		//jede der Zustimmungsoptionen der Benutzer festlegen
-	// 		window.ezConsentCategories.preferences = Cookiebot.consent.preferences;
-	// 		window.ezConsentCategories.statistics = Cookiebot.consent.statistics;
-	// 		window.ezConsentCategories.marketing = Cookiebot.consent.marketing;
-
-	// 		//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
-	// 		__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
-	// 		console.log('window.ezConsentCategories.marketing', window.ezConsentCategories.marketing);
-	// 	}
-	// }
-
-	// function CookiebotCallback_OnDecline() {
-	// 	if (typeof ezConsentCategories == 'object' && typeof __ezconsent == 'object') {
-	// 		//jede der Zustimmungsoptionen der Benutzer festlegen
-	// 		window.ezConsentCategories.preferences = false;
-	// 		window.ezConsentCategories.statistics = false;
-	// 		window.ezConsentCategories.marketing = false;
-
-	// 		//Aufruf zur Aktualisierung von ezoic der Consent Entscheidungen
-	// 		__ezconsent.setEzoicConsentSettings(window.ezConsentCategories);
-	// 	}
-	// }
-
 	async function ezoicCMP() {
 		return new Promise(function (resolve, reject) {
 			let s;
@@ -228,24 +197,6 @@
 			s.onerror = reject;
 			document.head.appendChild(s);
 		});
-	}
-
-	function EzConsentCallback() {
-		window.addEventListener(
-			'EzConsentCallback',
-			function (e) {
-				console.log('EVENT', e);
-			},
-			false
-		);
-		// console.log('TEST', consent);
-		// enthält die notwendigen, Präferenzen, Statistiken und Marketingeigenschaften mit booleschen Werten.
-		// if (consent.marketing) {
-		// 	initEzoic();
-		// }
-		// if (consent.statistics) {
-		// 	GoogleInit();
-		// }
 	}
 
 	const localstorageEnable = () => {

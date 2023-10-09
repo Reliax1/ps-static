@@ -3,6 +3,7 @@
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import HelperStore from '../../src/stores/HelperStore';
+	import Mainmedia from '$lib/lazymedia/Mainmedia.svelte';
 
 	export let data;
 
@@ -218,6 +219,8 @@
 			</div>
 		</div>
 
+		<Mainmedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
+
 		<h2 class="homebeliebt-h22">Unsere Besonderheiten</h2>
 
 		<p class="home-pp">
@@ -273,11 +276,24 @@
 
 		<SZGenerator />
 	</div>
+
+	<div class="main-right">
+		<div class="placeholder-wrapper">
+			<Mainmedia
+				placeholder={103}
+				start={true}
+				source="desktopsticky"
+				isMobile={$HelperStore.isMobile}
+			/>
+		</div>
+	</div>
 </div>
 
 <style lang="scss">
 	.main-container22 {
 		position: relative;
+		display: grid;
+		grid-template-columns: 75% 25%;
 		width: 80%;
 		height: auto;
 		margin-top: -2vh;
@@ -288,6 +304,7 @@
 	}
 	.home-h11 {
 		font-size: $font-h2-slug;
+		text-align: center;
 	}
 	.home-pp {
 		font-size: $font-text;

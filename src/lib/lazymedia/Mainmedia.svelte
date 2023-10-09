@@ -184,12 +184,10 @@
 
 <style lang="scss">
 	.desktop-inline-wrapper {
-		display: none;
 		display: block;
 		margin: 0 auto;
 		width: 96%;
 		height: 300px;
-		// background-color: grey;
 	}
 	.tablet-inline-wrapper {
 		display: none;
@@ -261,6 +259,9 @@
 	}
 
 	@media (max-width: 1024px) {
+		.desktop-inline-wrapper {
+			display: none;
+		}
 		.goo {
 			width: 100%;
 		}
