@@ -44,16 +44,16 @@
 
 	const refreshEzoic = () => {
 		if (dev === false) {
-			if (data.isMobile === true && data.isTablet === false) {
-				$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
-				$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
-			} else if (data.isMobile === false) {
-				$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
-				$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
-			} else if (data.isMobile === true && data.isTablet === true) {
-				$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobileBanner;
-				$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
-			}
+			// if (data.isMobile === true && data.isTablet === false) {
+			// 	$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
+			// 	$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
+			// } else if (data.isMobile === false) {
+			// 	$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
+			// 	$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
+			// } else if (data.isMobile === true && data.isTablet === true) {
+			// 	$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobileBanner;
+			// 	$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
+			// }
 
 			// window.ezstandalone = window.ezstandalone || {};
 			// ezstandalone.cmd = ezstandalone.cmd || [];
