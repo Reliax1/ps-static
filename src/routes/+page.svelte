@@ -208,6 +208,8 @@
 			herunterladen und in WhatsApp, Facebook, Instagram oder Pinterest teilen.
 		</p>
 
+		<Mainmedia placeholder={130} start={true} source="mobile-inline" isMobile={data.isMobile} />
+
 		<div class="home-beliebt">
 			<h2 class="homebeliebt-h22">Beliebte Seiten</h2>
 			<div class="home-beliebt-loop">
@@ -278,12 +280,7 @@
 	</div>
 
 	<div class="main-right">
-			<Mainmedia
-				placeholder={103}
-				start={true}
-				source="desktopsticky"
-				isMobile={$HelperStore.isMobile}
-			/>
+		<Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
 	</div>
 </div>
 
@@ -432,6 +429,9 @@
 		.main-container22 {
 			width: 100%;
 			margin-top: 0;
+			display: block;
+			gap: unset;
+			grid-template-columns: unset;
 			// padding: 2vh 0;
 		}
 		.home-top {
