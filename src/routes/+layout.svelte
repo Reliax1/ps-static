@@ -112,57 +112,57 @@
 		}).then(callback);
 	};
 
-	const initCockie = async () => {
-		// https://manage.cookiebot.com/de/manage#
-		// https://www.cookiebot.com/de/developer/
-		// https://support.cookiebot.com/hc/en-us/articles/360007652694-Cookiebot-and-the-IAB-Consent-Framework
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src =
-				'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549&framework=TCFv2.2';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		}).then(cockieEvent);
-	};
+	// const initCockie = async () => {
+	// 	// https://manage.cookiebot.com/de/manage#
+	// 	// https://www.cookiebot.com/de/developer/
+	// 	// https://support.cookiebot.com/hc/en-us/articles/360007652694-Cookiebot-and-the-IAB-Consent-Framework
+	// 	return new Promise(function (resolve, reject) {
+	// 		let s;
+	// 		s = document.createElement('script');
+	// 		s.src =
+	// 			'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549&framework=TCFv2.2';
+	// 		s.onload = resolve;
+	// 		s.onerror = reject;
+	// 		document.head.appendChild(s);
+	// 	}).then(cockieEvent);
+	// };
 
-	const cockieEvent = () => {
-		window.addEventListener(
-			'CookiebotOnAccept',
-			function () {
-				// CookiebotCallback_OnAccept();
-				if (Cookiebot.consent.marketing) {
-					initEzoic();
-					$HelperStore.marketing_consent = true;
-				}
-				if (Cookiebot.consent.statistics) {
-					GoogleInit();
-				}
-			},
-			false
-		);
+	// const cockieEvent = () => {
+	// 	window.addEventListener(
+	// 		'CookiebotOnAccept',
+	// 		function () {
+	// 			// CookiebotCallback_OnAccept();
+	// 			if (Cookiebot.consent.marketing) {
+	// 				initEzoic();
+	// 				$HelperStore.marketing_consent = true;
+	// 			}
+	// 			if (Cookiebot.consent.statistics) {
+	// 				GoogleInit();
+	// 			}
+	// 		},
+	// 		false
+	// 	);
 
-		window.addEventListener(
-			'CookiebotOnDecline',
-			function () {
-				// CookiebotCallback_OnDecline();
-				deleteAllCookies();
-			},
-			false
-		);
-	};
+	// 	window.addEventListener(
+	// 		'CookiebotOnDecline',
+	// 		function () {
+	// 			// CookiebotCallback_OnDecline();
+	// 			deleteAllCookies();
+	// 		},
+	// 		false
+	// 	);
+	// };
 
-	async function initEzoic() {
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src = 'https://www.ezojs.com/ezoic/sa.min.js';
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		}).then(EzoicCallback);
-	}
+	// async function initEzoic() {
+	// 	return new Promise(function (resolve, reject) {
+	// 		let s;
+	// 		s = document.createElement('script');
+	// 		s.src = 'https://www.ezojs.com/ezoic/sa.min.js';
+	// 		s.onload = resolve;
+	// 		s.onerror = reject;
+	// 		document.head.appendChild(s);
+	// 	}).then(EzoicCallback);
+	// }
 
 	const EzoicCallback = () => {
 		// console.log('$page.routeId', $page.routeId);
@@ -201,7 +201,8 @@
 
 	const localstorageEnable = () => {
 		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
-			initEzoic();
+			// initEzoic();
+			EzoicCallback();
 			GoogleInit();
 			// console.log('enable');
 		} else if (localStorage['ez-consents'] != '&+&') {
@@ -226,6 +227,8 @@
 </script>
 
 <svelte:head>
+	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+
 	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<meta property="fb:app_id" content="4683318608362940" />
