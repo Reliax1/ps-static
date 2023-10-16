@@ -44,6 +44,10 @@ const ContentStore = writable({
 				{
 					name: 'Einsamkeit Sprüche',
 					link: 'einsamkeit-sprueche'
+				},
+				{
+					name: 'Respekt Sprüche',
+					link: 'respekt-sprueche'
 				}
 			]
 		},
@@ -691,6 +695,10 @@ const ContentStore = writable({
 					link: 'glueckwuensche-zur-konfirmation'
 				},
 				{
+					name: 'Jugendweihe Sprüche',
+					link: 'jugendweihe-sprueche'
+				},
+				{
 					name: 'Glückwünsche zum Hochzeitstag',
 					link: 'glueckwuensche-zum-hochzeitstag'
 				},
@@ -699,12 +707,60 @@ const ContentStore = writable({
 					link: 'hoelzerne-hochzeit-glueckwuensche-sprueche'
 				},
 				{
+					name: 'Glückwünsche zur Rosenhochzeit',
+					link: 'rosenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Kristallhochzeit',
+					link: 'kristallhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Porzellanhochzeit',
+					link: 'porzellanhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Silberhochzeit',
+					link: 'silberhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Perlenhochzeit',
+					link: 'perlenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Leinwandhochzeit',
+					link: 'leinwandhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Rubinhochzeit',
+					link: 'rubinhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Messinghochzeit',
+					link: 'messinghochzeit-sprueche'
+				},
+				{
 					name: 'Glückwünsche zur goldenen Hochzeit',
 					link: 'glueckwuensche-zur-goldenen-hochzeit'
 				},
 				{
-					name: 'Jugendweihe Sprüche',
-					link: 'jugendweihe-sprueche'
+					name: 'Glückwünsche zur Diamantene Hochzeit',
+					link: 'diamantene-hochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Gnadenhochzeit',
+					link: 'gnadenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Eichenhochzeit',
+					link: 'eichenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Marmorne Hochzeit',
+					link: 'marmorne-hochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Himmelshochzeit',
+					link: 'himmelshochzeit-sprueche'
 				}
 			]
 		},
