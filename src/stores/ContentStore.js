@@ -48,6 +48,14 @@ const ContentStore = writable({
 				{
 					name: 'Respekt Sprüche',
 					link: 'respekt-sprueche'
+				},
+				{
+					name: 'Sprüche für die Seele',
+					link: 'sprueche-fuer-die-seele'
+				},
+				{
+					name: 'Freiheit Sprüche',
+					link: 'freiheit-sprueche'
 				}
 			]
 		},
@@ -130,6 +138,18 @@ const ContentStore = writable({
 				{
 					name: 'Zitate & Sprüche Generator',
 					link: 'zitate-sprueche-generator'
+				},
+				{
+					name: 'Schöne WhatsApp Freundschaft Sprüche',
+					link: 'freundschaft-whatsapp-schoene-sprueche'
+				},
+				{
+					name: 'Alles wird gut Sprüche',
+					link: 'alles-wird-gut-sprueche'
+				},
+				{
+					name: 'Zweideutige Sprüche',
+					link: 'zweideutige-sprueche'
 				}
 			]
 		},
