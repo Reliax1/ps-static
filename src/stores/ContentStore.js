@@ -56,6 +56,14 @@ const ContentStore = writable({
 				{
 					name: 'Freiheit Sprüche',
 					link: 'freiheit-sprueche'
+				},
+				{
+					name: 'Gedanken und Gefühle Sprüche',
+					link: 'gedanken-gefuehle-sprueche'
+				},
+				{
+					name: 'Ehrlichkeit Sprüche',
+					link: 'ehrlichkeit-sprueche'
 				}
 			]
 		},
@@ -77,6 +85,14 @@ const ContentStore = writable({
 				{
 					name: 'Valentinstag Sprüche',
 					link: 'valentinstag-sprueche'
+				},
+				{
+					name: 'Herz über Kopf Sprüche',
+					link: 'herz-ueber-kopf-sprueche'
+				},
+				{
+					name: 'Gute Nacht mein Schatz Sprüche',
+					link: 'gute-nacht-mein-schatz'
 				}
 			]
 		},
@@ -150,6 +166,10 @@ const ContentStore = writable({
 				{
 					name: 'Zweideutige Sprüche',
 					link: 'zweideutige-sprueche'
+				},
+				{
+					name: 'Meer Sprüche',
+					link: 'meer-sprueche'
 				}
 			]
 		},
