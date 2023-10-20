@@ -315,7 +315,7 @@ const ContentStore = writable({
 				},
 				{
 					name: 'Lustige Geburtstagssprüche',
-					link: 'geburtstag-lustig'
+					link: 'geburtstag-lustig-bilder'
 				}
 			],
 			runderGb: [
