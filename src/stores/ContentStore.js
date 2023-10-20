@@ -93,6 +93,10 @@ const ContentStore = writable({
 				{
 					name: 'Gute Nacht mein Schatz Sprüche',
 					link: 'gute-nacht-mein-schatz'
+				},
+				{
+					name: 'Sprüche über Liebe',
+					link: 'sprueche-liebe'
 				}
 			]
 		},
@@ -170,6 +174,18 @@ const ContentStore = writable({
 				{
 					name: 'Meer Sprüche',
 					link: 'meer-sprueche'
+				},
+				{
+					name: 'Humor Sprüche über das Leben',
+					link: 'humor-sprueche-leben'
+				},
+				{
+					name: 'Mama Sprüche',
+					link: 'mama-sprueche'
+				},
+				{
+					name: 'Danke sagen Sprüche',
+					link: 'danke-sagen'
 				}
 			]
 		},
@@ -296,6 +312,10 @@ const ContentStore = writable({
 				{
 					name: 'Geburtstagswünsche Kollegin',
 					link: 'geburtstagswuensche-kollegin'
+				},
+				{
+					name: 'Lustige Geburtstagssprüche',
+					link: 'geburtstag-lustig'
 				}
 			],
 			runderGb: [
