@@ -64,6 +64,10 @@ const ContentStore = writable({
 				{
 					name: 'Ehrlichkeit Sprüche',
 					link: 'ehrlichkeit-sprueche'
+				},
+				{
+					name: 'Träume Sprüche',
+					link: 'traeume-sprueche'
 				}
 			]
 		},
@@ -97,6 +101,10 @@ const ContentStore = writable({
 				{
 					name: 'Sprüche über Liebe',
 					link: 'sprueche-liebe'
+				},
+				{
+					name: 'Hab dich lieb Bilder',
+					link: 'hab-dich-lieb-bilder'
 				}
 			]
 		},
@@ -186,6 +194,14 @@ const ContentStore = writable({
 				{
 					name: 'Danke sagen Sprüche',
 					link: 'danke-sagen'
+				},
+				{
+					name: 'Sprüche zum Lachen',
+					link: 'lachen-sprueche'
+				},
+				{
+					name: 'Ich hab Urlaub Sprüche',
+					link: 'ich-hab-urlaub-sprueche'
 				}
 			]
 		},
@@ -215,6 +231,10 @@ const ContentStore = writable({
 				{
 					name: 'Schönes Wochenende Bilder',
 					link: 'schoenes-wochenende-bilder'
+				},
+				{
+					name: 'Witzige Wochenstart Sprüche',
+					link: 'wochenstart-witzig'
 				},
 				{
 					name: 'Sonntagsgrüße',
