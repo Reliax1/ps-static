@@ -202,6 +202,14 @@ const ContentStore = writable({
 				{
 					name: 'Ich hab Urlaub Sprüche',
 					link: 'ich-hab-urlaub-sprueche'
+				},
+				{
+					name: 'Dankbarkeit Sprüche',
+					link: 'dankbarkeit-sprueche'
+				},
+				{
+					name: 'Arbeit Sprüche',
+					link: 'arbeit-sprueche'
 				}
 			]
 		},
@@ -841,6 +849,18 @@ const ContentStore = writable({
 				{
 					name: 'Glückwünsche zur Himmelshochzeit',
 					link: 'himmelshochzeit-sprueche'
+				},
+				{
+					name: 'Muttertag Bilder',
+					link: 'muttertag-bilder'
+				},
+				{
+					name: 'Vatertag Bilder',
+					link: 'vatertag-bilder'
+				},
+				{
+					name: 'Glückwünsche zur Einschulung',
+					link: 'glueckwuensche-zur-einschulung'
 				}
 			]
 		},
