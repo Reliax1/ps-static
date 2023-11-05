@@ -229,7 +229,7 @@
 </script>
 
 <svelte:head>
-	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+	<!-- <script async src="//www.ezojs.com/ezoic/sa.min.js"></script> -->
 
 	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
