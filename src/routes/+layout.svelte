@@ -1,10 +1,10 @@
 <script>
 	import { page } from '$app/stores';
-	import { dev } from '$app/environment';
+	// import { dev } from '$app/environment';
 	import { onMount } from 'svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
-	import MobileLogo from '$lib/core/MobileLogo.svelte';
+	// import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
@@ -216,10 +216,10 @@
 	};
 
 	onMount(async () => {
-		// if (dev === false) {
-		// 	ezoicCMP();
-		// 	localstorageEnable();
-		// }
+		if (dev === false) {
+			ezoicCMP();
+			// localstorageEnable();
+		}
 
 		// initCockie();
 
