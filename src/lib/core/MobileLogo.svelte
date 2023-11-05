@@ -1,20 +1,7 @@
 <script>
-	const buttonclick = (buttonName) => {
-		if (window.location.hostname.includes('perfekterspruch')) {
-			fetch('https://8xfm8zzg6c.execute-api.eu-central-1.amazonaws.com/dev' + '/putbutton', {
-				method: 'PUT',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify({
-					buttonname: 'mobile' + ' ' + buttonName
-				})
-			});
-		}
-	};
 </script>
 
-<div class="LogoMain" on:click={() => buttonclick('LogoHome')}>
+<div class="LogoMain">
 	<div class="LogoSecond">
 		<a class="intern-link" href="/">
 			<span class="LogoName">P</span>erfekter<span class="LogoName">S</span>pruch<span

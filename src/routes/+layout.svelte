@@ -8,6 +8,7 @@
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
+	import MobileSticky from '$lib/lazymedia/MobileSticky.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
@@ -204,6 +205,7 @@
 			// initEzoic();
 			EzoicCallback();
 			GoogleInit();
+			$HelperStore.mediaType = 'google';
 			// console.log('enable');
 		} else if (localStorage['ez-consents'] != '&+&') {
 			setTimeout(() => {
@@ -214,10 +216,10 @@
 	};
 
 	onMount(async () => {
-		if (dev === false) {
-			ezoicCMP();
-			localstorageEnable();
-		}
+		// if (dev === false) {
+		// 	ezoicCMP();
+		// 	localstorageEnable();
+		// }
 
 		// initCockie();
 
@@ -258,9 +260,9 @@
 	<DesktopHeader />
 </div>
 
-<div class="mobile-wrapper">
+<!-- <div class="mobile-wrapper">
 	<MobileLogo />
-</div>
+</div> -->
 
 <main>
 	<slot />
@@ -272,6 +274,10 @@
 	<MobileNav />
 	<MobileMenu />
 </div>
+
+{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
+	<MobileSticky isMobile={data.isMobile} isTablet={data.isTablet} />
+{/if}
 
 <style lang="scss">
 	main {
@@ -295,7 +301,7 @@
 			grid-template-columns: 1fr;
 			margin-top: 0;
 			overflow-x: hidden;
-			margin-bottom: 55px; // delete or 50px ? calc(50px + 20vw) // 55px
+			margin-top: 55px; // delete or 50px ? calc(50px + 20vw) // 55px
 		}
 		.desktop-wrapper {
 			display: none;
