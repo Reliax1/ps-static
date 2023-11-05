@@ -22,9 +22,9 @@
 	let oldPosition = 0;
 	let scrollPosition = 0;
 
-	$: scrollFunc(scrollPosition);
+	// $: scrollFunc(scrollPosition);
 
-	$: if ($navigating) refreshEzoic();
+	// $: if ($navigating) refreshEzoic();
 
 	const scrollFunc = (scrollPosition) => {
 		if (oldPosition < scrollPosition) {
