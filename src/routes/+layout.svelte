@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	// import { dev } from '$app/environment';
+	import { dev } from '$app/environment';
 	import { onMount } from 'svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
