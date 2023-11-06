@@ -151,7 +151,6 @@
 	};
 
 	onMount(async () => {
-		placeholder = await setId(placeholder);
 		// if (start === false) {
 		// 	placeholder = await setId(placeholder);
 		// 	EzoicCallback();
