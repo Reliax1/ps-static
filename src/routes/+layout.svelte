@@ -247,14 +247,14 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<script>
+	<!-- <script>
 		function EzConsentCallback(consent) {
 			// consent contains the necessary, preferences, statistics, and marketing properties with boolean values
 			if (consent.marketing) {
 				console.log('TEST WORKING CMP');
 			}
 		}
-	</script>
+	</script> -->
 
 	<!-- <script
 		id="Cookiebot"
