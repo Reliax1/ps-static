@@ -216,10 +216,10 @@
 	};
 
 	onMount(async () => {
-		if (dev === false) {
-			ezoicCMP();
-			// localstorageEnable();
-		}
+		// if (dev === false) {
+		// 	ezoicCMP();
+		// 	// localstorageEnable();
+		// }
 
 		// initCockie();
 
