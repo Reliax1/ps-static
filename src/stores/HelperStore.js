@@ -11,8 +11,7 @@ const HelperStore = writable({
 	marketing_consent: false,
 	placeholder: {
 		mobile_inline: 130,
-		// desktopsticky: 103,
-		desktopsticky: 142,
+		desktopsticky: 103,
 		mobileBanner: 106,
 		desktopInline: 131,
 		tablet: 141,

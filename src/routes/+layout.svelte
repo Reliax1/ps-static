@@ -220,7 +220,6 @@
 		// 	ezoicCMP();
 		// 	// localstorageEnable();
 		// }
-		console.log('TEST');
 
 		// initCockie();
 

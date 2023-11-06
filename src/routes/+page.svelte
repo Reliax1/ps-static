@@ -280,7 +280,7 @@
 	</div>
 
 	<div class="main-right">
-		<Mainmedia placeholder={142} start={true} source="desktopsticky" isMobile={data.isMobile} />
+		<Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
 	</div>
 </div>
 
