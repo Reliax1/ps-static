@@ -861,6 +861,22 @@ const ContentStore = writable({
 				{
 					name: 'Glückwünsche zur Einschulung',
 					link: 'glueckwuensche-zur-einschulung'
+				},
+				{
+					name: '1. Advent Sprüche & Bilder',
+					link: '1-advent-sprueche-bilder'
+				},
+				{
+					name: '2. Advent Sprüche & Bilder',
+					link: '2-advent-sprueche-bilder'
+				},
+				{
+					name: '3. Advent Sprüche & Bilder',
+					link: '3-advent-sprueche-bilder'
+				},
+				{
+					name: '4. Advent Sprüche & Bilder',
+					link: '4-advent-sprueche-bilder'
 				}
 			]
 		},
