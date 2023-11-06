@@ -1,7 +1,7 @@
 <script>
 	import { dev } from '$app/environment';
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
-	import SZGenerator from '$lib/cards/SZGenerator.svelte';
+	// import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import Mainmedia from '$lib/lazymedia/Mainmedia.svelte';
 
@@ -274,9 +274,9 @@
 			<strong>„Guten Morgen“</strong> findest du Sprüche, mit denen du deiner Familie, Freunden und Bekannten
 			eine Freude direkt am Morgen bereiten kannst.
 		</p>
-		<h2 class="sdt-h11">Sprüche und Zitate Generator</h2>
+		<!-- <h2 class="sdt-h11">Sprüche und Zitate Generator</h2>
 
-		<SZGenerator />
+		<SZGenerator /> -->
 	</div>
 
 	<div class="main-right">
