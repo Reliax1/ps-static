@@ -330,11 +330,11 @@
 			{/if}
 		</div>
 
-		{#if !data.isMobile}
+		<!-- {#if !data.isMobile}
 			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
 				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
 			</div>
-		{/if}
+		{/if} -->
 	{/key}
 </div>
 
@@ -345,11 +345,16 @@
 		top: 10vh;
 		// height: 44.271vw;
 		height: 600px;
+		width: 100%;
 		margin: 1vw 0;
 	}
 	.anz-desktop {
-		width: 300px;
-		height: 600px;
+		display: block;
+		position: absolute;
+		// width: 300px;
+		// height: 600px;
+		left: 50%;
+		transform: translate(-50%, 0);
 	}
 	.sprueche-card-desktop {
 		display: block !important;
