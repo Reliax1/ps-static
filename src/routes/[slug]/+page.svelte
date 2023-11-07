@@ -351,8 +351,8 @@
 	.anz-desktop {
 		display: block;
 		position: absolute;
-		// width: 300px;
-		// height: 600px;
+		width: 300px;
+		height: 600px;
 		left: 50%;
 		transform: translate(-50%, 0);
 	}
