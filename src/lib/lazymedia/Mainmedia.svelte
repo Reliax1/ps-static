@@ -163,11 +163,11 @@
 		<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 	</div>
 {:else if source === 'desktopsticky' && isMobile === false}
-	<!-- <div class="yellow-wrapper-desktop">
+	<div class="yellow-wrapper-desktop">
 		<div class="anz-desktop">
 			<div id="ezoic-pub-ad-placeholder-{placeholder}" />
 		</div>
-	</div> -->
+	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
 	<!-- <div class="media-mobile"> -->
 	<div id="ezoic-pub-ad-placeholder-{placeholder}" />
