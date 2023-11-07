@@ -321,7 +321,11 @@
 			</div>
 
 			{#if data.isMobile === false}
-				<Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
+				<!-- <Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
+				 -->
+				<!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
+				<div id="ezoic-pub-ad-placeholder-103" />
+				<!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 -->
 			{/if}
 		</div>
 
