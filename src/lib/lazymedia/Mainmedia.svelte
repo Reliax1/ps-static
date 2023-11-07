@@ -165,7 +165,7 @@
 {:else if source === 'desktopsticky' && isMobile === false}
 	<div class="yellow-wrapper-desktop">
 		<div class="anz-desktop">
-			<div id="ezoic-pub-ad-placeholder-{placeholder}" />
+			<div id="ezoic-pub-ad-placeholder-103" />
 		</div>
 	</div>
 {:else if source === 'mobileBanner' && isMobile === true}
