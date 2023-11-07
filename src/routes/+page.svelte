@@ -1,6 +1,6 @@
 <script>
 	import { dev } from '$app/environment';
-	import Spruchcard from '$lib/cards/Spruchcard.svelte';
+	// import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	// import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import Mainmedia from '$lib/lazymedia/Mainmedia.svelte';
@@ -247,11 +247,11 @@
 
 		<Mainmedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
 
-		<div class="sdt-div">
+		<!-- <div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
 
 			<Spruchcard card={data.derspruch} {index} userIsMobile={data.isMobile} />
-		</div>
+		</div> -->
 		<h2 class="homebeliebt-h22">Themen-Menü Übersicht</h2>
 		<p class="home-pp">
 			Wir sind bemüht, die Webseite möglichst übersichtlich zu gestallten. Um dir eine kleine
