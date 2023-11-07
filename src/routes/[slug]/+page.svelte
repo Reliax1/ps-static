@@ -321,7 +321,12 @@
 			</div>
 
 			{#if data.isMobile === false}
-				<Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
+				<!-- <Mainmedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} /> -->
+				<div class="yellow-wrapper-desktop">
+					<div class="anz-desktop">
+						<div id="ezoic-pub-ad-placeholder-103" />
+					</div>
+				</div>
 			{/if}
 		</div>
 
@@ -334,6 +339,18 @@
 </div>
 
 <style lang="scss">
+	.yellow-wrapper-desktop {
+		display: block !important;
+		position: sticky;
+		top: 10vh;
+		// height: 44.271vw;
+		height: 600px;
+		margin: 1vw 0;
+	}
+	.anz-desktop {
+		width: 300px;
+		height: 600px;
+	}
 	.sprueche-card-desktop {
 		display: block !important;
 		// width: 92%; // no media
@@ -402,6 +419,12 @@
 	}
 
 	@media (max-width: 480px) {
+		.yellow-wrapper-desktop {
+			display: none !important;
+		}
+		.anz-desktop {
+			display: none;
+		}
 		.sprueche-grid {
 			display: block !important;
 			width: 100%;
@@ -429,6 +452,12 @@
 		}
 	}
 	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.yellow-wrapper-desktop {
+			display: none !important;
+		}
+		.anz-desktop {
+			display: none;
+		}
 		.sprueche-grid {
 			display: block !important;
 			width: 100%;
@@ -455,6 +484,15 @@
 		}
 	}
 	@media (min-width: 1921px) {
+		.yellow-wrapper-desktop {
+			height: 850.003px;
+			display: block !important;
+		}
+		.anz-desktop {
+			font-size: 14.4px;
+			padding-right: 9.6px;
+			top: -19.2px;
+		}
 		.sprueche-main {
 			width: 1920px;
 		}
