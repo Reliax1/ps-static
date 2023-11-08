@@ -4,11 +4,10 @@
 	import { onMount } from 'svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
-	// import MobileLogo from '$lib/core/MobileLogo.svelte';
+	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
-	import MobileSticky from '$lib/lazymedia/MobileSticky.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
@@ -205,7 +204,6 @@
 			// initEzoic();
 			EzoicCallback();
 			GoogleInit();
-			$HelperStore.mediaType = 'google';
 			// console.log('enable');
 		} else if (localStorage['ez-consents'] != '&+&') {
 			setTimeout(() => {
@@ -216,10 +214,10 @@
 	};
 
 	onMount(async () => {
-		// if (dev === false) {
-		// 	ezoicCMP();
-		// 	// localstorageEnable();
-		// }
+		if (dev === false) {
+			ezoicCMP();
+			localstorageEnable();
+		}
 
 		// initCockie();
 
@@ -229,7 +227,7 @@
 </script>
 
 <svelte:head>
-	<!-- <script async src="//www.ezojs.com/ezoic/sa.min.js"></script> -->
+	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
 
 	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
@@ -246,15 +244,6 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
-
-	<!-- <script>
-		function EzConsentCallback(consent) {
-			// consent contains the necessary, preferences, statistics, and marketing properties with boolean values
-			if (consent.marketing) {
-				console.log('TEST WORKING CMP');
-			}
-		}
-	</script> -->
 
 	<!-- <script
 		id="Cookiebot"
@@ -283,10 +272,6 @@
 	<MobileNav />
 	<MobileMenu />
 </div>
-
-{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
-	<MobileSticky isMobile={data.isMobile} isTablet={data.isTablet} />
-{/if}
 
 <style lang="scss">
 	main {

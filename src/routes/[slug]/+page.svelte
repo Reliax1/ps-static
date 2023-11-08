@@ -22,9 +22,9 @@
 	let oldPosition = 0;
 	let scrollPosition = 0;
 
-	// $: scrollFunc(scrollPosition);
+	$: scrollFunc(scrollPosition);
 
-	// $: if ($navigating) refreshEzoic();
+	$: if ($navigating) refreshEzoic();
 
 	const scrollFunc = (scrollPosition) => {
 		if (oldPosition < scrollPosition) {
@@ -161,7 +161,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={index}
-										start={true}
+										start={false}
 										source="mobile-inline"
 										isMobile={data.isMobile}
 									/>
@@ -173,7 +173,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={index}
-										start={true}
+										start={false}
 										source="mobile-inline"
 										isMobile={data.isMobile}
 									/>
@@ -189,7 +189,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={12}
-										start={true}
+										start={false}
 										source="tablet"
 										isMobile={data.isMobile}
 									/>
@@ -201,7 +201,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={index}
-										start={true}
+										start={false}
 										source="tablet"
 										isMobile={data.isMobile}
 									/>
@@ -229,7 +229,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={132}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>
@@ -241,7 +241,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={133}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>
@@ -253,7 +253,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={134}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>
@@ -265,7 +265,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={135}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>
@@ -277,7 +277,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={136}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>
@@ -289,7 +289,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={137}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>
@@ -301,7 +301,7 @@
 								<svelte:fragment slot="component" let:Component>
 									<Mainmedia
 										placeholder={138}
-										start={true}
+										start={false}
 										source="desktopInline"
 										isMobile={data.isMobile}
 									/>

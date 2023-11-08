@@ -28,7 +28,6 @@
 
 <div
 	class="navContainer"
-	class:navContainer-down={$HelperStore.mediaType === 'google' && $HelperStore.mobileMenuDown}
 >
 	<nav class="mobilenav1">
 		<div class="LogoSecond">

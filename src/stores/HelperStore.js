@@ -5,8 +5,7 @@ const HelperStore = writable({
 	isTablet: false,
 	mobileMenu: false,
 	openconsent: false,
-	// mediaType: 'google',
-	mediaType: null,
+	mediaType: 'google',
 	mobileMenuDown: false,
 	marketing_consent: false,
 	placeholder: {
