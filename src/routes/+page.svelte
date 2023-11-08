@@ -247,7 +247,7 @@
 
 		<Mainmedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
 
-		<!-- <div class="sdt-div">
+		<!-- <div class="sdt-div"> bla
 			<h2 class="sdt-h11">Spruch des Tages</h2>
 
 			<Spruchcard card={data.derspruch} {index} userIsMobile={data.isMobile} />
