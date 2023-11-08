@@ -325,11 +325,11 @@
 			{/if}
 		</div>
 
-		{#if !data.isMobile}
+		<!-- {#if !data.isMobile}
 			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
 				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
 			</div>
-		{/if}
+		{/if} -->
 	{/key}
 </div>
 
