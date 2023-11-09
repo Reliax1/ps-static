@@ -21,6 +21,8 @@
 		// }
 
 		// dynamic
+		console.log('lazy first', placeholder);
+		
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
