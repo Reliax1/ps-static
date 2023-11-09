@@ -3,7 +3,7 @@
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import HelperStore from '../../src/stores/HelperStore';
-	import MainMedia from '$lib/lazymedia/MainMedia.svelte';
+	import Lazymedia from '$lib/lazymedia/Lazymedia.svelte';
 
 	export let data;
 
@@ -219,7 +219,7 @@
 			</div>
 		</div>
 
-		<MainMedia placeholder={130} start={true} source="mobile-inline" isMobile={data.isMobile} />
+		<Lazymedia placeholder={130} start={true} source="mobile-inline" isMobile={data.isMobile} />
 
 		<h2 class="homebeliebt-h22">Unsere Besonderheiten</h2>
 
@@ -245,7 +245,7 @@
 			hinzu. Es lohnt sich also regelmäßig vorbeizuschauen.
 		</p>
 
-		<MainMedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
+		<Lazymedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
 
 		<div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
@@ -280,7 +280,7 @@
 	</div>
 
 	<div class="main-right">
-		<MainMedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
+		<Lazymedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
 	</div>
 </div>
 

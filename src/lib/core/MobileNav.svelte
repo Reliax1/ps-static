@@ -2,7 +2,7 @@
 	// import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import HelperStore from '../../stores/HelperStore';
-	// import MainMedia from '$lib/lazymedia/MainMedia.svelte';
+	// import Lazymedia from '$lib/lazymedia/Lazymedia.svelte';
 
 	// let offSetTracker = true;
 	// let scrollPosition = 0;

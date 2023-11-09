@@ -10,7 +10,7 @@
 	// import YellowImage from '$lib/core/YellowImage.svelte';
 	// import Media from '$lib/core/Media.svelte';
 	import Lazy from '$lib/lazymedia/Lazy.svelte';
-	import MainMedia from '$lib/lazymedia/MainMedia.svelte';
+	import Lazymedia from '$lib/lazymedia/Lazymedia.svelte';
 	import { page } from '$app/stores';
 
 	export let data;
@@ -76,21 +76,13 @@
 						$HelperStore.placeholder.define1,
 						$HelperStore.placeholder.define2
 					);
-					console.log('refreshEzoic')
+					console.log('refreshEzoic');
 				}, 500);
 
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
 				// ezstandalone.display();
 			});
 		}
-	};
-
-	const scrollToTop = () => {
-		window.scrollTo({
-			top: 0,
-			left: 0,
-			behavior: 'smooth'
-		});
 	};
 
 	// onMount(() => {
@@ -141,7 +133,7 @@
 
 					{#if index === 0}
 						<div class="sprueche-card-mobile">
-							<MainMedia
+							<Lazymedia
 								placeholder={130}
 								start={true}
 								source="mobile-inline"
@@ -158,9 +150,9 @@
 
 					{#if data.isMobile === true && data.isTablet === false}
 						{#if index === 2}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={index}
 										start={false}
 										source="mobile-inline"
@@ -170,9 +162,9 @@
 							</Lazy>
 						{/if}
 						{#if index === 5 || index === 8 || index === 11 || index === 14 || index === 17 || index === 20 || index === 23 || index === 26 || index === 29 || index === 32 || index === 35 || index === 38}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={index}
 										start={false}
 										source="mobile-inline"
@@ -183,12 +175,12 @@
 						{/if}
 					{:else if data.isTablet === true && data.isMobile === true}
 						{#if index === 3}
-							<MainMedia placeholder={141} start={true} source="tablet" isMobile={data.isMobile} />
+							<Lazymedia placeholder={141} start={true} source="tablet" isMobile={data.isMobile} />
 						{/if}
 						{#if index === 11}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={12}
 										start={false}
 										source="tablet"
@@ -198,9 +190,9 @@
 							</Lazy>
 						{/if}
 						{#if index === 7 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={index}
 										start={false}
 										source="tablet"
@@ -217,7 +209,7 @@
 						{/if}
 
 						{#if data.isMobile === false && index === 5}
-							<MainMedia
+							<Lazymedia
 								placeholder={131}
 								start={true}
 								source="desktopInline"
@@ -226,9 +218,9 @@
 						{/if}
 
 						{#if data.isMobile === false && index === 11}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={132}
 										start={false}
 										source="desktopInline"
@@ -238,9 +230,9 @@
 							</Lazy>
 						{/if}
 						{#if data.isMobile === false && index === 17}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={133}
 										start={false}
 										source="desktopInline"
@@ -250,9 +242,9 @@
 							</Lazy>
 						{/if}
 						{#if data.isMobile === false && index === 23}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={134}
 										start={false}
 										source="desktopInline"
@@ -262,9 +254,9 @@
 							</Lazy>
 						{/if}
 						{#if data.isMobile === false && index === 29}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={135}
 										start={false}
 										source="desktopInline"
@@ -274,9 +266,9 @@
 							</Lazy>
 						{/if}
 						{#if data.isMobile === false && index === 35}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={136}
 										start={false}
 										source="desktopInline"
@@ -286,9 +278,9 @@
 							</Lazy>
 						{/if}
 						{#if data.isMobile === false && index === 41}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={137}
 										start={false}
 										source="desktopInline"
@@ -298,9 +290,9 @@
 							</Lazy>
 						{/if}
 						{#if data.isMobile === false && index === 47}
-							<Lazy this={() => import('../../lib/lazymedia/MainMedia.svelte')}>
+							<Lazy this={() => import('../../lib/lazymedia/Lazymedia.svelte')}>
 								<svelte:fragment slot="component" let:Component>
-									<MainMedia
+									<Lazymedia
 										placeholder={138}
 										start={false}
 										source="desktopInline"
@@ -322,15 +314,9 @@
 			</div>
 
 			{#if data.isMobile === false}
-				<MainMedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
+				<Lazymedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
 			{/if}
 		</div>
-
-		<!-- {#if !data.isMobile}
-			<div class="scrollToTop" class:scrollToTop-opacity={showScrollToTop} on:click={scrollToTop}>
-				<img class="arrowPng" src="/svg/uparrow.svg" alt="uparrow" />
-			</div>
-		{/if} -->
 	{/key}
 </div>
 
