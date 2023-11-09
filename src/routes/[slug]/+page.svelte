@@ -48,8 +48,8 @@
 				// console.log('CHECK');
 				ezstandalone.destroyAll();
 
-				console.log('define1', $HelperStore.placeholder.define1);
-				console.log('define2', $HelperStore.placeholder.define2);
+				// console.log('define1', $HelperStore.placeholder.define1);
+				// console.log('define2', $HelperStore.placeholder.define2);
 
 				setTimeout(() => {
 					ezstandalone.displayMore(
