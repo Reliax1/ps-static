@@ -17,7 +17,7 @@
 	.media-mobile-wrapper {
 		position: fixed;
 		width: 100%;
-		background-color: rgba(255, 255, 255, 0.5);
+		background-color: #fff;
 		left: 0;
 		bottom: 0;
 		display: flex;

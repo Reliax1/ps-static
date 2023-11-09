@@ -245,7 +245,7 @@
 			hinzu. Es lohnt sich also regelmäßig vorbeizuschauen.
 		</p>
 
-		<Lazymedia placeholder={131} start={true} source="desktopInline" isMobile={data.isMobile} />
+		<Lazymedia placeholder={147} start={true} source="desktopInline" isMobile={data.isMobile} />
 
 		<div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
