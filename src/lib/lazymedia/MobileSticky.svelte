@@ -17,10 +17,11 @@
 	.media-mobile-wrapper {
 		position: fixed;
 		width: 100%;
-		background-color: #fff;
+		background-color: rgba(255, 255, 255, 0.5);
 		left: 0;
 		bottom: 0;
 		display: flex;
 		justify-content: center;
+		z-index: 999;
 	}
 </style>
