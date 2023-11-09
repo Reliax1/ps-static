@@ -32,62 +32,6 @@
 		gtag('config', mainProperty);
 	}
 
-	// const getCookie = (n) => {
-	// 	let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
-	// 	return a ? a[1] : null;
-	// };
-
-	function deleteAllCookies() {
-		document.cookie.split(';').forEach(function (c) {
-			document.cookie = c
-				.replace(/^ +/, '')
-				.replace(/=.*/, '=;expires=' + new Date().toUTCString() + ';path=/');
-		});
-
-		let cookies = document.cookie.split('; ');
-		for (let c = 0; c < cookies.length; c++) {
-			let d = window.location.hostname.split('.');
-			// console.log('d', d);
-			while (d.length > 0) {
-				let cookieBase =
-					encodeURIComponent(cookies[c].split(';')[0].split('=')[0]) +
-					'=; expires=Thu, 01-Jan-1970 00:00:01 GMT; domain=' +
-					d.join('.') +
-					' ;path=';
-				let p = location.pathname.split('/');
-				document.cookie = cookieBase + '/';
-				while (p.length > 0) {
-					document.cookie = cookieBase + p.join('/');
-					p.pop();
-				}
-				d.shift();
-			}
-		}
-	}
-
-	// const handleConsent = () => {
-	// 	window.googlefc = window.googlefc || {};
-	// 	window.googlefc.ccpa = window.googlefc.ccpa || {};
-	// 	window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
-	// 	// wait for consent
-	// 	googlefc.callbackQueue.push({
-	// 		CONSENT_DATA_READY: () => {
-	// 			window.__tcfapi('getTCData', 2.0, (data, success) => {
-	// 				const consent = data.purpose.consents['1'];
-
-	// 				if (consent === true) {
-	// 					gtag('consent', 'update', {
-	// 						ad_storage: 'granted',
-	// 						analytics_storage: 'granted'
-	// 					});
-	// 				} else {
-	// 					deleteAllCookies();
-	// 				}
-	// 			});
-	// 		}
-	// 	});
-	// };
-
 	const GoogleInit = async () => {
 		return new Promise(function (resolve, reject) {
 			let s;
@@ -98,58 +42,6 @@
 			document.head.appendChild(s);
 		}).then(callback);
 	};
-
-	// const initCockie = async () => {
-	// 	// https://manage.cookiebot.com/de/manage#
-	// 	// https://www.cookiebot.com/de/developer/
-	// 	// https://support.cookiebot.com/hc/en-us/articles/360007652694-Cookiebot-and-the-IAB-Consent-Framework
-	// 	return new Promise(function (resolve, reject) {
-	// 		let s;
-	// 		s = document.createElement('script');
-	// 		s.src =
-	// 			'https://consent.cookiebot.com/uc.js?cbid=958b264b-d084-439a-a2f7-505f79d53549&framework=TCFv2.2';
-	// 		s.onload = resolve;
-	// 		s.onerror = reject;
-	// 		document.head.appendChild(s);
-	// 	}).then(cockieEvent);
-	// };
-
-	// const cockieEvent = () => {
-	// 	window.addEventListener(
-	// 		'CookiebotOnAccept',
-	// 		function () {
-	// 			// CookiebotCallback_OnAccept();
-	// 			if (Cookiebot.consent.marketing) {
-	// 				initEzoic();
-	// 				$HelperStore.marketing_consent = true;
-	// 			}
-	// 			if (Cookiebot.consent.statistics) {
-	// 				GoogleInit();
-	// 			}
-	// 		},
-	// 		false
-	// 	);
-
-	// 	window.addEventListener(
-	// 		'CookiebotOnDecline',
-	// 		function () {
-	// 			// CookiebotCallback_OnDecline();
-	// 			deleteAllCookies();
-	// 		},
-	// 		false
-	// 	);
-	// };
-
-	// async function initEzoic() {
-	// 	return new Promise(function (resolve, reject) {
-	// 		let s;
-	// 		s = document.createElement('script');
-	// 		s.src = 'https://www.ezojs.com/ezoic/sa.min.js';
-	// 		s.onload = resolve;
-	// 		s.onerror = reject;
-	// 		document.head.appendChild(s);
-	// 	}).then(EzoicCallback);
-	// }
 
 	const EzoicCallback = () => {
 		if (data.isMobile === true && data.isTablet === false) {
@@ -189,10 +81,8 @@
 			// initEzoic();
 			EzoicCallback();
 			GoogleInit();
-			// console.log('enable');
 		} else if (localStorage['ez-consents'] != '&+&') {
 			setTimeout(() => {
-				// console.log('NOT ENABLED');
 				localstorageEnable();
 			}, 500);
 		}

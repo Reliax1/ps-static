@@ -76,7 +76,6 @@
 						$HelperStore.placeholder.define1,
 						$HelperStore.placeholder.define2
 					);
-					console.log('refreshEzoic');
 				}, 500);
 
 				// ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
