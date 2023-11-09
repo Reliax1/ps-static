@@ -56,6 +56,9 @@
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
 		}
 
+		console.log('define1', $HelperStore.placeholder.define1);
+		console.log('define2', $HelperStore.placeholder.define2);
+
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
 		ezstandalone.cmd.push(function () {
@@ -80,7 +83,7 @@
 	const localstorageEnable = () => {
 		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
 			// initEzoic();
-			console.log('ezoic enabled')
+			console.log('ezoic enabled');
 			EzoicCallback();
 			GoogleInit();
 		} else if (localStorage['ez-consents'] != '&+&') {
