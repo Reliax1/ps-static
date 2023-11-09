@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
-	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
@@ -32,18 +31,6 @@
 
 		gtag('config', mainProperty);
 	}
-
-	// async function initGoogleads() {
-	// 	return new Promise(function (resolve, reject) {
-	// 		let s;
-	// 		s = document.createElement('script');
-	// 		s.src =
-	// 			'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
-	// 		s.onload = resolve;
-	// 		s.onerror = reject;
-	// 		document.head.appendChild(s);
-	// 	});
-	// }
 
 	// const getCookie = (n) => {
 	// 	let a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
@@ -165,8 +152,6 @@
 	// }
 
 	const EzoicCallback = () => {
-		// console.log('$page.routeId', $page.routeId);
-
 		if (data.isMobile === true && data.isTablet === false) {
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
@@ -219,8 +204,6 @@
 			localstorageEnable();
 		}
 
-		// initCockie();
-
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
@@ -244,23 +227,11 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
-
-	<!-- <script
-		id="Cookiebot"
-		src="https://consent.cookiebot.com/uc.js"
-		data-cbid="958b264b-d084-439a-a2f7-505f79d53549"
-		data-blockingmode="auto"
-		data-framework="IAB"
-		type="text/javascript"></script> -->
 </svelte:head>
 
 <div class="desktop-wrapper">
 	<DesktopHeader />
 </div>
-
-<!-- <div class="mobile-wrapper">
-	<MobileLogo />
-</div> -->
 
 <main>
 	<slot />
