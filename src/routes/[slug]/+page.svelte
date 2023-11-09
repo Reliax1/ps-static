@@ -210,7 +210,7 @@
 
 						{#if data.isMobile === false && index === 5}
 							<Lazymedia
-								placeholder={131}
+								placeholder={147}
 								start={true}
 								source="desktopInline"
 								isMobile={data.isMobile}

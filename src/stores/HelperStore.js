@@ -12,7 +12,7 @@ const HelperStore = writable({
 		mobile_inline: 130,
 		desktopsticky: 103,
 		mobileBanner: null, // 106
-		desktopInline: 131,
+		desktopInline: 147,
 		tablet: 141,
 		define1: null,
 		define2: null
