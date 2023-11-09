@@ -7,6 +7,7 @@
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
+	import MobileSticky from '$lib/lazymedia/MobileSticky.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
@@ -133,6 +134,10 @@
 	<MobileNav />
 	<MobileMenu />
 </div>
+
+{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
+	<MobileSticky isMobile={data.isMobile} isTablet={data.isTablet} />
+{/if}
 
 <style lang="scss">
 	main {
