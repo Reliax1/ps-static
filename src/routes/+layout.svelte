@@ -56,8 +56,8 @@
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
 		}
 
-		console.log('define1', $HelperStore.placeholder.define1);
-		console.log('define2', $HelperStore.placeholder.define2);
+		// console.log('define1', $HelperStore.placeholder.define1);
+		// console.log('define2', $HelperStore.placeholder.define2);
 
 		window.ezstandalone = window.ezstandalone || {};
 		ezstandalone.cmd = ezstandalone.cmd || [];
