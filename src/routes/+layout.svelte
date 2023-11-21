@@ -123,6 +123,15 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
+
+	<script>
+		function EzConsentCallback(consent) {
+			// consent contains the necessary, preferences, statistics, and marketing properties with boolean values
+			if (consent.marketing) {
+				console.log('check');
+			}
+		}
+	</script>
 </svelte:head>
 
 <div class="desktop-wrapper">
