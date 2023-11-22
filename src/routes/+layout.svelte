@@ -128,7 +128,7 @@
 		function EzConsentCallback(consent) {
 			// consent contains the necessary, preferences, statistics, and marketing properties with boolean values
 			if (consent.marketing) {
-				console.log('check111111111');
+				console.log('check');
 			}
 		}
 	</script>
