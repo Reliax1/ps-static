@@ -84,7 +84,7 @@
 		// if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
 		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10,11&1,2+&') {
 			// initEzoic();
-			console.log('ezoic enabled');
+			// console.log('ezoic enabled');
 			EzoicCallback();
 			GoogleInit();
 		} else if (localStorage['ez-consents'] != '&+&') {
