@@ -98,7 +98,7 @@
 
 	onMount(async () => {
 		if (dev === false) {
-			// ezoicCMP();
+			ezoicCMP();
 			localstorageEnable();
 		}
 
@@ -108,11 +108,9 @@
 </script>
 
 <svelte:head>
-	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-
-	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<meta property="fb:app_id" content="4683318608362940" />
 	<meta property="og:site_name" content="PerfekterSpruch" />
