@@ -95,10 +95,10 @@
 	};
 
 	onMount(async () => {
-		if (dev === false) {
-			ezoicCMP();
-			localstorageEnable();
-		}
+		// if (dev === false) {
+		// 	ezoicCMP();
+		// 	localstorageEnable();
+		// }
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
@@ -106,6 +106,7 @@
 </script>
 
 <svelte:head>
+	<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
 	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
 
 	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
