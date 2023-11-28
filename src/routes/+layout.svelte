@@ -95,10 +95,10 @@
 	};
 
 	onMount(async () => {
-		// if (dev === false) {
-		// 	ezoicCMP();
-		// 	localstorageEnable();
-		// }
+		if (dev === false) {
+			ezoicCMP();
+			localstorageEnable();
+		}
 
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
