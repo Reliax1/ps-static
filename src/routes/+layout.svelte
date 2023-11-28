@@ -82,7 +82,8 @@
 
 	const localstorageEnable = () => {
 		// if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
-		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10,11&1,2+&') {
+		// if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10,11&1,2+&') {
+		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10,11&1,2') {
 			// initEzoic();
 			// console.log('ezoic enabled');
 			EzoicCallback();
@@ -91,7 +92,7 @@
 			setTimeout(() => {
 				localstorageEnable();
 				// }, 500);
-			}, 2000);
+			}, 500);
 		}
 	};
 
