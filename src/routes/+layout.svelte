@@ -90,13 +90,14 @@
 		} else if (localStorage['ez-consents'] != '&+&') {
 			setTimeout(() => {
 				localstorageEnable();
-			}, 500);
+				// }, 500);
+			}, 2000);
 		}
 	};
 
 	onMount(async () => {
 		if (dev === false) {
-			ezoicCMP();
+			// ezoicCMP();
 			localstorageEnable();
 		}
 
