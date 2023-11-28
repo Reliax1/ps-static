@@ -110,31 +110,6 @@
 
 	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
 
-	<script>
-		if (data.isMobile === true && data.isTablet === false) {
-			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
-			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
-		} else if (data.isMobile === false) {
-			$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
-			$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
-		} else if (data.isMobile === true && data.isTablet === true) {
-			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobileBanner;
-			$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
-		}
-
-		// console.log('define1', $HelperStore.placeholder.define1);
-		// console.log('define2', $HelperStore.placeholder.define2);
-
-		window.ezstandalone = window.ezstandalone || {};
-		ezstandalone.cmd = ezstandalone.cmd || [];
-		ezstandalone.cmd.push(function () {
-			ezstandalone.enableConsent();
-			ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
-			ezstandalone.enable();
-			ezstandalone.display();
-		});
-	</script>
-
 	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
 
 	<meta property="fb:app_id" content="4683318608362940" />
