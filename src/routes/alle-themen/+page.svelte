@@ -2,7 +2,7 @@
 	import { dev } from '$app/environment';
 	import ContentStore from '../../stores/ContentStore';
 
-	export let data;
+	// export let data;
 
 	let setUrl = dev ? 'http://localhost:5173' : 'https://perfekterspruch.de';
 </script>
@@ -36,13 +36,13 @@
 <div class="alle-themen-wrapper">
 	<h1>Alle Themen</h1>
 
-	<ul>
+	<!-- <ul>
 		{#each data.final_array as data}
 			<li>
 				<a href="{setUrl}/{data.link}/">{data.name}</a>
 			</li>
 		{/each}
-	</ul>
+	</ul> -->
 </div>
 
 <style lang="scss">
