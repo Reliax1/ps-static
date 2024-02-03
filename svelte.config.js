@@ -17,7 +17,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		prerender: {
-			crawl: true,
+			// crawl: true,
 			entries: [
 				...pathArray,
 				'*',
