@@ -45,6 +45,8 @@
 	};
 
 	const EzoicCallback = () => {
+		$HelperStore.consent = true;
+
 		if (data.isMobile === true && data.isTablet === false) {
 			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
 			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
@@ -126,14 +128,14 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<script>
+	<!-- <script>
 		function EzConsentCallback(consent) {
 			// consent contains the necessary, preferences, statistics, and marketing properties with boolean values
 			if (consent.marketing) {
 				console.log('check');
 			}
 		}
-	</script>
+	</script> -->
 </svelte:head>
 
 <div class="desktop-wrapper">

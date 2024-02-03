@@ -1,6 +1,7 @@
 import { writable } from 'svelte/store';
 
 const HelperStore = writable({
+	consent: false,
 	isMobile: false,
 	isTablet: false,
 	mobileMenu: false,

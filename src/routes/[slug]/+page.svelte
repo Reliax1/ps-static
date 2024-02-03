@@ -43,21 +43,19 @@
 	};
 
 	const refreshEzoic = () => {
-		if (dev === false) {
-			window.ezstandalone.cmd.push(function () {
-				// console.log('CHECK');
-				ezstandalone.destroyAll();
+		if ($HelperStore.consent === true) {
+			if (dev === false) {
+				window.ezstandalone.cmd.push(function () {
+					ezstandalone.destroyAll();
 
-				// console.log('define1', $HelperStore.placeholder.define1);
-				// console.log('define2', $HelperStore.placeholder.define2);
-
-				setTimeout(() => {
-					ezstandalone.displayMore(
-						$HelperStore.placeholder.define1,
-						$HelperStore.placeholder.define2
-					);
-				}, 500);
-			});
+					setTimeout(() => {
+						ezstandalone.displayMore(
+							$HelperStore.placeholder.define1,
+							$HelperStore.placeholder.define2
+						);
+					}, 500);
+				});
+			}
 		}
 	};
 
