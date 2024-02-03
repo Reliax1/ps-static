@@ -1,10 +1,12 @@
 {
-
-	"redirects": [
+	"rewrites": [
 		{
-			"source": "/ads.txt",
-			"destination": "https://srv.adstxtmanager.com/19390/perfekterspruch.de",
-			"statusCode": 301
+			"source": "/stats/js/script.js",
+			"destination": "https://p.macheskurz.de/js/script.js"
+		},
+		{
+			"source": "/stats/api/event/",
+			"destination": "https://p.macheskurz.de/api/event"
 		}
 	]
 }
