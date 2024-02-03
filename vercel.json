@@ -1,0 +1,10 @@
+{
+
+	"redirects": [
+		{
+			"source": "/ads.txt",
+			"destination": "https://srv.adstxtmanager.com/19390/perfekterspruch.de",
+			"statusCode": 301
+		}
+	]
+}
