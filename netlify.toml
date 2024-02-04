@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/ads.txt"
+  to = "https://srv.adstxtmanager.com/19390/perfekterspruch.de"
+  status = 301
+  force = true
+
+[[redirects]]
+from = "/stats/js/script.js"
+to = "https://p.macheskurz.de/js/script.js"
+status = 200
+force = true
+
+[[redirects]]
+from = "/stats/api/event/"
+to = "https://p.macheskurz.de/api/event"
+status = 200
+force = true
