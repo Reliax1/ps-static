@@ -272,7 +272,7 @@
 			<strong>„Wünsche“</strong> findest du Glückwünsche zu traditionellen Anlässen wie Konfirmation
 			und Hochzeit und vielen weiteren Feiertagen. Unter unserem letzten Menüpunkt
 			<strong>„Guten Morgen“</strong> findest du Sprüche, mit denen du deiner Familie, Freunden und Bekannten
-			eine Freude direkt am Morgen bereiten kannst test.
+			eine Freude direkt am Morgen bereiten kannst.
 		</p>
 		<h2 class="sdt-h11">Sprüche und Zitate Generator</h2>
 
