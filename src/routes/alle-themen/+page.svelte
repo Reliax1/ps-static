@@ -1,6 +1,5 @@
 <script>
 	import { dev } from '$app/environment';
-	import ContentStore from '../../stores/ContentStore';
 
 	export let data;
 
