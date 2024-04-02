@@ -237,25 +237,7 @@
 		Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck ein.
 	</p>
 
-	<h2>6. EZOIC</h2>
-	<p>
-		Diese Website nutzt die Dienste von Ezoic Inc. („Ezoic“). Die Datenschutzrichtlinie von Ezoic
-		finden Sie <a href="https://www.ezoic.com/privacy-policy/">hier</a>. Ezoic kann auf dieser
-		Website verschiedene Technologien einsetzen, einschließlich der Anzeige von Werbung und der
-		Ermöglichung von Werbung für Besucher dieser Website. Weitere Informationen zu den Werbepartnern
-		von Ezoic finden Sie <a href="https://www.ezoic.com/privacy-policy/ad-partners/">hier</a> auf der
-		Werbepartnerseite von Ezoic.
-	</p>
-	<p>
-		<a href="http://g.ezoic.net/privacy/perfekterspruch.de/annualRequestSummary"
-			>http://g.ezoic.net/privacy/perfekterspruch.de/annualRequestSummary</a
-		>
-	</p>
-	<p>
-		<a href="//g.ezoic.net/privacy/perfekterspruch.de">//g.ezoic.net/privacy/perfekterspruch.de</a>
-	</p>
-
-	<h2>7. Kontakt</h2>
+	<h2>6. Kontakt</h2>
 	<h3>Initiativ-Kontaktaufnahme des Kunden per E-Mail</h3>
 	<p>
 		Wenn Sie per E-Mail initiativ mit uns in Geschäftskontakt treten, erheben wir Ihre
@@ -274,7 +256,7 @@
 		Verarbeitung und Nutzung nicht zugestimmt haben.
 	</p>
 
-	<h2>8. Social Media Links</h2>
+	<h2>7. Social Media Links</h2>
 	<p>
 		Wir verlinken auf unserer Webseite durch die Nutzung der jeweiligen Symbole auf die Social
 		Media-Plattformen Facebook, Instagram, und YouTube. Es handelt sich dabei um Hyperlinks, über
@@ -303,7 +285,7 @@
 		bitten den Datenschutzrichtlinien der jeweiligen Plattform.
 	</p>
 
-	<h2>9. Dauer der Datenspeicherung</h2>
+	<h2>8. Dauer der Datenspeicherung</h2>
 	<p>
 		Wir speichern Ihre Daten so lange, wie es der jeweilige Zweck unter Abwägung Ihrer berechtigten
 		Interessen erfordert. Besteht für bestimmte Daten, die für die Abwicklung von Kaufverträgen
@@ -324,8 +306,8 @@
 		Externe Dienstleister und professionelle Berater wie Anwälte, Wirtschaftsprüfer, Buchhalter.
 	</p>
 
-	<h2>10. Kontaktmöglichkeiten und Ihre Rechte</h2>
-	<h3>10.1 Ihre Rechte</h3>
+	<h2>9. Kontaktmöglichkeiten und Ihre Rechte</h2>
+	<h3>9.1 Ihre Rechte</h3>
 	<p>Als Betroffener haben Sie folgende Rechte:</p>
 	<ul>
 		<li>
@@ -395,7 +377,7 @@
 		Ihre personenbezogenen Daten nicht weiter zu diesem Zweck verarbeiten.
 	</p>
 
-	<h2>10.2 Kontaktmöglichkeiten</h2>
+	<h2>9.2 Kontaktmöglichkeiten</h2>
 	<p>
 		Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei
 		Auskünften, Berichtigung, Einschränkung oder Löschung von Daten sowie Widerruf erteilter
@@ -403,7 +385,7 @@
 		direkt an uns über die E-Mail-Adresse: perfekterspruch@gmail.com.
 	</p>
 
-	<p>Letzte Aktualisierung: 04.10.2023</p>
+	<p>Letzte Aktualisierung: 18.09.2023</p>
 </div>
 
 <style lang="scss">

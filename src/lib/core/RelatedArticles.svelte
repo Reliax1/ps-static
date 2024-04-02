@@ -108,14 +108,6 @@
 		}
 	}
 
-	.tabbed-icons {
-		-ms-overflow-style: none; /* Internet Explorer 10+ */
-		scrollbar-width: none; /* Firefox */
-	}
-	.tabbed-icons::-webkit-scrollbar {
-		display: none; /* Safari and Chrome */
-	}
-
 	.tabbed-icons:first-child {
 		margin-left: 1.75vw;
 	}

@@ -34,11 +34,6 @@
 			// initMedia();
 			(window.adsbygoogle = window.adsbygoogle || []).push({});
 		}
-		// setTimeout(() => {
-		// 	if (isMobile === manuelMobile && $HelperStore.mediaType === 'google') {
-		// 		initMedia();
-		// 	}
-		// }, 500);
 	});
 </script>
 
@@ -46,12 +41,18 @@
 	class:yellow-wrapper-mobile={source === 'normal' && manuelMobile === true}
 	class:yellow-wrapper-desktop={source === 'normal' && manuelMobile === false}
 >
-	<!-- {#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined} -->
 	{#if source === 'normal' && isMobile === manuelMobile}
+		<!-- {#if source === 'normal' && isMobile === manuelMobile && localStorage.consent != undefined} -->
 		{#if source === 'normal' && $HelperStore.mediaType === 'yellow'}
 			<a href="https://www.arkunis.de/konfigurator" target="_blank">
-				<!-- <div class="anz-desktop">Anzeige</div> -->
-				<picture>
+				<div class="anz-desktop">Anzeige</div>
+				<img
+					class:yellow-image-mobile={manuelMobile === true}
+					class:yellow-image-desktop={manuelMobile === false}
+					src="/png/arkunis1.png"
+					alt="arkunis1"
+				/>
+				<!-- <picture>
 					<source
 						sizes={yellowSizes}
 						srcSet="{yellowBaseUrl}/1366/avif/{imageNumber}.avif 304w, {yellowBaseUrl}/1920/avif/{imageNumber}.avif 427w, {yellowBaseUrl}/2560/avif/{imageNumber}.avif 423w, {yellowBaseUrl}/3840/avif/{imageNumber}.avif 417w, {yellowBaseUrl}/360/avif/{imageNumber}.avif 912w"
@@ -70,7 +71,7 @@
 						srcSet="{yellowBaseUrl}/1366/jpg/{imageNumber}.jpg 304w, {yellowBaseUrl}/1920/jpg/{imageNumber}.jpg 427w, {yellowBaseUrl}/2560/jpg/{imageNumber}.jpg 423w, {yellowBaseUrl}/3840/jpg/{imageNumber}.jpg 417w, {yellowBaseUrl}/360/jpg/{imageNumber}.jpg 912w"
 						alt="yellow"
 					/>
-				</picture>
+				</picture> -->
 			</a>
 		{:else if source === 'normal' && $HelperStore.mediaType === 'google'}
 			<div class="goo">
@@ -100,7 +101,7 @@
 {#if source === 'mobileBanner' && $HelperStore.mediaType === 'google' && isMobile === true}
 	<ins
 		class="adsbygoogle"
-		style="display:inline-block;width:360px;height:50px"
+		style="display:inline-block;width:320px;height:50px"
 		data-ad-client="ca-pub-6800691774097678"
 		data-ad-slot="1381512858"
 	/>
@@ -118,17 +119,24 @@
 			data-full-width-responsive="true"
 		/>
 	</div>
-{:else if source === 'mobileTablet' && $HelperStore.mediaType === 'google' && isMobile === true}
-	<ins
-		class="adsbygoogle"
-		style="display:inline-block;width:450px;height:60px"
-		data-ad-client="ca-pub-6800691774097678"
-		data-ad-slot="9764481470"
-	/>
+{:else if source === 'tablet' && $HelperStore.mediaType === 'google' && isMobile === true}
+	<div class="tablet-inline-wrapper">
+		<ins
+			class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-6800691774097678"
+			data-ad-slot="1958143648"
+			data-ad-format="auto"
+			data-full-width-responsive="true"
+		/>
+	</div>
 {/if}
 
 <style lang="scss">
 	.desktop-inline-wrapper {
+		display: none;
+	}
+	.tablet-inline-wrapper {
 		display: none;
 	}
 	.desktop-inline-active {
@@ -248,6 +256,15 @@
 		}
 		.yellow-image-mobile {
 			display: none !important;
+		}
+	}
+
+	@media screen and (min-width: 480px) and (max-width: 1024px) {
+		.tablet-inline-wrapper {
+			display: block;
+			width: 100%;
+			margin: 3vh auto;
+			height: 300px;
 		}
 	}
 </style>

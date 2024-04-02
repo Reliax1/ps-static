@@ -1,13 +1,14 @@
 <script>
-	import { page } from '$app/stores';
-	import { dev } from '$app/environment';
 	import { onMount } from 'svelte';
+	// import loader from '@beyonk/async-script-loader';
+	// import { GoogleAnalytics } from '@beyonk/svelte-google-analytics';
 	import HelperStore from '../../src/stores/HelperStore';
 	import DesktopHeader from '$lib/core/DesktopHeader.svelte';
+	import MobileLogo from '$lib/core/MobileLogo.svelte';
 	import MobileNav from '$lib/core/MobileNav.svelte';
 	import MobileMenu from '$lib/core/MobileMenu.svelte';
 	import TheFooter from '$lib/core/TheFooter.svelte';
-	import MobileSticky from '$lib/lazymedia/MobileSticky.svelte';
+	// import ConsentBanner from '$lib/core/ConsentBanner.svelte';
 
 	import '../styles/global.css';
 	import '../styles/global.scss';
@@ -16,104 +17,67 @@
 
 	const mainProperty = 'G-7PT3JH3660';
 
-	function gtag() {
-		window.dataLayer.push(arguments);
-	}
+	// async function init() {
+	// 	await loader(
+	// 		[
+	// 			{
+	// 				type: 'script',
+	// 				url: `https://www.googletagmanager.com/gtag/js?id=${mainProperty}`
+	// 			}
+	// 		],
+	// 		test,
+	// 		callback
+	// 	);
+	// }
 
-	function callback() {
-		window.dataLayer = window.dataLayer || [];
+	// function test() {
+	// 	return Boolean(window.dataLayer).valueOf() && Array.isArray(window.dataLayer);
+	// }
 
-		// gtag('consent', 'default', {
-		// 	ad_storage: 'denied',
-		// 	analytics_storage: 'denied'
-		// });
+	// function gtag() {
+	// 	window.dataLayer.push(arguments);
+	// }
 
-		gtag('js', new Date());
+	// function callback() {
+	// 	window.dataLayer = window.dataLayer || [];
 
-		gtag('config', mainProperty);
-	}
+	// 	// if (localStorage.consent != 'true') {
+	// 	// 	$HelperStore.mediaType = 'yellow';
 
-	const GoogleInit = async () => {
+	// 	// 	gtag('consent', 'default', {
+	// 	// 		ad_storage: 'denied',
+	// 	// 		analytics_storage: 'denied'
+	// 	// 	});
+	// 	// } else if (localStorage.consent === 'true') {
+	// 	// 	$HelperStore.mediaType = 'google';
+	// 	// }
+
+	// 	gtag('js', new Date());
+
+	// 	gtag('config', mainProperty);
+	// }
+
+	async function initBanner() {
 		return new Promise(function (resolve, reject) {
 			let s;
 			s = document.createElement('script');
-			s.src = `https://www.googletagmanager.com/gtag/js?id=${mainProperty}`;
-			s.onload = resolve;
-			s.onerror = reject;
-			document.head.appendChild(s);
-		}).then(callback);
-	};
-
-	const EzoicCallback = () => {
-		$HelperStore.consent = true;
-
-		if (data.isMobile === true && data.isTablet === false) {
-			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobile_inline;
-			$HelperStore.placeholder.define2 = $HelperStore.placeholder.mobileBanner;
-		} else if (data.isMobile === false) {
-			$HelperStore.placeholder.define1 = $HelperStore.placeholder.desktopsticky;
-			$HelperStore.placeholder.define2 = $HelperStore.placeholder.desktopInline;
-		} else if (data.isMobile === true && data.isTablet === true) {
-			$HelperStore.placeholder.define1 = $HelperStore.placeholder.mobileBanner;
-			$HelperStore.placeholder.define2 = $HelperStore.placeholder.tablet;
-		}
-
-		// console.log('define1', $HelperStore.placeholder.define1);
-		// console.log('define2', $HelperStore.placeholder.define2);
-
-		window.ezstandalone = window.ezstandalone || {};
-		ezstandalone.cmd = ezstandalone.cmd || [];
-		ezstandalone.cmd.push(function () {
-			ezstandalone.enableConsent();
-			ezstandalone.define($HelperStore.placeholder.define1, $HelperStore.placeholder.define2);
-			ezstandalone.enable();
-			ezstandalone.display();
-		});
-	};
-
-	async function ezoicCMP() {
-		return new Promise(function (resolve, reject) {
-			let s;
-			s = document.createElement('script');
-			s.src = 'https://the.gatekeeperconsent.com/cmp.min.js';
+			s.src =
+				'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678';
 			s.onload = resolve;
 			s.onerror = reject;
 			document.head.appendChild(s);
 		});
 	}
-
-	const localstorageEnable = () => {
-		// if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10&1,2+&') {
-		// if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10,11&1,2+&') {
-		if (localStorage['ez-consents'] == '1,2,3,4,5,6,7,8,9,10,11&1,2') {
-			// initEzoic();
-			// console.log('ezoic enabled');
-			EzoicCallback();
-			GoogleInit();
-		} else if (localStorage['ez-consents'] != '&+&') {
-			setTimeout(() => {
-				localstorageEnable();
-				// }, 500);
-			}, 500);
-		}
-	};
 
 	onMount(async () => {
-		if (dev === false) {
-			ezoicCMP();
-			localstorageEnable();
-		}
-
+		initBanner();
+		// init();
 		$HelperStore.isMobile = data.isMobile;
 		$HelperStore.isTablet = data.isTablet;
 	});
 </script>
 
 <svelte:head>
-	<!-- <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script> -->
-
-	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-
 	<meta property="fb:app_id" content="4683318608362940" />
 	<meta property="og:site_name" content="PerfekterSpruch" />
 	<meta property="og:type" content="website" />
@@ -128,34 +92,54 @@
 	<meta name="twitter:site" content="@PerfekterSpruch" />
 	<meta name="twitter:image" content="https://perfekterspruch.de/png/metalogobig.jpg" />
 
-	<!-- <script>
-		function EzConsentCallback(consent) {
-			// consent contains the necessary, preferences, statistics, and marketing properties with boolean values
-			if (consent.marketing) {
-				console.log('check');
-			}
+	<meta name="google-adsense-account" content="ca-pub-6800691774097678" />
+
+	<!-- <script
+		async
+		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6800691774097678"
+		crossorigin="anonymous"></script> -->
+
+	<!-- Google tag (gtag.js) -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PT3JH3660"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
 		}
+		gtag('consent', 'default', {
+			ad_storage: 'denied',
+			analytics_storage: 'denied'
+		});
+
+		gtag('js', new Date());
+
+		gtag('config', 'G-7PT3JH3660');
 	</script> -->
+
+	<!-- <GoogleAnalytics bind:this={ga} properties={['G-7PT3JH3660']} enabled={false} /> -->
 </svelte:head>
 
 <div class="desktop-wrapper">
 	<DesktopHeader />
 </div>
 
+<div class="mobile-wrapper">
+	<MobileLogo />
+</div>
+
 <main>
 	<slot />
-
+	<!-- <div class="the-footer"> -->
 	<TheFooter />
+	<!-- </div> -->
 </main>
+
+<!-- <ConsentBanner /> -->
 
 <div class="mobile-wrapper">
 	<MobileNav />
 	<MobileMenu />
 </div>
-
-{#if $HelperStore.isMobile === true && $HelperStore.mediaType === 'google' && ($page.routeId === '[slug]' || $page.url.pathname === '/')}
-	<MobileSticky isMobile={data.isMobile} isTablet={data.isTablet} />
-{/if}
 
 <style lang="scss">
 	main {
@@ -174,12 +158,30 @@
 		display: none;
 	}
 
+	// button {
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 5vw;
+	// 	height: 5vw;
+	// 	background-color: grey;
+	// 	padding: 2vw;
+	// 	z-index: 999;
+	// }
+
+	.the-footer {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+
 	@media (max-width: 1024px) {
 		main {
 			grid-template-columns: 1fr;
 			margin-top: 0;
 			overflow-x: hidden;
-			margin-top: 55px; // delete or 50px ? calc(50px + 20vw) // 55px
+			margin-bottom: 55px; // delete or 50px ? calc(50px + 20vw) // 55px
 		}
 		.desktop-wrapper {
 			display: none;

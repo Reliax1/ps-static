@@ -19,7 +19,7 @@
 {:else}
 	{#await componentPromise}
 		<!-- <slot name="loading">Loading...</slot> -->
-	{:then { default: Lazymedia }}
-		<slot name="component" {Lazymedia} />
+	{:then { default: Component }}
+		<slot name="component" {Component} />
 	{/await}
 {/if}

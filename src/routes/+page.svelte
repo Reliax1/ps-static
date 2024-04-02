@@ -3,7 +3,6 @@
 	import Spruchcard from '$lib/cards/Spruchcard.svelte';
 	import SZGenerator from '$lib/cards/SZGenerator.svelte';
 	import HelperStore from '../../src/stores/HelperStore';
-	import Lazymedia from '$lib/lazymedia/Lazymedia.svelte';
 
 	export let data;
 
@@ -219,11 +218,9 @@
 			</div>
 		</div>
 
-		<Lazymedia placeholder={130} start={true} source="mobile-inline" isMobile={data.isMobile} />
-
 		<h2 class="homebeliebt-h22">Unsere Besonderheiten</h2>
 
-		<p class="home-pp desktop-margin">
+		<p class="home-pp">
 			Bei uns findest du täglich einen neuen
 			<a
 				class="intern-link-generator"
@@ -244,8 +241,6 @@
 			Aktuell befindet sich die Seite im Aufbau und es kommen täglich viele neue Sprüche und Themen
 			hinzu. Es lohnt sich also regelmäßig vorbeizuschauen.
 		</p>
-
-		<Lazymedia placeholder={147} start={true} source="desktopInline" isMobile={data.isMobile} />
 
 		<div class="sdt-div">
 			<h2 class="sdt-h11">Spruch des Tages</h2>
@@ -278,24 +273,14 @@
 
 		<SZGenerator />
 	</div>
-
-	<div class="main-right">
-		<Lazymedia placeholder={103} start={true} source="desktopsticky" isMobile={data.isMobile} />
-	</div>
 </div>
 
 <style lang="scss">
 	.main-container22 {
 		position: relative;
-		display: grid;
-		gap: 0 2vw;
-		grid-template-columns: 80% 20%;
 		width: 80%;
 		height: auto;
 		margin-top: -2vh;
-	}
-	.desktop-margin {
-		margin-bottom: 2vw;
 	}
 	.home-top {
 		padding: 1.5vw 0;
@@ -303,7 +288,6 @@
 	}
 	.home-h11 {
 		font-size: $font-h2-slug;
-		text-align: center;
 	}
 	.home-pp {
 		font-size: $font-text;
@@ -417,13 +401,6 @@
 			font-size: 7vw;
 			width: 100%;
 		}
-		.desktop-margin {
-			margin-bottom: 0vw;
-		}
-
-		.home-beliebt {
-			margin-bottom: 8vw;
-		}
 
 		.sdt-div {
 			width: 100%;
@@ -433,9 +410,6 @@
 		.main-container22 {
 			width: 100%;
 			margin-top: 0;
-			display: block;
-			gap: unset;
-			grid-template-columns: unset;
 			// padding: 2vh 0;
 		}
 		.home-top {

@@ -1,7 +1,6 @@
 <script>
 	import { dev } from '$app/environment';
-
-	export let data;
+	import ContentStore from '../../stores/ContentStore';
 
 	let setUrl = dev ? 'http://localhost:5173' : 'https://perfekterspruch.de';
 </script>
@@ -35,13 +34,28 @@
 <div class="alle-themen-wrapper">
 	<h1>Alle Themen</h1>
 
-	<ul>
-		{#each data.final_array as data}
-			<li>
-				<a href="{setUrl}/{data.link}/">{data.name}</a>
-			</li>
-		{/each}
-	</ul>
+	{#each $ContentStore.all_header as header, index}
+		<h2>{header.headerName}</h2>
+		<ul>
+			{#each header.data as data}
+				<li>
+					<a href="{setUrl}/{data.link}/">{data.name}</a>
+				</li>
+			{/each}
+			{#if index === 4}
+				{#each header.runderGb as runderGb}
+					<li>
+						<a href="{setUrl}/{runderGb.link}/">{runderGb.name}</a>
+					</li>
+				{/each}
+				{#each header.nichtRunderGb as nichtRunderGb}
+					<li>
+						<a href="{setUrl}/{nichtRunderGb.link}/">{nichtRunderGb.name}</a>
+					</li>
+				{/each}
+			{/if}
+		</ul>
+	{/each}
 </div>
 
 <style lang="scss">
