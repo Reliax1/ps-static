@@ -44,6 +44,30 @@ const ContentStore = writable({
 				{
 					name: 'Einsamkeit Sprüche',
 					link: 'einsamkeit-sprueche'
+				},
+				{
+					name: 'Respekt Sprüche',
+					link: 'respekt-sprueche'
+				},
+				{
+					name: 'Sprüche für die Seele',
+					link: 'sprueche-fuer-die-seele'
+				},
+				{
+					name: 'Freiheit Sprüche',
+					link: 'freiheit-sprueche'
+				},
+				{
+					name: 'Gedanken und Gefühle Sprüche',
+					link: 'gedanken-gefuehle-sprueche'
+				},
+				{
+					name: 'Ehrlichkeit Sprüche',
+					link: 'ehrlichkeit-sprueche'
+				},
+				{
+					name: 'Träume Sprüche',
+					link: 'traeume-sprueche'
 				}
 			]
 		},
@@ -65,6 +89,22 @@ const ContentStore = writable({
 				{
 					name: 'Valentinstag Sprüche',
 					link: 'valentinstag-sprueche'
+				},
+				{
+					name: 'Herz über Kopf Sprüche',
+					link: 'herz-ueber-kopf-sprueche'
+				},
+				{
+					name: 'Gute Nacht mein Schatz Sprüche',
+					link: 'gute-nacht-mein-schatz'
+				},
+				{
+					name: 'Sprüche über Liebe',
+					link: 'sprueche-liebe'
+				},
+				{
+					name: 'Hab dich lieb Bilder',
+					link: 'hab-dich-lieb-bilder'
 				}
 			]
 		},
@@ -126,6 +166,50 @@ const ContentStore = writable({
 				{
 					name: 'Zitate & Sprüche Generator',
 					link: 'zitate-sprueche-generator'
+				},
+				{
+					name: 'Schöne WhatsApp Freundschaft Sprüche',
+					link: 'freundschaft-whatsapp-schoene-sprueche'
+				},
+				{
+					name: 'Alles wird gut Sprüche',
+					link: 'alles-wird-gut-sprueche'
+				},
+				{
+					name: 'Zweideutige Sprüche',
+					link: 'zweideutige-sprueche'
+				},
+				{
+					name: 'Meer Sprüche',
+					link: 'meer-sprueche'
+				},
+				{
+					name: 'Humor Sprüche über das Leben',
+					link: 'humor-sprueche-leben'
+				},
+				{
+					name: 'Mama Sprüche',
+					link: 'mama-sprueche'
+				},
+				{
+					name: 'Danke sagen Sprüche',
+					link: 'danke-sagen'
+				},
+				{
+					name: 'Sprüche zum Lachen',
+					link: 'lachen-sprueche'
+				},
+				{
+					name: 'Ich hab Urlaub Sprüche',
+					link: 'ich-hab-urlaub-sprueche'
+				},
+				{
+					name: 'Dankbarkeit Sprüche',
+					link: 'dankbarkeit-sprueche'
+				},
+				{
+					name: 'Arbeit Sprüche',
+					link: 'arbeit-sprueche'
 				}
 			]
 		},
@@ -155,6 +239,10 @@ const ContentStore = writable({
 				{
 					name: 'Schönes Wochenende Bilder',
 					link: 'schoenes-wochenende-bilder'
+				},
+				{
+					name: 'Witzige Wochenstart Sprüche',
+					link: 'wochenstart-witzig'
 				},
 				{
 					name: 'Sonntagsgrüße',
@@ -252,6 +340,10 @@ const ContentStore = writable({
 				{
 					name: 'Geburtstagswünsche Kollegin',
 					link: 'geburtstagswuensche-kollegin'
+				},
+				{
+					name: 'Lustige Geburtstagssprüche',
+					link: 'geburtstag-lustig-bilder'
 				}
 			],
 			runderGb: [
@@ -691,6 +783,10 @@ const ContentStore = writable({
 					link: 'glueckwuensche-zur-konfirmation'
 				},
 				{
+					name: 'Jugendweihe Sprüche',
+					link: 'jugendweihe-sprueche'
+				},
+				{
 					name: 'Glückwünsche zum Hochzeitstag',
 					link: 'glueckwuensche-zum-hochzeitstag'
 				},
@@ -699,12 +795,88 @@ const ContentStore = writable({
 					link: 'hoelzerne-hochzeit-glueckwuensche-sprueche'
 				},
 				{
+					name: 'Glückwünsche zur Rosenhochzeit',
+					link: 'rosenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Kristallhochzeit',
+					link: 'kristallhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Porzellanhochzeit',
+					link: 'porzellanhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Silberhochzeit',
+					link: 'silberhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Perlenhochzeit',
+					link: 'perlenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Leinwandhochzeit',
+					link: 'leinwandhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Rubinhochzeit',
+					link: 'rubinhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Messinghochzeit',
+					link: 'messinghochzeit-sprueche'
+				},
+				{
 					name: 'Glückwünsche zur goldenen Hochzeit',
 					link: 'glueckwuensche-zur-goldenen-hochzeit'
 				},
 				{
-					name: 'Jugendweihe Sprüche',
-					link: 'jugendweihe-sprueche'
+					name: 'Glückwünsche zur Diamantene Hochzeit',
+					link: 'diamantene-hochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Gnadenhochzeit',
+					link: 'gnadenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Eichenhochzeit',
+					link: 'eichenhochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Marmorne Hochzeit',
+					link: 'marmorne-hochzeit-sprueche'
+				},
+				{
+					name: 'Glückwünsche zur Himmelshochzeit',
+					link: 'himmelshochzeit-sprueche'
+				},
+				{
+					name: 'Muttertag Bilder',
+					link: 'muttertag-bilder'
+				},
+				{
+					name: 'Vatertag Bilder',
+					link: 'vatertag-bilder'
+				},
+				{
+					name: 'Glückwünsche zur Einschulung',
+					link: 'glueckwuensche-zur-einschulung'
+				},
+				{
+					name: '1. Advent Sprüche & Bilder',
+					link: '1-advent-sprueche-bilder'
+				},
+				{
+					name: '2. Advent Sprüche & Bilder',
+					link: '2-advent-sprueche-bilder'
+				},
+				{
+					name: '3. Advent Sprüche & Bilder',
+					link: '3-advent-sprueche-bilder'
+				},
+				{
+					name: '4. Advent Sprüche & Bilder',
+					link: '4-advent-sprueche-bilder'
 				}
 			]
 		},
