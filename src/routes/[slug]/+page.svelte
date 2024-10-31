@@ -91,10 +91,16 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					{#if data.isMobile && $HelperStore.mediaType === 'google'}
-						{#if data.isTablet === false && index === 0}
+					<div class="mobile-check">
+						{#if index === 0}
 							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
 						{/if}
+					</div>
+
+					{#if data.isMobile}
+						<!-- {#if data.isTablet === false && index === 0}
+							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+						{/if} -->
 
 						{#if data.isTablet}
 							{#if index === 3 || index === 7 || index === 11 || index === 15 || index === 19 || index === 23 || index === 27 || index === 31}
@@ -125,53 +131,53 @@
 						</div>
 					{/if}
 
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 5}
+					{#if data.isMobile === false && index === 5}
 						<Media source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 					{/if}
 
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 11}
+					{#if data.isMobile === false && index === 11}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 17}
+					{#if data.isMobile === false && index === 17}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 23}
+					{#if data.isMobile === false && index === 23}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 29}
+					{#if data.isMobile === false && index === 29}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 35}
+					{#if data.isMobile === false && index === 35}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 41}
+					{#if data.isMobile === false && index === 41}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
 							</svelte:fragment>
 						</Lazy>
 					{/if}
-					{#if data.isMobile === false && $HelperStore.mediaType === 'google' && index === 47}
+					{#if data.isMobile === false && index === 47}
 						<Lazy this={() => import('../../lib/lazymedia/Component.svelte')}>
 							<svelte:fragment slot="component" let:Component>
 								<Component source="desktopInline" manuelMobile={false} isMobile={data.isMobile} />
@@ -189,7 +195,7 @@
 				{/if}
 			</div>
 
-			{#if data.isMobile === false && $HelperStore.mediaType === 'google'}
+			{#if data.isMobile === false}
 				<Media source="normal" manuelMobile={false} isMobile={data.isMobile} />
 			{/if}
 		</div>
@@ -203,6 +209,9 @@
 </div>
 
 <style lang="scss">
+	.mobile-check {
+		display: none;
+	}
 	.sprueche-card-desktop {
 		display: block !important;
 		// width: 92%; // no media
@@ -271,6 +280,10 @@
 	}
 
 	@media (max-width: 480px) {
+		.mobile-check {
+			display: block;
+		}
+
 		.sprueche-grid {
 			display: block !important;
 			width: 100%;

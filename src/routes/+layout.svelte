@@ -158,24 +158,6 @@
 		display: none;
 	}
 
-	// button {
-	// 	position: absolute;
-	// 	top: 0;
-	// 	left: 0;
-	// 	width: 5vw;
-	// 	height: 5vw;
-	// 	background-color: grey;
-	// 	padding: 2vw;
-	// 	z-index: 999;
-	// }
-
-	.the-footer {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-	}
-
 	@media (max-width: 1024px) {
 		main {
 			grid-template-columns: 1fr;
