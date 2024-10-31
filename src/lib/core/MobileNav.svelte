@@ -83,7 +83,7 @@
 					class="nav-svg"
 					class:navgreen={$page.routeId == 'zitate-sprueche-generator'}
 					src="/svg/core/generator.svg"
-					alt="generator"
+					alt="spruch-generator"
 				/>
 				<p class="nav1-pp">Generator</p>
 			</a>

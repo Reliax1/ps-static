@@ -20,7 +20,7 @@
 		<div class="goo">
 			{#if manuelMobile === true}
 				<ins
-					class="adsbygoogle"
+					class="adsbygoogle adslot_1"
 					style="display:block"
 					data-ad-client="ca-pub-6800691774097678"
 					data-ad-slot="7607089982"
@@ -67,6 +67,9 @@
 {/if}
 
 <style lang="scss">
+	.adslot_1 {
+		display: none;
+	}
 	.desktop-inline-wrapper {
 		display: none;
 	}
@@ -187,6 +190,12 @@
 		}
 		.yellow-image-mobile {
 			display: none !important;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.adslot_1 {
+			display: block;
 		}
 	}
 </style>

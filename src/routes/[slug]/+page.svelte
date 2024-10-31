@@ -91,11 +91,9 @@
 				{#each data.spruchData.spruchcarddata as spruch, index}
 					<Spruchcard card={spruch} {index} userIsMobile={data.isMobile} />
 
-					<div class="mobile-check">
-						{#if index === 0}
-							<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
-						{/if}
-					</div>
+					{#if index === 0}
+						<Media source="normal" manuelMobile={true} isMobile={data.isMobile} />
+					{/if}
 
 					{#if data.isMobile}
 						<!-- {#if data.isTablet === false && index === 0}
@@ -209,9 +207,6 @@
 </div>
 
 <style lang="scss">
-	.mobile-check {
-		display: none;
-	}
 	.sprueche-card-desktop {
 		display: block !important;
 		// width: 92%; // no media
@@ -280,10 +275,6 @@
 	}
 
 	@media (max-width: 480px) {
-		.mobile-check {
-			display: block;
-		}
-
 		.sprueche-grid {
 			display: block !important;
 			width: 100%;
