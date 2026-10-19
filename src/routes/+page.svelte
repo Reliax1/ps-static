@@ -242,11 +242,14 @@
 			hinzu. Es lohnt sich also regelmäßig vorbeizuschauen.
 		</p>
 
-		<div class="sdt-div">
-			<h2 class="sdt-h11">Spruch des Tages</h2>
+		{#if data?.derspruch?.text}
+			<div class="sdt-div">
+				<h2 class="sdt-h11">Spruch des Tages</h2>
 
-			<Spruchcard card={data.derspruch} {index} userIsMobile={data.isMobile} />
-		</div>
+				<Spruchcard card={data.derspruch} {index} userIsMobile={data.isMobile} />
+			</div>
+		{/if}
+
 		<h2 class="homebeliebt-h22">Themen-Menü Übersicht</h2>
 		<p class="home-pp">
 			Wir sind bemüht, die Webseite möglichst übersichtlich zu gestallten. Um dir eine kleine
