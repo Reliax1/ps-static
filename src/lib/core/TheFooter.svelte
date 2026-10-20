@@ -2,7 +2,7 @@
 
 <div class="footer-info-wrapper">
 	<div class="footer-info">
-		<div class="footer-Copyright">Copyright © 2024 Perfekterspruch.de</div>
+		<div class="footer-Copyright">Copyright © 2026 Perfekterspruch.de</div>
 		<div class="footer-hh6">
 			<a class="footer-latest-intern-link" rel="nofollow" href="/impressum/"> Impressum </a>
 		</div>
