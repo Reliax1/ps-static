@@ -1187,6 +1187,163 @@
 		Weitere Informationen und die geltenden Datenschutzbestimmungen von Google AdSense können unter
 		https://policies.google.com/privacy eingesehen werden.
 	</p>
+
+	<h2><strong>23. Datenschutzbestimmungen zu Einsatz und Verwendung von Facebook</strong></h2>
+	<p>
+		Facebook ist ein soziales Netzwerk, das Menschen die Möglichkeit bietet, sich online zu
+		verbinden, Inhalte zu teilen und zu kommunizieren. Nutzer können Profile erstellen, Fotos und
+		Videos posten, Nachrichten austauschen und sich in Gruppen organisieren. Facebook bietet auch
+		Unternehmen und Organisationen eine Plattform für Werbung und für die Interaktion mit ihrer
+		Zielgruppe.
+	</p>
+	<p>
+		Bei der Nutzung von Facebook werden personenbezogene Daten wie Namen, E-Mail-Adressen,
+		Telefonnummern, Nutzungsdaten, Standortinformationen und Informationen zu geteilten Inhalten
+		verarbeitet. Diese Daten sind notwendig, um die Plattform bereitzustellen, personalisierte
+		Inhalte und Werbung anzubieten, die Sicherheit der Nutzer zu gewährleisten und neue Dienste zu
+		entwickeln.
+	</p>
+	<p>
+		Betreibergesellschaft des Dienstes und damit Empfänger der personenbezogenen Daten ist: Meta
+		Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025, USA. Für betroffene Personen in der EU und
+		der EEA fungiert Meta Platforms Ireland Ltd., Merrion Road, Dublin D04 X2K5, Irland als
+		Ansprechpartner und Vertreter im Sinne des Art. 27 DS-GVO. Der Vertreter nach dem nationalen
+		Recht in Großbritannien ist: Meta Platforms Technologies UK Ltd, 10 Brock Street, Regent's
+		Place, London, NW1 3FG, Vereinigtes Königreich.
+	</p>
+	<p>
+		Zwecke, für die die personenbezogenen Daten verarbeitet werden sollen, sowie die Rechtsgrundlage
+		für die Verarbeitung: Der Zweck der Verarbeitung liegt in der Nutzung und Verbesserung der
+		sozialen Netzwerkfunktionen und Netzwerkdienste. Die Verarbeitung beruht auf Art. 6 (1) (b)
+		DS-GVO für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, sowie
+		auf Art. 6 (1) (f) DS-GVO, wobei das berechtigte Interesse in der Verbesserung der
+		Nutzererfahrung, der Bereitstellung personalisierter Inhalte und Werbung sowie der
+		Gewährleistung der Sicherheit des Netzwerks liegt.
+	</p>
+	<p>
+		Die Betreibergesellschaft des Dienstes sitzt in einem Drittland, nämlich in den USA.
+		Übermittlungen in Drittländer können auf dem Abschluss von Standardvertragsklauseln oder auf
+		sonstigen geeigneten oder angemessenen Garantien die in Art. 46 (2) DS-GVO genannt sind,
+		beruhen. Die Betreibergesellschaft des Dienstes ist gegebenenfalls zertifiziertes Mitglied in
+		einem oder mehreren der Data Privacy Frameworks. Nähere Angaben finden Sie unter
+		https://www.dataprivacyframework.gov/list. Eine Kopie der geeigneten oder angemessenen Garantien
+		können Sie bei uns anfordern.
+	</p>
+	<p>
+		Die Kriterien für die Festlegung der Dauer, für die die personenbezogenen Daten verarbeitet
+		werden, sind das Vertragsverhältnis zwischen uns und der Betreibergesellschaft des Dienstes oder
+		gesetzliche oder vertragliche Aufbewahrungsfristen. Die Bereitstellung der personenbezogenen
+		Daten ist weder gesetzlich oder vertraglich vorgeschrieben noch für einen Vertragsabschluss
+		erforderlich. Sie sind nicht verpflichtet, uns oder der Betreibergesellschaft des Dienstes
+		personenbezogene Daten bereitzustellen. Bei der Nichtbereitstellung können unsere Services oder
+		die der Betreibergesellschaft des Dienstes jedoch gegebenenfalls nicht in Anspruch genommen
+		werden.
+	</p>
+	<p>
+		Weitere Informationen und die geltenden Datenschutzbestimmungen von Facebook können unter
+		https://facebook.com abgerufen werden.
+	</p>
+	<h2><strong>24. Datenschutzbestimmungen zu Einsatz und Verwendung von Instagram</strong></h2>
+	<p>
+		Instagram ist ein weit verbreitetes soziales Netzwerk, das es Nutzern ermöglicht, Fotos und
+		Videos zu teilen, Stories zu veröffentlichen, und mit Followern und Freunden zu interagieren.
+		Instagram bietet eine Vielzahl von Funktionen, darunter direkte Nachrichten, IGTV für längere
+		Videos, Instagram Live für Echtzeitübertragungen und eine Entdecken-Seite, um neue Inhalte und
+		Nutzer zu finden.
+	</p>
+	<p>
+		Bei der Nutzung von Instagram werden personenbezogene Daten wie Namen, E-Mail-Adressen,
+		Telefonnummern, Nutzerinhalte (Fotos, Videos, Kommentare etc.), Standortdaten,
+		Nutzungsinformationen und in einigen Fällen Zahlungsinformationen verarbeitet. Diese Daten
+		helfen, den Dienst zu erbringen, die Sicherheit der Plattform zu gewährleisten, personalisierte
+		Werbung anzubieten und die Nutzererfahrung zu verbessern.
+	</p>
+	<p>
+		Betreibergesellschaft des Dienstes und damit Empfänger der personenbezogenen Daten ist: Meta
+		Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025, USA. Für betroffene Personen in der EU und
+		der EEA fungiert Meta Platforms Ireland Ltd., Merrion Road, Dublin D04 X2K5, Irland als
+		Ansprechpartner und Vertreter im Sinne des Art. 27 DS-GVO. Der Vertreter nach dem nationalen
+		Recht in Großbritannien ist: Meta Platforms Technologies UK Ltd, 10 Brock Street, Regent's
+		Place, London, NW1 3FG, Vereinigtes Königreich.
+	</p>
+	<p>
+		Zwecke, für die die personenbezogenen Daten verarbeitet werden sollen, sowie die Rechtsgrundlage
+		für die Verarbeitung: Der Zweck der Verarbeitung liegt in der Nutzung und Optimierung der
+		sozialen Netzwerkfunktionen. Die Verarbeitung beruht auf Art. 6 (1) (b) DS-GVO für die Erfüllung
+		eines Vertrags, dessen Vertragspartei die betroffene Person ist, sowie auf Art. 6 (1) (f)
+		DS-GVO, wobei das berechtigte Interesse in der Verbesserung und Personalisierung des
+		Nutzererlebnisses, der Bereitstellung von Kundensupport und der Gewährleistung der Sicherheit
+		und Integrität der Plattform, sowie in der Nutzung der Plattform und im Marketing, liegt.
+	</p>
+	<p>
+		Die Betreibergesellschaft des Dienstes sitzt in einem Drittland, nämlich in den USA.
+		Übermittlungen in Drittländer können auf dem Abschluss von Standardvertragsklauseln oder auf
+		sonstigen geeigneten oder angemessenen Garantien die in Art. 46 (2) DS-GVO genannt sind,
+		beruhen. Die Betreibergesellschaft des Dienstes ist gegebenenfalls zertifiziertes Mitglied in
+		einem oder mehreren der Data Privacy Frameworks. Nähere Angaben finden Sie unter
+		https://www.dataprivacyframework.gov/list. Eine Kopie der geeigneten oder angemessenen Garantien
+		können Sie bei uns anfordern.
+	</p>
+	<p>
+		Die Kriterien für die Festlegung der Dauer, für die die personenbezogenen Daten verarbeitet
+		werden, sind das Vertragsverhältnis zwischen uns und der Betreibergesellschaft des Dienstes oder
+		gesetzliche oder vertragliche Aufbewahrungsfristen. Die Bereitstellung der personenbezogenen
+		Daten ist weder gesetzlich oder vertraglich vorgeschrieben noch für einen Vertragsabschluss
+		erforderlich. Sie sind nicht verpflichtet, uns oder der Betreibergesellschaft des Dienstes
+		personenbezogene Daten bereitzustellen. Bei der Nichtbereitstellung können unsere Services oder
+		die der Betreibergesellschaft des Dienstes jedoch gegebenenfalls nicht in Anspruch genommen
+		werden.
+	</p>
+	<p>
+		Weitere Informationen und die geltenden Datenschutzbestimmungen von Instagram können unter
+		https:// instagram.com eingesehen werden.
+	</p>
+	<h2><strong>25. Datenschutzbestimmungen zu Einsatz und Verwendung von Pinterest</strong></h2>
+	<p>
+		Pinterest ist eine Plattform für visuelle Entdeckungen, die es uns ermöglicht, Bilder, Ideen und
+		Inhalte zu teilen und zu speichern. Bei der Nutzung von Pinterest werden personenbezogene Daten
+		wie Nutzungsdaten, Suchanfragen, IP-Adressen und Interaktionsdaten mit Inhalten verarbeitet, um
+		die Benutzererfahrung zu personalisieren und Inhalte vorzuschlagen. Diese Daten werden
+		verwendet, um Empfehlungen zu verbessern, personalisierte Werbung bereitzustellen und die
+		Nutzung der Plattform zu optimieren.
+	</p>
+	<p>
+		Betreibergesellschaft des Dienstes und damit Empfänger der personenbezogenen Daten ist:
+		Pinterest, Inc., 651 Brannan Street, San Francisco, CA 94107, USA. Für betroffene Personen in
+		der EU und der EEA fungiert Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street,
+		Dublin 2, Irland, als Ansprechpartner und Vertreter im Sinne des Art. 27 DS-GVO.
+	</p>
+	<p>
+		Zwecke, für die die personenbezogenen Daten verarbeitet werden sollen, sowie die Rechtsgrundlage
+		für die Verarbeitung: Der Zweck der Verarbeitung ist die Verbesserung der Benutzererfahrung
+		durch personalisierte Inhalte und Empfehlungen sowie Werbung. Die Verarbeitung beruht auf Art. 6
+		(1) (f) DS-GVO, wobei das berechtigte Interesse in der Bereitstellung relevanter Inhalte und
+		personalisierter Werbung liegt.
+	</p>
+	<p>
+		Die Betreibergesellschaft des Dienstes sitzt in einem Drittland, nämlich in den USA.
+		Übermittlungen in Drittländer können auf dem Abschluss von Standardvertragsklauseln oder auf
+		sonstigen geeigneten oder angemessenen Garantien, die in Art. 46 (2) DS-GVO genannt sind,
+		beruhen. Die Betreibergesellschaft des Dienstes ist gegebenenfalls zertifiziertes Mitglied in
+		einem oder mehreren der Data Privacy Frameworks. Nähere Angaben finden Sie unter
+		https://www.dataprivacyframework.gov/list. Eine Kopie der geeigneten oder angemessenen Garantien
+		können Sie bei uns anfordern.
+	</p>
+	<p>
+		Die Kriterien für die Festlegung der Dauer, für die die personenbezogenen Daten verarbeitet
+		werden, sind das Vertragsverhältnis zwischen uns und der Betreibergesellschaft des Dienstes oder
+		gesetzliche oder vertragliche Aufbewahrungsfristen. Die Bereitstellung der personenbezogenen
+		Daten ist weder gesetzlich noch vertraglich vorgeschrieben noch für einen Vertragsabschluss
+		erforderlich. Sie sind nicht verpflichtet, uns oder der Betreibergesellschaft des Dienstes
+		personenbezogene Daten bereitzustellen. Bei der Nichtbereitstellung können unsere Services oder
+		die der Betreibergesellschaft des Dienstes jedoch gegebenenfalls nicht in Anspruch genommen
+		werden.
+	</p>
+	<p>
+		Weitere Informationen und die geltenden Datenschutzbestimmungen von Pinterest können unter
+		https://www.pinterest.com/ abgerufen werden.
+	</p>
+
 	<p>
 		Die oben dargestellte Datenschutzerklärung wurde mit einem Generator erstellt, dessen
 		Entwicklung auf der Zusammenarbeit von <a href="https://www.wbs.legal/"
