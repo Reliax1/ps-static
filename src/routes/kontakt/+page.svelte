@@ -12,7 +12,7 @@
 	<p>
 		Wir freuen uns über sämtliches Feedback oder Anregungen aber auch über Kritik und Hinweise auf
 		Fehler (bitte mit konkretem Link und/oder Screenshot). Du erreichst uns rund um die Uhr über die
-		E-Mail-Adresse perfekterspruch@gmail.com.
+		E-Mail-Adresse perfekterspruch@gmail.com
 	</p>
 </div>
 
