@@ -168,7 +168,7 @@
 	<p>Andreas Leier</p>
 	<p>Im Wiesengrund 5c</p>
 	<p>51588 Nümbrecht</p>
-	<!-- <p>Tel.: 015174984</p> -->
+	<p>Tel.: 015679833886</p>
 	<p>E-Mail: perfekterspruch@gmail.com</p>
 	<p>Website: https://perfekterspruch.de/</p>
 	<h2><strong>3. Erfassung von allgemeinen Daten und Informationen</strong></h2>

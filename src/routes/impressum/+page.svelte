@@ -17,7 +17,7 @@
 	<p>51588 Nümbrecht</p>
 
 	<h2>Kontakt</h2>
-	<!-- <p><strong>Telefon:</strong> 015172830244</p> -->
+	<p><strong>Telefon:</strong> 015679833886</p>
 	<p>
 		<strong>E-Mail:</strong>
 		<a href="mailto:perfekterspruch@gmail.com">perfekterspruch@gmail.com</a>
